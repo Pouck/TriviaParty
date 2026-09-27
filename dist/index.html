@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trivia Party TV</title>
+  <link rel="stylesheet" href="receiver.css">
+</head>
+<body>
+  <header>
+    <strong>TRIVIA PARTY</strong>
+    <span id="category">Your party on the big screen</span>
+    <span id="room">ROOM —</span>
+  </header>
+  <p id="connection" role="status">Waiting for the host…</p>
+  <main>
+    <div class="meta"><span id="round"></span><span id="timer"></span></div>
+    <section id="scene"><h1>Ready for your party</h1><p>Choose this TV from the host's Cast TV menu.</p></section>
+  </main>
+  <footer id="scores"></footer>
+  <div id="preview" hidden></div>
+  <script src="receiver.js"></script>
+  <script>TriviaReceiver.start();</script>
+</body>
+</html>
