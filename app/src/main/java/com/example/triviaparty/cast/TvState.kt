@@ -42,6 +42,7 @@ data class TvState(
     val categoryAnswerTimeSeconds: Int = 0,
     val answeringTeam: String? = null,
     val submittedAnswer: String? = null,
+    val submittedAnswerResult: Boolean? = null,
     val answerSecondsRemaining: Int? = null,
     val wagerResults: List<CategoryWagerResult> = emptyList(),
     val questionReading: Boolean = false,
@@ -72,6 +73,8 @@ data class TvState(
             )
             val q = networkSession.currentQuestion?.takeIf { questionVisible }
             val reveal = session.state in setOf(GameState.REVEAL_ANSWER, GameState.ROUND_SUMMARY)
+            val reviewSubmission = if(session.state==GameState.ANSWER_REVIEW)
+                session.validatedWrittenTeamId?.let {session.submissions[it]} ?: session.pendingWrittenAnswers().firstOrNull() else null
             val config = session.timingConfig
             return TvState(
                 roomId = session.roomId,
@@ -114,9 +117,9 @@ data class TvState(
                 secondsRemaining = (config.secondsPerFlip - session.elapsedSecondsInFlip).coerceAtLeast(0),
                 points = q?.let { config.calculateScore(it.basePoints, session.currentFlipNumber,session.elapsedSecondsInFlip) } ?: 0,
                 categoryAnswerTimeSeconds = session.currentCategoryAnswerTimeSeconds,
-                submittedAnswer = if(session.state==GameState.ANSWER_REVIEW)
-                    (session.pendingWrittenAnswers().firstOrNull()?.answer as? AnswerValue.TextSelection)?.text else null,
-                answeringTeam = (if(session.state==GameState.ANSWER_REVIEW) session.pendingWrittenAnswers().firstOrNull()?.teamId else session.answerTimerTeamId)
+                submittedAnswer = (reviewSubmission?.answer as? AnswerValue.TextSelection)?.text,
+                submittedAnswerResult = reviewSubmission?.isCorrect,
+                answeringTeam = (if(session.state==GameState.ANSWER_REVIEW) reviewSubmission?.teamId else session.answerTimerTeamId)
                     ?.let { teamId -> session.teams.find { it.id == teamId }?.name },
                 answerSecondsRemaining = session.answerTimerRemainingSeconds.takeIf { session.answerTimerRunning },
                 wagerResults = session.categoryWagerResults.takeIf { session.state == GameState.WAGER_RESULTS }.orEmpty()

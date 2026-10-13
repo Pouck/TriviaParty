@@ -144,6 +144,7 @@ class GameServer(
                     } finally { judges.remove(this) }
                 }
                 get("/tv") {
+                    call.response.headers.append("Cache-Control", "no-store, max-age=0")
                     call.respondText(
                         readTvAsset?.invoke("display.html") ?: localTvShell,
                         ContentType.Text.Html
@@ -151,6 +152,7 @@ class GameServer(
                 }
 
                 get("/tv/cast") {
+                    call.response.headers.append("Cache-Control", "no-store, max-age=0")
                     call.respondText(readTvAsset?.invoke("cast.html") ?: "Receiver unavailable", ContentType.Text.Html)
                 }
 
@@ -160,6 +162,7 @@ class GameServer(
                 }
 
                 get("/tv/display.css") {
+                    call.response.headers.append("Cache-Control", "no-store, max-age=0")
                     call.respondText(
                         readTvAsset?.invoke("receiver.css") ?: "",
                         ContentType.Text.CSS
@@ -167,6 +170,7 @@ class GameServer(
                 }
 
                 get("/tv/display.js") {
+                    call.response.headers.append("Cache-Control", "no-store, max-age=0")
                     call.respondText(
                         readTvAsset?.invoke("display.js") ?: "",
                         ContentType("application", "javascript")
@@ -174,6 +178,7 @@ class GameServer(
                 }
 
                 get("/tv/receiver.js") {
+                    call.response.headers.append("Cache-Control", "no-store, max-age=0")
                     call.respondText(
                         readTvAsset?.invoke("receiver.js") ?: "",
                         ContentType("application", "javascript")
@@ -312,6 +317,7 @@ class GameServer(
             }
             is GameEvent.HostRevealAnswer -> if (!clientSessions.containsKey(session)) handleHostRevealAnswer()
             is GameEvent.PlayerReady -> if(clientSessions[session]==event.teamId) handlePlayerReady(event)
+            is GameEvent.HostContinueWrittenReview -> if(!clientSessions.containsKey(session)) handleContinueWrittenReview(event)
             is GameEvent.HostJudgeWrittenAnswer -> if(!clientSessions.containsKey(session)) handleWrittenJudgement(event)
             is GameEvent.HostJudgeTextBuzz -> handleHostJudgeTextBuzz(session, event)
             is GameEvent.HostStartTextAnswerTimer -> if (!clientSessions.containsKey(session)) startTextAnswerTimer()
@@ -712,6 +718,7 @@ class GameServer(
             currentQuestion = activeQuestion,
             questionReading = reading,
             readyTeamIds = emptyList(),
+            validatedWrittenTeamId = null,
             timerPaused = false,
             categoryWagerQuestionId = currentSession.categoryWagerQuestionId.takeIf { wagerApplies },
             categoryWagerLimits = if (wagerApplies) currentSession.categoryWagerLimits else emptyMap(),
@@ -807,7 +814,7 @@ class GameServer(
         val current=_gameSession.value
         if(current.state!=GameState.QUESTION_ACTIVE || current.currentCategoryAnswerMode!=CategoryAnswerMode.WRITTEN) return
         stopTimer();stopAnswerTimer()
-        _gameSession.value=current.copy(state=GameState.ANSWER_REVIEW,questionReading=false,timerPaused=false)
+        _gameSession.value=current.copy(state=GameState.ANSWER_REVIEW,questionReading=false,timerPaused=false,validatedWrittenTeamId=null)
         if(_gameSession.value.pendingWrittenAnswers().isEmpty()) finishWrittenReview() else broadcastState()
     }
 
@@ -815,14 +822,21 @@ class GameServer(
     private fun handleWrittenJudgement(event: GameEvent.HostJudgeWrittenAnswer) {
         val current=_gameSession.value
         val question=current.currentQuestion ?: return
-        if(current.state!=GameState.ANSWER_REVIEW || current.currentCategoryAnswerMode!=CategoryAnswerMode.WRITTEN || question.id!=event.questionId) return
+        if(current.state!=GameState.ANSWER_REVIEW || current.currentCategoryAnswerMode!=CategoryAnswerMode.WRITTEN || question.id!=event.questionId || current.validatedWrittenTeamId!=null) return
         val submission=current.pendingWrittenAnswers().firstOrNull { it.teamId==event.teamId } ?: return
         val reward=if(event.correct) current.timingConfig.calculateScore(question.basePoints,submission.flipNumberWhenLocked,submission.elapsedSecondsInFlipWhenLocked)
             else -(if(question is Question.GuessWho) question.wrongAnswerPenalty() else question.penaltyPoints)
         _gameSession.value=current.copy(teams=current.teams.map { if(it.id==event.teamId) it.copy(score=it.score+reward) else it },
-            submissions=current.submissions+(event.teamId to submission.copy(isCorrect=event.correct)))
+            submissions=current.submissions+(event.teamId to submission.copy(isCorrect=event.correct)),validatedWrittenTeamId=event.teamId)
         broadcastState()
-        if(_gameSession.value.pendingWrittenAnswers().isEmpty()) finishWrittenReview()
+    }
+
+    @Synchronized
+    private fun handleContinueWrittenReview(event: GameEvent.HostContinueWrittenReview) {
+        val current=_gameSession.value
+        if(current.state!=GameState.ANSWER_REVIEW || current.currentQuestion?.id!=event.questionId || current.validatedWrittenTeamId==null) return
+        _gameSession.value=current.copy(validatedWrittenTeamId=null)
+        if(_gameSession.value.pendingWrittenAnswers().isEmpty()) finishWrittenReview() else broadcastState()
     }
 
     private fun finishWrittenReview() {

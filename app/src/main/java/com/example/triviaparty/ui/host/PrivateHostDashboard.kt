@@ -111,7 +111,7 @@ internal fun PrivateHostDashboard(game: GameSession, client: GameClient, hasMore
                 if(!game.questionReading) Action("RÉVÉLER LA RÉPONSE", event = GameEvent.HostRevealAnswer)
             } else when (game.state) {
                 GameState.ANSWER_REVIEW -> {
-                    val pending=game.pendingWrittenAnswers();val next=pending.firstOrNull()
+                    val pending=game.pendingWrittenAnswers();val validated=game.validatedWrittenTeamId?.let {game.submissions[it]};val next=validated ?: pending.firstOrNull()
                     Text("VALIDATION · ${pending.size} restante(s)",color=gold,fontSize=20.sp,fontWeight=FontWeight.Bold)
                     next?.let { submission ->
                         Text(game.teams.find { it.id==submission.teamId }?.name.orEmpty(),color=Color.White,fontSize=32.sp,fontWeight=FontWeight.Bold)
@@ -119,7 +119,10 @@ internal fun PrivateHostDashboard(game: GameSession, client: GameClient, hasMore
                             Text((submission.answer as AnswerValue.TextSelection).text,color=Color.White,fontSize=28.sp,lineHeight=34.sp,
                                 modifier=Modifier.padding(16.dp).heightIn(max=120.dp).verticalScroll(rememberScrollState()))
                         }
-                        Row(horizontalArrangement=Arrangement.spacedBy(10.dp)) {
+                        if(validated!=null) {
+                            Text(if(validated.isCorrect==true) "Réponse acceptée" else "Réponse refusée",color=if(validated.isCorrect==true) Color(0xFFA6ECC3) else Color(0xFFFFABAB),fontSize=22.sp)
+                            Action("CONTINUER",event=GameEvent.HostContinueWrittenReview(submission.questionId))
+                        } else Row(horizontalArrangement=Arrangement.spacedBy(10.dp)) {
                             Action("Accepter",event=GameEvent.HostJudgeWrittenAnswer(submission.teamId,submission.questionId,true),color=Color(0xFF247249),modifier=Modifier.weight(1f))
                             Action("Refuser",event=GameEvent.HostJudgeWrittenAnswer(submission.teamId,submission.questionId,false),color=Color(0xFF9C3636),modifier=Modifier.weight(1f))
                         }

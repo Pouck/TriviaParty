@@ -177,3 +177,8 @@ aside { grid-column: 2; grid-row: 2; min-height: 0; display: flex; flex-directio
 #answering.compact-status { flex:0 0 4vh;height:4vh; }
 
 .submitted-answer { max-width: 90%; font-size: clamp(32px, 3vw, 58px); line-height: 1.3; text-align: center; overflow-wrap: anywhere; color: #fff; padding: 2vh 2vw; }
+
+.selected-player-name { font-size: clamp(48px, 4.2vw, 82px); line-height: 1.1; font-weight: 900; text-align: center; color: #ffd700; max-width: 94%; overflow-wrap: anywhere; margin-bottom: 3vh; }
+#scores .answering-team span { font-size: clamp(40px, 2.7vw, 60px); }
+#answer-overlay.review-correct { background: #123723; }
+#answer-overlay.review-incorrect { background: #421e25; }

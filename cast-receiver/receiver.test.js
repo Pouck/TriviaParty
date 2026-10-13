@@ -159,7 +159,8 @@ test('TV lobby shows the local join QR and URL; live questions name the answerin
   assert.match(doc.getElementById('scene').textContent, /192\.168\.1\.5/);
   render(state({ answeringTeam: 'Les amis', answerSecondsRemaining: 7, answerTimeSeconds: 10,
     teams: [{name: 'Les amis', score: 10}, {name: 'Autre', score: -5}] }));
-  assert.match(doc.getElementById('answering').textContent, /Les amis À LA PAROLE/);
+  assert.match(doc.getElementById('answer-overlay').textContent, /Les amis/);
+  assert.match(doc.getElementById('answering').textContent, /À LA PAROLE/);
   assert.match(doc.getElementById('scores').textContent, /Les amis.*Autre/);
   const timer = doc.getElementById('timer');
   assert.match(timer.textContent, /Pause/);
@@ -487,14 +488,27 @@ test('answering hides question content and validation displays only the selected
   render(state({question:q,answeringTeam:'Alice',answerSecondsRemaining:10}));
   assert.equal(doc.getElementById('scene').style.visibility,'hidden');
   assert.equal(doc.getElementById('scene').firstChild,original);
-  assert.match(doc.getElementById('answering').textContent,/Alice/);
+  assert.match(doc.getElementById('answer-overlay').textContent,/Alice/);
   render(state({question:q}));assert.equal(doc.getElementById('scene').style.visibility,'');
   render(state({question:q,phase:'ANSWER_REVIEW',answeringTeam:'Bob',submittedAnswer:'Ma réponse <script>'}));
   assert.equal(doc.getElementById('scene').style.visibility,'hidden');
-  assert.match(doc.getElementById('answering').textContent,/Bob/);
+  assert.match(doc.getElementById('answer-overlay').textContent,/Bob/);
   assert.match(doc.getElementById('answer-overlay').textContent,/Ma réponse <script>/);
   render(state({question:q,phase:'REVEAL_ANSWER'}));
   assert.equal(doc.getElementById('scene').style.visibility,'');
   assert.equal(doc.getElementById('answer-overlay').style.display,'none');
   assert.doesNotMatch(doc.getElementById('answer-overlay').textContent,/Ma réponse/);
+});
+
+test('validated response and large name remain visible across repeated result snapshots', () => {
+  const doc=documentStub(),render=currentReceiver.makeRenderer(doc);
+  const review=state({phase:'ANSWER_REVIEW',answeringTeam:'Player One',submittedAnswer:'Written answer',submittedAnswerResult:true});
+  render(review);render(review);
+  assert.match(doc.getElementById('answer-overlay').textContent,/Player One/);
+  assert.match(doc.getElementById('answer-overlay').textContent,/Written answer/);
+  assert.equal(doc.getElementById('answer-overlay').className,'review-correct');
+  assert.match(doc.getElementById('answering').textContent,/Réponse acceptée/);
+  render({...review,answeringTeam:'Player Two',submittedAnswer:'Another answer',submittedAnswerResult:null});
+  assert.doesNotMatch(doc.getElementById('answer-overlay').textContent,/Player One|Written answer/);
+  assert.match(doc.getElementById('answer-overlay').textContent,/Player Two|Another answer/);
 });

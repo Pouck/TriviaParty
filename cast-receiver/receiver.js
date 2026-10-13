@@ -85,7 +85,7 @@
     var lastScene = "";
     var hourglass, topSand, bottomSand, sandStream, timerLabel;
     var lastTimerFlip = -1;
-    var overlayGlass, overlayTop, overlayBottom, overlayStream, overlayLabel, overlayAnswer;
+    var overlayGlass, overlayTop, overlayBottom, overlayStream, overlayLabel, overlayAnswer, overlayName;
     var displayedQuestionId = null, questionOptions = [], answerSlot, answerText, promptNode, questionLayout, questionDetails;
     var fitKey = '', layoutObserver;
     var scoreKey = '';
@@ -311,6 +311,7 @@
       doc.getElementById('answering').className=freeAnswer?'':'compact-status';
       var overlay = doc.getElementById("answer-overlay");
       if (!overlayGlass) {
+        overlayName = node("div", null, "selected-player-name"); overlay.appendChild(overlayName);
         overlayGlass = node("div", null, "hourglass answer-hourglass");
         var vessel = node("div", null, "hourglass-vessel");
         overlayTop = node("div", null, "sand-upper"); overlayBottom = node("div", null, "sand-lower");
@@ -326,6 +327,10 @@
       overlayGlass.style.display=answering?"":"none";
       overlayAnswer.style.display=reviewing?"":"none";
       overlayAnswer.textContent=reviewing?state.submittedAnswer:"";
+      overlayName.textContent=answering || reviewing ? state.answeringTeam || "" : "";
+      overlay.className=reviewing && state.submittedAnswerResult!=null ? (state.submittedAnswerResult?"review-correct":"review-incorrect") : "";
+      if(reviewing) text("answering",state.submittedAnswerResult===true?"Réponse acceptée":state.submittedAnswerResult===false?"Réponse refusée":"Validation de l’hôte");
+      else if(answering) text("answering","À LA PAROLE");
       var answerFraction = Math.max(0, Math.min(1, (state.answerSecondsRemaining || 0) / Math.max(1, state.answerTimeSeconds || 10)));
       overlayTop.style.height = (answerFraction * 42) + "%"; overlayBottom.style.height = ((1 - answerFraction) * 42) + "%";
       overlayStream.style.display = answerFraction > 0 && !state.timerPaused ? "" : "none";
@@ -435,6 +440,7 @@
           scene.appendChild(node("p", "Mode : " + (state.categoryAnswerMode === "WRITTEN" ? "Réponses écrites" : state.categoryAnswerMode === "BUZZER" ? "Buzzer" : "Réponses simultanées")));
           break;
         case "QUESTION_ACTIVE":
+        case "ANSWER_REVIEW":
         case "REVEAL_ANSWER":
         case "ROUND_SUMMARY":
           var question = state.question;

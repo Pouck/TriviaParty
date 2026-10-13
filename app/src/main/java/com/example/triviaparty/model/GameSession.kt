@@ -42,6 +42,7 @@ data class GameSession(
     val elapsedSecondsInFlip: Int = 0,
     val questionReading: Boolean = false,
     val readyTeamIds: List<String> = emptyList(),
+    val validatedWrittenTeamId: String? = null,
     val timerPaused: Boolean = false,
     val submissions: Map<String, AnswerSubmission> = emptyMap(), // teamId -> AnswerSubmission
     val textBuzzedTeamIds: List<String> = emptyList(),

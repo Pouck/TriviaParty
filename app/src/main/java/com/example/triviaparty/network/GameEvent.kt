@@ -21,6 +21,8 @@ sealed class GameEvent {
     @Serializable data class PlayerReady(val teamId: String,val questionId: String,val clueIndex: Int) : GameEvent()
     @Serializable data class HostJudgeWrittenAnswer(val teamId: String,val questionId: String,val correct: Boolean) : GameEvent()
 
+    @Serializable data class HostContinueWrittenReview(val questionId: String) : GameEvent()
+
     @Serializable
     data class HostStartGame(
         val categories: List<String>,

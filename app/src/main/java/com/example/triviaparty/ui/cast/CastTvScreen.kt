@@ -20,6 +20,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.example.triviaparty.model.AnswerValue
+import com.example.triviaparty.model.pendingWrittenAnswers
 import com.example.triviaparty.model.GameSession
 import com.example.triviaparty.model.GameState
 import com.example.triviaparty.model.activePrompt
@@ -208,6 +210,17 @@ private fun CategorySelectTvView(session: GameSession) {
 @Composable
 private fun ActiveQuestionTvView(session: GameSession) {
     val question = session.currentQuestion ?: return
+    val reviewed = if(session.state==GameState.ANSWER_REVIEW) session.validatedWrittenTeamId?.let {session.submissions[it]} ?: session.pendingWrittenAnswers().firstOrNull() else null
+    val selectedId = reviewed?.teamId ?: session.answerTimerTeamId
+    if(reviewed!=null || session.answerTimerRunning) {
+        Column(Modifier.fillMaxSize(),horizontalAlignment=Alignment.CenterHorizontally,verticalArrangement=Arrangement.Center) {
+            Text(session.teams.find {it.id==selectedId}?.name.orEmpty(),fontSize=60.sp,fontWeight=FontWeight.Black,color=Color(0xFFFFD700),textAlign=TextAlign.Center)
+            Spacer(Modifier.height(24.dp))
+            Text((reviewed?.answer as? AnswerValue.TextSelection)?.text ?: "${session.answerTimerRemainingSeconds ?: session.answerTimeSeconds} s",fontSize=40.sp,color=Color.White,textAlign=TextAlign.Center)
+            reviewed?.isCorrect?.let {Text(if(it) "Réponse acceptée" else "Réponse refusée",fontSize=30.sp,color=if(it) Color.Green else Color.Red)}
+        }
+        return
+    }
     Row(Modifier.fillMaxSize(), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
         if (!question.imageUrl.isNullOrBlank()) {
             Box(Modifier.weight(1.8f).fillMaxHeight(), contentAlignment = Alignment.Center) {

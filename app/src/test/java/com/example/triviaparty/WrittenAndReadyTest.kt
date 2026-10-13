@@ -21,7 +21,10 @@ class WrittenAndReadyTest {
     private fun begin(s:GameServer)=GameServer::class.java.getDeclaredMethod("handleHostStartQuestionTimer").apply {isAccessible=true}.invoke(s)
     private fun seed(s:GameServer,n:Int=2,mode:CategoryAnswerMode=CategoryAnswerMode.WRITTEN) {state(s).value=s.gameSession.value.copy(currentCategoryAnswerMode=mode,teams=(0 until n).map {Team(('a'+it).toString(),"Team $it",sessionToken="token$it")},timingConfig=HourglassConfig(secondsPerFlip=5,maxFlips=2,pointsDecayPerFlip=5))}
     private fun lock(s:GameServer,id:String,text:String)=call(s,"handleLockAnswer",GameEvent.LockAnswer(id,s.gameSession.value.currentQuestion!!.id,AnswerValue.TextSelection(text)))
-    private fun judge(s:GameServer,id:String,correct:Boolean)=call(s,"handleWrittenJudgement",GameEvent.HostJudgeWrittenAnswer(id,s.gameSession.value.currentQuestion!!.id,correct))
+    private fun judge(s:GameServer,id:String,correct:Boolean) {
+        call(s,"handleWrittenJudgement",GameEvent.HostJudgeWrittenAnswer(id,s.gameSession.value.currentQuestion!!.id,correct))
+        call(s,"handleContinueWrittenReview",GameEvent.HostContinueWrittenReview(s.gameSession.value.currentQuestion!!.id))
+    }
     private suspend fun WebSocketSession.readState():JsonObject {while(true){val f=incoming.receive();if(f is Frame.Text){val d=Json.parseToJsonElement(f.readText()).jsonObject;d["session"]?.let {return it.jsonObject}}}}
     @Test fun writtenAnswersStayPrivateAndAreScoredOnce() {
         val s=GameServer();try {seed(s);val q=Question.TextAnswer("written","Test","Question",basePoints=15,acceptableAnswers=listOf("Expected"));start(s,q)
@@ -75,4 +78,36 @@ class WrittenAndReadyTest {
             h.close()
         }}finally{c.close();s.stop()}
     }
+    @Test fun validatedSubmissionStaysOnTvUntilHostContinuesAndCannotBeScoredTwice() {
+        val s=GameServer();try {seed(s,1)
+            val q=Question.TextAnswer("hold","Test","Question",basePoints=15,acceptableAnswers=listOf("Expected"));start(s,q);lock(s,"a","Player answer")
+            call(s,"handleWrittenJudgement",GameEvent.HostJudgeWrittenAnswer("a",q.id,true))
+            assertEquals(GameState.ANSWER_REVIEW,s.gameSession.value.state);assertTrue(s.gameSession.value.pendingWrittenAnswers().isEmpty())
+            val tv=TvState.from(s.gameSession.value);assertEquals("Team 0",tv.answeringTeam);assertEquals("Player answer",tv.submittedAnswer);assertEquals(true,tv.submittedAnswerResult)
+            assertNull(tv.question!!.answer);assertEquals(15,s.gameSession.value.teams[0].score)
+            repeat(10){tick(s)};assertEquals("Player answer",TvState.from(s.gameSession.value).submittedAnswer)
+            call(s,"handleWrittenJudgement",GameEvent.HostJudgeWrittenAnswer("a",q.id,true));assertEquals(15,s.gameSession.value.teams[0].score)
+            call(s,"handleContinueWrittenReview",GameEvent.HostContinueWrittenReview("wrong-question"));assertEquals(GameState.ANSWER_REVIEW,s.gameSession.value.state)
+            call(s,"handleContinueWrittenReview",GameEvent.HostContinueWrittenReview(q.id));assertEquals(GameState.REVEAL_ANSWER,s.gameSession.value.state);assertNull(TvState.from(s.gameSession.value).submittedAnswer)
+        }finally{s.stop()}
+    }
+
+    @Test fun tvWebsocketReceivesCurrentPlayerSubmissionAndRetainsValidatedResult()=runBlocking {
+        val s=GameServer(ServerSocket(0).use {it.localPort});val c=HttpClient(CIO){install(WebSockets)}
+        try{s.start();withTimeout(10000){
+            val tv=c.webSocketSession(host="127.0.0.1",port=s.port,path="/tv/ws")
+            suspend fun snapshot(check:(JsonObject)->Boolean):JsonObject {while(true){val f=tv.incoming.receive();if(f is Frame.Text){val d=Json.parseToJsonElement(f.readText()).jsonObject;if(check(d))return d}}}
+            snapshot {true};seed(s)
+            val q=Question.TextAnswer("tv-review","Test","Question",basePoints=15,acceptableAnswers=listOf("Secret expected answer"));start(s,q);lock(s,"a","Answer One");lock(s,"b","Answer Two")
+            val first=snapshot {it["phase"]==JsonPrimitive("ANSWER_REVIEW") && it["submittedAnswer"]==JsonPrimitive("Answer One")}
+            assertEquals(JsonPrimitive("Team 0"),first["answeringTeam"]);assertFalse(first.toString().contains("Answer Two"));assertFalse(first.toString().contains("Secret expected answer"))
+            call(s,"handleWrittenJudgement",GameEvent.HostJudgeWrittenAnswer("a",q.id,false))
+            val result=snapshot {it["submittedAnswerResult"]==JsonPrimitive(false)}
+            assertEquals(JsonPrimitive("Team 0"),result["answeringTeam"]);assertEquals(JsonPrimitive("Answer One"),result["submittedAnswer"])
+            call(s,"handleContinueWrittenReview",GameEvent.HostContinueWrittenReview(q.id))
+            val next=snapshot {it["submittedAnswer"]==JsonPrimitive("Answer Two")};assertEquals(JsonPrimitive("Team 1"),next["answeringTeam"])
+            tv.close()
+        }}finally{c.close();s.stop()}
+    }
+
 }

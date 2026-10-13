@@ -16,7 +16,7 @@ Le joueur saisit sa réponse et touche **ENVOYER** ou appuie sur Entrée. Le buz
 
 Les questions écrites issues du buzzer donnent 30 secondes et 15 → 10 → 5 points. Les Qui suis-je écrits donnent 20 secondes par indice et une pénalité de 5 points par mauvaise réponse. Si aucune réponse n’est acceptée, l’indice suivant apparaît et son chronomètre démarre automatiquement. Sinon, la solution apparaît après la dernière validation.
 
-Le téléviseur montre le nom de l’équipe et son texte soumis pendant sa validation. Les autres réponses et la réponse attendue restent cachées. Après la dernière validation, l’hôte retrouve le contrôle pour avancer. Les mises à jour sont envoyées dans l’ordre pour éviter de rester sur une ancienne validation.
+Le téléviseur montre le nom de l’équipe et son texte soumis pendant sa validation. Les autres réponses et la réponse attendue restent cachées. Après chaque validation, le nom et le texte restent sur le téléviseur avec le résultat. L’hôte touche **CONTINUER** pour passer au joueur suivant ou finir les validations. Les mises à jour sont envoyées dans l’ordre pour éviter de rester sur une ancienne validation.
 
 ## Choix multiples
 
