@@ -478,3 +478,23 @@ test('lobby count updates as teams join and image buzzer nodes stay fixed on rev
  assert.equal(layout.children[1],details);
  assert.match(details.children[details.children.length-1].textContent,/Paris/);
 });
+
+
+test('answering hides question content and validation displays only the selected submitted text', () => {
+  const doc=documentStub(),render=currentReceiver.makeRenderer(doc);
+  const q={id:'hidden-buzz',prompt:'Question visible avant le buzzer',options:[],answer:null};
+  render(state({question:q}));const original=doc.getElementById('scene').firstChild;
+  render(state({question:q,answeringTeam:'Alice',answerSecondsRemaining:10}));
+  assert.equal(doc.getElementById('scene').style.visibility,'hidden');
+  assert.equal(doc.getElementById('scene').firstChild,original);
+  assert.match(doc.getElementById('answering').textContent,/Alice/);
+  render(state({question:q}));assert.equal(doc.getElementById('scene').style.visibility,'');
+  render(state({question:q,phase:'ANSWER_REVIEW',answeringTeam:'Bob',submittedAnswer:'Ma réponse <script>'}));
+  assert.equal(doc.getElementById('scene').style.visibility,'hidden');
+  assert.match(doc.getElementById('answering').textContent,/Bob/);
+  assert.match(doc.getElementById('answer-overlay').textContent,/Ma réponse <script>/);
+  render(state({question:q,phase:'REVEAL_ANSWER'}));
+  assert.equal(doc.getElementById('scene').style.visibility,'');
+  assert.equal(doc.getElementById('answer-overlay').style.display,'none');
+  assert.doesNotMatch(doc.getElementById('answer-overlay').textContent,/Ma réponse/);
+});

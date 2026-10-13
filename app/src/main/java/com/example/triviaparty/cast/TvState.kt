@@ -2,6 +2,7 @@ package com.example.triviaparty.cast
 
 import com.example.triviaparty.model.GameSession
 import com.example.triviaparty.model.GameState
+import com.example.triviaparty.model.AnswerValue
 import com.example.triviaparty.model.Question
 import com.example.triviaparty.model.CategoryAnswerMode
 import com.example.triviaparty.model.CategoryWagerResult
@@ -40,6 +41,7 @@ data class TvState(
     val points: Int,
     val categoryAnswerTimeSeconds: Int = 0,
     val answeringTeam: String? = null,
+    val submittedAnswer: String? = null,
     val answerSecondsRemaining: Int? = null,
     val wagerResults: List<CategoryWagerResult> = emptyList(),
     val questionReading: Boolean = false,
@@ -112,6 +114,8 @@ data class TvState(
                 secondsRemaining = (config.secondsPerFlip - session.elapsedSecondsInFlip).coerceAtLeast(0),
                 points = q?.let { config.calculateScore(it.basePoints, session.currentFlipNumber,session.elapsedSecondsInFlip) } ?: 0,
                 categoryAnswerTimeSeconds = session.currentCategoryAnswerTimeSeconds,
+                submittedAnswer = if(session.state==GameState.ANSWER_REVIEW)
+                    (session.pendingWrittenAnswers().firstOrNull()?.answer as? AnswerValue.TextSelection)?.text else null,
                 answeringTeam = (if(session.state==GameState.ANSWER_REVIEW) session.pendingWrittenAnswers().firstOrNull()?.teamId else session.answerTimerTeamId)
                     ?.let { teamId -> session.teams.find { it.id == teamId }?.name },
                 answerSecondsRemaining = session.answerTimerRemainingSeconds.takeIf { session.answerTimerRunning },

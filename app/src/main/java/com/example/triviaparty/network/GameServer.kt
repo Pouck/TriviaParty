@@ -693,7 +693,7 @@ class GameServer(
             basePoints = question.basePoints, penaltyPoints = question.penaltyPoints
         ) else question
         val activeQuestion = compatibleQuestion.withRandomVariant().withChronologyCards()
-        val reading = activeQuestion.isChronologyQuestion() || activeQuestion is Question.GuessWho
+        val reading = activeQuestion.isChronologyQuestion()
         val effectiveConfig = when {
             activeQuestion is Question.GuessWho -> configured.copy(secondsPerFlip=20,maxFlips=activeQuestion.clues.size-1,pointsDecayPerSecond=null)
             activeQuestion.isChronologyQuestion() -> configured.copy(secondsPerFlip=maxOf(configured.secondsPerFlip,
@@ -770,7 +770,7 @@ class GameServer(
         }
         val nextClue = session.currentQuestion is Question.GuessWho && newFlip != session.currentFlipNumber
         _gameSession.value = session.copy(currentFlipNumber = newFlip, elapsedSecondsInFlip = newElapsed,
-            questionReading = nextClue,
+            questionReading = false,
             readyTeamIds = if(nextClue) emptyList() else session.readyTeamIds,
             submissions = if (nextClue) session.submissions.filterValues { it.isCorrect != false } else session.submissions,
             textBuzzedTeamIds = if (nextClue) emptyList() else session.textBuzzedTeamIds)
@@ -831,7 +831,8 @@ class GameServer(
         val correct=current.submissions.values.any { it.questionId==question.id && it.isCorrect==true }
         if(question is Question.GuessWho && !correct && current.currentFlipNumber<current.timingConfig.maxFlips) {
             _gameSession.value=current.copy(state=GameState.QUESTION_ACTIVE,currentFlipNumber=current.currentFlipNumber+1,
-                elapsedSecondsInFlip=0,questionReading=true,readyTeamIds=emptyList(),submissions=emptyMap(),textBuzzedTeamIds=emptyList())
+                elapsedSecondsInFlip=0,questionReading=false,readyTeamIds=emptyList(),submissions=emptyMap(),textBuzzedTeamIds=emptyList())
+            startTimer(current.timingConfig)
         } else _gameSession.value=current.copy(state=GameState.REVEAL_ANSWER).settleCategoryWagers()
         broadcastState()
     }

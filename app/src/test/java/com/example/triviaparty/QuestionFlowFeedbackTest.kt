@@ -179,7 +179,7 @@ class QuestionFlowFeedbackTest {
             assertEquals(BuzzerStatus.INCORRECT,server.gameSession.value.buzzerStatus("a",true))
             assertEquals(server.gameSession.value,server.gameSession.value.rejectOralAnswer("a"))
             repeat(20) { tick(server) }
-            assertEquals(BuzzerStatus.WAITING,server.gameSession.value.buzzerStatus("a",true))
+            assertEquals(BuzzerStatus.READY,server.gameSession.value.buzzerStatus("a",true))
             GameServer::class.java.getDeclaredMethod("handleHostStartQuestionTimer").apply {isAccessible=true}.invoke(server)
             assertEquals(BuzzerStatus.READY,server.gameSession.value.buzzerStatus("a",true))
             assertEquals(-5,server.gameSession.value.teams.single().score)

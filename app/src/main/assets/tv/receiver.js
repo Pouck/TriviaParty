@@ -85,7 +85,7 @@
     var lastScene = "";
     var hourglass, topSand, bottomSand, sandStream, timerLabel;
     var lastTimerFlip = -1;
-    var overlayGlass, overlayTop, overlayBottom, overlayStream, overlayLabel;
+    var overlayGlass, overlayTop, overlayBottom, overlayStream, overlayLabel, overlayAnswer;
     var displayedQuestionId = null, questionOptions = [], answerSlot, answerText, promptNode, questionLayout, questionDetails;
     var fitKey = '', layoutObserver;
     var scoreKey = '';
@@ -318,8 +318,14 @@
         vessel.appendChild(overlayTop); vessel.appendChild(overlayBottom); vessel.appendChild(overlayStream);
         overlayGlass.appendChild(vessel); overlay.appendChild(overlayGlass);
         overlayLabel = node("div", null, "answer-countdown"); overlay.appendChild(overlayLabel);
+        overlayAnswer = node("div", null, "submitted-answer"); overlay.appendChild(overlayAnswer);
       }
-      overlay.style.display = answering ? "flex" : "none";
+      var reviewing=state.phase==='ANSWER_REVIEW' && typeof state.submittedAnswer==='string';
+      overlay.style.display = answering || reviewing ? "flex" : "none";
+      doc.getElementById("scene").style.visibility=answering || reviewing ? "hidden" : "";
+      overlayGlass.style.display=answering?"":"none";
+      overlayAnswer.style.display=reviewing?"":"none";
+      overlayAnswer.textContent=reviewing?state.submittedAnswer:"";
       var answerFraction = Math.max(0, Math.min(1, (state.answerSecondsRemaining || 0) / Math.max(1, state.answerTimeSeconds || 10)));
       overlayTop.style.height = (answerFraction * 42) + "%"; overlayBottom.style.height = ((1 - answerFraction) * 42) + "%";
       overlayStream.style.display = answerFraction > 0 && !state.timerPaused ? "" : "none";

@@ -43,7 +43,7 @@ server.listen(0,'127.0.0.1',async()=>{
   for(const [name,extra] of [
    ['ready',{questionReading:true,playersReadyReading:true,readyCount:3,connectedCount:8}],
    ['answering',{answeringTeam:'Équipe 3',answerSecondsRemaining:8,answerTimeSeconds:10}],
-   ['written-review',{phase:'ANSWER_REVIEW',categoryAnswerMode:'WRITTEN',answeringTeam:'Équipe 3'}]
+   ['written-review',{phase:'ANSWER_REVIEW',submittedAnswer:'Le Colisée de Rome',categoryAnswerMode:'WRITTEN',answeringTeam:'Équipe 3'}]
   ]) {
     await evaluate('window.renderFeedback('+JSON.stringify({...base,question:clues,category:'Architecture — Qui suis-je ? écrit',teams,answerSoundId:2,...extra})+')');
     const measured=await evaluate('({scroll:document.documentElement.scrollWidth,width:innerWidth,details:document.querySelector(".question-details").scrollHeight,height:document.querySelector(".question-details").clientHeight,scoreWidth:document.getElementById("scores").scrollWidth,scoreClient:document.getElementById("scores").clientWidth,nameSize:parseFloat(getComputedStyle(document.querySelector("#scores .team span")).fontSize),answeringSize:parseFloat(getComputedStyle(document.getElementById("answering")).fontSize),colors:Array.from(document.querySelectorAll("#scores .team")).map(e=>getComputedStyle(e).backgroundColor)})');

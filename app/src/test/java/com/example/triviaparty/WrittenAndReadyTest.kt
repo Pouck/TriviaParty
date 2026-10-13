@@ -26,17 +26,18 @@ class WrittenAndReadyTest {
     @Test fun writtenAnswersStayPrivateAndAreScoredOnce() {
         val s=GameServer();try {seed(s);val q=Question.TextAnswer("written","Test","Question",basePoints=15,acceptableAnswers=listOf("Expected"));start(s,q)
             lock(s,"a","Private A");lock(s,"b","Private B");assertEquals(GameState.ANSWER_REVIEW,s.gameSession.value.state)
-            val tv=TvState.from(s.gameSession.value).encode();assertFalse(tv.contains("Private A"));assertFalse(tv.contains("Private B"));assertFalse(tv.contains("Expected"))
-            judge(s,"a",false);assertEquals(1,s.gameSession.value.pendingWrittenAnswers().size);judge(s,"a",true);assertEquals(0,s.gameSession.value.teams[0].score)
-            judge(s,"b",true);assertEquals(GameState.REVEAL_ANSWER,s.gameSession.value.state);assertEquals(15,s.gameSession.value.teams[1].score);judge(s,"b",true);assertEquals(15,s.gameSession.value.teams[1].score)
+            val tv=TvState.from(s.gameSession.value).encode();assertTrue(tv.contains("Private A"));assertFalse(tv.contains("Private B"));assertFalse(tv.contains("Expected"))
+            assertEquals("Private A",TvState.from(s.gameSession.value).submittedAnswer);
+            judge(s,"a",false);assertEquals("Private B",TvState.from(s.gameSession.value).submittedAnswer);assertEquals(1,s.gameSession.value.pendingWrittenAnswers().size);judge(s,"a",true);assertEquals(0,s.gameSession.value.teams[0].score)
+            judge(s,"b",true);assertEquals(GameState.REVEAL_ANSWER,s.gameSession.value.state);assertNull(TvState.from(s.gameSession.value).submittedAnswer);assertEquals(15,s.gameSession.value.teams[1].score);judge(s,"b",true);assertEquals(15,s.gameSession.value.teams[1].score)
         }finally{s.stop()}
     }
-    @Test fun cluesUseHostStartAndWrongWrittenAnswerReopensReading() {
+    @Test fun cluesStartAutomaticallyAndWrongWrittenAnswerOpensNextTimedClue() {
         val s=GameServer();try {seed(s);val q=Question.GuessWho("clues","Test",basePoints=20,clues=listOf("One","Two","Three","Four"),acceptableAnswers=listOf("Expected"));start(s,q)
-            for(id in listOf("a","b"))call(s,"handlePlayerReady",GameEvent.PlayerReady(id,q.id,0));assertTrue(s.gameSession.value.questionReading);assertFalse(TvState.from(s.gameSession.value).playersReadyReading)
+            for(id in listOf("a","b"))call(s,"handlePlayerReady",GameEvent.PlayerReady(id,q.id,0));assertFalse(s.gameSession.value.questionReading);assertFalse(TvState.from(s.gameSession.value).playersReadyReading)
             begin(s);lock(s,"a","Wrong");lock(s,"b","Also wrong");judge(s,"a",false);judge(s,"b",false)
-            assertEquals(listOf(-5,-5),s.gameSession.value.teams.map {it.score});assertEquals(GameState.QUESTION_ACTIVE,s.gameSession.value.state);assertTrue(s.gameSession.value.questionReading);assertEquals(1,s.gameSession.value.currentFlipNumber)
-            repeat(8){tick(s)};assertEquals(0,s.gameSession.value.elapsedSecondsInFlip)
+            assertEquals(listOf(-5,-5),s.gameSession.value.teams.map {it.score});assertEquals(GameState.QUESTION_ACTIVE,s.gameSession.value.state);assertFalse(s.gameSession.value.questionReading);assertEquals(1,s.gameSession.value.currentFlipNumber)
+            repeat(8){tick(s)};assertEquals(8,s.gameSession.value.elapsedSecondsInFlip)
         }finally{s.stop()}
     }
     @Test fun choicesLoseOnePointPerSecondAndHaveFeedbackWithoutAnswers() {

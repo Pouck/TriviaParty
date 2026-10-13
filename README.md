@@ -26,7 +26,7 @@ Package authoring tools use Python; browser preview tools use Node.js and Chrome
 
 ## Playing and reviewing
 
-See [browser players](BROWSER-PLAYERS.md), [host review and selection](HOST-REVIEW-AND-SELECTION.md), and [written answers and chronology readiness](game-library/WRITTEN-AND-READY.md). Current packages contain 5–7 questions each. Chronology players confirm **PRÊT** before the timer starts; Qui suis-je uses a host-controlled reading phase. Written responses are reviewed privately one player at a time.
+See [browser players](BROWSER-PLAYERS.md), [host review and selection](HOST-REVIEW-AND-SELECTION.md), and [written answers and chronology readiness](game-library/WRITTEN-AND-READY.md). Current packages contain 5–7 questions each. Chronology players confirm **PRÊT** before the timer starts; Qui suis-je starts each clue automatically. Written responses are reviewed one player at a time, with that player’s submission shown on TV during validation.
 
 The debug TV is served at `/tv` and players at `/play` on the host's port 8080. The debug TV requires one click on **Activer le son** after reloading. USB/wireless ADB forwarding can expose the host locally: `adb forward tcp:18080 tcp:8080`.
 
