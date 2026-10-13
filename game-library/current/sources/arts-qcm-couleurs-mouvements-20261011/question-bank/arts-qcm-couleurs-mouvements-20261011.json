@@ -1,0 +1,103 @@
+{
+  "category": "Arts — Couleurs et mouvements — QCM",
+  "subject": "Arts",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-01",
+      "category": "Arts — Couleurs et mouvements — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel peintre est l’auteur de La Ronde de nuit ?",
+      "options": [
+        "A — Johannes Vermeer",
+        "B — Peter Paul Rubens",
+        "C — Frans Hals",
+        "D — Rembrandt"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/arts-qcm-couleurs-mouvements-20261011/ronde.jpg"
+    },
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-02",
+      "category": "Arts — Couleurs et mouvements — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel musée parisien présente les Nymphéas dans deux salles ovales ?",
+      "options": [
+        "A — Le musée de l’Orangerie",
+        "B — Le musée Carnavalet",
+        "C — Le musée du quai Branly",
+        "D — Le musée Rodin"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-03",
+      "category": "Arts — Couleurs et mouvements — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Le titre de ce tableau de Monet a donné son nom à quel mouvement ?",
+      "options": [
+        "A — L’impressionnisme",
+        "B — Le cubisme",
+        "C — Le surréalisme",
+        "D — Le fauvisme"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/arts-qcm-couleurs-mouvements-20261011/impression.jpg"
+    },
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-04",
+      "category": "Arts — Couleurs et mouvements — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle palette domine Guernica de Picasso ?",
+      "options": [
+        "A — Rouge, jaune et bleu",
+        "B — Vert et violet",
+        "C — Noir, blanc et gris",
+        "D — Rose et or"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-05",
+      "category": "Arts — Couleurs et mouvements — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel musée conserve cette Nuit étoilée de 1889 ?",
+      "options": [
+        "A — Le Prado à Madrid",
+        "B — Le MoMA à New York",
+        "C — Les Offices à Florence",
+        "D — Le Louvre à Paris"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/arts-qcm-couleurs-mouvements-20261011/nuit.jpg"
+    },
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-06",
+      "category": "Arts — Couleurs et mouvements — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans La Persistance de la mémoire de Dalí, quels objets semblent fondre ?",
+      "options": [
+        "A — Des bouteilles",
+        "B — Des montres",
+        "C — Des livres",
+        "D — Des clés"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "category": "Arts — Tableaux célèbres — Buzzer",
+  "subject": "Arts",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-01",
+      "category": "Arts — Tableaux célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel est le nom de cette peinture murale de Léonard de Vinci ?",
+      "acceptableAnswers": [
+        "La Cène",
+        "The Last Supper",
+        "L’Ultima Cena"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/arts-buzzer-tableaux-celebres-20261011/cene.jpg"
+    },
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-02",
+      "category": "Arts — Tableaux célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel peintre néerlandais a peint La Jeune Fille à la perle ?",
+      "acceptableAnswers": [
+        "Johannes Vermeer",
+        "Vermeer"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-03",
+      "category": "Arts — Tableaux célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel artiste américain a peint American Gothic ?",
+      "acceptableAnswers": [
+        "Grant Wood",
+        "Wood"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/arts-buzzer-tableaux-celebres-20261011/gothic.jpg"
+    },
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-04",
+      "category": "Arts — Tableaux célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelles fleurs composent les célèbres bouquets jaunes de Van Gogh ?",
+      "acceptableAnswers": [
+        "Des tournesols",
+        "Tournesols"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-05",
+      "category": "Arts — Tableaux célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel est le titre de ce tableau d’Eugène Delacroix ?",
+      "acceptableAnswers": [
+        "La Liberté guidant le peuple",
+        "Liberté guidant le peuple"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/arts-buzzer-tableaux-celebres-20261011/liberte.jpg"
+    },
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-06",
+      "category": "Arts — Tableaux célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel peintre espagnol est l’auteur des Ménines ?",
+      "acceptableAnswers": [
+        "Diego Velázquez",
+        "Velázquez",
+        "Velazquez"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

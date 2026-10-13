@@ -1,0 +1,92 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-buzzer-jazz-blues-20261012-01",
+    "originalPackage": "lib-buzzer-jazz-blues-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.milesdavis.com/music/releases",
+        "https://www.louisarmstronghouse.org/",
+        "https://www.ellafitzgerald.com/",
+        "https://www.britannica.com/art/jazz",
+        "https://www.britannica.com/art/blues-music"
+      ],
+      "note": "",
+      "visual": "trumpet"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-buzzer-jazz-blues-20261012-02",
+    "originalPackage": "lib-buzzer-jazz-blues-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.milesdavis.com/music/releases",
+        "https://www.louisarmstronghouse.org/",
+        "https://www.ellafitzgerald.com/",
+        "https://www.britannica.com/art/jazz",
+        "https://www.britannica.com/art/blues-music"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-buzzer-jazz-blues-20261012-03",
+    "originalPackage": "lib-buzzer-jazz-blues-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.milesdavis.com/music/releases",
+        "https://www.louisarmstronghouse.org/",
+        "https://www.ellafitzgerald.com/",
+        "https://www.britannica.com/art/jazz",
+        "https://www.britannica.com/art/blues-music"
+      ],
+      "note": "",
+      "visual": "guitar"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-buzzer-jazz-blues-20261012-04",
+    "originalPackage": "lib-buzzer-jazz-blues-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.milesdavis.com/music/releases",
+        "https://www.louisarmstronghouse.org/",
+        "https://www.ellafitzgerald.com/",
+        "https://www.britannica.com/art/jazz",
+        "https://www.britannica.com/art/blues-music"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-buzzer-jazz-blues-20261012-05",
+    "originalPackage": "lib-buzzer-jazz-blues-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.milesdavis.com/music/releases",
+        "https://www.louisarmstronghouse.org/",
+        "https://www.ellafitzgerald.com/",
+        "https://www.britannica.com/art/jazz",
+        "https://www.britannica.com/art/blues-music"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

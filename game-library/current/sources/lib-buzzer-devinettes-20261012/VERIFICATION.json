@@ -1,0 +1,77 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-buzzer-devinettes-20261012-01",
+    "originalPackage": "lib-buzzer-devinettes-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "Créations originales ; réponses rendues uniques par le dernier indice.",
+        "https://www.britannica.com/art/riddle"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-buzzer-devinettes-20261012-02",
+    "originalPackage": "lib-buzzer-devinettes-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "Créations originales ; réponses rendues uniques par le dernier indice.",
+        "https://www.britannica.com/art/riddle"
+      ],
+      "note": "",
+      "visual": "umbrella"
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-buzzer-devinettes-20261012-03",
+    "originalPackage": "lib-buzzer-devinettes-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "Créations originales ; réponses rendues uniques par le dernier indice.",
+        "https://www.britannica.com/art/riddle"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-buzzer-devinettes-20261012-04",
+    "originalPackage": "lib-buzzer-devinettes-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "Créations originales ; réponses rendues uniques par le dernier indice.",
+        "https://www.britannica.com/art/riddle"
+      ],
+      "note": "",
+      "visual": "mirror"
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-buzzer-devinettes-20261012-05",
+    "originalPackage": "lib-buzzer-devinettes-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "Créations originales ; réponses rendues uniques par le dernier indice.",
+        "https://www.britannica.com/art/riddle"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

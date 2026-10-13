@@ -1,0 +1,19 @@
+{
+  "bad": [
+    "Ben non!", "M’enfin!", "Non, non, non, non!", "Das ist falsch!", "What the heck!?",
+    "Aïe, aïe, aïe!", "Ouh là là!", "Euh… non!", "Et puis quoi encore!?",
+    "Quand on ne sait pas, mieux vaut se taire…", "C’est si difficile que ça?", "Un petit effort, quand même…",
+    "Dans un autre univers, peut-être…", "Niet!", "Mais ça sort d’où, ça?", "Il y a quelqu’un qui peut l’aider?",
+    "On cherche une bonne réponse!", "Malheureusement, pas de points de participation!",
+    "C’est très bien d’essayer!", "Avec un peu de persévérance, on y arrivera!"
+  ],
+  "good": [
+    "C’est très bien, ça!", "Ja!", "Bravo!", "Félicitations!", "Two thumbs up!", "On approuve!",
+    "Aux autres : prenez exemple!", "Brillante réponse!", "Ça fait plaisir, ça!", "Oui, oui, oui!", "Oui-oui!",
+    "On accepte!", "Rien à redire!", "On voit que ça cogite dur ici!", "Alors là, chapeau!",
+    "Une petite main d’applaudissements pour cette réponse!", "Voilà, ce n’est pas dur!",
+    "Sûrement le fruit d’un effort surhumain…", "Eh oui, quand on veut, on peut!", "Il y a encore de l’espoir!",
+    "C’est prometteur!", "En cherchant bien, on trouve!", "Dites, on vous a soufflé la réponse?",
+    "Vous saviez?", "Qui l’eût cru!", "Das ist richtig!"
+  ]
+}

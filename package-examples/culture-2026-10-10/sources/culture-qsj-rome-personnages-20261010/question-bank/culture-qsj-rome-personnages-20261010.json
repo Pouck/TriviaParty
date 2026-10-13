@@ -1,0 +1,77 @@
+{
+  "category": "Qui suis-je ? — Rome antique — République et Empire",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-rome-personnages-20261010-01",
+      "category": "Qui suis-je ? — Rome antique — République et Empire",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Ma fortune provient notamment de l’immobilier et de l’achat de biens à bas prix dans une Rome exposée aux incendies.",
+        "Je m’allie à César et à Pompée dans le premier triumvirat.",
+        "Mon expédition contre les Parthes s’achève par la défaite de Carrhes.",
+        "Romain réputé immensément riche, je suis tué en 53 avant notre ère ; un récit tardif évoque de l’or versé dans ma bouche."
+      ],
+      "acceptableAnswers": [
+        "Crassus"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-rome-personnages-20261010-02",
+      "category": "Qui suis-je ? — Rome antique — République et Empire",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Issu de la région d’Arpinum, je deviens un « homme nouveau » dans la vie politique romaine.",
+        "Je recrute notamment des citoyens pauvres sans propriété lors de la guerre contre Jugurtha.",
+        "Je remporte des victoires contre les Teutons et les Cimbres.",
+        "Général romain élu consul sept fois, je suis le grand rival de Sylla."
+      ],
+      "acceptableAnswers": [
+        "Marius"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-rome-personnages-20261010-03",
+      "category": "Qui suis-je ? — Rome antique — République et Empire",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "La philosophie stoïcienne inspire ma conduite dans les crises de la fin de la République.",
+        "Je m’oppose à César au nom des institutions républicaines.",
+        "Après la victoire de César, je choisis de mourir à Utique en 46 avant notre ère.",
+        "Je porte le même nom que mon arrière-grand-père, surnommé « l’Ancien », mais on me surnomme « le Jeune »."
+      ],
+      "acceptableAnswers": [
+        "Caton le Jeune"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-rome-personnages-20261010-04",
+      "category": "Qui suis-je ? — Rome antique — République et Empire",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Hadrien m’adopte comme successeur, à condition que j’adopte à mon tour deux jeunes héritiers.",
+        "Mon règne de 138 à 161 est relativement paisible, et je reste en Italie.",
+        "Une tradition antique loue ma bonne gestion et l’importante réserve laissée au Trésor.",
+        "Quatrième des « cinq bons empereurs », je règne entre Hadrien et Marc Aurèle."
+      ],
+      "acceptableAnswers": [
+        "Antonin le Pieux"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "david",
+    "title": "David (Michelangelo)",
+    "file": "david.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:%27David%27_by_Michelangelo_Fir_JBU004.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%27David%27_by_Michelangelo_Fir_JBU004.jpg/1920px-%27David%27_by_Michelangelo_Fir_JBU004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Jörg Bittner Unna",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  },
+  {
+    "slug": "venus",
+    "title": "Venus de Milo",
+    "file": "venus.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Front_views_of_the_Venus_de_Milo.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Front_views_of_the_Venus_de_Milo.jpg/1920px-Front_views_of_the_Venus_de_Milo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Livioandronico2013",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  },
+  {
+    "slug": "victoire",
+    "title": "Winged Victory of Samothrace",
+    "file": "victoire.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg/1920px-Victoire_de_Samothrace_-_Musee_du_Louvre_-_20190812.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Shonagon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  },
+  {
+    "slug": "penseur",
+    "title": "The Thinker",
+    "file": "penseur.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Le_Penseur_by_Rodin_(Kunsthalle_Bielefeld)_2014-04-10.JPG",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Le_Penseur_by_Rodin_%28Kunsthalle_Bielefeld%29_2014-04-10.JPG/1920px-Le_Penseur_by_Rodin_%28Kunsthalle_Bielefeld%29_2014-04-10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Kaisching",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  }
+]

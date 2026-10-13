@@ -1,0 +1,92 @@
+{
+  "category": "Architecture — Reconnaissance — Sites historiques — Buzzer",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "architecture-buzzer-monde-20261011-01",
+      "category": "Architecture — Reconnaissance — Sites historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans quel pays se trouve le site photographié, Machu Picchu ?",
+      "acceptableAnswers": [
+        "Le Pérou",
+        "Pérou"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/machu.jpg"
+    },
+    {
+      "id": "architecture-buzzer-monde-20261011-02",
+      "category": "Architecture — Reconnaissance — Sites historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans quel pays se trouve la grande pyramide de Khéops ?",
+      "acceptableAnswers": [
+        "L’Égypte",
+        "Égypte",
+        "Egypte"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "architecture-buzzer-monde-20261011-03",
+      "category": "Architecture — Reconnaissance — Sites historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans quel pays se trouve cette célèbre muraille ?",
+      "acceptableAnswers": [
+        "La Chine",
+        "Chine"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/wall.jpg"
+    },
+    {
+      "id": "architecture-buzzer-monde-20261011-04",
+      "category": "Architecture — Reconnaissance — Sites historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel pays a offert la statue de la Liberté aux États-Unis ?",
+      "acceptableAnswers": [
+        "La France",
+        "France"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "architecture-buzzer-monde-20261011-05",
+      "category": "Architecture — Reconnaissance — Sites historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Sur quelle île se trouvent ces statues appelées moaï ?",
+      "acceptableAnswers": [
+        "L’île de Pâques",
+        "Île de Pâques",
+        "Rapa Nui"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/moai.jpg"
+    },
+    {
+      "id": "architecture-buzzer-monde-20261011-06",
+      "category": "Architecture — Reconnaissance — Sites historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle ville grecque est dominée par l’Acropole et le Parthénon ?",
+      "acceptableAnswers": [
+        "Athènes",
+        "Athenes"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

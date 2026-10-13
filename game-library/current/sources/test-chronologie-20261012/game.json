@@ -1,0 +1,15 @@
+{
+  "id": "test-chronologie-20261012",
+  "name": "TEST — Chronologie",
+  "description": "5 questions en français. Lecture libre puis 45 secondes ; 15 → 10 → 5 points. Réponse au buzzer : 10 secondes.",
+  "categoryPackages": [
+    "test-chronologie-20261012"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 15,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

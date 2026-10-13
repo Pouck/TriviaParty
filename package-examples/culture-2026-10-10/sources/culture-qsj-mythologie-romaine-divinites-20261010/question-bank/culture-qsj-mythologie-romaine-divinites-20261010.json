@@ -1,0 +1,43 @@
+{
+  "category": "Qui suis-je ? — Mythologie romaine — Divinités",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-mythologie-romaine-divinites-20261010-01",
+      "category": "Qui suis-je ? — Mythologie romaine — Divinités",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une divinité spécifiquement romaine, sans équivalent grec exact.",
+        "À Rome, les portes de mon sanctuaire sont traditionnellement ouvertes en temps de guerre et fermées en temps de paix.",
+        "J’incarne les passages et les commencements ; le mois de janvier me doit son nom.",
+        "Je suis le dieu romain représenté avec deux visages tournés dans des directions opposées."
+      ],
+      "acceptableAnswers": [
+        "Janus"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-mythologie-romaine-divinites-20261010-02",
+      "category": "Qui suis-je ? — Mythologie romaine — Divinités",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon rôle romain associe la guerre à la protection de la communauté et, dans certains rites, des champs.",
+        "Dans la légende romaine, je suis le père des jumeaux Romulus et Rémus.",
+        "Mes prêtres, les Saliens, portent des boucliers sacrés dont un aurait été envoyé du ciel.",
+        "Je suis le dieu romain de la guerre, et le mois de mars porte mon nom."
+      ],
+      "acceptableAnswers": [
+        "Mars"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "four-seasons",
+    "title": "Indice visuel — four-seasons",
+    "file": "four-seasons.png",
+    "artist": "Trivia Party — diagramme ou indice visuel local",
+    "license": "Illustration locale ; glyphes système crédités",
+    "licenseUrl": "https://learn.microsoft.com/en-us/typography/fonts/font-faq",
+    "commons": null,
+    "credit": "Graphisme de jeu ; symboles rendus avec la police système Segoe UI Emoji, sans redistribution du fichier de police.",
+    "changes": "Indice représentatif, pas une image du film ou de la bande dessinée.",
+    "originalPackage": "lib-qcm-classique-20261012"
+  },
+  {
+    "slug": "piano",
+    "title": "Piano",
+    "file": "piano.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Steinway_Vienna_002.JPG",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Steinway_Vienna_002.JPG/1920px-Steinway_Vienna_002.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Gryffindor",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-classique-20261012"
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "category": "Qui suis-je ? — Grèce antique — Figures et lieux",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-grece-figures-et-lieux-20261010-01",
+      "category": "Qui suis-je ? — Grèce antique — Figures et lieux",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "La condamnation de mon maître nourrit ma réflexion sur la justice et la cité idéale.",
+        "Je fonde à Athènes une école appelée l’Académie, vers 387 avant notre ère.",
+        "Dans l’un de mes dialogues, des prisonniers prennent les ombres d’une caverne pour la réalité.",
+        "Élève de Socrate, je deviens le maître d’Aristote."
+      ],
+      "acceptableAnswers": [
+        "Platon"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-grece-figures-et-lieux-20261010-02",
+      "category": "Qui suis-je ? — Grèce antique — Figures et lieux",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon sanctuaire du mont Parnasse est associé à la maxime « Connais-toi toi-même ».",
+        "Des cités et des dirigeants viennent consulter ma prêtresse, la Pythie.",
+        "Les Grecs placent chez moi l’omphalos, symbole du centre du monde.",
+        "Je suis le célèbre sanctuaire grec de l’oracle d’Apollon."
+      ],
+      "acceptableAnswers": [
+        "Delphes"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-grece-figures-et-lieux-20261010-03",
+      "category": "Qui suis-je ? — Grèce antique — Figures et lieux",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je succède à mon père Philippe II après son assassinat lors de fêtes de mariage.",
+        "Selon un récit célèbre, je tranche le nœud gordien au lieu de le dénouer.",
+        "Mes conquêtes me conduisent jusqu’à l’Indus, mais mon armée refuse d’aller plus loin.",
+        "Roi de Macédoine et conquérant de l’Empire perse, je meurs à Babylone à 32 ans."
+      ],
+      "acceptableAnswers": [
+        "Alexandre le Grand"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-grece-figures-et-lieux-20261010-04",
+      "category": "Qui suis-je ? — Grèce antique — Figures et lieux",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes sanctuaires, ravagés par les Perses en 480 avant notre ère, sont reconstruits au siècle de Périclès.",
+        "Je domine Athènes depuis un plateau rocheux situé à environ 150 mètres au-dessus du niveau de la mer.",
+        "Mon temple le plus célèbre abritait une statue d’Athéna en or et en ivoire réalisée par Phidias.",
+        "Je suis la colline fortifiée d’Athènes sur laquelle se trouve le Parthénon."
+      ],
+      "acceptableAnswers": [
+        "L’Acropole d’Athènes"
+      ]
+    }
+  ]
+}

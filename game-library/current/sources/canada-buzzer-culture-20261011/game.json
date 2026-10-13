@@ -1,0 +1,15 @@
+{
+  "id": "canada-buzzer-culture-20261011",
+  "name": "Canada — Culture et institutions — Réponses écrites — 1",
+  "description": "5 questions en français. 30 secondes ; 15 → 10 → 5 points.  Réponses écrites, validées individuellement par l’hôte.",
+  "categoryPackages": [
+    "canada-buzzer-culture-20261011"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 10,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

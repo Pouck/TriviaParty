@@ -1,0 +1,74 @@
+{
+  "category": "Jazz, blues et soul — Repères — Réponses écrites",
+  "subject": "Musique",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-jazz-blues-20261012-01",
+      "category": "Jazz, blues et soul — Repères — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel trompettiste à la voix grave chante What a Wonderful World ?",
+      "acceptableAnswers": [
+        "Louis Armstrong"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-jazz-blues-20261012/trumpet.jpg"
+    },
+    {
+      "id": "lib-buzzer-jazz-blues-20261012-02",
+      "category": "Jazz, blues et soul — Repères — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel pianiste et chef d’orchestre de jazz est surnommé Duke ?",
+      "acceptableAnswers": [
+        "Duke Ellington"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-jazz-blues-20261012-03",
+      "category": "Jazz, blues et soul — Repères — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel guitariste de blues donnait à ses guitares le nom Lucille ?",
+      "acceptableAnswers": [
+        "B. B. King",
+        "BB King"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-jazz-blues-20261012/guitar.jpg"
+    },
+    {
+      "id": "lib-buzzer-jazz-blues-20261012-04",
+      "category": "Jazz, blues et soul — Repères — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle chanteuse de soul est surnommée la Queen of Soul ?",
+      "acceptableAnswers": [
+        "Aretha Franklin"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-jazz-blues-20261012-05",
+      "category": "Jazz, blues et soul — Repères — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment appelle-t-on le chant de jazz utilisant des syllabes improvisées ?",
+      "acceptableAnswers": [
+        "Le scat",
+        "Scat"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "category": "TEST Chronologie — QCM",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie — QCM"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "prompt": "Quel ordre va du plus ancien au plus récent ?\n• Fondation de Québec\n• Premier voyage de Jacques Cartier\n• Arrivée de Jean Cabot",
+      "options": [
+        "A — Cartier → Cabot → Québec",
+        "B — Québec → Cartier → Cabot",
+        "C — Cabot → Cartier → Québec",
+        "D — Cabot → Québec → Cartier"
+      ],
+      "correctOptionIndex": 2,
+      "id": "test-04-chronologie-q1",
+      "category": "TEST Chronologie — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    }
+  ]
+}

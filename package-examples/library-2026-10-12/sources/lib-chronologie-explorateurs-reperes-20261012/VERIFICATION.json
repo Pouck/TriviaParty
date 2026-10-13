@@ -1,0 +1,57 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+      "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+      "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+      "https://www.britannica.com/biography/Roald-Amundsen"
+    ],
+    "note": "Colomb atteint les Caraïbes (1492) → Vasco de Gama atteint l’Inde (1498) → L’expédition de Magellan-Elcano achève le tour du monde (1522)",
+    "visual": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+      "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+      "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+      "https://www.britannica.com/biography/Roald-Amundsen"
+    ],
+    "note": "Cabot atteint les côtes de l’Atlantique Nord (1497) → Premier voyage de Cartier (1534) → Champlain fonde Québec (1608)",
+    "visual": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+      "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+      "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+      "https://www.britannica.com/biography/Roald-Amundsen"
+    ],
+    "note": "Premier voyage de Cartier (1534) → Champlain fonde Québec (1608) → Amundsen atteint le pôle Sud (1911)",
+    "visual": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+      "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+      "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+      "https://www.britannica.com/biography/Roald-Amundsen"
+    ],
+    "note": "Départ de l’expédition de Magellan (1519) → Mort de Magellan aux Philippines (1521) → Retour d’Elcano en Espagne (1522)",
+    "visual": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+      "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+      "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+      "https://www.britannica.com/biography/Roald-Amundsen"
+    ],
+    "note": "Colomb atteint les Caraïbes (1492) → Cartier atteint Hochelaga (1535) → Amundsen atteint le pôle Sud (1911)",
+    "visual": null
+  }
+]

@@ -1,0 +1,145 @@
+{
+  "category": "Histoire du Canada - Chronologie facile",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "kind": "ordering",
+      "id": "canada-facile-20261010-01",
+      "category": "Histoire du Canada - Chronologie facile",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Champlain"
+        },
+        {
+          "id": "item-1",
+          "text": "Cabot"
+        },
+        {
+          "id": "item-2",
+          "text": "Cartier"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "canada-facile-20261010-02",
+      "category": "Histoire du Canada - Chronologie facile",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Plaines d’Abraham"
+        },
+        {
+          "id": "item-1",
+          "text": "Traité de Paris"
+        },
+        {
+          "id": "item-2",
+          "text": "Déportation des Acadiens"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "canada-facile-20261010-03",
+      "category": "Histoire du Canada - Chronologie facile",
+      "prompt": "Quel ordre va du plus ancien au plus récent pour les étapes vers la Confédération ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Charlottetown"
+        },
+        {
+          "id": "item-1",
+          "text": "Confédération"
+        },
+        {
+          "id": "item-2",
+          "text": "Rébellions"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "canada-facile-20261010-04",
+      "category": "Histoire du Canada - Chronologie facile",
+      "prompt": "Quel ordre va du plus ancien au plus récent pour l’expansion vers l’Ouest ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Or au Klondike"
+        },
+        {
+          "id": "item-1",
+          "text": "Dernier crampon"
+        },
+        {
+          "id": "item-2",
+          "text": "Rivière-Rouge"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "canada-facile-20261010-05",
+      "category": "Histoire du Canada - Chronologie facile",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Drapeau à la feuille d’érable"
+        },
+        {
+          "id": "item-1",
+          "text": "Rapatriement"
+        },
+        {
+          "id": "item-2",
+          "text": "Citoyenneté canadienne"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

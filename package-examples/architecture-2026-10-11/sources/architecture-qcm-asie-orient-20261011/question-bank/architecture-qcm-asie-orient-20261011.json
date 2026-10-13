@@ -1,0 +1,102 @@
+{
+  "category": "Architecture — Asie et Proche-Orient — QCM",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "architecture-qcm-asie-orient-20261011-01",
+      "category": "Architecture — Asie et Proche-Orient — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a commandé ce mausolée ?",
+      "options": [
+        "A — Babur",
+        "B — Aurangzeb",
+        "C — Shah Jahan",
+        "D — Akbar"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/taj.jpg"
+    },
+    {
+      "id": "architecture-qcm-asie-orient-20261011-02",
+      "category": "Architecture — Asie et Proche-Orient — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel peuple a fait de Pétra sa capitale et y a sculpté des façades dans la roche ?",
+      "options": [
+        "A — Les Phéniciens",
+        "B — Les Hittites",
+        "C — Les Perses achéménides",
+        "D — Les Nabatéens"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "architecture-qcm-asie-orient-20261011-03",
+      "category": "Architecture — Asie et Proche-Orient — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans quel pays est ce temple ?",
+      "options": [
+        "A — Thaïlande",
+        "B — Cambodge",
+        "C — Laos",
+        "D — Myanmar"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/angkor.jpg"
+    },
+    {
+      "id": "architecture-qcm-asie-orient-20261011-04",
+      "category": "Architecture — Asie et Proche-Orient — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "À quelle tradition religieuse le temple de Borobudur, sur l’île de Java, appartient-il ?",
+      "options": [
+        "A — Le shintoïsme",
+        "B — Le bouddhisme",
+        "C — Le taoïsme",
+        "D — Le zoroastrisme"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "architecture-qcm-asie-orient-20261011-05",
+      "category": "Architecture — Asie et Proche-Orient — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelles dynasties ont habité ce palais ?",
+      "options": [
+        "A — Song et Yuan",
+        "B — Qin et Han",
+        "C — Han et Tang",
+        "D — Ming et Qing"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/forbidden.jpg"
+    },
+    {
+      "id": "architecture-qcm-asie-orient-20261011-06",
+      "category": "Architecture — Asie et Proche-Orient — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Pourquoi les temples d’Abou Simbel ont-ils été déplacés dans les années 1960 ?",
+      "options": [
+        "A — Pour les protéger de la montée des eaux liée au barrage d’Assouan",
+        "B — Pour éviter des coulées de lave",
+        "C — Pour les rapprocher du Caire",
+        "D — Pour dégager une voie ferrée"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

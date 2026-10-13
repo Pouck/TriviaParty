@@ -1,0 +1,92 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-qcm-bd-franco-belge-20261012-01",
+    "originalPackage": "lib-qcm-bd-franco-belge-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.tintin.com/fr/characters",
+        "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+        "https://www.luckyluke.com/",
+        "https://www.smurf.com/",
+        "https://www.dupuis.com/"
+      ],
+      "note": "",
+      "visual": "moon"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-qcm-bd-franco-belge-20261012-02",
+    "originalPackage": "lib-qcm-bd-franco-belge-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.tintin.com/fr/characters",
+        "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+        "https://www.luckyluke.com/",
+        "https://www.smurf.com/",
+        "https://www.dupuis.com/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-qcm-bd-franco-belge-20261012-03",
+    "originalPackage": "lib-qcm-bd-franco-belge-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.tintin.com/fr/characters",
+        "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+        "https://www.luckyluke.com/",
+        "https://www.smurf.com/",
+        "https://www.dupuis.com/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-qcm-bd-franco-belge-20261012-04",
+    "originalPackage": "lib-qcm-bd-franco-belge-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.tintin.com/fr/characters",
+        "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+        "https://www.luckyluke.com/",
+        "https://www.smurf.com/",
+        "https://www.dupuis.com/"
+      ],
+      "note": "",
+      "visual": "mushroom"
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qcm-bd-franco-belge-20261012-05",
+    "originalPackage": "lib-qcm-bd-franco-belge-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.tintin.com/fr/characters",
+        "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+        "https://www.luckyluke.com/",
+        "https://www.smurf.com/",
+        "https://www.dupuis.com/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

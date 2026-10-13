@@ -1,0 +1,111 @@
+{
+  "category": "Géographie - États-Unis",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "geo-etats-unis-20261010-01",
+      "category": "Géographie - États-Unis",
+      "prompt": "Quelle lettre correspond à l’État du Tennessee sur la carte ?",
+      "imageUrl": "images/carte-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 2,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Missouri » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Kentucky » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Tennessee » sur la carte ?",
+          "correctOptionIndex": 2
+        },
+        {
+          "prompt": "Quelle lettre indique « Arkansas » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-etats-unis-20261010-02",
+      "category": "Géographie - États-Unis",
+      "prompt": "Quelle lettre correspond à l’État de l’Idaho sur la carte ?",
+      "imageUrl": "images/carte-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 1,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Iowa » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Idaho » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Illinois » sur la carte ?",
+          "correctOptionIndex": 2
+        },
+        {
+          "prompt": "Quelle lettre indique « Ohio » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-etats-unis-20261010-03",
+      "category": "Géographie - États-Unis",
+      "prompt": "Quelle lettre correspond à l’État du Kansas sur la carte ?",
+      "imageUrl": "images/carte-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 3,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Wyoming » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Oklahoma » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Nebraska » sur la carte ?",
+          "correctOptionIndex": 2
+        },
+        {
+          "prompt": "Quelle lettre indique « Kansas » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    }
+  ]
+}

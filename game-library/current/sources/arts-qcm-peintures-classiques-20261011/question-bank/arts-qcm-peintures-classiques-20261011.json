@@ -1,0 +1,103 @@
+{
+  "category": "Arts — Peintures classiques — QCM",
+  "subject": "Arts",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-01",
+      "category": "Arts — Peintures classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a peint ce portrait ?",
+      "options": [
+        "A — Léonard de Vinci",
+        "B — Raphaël",
+        "C — Sandro Botticelli",
+        "D — Le Caravage"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/arts-qcm-peintures-classiques-20261011/joconde.jpg"
+    },
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-02",
+      "category": "Arts — Peintures classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Où Michel-Ange a-t-il peint La Création d’Adam ?",
+      "options": [
+        "A — La chapelle Sixtine",
+        "B — Le palais des Doges",
+        "C — Le Panthéon",
+        "D — La cathédrale de Florence"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-03",
+      "category": "Arts — Peintures classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel est le titre de cette œuvre de Botticelli ?",
+      "options": [
+        "A — Le Printemps",
+        "B — La Naissance de Vénus",
+        "C — L’Annonciation",
+        "D — La Vierge à la grenade"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/arts-qcm-peintures-classiques-20261011/naissance.jpg"
+    },
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-04",
+      "category": "Arts — Peintures classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans La Cène de Léonard de Vinci, combien d’apôtres entourent Jésus ?",
+      "options": [
+        "A — 10",
+        "B — 11",
+        "C — 12",
+        "D — 13"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-05",
+      "category": "Arts — Peintures classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle princesse est au centre des Ménines ?",
+      "options": [
+        "A — Marie-Antoinette",
+        "B — Élisabeth Ire",
+        "C — Isabelle de Castille",
+        "D — Marguerite-Thérèse"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/arts-qcm-peintures-classiques-20261011/menines.jpg"
+    },
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-06",
+      "category": "Arts — Peintures classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel peintre a réalisé Les Époux Arnolfini ?",
+      "options": [
+        "A — Pieter Bruegel l’Ancien",
+        "B — Jan van Eyck",
+        "C — Albrecht Dürer",
+        "D — Jérôme Bosch"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

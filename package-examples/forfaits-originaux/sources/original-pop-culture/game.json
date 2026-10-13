@@ -1,0 +1,15 @@
+{
+  "id": "original-pop-culture",
+  "name": "Culture populaire",
+  "description": "Ensemble de questions original révisé : français, 15 points, deux visuels et trois textes.",
+  "categoryPackages": [
+    "pop-culture"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

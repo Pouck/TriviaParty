@@ -1,0 +1,100 @@
+{
+  "category": "Inventions canadiennes — Sports, culture et vie quotidienne",
+  "subject": "Sciences",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-quotidien-20261011-01",
+      "category": "Inventions canadiennes — Sports, culture et vie quotidienne",
+      "prompt": "Quel sport James Naismith invente-t-il à Springfield, au Massachusetts, en 1891, avec deux paniers à pêches ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le basketball",
+        "B — Le volleyball",
+        "C — Le hockey sur glace",
+        "D — La crosse"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-quotidien-20261011-02",
+      "category": "Inventions canadiennes — Sports, culture et vie quotidienne",
+      "prompt": "Quel système de cinéma sur écran géant Ferguson, Kroitor, Kerr et Shaw développent-ils au Canada, avec une première présentation à Osaka en 1970 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — IMAX",
+        "B — Technicolor",
+        "C — Dolby Surround",
+        "D — Les lunettes de cinéma 3D"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-quotidien-20261011-03",
+      "category": "Inventions canadiennes — Sports, culture et vie quotidienne",
+      "prompt": "Quel jeu de quilles Thomas F. Ryan crée-t-il à Toronto vers 1909, avec une petite boule et moins de quilles que la version américaine ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Les quilles à dix",
+        "B — Les quilles à cinq",
+        "C — La pétanque",
+        "D — Le curling"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-quotidien-20261011-04",
+      "category": "Inventions canadiennes — Sports, culture et vie quotidienne",
+      "prompt": "Quel jeu de culture générale Chris Haney et Scott Abbott conçoivent-ils à Montréal en 1979 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Hungry Hungry Hippos",
+        "B — Mouse Trap",
+        "C — Trivial Pursuit",
+        "D — Operation"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-quotidien-20261011-05",
+      "category": "Inventions canadiennes — Sports, culture et vie quotidienne",
+      "prompt": "Quelle machine de déneigement Arthur Sicard met-il au point à Montréal dans les années 1920, en s’inspirant de machines agricoles ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le camion épandeur de sel",
+        "B — La souffleuse à neige",
+        "C — La balayeuse de rue",
+        "D — La finisseuse d’asphalte"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-quotidien-20261011-06",
+      "category": "Inventions canadiennes — Sports, culture et vie quotidienne",
+      "prompt": "Quel aliment instantané Edward Asselbergs contribue-t-il à améliorer par un procédé de déshydratation développé à Ottawa vers 1960 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Les chips de pommes déshydratées",
+        "B — La soupe aux pois en poudre",
+        "C — Les fraises lyophilisées",
+        "D — La purée de pommes de terre en flocons"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

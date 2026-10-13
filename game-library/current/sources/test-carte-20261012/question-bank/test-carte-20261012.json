@@ -1,0 +1,165 @@
+{
+  "category": "TEST — Cartes",
+  "subject": "Tests",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Carte"
+  ],
+  "questions": [
+    {
+      "kind": "mapChoice",
+      "prompt": "Choisissez le repère B sur cette carte de démonstration.",
+      "options": [
+        {
+          "label": "A",
+          "xRatio": 0.3,
+          "yRatio": 0.3
+        },
+        {
+          "label": "B",
+          "xRatio": 0.5,
+          "yRatio": 0.45
+        },
+        {
+          "label": "C",
+          "xRatio": 0.55,
+          "yRatio": 0.65
+        },
+        {
+          "label": "D",
+          "xRatio": 0.4,
+          "yRatio": 0.7
+        }
+      ],
+      "correctOptionIndex": 1,
+      "id": "test-06-map-choice-q1",
+      "category": "TEST — Cartes",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    },
+    {
+      "kind": "mapChoice",
+      "prompt": "Test carte : sélectionnez le repère A",
+      "options": [
+        {
+          "label": "A",
+          "xRatio": 0.3,
+          "yRatio": 0.3
+        },
+        {
+          "label": "B",
+          "xRatio": 0.5,
+          "yRatio": 0.45
+        },
+        {
+          "label": "C",
+          "xRatio": 0.55,
+          "yRatio": 0.65
+        },
+        {
+          "label": "D",
+          "xRatio": 0.4,
+          "yRatio": 0.7
+        }
+      ],
+      "correctOptionIndex": 0,
+      "id": "test-20261012-carte-complement-1",
+      "category": "TEST — Cartes",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    },
+    {
+      "kind": "mapChoice",
+      "prompt": "Test carte : sélectionnez le repère B",
+      "options": [
+        {
+          "label": "A",
+          "xRatio": 0.3,
+          "yRatio": 0.3
+        },
+        {
+          "label": "B",
+          "xRatio": 0.5,
+          "yRatio": 0.45
+        },
+        {
+          "label": "C",
+          "xRatio": 0.55,
+          "yRatio": 0.65
+        },
+        {
+          "label": "D",
+          "xRatio": 0.4,
+          "yRatio": 0.7
+        }
+      ],
+      "correctOptionIndex": 1,
+      "id": "test-20261012-carte-complement-2",
+      "category": "TEST — Cartes",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    },
+    {
+      "kind": "mapChoice",
+      "prompt": "Test carte : sélectionnez le repère C",
+      "options": [
+        {
+          "label": "A",
+          "xRatio": 0.3,
+          "yRatio": 0.3
+        },
+        {
+          "label": "B",
+          "xRatio": 0.5,
+          "yRatio": 0.45
+        },
+        {
+          "label": "C",
+          "xRatio": 0.55,
+          "yRatio": 0.65
+        },
+        {
+          "label": "D",
+          "xRatio": 0.4,
+          "yRatio": 0.7
+        }
+      ],
+      "correctOptionIndex": 2,
+      "id": "test-20261012-carte-complement-3",
+      "category": "TEST — Cartes",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    },
+    {
+      "kind": "mapChoice",
+      "prompt": "Test carte : sélectionnez le repère D",
+      "options": [
+        {
+          "label": "A",
+          "xRatio": 0.3,
+          "yRatio": 0.3
+        },
+        {
+          "label": "B",
+          "xRatio": 0.5,
+          "yRatio": 0.45
+        },
+        {
+          "label": "C",
+          "xRatio": 0.55,
+          "yRatio": 0.65
+        },
+        {
+          "label": "D",
+          "xRatio": 0.4,
+          "yRatio": 0.7
+        }
+      ],
+      "correctOptionIndex": 3,
+      "id": "test-20261012-carte-complement-4",
+      "category": "TEST — Cartes",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    }
+  ]
+}

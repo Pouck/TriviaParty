@@ -1,0 +1,86 @@
+[
+  {
+    "question": 1,
+    "questionId": "arts-qcm-peintures-classiques-20261011-01",
+    "originalPackage": "arts-qcm-peintures-classiques-20261011",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.louvre.fr/en/explore/the-palace/from-the-mona-lisa-to-the-wedding-feast-at-cana"
+      ],
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Mona_Lisa.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "arts-qcm-peintures-classiques-20261011-02",
+    "originalPackage": "arts-qcm-peintures-classiques-20261011",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/storia-cappella-sistina.html"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "arts-qcm-peintures-classiques-20261011-03",
+    "originalPackage": "arts-qcm-peintures-classiques-20261011",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.uffizi.it/opere/nascita-di-venere"
+      ],
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "arts-qcm-peintures-classiques-20261011-04",
+    "originalPackage": "arts-qcm-peintures-classiques-20261011",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://cenacolovinciano.org/en/museum/the-works/the-last-supper-leonardo-da-vinci-1452-1519/"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "arts-qcm-peintures-classiques-20261011-05",
+    "originalPackage": "arts-qcm-peintures-classiques-20261011",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.museodelprado.es/en/easy-to-read/las-meninas-diego-velazquez/c43f1c8d-e6c9-a8c2-44dc-0c9be2e10177"
+      ],
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Las_Meninas,_by_Diego_Vel%C3%A1zquez,_from_Prado_in_Google_Earth.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "arts-qcm-peintures-classiques-20261011-06",
+    "originalPackage": "arts-qcm-peintures-classiques-20261011",
+    "reference": {
+      "question": 6,
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/catalogues/campbell-1998/the-arnolfini-portrait"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  }
+]

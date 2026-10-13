@@ -1,0 +1,73 @@
+{
+  "category": "Musique — Artistes du Québec — Buzzer",
+  "subject": "Musique",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-musique-quebec-20261012-01",
+      "category": "Musique — Artistes du Québec — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle chanteuse québécoise interprète My Heart Will Go On ?",
+      "acceptableAnswers": [
+        "Céline Dion"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/ship.png"
+    },
+    {
+      "id": "lib-buzzer-musique-quebec-20261012-02",
+      "category": "Musique — Artistes du Québec — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quels trophées récompensent les artistes au gala de l’ADISQ ?",
+      "acceptableAnswers": [
+        "Les Félix",
+        "Félix"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-musique-quebec-20261012-03",
+      "category": "Musique — Artistes du Québec — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel groupe québécois a notamment enregistré La Manifestation ?",
+      "acceptableAnswers": [
+        "Les Cowboys Fringants"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/cowboy-hat.png"
+    },
+    {
+      "id": "lib-buzzer-musique-quebec-20261012-04",
+      "category": "Musique — Artistes du Québec — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui est l’auteur-interprète de Mon pays ?",
+      "acceptableAnswers": [
+        "Gilles Vigneault"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-musique-quebec-20261012-05",
+      "category": "Musique — Artistes du Québec — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel groupe de Serge Fiori a enregistré Pour un instant ?",
+      "acceptableAnswers": [
+        "Harmonium"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

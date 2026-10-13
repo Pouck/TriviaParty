@@ -1,0 +1,74 @@
+{
+  "category": "Chanson francophone — Classiques — Buzzer",
+  "subject": "Musique",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-chanson-francophone-20261012-01",
+      "category": "Chanson francophone — Classiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel chanteur français est surnommé le Fou chantant ?",
+      "acceptableAnswers": [
+        "Charles Trenet"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-chanson-francophone-20261012-02",
+      "category": "Chanson francophone — Classiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel instrument accompagne souvent Georges Brassens ?",
+      "acceptableAnswers": [
+        "La guitare",
+        "Guitare"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/guitar.jpg"
+    },
+    {
+      "id": "lib-buzzer-chanson-francophone-20261012-03",
+      "category": "Chanson francophone — Classiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle chanteuse est surnommée la Môme ?",
+      "acceptableAnswers": [
+        "Édith Piaf"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-chanson-francophone-20261012-04",
+      "category": "Chanson francophone — Classiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel chanteur a créé La Mer ?",
+      "acceptableAnswers": [
+        "Charles Trenet"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/sea.png"
+    },
+    {
+      "id": "lib-buzzer-chanson-francophone-20261012-05",
+      "category": "Chanson francophone — Classiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel chanteur de rock français est surnommé Johnny ?",
+      "acceptableAnswers": [
+        "Johnny Hallyday",
+        "Hallyday"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "question": 1,
+    "questionId": "test-02-buzzer-q1",
+    "originalPackage": "test-02-buzzer",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "test-20261012-buzzer-complement-1",
+    "originalPackage": "architecture-buzzer-europe-20261011",
+    "reference": {
+      "question": 1,
+      "site": "eiffel",
+      "verification": "https://www.toureiffel.paris/en/the-monument/history",
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons_(cropped).jpg"
+    },
+    "new": true
+  },
+  {
+    "question": 3,
+    "questionId": "test-20261012-buzzer-complement-2",
+    "originalPackage": "architecture-buzzer-europe-20261011",
+    "reference": {
+      "question": 2,
+      "site": "mont",
+      "verification": "https://whc.unesco.org/en/list/80/",
+      "note": "",
+      "photo": null
+    },
+    "new": true
+  },
+  {
+    "question": 4,
+    "questionId": "test-20261012-buzzer-complement-3",
+    "originalPackage": "architecture-buzzer-europe-20261011",
+    "reference": {
+      "question": 3,
+      "site": "bigben",
+      "verification": "https://www.parliament.uk/about/living-heritage/building/palace/architecture/palacestructure/towers-of-parliament/",
+      "note": "Big Ben est précisément la grande cloche ; ce nom désigne aussi couramment la tour Elizabeth.",
+      "photo": "https://commons.wikimedia.org/wiki/File:Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster,_London.jpg"
+    },
+    "new": true
+  },
+  {
+    "question": 5,
+    "questionId": "test-20261012-buzzer-complement-4",
+    "originalPackage": "architecture-buzzer-europe-20261011",
+    "reference": {
+      "question": 4,
+      "site": "versailles",
+      "verification": "https://whc.unesco.org/en/list/83/",
+      "note": "",
+      "photo": null
+    },
+    "new": true
+  }
+]

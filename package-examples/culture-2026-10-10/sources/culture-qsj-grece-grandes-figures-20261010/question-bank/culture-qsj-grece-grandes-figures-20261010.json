@@ -1,0 +1,77 @@
+{
+  "category": "Qui suis-je ? — Grèce antique — Grandes figures",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-grece-grandes-figures-20261010-01",
+      "category": "Qui suis-je ? — Grèce antique — Grandes figures",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon récit d’une guerre de 27 ans reste inachevé et s’arrête aux événements de 411 avant notre ère.",
+        "J’analyse les conflits en étudiant les décisions humaines, les intérêts politiques et les rapports de force.",
+        "Général athénien, je suis exilé après la perte d’Amphipolis face aux Spartiates.",
+        "Je suis l’historien athénien auteur de l’Histoire de la guerre du Péloponnèse."
+      ],
+      "acceptableAnswers": [
+        "Thucydide"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-grece-grandes-figures-20261010-02",
+      "category": "Qui suis-je ? — Grèce antique — Grandes figures",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Les écrits associés à mon école accordent une grande place à l’observation et au pronostic des maladies.",
+        "Mon école cherche des causes naturelles aux maladies plutôt que des punitions divines.",
+        "La tradition médicale qui porte mon nom associe la santé à l’équilibre de quatre humeurs.",
+        "Médecin grec originaire de Cos, je donne mon nom à un célèbre serment de déontologie."
+      ],
+      "acceptableAnswers": [
+        "Hippocrate"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-grece-grandes-figures-20261010-03",
+      "category": "Qui suis-je ? — Grèce antique — Grandes figures",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Philosophe venu de Sinope, je rejette le luxe ; la tradition me fait vivre dans une grande jarre.",
+        "Selon une anecdote, je demande à Alexandre de s’écarter parce qu’il me cache le soleil.",
+        "On raconte que je parcours la ville en plein jour avec une lampe, à la recherche d’un homme.",
+        "Je suis le célèbre philosophe cynique surnommé « le Chien »."
+      ],
+      "acceptableAnswers": [
+        "Diogène de Sinope"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-grece-grandes-figures-20261010-04",
+      "category": "Qui suis-je ? — Grèce antique — Grandes figures",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "On me confie des réformes à Athènes, où l’endettement menace la liberté de nombreux citoyens.",
+        "Ma « levée des fardeaux » supprime des dettes et interdit de garantir un prêt par la personne du débiteur.",
+        "Mes réformes répartissent les citoyens en quatre classes selon leur richesse agricole.",
+        "Poète et législateur athénien du VIe siècle avant notre ère, je figure parmi les Sept Sages."
+      ],
+      "acceptableAnswers": [
+        "Solon"
+      ]
+    }
+  ]
+}

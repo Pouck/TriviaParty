@@ -1,0 +1,64 @@
+[
+  {
+    "question": 1,
+    "questionId": "test-04-chronologie-q1",
+    "originalPackage": "test-04-chronologie",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "test-05-ordering-q1",
+    "originalPackage": "test-05-ordering",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "test-20261012-chronologie-complement-1",
+    "originalPackage": "arts-chronologie-peintures-dans-le-temps-20261011",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/catalogues/campbell-1998/the-arnolfini-portrait",
+        "https://www.uffizi.it/opere/nascita-di-venere",
+        "https://www.museodelprado.es/en/easy-to-read/las-meninas-diego-velazquez/c43f1c8d-e6c9-a8c2-44dc-0c9be2e10177"
+      ],
+      "note": "La Naissance de Vénus est datée vers 1485. Corrigé : Les Époux Arnolfini (1434) → La Naissance de Vénus (1485) → Les Ménines (1656)",
+      "photo": null
+    },
+    "new": true
+  },
+  {
+    "question": 4,
+    "questionId": "test-20261012-chronologie-complement-2",
+    "originalPackage": "arts-chronologie-peintures-dans-le-temps-20261011",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.rijksmuseum.nl/en/stories/10-things/story/10-things-about-rembrandt-s-night-watch",
+        "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring",
+        "https://www.marmottan.fr/notice/4014/"
+      ],
+      "note": " Corrigé : La Ronde de nuit (1642) → La Jeune Fille à la perle (1665) → Impression, soleil levant (1872)",
+      "photo": null
+    },
+    "new": true
+  },
+  {
+    "question": 5,
+    "questionId": "test-20261012-chronologie-complement-3",
+    "originalPackage": "arts-chronologie-peintures-dans-le-temps-20261011",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/romanticism-topicality-sensuality",
+        "https://collections.louvre.fr/en/ark:/53355/cl010065872",
+        "https://www.musee-orsay.fr/fr/oeuvres/olympia-712"
+      ],
+      "note": "Radeau : 1818–1819 ; Liberté : 1830 ; Olympia : réalisation en 1863, pas exposition de 1865. Corrigé : Le Radeau de la Méduse (1819) → La Liberté guidant le peuple (1830) → Olympia (1863)",
+      "photo": null
+    },
+    "new": true
+  }
+]

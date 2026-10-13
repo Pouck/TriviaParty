@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "sydney",
+    "title": "Sydney Opera House",
+    "file": "sydney.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Sydney_Australia._(21339175489).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Sydney_Australia._%2821339175489%29.jpg/1920px-Sydney_Australia._%2821339175489%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Bernard Spragg. NZ from Christchurch, New Zealand",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "Sydney Australia.",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-buzzer-geographie-villes-20261012"
+  },
+  {
+    "slug": "colosseum",
+    "title": "Colosseum",
+    "file": "colosseum.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1920px-Colosseo_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "FeaturedPics",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-buzzer-geographie-villes-20261012"
+  }
+]

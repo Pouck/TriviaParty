@@ -1,0 +1,86 @@
+[
+  {
+    "question": 1,
+    "questionId": "arts-buzzer-tableaux-celebres-20261011-01",
+    "originalPackage": "arts-buzzer-tableaux-celebres-20261011",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://cenacolovinciano.org/en/museum/the-works/the-last-supper-leonardo-da-vinci-1452-1519/"
+      ],
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "arts-buzzer-tableaux-celebres-20261011-02",
+    "originalPackage": "arts-buzzer-tableaux-celebres-20261011",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "arts-buzzer-tableaux-celebres-20261011-03",
+    "originalPackage": "arts-buzzer-tableaux-celebres-20261011",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.artic.edu/artworks/6565/american-gothic"
+      ],
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Grant_Wood_-_American_Gothic_(1930).jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "arts-buzzer-tableaux-celebres-20261011-04",
+    "originalPackage": "arts-buzzer-tableaux-celebres-20261011",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "arts-buzzer-tableaux-celebres-20261011-05",
+    "originalPackage": "arts-buzzer-tableaux-celebres-20261011",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://collections.louvre.fr/en/ark:/53355/cl010065872"
+      ],
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "arts-buzzer-tableaux-celebres-20261011-06",
+    "originalPackage": "arts-buzzer-tableaux-celebres-20261011",
+    "reference": {
+      "question": 6,
+      "sources": [
+        "https://www.museodelprado.es/en/easy-to-read/las-meninas-diego-velazquez/c43f1c8d-e6c9-a8c2-44dc-0c9be2e10177"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  }
+]

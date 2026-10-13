@@ -1,0 +1,97 @@
+{
+  "category": "Histoire mondiale — Grands repères — Qui suis-je ? écrit",
+  "subject": "Histoire",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Qui suis-je ? écrit"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-histoire-mondiale-generale-20261012-01",
+      "category": "Histoire mondiale — Grands repères — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je règne à la fin de l’Égypte ptolémaïque.",
+        "Alexandrie est ma capitale.",
+        "Je suis liée à Jules César puis à Marc Antoine.",
+        "Je suis la célèbre reine d’Égypte de l’Antiquité."
+      ],
+      "acceptableAnswers": [
+        "Cléopâtre"
+      ]
+    },
+    {
+      "id": "lib-qsj-histoire-mondiale-generale-20261012-02",
+      "category": "Histoire mondiale — Grands repères — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis né en Corse.",
+        "Je deviens Premier consul après le 18 Brumaire.",
+        "Je suis couronné empereur en 1804.",
+        "Je suis vaincu à Waterloo."
+      ],
+      "acceptableAnswers": [
+        "Napoléon Bonaparte",
+        "Napoléon"
+      ]
+    },
+    {
+      "id": "lib-qsj-histoire-mondiale-generale-20261012-03",
+      "category": "Histoire mondiale — Grands repères — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis juriste avant de devenir un dirigeant politique.",
+        "Je privilégie la résistance non violente.",
+        "Je conduis la marche du sel en Inde.",
+        "On me donne souvent le titre de Mahatma."
+      ],
+      "acceptableAnswers": [
+        "Gandhi",
+        "Mahatma Gandhi"
+      ]
+    },
+    {
+      "id": "lib-qsj-histoire-mondiale-generale-20261012-04",
+      "category": "Histoire mondiale — Grands repères — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je lutte contre l’apartheid.",
+        "Je passe de nombreuses années en prison.",
+        "Je deviens président de l’Afrique du Sud en 1994.",
+        "On me surnomme Madiba."
+      ],
+      "acceptableAnswers": [
+        "Nelson Mandela"
+      ]
+    },
+    {
+      "id": "lib-qsj-histoire-mondiale-generale-20261012-05",
+      "category": "Histoire mondiale — Grands repères — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je viens de Domrémy.",
+        "Je participe à la guerre de Cent Ans.",
+        "Je contribue à la levée du siège d’Orléans.",
+        "Je suis la jeune héroïne appelée la Pucelle."
+      ],
+      "acceptableAnswers": [
+        "Jeanne d’Arc"
+      ]
+    }
+  ]
+}

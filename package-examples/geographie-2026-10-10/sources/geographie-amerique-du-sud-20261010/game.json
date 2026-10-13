@@ -1,0 +1,15 @@
+{
+  "id": "geographie-amerique-du-sud-20261010",
+  "name": "Géographie - Amérique du Sud",
+  "description": "Repérez les lieux sur les cartes. Répondez avec A, B, C ou D. 15 secondes par question ; 15, 10 puis 5 points.",
+  "categoryPackages": [
+    "geographie-amerique-du-sud-20261010"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0.0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

@@ -1,0 +1,69 @@
+{
+  "category": "Révolution française — Chronologie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-chronologie-20261010-01",
+      "category": "Révolution française — Chronologie",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces journées de 1789 ?\n• Prise de la Bastille\n• Marche des femmes sur Versailles\n• Serment du Jeu de paume",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Serment du Jeu de paume → Prise de la Bastille → Marche des femmes sur Versailles",
+        "B — Serment du Jeu de paume → Marche des femmes sur Versailles → Prise de la Bastille",
+        "C — Prise de la Bastille → Marche des femmes sur Versailles → Serment du Jeu de paume",
+        "D — Prise de la Bastille → Serment du Jeu de paume → Marche des femmes sur Versailles"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-chronologie-20261010-02",
+      "category": "Révolution française — Chronologie",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces crises de la monarchie ?\n• Abolition de la royauté\n• Exécution de Louis XVI\n• Fuite à Varennes",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Exécution de Louis XVI → Fuite à Varennes → Abolition de la royauté",
+        "B — Fuite à Varennes → Exécution de Louis XVI → Abolition de la royauté",
+        "C — Fuite à Varennes → Abolition de la royauté → Exécution de Louis XVI",
+        "D — Abolition de la royauté → Fuite à Varennes → Exécution de Louis XVI"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-chronologie-20261010-03",
+      "category": "Révolution française — Chronologie",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces exécutions de la période révolutionnaire ?\n• Danton\n• Robespierre\n• Marie-Antoinette",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Marie-Antoinette → Robespierre → Danton",
+        "B — Danton → Robespierre → Marie-Antoinette",
+        "C — Danton → Marie-Antoinette → Robespierre",
+        "D — Marie-Antoinette → Danton → Robespierre"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-chronologie-20261010-04",
+      "category": "Révolution française — Chronologie",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour la transition vers l’époque napoléonienne ?\n• Coup d’État du 18 Brumaire\n• Sacre de Napoléon\n• Mise en place du Directoire",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Coup d’État du 18 Brumaire → Mise en place du Directoire → Sacre de Napoléon",
+        "B — Mise en place du Directoire → Coup d’État du 18 Brumaire → Sacre de Napoléon",
+        "C — Mise en place du Directoire → Sacre de Napoléon → Coup d’État du 18 Brumaire",
+        "D — Coup d’État du 18 Brumaire → Sacre de Napoléon → Mise en place du Directoire"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

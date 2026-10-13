@@ -1,0 +1,87 @@
+{
+  "category": "Légendes de France — Régions et créatures — QCM",
+  "subject": "Contes et légendes",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-legendes-france-20261012-01",
+      "category": "Légendes de France — Régions et créatures — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle créature légendaire est associée à Tarascon ?",
+      "options": [
+        "A — Le Kraken",
+        "B — Le Minotaure",
+        "C — La Tarasque",
+        "D — Le Sphinx"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/dragon.png"
+    },
+    {
+      "id": "lib-qcm-legendes-france-20261012-02",
+      "category": "Légendes de France — Régions et créatures — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle région est associée à la ville engloutie d’Ys ?",
+      "options": [
+        "A — La Bretagne",
+        "B — L’Alsace",
+        "C — La Bourgogne",
+        "D — La Provence"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-legendes-france-20261012-03",
+      "category": "Légendes de France — Régions et créatures — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle fée est souvent représentée moitié femme, moitié serpent ?",
+      "options": [
+        "A — Blanche-Neige",
+        "B — Aurore",
+        "C — Cendrillon",
+        "D — Mélusine"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-legendes-france-20261012-04",
+      "category": "Légendes de France — Régions et créatures — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel type de créature est généralement un korrigan breton ?",
+      "options": [
+        "A — Un petit être féerique",
+        "B — Un serpent de mer",
+        "C — Un géant de pierre",
+        "D — Un oiseau marin"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/fairy.png"
+    },
+    {
+      "id": "lib-qcm-legendes-france-20261012-05",
+      "category": "Légendes de France — Régions et créatures — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle forêt bretonne est associée aux légendes arthuriennes ?",
+      "options": [
+        "A — Rambouillet",
+        "B — Brocéliande",
+        "C — Fontainebleau",
+        "D — Les Landes"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

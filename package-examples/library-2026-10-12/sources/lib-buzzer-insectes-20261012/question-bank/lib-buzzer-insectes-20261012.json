@@ -1,0 +1,77 @@
+{
+  "category": "Insectes — Petites bêtes — Buzzer",
+  "subject": "Nature",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-insectes-20261012-01",
+      "category": "Insectes — Petites bêtes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel insecte bâtit souvent une fourmilière ?",
+      "acceptableAnswers": [
+        "La fourmi",
+        "Fourmi"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/ant.jpg"
+    },
+    {
+      "id": "lib-buzzer-insectes-20261012-02",
+      "category": "Insectes — Petites bêtes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel insecte adulte est représenté avec quatre grandes ailes ?",
+      "acceptableAnswers": [
+        "Un papillon",
+        "Papillon"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/butterfly.jpg"
+    },
+    {
+      "id": "lib-buzzer-insectes-20261012-03",
+      "category": "Insectes — Petites bêtes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel insecte est célèbre pour son chant en été ?",
+      "acceptableAnswers": [
+        "La cigale",
+        "Cigale"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-insectes-20261012-04",
+      "category": "Insectes — Petites bêtes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel insecte ressemble à une brindille ?",
+      "acceptableAnswers": [
+        "Le phasme",
+        "Phasme"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-insectes-20261012-05",
+      "category": "Insectes — Petites bêtes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel insecte produit de la lumière, comme une petite lanterne ?",
+      "acceptableAnswers": [
+        "La luciole",
+        "Luciole"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

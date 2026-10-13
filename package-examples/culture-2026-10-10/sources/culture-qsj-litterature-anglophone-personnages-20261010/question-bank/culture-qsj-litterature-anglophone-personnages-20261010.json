@@ -1,0 +1,43 @@
+{
+  "category": "Qui suis-je ? — Littérature britannique et irlandaise — Personnages",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-anglophone-personnages-20261010-01",
+      "category": "Qui suis-je ? — Littérature britannique et irlandaise — Personnages",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je demeure à Satis House, où les horloges sont arrêtées à neuf heures moins vingt.",
+        "Abandonnée le jour de mon mariage, je conserve ma robe de mariée et les vestiges du banquet.",
+        "J’élève Estella pour qu’elle fasse souffrir les hommes, mais j’en viens à regretter ma conduite.",
+        "Je suis la mariée délaissée de Great Expectations de Charles Dickens."
+      ],
+      "acceptableAnswers": [
+        "Miss Havisham"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-anglophone-personnages-20261010-02",
+      "category": "Qui suis-je ? — Littérature britannique et irlandaise — Personnages",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis la deuxième de cinq sœurs et je me distingue par ma vivacité d’esprit.",
+        "Je me trompe d’abord sur le caractère d’un riche homme qui m’a dédaignée lors d’un bal.",
+        "Je refuse Mr Collins, puis une première demande en mariage du maître de Pemberley.",
+        "Je suis l’héroïne de Pride and Prejudice de Jane Austen, qui finit par épouser Darcy."
+      ],
+      "acceptableAnswers": [
+        "Elizabeth Bennet"
+      ]
+    }
+  ]
+}

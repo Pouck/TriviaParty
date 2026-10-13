@@ -1,0 +1,159 @@
+{
+  "category": "Littérature française — Personnages : choix multiples",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-01",
+      "category": "Littérature française — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel jeune Gascon part pour Paris avec l’ambition de devenir mousquetaire dans le roman de Dumas ?",
+      "options": [
+        "A — D’Artagnan",
+        "B — Aramis",
+        "C — Porthos",
+        "D — Athos"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-02",
+      "category": "Littérature française — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Qui perd le collier emprunté à une amie dans La Parure de Maupassant ?",
+      "options": [
+        "A — Jeanne de Lamare",
+        "B — Madame de Rênal",
+        "C — Boule de Suif",
+        "D — Mathilde Loisel"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-03",
+      "category": "Littérature française — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Pour quel acte Jean Valjean est-il initialement condamné au bagne ?",
+      "options": [
+        "A — La falsification d’une signature",
+        "B — Une agression contre un percepteur",
+        "C — Le vol d’un pain pour nourrir la famille de sa sœur",
+        "D — Le vol d’une montre"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-04",
+      "category": "Littérature française — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel est le nom du musicien qui se cache sous l’identité du Fantôme de l’Opéra ?",
+      "options": [
+        "A — Javert",
+        "B — Quasimodo",
+        "C — Raoul",
+        "D — Erik"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-05",
+      "category": "Littérature française — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel imposteur religieux donne son nom à une comédie de Molière ?",
+      "options": [
+        "A — Alceste",
+        "B — Tartuffe",
+        "C — Dom Juan",
+        "D — Harpagon"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-06",
+      "category": "Littérature française — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel animal demande au Petit Prince de l’apprivoiser ?",
+      "options": [
+        "A — La rose",
+        "B — Le renard",
+        "C — Le roi",
+        "D — Le serpent"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-07",
+      "category": "Littérature française — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel étudiant ambitieux cherche à entrer dans la haute société dans Le Père Goriot ?",
+      "options": [
+        "A — Eugène de Rastignac",
+        "B — Charles Swann",
+        "C — Frédéric Moreau",
+        "D — Julien Sorel"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-08",
+      "category": "Littérature française — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel personnage est le mari d’Emma dans Madame Bovary ?",
+      "options": [
+        "A — Léon Dupuis",
+        "B — Rodolphe Boulanger",
+        "C — Monsieur Homais",
+        "D — Charles Bovary"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-09",
+      "category": "Littérature française — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel médecin combat l’épidémie et se révèle être le narrateur de La Peste de Camus ?",
+      "options": [
+        "A — Joseph Grand",
+        "B — Jean Tarrou",
+        "C — Bernard Rieux",
+        "D — Cottard"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-10",
+      "category": "Littérature française — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel héros donne son nom à la chanson de geste consacrée à son dernier combat à Roncevaux ?",
+      "options": [
+        "A — Cyrano",
+        "B — Lancelot",
+        "C — Roland",
+        "D — Perceval"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

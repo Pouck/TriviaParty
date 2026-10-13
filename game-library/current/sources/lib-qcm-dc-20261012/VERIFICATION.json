@@ -1,0 +1,92 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-qcm-dc-20261012-01",
+    "originalPackage": "lib-qcm-dc-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.dc.com/characters/batman",
+        "https://www.dc.com/characters/superman",
+        "https://www.dc.com/characters/wonder-woman",
+        "https://www.dc.com/characters/the-flash",
+        "https://www.dc.com/characters/aquaman"
+      ],
+      "note": "",
+      "visual": "bat"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-qcm-dc-20261012-02",
+    "originalPackage": "lib-qcm-dc-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.dc.com/characters/batman",
+        "https://www.dc.com/characters/superman",
+        "https://www.dc.com/characters/wonder-woman",
+        "https://www.dc.com/characters/the-flash",
+        "https://www.dc.com/characters/aquaman"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-qcm-dc-20261012-03",
+    "originalPackage": "lib-qcm-dc-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.dc.com/characters/batman",
+        "https://www.dc.com/characters/superman",
+        "https://www.dc.com/characters/wonder-woman",
+        "https://www.dc.com/characters/the-flash",
+        "https://www.dc.com/characters/aquaman"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-qcm-dc-20261012-04",
+    "originalPackage": "lib-qcm-dc-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.dc.com/characters/batman",
+        "https://www.dc.com/characters/superman",
+        "https://www.dc.com/characters/wonder-woman",
+        "https://www.dc.com/characters/the-flash",
+        "https://www.dc.com/characters/aquaman"
+      ],
+      "note": "",
+      "visual": "lightning"
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qcm-dc-20261012-05",
+    "originalPackage": "lib-qcm-dc-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.dc.com/characters/batman",
+        "https://www.dc.com/characters/superman",
+        "https://www.dc.com/characters/wonder-woman",
+        "https://www.dc.com/characters/the-flash",
+        "https://www.dc.com/characters/aquaman"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

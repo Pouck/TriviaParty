@@ -1,0 +1,100 @@
+{
+  "category": "Arts — Peintures dans le temps — Chronologie",
+  "subject": "Arts",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "arts-chronologie-peintures-dans-le-temps-20261011-01",
+      "category": "Arts — Peintures dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Classez ces peintures selon leur réalisation :\n• Les Époux Arnolfini\n• Les Ménines\n• La Naissance de Vénus",
+      "options": [
+        "A — Les Époux Arnolfini → La Naissance de Vénus → Les Ménines",
+        "B — La Naissance de Vénus → Les Ménines → Les Époux Arnolfini",
+        "C — La Naissance de Vénus → Les Époux Arnolfini → Les Ménines",
+        "D — Les Époux Arnolfini → Les Ménines → La Naissance de Vénus"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "arts-chronologie-peintures-dans-le-temps-20261011-02",
+      "category": "Arts — Peintures dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Classez ces peintures selon leur réalisation :\n• Impression, soleil levant\n• La Jeune Fille à la perle\n• La Ronde de nuit",
+      "options": [
+        "A — La Ronde de nuit → Impression, soleil levant → La Jeune Fille à la perle",
+        "B — La Jeune Fille à la perle → Impression, soleil levant → La Ronde de nuit",
+        "C — La Ronde de nuit → La Jeune Fille à la perle → Impression, soleil levant",
+        "D — La Jeune Fille à la perle → La Ronde de nuit → Impression, soleil levant"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "arts-chronologie-peintures-dans-le-temps-20261011-03",
+      "category": "Arts — Peintures dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Classez ces tableaux du XIXe siècle :\n• Le Radeau de la Méduse\n• Olympia\n• La Liberté guidant le peuple",
+      "options": [
+        "A — La Liberté guidant le peuple → Olympia → Le Radeau de la Méduse",
+        "B — La Liberté guidant le peuple → Le Radeau de la Méduse → Olympia",
+        "C — Le Radeau de la Méduse → Olympia → La Liberté guidant le peuple",
+        "D — Le Radeau de la Méduse → La Liberté guidant le peuple → Olympia"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "arts-chronologie-peintures-dans-le-temps-20261011-04",
+      "category": "Arts — Peintures dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Classez ces tableaux de la fin du XIXe siècle :\n• Le Cri — version peinte de 1893\n• La Nuit étoilée\n• Bal du moulin de la Galette",
+      "options": [
+        "A — Bal du moulin de la Galette → La Nuit étoilée → Le Cri — version peinte de 1893",
+        "B — La Nuit étoilée → Le Cri — version peinte de 1893 → Bal du moulin de la Galette",
+        "C — Bal du moulin de la Galette → Le Cri — version peinte de 1893 → La Nuit étoilée",
+        "D — La Nuit étoilée → Bal du moulin de la Galette → Le Cri — version peinte de 1893"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "arts-chronologie-peintures-dans-le-temps-20261011-05",
+      "category": "Arts — Peintures dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Classez ces tableaux du début du XXe siècle :\n• Guernica\n• Le Baiser de Klimt\n• American Gothic",
+      "options": [
+        "A — American Gothic → Le Baiser de Klimt → Guernica",
+        "B — American Gothic → Guernica → Le Baiser de Klimt",
+        "C — Le Baiser de Klimt → American Gothic → Guernica",
+        "D — Le Baiser de Klimt → Guernica → American Gothic"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "arts-chronologie-peintures-dans-le-temps-20261011-06",
+      "category": "Arts — Peintures dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Classez ces scènes peintes selon leur réalisation :\n• La Persistance de la mémoire\n• Nighthawks\n• Impression, soleil levant",
+      "options": [
+        "A — La Persistance de la mémoire → Impression, soleil levant → Nighthawks",
+        "B — Impression, soleil levant → La Persistance de la mémoire → Nighthawks",
+        "C — Impression, soleil levant → Nighthawks → La Persistance de la mémoire",
+        "D — La Persistance de la mémoire → Nighthawks → Impression, soleil levant"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

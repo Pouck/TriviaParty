@@ -1,0 +1,43 @@
+{
+  "category": "Qui suis-je ? — Littérature britannique et irlandaise — Œuvres",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-anglophone-oeuvres-20261010-01",
+      "category": "Qui suis-je ? — Littérature britannique et irlandaise — Œuvres",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je nais d’un défi littéraire lancé lors d’un séjour près du lac Léman en 1816, puis parais en 1818.",
+        "Mon sous-titre est The Modern Prometheus, et mon récit s’ouvre sur des lettres d’un explorateur.",
+        "Une créature rejetée exige une compagne, que son créateur commence puis détruit.",
+        "Je suis le roman de Mary Shelley dans lequel Victor donne vie à une créature."
+      ],
+      "acceptableAnswers": [
+        "Frankenstein"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-anglophone-oeuvres-20261010-02",
+      "category": "Qui suis-je ? — Littérature britannique et irlandaise — Œuvres",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Publiée en 1945, je suis une satire qui évoque la révolution russe et le stalinisme.",
+        "Un vieux verrat inspire la révolte d’animaux contre le fermier Jones.",
+        "Les cochons au pouvoir modifient peu à peu les règles pour justifier leurs privilèges.",
+        "Je suis la fable politique de George Orwell dont les animaux prennent le contrôle d’une ferme."
+      ],
+      "acceptableAnswers": [
+        "Animal Farm"
+      ]
+    }
+  ]
+}

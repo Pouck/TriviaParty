@@ -1,0 +1,75 @@
+{
+  "category": "Le cycle de la Table ronde — Réponses écrites",
+  "subject": "Contes et légendes",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-table-ronde-20261012-01",
+      "category": "Le cycle de la Table ronde — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel est le nom de la célèbre épée d’Arthur ?",
+      "acceptableAnswers": [
+        "Excalibur"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-table-ronde-20261012/sword.png"
+    },
+    {
+      "id": "lib-buzzer-table-ronde-20261012-02",
+      "category": "Le cycle de la Table ronde — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment s’appelle l’épouse du roi Arthur ?",
+      "acceptableAnswers": [
+        "Guenièvre",
+        "Guinevere"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-table-ronde-20261012-03",
+      "category": "Le cycle de la Table ronde — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel château est associé à la cour d’Arthur ?",
+      "acceptableAnswers": [
+        "Camelot"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-table-ronde-20261012/castle.png"
+    },
+    {
+      "id": "lib-buzzer-table-ronde-20261012-04",
+      "category": "Le cycle de la Table ronde — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel fils de Lancelot est associé à l’accomplissement de la quête du Graal ?",
+      "acceptableAnswers": [
+        "Galahad",
+        "Galaad"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-table-ronde-20261012-05",
+      "category": "Le cycle de la Table ronde — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel chevalier est le héros du Conte du Graal de Chrétien de Troyes ?",
+      "acceptableAnswers": [
+        "Perceval",
+        "Percival"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

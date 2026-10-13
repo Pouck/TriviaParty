@@ -1,0 +1,69 @@
+{
+  "category": "Histoire mondiale — XXe siècle : guerres et réformes",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-guerres-et-reformes-01-20261010",
+      "category": "Histoire mondiale — XXe siècle : guerres et réformes",
+      "prompt": "Quelle bataille opposa les armées française et allemande de février à décembre 1916 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La bataille de Gallipoli",
+        "B — La bataille de Verdun",
+        "C — La bataille de la Somme",
+        "D — La bataille de Passchendaele"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-guerres-et-reformes-02-20261010",
+      "category": "Histoire mondiale — XXe siècle : guerres et réformes",
+      "prompt": "Quel programme américain finança la reconstruction de l’Europe occidentale à partir de 1948 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La doctrine Eisenhower",
+        "B — La doctrine Truman",
+        "C — Le plan Marshall",
+        "D — Le programme de prêt-bail"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-guerres-et-reformes-03-20261010",
+      "category": "Histoire mondiale — XXe siècle : guerres et réformes",
+      "prompt": "Qui fut le premier être humain à voyager dans l’espace et à effectuer une orbite terrestre, en 1961 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Alan Shepard",
+        "B — John Glenn",
+        "C — Alexeï Leonov",
+        "D — Iouri Gagarine"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-guerres-et-reformes-04-20261010",
+      "category": "Histoire mondiale — XXe siècle : guerres et réformes",
+      "prompt": "Quelle politique de Gorbatchev, dont le nom signifie « transparence » ou « ouverture », favorisa le débat public en URSS ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La glasnost",
+        "B — La perestroïka",
+        "C — La démocratisation",
+        "D — Le Gosplan"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

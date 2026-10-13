@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#12121d">
+  <title>Trivia Party — Joueur</title>
+  <link rel="stylesheet" href="/play/player.css">
+</head>
+<body>
+  <header><strong>TRIVIA PARTY</strong><span id="score"></span></header>
+  <p id="connection" role="status">Connexion à l’hôte…</p>
+  <main>
+    <section id="join" class="panel">
+      <h1>À vous de jouer</h1>
+      <p>Un téléphone, une équipe. Aucun téléchargement.</p>
+      <form id="join-form">
+        <label for="name">Nom de votre équipe</label>
+        <input id="name" required maxlength="60" autocomplete="nickname">
+        <button id="join-button" type="submit" disabled>REJOINDRE</button>
+      </form>
+      <p id="join-message" role="status"></p>
+      <p class="muted">Restez sur le même Wi-Fi que l’hôte et gardez cette page ouverte pendant la partie.</p>
+    </section>
+    <section id="game" class="panel" hidden>
+      <div class="meta"><span id="team"></span></div>
+      <div id="scene"></div>
+      <p id="feedback" role="status"></p>
+    </section>
+  </main>
+  <script src="/play/player.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+{
+  "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Réponses écrites",
+  "subject": "Mythologie",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-odyssee-20261012-01",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui attend Ulysse à Ithaque ?",
+      "acceptableAnswers": [
+        "Pénélope"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-odyssee-20261012-02",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel monstre de L’Odyssée possède un seul œil ?",
+      "acceptableAnswers": [
+        "Le Cyclope",
+        "Polyphème",
+        "Cyclope"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-odyssee-20261012/one-eye.png"
+    },
+    {
+      "id": "lib-buzzer-odyssee-20261012-03",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment s’appelle le fils d’Ulysse ?",
+      "acceptableAnswers": [
+        "Télémaque"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-odyssee-20261012-04",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle magicienne transforme des compagnons d’Ulysse en cochons ?",
+      "acceptableAnswers": [
+        "Circé"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-odyssee-20261012/pig.jpg"
+    },
+    {
+      "id": "lib-buzzer-odyssee-20261012-05",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel poète est traditionnellement associé à L’Odyssée ?",
+      "acceptableAnswers": [
+        "Homère"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

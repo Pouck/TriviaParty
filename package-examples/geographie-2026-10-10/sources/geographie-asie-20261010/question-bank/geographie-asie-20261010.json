@@ -1,0 +1,141 @@
+{
+  "category": "Géographie - Asie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "geo-asie-20261010-01",
+      "category": "Géographie - Asie",
+      "prompt": "Quelle lettre correspond au Népal sur la carte ?",
+      "imageUrl": "images/carte-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 1,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Bhoutan » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Népal » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Sri Lanka » sur la carte ?",
+          "correctOptionIndex": 2
+        },
+        {
+          "prompt": "Quelle lettre indique « Bangladesh » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-asie-20261010-02",
+      "category": "Géographie - Asie",
+      "prompt": "Quelle lettre correspond à la Thaïlande sur la carte ?",
+      "imageUrl": "images/carte-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 2,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Laos » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Myanmar (Birmanie) » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Thaïlande » sur la carte ?",
+          "correctOptionIndex": 2
+        },
+        {
+          "prompt": "Quelle lettre indique « Cambodge » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-asie-20261010-03",
+      "category": "Géographie - Asie",
+      "prompt": "Quelle lettre correspond à l’Iran sur la carte ?",
+      "imageUrl": "images/carte-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 0,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Iran » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Irak » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Syrie » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-asie-20261010-04",
+      "category": "Géographie - Asie",
+      "prompt": "Quelle lettre correspond au Yémen sur la carte ?",
+      "imageUrl": "images/carte-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 3,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Arabie saoudite » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Oman » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Émirats arabes unis » sur la carte ?",
+          "correctOptionIndex": 2
+        },
+        {
+          "prompt": "Quelle lettre indique « Yémen » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    }
+  ]
+}

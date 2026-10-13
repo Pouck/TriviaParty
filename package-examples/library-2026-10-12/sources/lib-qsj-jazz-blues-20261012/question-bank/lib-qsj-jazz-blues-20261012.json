@@ -1,0 +1,96 @@
+{
+  "category": "Jazz, blues et soul — Repères — Qui suis-je ?",
+  "subject": "Musique",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-jazz-blues-20261012-01",
+      "category": "Jazz, blues et soul — Repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je viens de La Nouvelle-Orléans.",
+        "Je suis chanteur et trompettiste.",
+        "Ma voix est grave et rocailleuse.",
+        "Je chante What a Wonderful World."
+      ],
+      "acceptableAnswers": [
+        "Louis Armstrong"
+      ]
+    },
+    {
+      "id": "lib-qsj-jazz-blues-20261012-02",
+      "category": "Jazz, blues et soul — Repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une grande chanteuse de jazz.",
+        "Je suis célèbre pour le scat.",
+        "J’ai enregistré avec Louis Armstrong.",
+        "On me surnomme la First Lady of Song."
+      ],
+      "acceptableAnswers": [
+        "Ella Fitzgerald"
+      ]
+    },
+    {
+      "id": "lib-qsj-jazz-blues-20261012-03",
+      "category": "Jazz, blues et soul — Repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un musicien américain de jazz.",
+        "Mon instrument principal est la trompette.",
+        "J’ai exploré plusieurs styles, dont le jazz électrique.",
+        "Mon album Kind of Blue est célèbre."
+      ],
+      "acceptableAnswers": [
+        "Miles Davis"
+      ]
+    },
+    {
+      "id": "lib-qsj-jazz-blues-20261012-04",
+      "category": "Jazz, blues et soul — Repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis pianiste et compositeur.",
+        "Je dirige un grand orchestre de jazz.",
+        "Mon surnom évoque un titre de noblesse.",
+        "Je suis le Duke du jazz."
+      ],
+      "acceptableAnswers": [
+        "Duke Ellington"
+      ]
+    },
+    {
+      "id": "lib-qsj-jazz-blues-20261012-05",
+      "category": "Jazz, blues et soul — Repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un grand artiste du blues.",
+        "Je joue de la guitare électrique.",
+        "Je donne à mes guitares le nom Lucille.",
+        "Mes initiales sont B. B."
+      ],
+      "acceptableAnswers": [
+        "B. B. King",
+        "BB King"
+      ]
+    }
+  ]
+}

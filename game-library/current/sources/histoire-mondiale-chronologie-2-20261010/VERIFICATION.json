@@ -1,0 +1,126 @@
+[
+  {
+    "question": 1,
+    "questionId": "monde-chronologie-2-01-20261010",
+    "originalPackage": "histoire-mondiale-chronologie-2-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "monde-chronologie-2-02-20261010",
+    "originalPackage": "histoire-mondiale-chronologie-2-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "monde-chronologie-2-03-20261010",
+    "originalPackage": "histoire-mondiale-chronologie-2-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "monde-chronologie-2-04-20261010",
+    "originalPackage": "histoire-mondiale-chronologie-2-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-chronologie-explorateurs-reperes-20261012-03",
+    "originalPackage": "lib-chronologie-explorateurs-reperes-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+        "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+        "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+        "https://www.britannica.com/biography/Roald-Amundsen"
+      ],
+      "note": "Premier voyage de Cartier (1534) → Champlain fonde Québec (1608) → Amundsen atteint le pôle Sud (1911)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez ces jalons de l’exploration.",
+      "events": [
+        [
+          "Premier voyage de Cartier",
+          1534
+        ],
+        [
+          "Départ du premier voyage de James Cook",
+          1768
+        ],
+        [
+          "Amundsen atteint le pôle Sud",
+          1911
+        ]
+      ],
+      "sources": [
+        "https://www.rmg.co.uk/collections/objects/rmgc-object-40271"
+      ]
+    }
+  },
+  {
+    "question": 6,
+    "questionId": "lib-chronologie-explorateurs-reperes-20261012-04",
+    "originalPackage": "lib-chronologie-explorateurs-reperes-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+        "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+        "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+        "https://www.britannica.com/biography/Roald-Amundsen"
+      ],
+      "note": "Départ de l’expédition de Magellan (1519) → Mort de Magellan aux Philippines (1521) → Retour d’Elcano en Espagne (1522)",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 7,
+    "questionId": "lib-chronologie-explorateurs-reperes-20261012-05",
+    "originalPackage": "lib-chronologie-explorateurs-reperes-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+        "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+        "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+        "https://www.britannica.com/biography/Roald-Amundsen"
+      ],
+      "note": "Colomb atteint les Caraïbes (1492) → Cartier atteint Hochelaga (1535) → Amundsen atteint le pôle Sud (1911)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez ces voyages historiques.",
+      "events": [
+        [
+          "Colomb atteint les Caraïbes",
+          1492
+        ],
+        [
+          "Gagarine devient le premier humain dans l’espace",
+          1961
+        ],
+        [
+          "Armstrong fait ses premiers pas sur la Lune",
+          1969
+        ]
+      ],
+      "sources": [
+        "https://science.nasa.gov/resource/yuri-gagarin-first-human-in-space/",
+        "https://www.nasa.gov/missions/apollo/apollo-11/apollo-11-mission-overview/"
+      ]
+    }
+  }
+]

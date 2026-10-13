@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "river",
+    "title": "Saint Lawrence River",
+    "file": "river.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Le_fleuve_Saint-Laurent.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Le_fleuve_Saint-Laurent.jpg/1920px-Le_fleuve_Saint-Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "abdallahh",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "credit": "originally posted to Flickr as Le fleuve Saint-Laurent",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-explorateurs-20261012"
+  },
+  {
+    "slug": "antarctica",
+    "title": "Antarctica",
+    "file": "antarctica.png",
+    "commons": "https://commons.wikimedia.org/wiki/File:Antarctica_(orthographic_projection).svg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Antarctica_%28orthographic_projection%29.svg/1920px-Antarctica_%28orthographic_projection%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Heraldry",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "credit": "Own work \n\n\n\n\n\nThe map has been created with the Generic Mapping Tools: https://www.generic-mapping-tools.org/ using one or more of these public-domain datasets for the relief:\nETOPO2 (topography/bathymetry): http://www.ngdc.noaa.gov/mgg/global/global.html\nGLOBE (topography): http://www.ngdc.noaa.gov/mgg/topo/gltiles.html\nSRTM (topography): http://www2.jpl.nasa.gov/srtm/\n\nবাংলা ∙ English ∙ español ∙ français ∙ italiano ∙ 日本語 ∙ македонски ∙ sicilianu ∙ 中文（简体） ∙ 中文（繁體） ∙ +/−\n\n\n\n\n\n\nPermission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled GNU Free Documentation License.http://www.gnu.org/copyleft/fdl.htmlGFDLGNU Free Documentation Licensetruetrue",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-explorateurs-20261012"
+  }
+]

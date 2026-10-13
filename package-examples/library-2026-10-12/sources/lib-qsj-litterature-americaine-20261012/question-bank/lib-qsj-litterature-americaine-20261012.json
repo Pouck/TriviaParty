@@ -1,0 +1,98 @@
+{
+  "category": "Littérature américaine — Classiques — Qui suis-je ?",
+  "subject": "Littérature",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-litterature-americaine-20261012-01",
+      "category": "Littérature américaine — Classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un roman d’Herman Melville.",
+        "Ishmael raconte mon histoire.",
+        "Le capitaine Ahab commande le Pequod.",
+        "Une baleine blanche est au centre de sa chasse."
+      ],
+      "acceptableAnswers": [
+        "Moby-Dick"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-americaine-20261012-02",
+      "category": "Littérature américaine — Classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un roman de Fitzgerald.",
+        "Nick Carraway est mon narrateur.",
+        "Daisy Buchanan est aimée par mon héros.",
+        "Il donne de grandes fêtes à Long Island."
+      ],
+      "acceptableAnswers": [
+        "The Great Gatsby",
+        "Gatsby le Magnifique"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-americaine-20261012-03",
+      "category": "Littérature américaine — Classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un roman de Harper Lee.",
+        "Scout raconte une enfance en Alabama.",
+        "Son père défend Tom Robinson.",
+        "Cet avocat s’appelle Atticus Finch."
+      ],
+      "acceptableAnswers": [
+        "To Kill a Mockingbird",
+        "Ne tirez pas sur l’oiseau moqueur"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-americaine-20261012-04",
+      "category": "Littérature américaine — Classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un roman de Ray Bradbury.",
+        "Mon héros s’appelle Montag.",
+        "Les livres sont interdits dans mon monde.",
+        "Mes pompiers les brûlent."
+      ],
+      "acceptableAnswers": [
+        "Fahrenheit 451"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-americaine-20261012-05",
+      "category": "Littérature américaine — Classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un récit d’Hemingway.",
+        "Mon héros est un vieux pêcheur cubain.",
+        "Il lutte contre un grand marlin.",
+        "Mon titre réunit le vieil homme et la mer."
+      ],
+      "acceptableAnswers": [
+        "The Old Man and the Sea",
+        "Le Vieil Homme et la Mer"
+      ]
+    }
+  ]
+}

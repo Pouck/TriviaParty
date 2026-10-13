@@ -1,0 +1,95 @@
+{
+  "category": "Littérature québécoise — Grands noms — Qui suis-je ?",
+  "subject": "Littérature",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-litterature-quebec-20261012-01",
+      "category": "Littérature québécoise — Grands noms — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un auteur montréalais.",
+        "Le Plateau-Mont-Royal occupe une grande place dans mon œuvre.",
+        "Mon théâtre a donné une place importante au joual.",
+        "Je suis l’auteur des Belles-Sœurs."
+      ],
+      "acceptableAnswers": [
+        "Michel Tremblay"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-quebec-20261012-02",
+      "category": "Littérature québécoise — Grands noms — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis née à Saint-Boniface, au Manitoba.",
+        "J’ai aussi travaillé comme institutrice.",
+        "Mon premier roman décrit Saint-Henri à Montréal.",
+        "J’ai écrit Bonheur d’occasion."
+      ],
+      "acceptableAnswers": [
+        "Gabrielle Roy"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-quebec-20261012-03",
+      "category": "Littérature québécoise — Grands noms — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis poète et romancière.",
+        "J’ai notamment écrit Les Chambres de bois.",
+        "Les Fous de Bassan appartient à mon œuvre.",
+        "Je suis l’autrice de Kamouraska."
+      ],
+      "acceptableAnswers": [
+        "Anne Hébert"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-quebec-20261012-04",
+      "category": "Littérature québécoise — Grands noms — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un poète de Montréal.",
+        "J’écris surtout à la fin du XIXe siècle.",
+        "Soir d’hiver est un de mes poèmes célèbres.",
+        "On m’associe au Vaisseau d’or."
+      ],
+      "acceptableAnswers": [
+        "Émile Nelligan"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-quebec-20261012-05",
+      "category": "Littérature québécoise — Grands noms — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis écrivain, chanteur et guitariste.",
+        "Je suis associé à l’île d’Orléans.",
+        "J’ai écrit Pieds nus dans l’aube.",
+        "Mon prénom a donné son nom aux trophées de l’ADISQ."
+      ],
+      "acceptableAnswers": [
+        "Félix Leclerc"
+      ]
+    }
+  ]
+}

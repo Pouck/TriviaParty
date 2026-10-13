@@ -1,0 +1,99 @@
+{
+  "category": "Musique classique — Compositeurs et œuvres — Qui suis-je ?",
+  "subject": "Musique",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-classique-20261012-01",
+      "category": "Musique classique — Compositeurs et œuvres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis né à Salzbourg.",
+        "Je compose dès mon enfance.",
+        "J’ai écrit Les Noces de Figaro.",
+        "Je suis le compositeur de La Flûte enchantée."
+      ],
+      "acceptableAnswers": [
+        "Mozart",
+        "Wolfgang Amadeus Mozart"
+      ]
+    },
+    {
+      "id": "lib-qsj-classique-20261012-02",
+      "category": "Musique classique — Compositeurs et œuvres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis né à Bonn.",
+        "Ma surdité progresse pendant ma carrière.",
+        "La Cinquième et la Neuvième sont mes symphonies célèbres.",
+        "J’ai mis l’Ode à la joie en musique."
+      ],
+      "acceptableAnswers": [
+        "Beethoven",
+        "Ludwig van Beethoven"
+      ]
+    },
+    {
+      "id": "lib-qsj-classique-20261012-03",
+      "category": "Musique classique — Compositeurs et œuvres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un compositeur italien.",
+        "On me surnomme le Prêtre roux.",
+        "Je suis violoniste.",
+        "J’ai composé Les Quatre Saisons."
+      ],
+      "acceptableAnswers": [
+        "Vivaldi",
+        "Antonio Vivaldi"
+      ]
+    },
+    {
+      "id": "lib-qsj-classique-20261012-04",
+      "category": "Musique classique — Compositeurs et œuvres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un compositeur d’origine polonaise.",
+        "Je passe une partie de ma vie à Paris.",
+        "Mes nocturnes et polonaises sont célèbres.",
+        "Mon œuvre est surtout associée au piano."
+      ],
+      "acceptableAnswers": [
+        "Chopin",
+        "Frédéric Chopin"
+      ]
+    },
+    {
+      "id": "lib-qsj-classique-20261012-05",
+      "category": "Musique classique — Compositeurs et œuvres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un compositeur russe.",
+        "Casse-Noisette est un de mes ballets.",
+        "La Belle au bois dormant est un autre de mes ballets.",
+        "J’ai composé Le Lac des cygnes."
+      ],
+      "acceptableAnswers": [
+        "Tchaïkovski"
+      ]
+    }
+  ]
+}

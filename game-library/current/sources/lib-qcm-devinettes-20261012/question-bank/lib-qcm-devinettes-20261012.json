@@ -1,0 +1,87 @@
+{
+  "category": "Devinettes — Objets familiers — QCM",
+  "subject": "Logique et énigmes",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-devinettes-20261012-01",
+      "category": "Devinettes — Objets familiers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Je garde des dents dans vos cheveux, sans vous mordre. Qui suis-je ?",
+      "options": [
+        "A — Un peigne",
+        "B — Une scie",
+        "C — Une fourchette",
+        "D — Une fermeture éclair"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-devinettes-20261012-02",
+      "category": "Devinettes — Objets familiers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Je donne l’heure avec des aiguilles, sans piquer. Qui suis-je ?",
+      "options": [
+        "A — Une balance",
+        "B — Une boussole",
+        "C — Un thermomètre",
+        "D — Une horloge"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/lib-qcm-devinettes-20261012/clock.png"
+    },
+    {
+      "id": "lib-qcm-devinettes-20261012-03",
+      "category": "Devinettes — Objets familiers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "J’ai des pages et une couverture, sans être un lit. Qui suis-je ?",
+      "options": [
+        "A — Une valise",
+        "B — Un livre",
+        "C — Un tapis",
+        "D — Un oreiller"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-devinettes-20261012-04",
+      "category": "Devinettes — Objets familiers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "J’ouvre une serrure sans avoir de main. Qui suis-je ?",
+      "options": [
+        "A — Une clé",
+        "B — Une cuillère",
+        "C — Une pièce",
+        "D — Un clou"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-devinettes-20261012/key.png"
+    },
+    {
+      "id": "lib-qcm-devinettes-20261012-05",
+      "category": "Devinettes — Objets familiers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Je sèche votre corps et deviens humide. Qui suis-je ?",
+      "options": [
+        "A — Une éponge sèche",
+        "B — Un savon",
+        "C — Une serviette",
+        "D — Un miroir"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "revolution-francaise-culture-et-mobilisation-20261010",
+  "name": "Révolution française — Culture et mobilisation",
+  "description": "5 questions en français. 15 points au départ ; −1 point par seconde. Sablier unique de 15 secondes.",
+  "categoryPackages": [
+    "revolution-francaise-culture-et-mobilisation-20261010"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 15,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 0,
+    "pointsDecayPerFlip": null,
+    "pointsDecayPerSecond": 1
+  },
+  "answerTimeSeconds": 10
+}

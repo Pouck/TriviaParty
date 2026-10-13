@@ -1,0 +1,37 @@
+[
+  {
+    "question": 1,
+    "questionId": "test-06-map-choice-q1",
+    "originalPackage": "test-06-map-choice",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "test-20261012-carte-complement-1",
+    "originalPackage": "test-06-map-choice",
+    "reference": {},
+    "new": true
+  },
+  {
+    "question": 3,
+    "questionId": "test-20261012-carte-complement-2",
+    "originalPackage": "test-06-map-choice",
+    "reference": {},
+    "new": true
+  },
+  {
+    "question": 4,
+    "questionId": "test-20261012-carte-complement-3",
+    "originalPackage": "test-06-map-choice",
+    "reference": {},
+    "new": true
+  },
+  {
+    "question": 5,
+    "questionId": "test-20261012-carte-complement-4",
+    "originalPackage": "test-06-map-choice",
+    "reference": {},
+    "new": true
+  }
+]

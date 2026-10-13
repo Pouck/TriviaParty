@@ -1,0 +1,87 @@
+{
+  "category": "Insectes — Petites bêtes — QCM",
+  "subject": "Nature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-insectes-20261012-01",
+      "category": "Insectes — Petites bêtes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Combien de pattes possède normalement un insecte adulte ?",
+      "options": [
+        "A — Six",
+        "B — Quatre",
+        "C — Huit",
+        "D — Dix"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-insectes-20261012-02",
+      "category": "Insectes — Petites bêtes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel insecte est représenté ici ?",
+      "options": [
+        "A — Une punaise",
+        "B — Une coccinelle",
+        "C — Un scarabée rhinocéros",
+        "D — Une luciole"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/ladybird.jpg"
+    },
+    {
+      "id": "lib-qcm-insectes-20261012-03",
+      "category": "Insectes — Petites bêtes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle est la larve du papillon ?",
+      "options": [
+        "A — Le ver de terre",
+        "B — L’asticot",
+        "C — La chenille",
+        "D — Le têtard"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-insectes-20261012-04",
+      "category": "Insectes — Petites bêtes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel insecte est connu pour produire du miel ?",
+      "options": [
+        "A — La cigale",
+        "B — La guêpe",
+        "C — Le moustique",
+        "D — L’abeille"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/bee.jpg"
+    },
+    {
+      "id": "lib-qcm-insectes-20261012-05",
+      "category": "Insectes — Petites bêtes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Lequel de ces animaux n’est pas un insecte ?",
+      "options": [
+        "A — La fourmi",
+        "B — La libellule",
+        "C — Le criquet",
+        "D — L’araignée"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

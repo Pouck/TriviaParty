@@ -1,0 +1,199 @@
+{
+  "category": "Histoire mondiale — Transformations et explorations — Chronologie — 2",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "kind": "ordering",
+      "id": "monde-chronologie-2-01-20261010",
+      "category": "Histoire mondiale — Transformations et explorations — Chronologie — 2",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Publication de L’Origine des espèces"
+        },
+        {
+          "id": "item-1",
+          "text": "Campagne de Russie de Napoléon"
+        },
+        {
+          "id": "item-2",
+          "text": "Convention de Seneca Falls"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "monde-chronologie-2-02-20261010",
+      "category": "Histoire mondiale — Transformations et explorations — Chronologie — 2",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Premier vol motorisé et contrôlé des frères Wright"
+        },
+        {
+          "id": "item-1",
+          "text": "Pandémie de grippe dite « espagnole »"
+        },
+        {
+          "id": "item-2",
+          "text": "Ouverture du central téléphonique commercial de New Haven"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "monde-chronologie-2-03-20261010",
+      "category": "Histoire mondiale — Transformations et explorations — Chronologie — 2",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Adoption de la Déclaration universelle des droits de l’homme"
+        },
+        {
+          "id": "item-1",
+          "text": "Attaque de Pearl Harbor"
+        },
+        {
+          "id": "item-2",
+          "text": "Début de la bataille de Stalingrad"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "monde-chronologie-2-04-20261010",
+      "category": "Histoire mondiale — Transformations et explorations — Chronologie — 2",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Premier alunissage humain, avec Apollo 11"
+        },
+        {
+          "id": "item-1",
+          "text": "Catastrophe nucléaire de Tchernobyl"
+        },
+        {
+          "id": "item-2",
+          "text": "Chute de la monarchie en Iran"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-explorateurs-reperes-20261012-03",
+      "category": "Histoire mondiale — Transformations et explorations — Chronologie — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces jalons de l’exploration.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Départ du premier voyage de James Cook"
+        },
+        {
+          "id": "item-1",
+          "text": "Amundsen atteint le pôle Sud"
+        },
+        {
+          "id": "item-2",
+          "text": "Premier voyage de Cartier"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-explorateurs-reperes-20261012-04",
+      "category": "Histoire mondiale — Transformations et explorations — Chronologie — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les étapes de la première circumnavigation",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Mort de Magellan aux Philippines"
+        },
+        {
+          "id": "item-1",
+          "text": "Retour d’Elcano en Espagne"
+        },
+        {
+          "id": "item-2",
+          "text": "Départ de l’expédition de Magellan"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-explorateurs-reperes-20261012-05",
+      "category": "Histoire mondiale — Transformations et explorations — Chronologie — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces voyages historiques.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Gagarine devient le premier humain dans l’espace"
+        },
+        {
+          "id": "item-1",
+          "text": "Armstrong fait ses premiers pas sur la Lune"
+        },
+        {
+          "id": "item-2",
+          "text": "Colomb atteint les Caraïbes"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

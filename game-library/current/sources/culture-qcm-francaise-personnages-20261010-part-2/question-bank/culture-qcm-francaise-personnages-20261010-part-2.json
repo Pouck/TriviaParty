@@ -1,0 +1,85 @@
+{
+  "category": "Littérature française — Personnages : choix multiples — 2",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-06",
+      "category": "Littérature française — Personnages : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel animal demande au Petit Prince de l’apprivoiser ?",
+      "options": [
+        "A — La rose",
+        "B — Le roi",
+        "C — Le serpent",
+        "D — Le renard"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-07",
+      "category": "Littérature française — Personnages : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel étudiant ambitieux cherche à entrer dans la haute société dans Le Père Goriot ?",
+      "options": [
+        "A — Eugène de Rastignac",
+        "B — Julien Sorel",
+        "C — Frédéric Moreau",
+        "D — Charles Swann"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-08",
+      "category": "Littérature française — Personnages : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel personnage est le mari d’Emma dans Madame Bovary ?",
+      "options": [
+        "A — Rodolphe Boulanger",
+        "B — Charles Bovary",
+        "C — Léon Dupuis",
+        "D — Monsieur Homais"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-09",
+      "category": "Littérature française — Personnages : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel médecin combat l’épidémie et se révèle être le narrateur de La Peste de Camus ?",
+      "options": [
+        "A — Bernard Rieux",
+        "B — Joseph Grand",
+        "C — Jean Tarrou",
+        "D — Cottard"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-10",
+      "category": "Littérature française — Personnages : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel héros donne son nom à la chanson de geste consacrée à son dernier combat à Roncevaux ?",
+      "options": [
+        "A — Cyrano",
+        "B — Perceval",
+        "C — Roland",
+        "D — Lancelot"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

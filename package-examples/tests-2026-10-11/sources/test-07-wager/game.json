@@ -1,0 +1,15 @@
+{
+  "id": "test-07-wager",
+  "name": "TEST Mise — ancien format",
+  "description": "Une question pour tester le rendu et les contrôles.",
+  "categoryPackages": [
+    "test-07-wager"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

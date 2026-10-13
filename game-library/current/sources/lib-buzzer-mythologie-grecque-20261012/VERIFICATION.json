@@ -1,0 +1,82 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-buzzer-mythologie-grecque-20261012-01",
+    "originalPackage": "lib-buzzer-mythologie-grecque-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.metmuseum.org/essays/greek-gods-and-religious-practices",
+        "https://www.theoi.com/",
+        "https://www.perseus.tufts.edu/hopper/"
+      ],
+      "note": "",
+      "visual": "snakes"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-buzzer-mythologie-grecque-20261012-02",
+    "originalPackage": "lib-buzzer-mythologie-grecque-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.metmuseum.org/essays/greek-gods-and-religious-practices",
+        "https://www.theoi.com/",
+        "https://www.perseus.tufts.edu/hopper/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-buzzer-mythologie-grecque-20261012-03",
+    "originalPackage": "lib-buzzer-mythologie-grecque-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.metmuseum.org/essays/greek-gods-and-religious-practices",
+        "https://www.theoi.com/",
+        "https://www.perseus.tufts.edu/hopper/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-buzzer-mythologie-grecque-20261012-04",
+    "originalPackage": "lib-buzzer-mythologie-grecque-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.metmuseum.org/essays/greek-gods-and-religious-practices",
+        "https://www.theoi.com/",
+        "https://www.perseus.tufts.edu/hopper/"
+      ],
+      "note": "",
+      "visual": "phoenix"
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-buzzer-mythologie-grecque-20261012-05",
+    "originalPackage": "lib-buzzer-mythologie-grecque-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.metmuseum.org/essays/greek-gods-and-religious-practices",
+        "https://www.theoi.com/",
+        "https://www.perseus.tufts.edu/hopper/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

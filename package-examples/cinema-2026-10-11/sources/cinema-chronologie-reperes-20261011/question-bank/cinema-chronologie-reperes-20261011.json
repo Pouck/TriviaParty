@@ -1,0 +1,100 @@
+{
+  "category": "Cinéma — Sorties de films — Repères — Chronologie",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "cinema-chronologie-reperes-20261011-01",
+      "category": "Cinéma — Sorties de films — Repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Grands succès de Spielberg — du plus ancien au plus récent :\n• Raiders of the Lost Ark\n• Jaws\n• Jurassic Park",
+      "options": [
+        "A — Raiders of the Lost Ark → Jurassic Park → Jaws",
+        "B — Raiders of the Lost Ark → Jaws → Jurassic Park",
+        "C — Jaws → Jurassic Park → Raiders of the Lost Ark",
+        "D — Jaws → Raiders of the Lost Ark → Jurassic Park"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "cinema-chronologie-reperes-20261011-02",
+      "category": "Cinéma — Sorties de films — Repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Animation Disney — versions originales — du plus ancien au plus récent :\n• Cinderella\n• The Lion King\n• Snow White and the Seven Dwarfs",
+      "options": [
+        "A — Snow White and the Seven Dwarfs → The Lion King → Cinderella",
+        "B — Cinderella → Snow White and the Seven Dwarfs → The Lion King",
+        "C — Snow White and the Seven Dwarfs → Cinderella → The Lion King",
+        "D — Cinderella → The Lion King → Snow White and the Seven Dwarfs"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "cinema-chronologie-reperes-20261011-03",
+      "category": "Cinéma — Sorties de films — Repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Science-fiction — du plus ancien au plus récent :\n• The Matrix\n• 2001: A Space Odyssey\n• Star Wars: A New Hope",
+      "options": [
+        "A — 2001: A Space Odyssey → Star Wars: A New Hope → The Matrix",
+        "B — Star Wars: A New Hope → 2001: A Space Odyssey → The Matrix",
+        "C — 2001: A Space Odyssey → The Matrix → Star Wars: A New Hope",
+        "D — Star Wars: A New Hope → The Matrix → 2001: A Space Odyssey"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "cinema-chronologie-reperes-20261011-04",
+      "category": "Cinéma — Sorties de films — Repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Comédies musicales — du plus ancien au plus récent :\n• The Sound of Music\n• Grease\n• Singin’ in the Rain",
+      "options": [
+        "A — Singin’ in the Rain → Grease → The Sound of Music",
+        "B — The Sound of Music → Grease → Singin’ in the Rain",
+        "C — Singin’ in the Rain → The Sound of Music → Grease",
+        "D — The Sound of Music → Singin’ in the Rain → Grease"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "cinema-chronologie-reperes-20261011-05",
+      "category": "Cinéma — Sorties de films — Repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Superhéros — versions avec ces acteurs — du plus ancien au plus récent :\n• Batman (Michael Keaton)\n• Superman (Christopher Reeve)\n• Spider-Man (Tobey Maguire)",
+      "options": [
+        "A — Superman (Christopher Reeve) → Batman (Michael Keaton) → Spider-Man (Tobey Maguire)",
+        "B — Batman (Michael Keaton) → Spider-Man (Tobey Maguire) → Superman (Christopher Reeve)",
+        "C — Superman (Christopher Reeve) → Spider-Man (Tobey Maguire) → Batman (Michael Keaton)",
+        "D — Batman (Michael Keaton) → Superman (Christopher Reeve) → Spider-Man (Tobey Maguire)"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "cinema-chronologie-reperes-20261011-06",
+      "category": "Cinéma — Sorties de films — Repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Aventure et grands spectacles — du plus ancien au plus récent :\n• Jurassic Park\n• Back to the Future\n• Titanic",
+      "options": [
+        "A — Back to the Future → Titanic → Jurassic Park",
+        "B — Back to the Future → Jurassic Park → Titanic",
+        "C — Jurassic Park → Titanic → Back to the Future",
+        "D — Jurassic Park → Back to the Future → Titanic"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

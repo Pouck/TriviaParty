@@ -1,0 +1,15 @@
+{
+  "id": "test-09-carte-qcm",
+  "name": "TEST Carte — image et lettres",
+  "description": "Une question pour tester le rendu et les contrôles.",
+  "categoryPackages": [
+    "test-09-carte-qcm"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

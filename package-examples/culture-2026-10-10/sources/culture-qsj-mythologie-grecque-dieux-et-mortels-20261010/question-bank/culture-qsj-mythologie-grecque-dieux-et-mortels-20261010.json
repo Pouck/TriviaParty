@@ -1,0 +1,43 @@
+{
+  "category": "Qui suis-je ? — Mythologie grecque — Dieux et mortels",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-mythologie-grecque-dieux-et-mortels-20261010-01",
+      "category": "Qui suis-je ? — Mythologie grecque — Dieux et mortels",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Dans un mythe thébain, ma mère Sémélé meurt après avoir voulu voir Zeus dans sa gloire divine.",
+        "Zeus me sauve et achève ma gestation dans sa cuisse.",
+        "Mon cortège comprend des satyres et des ménades ; la vigne, le lierre et le thyrse me sont associés.",
+        "Je suis le dieu grec du vin, des fêtes et du théâtre."
+      ],
+      "acceptableAnswers": [
+        "Dionysos"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-mythologie-grecque-dieux-et-mortels-20261010-02",
+      "category": "Qui suis-je ? — Mythologie grecque — Dieux et mortels",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Selon un récit, ma jalousie envers mon neveu me conduit à le précipiter du haut de l’Acropole.",
+        "En Crète, Minos me charge de bâtir un labyrinthe pour enfermer le Minotaure.",
+        "Pour quitter l’île avec mon fils, je fabrique des ailes de plumes assemblées avec de la cire.",
+        "Je suis l’inventeur mythique et le père d’Icare, qui vole trop près du soleil."
+      ],
+      "acceptableAnswers": [
+        "Dédale"
+      ]
+    }
+  ]
+}

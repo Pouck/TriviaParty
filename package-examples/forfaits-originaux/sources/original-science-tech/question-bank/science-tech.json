@@ -1,0 +1,87 @@
+{
+  "category": "Sciences et technologie",
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "q5",
+      "category": "Sciences et technologie",
+      "prompt": "Quel langage informatique porte le nom d’une île indonésienne ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Java",
+        "B — C++",
+        "C — JavaScript",
+        "D — Python"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/island.png"
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q17",
+      "category": "Sciences et technologie",
+      "prompt": "Quel est le symbole chimique de l’or ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Fe",
+        "B — Au",
+        "C — Gd",
+        "D — Ag"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q18",
+      "category": "Sciences et technologie",
+      "prompt": "Quelle entreprise a créé l’iPhone ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Amazon",
+        "B — Google",
+        "C — Apple",
+        "D — Microsoft"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q19",
+      "category": "Sciences et technologie",
+      "prompt": "Comment appelle-t-on le passage de l’eau liquide à la glace ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — L’évaporation",
+        "B — La fusion",
+        "C — La sublimation",
+        "D — La solidification"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/snow.png"
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q20",
+      "category": "Sciences et technologie",
+      "prompt": "Quelle planète est la plus proche du Soleil ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La Terre",
+        "B — Mars",
+        "C — Mercure",
+        "D — Vénus"
+      ],
+      "correctOptionIndex": 2
+    }
+  ],
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "subject": "Sciences"
+}

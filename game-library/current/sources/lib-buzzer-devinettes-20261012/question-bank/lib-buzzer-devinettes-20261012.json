@@ -1,0 +1,77 @@
+{
+  "category": "Devinettes — Objets familiers — Buzzer",
+  "subject": "Logique et énigmes",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-devinettes-20261012-01",
+      "category": "Devinettes — Objets familiers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Que peut-on casser en ne tenant pas sa parole ?",
+      "acceptableAnswers": [
+        "Une promesse",
+        "Promesse"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-devinettes-20261012-02",
+      "category": "Devinettes — Objets familiers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Je protège de la pluie et m’ouvre au-dessus de votre tête. Qui suis-je ?",
+      "acceptableAnswers": [
+        "Un parapluie",
+        "Parapluie"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-devinettes-20261012/umbrella.png"
+    },
+    {
+      "id": "lib-buzzer-devinettes-20261012-03",
+      "category": "Devinettes — Objets familiers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "J’ai un goulot et contiens des boissons. Qui suis-je ?",
+      "acceptableAnswers": [
+        "Une bouteille",
+        "Bouteille"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-devinettes-20261012-04",
+      "category": "Devinettes — Objets familiers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Je porte votre reflet et suis accroché au mur. Qui suis-je ?",
+      "acceptableAnswers": [
+        "Un miroir",
+        "Miroir"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-devinettes-20261012/mirror.png"
+    },
+    {
+      "id": "lib-buzzer-devinettes-20261012-05",
+      "category": "Devinettes — Objets familiers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Je suis la partie d’une chaussure qui touche le sol. Qui suis-je ?",
+      "acceptableAnswers": [
+        "La semelle",
+        "Semelle"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "question": 1,
+    "questionId": "architecture-buzzer-monde-20261011-01",
+    "originalPackage": "architecture-buzzer-monde-20261011",
+    "reference": {
+      "question": 1,
+      "site": "machu",
+      "verification": "https://whc.unesco.org/en/list/274/",
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_2023_(012).jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "architecture-buzzer-monde-20261011-02",
+    "originalPackage": "architecture-buzzer-monde-20261011",
+    "reference": {
+      "question": 2,
+      "site": "giza",
+      "verification": "https://whc.unesco.org/en/list/86/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "architecture-buzzer-monde-20261011-03",
+    "originalPackage": "architecture-buzzer-monde-20261011",
+    "reference": {
+      "question": 3,
+      "site": "wall",
+      "verification": "https://whc.unesco.org/en/list/438/",
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "architecture-buzzer-monde-20261011-04",
+    "originalPackage": "architecture-buzzer-monde-20261011",
+    "reference": {
+      "question": 4,
+      "site": "liberty",
+      "verification": "https://www.nps.gov/articles/000/statue-of-liberty-national-monument-world-heritage-site.htm",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "architecture-buzzer-monde-20261011-05",
+    "originalPackage": "architecture-buzzer-monde-20261011",
+    "reference": {
+      "question": 5,
+      "site": "moai",
+      "verification": "https://whc.unesco.org/en/list/715/",
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:AhuTongariki.JPG"
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "architecture-buzzer-monde-20261011-06",
+    "originalPackage": "architecture-buzzer-monde-20261011",
+    "reference": {
+      "question": 6,
+      "site": "parthenon",
+      "verification": "https://whc.unesco.org/en/list/404/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  }
+]

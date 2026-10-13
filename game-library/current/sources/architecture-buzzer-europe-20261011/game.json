@@ -1,0 +1,15 @@
+{
+  "id": "architecture-buzzer-europe-20261011",
+  "name": "Architecture — Reconnaissance — Europe — Réponses écrites",
+  "description": "6 questions en français. 30 secondes ; 15 → 10 → 5 points.  Réponses écrites, validées individuellement par l’hôte.",
+  "categoryPackages": [
+    "architecture-buzzer-europe-20261011"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 10,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

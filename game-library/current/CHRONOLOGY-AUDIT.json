@@ -1,0 +1,57 @@
+{
+  "chronologyQuestions": 119,
+  "revisedQuestions": 23,
+  "repeatedPairs": [],
+  "repeatedSingleEvents": [
+    {
+      "event": "raiders of the lost ark",
+      "questions": [
+        "cinema-chronologie-reperes-20261011-01",
+        "cinema-chronologie-sagas-20261011-01"
+      ]
+    },
+    {
+      "event": "colomb atteint les caraibes",
+      "questions": [
+        "lib-chronologie-explorateurs-reperes-20261012-01",
+        "lib-chronologie-explorateurs-reperes-20261012-05"
+      ]
+    },
+    {
+      "event": "premier voyage de cartier",
+      "questions": [
+        "lib-chronologie-explorateurs-reperes-20261012-02",
+        "lib-chronologie-explorateurs-reperes-20261012-03"
+      ]
+    },
+    {
+      "event": "uf",
+      "questions": [
+        "lib-chronologie-nature-cycles-20261012-01",
+        "lib-chronologie-nature-cycles-20261012-02",
+        "lib-chronologie-nature-cycles-20261012-05"
+      ]
+    },
+    {
+      "event": "rencontre du cyclope",
+      "questions": [
+        "lib-chronologie-odyssee-episodes-20261012-01",
+        "lib-chronologie-odyssee-episodes-20261012-02"
+      ]
+    },
+    {
+      "event": "circe",
+      "questions": [
+        "lib-chronologie-odyssee-episodes-20261012-02",
+        "lib-chronologie-odyssee-episodes-20261012-03"
+      ]
+    },
+    {
+      "event": "arrivee a ithaque",
+      "questions": [
+        "lib-chronologie-odyssee-episodes-20261012-04",
+        "lib-chronologie-odyssee-episodes-20261012-05"
+      ]
+    }
+  ]
+}

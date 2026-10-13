@@ -1,0 +1,85 @@
+{
+  "category": "Canada — Guerres et relations internationales — QCM — 2",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-06",
+      "category": "Canada — Guerres et relations internationales — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel premier ministre canadien hésite à placer les forces canadiennes en état d’alerte pendant la crise des missiles de Cuba en 1962 ?",
+      "options": [
+        "A — John Diefenbaker",
+        "B — Louis St-Laurent",
+        "C — Pierre Elliott Trudeau",
+        "D — Lester B. Pearson"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-07",
+      "category": "Canada — Guerres et relations internationales — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle crise de 1926 découle du refus du gouverneur général de dissoudre le Parlement à la demande de Mackenzie King ?",
+      "options": [
+        "A — Le différend Balfour",
+        "B — L’affaire King-Byng",
+        "C — La crise de la Peur rouge",
+        "D — La crise de Chanak"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-08",
+      "category": "Canada — Guerres et relations internationales — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Que désigne le Programme d’entraînement aérien du Commonwealth britannique pendant la Seconde Guerre mondiale ?",
+      "options": [
+        "A — La formation de personnel navigant allié au Canada",
+        "B — Un programme canadien d’artillerie",
+        "C — Un protocole de débarquement de croiseurs",
+        "D — La formation de troupes blindées"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-09",
+      "category": "Canada — Guerres et relations internationales — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel accord commercial entre le Canada et les États-Unis entre en vigueur en 1989 ?",
+      "options": [
+        "A — Le GATT",
+        "B — Le Pacte de l’automobile",
+        "C — L’Accord de libre-échange Canada–États-Unis",
+        "D — L’ALENA"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-10",
+      "category": "Canada — Guerres et relations internationales — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel territoire est créé en 1999 à la suite de l’accord sur les revendications territoriales des Inuit ?",
+      "options": [
+        "A — Le Yukon",
+        "B — L’Inuvialuit",
+        "C — Les Territoires du Nord-Ouest",
+        "D — Le Nunavut"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "test-05-ordering",
+  "name": "TEST Ordre — compatibilité ancien format",
+  "description": "Une question pour tester le rendu et les contrôles.",
+  "categoryPackages": [
+    "test-05-ordering"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "category": "Arts — Sculptures et repères — Chronologie",
+  "subject": "Arts",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "arts-chronologie-sculptures-reperes-20261011-01",
+      "category": "Arts — Sculptures et repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces œuvres selon leur création :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "David de Michel-Ange"
+        },
+        {
+          "id": "item-1",
+          "text": "Vénus de Milo"
+        },
+        {
+          "id": "item-2",
+          "text": "Le Penseur — conception du modèle"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "arts-chronologie-sculptures-reperes-20261011-02",
+      "category": "Arts — Sculptures et repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces modèles de Rodin selon leur conception :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Le Baiser"
+        },
+        {
+          "id": "item-1",
+          "text": "Les Bourgeois de Calais"
+        },
+        {
+          "id": "item-2",
+          "text": "Le Penseur"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "arts-chronologie-sculptures-reperes-20261011-03",
+      "category": "Arts — Sculptures et repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces présentations publiques :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Inauguration de la statue de la Liberté"
+        },
+        {
+          "id": "item-1",
+          "text": "Installation des Bourgeois de Calais à Calais"
+        },
+        {
+          "id": "item-2",
+          "text": "Dévoilement du David de Michel-Ange"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "arts-chronologie-sculptures-reperes-20261011-04",
+      "category": "Arts — Sculptures et repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces découvertes archéologiques :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Découverte de la Vénus de Milo"
+        },
+        {
+          "id": "item-1",
+          "text": "Découverte de la Victoire de Samothrace"
+        },
+        {
+          "id": "item-2",
+          "text": "Découverte du groupe du Laocoon"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "arts-chronologie-sculptures-reperes-20261011-05",
+      "category": "Arts — Sculptures et repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces sculptures selon les étapes précisées.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Cloud Gate — inauguration à Chicago"
+        },
+        {
+          "id": "item-1",
+          "text": "Maman — conception de Louise Bourgeois"
+        },
+        {
+          "id": "item-2",
+          "text": "L’Oiseau dans l’espace — version du MoMA"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "id": "arts-chronologie-sculptures-reperes-20261011-06",
+      "category": "Arts — Sculptures et repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces œuvres de Michel-Ange selon leur achèvement :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Plafond de la chapelle Sixtine"
+        },
+        {
+          "id": "item-1",
+          "text": "David de Florence"
+        },
+        {
+          "id": "item-2",
+          "text": "Pietà de Saint-Pierre"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    }
+  ]
+}

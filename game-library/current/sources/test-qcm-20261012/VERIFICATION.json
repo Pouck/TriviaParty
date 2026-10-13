@@ -1,0 +1,49 @@
+[
+  {
+    "question": 1,
+    "questionId": "test-01-qcm-q1",
+    "originalPackage": "test-01-qcm",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "test-07-wager-q1",
+    "originalPackage": "test-07-wager",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "test-09-carte-qcm-q1",
+    "originalPackage": "test-09-carte-qcm",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "test-20261012-qcm-complement-1",
+    "originalPackage": "architecture-qcm-asie-orient-20261011",
+    "reference": {
+      "question": 1,
+      "site": "taj",
+      "verification": "https://whc.unesco.org/en/list/252/",
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg"
+    },
+    "new": true
+  },
+  {
+    "question": 5,
+    "questionId": "test-20261012-qcm-complement-2",
+    "originalPackage": "architecture-qcm-asie-orient-20261011",
+    "reference": {
+      "question": 2,
+      "site": "petra",
+      "verification": "https://whc.unesco.org/en/list/326/",
+      "note": "",
+      "photo": null
+    },
+    "new": true
+  }
+]

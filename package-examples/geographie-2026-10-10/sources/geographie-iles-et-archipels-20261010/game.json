@@ -1,0 +1,15 @@
+{
+  "id": "geographie-iles-et-archipels-20261010",
+  "name": "Géographie - Îles et archipels",
+  "description": "Îles et archipels du monde. 4 questions à choix multiples. 15 secondes par question ; 15, 10 puis 5 points.",
+  "categoryPackages": [
+    "geographie-iles-et-archipels-20261010"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0.0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

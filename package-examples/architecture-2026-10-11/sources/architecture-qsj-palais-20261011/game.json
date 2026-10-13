@@ -1,0 +1,15 @@
+{
+  "id": "architecture-qsj-palais-20261011",
+  "name": "Architecture — Palais et châteaux — Qui suis-je ?",
+  "description": "3 questions en français. 4 indices de 20 secondes ; 20 → 15 → 10 → 5 points ; erreur : −5 points.",
+  "categoryPackages": [
+    "architecture-qsj-palais-20261011"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 20,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 3,
+    "pointsDecayPerFlip": 5
+  }
+}

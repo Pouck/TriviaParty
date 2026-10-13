@@ -1,0 +1,15 @@
+{
+  "id": "histoire-france-renaissance-lettres-et-savoirs-20261010",
+  "name": "Histoire de France — Renaissance — Lettres et savoirs",
+  "description": "4 questions en français. 15 secondes ; 15, 10 puis 5 points.",
+  "categoryPackages": [
+    "histoire-france-renaissance-lettres-et-savoirs-20261010"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0.0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

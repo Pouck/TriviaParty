@@ -1,0 +1,43 @@
+{
+  "category": "Qui suis-je ? — Littérature américaine — Personnages",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-americaine-personnages-20261010-01",
+      "category": "Qui suis-je ? — Littérature américaine — Personnages",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis avocat dans la ville fictive de Maycomb, en Alabama, pendant la Grande Dépression.",
+        "Veuf, j’élève Scout et Jem en leur enseignant à comprendre le point de vue des autres.",
+        "Je défends Tom Robinson, un homme noir injustement accusé de viol.",
+        "Je suis le père avocat de To Kill a Mockingbird, le roman de Harper Lee."
+      ],
+      "acceptableAnswers": [
+        "Atticus Finch"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-americaine-personnages-20261010-02",
+      "category": "Qui suis-je ? — Littérature américaine — Personnages",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Adolescent de seize ans, je suis renvoyé de l’école Pencey Prep avant les vacances de Noël.",
+        "J’erre dans New York et me sens révolté par l’hypocrisie du monde adulte.",
+        "Ma sœur Phoebe m’écoute imaginer que je pourrais empêcher des enfants de tomber d’une falaise.",
+        "Je suis le jeune narrateur de The Catcher in the Rye, le roman de J. D. Salinger."
+      ],
+      "acceptableAnswers": [
+        "Holden Caulfield"
+      ]
+    }
+  ]
+}

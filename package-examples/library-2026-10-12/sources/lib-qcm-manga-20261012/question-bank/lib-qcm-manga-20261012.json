@@ -1,0 +1,87 @@
+{
+  "category": "Manga — Grands classiques — QCM",
+  "subject": "BD et manga",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-manga-20261012-01",
+      "category": "Manga — Grands classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel héros de manga adore les ramen ?",
+      "options": [
+        "A — Edward Elric",
+        "B — Naruto",
+        "C — Light Yagami",
+        "D — Luffy"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/ramen.jpg"
+    },
+    {
+      "id": "lib-qcm-manga-20261012-02",
+      "category": "Manga — Grands classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel pirate porte un chapeau de paille ?",
+      "options": [
+        "A — Roronoa Zoro",
+        "B — Monkey D. Luffy",
+        "C — Shanks",
+        "D — Sanji"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-manga-20261012-03",
+      "category": "Manga — Grands classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a créé Dragon Ball ?",
+      "options": [
+        "A — Osamu Tezuka",
+        "B — Masashi Kishimoto",
+        "C — Eiichirō Oda",
+        "D — Akira Toriyama"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-manga-20261012-04",
+      "category": "Manga — Grands classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Combien de boules faut-il réunir pour appeler Shenron dans Dragon Ball ?",
+      "options": [
+        "A — Neuf",
+        "B — Trois",
+        "C — Sept",
+        "D — Cinq"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/seven-balls.png"
+    },
+    {
+      "id": "lib-qcm-manga-20261012-05",
+      "category": "Manga — Grands classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel carnet est au centre des aventures de Light Yagami ?",
+      "options": [
+        "A — Le Death Note",
+        "B — Le Livre de la jungle",
+        "C — Le One Piece",
+        "D — Le Grimoire de Clow"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "culture-qsj-rome-monuments-et-crises-20261010",
+  "name": "Qui suis-je ? — Rome antique — Monuments et pouvoirs",
+  "description": "5 questions en français. 4 indices de 20 secondes ; 5 points par palier. Réponse au buzzer : 10 secondes. Lecture confirmée par les joueurs avant chaque indice.",
+  "categoryPackages": [
+    "culture-qsj-rome-monuments-et-crises-20261010"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 20,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 3,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

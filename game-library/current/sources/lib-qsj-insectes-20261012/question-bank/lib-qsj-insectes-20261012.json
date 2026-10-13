@@ -1,0 +1,100 @@
+{
+  "category": "Insectes — Petites bêtes — Qui suis-je ? écrit",
+  "subject": "Nature",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Qui suis-je ? écrit"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-insectes-20261012-01",
+      "category": "Insectes — Petites bêtes — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un petit coléoptère.",
+        "Je mange souvent des pucerons.",
+        "Mes ailes visibles sont souvent rouges à points noirs.",
+        "On m’appelle parfois la bête à bon Dieu."
+      ],
+      "acceptableAnswers": [
+        "La coccinelle",
+        "Coccinelle"
+      ]
+    },
+    {
+      "id": "lib-qsj-insectes-20261012-02",
+      "category": "Insectes — Petites bêtes — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je visite les fleurs.",
+        "Je participe à la pollinisation.",
+        "Certaines de mes espèces vivent dans des ruches.",
+        "L’abeille domestique produit du miel."
+      ],
+      "acceptableAnswers": [
+        "L’abeille",
+        "Abeille"
+      ]
+    },
+    {
+      "id": "lib-qsj-insectes-20261012-03",
+      "category": "Insectes — Petites bêtes — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un insecte prédateur.",
+        "J’attends souvent immobile ma proie.",
+        "Mes pattes avant sont repliées devant moi.",
+        "Ma posture me donne un nom lié à la prière."
+      ],
+      "acceptableAnswers": [
+        "La mante religieuse",
+        "Mante religieuse"
+      ]
+    },
+    {
+      "id": "lib-qsj-insectes-20261012-04",
+      "category": "Insectes — Petites bêtes — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je mise sur le camouflage.",
+        "Je peux être confondu avec une partie de plante.",
+        "Mon corps est souvent long et fin.",
+        "Je suis l’insecte qui ressemble à une brindille."
+      ],
+      "acceptableAnswers": [
+        "Le phasme",
+        "Phasme"
+      ]
+    },
+    {
+      "id": "lib-qsj-insectes-20261012-05",
+      "category": "Insectes — Petites bêtes — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis souvent observée près de l’eau.",
+        "Ma larve vit dans l’eau.",
+        "Je possède de grands yeux et deux paires d’ailes.",
+        "Je suis la chasseuse volante au long abdomen."
+      ],
+      "acceptableAnswers": [
+        "La libellule",
+        "Libellule"
+      ]
+    }
+  ]
+}

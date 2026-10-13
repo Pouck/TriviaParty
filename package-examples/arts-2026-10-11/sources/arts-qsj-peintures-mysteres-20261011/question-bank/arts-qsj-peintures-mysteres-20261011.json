@@ -1,0 +1,101 @@
+{
+  "category": "Arts — Peintures mystères — Qui suis-je ?",
+  "subject": "Arts",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "arts-qsj-peintures-mysteres-20261011-01",
+      "category": "Arts — Peintures mystères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "J’ai été peint pour le pavillon espagnol de l’Exposition de Paris de 1937.",
+        "Je réunis un cheval, un taureau et une mère portant son enfant.",
+        "Mes noirs, blancs et gris évoquent la guerre.",
+        "Picasso m’a donné le nom d’une ville basque bombardée."
+      ],
+      "acceptableAnswers": [
+        "Guernica"
+      ]
+    },
+    {
+      "id": "arts-qsj-peintures-mysteres-20261011-02",
+      "category": "Arts — Peintures mystères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une petite toile surréaliste achevée en 1931.",
+        "Des fourmis se rassemblent sur un objet posé dans mon paysage.",
+        "Plusieurs de mes montres deviennent molles et se déforment.",
+        "Je suis le célèbre tableau de Salvador Dalí aux montres molles."
+      ],
+      "acceptableAnswers": [
+        "La Persistance de la mémoire",
+        "The Persistence of Memory"
+      ]
+    },
+    {
+      "id": "arts-qsj-peintures-mysteres-20261011-03",
+      "category": "Arts — Peintures mystères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "J’ai été offert à la France pour célébrer la paix après la Grande Guerre.",
+        "Mes panneaux entourent deux salles ovales.",
+        "Je représente l’eau et les plantes du jardin de Giverny.",
+        "Je suis l’ensemble de Monet au musée de l’Orangerie."
+      ],
+      "acceptableAnswers": [
+        "Les Nymphéas de Monet",
+        "Les Nymphéas",
+        "Nymphéas"
+      ]
+    },
+    {
+      "id": "arts-qsj-peintures-mysteres-20261011-04",
+      "category": "Arts — Peintures mystères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Une inscription affirme que mon peintre était présent en 1434.",
+        "Mon miroir convexe révèle d’autres personnages.",
+        "Je montre un couple debout et un petit chien.",
+        "Je suis le portrait du couple Arnolfini par Jan van Eyck."
+      ],
+      "acceptableAnswers": [
+        "Les Époux Arnolfini",
+        "Le Portrait des Arnolfini",
+        "The Arnolfini Portrait"
+      ]
+    },
+    {
+      "id": "arts-qsj-peintures-mysteres-20261011-05",
+      "category": "Arts — Peintures mystères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une toile américaine achevée en 1942.",
+        "La rue qui m’entoure paraît déserte et obscure.",
+        "Trois clients et un serveur sont visibles derrière la grande vitre d’un café éclairé.",
+        "Je suis la célèbre scène nocturne de café peinte par Edward Hopper."
+      ],
+      "acceptableAnswers": [
+        "Nighthawks",
+        "Les Noctambules"
+      ]
+    }
+  ]
+}

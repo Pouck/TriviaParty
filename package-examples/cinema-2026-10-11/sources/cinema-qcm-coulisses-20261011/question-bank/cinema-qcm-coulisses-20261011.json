@@ -1,0 +1,130 @@
+{
+  "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "cinema-qcm-coulisses-20261011-01",
+      "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui compose le célèbre thème principal du premier Star Wars, sorti en 1977 ?",
+      "options": [
+        "A — Ennio Morricone",
+        "B — John Williams",
+        "C — Hans Zimmer",
+        "D — Howard Shore"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "cinema-qcm-coulisses-20261011-02",
+      "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui réalise Parasite, Palme d’or en 2019 ?",
+      "options": [
+        "A — Kim Ki-duk",
+        "B — Lee Chang-dong",
+        "C — Bong Joon-ho",
+        "D — Park Chan-wook"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "cinema-qcm-coulisses-20261011-03",
+      "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui réalise Le Fabuleux Destin d’Amélie Poulain ?",
+      "options": [
+        "A — Luc Besson",
+        "B — Jean-Pierre Jeunet",
+        "C — Jacques Audiard",
+        "D — Michel Gondry"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "cinema-qcm-coulisses-20261011-04",
+      "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui réalise Le Bon, la Brute et le Truand ?",
+      "options": [
+        "A — Sergio Leone",
+        "B — Sam Peckinpah",
+        "C — John Ford",
+        "D — Clint Eastwood"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "cinema-qcm-coulisses-20261011-05",
+      "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel cinéaste réalise Le Voyage de Chihiro ?",
+      "options": [
+        "A — Satoshi Kon",
+        "B — Mamoru Hosoda",
+        "C — Isao Takahata",
+        "D — Hayao Miyazaki"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "cinema-qcm-coulisses-20261011-06",
+      "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel studio produit WALL-E ?",
+      "options": [
+        "A — Aardman",
+        "B — Studio Ghibli",
+        "C — DreamWorks Animation",
+        "D — Pixar"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "cinema-qcm-coulisses-20261011-07",
+      "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel film utilise principalement l’animation image par image de marionnettes ?",
+      "options": [
+        "A — Finding Nemo",
+        "B — Zootopia",
+        "C — L’Étrange Noël de monsieur Jack",
+        "D — Toy Story"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "cinema-qcm-coulisses-20261011-08",
+      "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel long métrage de 1995 est le premier entièrement animé par ordinateur ?",
+      "options": [
+        "A — Toy Story",
+        "B — Shrek",
+        "C — A Bug’s Life",
+        "D — Monsters, Inc."
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TriviaParty — Google Cast</title>
+  <link rel="stylesheet" href="receiver.css">
+</head>
+<body>
+  <header><span id="category">Salon</span><span id="round"></span></header>
+  <main><section id="scene"></section><div id="answering" role="status"></div><div id="answer-overlay" aria-live="polite"></div><div id="answer-feedback" role="status" aria-live="polite"></div></main>
+  <aside><div id="scores"></div><div id="timer"></div><p id="connection" role="status">En attente de l’hôte…</p></aside>
+  <button id="tv-audio-control" type="button">Activer le son</button><div id="preview" hidden></div>
+  <script src="receiver.js"></script>
+  <script>TriviaReceiver.start();</script>
+</body>
+</html>

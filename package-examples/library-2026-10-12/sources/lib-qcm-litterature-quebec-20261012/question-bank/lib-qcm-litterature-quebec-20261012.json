@@ -1,0 +1,87 @@
+{
+  "category": "Littérature québécoise — Grands noms — QCM",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-litterature-quebec-20261012-01",
+      "category": "Littérature québécoise — Grands noms — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a écrit Les Belles-Sœurs ?",
+      "options": [
+        "A — Robert Lepage",
+        "B — Wajdi Mouawad",
+        "C — Marcel Dubé",
+        "D — Michel Tremblay"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-litterature-quebec-20261012-02",
+      "category": "Littérature québécoise — Grands noms — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel roman de Gabrielle Roy se déroule à Saint-Henri, à Montréal ?",
+      "options": [
+        "A — Bonheur d’occasion",
+        "B — Kamouraska",
+        "C — Maria Chapdelaine",
+        "D — Agaguk"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/montreal.jpg"
+    },
+    {
+      "id": "lib-qcm-litterature-quebec-20261012-03",
+      "category": "Littérature québécoise — Grands noms — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a écrit Kamouraska ?",
+      "options": [
+        "A — Gabrielle Roy",
+        "B — Marie-Claire Blais",
+        "C — Anne Hébert",
+        "D — Nelly Arcan"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-litterature-quebec-20261012-04",
+      "category": "Littérature québécoise — Grands noms — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel poète est associé au Vaisseau d’or ?",
+      "options": [
+        "A — Paul Éluard",
+        "B — Gaston Miron",
+        "C — Jacques Prévert",
+        "D — Émile Nelligan"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/ship.png"
+    },
+    {
+      "id": "lib-qcm-litterature-quebec-20261012-05",
+      "category": "Littérature québécoise — Grands noms — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel écrivain a publié L’Homme rapaillé ?",
+      "options": [
+        "A — Émile Nelligan",
+        "B — Gaston Miron",
+        "C — Alain Grandbois",
+        "D — Félix Leclerc"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

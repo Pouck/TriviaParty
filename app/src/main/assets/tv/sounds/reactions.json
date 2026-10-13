@@ -1,0 +1,370 @@
+[
+  {
+    "outcome": "bad",
+    "file": "bad-01.wav",
+    "text": "Ben non!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-02.wav",
+    "text": "M’enfin!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-03.wav",
+    "text": "Non, non, non, non!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-04.wav",
+    "text": "Das ist falsch!",
+    "language": "de",
+    "voice": "Google speech de",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-05.wav",
+    "text": "What the heck!?",
+    "language": "en",
+    "voice": "Google speech en-US",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-06.wav",
+    "text": "Aïe, aïe, aïe!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-07.wav",
+    "text": "Ouh là là!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-08.wav",
+    "text": "Euh… non!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-09.wav",
+    "text": "Et puis quoi encore!?",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-10.wav",
+    "text": "Quand on ne sait pas, mieux vaut se taire…",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-11.wav",
+    "text": "C’est si difficile que ça?",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-12.wav",
+    "text": "Un petit effort, quand même…",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-13.wav",
+    "text": "Dans un autre univers, peut-être…",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-14.wav",
+    "text": "Niet!",
+    "language": "ru",
+    "voice": "Google speech ru",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-15.wav",
+    "text": "Mais ça sort d’où, ça?",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-16.wav",
+    "text": "Il y a quelqu’un qui peut l’aider?",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-17.wav",
+    "text": "On cherche une bonne réponse!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-18.wav",
+    "text": "Malheureusement, pas de points de participation!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-19.wav",
+    "text": "C’est très bien d’essayer!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "bad",
+    "file": "bad-20.wav",
+    "text": "Avec un peu de persévérance, on y arrivera!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-01.wav",
+    "text": "C’est très bien, ça!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-02.wav",
+    "text": "Ja!",
+    "language": "de",
+    "voice": "Google speech de",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-03.wav",
+    "text": "Bravo!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-04.wav",
+    "text": "Félicitations!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-05.wav",
+    "text": "Two thumbs up!",
+    "language": "en",
+    "voice": "Google speech en-GB",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-06.wav",
+    "text": "On approuve!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-07.wav",
+    "text": "Aux autres : prenez exemple!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-08.wav",
+    "text": "Brillante réponse!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-09.wav",
+    "text": "Ça fait plaisir, ça!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-10.wav",
+    "text": "Oui, oui, oui!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-11.wav",
+    "text": "Oui-oui!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-12.wav",
+    "text": "On accepte!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-13.wav",
+    "text": "Rien à redire!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-14.wav",
+    "text": "On voit que ça cogite dur ici!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-15.wav",
+    "text": "Alors là, chapeau!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-16.wav",
+    "text": "Une petite main d’applaudissements pour cette réponse!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-17.wav",
+    "text": "Voilà, ce n’est pas dur!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-18.wav",
+    "text": "Sûrement le fruit d’un effort surhumain…",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-19.wav",
+    "text": "Eh oui, quand on veut, on peut!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-20.wav",
+    "text": "Il y a encore de l’espoir!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-21.wav",
+    "text": "C’est prometteur!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-22.wav",
+    "text": "En cherchant bien, on trouve!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-23.wav",
+    "text": "Dites, on vous a soufflé la réponse?",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-24.wav",
+    "text": "Vous saviez?",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-25.wav",
+    "text": "Qui l’eût cru!",
+    "language": "fr",
+    "voice": "Google speech fr",
+    "leadInMs": 220
+  },
+  {
+    "outcome": "good",
+    "file": "good-26.wav",
+    "text": "Das ist richtig!",
+    "language": "de",
+    "voice": "Google speech de",
+    "leadInMs": 220
+  }
+]

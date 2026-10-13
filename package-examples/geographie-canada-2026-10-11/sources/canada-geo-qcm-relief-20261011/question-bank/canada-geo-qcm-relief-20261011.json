@@ -1,0 +1,99 @@
+{
+  "category": "Géographie du Canada — Relief et extrêmes",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-relief-20261011-01",
+      "category": "Géographie du Canada — Relief et extrêmes",
+      "prompt": "Quelle vaste région de roches anciennes entoure la baie d’Hudson et couvre près de la moitié du Canada ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le Bouclier canadien",
+        "B — La Cordillère",
+        "C — Les plaines intérieures",
+        "D — Les Appalaches"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-relief-20261011-02",
+      "category": "Géographie du Canada — Relief et extrêmes",
+      "prompt": "Quel est le plus haut sommet du Canada, avec une altitude de 5 959 mètres ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le mont Robson",
+        "B — Le mont Logan",
+        "C — Le mont Columbia",
+        "D — Le mont Waddington"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-relief-20261011-03",
+      "category": "Géographie du Canada — Relief et extrêmes",
+      "prompt": "Pour quel record géographique la baie de Fundy est-elle célèbre ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La plus grande amplitude de marée au monde",
+        "B — Le plus long banc de sable continu",
+        "C — La plus grande concentration de grottes marines",
+        "D — La fosse sous-marine la plus profonde d’Amérique du Nord"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-relief-20261011-04",
+      "category": "Géographie du Canada — Relief et extrêmes",
+      "prompt": "Quel est le plus grand lac situé entièrement au Canada ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le Grand lac des Esclaves",
+        "B — Le lac Athabasca",
+        "C — Le Grand lac de l’Ours",
+        "D — Le lac Winnipeg"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-relief-20261011-05",
+      "category": "Géographie du Canada — Relief et extrêmes",
+      "prompt": "Comment appelle-t-on les colonnes rocheuses des badlands de l’Alberta, façonnées par l’érosion et coiffées d’une roche plus résistante ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Des eskers",
+        "B — Des fjords",
+        "C — Des dolines",
+        "D — Des cheminées de fée (hoodoos)"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-relief-20261011-06",
+      "category": "Géographie du Canada — Relief et extrêmes",
+      "prompt": "Quelle île canadienne, la cinquième plus grande au monde, abrite le mont Thor ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — L’île de Vancouver",
+        "B — L’île d’Ellesmere",
+        "C — L’île de Baffin",
+        "D — L’île Victoria"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

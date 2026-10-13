@@ -1,0 +1,73 @@
+{
+  "category": "Géographie - Amérique du Sud",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "geo-amerique-du-sud-20261010-01",
+      "category": "Géographie - Amérique du Sud",
+      "prompt": "Quelle lettre correspond à l’Uruguay sur la carte ?",
+      "imageUrl": "images/carte-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 1,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Paraguay » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Uruguay » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Bolivie » sur la carte ?",
+          "correctOptionIndex": 2
+        },
+        {
+          "prompt": "Quelle lettre indique « Colombie » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-amerique-du-sud-20261010-02",
+      "category": "Géographie - Amérique du Sud",
+      "prompt": "Quelle lettre correspond au Suriname sur la carte ?",
+      "imageUrl": "images/carte-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 2,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Équateur » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Guyana » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Suriname » sur la carte ?",
+          "correctOptionIndex": 2
+        }
+      ]
+    }
+  ]
+}

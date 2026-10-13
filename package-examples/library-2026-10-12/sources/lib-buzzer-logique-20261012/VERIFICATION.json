@@ -1,0 +1,52 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.mathsisfun.com/",
+      "https://www.britannica.com/science/logic",
+      "Créations originales ; solutions démontrées dans VERIFICATION.json."
+    ],
+    "note": "",
+    "visual": "fives"
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.mathsisfun.com/",
+      "https://www.britannica.com/science/logic",
+      "Créations originales ; solutions démontrées dans VERIFICATION.json."
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.mathsisfun.com/",
+      "https://www.britannica.com/science/logic",
+      "Créations originales ; solutions démontrées dans VERIFICATION.json."
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.mathsisfun.com/",
+      "https://www.britannica.com/science/logic",
+      "Créations originales ; solutions démontrées dans VERIFICATION.json."
+    ],
+    "note": "",
+    "visual": "four-squares"
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.mathsisfun.com/",
+      "https://www.britannica.com/science/logic",
+      "Créations originales ; solutions démontrées dans VERIFICATION.json."
+    ],
+    "note": "",
+    "visual": null
+  }
+]

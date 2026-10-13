@@ -1,0 +1,15 @@
+{
+  "id": "architecture-buzzer-moderne-20261011",
+  "name": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+  "description": "6 questions en français. 15 secondes ; 15 → 10 → 5 points. Réponse au buzzer : 10 secondes.",
+  "categoryPackages": [
+    "architecture-buzzer-moderne-20261011"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

@@ -1,0 +1,73 @@
+{
+  "category": "Musique — Pop et rock — Grands noms — Buzzer",
+  "subject": "Musique",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-pop-rock-20261012-01",
+      "category": "Musique — Pop et rock — Grands noms — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel groupe comprend John, Paul, George et Ringo ?",
+      "acceptableAnswers": [
+        "Les Beatles",
+        "Beatles"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-pop-rock-20261012-02",
+      "category": "Musique — Pop et rock — Grands noms — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel artiste est célèbre pour sa danse appelée moonwalk ?",
+      "acceptableAnswers": [
+        "Michael Jackson"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/moon.jpg"
+    },
+    {
+      "id": "lib-buzzer-pop-rock-20261012-03",
+      "category": "Musique — Pop et rock — Grands noms — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel chanteur britannique est aussi un pianiste connu pour Rocket Man ?",
+      "acceptableAnswers": [
+        "Elton John"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/piano.jpg"
+    },
+    {
+      "id": "lib-buzzer-pop-rock-20261012-04",
+      "category": "Musique — Pop et rock — Grands noms — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel chanteur est la voix principale des Rolling Stones ?",
+      "acceptableAnswers": [
+        "Mick Jagger"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-pop-rock-20261012-05",
+      "category": "Musique — Pop et rock — Grands noms — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel chanteur jamaïcain est associé à No Woman, No Cry ?",
+      "acceptableAnswers": [
+        "Bob Marley"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

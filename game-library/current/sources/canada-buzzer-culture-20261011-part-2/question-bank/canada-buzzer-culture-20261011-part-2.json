@@ -1,0 +1,65 @@
+{
+  "category": "Canada — Culture et institutions — Buzzer — 2",
+  "subject": "Histoire",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-culture-20261011-06",
+      "category": "Canada — Culture et institutions — Buzzer — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Pendant quelle guerre des troupes britanniques incendient-elles la Maison-Blanche en 1814 ?",
+      "acceptableAnswers": [
+        "La guerre de 1812"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-culture-20261011-07",
+      "category": "Canada — Culture et institutions — Buzzer — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle forteresse française du Cap-Breton est prise par les Britanniques en 1745 puis en 1758 ?",
+      "acceptableAnswers": [
+        "La forteresse de Louisbourg"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-culture-20261011-08",
+      "category": "Canada — Culture et institutions — Buzzer — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel titre porte la personne qui dirige le gouvernement d’une province canadienne ?",
+      "acceptableAnswers": [
+        "Premier ministre ou première ministre"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-culture-20261011-09",
+      "category": "Canada — Culture et institutions — Buzzer — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel ensemble d’édifices d’Ottawa abrite le Parlement fédéral ?",
+      "acceptableAnswers": [
+        "Les édifices du Parlement, sur la colline du Parlement"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-culture-20261011-10",
+      "category": "Canada — Culture et institutions — Buzzer — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle tour de Toronto est achevée en 1976 et reste la plus haute structure autoportante du monde jusqu’en 2007 ?",
+      "acceptableAnswers": [
+        "La tour CN"
+      ]
+    }
+  ]
+}

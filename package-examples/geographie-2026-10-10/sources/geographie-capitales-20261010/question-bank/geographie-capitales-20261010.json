@@ -1,0 +1,129 @@
+{
+  "category": "Géographie - Capitales",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Rébus de capitales"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-01",
+      "category": "Géographie - Capitales",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/addis-abeba.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Addis-Abeba",
+        "Addis Abeba"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-02",
+      "category": "Géographie - Capitales",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/bangkok.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Bangkok"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-03",
+      "category": "Géographie - Capitales",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/kaboul.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Kaboul"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-04",
+      "category": "Géographie - Capitales",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/lima.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Lima"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-05",
+      "category": "Géographie - Capitales",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/luxembourg.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Luxembourg"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-06",
+      "category": "Géographie - Capitales",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/ottawa.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Ottawa"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-07",
+      "category": "Géographie - Capitales",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/paris.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Paris"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-08",
+      "category": "Géographie - Capitales",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/port-au-prince.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Port-au-Prince",
+        "Port au Prince"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-09",
+      "category": "Géographie - Capitales",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/saint-marin.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Saint-Marin",
+        "Saint Marin"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

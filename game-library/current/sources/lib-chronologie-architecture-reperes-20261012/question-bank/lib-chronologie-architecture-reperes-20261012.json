@@ -1,0 +1,145 @@
+{
+  "category": "Architecture — Monuments dans le temps — Chronologie",
+  "subject": "Architecture",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "lib-chronologie-architecture-reperes-20261012-01",
+      "category": "Architecture — Monuments dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces inaugurations.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Tour Eiffel"
+        },
+        {
+          "id": "item-1",
+          "text": "Burj Khalifa"
+        },
+        {
+          "id": "item-2",
+          "text": "Opéra de Sydney"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-architecture-reperes-20261012-02",
+      "category": "Architecture — Monuments dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces ouvertures au public.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Statue de la Liberté à New York"
+        },
+        {
+          "id": "item-1",
+          "text": "Louvre comme musée"
+        },
+        {
+          "id": "item-2",
+          "text": "Tour CN à Toronto"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "lib-chronologie-architecture-reperes-20261012-03",
+      "category": "Architecture — Monuments dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces étapes de monuments européens.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Inauguration du palais Garnier"
+        },
+        {
+          "id": "item-1",
+          "text": "Achèvement de la basilique Saint-Pierre actuelle"
+        },
+        {
+          "id": "item-2",
+          "text": "Installation de la cour à Versailles"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-architecture-reperes-20261012-04",
+      "category": "Architecture — Monuments dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces étapes de construction et d’ouverture.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Ouverture de Tower Bridge"
+        },
+        {
+          "id": "item-1",
+          "text": "Ouverture du Golden Gate Bridge"
+        },
+        {
+          "id": "item-2",
+          "text": "Début du chantier de la Sagrada Família"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-architecture-reperes-20261012-05",
+      "category": "Architecture — Monuments dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces inaugurations du XXe siècle.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Pyramide du Louvre"
+        },
+        {
+          "id": "item-1",
+          "text": "Centre Pompidou"
+        },
+        {
+          "id": "item-2",
+          "text": "Empire State Building"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    }
+  ]
+}

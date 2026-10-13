@@ -1,0 +1,100 @@
+{
+  "category": "Devinettes — Objets familiers — Qui suis-je ?",
+  "subject": "Logique et énigmes",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-devinettes-20261012-01",
+      "category": "Devinettes — Objets familiers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je peux décorer une fête.",
+        "Je diminue quand on m’utilise.",
+        "Une mèche me traverse.",
+        "Ma cire fond près de ma flamme."
+      ],
+      "acceptableAnswers": [
+        "Une bougie",
+        "Bougie"
+      ]
+    },
+    {
+      "id": "lib-qsj-devinettes-20261012-02",
+      "category": "Devinettes — Objets familiers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je vous montre sans parler.",
+        "Je reproduis vos mouvements.",
+        "Je suis souvent dans une salle de bains.",
+        "Vous y regardez votre reflet."
+      ],
+      "acceptableAnswers": [
+        "Un miroir",
+        "Miroir"
+      ]
+    },
+    {
+      "id": "lib-qsj-devinettes-20261012-03",
+      "category": "Devinettes — Objets familiers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis utile par mauvais temps.",
+        "Je peux être plié pour le transport.",
+        "Je m’ouvre au-dessus de votre tête.",
+        "Je vous protège de la pluie."
+      ],
+      "acceptableAnswers": [
+        "Un parapluie",
+        "Parapluie"
+      ]
+    },
+    {
+      "id": "lib-qsj-devinettes-20261012-04",
+      "category": "Devinettes — Objets familiers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je peux raconter une histoire.",
+        "Vous me parcourez sans marcher.",
+        "Je possède des pages.",
+        "Ma couverture protège mon texte."
+      ],
+      "acceptableAnswers": [
+        "Un livre",
+        "Livre"
+      ]
+    },
+    {
+      "id": "lib-qsj-devinettes-20261012-05",
+      "category": "Devinettes — Objets familiers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un petit objet de toilette.",
+        "Je porte des dents sans manger.",
+        "Je passe entre les mèches.",
+        "Je démêle vos cheveux."
+      ],
+      "acceptableAnswers": [
+        "Un peigne",
+        "Peigne"
+      ]
+    }
+  ]
+}

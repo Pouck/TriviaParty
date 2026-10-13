@@ -1,0 +1,85 @@
+{
+  "category": "Canada — Jalons sociaux et politiques modernes — QCM — 2",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-06",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle partie de la Loi constitutionnelle de 1982 garantit des droits et libertés fondamentaux au Canada ?",
+      "options": [
+        "A — La Charte canadienne des droits et libertés",
+        "B — La Prérogative dérogatoire",
+        "C — L’Amendement de la Déclaration des droits",
+        "D — La Clause de l’Amérique du Nord britannique"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-07",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel accord constitutionnel de 1987 propose notamment de reconnaître le Québec comme société distincte ?",
+      "options": [
+        "A — La Déclaration de Calgary",
+        "B — L’accord du lac Meech",
+        "C — L’accord de Charlottetown",
+        "D — La Charte de Victoria"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-08",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "En 1993, Kim Campbell devient la première femme au Canada à occuper quelle fonction ?",
+      "options": [
+        "A — Première ministre",
+        "B — Juge en chef de la Cour suprême",
+        "C — Cheffe de l’opposition officielle",
+        "D — Gouverneure générale"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-09",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel est le résultat arrondi du référendum québécois de 1995 ?",
+      "options": [
+        "A — 54,20 % Non ; 45,80 % Oui",
+        "B — 51,10 % Non ; 48,90 % Oui",
+        "C — 50,58 % Non ; 49,42 % Oui",
+        "D — 50,12 % Non ; 49,88 % Oui"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-10",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle disposition permet de déroger pour au plus cinq ans aux articles 2 et 7 à 15 de la Charte, avec possibilité de renouvellement ?",
+      "options": [
+        "A — La clause de paix, ordre et bon gouvernement",
+        "B — La prérogative royale",
+        "C — La formule de modification",
+        "D — La disposition de dérogation (article 33)"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

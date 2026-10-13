@@ -1,0 +1,73 @@
+{
+  "category": "Cinéma — Studio Ghibli — Films animés — Buzzer",
+  "subject": "Cinéma",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-ghibli-20261012-01",
+      "category": "Cinéma — Studio Ghibli — Films animés — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment s’appelle le grand esprit de la forêt ami de Mei et Satsuki ?",
+      "acceptableAnswers": [
+        "Totoro"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/forest.jpg"
+    },
+    {
+      "id": "lib-buzzer-ghibli-20261012-02",
+      "category": "Cinéma — Studio Ghibli — Films animés — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle petite sorcière est accompagnée du chat noir Jiji ?",
+      "acceptableAnswers": [
+        "Kiki"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-ghibli-20261012-03",
+      "category": "Cinéma — Studio Ghibli — Films animés — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel film de Miyazaki suit un pilote au visage de cochon ?",
+      "acceptableAnswers": [
+        "Porco Rosso"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/plane.png"
+    },
+    {
+      "id": "lib-buzzer-ghibli-20261012-04",
+      "category": "Cinéma — Studio Ghibli — Films animés — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment s’appelle le garçon dragon dans Le Voyage de Chihiro ?",
+      "acceptableAnswers": [
+        "Haku"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-ghibli-20261012-05",
+      "category": "Cinéma — Studio Ghibli — Films animés — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel château de Ghibli se déplace sur des pattes ?",
+      "acceptableAnswers": [
+        "Le Château ambulant",
+        "Howl’s Moving Castle"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

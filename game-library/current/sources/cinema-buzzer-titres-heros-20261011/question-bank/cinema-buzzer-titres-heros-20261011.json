@@ -1,0 +1,88 @@
+{
+  "category": "Cinéma — Titres et héros — Rapide — Réponses écrites",
+  "subject": "Cinéma",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "id": "cinema-buzzer-titres-heros-20261011-01",
+      "category": "Cinéma — Titres et héros — Rapide — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans quel film de 1997 Jack et Rose tombent-ils amoureux à bord d’un paquebot ?",
+      "acceptableAnswers": [
+        "Titanic"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-titres-heros-20261011-02",
+      "category": "Cinéma — Titres et héros — Rapide — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment s’appelle l’école de sorcellerie où Harry Potter étudie ?",
+      "acceptableAnswers": [
+        "Poudlard",
+        "Hogwarts"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-titres-heros-20261011-03",
+      "category": "Cinéma — Titres et héros — Rapide — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment s’appelle le jouet cow-boy dans Toy Story ?",
+      "acceptableAnswers": [
+        "Woody"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-titres-heros-20261011-04",
+      "category": "Cinéma — Titres et héros — Rapide — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel hobbit, incarné par Elijah Wood, doit détruire l’Anneau dans les films du Seigneur des anneaux ?",
+      "acceptableAnswers": [
+        "Frodon",
+        "Frodon Sacquet",
+        "Frodo",
+        "Frodo Baggins"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-titres-heros-20261011-05",
+      "category": "Cinéma — Titres et héros — Rapide — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel extraterrestre de cinéma se lie d’amitié avec un garçon nommé Elliott ?",
+      "acceptableAnswers": [
+        "E.T.",
+        "ET",
+        "E.T. l’extraterrestre"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-titres-heros-20261011-06",
+      "category": "Cinéma — Titres et héros — Rapide — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel personnage du Seigneur des anneaux est interprété en capture de mouvement par Andy Serkis ?",
+      "acceptableAnswers": [
+        "Gollum"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

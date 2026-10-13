@@ -1,0 +1,15 @@
+{
+  "id": "lib-qcm-histoire-etats-unis-20261012",
+  "name": "Histoire des États-Unis — Grands repères — QCM",
+  "description": "5 questions accessibles en français. 2 visuelles et 3 textuelles ; 15 s ; 15 → 10 → 5 pts.",
+  "categoryPackages": [
+    "lib-qcm-histoire-etats-unis-20261012"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

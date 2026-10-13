@@ -1,0 +1,145 @@
+{
+  "category": "Disney — Sorties des films animés — Chronologie",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "lib-chronologie-disney-sorties-20261012-01",
+      "category": "Disney — Sorties des films animés — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties originales des dessins animés",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Dumbo"
+        },
+        {
+          "id": "item-1",
+          "text": "Bambi"
+        },
+        {
+          "id": "item-2",
+          "text": "Blanche-Neige et les Sept Nains"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-disney-sorties-20261012-02",
+      "category": "Disney — Sorties des films animés — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties originales des dessins animés",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Cendrillon"
+        },
+        {
+          "id": "item-1",
+          "text": "Le Livre de la jungle"
+        },
+        {
+          "id": "item-2",
+          "text": "La Belle au bois dormant"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-disney-sorties-20261012-03",
+      "category": "Disney — Sorties des films animés — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties originales des dessins animés",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Aladdin"
+        },
+        {
+          "id": "item-1",
+          "text": "La Belle et la Bête"
+        },
+        {
+          "id": "item-2",
+          "text": "La Petite Sirène"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-disney-sorties-20261012-04",
+      "category": "Disney — Sorties des films animés — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties originales des dessins animés",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Mulan"
+        },
+        {
+          "id": "item-1",
+          "text": "Lilo et Stitch"
+        },
+        {
+          "id": "item-2",
+          "text": "Le Roi lion"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-disney-sorties-20261012-05",
+      "category": "Disney — Sorties des films animés — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties originales des dessins animés",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "La Reine des neiges"
+        },
+        {
+          "id": "item-1",
+          "text": "Vaiana"
+        },
+        {
+          "id": "item-2",
+          "text": "La Princesse et la Grenouille"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.gutenberg.org/",
+      "https://catalogue.bnf.fr/",
+      "https://www.loc.gov/"
+    ],
+    "note": "Pride and Prejudice (1813) → Frankenstein (1818) → Jane Eyre (1847)",
+    "visual": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.gutenberg.org/",
+      "https://catalogue.bnf.fr/",
+      "https://www.loc.gov/"
+    ],
+    "note": "Notre-Dame de Paris (1831) → Madame Bovary (1857) → Les Misérables (1862)",
+    "visual": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.gutenberg.org/",
+      "https://catalogue.bnf.fr/",
+      "https://www.loc.gov/"
+    ],
+    "note": "Moby-Dick (1851) → The Great Gatsby (1925) → To Kill a Mockingbird (1960)",
+    "visual": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.gutenberg.org/",
+      "https://catalogue.bnf.fr/",
+      "https://www.loc.gov/"
+    ],
+    "note": "Alice’s Adventures in Wonderland (1865) → Dracula (1897) → Animal Farm (1945)",
+    "visual": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.gutenberg.org/",
+      "https://catalogue.bnf.fr/",
+      "https://www.loc.gov/"
+    ],
+    "note": "Candide (1759) → Le Petit Prince (1943) → Fahrenheit 451 (1953)",
+    "visual": null
+  }
+]

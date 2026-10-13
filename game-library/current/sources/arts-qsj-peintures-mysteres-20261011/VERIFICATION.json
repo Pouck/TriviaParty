@@ -1,0 +1,72 @@
+[
+  {
+    "question": 1,
+    "questionId": "arts-qsj-peintures-mysteres-20261011-01",
+    "originalPackage": "arts-qsj-peintures-mysteres-20261011",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://guernica.museoreinasofia.es/agente/pablo-picasso-5322"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "arts-qsj-peintures-mysteres-20261011-02",
+    "originalPackage": "arts-qsj-peintures-mysteres-20261011",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.moma.org/collection/works/79018"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "arts-qsj-peintures-mysteres-20261011-03",
+    "originalPackage": "arts-qsj-peintures-mysteres-20261011",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.musee-orangerie.fr/sites/default/files/2024-08/Dossier_Pedagogique_Nympheas_2024.pdf"
+      ],
+      "note": "On demande l’ensemble de l’Orangerie, pas une toile précise de la série.",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "arts-qsj-peintures-mysteres-20261011-04",
+    "originalPackage": "arts-qsj-peintures-mysteres-20261011",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/catalogues/campbell-1998/the-arnolfini-portrait"
+      ],
+      "note": "L’identité exacte du couple et l’interprétation comme mariage ne sont pas affirmées.",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "arts-qsj-peintures-mysteres-20261011-05",
+    "originalPackage": "arts-qsj-peintures-mysteres-20261011",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://archive.artic.edu/hopper/nighthawks/"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "category": "Animaux terrestres — Mammifères — Qui suis-je ?",
+  "subject": "Nature",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-animaux-terrestres-20261012-01",
+      "category": "Animaux terrestres — Mammifères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un grand mammifère terrestre.",
+        "Mes oreilles et mes défenses sont célèbres.",
+        "Je peux saisir des objets avec mon nez allongé.",
+        "Ce nez s’appelle une trompe."
+      ],
+      "acceptableAnswers": [
+        "L’éléphant",
+        "Éléphant"
+      ]
+    },
+    {
+      "id": "lib-qsj-animaux-terrestres-20261012-02",
+      "category": "Animaux terrestres — Mammifères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis associé à l’Australie.",
+        "Je me déplace souvent en bondissant.",
+        "Ma queue m’aide à garder l’équilibre.",
+        "Mon petit grandit dans une poche."
+      ],
+      "acceptableAnswers": [
+        "Le kangourou",
+        "Kangourou"
+      ]
+    },
+    {
+      "id": "lib-qsj-animaux-terrestres-20261012-03",
+      "category": "Animaux terrestres — Mammifères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je vis en Australie.",
+        "Je suis un mammifère qui pond des œufs.",
+        "Mes pattes sont palmées.",
+        "Mon bec ressemble à celui d’un canard."
+      ],
+      "acceptableAnswers": [
+        "L’ornithorynque",
+        "Ornithorynque"
+      ]
+    },
+    {
+      "id": "lib-qsj-animaux-terrestres-20261012-04",
+      "category": "Animaux terrestres — Mammifères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je vis à l’état sauvage en Chine.",
+        "Mon pelage est noir et blanc.",
+        "Je mange surtout du bambou.",
+        "Je suis le célèbre ours associé à ce régime."
+      ],
+      "acceptableAnswers": [
+        "Le panda géant",
+        "Panda",
+        "Panda géant"
+      ]
+    },
+    {
+      "id": "lib-qsj-animaux-terrestres-20261012-05",
+      "category": "Animaux terrestres — Mammifères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un rongeur semi-aquatique.",
+        "Ma queue est large et aplatie.",
+        "Je coupe des arbres avec mes incisives.",
+        "Je construis des barrages."
+      ],
+      "acceptableAnswers": [
+        "Le castor",
+        "Castor"
+      ]
+    }
+  ]
+}

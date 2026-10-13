@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "machu",
+    "title": "Machu Picchu",
+    "file": "machu.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_2023_(012).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Machu_Picchu%2C_2023_%28012%29.jpg/1920px-Machu_Picchu%2C_2023_%28012%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Draceane",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  },
+  {
+    "slug": "wall",
+    "title": "Great Wall of China",
+    "file": "wall.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/1920px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Severin.stalder",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  },
+  {
+    "slug": "moai",
+    "title": "Moai",
+    "file": "moai.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:AhuTongariki.JPG",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/5/50/AhuTongariki.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Ian Sewell",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "credit": "IanAndWendy.com Photo gallery from Easter Island",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  }
+]

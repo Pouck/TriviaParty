@@ -1,0 +1,96 @@
+{
+  "category": "BD française et belge — Qui suis-je ?",
+  "subject": "BD et manga",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-bd-franco-belge-20261012-01",
+      "category": "BD française et belge — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je vis dans un village qui résiste à Rome.",
+        "Mon meilleur ami porte des menhirs.",
+        "Une potion me donne une force extraordinaire.",
+        "Je suis le petit guerrier gaulois au casque ailé."
+      ],
+      "acceptableAnswers": [
+        "Astérix"
+      ]
+    },
+    {
+      "id": "lib-qsj-bd-franco-belge-20261012-02",
+      "category": "BD française et belge — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes inventions créent parfois des problèmes.",
+        "Je vis avec les amis de Tintin à Moulinsart.",
+        "Ma surdité provoque des malentendus.",
+        "Je suis le professeur au chapeau vert et au pendule."
+      ],
+      "acceptableAnswers": [
+        "Le professeur Tournesol",
+        "Tournesol"
+      ]
+    },
+    {
+      "id": "lib-qsj-bd-franco-belge-20261012-03",
+      "category": "BD française et belge — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je vis avec un chat.",
+        "Je tente sans cesse de capturer un petit peuple.",
+        "Mes ennemis sont les Schtroumpfs.",
+        "Je suis le sorcier accompagné d’Azraël."
+      ],
+      "acceptableAnswers": [
+        "Gargamel"
+      ]
+    },
+    {
+      "id": "lib-qsj-bd-franco-belge-20261012-04",
+      "category": "BD française et belge — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes aventures paraissent dans un journal portant mon nom.",
+        "Un écureuil appelé Spip m’accompagne.",
+        "Fantasio est mon grand ami.",
+        "Je suis le héros en costume rouge de groom."
+      ],
+      "acceptableAnswers": [
+        "Spirou"
+      ]
+    },
+    {
+      "id": "lib-qsj-bd-franco-belge-20261012-05",
+      "category": "BD française et belge — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Nous sommes quatre frères hors-la-loi.",
+        "Nos tailles forment un escalier.",
+        "Joe est le plus petit et Averell le plus grand.",
+        "Nous affrontons souvent Lucky Luke."
+      ],
+      "acceptableAnswers": [
+        "Les Dalton"
+      ]
+    }
+  ]
+}

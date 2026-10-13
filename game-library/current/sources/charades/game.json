@@ -1,0 +1,15 @@
+{
+  "id": "charades",
+  "name": "Logique et énigmes — Charades — Buzzer",
+  "description": "5 questions en français. 30 secondes ; 15 → 10 → 5 points. Réponse au buzzer : 10 secondes.",
+  "categoryPackages": [
+    "charades"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 10,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

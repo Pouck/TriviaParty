@@ -1,0 +1,15 @@
+{
+  "id": "quick",
+  "name": "Partie rapide",
+  "description": "Deux catégories et un sablier plus rapide.",
+  "categoryPackages": [
+    "world-geography",
+    "pop-culture"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 7,
+    "decayPercentagePerFlip": 0.15,
+    "maxFlips": 4
+  },
+  "answerTimeSeconds": 10
+}

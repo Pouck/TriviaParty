@@ -1,0 +1,84 @@
+{
+  "category": "Histoire du Canada - Chronologie moins facile",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-moins-facile-20261010-01",
+      "category": "Histoire du Canada - Chronologie moins facile",
+      "prompt": "Quel ordre va du plus ancien au plus récent pour le début du XXe siècle ?\n• Bataille de la crête de Vimy\n• Création des provinces de l’Alberta et de la Saskatchewan\n• Naufrage de l’Empress of Ireland",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Alberta et Saskatchewan → Vimy → Empress of Ireland",
+        "B — Vimy → Alberta et Saskatchewan → Empress of Ireland",
+        "C — Alberta et Saskatchewan → Empress of Ireland → Vimy",
+        "D — Empress of Ireland → Alberta et Saskatchewan → Vimy"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-moins-facile-20261010-02",
+      "category": "Histoire du Canada - Chronologie moins facile",
+      "prompt": "Quel ordre va du plus ancien au plus récent pour la participation canadienne à la Seconde Guerre mondiale ?\n• Débarquement à Juno Beach\n• Bataille de Hong Kong\n• Raid de Dieppe",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Hong Kong → Dieppe → Juno Beach",
+        "B — Hong Kong → Juno Beach → Dieppe",
+        "C — Dieppe → Juno Beach → Hong Kong",
+        "D — Dieppe → Hong Kong → Juno Beach"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-moins-facile-20261010-03",
+      "category": "Histoire du Canada - Chronologie moins facile",
+      "prompt": "Quel ordre va du plus ancien au plus récent pour les grands jalons de l’après-guerre ?\n• Ouverture d’Expo 67 à Montréal\n• Entrée de Terre-Neuve dans la Confédération\n• Inauguration de la Voie maritime du Saint-Laurent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Terre-Neuve → Expo 67 → Voie maritime",
+        "B — Voie maritime → Terre-Neuve → Expo 67",
+        "C — Expo 67 → Terre-Neuve → Voie maritime",
+        "D — Terre-Neuve → Voie maritime → Expo 67"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-moins-facile-20261010-04",
+      "category": "Histoire du Canada - Chronologie moins facile",
+      "prompt": "Quel ordre va du plus ancien au plus récent pour les crises et attentats ?\n• Crise d’Oka\n• Crise d’Octobre\n• Attentat contre le vol 182 d’Air India",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Crise d’Octobre → Crise d’Oka → Attentat d’Air India",
+        "B — Crise d’Oka → Crise d’Octobre → Attentat d’Air India",
+        "C — Crise d’Octobre → Attentat d’Air India → Crise d’Oka",
+        "D — Attentat d’Air India → Crise d’Octobre → Crise d’Oka"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-moins-facile-20261010-05",
+      "category": "Histoire du Canada - Chronologie moins facile",
+      "prompt": "Quel ordre va du plus ancien au plus récent pour les changements politiques et territoriaux ?\n• Création du territoire du Nunavut\n• Échec de l’accord du lac Meech\n• Deuxième référendum québécois sur la souveraineté",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Référendum québécois → Échec de Meech → Nunavut",
+        "B — Échec de Meech → Référendum québécois → Nunavut",
+        "C — Nunavut → Échec de Meech → Référendum québécois",
+        "D — Échec de Meech → Nunavut → Référendum québécois"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "category": "Histoire mondiale — Grands repères — QCM",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-histoire-mondiale-generale-20261012-01",
+      "category": "Histoire mondiale — Grands repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle civilisation a construit les pyramides de Gizeh ?",
+      "options": [
+        "A — L’Empire inca",
+        "B — L’Égypte antique",
+        "C — La Grèce antique",
+        "D — L’Empire romain"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/pyramids.jpg"
+    },
+    {
+      "id": "lib-qcm-histoire-mondiale-generale-20261012-02",
+      "category": "Histoire mondiale — Grands repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel souverain macédonien conquiert l’Empire perse ?",
+      "options": [
+        "A — Alexandre le Grand",
+        "B — Charlemagne",
+        "C — Jules César",
+        "D — Hannibal"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-histoire-mondiale-generale-20261012-03",
+      "category": "Histoire mondiale — Grands repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel pays est associé à la Grande Muraille ?",
+      "options": [
+        "A — La Chine",
+        "B — L’Inde",
+        "C — La Corée du Sud",
+        "D — Le Japon"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/wall.jpg"
+    },
+    {
+      "id": "lib-qcm-histoire-mondiale-generale-20261012-04",
+      "category": "Histoire mondiale — Grands repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel inventeur européen est célèbre pour l’imprimerie à caractères mobiles au XVe siècle ?",
+      "options": [
+        "A — Edison",
+        "B — Newton",
+        "C — Gutenberg",
+        "D — Galilée"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-histoire-mondiale-generale-20261012-05",
+      "category": "Histoire mondiale — Grands repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel mouvement commence en France en 1789 ?",
+      "options": [
+        "A — La Réforme protestante",
+        "B — La révolution industrielle",
+        "C — La Renaissance",
+        "D — La Révolution française"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

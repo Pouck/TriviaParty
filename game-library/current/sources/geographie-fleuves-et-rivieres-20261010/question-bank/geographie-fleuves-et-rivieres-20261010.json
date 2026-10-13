@@ -1,0 +1,100 @@
+{
+  "category": "Géographie — Fleuves et rivières — 1",
+  "subject": "Géographie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-01",
+      "category": "Géographie — Fleuves et rivières — 1",
+      "prompt": "Quel cours d’eau traverse Bagdad, en Irak ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Tigre",
+        "B — Karoun",
+        "C — Euphrate",
+        "D — Jourdain"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-02",
+      "category": "Géographie — Fleuves et rivières — 1",
+      "prompt": "Quel fleuve traverse Le Caire, en Égypte ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Congo",
+        "B — Niger",
+        "C — Nil",
+        "D — Zambèze"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-03",
+      "category": "Géographie — Fleuves et rivières — 1",
+      "prompt": "Quel fleuve traverse Paris, en France ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Seine",
+        "B — Loire",
+        "C — Garonne",
+        "D — Rhône"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-04",
+      "category": "Géographie — Fleuves et rivières — 1",
+      "prompt": "Quel fleuve traverse Rome, en Italie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Arno",
+        "B — Tibre",
+        "C — Pô",
+        "D — Rubicon"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-05",
+      "category": "Géographie — Fleuves et rivières — 1",
+      "prompt": "Quel fleuve traverse Londres, au Royaume-Uni ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Clyde",
+        "B — Tamise",
+        "C — Mersey",
+        "D — Severn"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-06",
+      "category": "Géographie — Fleuves et rivières — 1",
+      "prompt": "Quel fleuve traverse à la fois Vienne, en Autriche, et Budapest, en Hongrie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Elbe",
+        "B — Oder",
+        "C — Rhin",
+        "D — Danube"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

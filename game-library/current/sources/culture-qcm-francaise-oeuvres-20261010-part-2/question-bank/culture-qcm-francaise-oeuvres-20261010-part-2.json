@@ -1,0 +1,85 @@
+{
+  "category": "Littérature française — Œuvres : choix multiples — 2",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-06",
+      "category": "Littérature française — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Stendhal raconte l’ascension sociale de Julien Sorel ?",
+      "options": [
+        "A — Illusions perdues",
+        "B — La Chartreuse de Parme",
+        "C — Le Rouge et le Noir",
+        "D — Le Père Goriot"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-07",
+      "category": "Littérature française — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel milieu Émile Zola décrit-il dans Germinal ?",
+      "options": [
+        "A — Les mines de charbon",
+        "B — Les vignobles",
+        "C — Les banques parisiennes",
+        "D — Les ateliers de haute couture"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-08",
+      "category": "Littérature française — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel conte de Voltaire critique l’idée que tout serait pour le mieux dans le meilleur des mondes ?",
+      "options": [
+        "A — Micromégas",
+        "B — Zadig",
+        "C — Du contrat social",
+        "D — Candide"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-09",
+      "category": "Littérature française — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "À quel ensemble littéraire de Balzac appartient Le Père Goriot ?",
+      "options": [
+        "A — À la recherche du temps perdu",
+        "B — La Comédie humaine",
+        "C — Les Rougon-Macquart",
+        "D — The Century Trilogy"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-10",
+      "category": "Littérature française — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Le Deuxième Sexe de Simone de Beauvoir est une œuvre majeure de quelle pensée ?",
+      "options": [
+        "A — La philosophie féministe",
+        "B — Le naturalisme",
+        "C — Le structuralisme",
+        "D — Le surréalisme"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

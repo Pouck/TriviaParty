@@ -1,0 +1,92 @@
+{
+  "category": "Arts — Œuvres et artistes — Réponses écrites",
+  "subject": "Arts",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "id": "arts-buzzer-marbre-bronze-20261011-07",
+      "category": "Arts — Œuvres et artistes — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel artiste a créé La Petite Danseuse de quatorze ans ?",
+      "acceptableAnswers": [
+        "Edgar Degas",
+        "Degas"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/arts-buzzer-marbre-bronze-20261011/danseuse.jpg"
+    },
+    {
+      "id": "arts-buzzer-marbre-bronze-20261011-08",
+      "category": "Arts — Œuvres et artistes — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel pays a offert la statue de la Liberté aux États-Unis ?",
+      "acceptableAnswers": [
+        "La France",
+        "France"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "arts-buzzer-regards-scenes-20261011-07",
+      "category": "Arts — Œuvres et artistes — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui a peint le Bal du moulin de la Galette ?",
+      "acceptableAnswers": [
+        "Auguste Renoir",
+        "Pierre-Auguste Renoir",
+        "Renoir"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/arts-buzzer-regards-scenes-20261011/galette.jpg"
+    },
+    {
+      "id": "arts-buzzer-regards-scenes-20261011-08",
+      "category": "Arts — Œuvres et artistes — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel artiste a peint La Nuit étoilée de Saint-Rémy en 1889 ?",
+      "acceptableAnswers": [
+        "Vincent van Gogh",
+        "Van Gogh"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-07",
+      "category": "Arts — Œuvres et artistes — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui a peint Le Radeau de la Méduse ?",
+      "acceptableAnswers": [
+        "Théodore Géricault",
+        "Géricault",
+        "Gericault"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/arts-buzzer-tableaux-celebres-20261011/radeau.jpg"
+    },
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-08",
+      "category": "Arts — Œuvres et artistes — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel tableau de Picasso évoque une ville basque bombardée en 1937 ?",
+      "acceptableAnswers": [
+        "Guernica"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

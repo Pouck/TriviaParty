@@ -1,0 +1,100 @@
+{
+  "category": "Musique — Instruments — Qui suis-je ?",
+  "subject": "Musique",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-instruments-20261012-01",
+      "category": "Musique — Instruments — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un instrument à clavier.",
+        "Des marteaux frappent mes cordes.",
+        "J’ai généralement des touches noires et blanches.",
+        "Un modèle courant possède 88 touches."
+      ],
+      "acceptableAnswers": [
+        "Le piano",
+        "Piano"
+      ]
+    },
+    {
+      "id": "lib-qsj-instruments-20261012-02",
+      "category": "Musique — Instruments — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un instrument à cordes.",
+        "On me tient entre l’épaule et le menton.",
+        "On me joue souvent avec un archet.",
+        "Je suis plus petit que le violoncelle."
+      ],
+      "acceptableAnswers": [
+        "Le violon",
+        "Violon"
+      ]
+    },
+    {
+      "id": "lib-qsj-instruments-20261012-03",
+      "category": "Musique — Instruments — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un instrument à cordes pincées.",
+        "Mes modèles acoustiques ont souvent une caisse creuse.",
+        "J’ai généralement six cordes.",
+        "Je suis très présente dans le rock et la chanson."
+      ],
+      "acceptableAnswers": [
+        "La guitare",
+        "Guitare"
+      ]
+    },
+    {
+      "id": "lib-qsj-instruments-20261012-04",
+      "category": "Musique — Instruments — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un instrument à vent.",
+        "Je porte des touches ou des boutons.",
+        "Mon soufflet s’ouvre et se ferme.",
+        "Je suis associé au bal musette."
+      ],
+      "acceptableAnswers": [
+        "L’accordéon",
+        "Accordéon"
+      ]
+    },
+    {
+      "id": "lib-qsj-instruments-20261012-05",
+      "category": "Musique — Instruments — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un instrument à cordes pincées.",
+        "Mon cadre est souvent triangulaire.",
+        "Je possède de nombreuses cordes de tailles différentes.",
+        "Je suis souvent représentée avec les anges."
+      ],
+      "acceptableAnswers": [
+        "La harpe",
+        "Harpe"
+      ]
+    }
+  ]
+}

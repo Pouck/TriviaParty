@@ -1,0 +1,87 @@
+{
+  "category": "Animaux marins — Sous l’eau — QCM",
+  "subject": "Nature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-animaux-marins-20261012-01",
+      "category": "Animaux marins — Sous l’eau — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel animal marin possède huit bras ?",
+      "options": [
+        "A — La pieuvre",
+        "B — Le calmar",
+        "C — La méduse",
+        "D — La seiche"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-animaux-marins-20261012/octopus.jpg"
+    },
+    {
+      "id": "lib-qcm-animaux-marins-20261012-02",
+      "category": "Animaux marins — Sous l’eau — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel est le plus grand animal vivant ?",
+      "options": [
+        "A — Le requin-baleine",
+        "B — La baleine bleue",
+        "C — L’orque",
+        "D — Le cachalot"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-animaux-marins-20261012-03",
+      "category": "Animaux marins — Sous l’eau — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "À quel groupe appartient le dauphin ?",
+      "options": [
+        "A — Aux amphibiens",
+        "B — Aux poissons",
+        "C — Aux mammifères",
+        "D — Aux reptiles"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-animaux-marins-20261012-04",
+      "category": "Animaux marins — Sous l’eau — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel petit poisson est représenté ici ?",
+      "options": [
+        "A — Un hippocampe",
+        "B — Un poisson-clown",
+        "C — Un poisson-lune",
+        "D — Une anguille"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-animaux-marins-20261012/seahorse.jpg"
+    },
+    {
+      "id": "lib-qcm-animaux-marins-20261012-05",
+      "category": "Animaux marins — Sous l’eau — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel organe permet à la plupart des poissons de respirer dans l’eau ?",
+      "options": [
+        "A — Les poumons",
+        "B — Les antennes",
+        "C — Les nageoires",
+        "D — Les branchies"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

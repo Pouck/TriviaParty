@@ -1,0 +1,44 @@
+[
+  {
+    "question": 1,
+    "site": "eiffel",
+    "verification": "https://www.toureiffel.paris/en/the-monument/history",
+    "note": "",
+    "photo": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons_(cropped).jpg"
+  },
+  {
+    "question": 2,
+    "site": "mont",
+    "verification": "https://whc.unesco.org/en/list/80/",
+    "note": "",
+    "photo": null
+  },
+  {
+    "question": 3,
+    "site": "bigben",
+    "verification": "https://www.parliament.uk/about/living-heritage/building/palace/architecture/palacestructure/towers-of-parliament/",
+    "note": "Big Ben est précisément la grande cloche ; ce nom désigne aussi couramment la tour Elizabeth.",
+    "photo": "https://commons.wikimedia.org/wiki/File:Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster,_London.jpg"
+  },
+  {
+    "question": 4,
+    "site": "versailles",
+    "verification": "https://whc.unesco.org/en/list/83/",
+    "note": "",
+    "photo": null
+  },
+  {
+    "question": 5,
+    "site": "arc",
+    "verification": "https://www.paris-arc-de-triomphe.fr/decouvrir/histoire-de-l-arc-de-triomphe",
+    "note": "",
+    "photo": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg"
+  },
+  {
+    "question": 6,
+    "site": "sagrada",
+    "verification": "https://sagradafamilia.org/en/history-of-the-temple",
+    "note": "",
+    "photo": null
+  }
+]

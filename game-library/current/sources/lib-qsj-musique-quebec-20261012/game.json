@@ -1,0 +1,15 @@
+{
+  "id": "lib-qsj-musique-quebec-20261012",
+  "name": "Musique — Artistes du Québec — Qui suis-je ? écrit",
+  "description": "5 questions en français. 4 indices de 20 secondes ; 5 points par palier.  Lecture confirmée par les joueurs avant chaque indice. Réponses écrites, validées individuellement par l’hôte.",
+  "categoryPackages": [
+    "lib-qsj-musique-quebec-20261012"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 20,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 3,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

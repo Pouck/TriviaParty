@@ -1,0 +1,76 @@
+{
+  "category": "Musique — Films et comédies musicales — Buzzer",
+  "subject": "Musique",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-musique-ecran-20261012-01",
+      "category": "Musique — Films et comédies musicales — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle comédie musicale de Disney met en scène Simba sur scène ?",
+      "acceptableAnswers": [
+        "Le Roi lion",
+        "The Lion King"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-musique-ecran-20261012/lion.jpg"
+    },
+    {
+      "id": "lib-buzzer-musique-ecran-20261012-02",
+      "category": "Musique — Films et comédies musicales — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel compositeur italien est associé aux westerns de Sergio Leone ?",
+      "acceptableAnswers": [
+        "Ennio Morricone",
+        "Morricone"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-musique-ecran-20261012-03",
+      "category": "Musique — Films et comédies musicales — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel film de Disney comprend la chanson Let It Go, ou Libérée, délivrée ?",
+      "acceptableAnswers": [
+        "La Reine des neiges",
+        "Frozen"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-musique-ecran-20261012/snowman.png"
+    },
+    {
+      "id": "lib-buzzer-musique-ecran-20261012-04",
+      "category": "Musique — Films et comédies musicales — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel compositeur a écrit Cats et The Phantom of the Opera ?",
+      "acceptableAnswers": [
+        "Andrew Lloyd Webber"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-musique-ecran-20261012-05",
+      "category": "Musique — Films et comédies musicales — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel est le titre original de La Mélodie du bonheur ?",
+      "acceptableAnswers": [
+        "The Sound of Music",
+        "Sound of Music"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "trumpet",
+    "title": "Trumpet",
+    "file": "trumpet.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Yamaha_Trumpet_YTR-8335LA_crop.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/1/12/Yamaha_Trumpet_YTR-8335LA_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Yamaha Corporation",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "JPEG format conversion and re-crop of the freely-licensed Commons TIFF image, File:Yamaha Trumpet YTR-8335LA.tif",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-jazz-blues-20261012"
+  },
+  {
+    "slug": "saxophone",
+    "title": "Saxophone",
+    "file": "saxophone.png",
+    "commons": "https://commons.wikimedia.org/wiki/File:Eight_saxophone_sizes_smaller.png",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Eight_saxophone_sizes_smaller.png/1920px-Eight_saxophone_sizes_smaller.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Jonathanischoice",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "credit": "Own work; composite of File:Eppelsheim Soprillo Saxophone 2000s.jpg, File:Orsi Sopranino Saxophone.jpg, File:4 Saxophone Amati white background.jpg, File:WANZ Instrument 2024-09 IMG 7848 bass saxophone.png, File:Orsi Contrabass Saxophone (1999).jpg",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-jazz-blues-20261012"
+  }
+]

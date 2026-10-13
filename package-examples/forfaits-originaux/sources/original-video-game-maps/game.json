@@ -1,0 +1,15 @@
+{
+  "id": "original-video-game-maps",
+  "name": "Cartes de jeux vidéo",
+  "description": "Ensemble de questions original révisé : français, 15 points, deux visuels et trois textes.",
+  "categoryPackages": [
+    "video-game-maps"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

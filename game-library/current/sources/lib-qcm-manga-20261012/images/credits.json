@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "ramen",
+    "title": "Ramen",
+    "file": "ramen.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Shoyu_Ramen%EF%BC%88Tokyo_Ramen%EF%BC%89_-_01.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Shoyu_Ramen%EF%BC%88Tokyo_Ramen%EF%BC%89_-_01.jpg/1920px-Shoyu_Ramen%EF%BC%88Tokyo_Ramen%EF%BC%89_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Quercus acuta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-manga-20261012"
+  },
+  {
+    "slug": "seven-balls",
+    "title": "Indice visuel — seven-balls",
+    "file": "seven-balls.png",
+    "artist": "Trivia Party — diagramme ou indice visuel local",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commons": null,
+    "credit": "Diagramme dessiné pour le jeu.",
+    "changes": "Indice représentatif, pas une image du film ou de la bande dessinée.",
+    "originalPackage": "lib-qcm-manga-20261012"
+  }
+]

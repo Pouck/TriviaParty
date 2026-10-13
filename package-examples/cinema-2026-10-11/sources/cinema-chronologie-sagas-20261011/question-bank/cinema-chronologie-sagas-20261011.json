@@ -1,0 +1,100 @@
+{
+  "category": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "cinema-chronologie-sagas-20261011-01",
+      "category": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Indiana Jones — du plus ancien au plus récent :\n• Raiders of the Lost Ark\n• Indiana Jones and the Last Crusade\n• Indiana Jones and the Temple of Doom",
+      "options": [
+        "A — Indiana Jones and the Temple of Doom → Indiana Jones and the Last Crusade → Raiders of the Lost Ark",
+        "B — Raiders of the Lost Ark → Indiana Jones and the Temple of Doom → Indiana Jones and the Last Crusade",
+        "C — Raiders of the Lost Ark → Indiana Jones and the Last Crusade → Indiana Jones and the Temple of Doom",
+        "D — Indiana Jones and the Temple of Doom → Raiders of the Lost Ark → Indiana Jones and the Last Crusade"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "cinema-chronologie-sagas-20261011-02",
+      "category": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "James Bond — époque Daniel Craig — du plus ancien au plus récent :\n• Skyfall\n• Casino Royale\n• Spectre",
+      "options": [
+        "A — Casino Royale → Spectre → Skyfall",
+        "B — Skyfall → Spectre → Casino Royale",
+        "C — Skyfall → Casino Royale → Spectre",
+        "D — Casino Royale → Skyfall → Spectre"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "cinema-chronologie-sagas-20261011-03",
+      "category": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Pixar — du plus ancien au plus récent :\n• Toy Story\n• Inside Out\n• Finding Nemo",
+      "options": [
+        "A — Toy Story → Inside Out → Finding Nemo",
+        "B — Finding Nemo → Toy Story → Inside Out",
+        "C — Finding Nemo → Inside Out → Toy Story",
+        "D — Toy Story → Finding Nemo → Inside Out"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "cinema-chronologie-sagas-20261011-04",
+      "category": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Harry Potter — du plus ancien au plus récent :\n• Harry Potter et les Reliques de la Mort — Partie 2\n• Harry Potter à l’école des sorciers\n• Harry Potter et la Coupe de feu",
+      "options": [
+        "A — Harry Potter à l’école des sorciers → Harry Potter et les Reliques de la Mort — Partie 2 → Harry Potter et la Coupe de feu",
+        "B — Harry Potter à l’école des sorciers → Harry Potter et la Coupe de feu → Harry Potter et les Reliques de la Mort — Partie 2",
+        "C — Harry Potter et la Coupe de feu → Harry Potter à l’école des sorciers → Harry Potter et les Reliques de la Mort — Partie 2",
+        "D — Harry Potter et la Coupe de feu → Harry Potter et les Reliques de la Mort — Partie 2 → Harry Potter à l’école des sorciers"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "cinema-chronologie-sagas-20261011-05",
+      "category": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Le Seigneur des anneaux — du plus ancien au plus récent :\n• La Communauté de l’anneau\n• Le Retour du roi\n• Les Deux Tours",
+      "options": [
+        "A — La Communauté de l’anneau → Le Retour du roi → Les Deux Tours",
+        "B — Les Deux Tours → La Communauté de l’anneau → Le Retour du roi",
+        "C — La Communauté de l’anneau → Les Deux Tours → Le Retour du roi",
+        "D — Les Deux Tours → Le Retour du roi → La Communauté de l’anneau"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "cinema-chronologie-sagas-20261011-06",
+      "category": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Star Wars — trilogie originale — du plus ancien au plus récent :\n• The Empire Strikes Back\n• Return of the Jedi\n• A New Hope",
+      "options": [
+        "A — A New Hope → The Empire Strikes Back → Return of the Jedi",
+        "B — A New Hope → Return of the Jedi → The Empire Strikes Back",
+        "C — The Empire Strikes Back → A New Hope → Return of the Jedi",
+        "D — The Empire Strikes Back → Return of the Jedi → A New Hope"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

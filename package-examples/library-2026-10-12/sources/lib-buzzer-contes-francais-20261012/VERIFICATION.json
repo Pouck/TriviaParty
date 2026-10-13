@@ -1,0 +1,52 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://gallica.bnf.fr/essentiels/perrault/contes",
+      "https://www.bnf.fr/fr/agenda/le-bleu-de-la-barbe-les-ressorts-du-conte-dramatique-de-perrault",
+      "https://www.bnf.fr/fr/charles-perrault"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://gallica.bnf.fr/essentiels/perrault/contes",
+      "https://www.bnf.fr/fr/agenda/le-bleu-de-la-barbe-les-ressorts-du-conte-dramatique-de-perrault",
+      "https://www.bnf.fr/fr/charles-perrault"
+    ],
+    "note": "",
+    "visual": "wolf"
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://gallica.bnf.fr/essentiels/perrault/contes",
+      "https://www.bnf.fr/fr/agenda/le-bleu-de-la-barbe-les-ressorts-du-conte-dramatique-de-perrault",
+      "https://www.bnf.fr/fr/charles-perrault"
+    ],
+    "note": "",
+    "visual": "pumpkin"
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://gallica.bnf.fr/essentiels/perrault/contes",
+      "https://www.bnf.fr/fr/agenda/le-bleu-de-la-barbe-les-ressorts-du-conte-dramatique-de-perrault",
+      "https://www.bnf.fr/fr/charles-perrault"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://gallica.bnf.fr/essentiels/perrault/contes",
+      "https://www.bnf.fr/fr/agenda/le-bleu-de-la-barbe-les-ressorts-du-conte-dramatique-de-perrault",
+      "https://www.bnf.fr/fr/charles-perrault"
+    ],
+    "note": "",
+    "visual": null
+  }
+]

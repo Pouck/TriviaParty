@@ -1,0 +1,92 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-buzzer-recits-autochtones-20261012-01",
+    "originalPackage": "lib-buzzer-recits-autochtones-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://oneida.on.ca/about/oneida-creation-story/",
+        "https://www.historymuseum.ca/wp-content/uploads/2020/06/Creation-of-Haidagwaii-EN-REV1.pdf",
+        "https://epe.lac-bac.gc.ca/100/205/301/ic/cdc/world_around_me/world/vr1/pop-ups/legends.htm?nodisclaimer=1",
+        "https://www.thecanadianencyclopedia.ca/en/article/glooscap",
+        "https://glooscapfirstnation.com/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-buzzer-recits-autochtones-20261012-02",
+    "originalPackage": "lib-buzzer-recits-autochtones-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://oneida.on.ca/about/oneida-creation-story/",
+        "https://www.historymuseum.ca/wp-content/uploads/2020/06/Creation-of-Haidagwaii-EN-REV1.pdf",
+        "https://epe.lac-bac.gc.ca/100/205/301/ic/cdc/world_around_me/world/vr1/pop-ups/legends.htm?nodisclaimer=1",
+        "https://www.thecanadianencyclopedia.ca/en/article/glooscap",
+        "https://glooscapfirstnation.com/"
+      ],
+      "note": "",
+      "visual": "seal"
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-buzzer-recits-autochtones-20261012-03",
+    "originalPackage": "lib-buzzer-recits-autochtones-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://oneida.on.ca/about/oneida-creation-story/",
+        "https://www.historymuseum.ca/wp-content/uploads/2020/06/Creation-of-Haidagwaii-EN-REV1.pdf",
+        "https://epe.lac-bac.gc.ca/100/205/301/ic/cdc/world_around_me/world/vr1/pop-ups/legends.htm?nodisclaimer=1",
+        "https://www.thecanadianencyclopedia.ca/en/article/glooscap",
+        "https://glooscapfirstnation.com/"
+      ],
+      "note": "",
+      "visual": "raven"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-buzzer-recits-autochtones-20261012-04",
+    "originalPackage": "lib-buzzer-recits-autochtones-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://oneida.on.ca/about/oneida-creation-story/",
+        "https://www.historymuseum.ca/wp-content/uploads/2020/06/Creation-of-Haidagwaii-EN-REV1.pdf",
+        "https://epe.lac-bac.gc.ca/100/205/301/ic/cdc/world_around_me/world/vr1/pop-ups/legends.htm?nodisclaimer=1",
+        "https://www.thecanadianencyclopedia.ca/en/article/glooscap",
+        "https://glooscapfirstnation.com/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-buzzer-recits-autochtones-20261012-05",
+    "originalPackage": "lib-buzzer-recits-autochtones-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://oneida.on.ca/about/oneida-creation-story/",
+        "https://www.historymuseum.ca/wp-content/uploads/2020/06/Creation-of-Haidagwaii-EN-REV1.pdf",
+        "https://epe.lac-bac.gc.ca/100/205/301/ic/cdc/world_around_me/world/vr1/pop-ups/legends.htm?nodisclaimer=1",
+        "https://www.thecanadianencyclopedia.ca/en/article/glooscap",
+        "https://glooscapfirstnation.com/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

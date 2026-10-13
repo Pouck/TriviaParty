@@ -1,0 +1,15 @@
+{
+  "id": "gaming",
+  "name": "Univers du jeu vidéo",
+  "description": "Histoire et cartes de jeux vidéo.",
+  "categoryPackages": [
+    "gaming-history",
+    "video-game-maps"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 9,
+    "decayPercentagePerFlip": 0.12,
+    "maxFlips": 5
+  },
+  "answerTimeSeconds": 10
+}

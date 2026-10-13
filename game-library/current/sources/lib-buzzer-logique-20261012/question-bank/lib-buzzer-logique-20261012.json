@@ -1,0 +1,78 @@
+{
+  "category": "Logique — Défis rapides — Réponses écrites",
+  "subject": "Logique et énigmes",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-logique-20261012-01",
+      "category": "Logique — Défis rapides — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel nombre manque : 5, 10, 15, __, 25, en comptant de cinq en cinq ?",
+      "acceptableAnswers": [
+        "20"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-logique-20261012/fives.png"
+    },
+    {
+      "id": "lib-buzzer-logique-20261012-02",
+      "category": "Logique — Défis rapides — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Un grand-père mange avec son fils et son petit-fils. Combien de personnes sont à table ?",
+      "acceptableAnswers": [
+        "Trois",
+        "3"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-logique-20261012-03",
+      "category": "Logique — Défis rapides — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Vous doublez la personne en deuxième place d’une course. Quelle place prenez-vous ?",
+      "acceptableAnswers": [
+        "La deuxième",
+        "Deuxième",
+        "2",
+        "Seconde"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-logique-20261012-04",
+      "category": "Logique — Défis rapides — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Combien de carrés sont dessinés ici ?",
+      "acceptableAnswers": [
+        "Quatre",
+        "4"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-logique-20261012/four-squares.png"
+    },
+    {
+      "id": "lib-buzzer-logique-20261012-05",
+      "category": "Logique — Défis rapides — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Marie a 3 pommes et en donne 1. Combien lui en reste-t-il ?",
+      "acceptableAnswers": [
+        "Deux",
+        "2"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "category": "Sciences — Découvertes accessibles — QCM",
+  "subject": "Sciences",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-science-generale-20261012-01",
+      "category": "Sciences — Découvertes accessibles — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle planète est surnommée la planète rouge ?",
+      "options": [
+        "A — Vénus",
+        "B — Jupiter",
+        "C — Mercure",
+        "D — Mars"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/lib-qcm-science-generale-20261012/mars.png"
+    },
+    {
+      "id": "lib-qcm-science-generale-20261012-02",
+      "category": "Sciences — Découvertes accessibles — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel phénomène attire les objets vers la Terre ?",
+      "options": [
+        "A — Le magnétisme",
+        "B — La gravité",
+        "C — La friction",
+        "D — La photosynthèse"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-science-generale-20261012-03",
+      "category": "Sciences — Découvertes accessibles — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel astre est au centre du Système solaire ?",
+      "options": [
+        "A — Le Soleil",
+        "B — La Lune",
+        "C — Jupiter",
+        "D — La Terre"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-science-generale-20261012/sunrise.png"
+    },
+    {
+      "id": "lib-qcm-science-generale-20261012-04",
+      "category": "Sciences — Découvertes accessibles — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle unité sert à mesurer la température en usage courant au Québec ?",
+      "options": [
+        "A — Le degré Celsius",
+        "B — Le litre",
+        "C — Le volt",
+        "D — Le kilogramme"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-science-generale-20261012-05",
+      "category": "Sciences — Découvertes accessibles — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel appareil agrandit l’image de très petits objets ?",
+      "options": [
+        "A — Le télescope",
+        "B — Le périscope",
+        "C — Le microscope",
+        "D — Le stéthoscope"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

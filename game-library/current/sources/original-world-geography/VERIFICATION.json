@@ -1,0 +1,37 @@
+[
+  {
+    "question": 1,
+    "questionId": "q3",
+    "originalPackage": "original-world-geography",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "q9",
+    "originalPackage": "original-world-geography",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "q10",
+    "originalPackage": "original-world-geography",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "q11",
+    "originalPackage": "original-world-geography",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "q12",
+    "originalPackage": "original-world-geography",
+    "reference": {},
+    "new": false
+  }
+]

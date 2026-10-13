@@ -1,0 +1,26 @@
+{
+  "category": "Démo — Qui suis-je ?",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "qui-suis-je-demo-01",
+      "category": "Démo — Qui suis-je ?",
+      "prompt": "Qui suis-je ?",
+      "basePoints": 15,
+      "penaltyPoints": 5,
+      "clues": [
+        "Je mesure une durée sans électricité.",
+        "On me retourne pour recommencer la mesure.",
+        "Du sable passe d’un réservoir à l’autre à travers un passage étroit."
+      ],
+      "acceptableAnswers": [
+        "Un sablier",
+        "Sablier"
+      ]
+    }
+  ]
+}

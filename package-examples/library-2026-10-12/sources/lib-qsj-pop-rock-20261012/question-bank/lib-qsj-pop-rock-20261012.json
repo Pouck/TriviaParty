@@ -1,0 +1,96 @@
+{
+  "category": "Musique — Pop et rock — Grands noms — Qui suis-je ?",
+  "subject": "Musique",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-pop-rock-20261012-01",
+      "category": "Musique — Pop et rock — Grands noms — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis né sous le nom Farrokh Bulsara.",
+        "J’ai une voix très reconnaissable.",
+        "J’ai écrit Bohemian Rhapsody.",
+        "Je suis le chanteur emblématique de Queen."
+      ],
+      "acceptableAnswers": [
+        "Freddie Mercury"
+      ]
+    },
+    {
+      "id": "lib-qsj-pop-rock-20261012-02",
+      "category": "Musique — Pop et rock — Grands noms — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "J’ai commencé avec mes frères.",
+        "Ma danse moonwalk est célèbre.",
+        "Billie Jean est un de mes succès.",
+        "Je suis le chanteur de Thriller."
+      ],
+      "acceptableAnswers": [
+        "Michael Jackson"
+      ]
+    },
+    {
+      "id": "lib-qsj-pop-rock-20261012-03",
+      "category": "Musique — Pop et rock — Grands noms — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Graceland est ma célèbre demeure.",
+        "Je mêle notamment rock, country et gospel.",
+        "Je suis associé à Memphis.",
+        "On me surnomme le King."
+      ],
+      "acceptableAnswers": [
+        "Elvis Presley"
+      ]
+    },
+    {
+      "id": "lib-qsj-pop-rock-20261012-04",
+      "category": "Musique — Pop et rock — Grands noms — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un artiste jamaïcain.",
+        "Les Wailers m’accompagnent.",
+        "Le reggae a porté ma musique dans le monde.",
+        "Je chante notamment Three Little Birds."
+      ],
+      "acceptableAnswers": [
+        "Bob Marley"
+      ]
+    },
+    {
+      "id": "lib-qsj-pop-rock-20261012-05",
+      "category": "Musique — Pop et rock — Grands noms — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Nous sommes un groupe de Liverpool.",
+        "Nos quatre membres sont devenus mondialement connus.",
+        "Nous avons enregistré Abbey Road.",
+        "Nous sommes John, Paul, George et Ringo."
+      ],
+      "acceptableAnswers": [
+        "Les Beatles",
+        "Beatles"
+      ]
+    }
+  ]
+}

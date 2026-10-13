@@ -1,0 +1,64 @@
+[
+  {
+    "question": 1,
+    "questionId": "us-politique-et-grandes-figures-20261010-01",
+    "originalPackage": "histoire-etats-unis-politique-et-grandes-figures-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "us-politique-et-grandes-figures-20261010-02",
+    "originalPackage": "histoire-etats-unis-politique-et-grandes-figures-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "us-politique-et-grandes-figures-20261010-03",
+    "originalPackage": "histoire-etats-unis-politique-et-grandes-figures-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "us-politique-et-grandes-figures-20261010-04",
+    "originalPackage": "histoire-etats-unis-politique-et-grandes-figures-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qcm-histoire-etats-unis-20261012-01",
+    "originalPackage": "lib-qcm-histoire-etats-unis-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.archives.gov/founding-docs",
+        "https://www.nps.gov/people/abraham-lincoln.htm",
+        "https://www.nasa.gov/mission/apollo-11/",
+        "https://www.si.edu/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "lib-qcm-histoire-etats-unis-20261012-02",
+    "originalPackage": "lib-qcm-histoire-etats-unis-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.archives.gov/founding-docs",
+        "https://www.nps.gov/people/abraham-lincoln.htm",
+        "https://www.nasa.gov/mission/apollo-11/",
+        "https://www.si.edu/"
+      ],
+      "note": "",
+      "visual": "liberty-statue"
+    },
+    "new": false
+  }
+]

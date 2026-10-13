@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "eiffel",
+    "title": "Eiffel Tower",
+    "file": "eiffel.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons_(cropped).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/1920px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Benh LIEU SONG",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "This image has been extracted from another file",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "architecture-buzzer-europe-20261011"
+  },
+  {
+    "slug": "bigben",
+    "title": "Big Ben",
+    "file": "bigben.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster,_London.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster%2C_London.jpg/1920px-Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster%2C_London.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Christian David",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "architecture-buzzer-europe-20261011"
+  },
+  {
+    "slug": "arc",
+    "title": "Arc de Triomphe",
+    "file": "arc.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg/1920px-Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "ZeusUpsistos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "architecture-buzzer-europe-20261011"
+  }
+]

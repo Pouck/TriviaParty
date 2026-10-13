@@ -1,0 +1,172 @@
+{
+  "category": "Cinéma — Sorties de films — Repères — Chronologie",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "cinema-chronologie-reperes-20261011-01",
+      "category": "Cinéma — Sorties de films — Repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Grands succès de Spielberg — du plus ancien au plus récent :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Raiders of the Lost Ark"
+        },
+        {
+          "id": "item-1",
+          "text": "Jaws"
+        },
+        {
+          "id": "item-2",
+          "text": "Jurassic Park"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "cinema-chronologie-reperes-20261011-02",
+      "category": "Cinéma — Sorties de films — Repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Animation Disney — versions originales — du plus ancien au plus récent :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Cinderella"
+        },
+        {
+          "id": "item-1",
+          "text": "The Lion King"
+        },
+        {
+          "id": "item-2",
+          "text": "Snow White and the Seven Dwarfs"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "cinema-chronologie-reperes-20261011-03",
+      "category": "Cinéma — Sorties de films — Repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Science-fiction — du plus ancien au plus récent :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "The Matrix"
+        },
+        {
+          "id": "item-1",
+          "text": "2001: A Space Odyssey"
+        },
+        {
+          "id": "item-2",
+          "text": "Star Wars: A New Hope"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "id": "cinema-chronologie-reperes-20261011-04",
+      "category": "Cinéma — Sorties de films — Repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Comédies musicales — du plus ancien au plus récent :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "The Sound of Music"
+        },
+        {
+          "id": "item-1",
+          "text": "Grease"
+        },
+        {
+          "id": "item-2",
+          "text": "Singin’ in the Rain"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "cinema-chronologie-reperes-20261011-05",
+      "category": "Cinéma — Sorties de films — Repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Superhéros — versions avec ces acteurs — du plus ancien au plus récent :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Batman (Michael Keaton)"
+        },
+        {
+          "id": "item-1",
+          "text": "Superman (Christopher Reeve)"
+        },
+        {
+          "id": "item-2",
+          "text": "Spider-Man (Tobey Maguire)"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "cinema-chronologie-reperes-20261011-06",
+      "category": "Cinéma — Sorties de films — Repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties originales de ces films.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Titanic"
+        },
+        {
+          "id": "item-1",
+          "text": "E.T. the Extra-Terrestrial"
+        },
+        {
+          "id": "item-2",
+          "text": "Back to the Future"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    }
+  ]
+}

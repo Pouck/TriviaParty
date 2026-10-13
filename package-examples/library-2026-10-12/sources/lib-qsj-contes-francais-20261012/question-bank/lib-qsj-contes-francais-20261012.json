@@ -1,0 +1,95 @@
+{
+  "category": "Contes et légendes de France — Qui suis-je ?",
+  "subject": "Contes et légendes",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-contes-francais-20261012-01",
+      "category": "Contes et légendes de France — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis l’héritage d’un fils de meunier.",
+        "Je fais passer mon maître pour un marquis.",
+        "Je piège un ogre capable de se transformer.",
+        "Je suis le chat qui porte des bottes."
+      ],
+      "acceptableAnswers": [
+        "Le Chat botté"
+      ]
+    },
+    {
+      "id": "lib-qsj-contes-francais-20261012-02",
+      "category": "Contes et légendes de France — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Une fée me condamne lors de ma naissance.",
+        "Je me pique à un fuseau.",
+        "Je dors pendant cent ans.",
+        "Mon nom évoque une belle endormie dans un bois."
+      ],
+      "acceptableAnswers": [
+        "La Belle au bois dormant"
+      ]
+    },
+    {
+      "id": "lib-qsj-contes-francais-20261012-03",
+      "category": "Contes et légendes de France — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un riche personnage inquiétant.",
+        "Je remets à mon épouse une clé interdite.",
+        "Une chambre révèle le sort de mes anciennes femmes.",
+        "Je suis l’homme à la barbe d’une couleur inhabituelle."
+      ],
+      "acceptableAnswers": [
+        "Barbe bleue"
+      ]
+    },
+    {
+      "id": "lib-qsj-contes-francais-20261012-04",
+      "category": "Contes et légendes de France — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je vis avec une famille qui me traite mal.",
+        "Ma marraine m’aide à aller au bal.",
+        "Je dois partir avant minuit.",
+        "Je perds une pantoufle de verre chez Perrault."
+      ],
+      "acceptableAnswers": [
+        "Cendrillon"
+      ]
+    },
+    {
+      "id": "lib-qsj-contes-francais-20261012-05",
+      "category": "Contes et légendes de France — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis le plus jeune de sept frères.",
+        "Je guide ma fratrie grâce à des cailloux.",
+        "J’échappe à un ogre et prends ses bottes.",
+        "Je suis le petit héros de Perrault nommé comme un doigt."
+      ],
+      "acceptableAnswers": [
+        "Le Petit Poucet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "category": "Histoire — Explorateurs célèbres — Buzzer",
+  "subject": "Histoire",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-explorateurs-20261012-01",
+      "category": "Histoire — Explorateurs célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel navigateur part d’Espagne et atteint les Caraïbes en 1492 ?",
+      "acceptableAnswers": [
+        "Christophe Colomb",
+        "Colomb"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-explorateurs-20261012-02",
+      "category": "Histoire — Explorateurs célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel navigateur portugais atteint l’Inde par mer en contournant l’Afrique en 1498 ?",
+      "acceptableAnswers": [
+        "Vasco de Gama",
+        "Vasco da Gama"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/ship.png"
+    },
+    {
+      "id": "lib-buzzer-explorateurs-20261012-03",
+      "category": "Histoire — Explorateurs célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel Français fonde Québec ?",
+      "acceptableAnswers": [
+        "Samuel de Champlain",
+        "Champlain"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-explorateurs-20261012-04",
+      "category": "Histoire — Explorateurs célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel explorateur européen longe le Saint-Laurent en 1535 ?",
+      "acceptableAnswers": [
+        "Jacques Cartier",
+        "Cartier"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/river.jpg"
+    },
+    {
+      "id": "lib-buzzer-explorateurs-20261012-05",
+      "category": "Histoire — Explorateurs célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel voyageur marocain du XIVe siècle parcourt de nombreux pays ?",
+      "acceptableAnswers": [
+        "Ibn Battûta",
+        "Ibn Battuta"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "ship",
+    "title": "Indice visuel — ship",
+    "file": "ship.png",
+    "artist": "Trivia Party — diagramme ou indice visuel local",
+    "license": "Illustration locale ; glyphes système crédités",
+    "licenseUrl": "https://learn.microsoft.com/en-us/typography/fonts/font-faq",
+    "commons": null,
+    "credit": "Graphisme de jeu ; symboles rendus avec la police système Segoe UI Emoji, sans redistribution du fichier de police.",
+    "changes": "Indice représentatif, pas une image du film ou de la bande dessinée.",
+    "originalPackage": "lib-buzzer-explorateurs-20261012"
+  },
+  {
+    "slug": "river",
+    "title": "Saint Lawrence River",
+    "file": "river.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Le_fleuve_Saint-Laurent.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Le_fleuve_Saint-Laurent.jpg/1920px-Le_fleuve_Saint-Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "abdallahh",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "credit": "originally posted to Flickr as Le fleuve Saint-Laurent",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-buzzer-explorateurs-20261012"
+  }
+]

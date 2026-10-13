@@ -1,0 +1,87 @@
+{
+  "category": "Disney — Animation — QCM",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-disney-20261012-01",
+      "category": "Disney — Animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel héros de Disney est un jeune lion ?",
+      "options": [
+        "A — Simba",
+        "B — Bambi",
+        "C — Dumbo",
+        "D — Baloo"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-disney-20261012/lion.jpg"
+    },
+    {
+      "id": "lib-qcm-disney-20261012-02",
+      "category": "Disney — Animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans La Belle et la Bête, quel objet perd ses pétales ?",
+      "options": [
+        "A — Une marguerite",
+        "B — Une tulipe",
+        "C — Une rose",
+        "D — Un lotus"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-disney-20261012-03",
+      "category": "Disney — Animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel objet volant aide Aladdin ?",
+      "options": [
+        "A — Un bateau",
+        "B — Un nuage",
+        "C — Un balai",
+        "D — Un tapis"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-disney-20261012-04",
+      "category": "Disney — Animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel conte de Disney transforme une citrouille en carrosse ?",
+      "options": [
+        "A — La Petite Sirène",
+        "B — Cendrillon",
+        "C — Mulan",
+        "D — Pocahontas"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/lib-qcm-disney-20261012/pumpkin.png"
+    },
+    {
+      "id": "lib-qcm-disney-20261012-05",
+      "category": "Disney — Animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel animal est Dumbo ?",
+      "options": [
+        "A — Un éléphant",
+        "B — Un rhinocéros",
+        "C — Un hippopotame",
+        "D — Un zèbre"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

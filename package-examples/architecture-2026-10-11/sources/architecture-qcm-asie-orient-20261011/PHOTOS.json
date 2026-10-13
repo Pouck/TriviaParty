@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "taj",
+    "title": "Taj Mahal",
+    "file": "taj.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1920px-Taj_Mahal_%28Edited%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Yann; edited by Jim Carter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Edited version of File:Taj Mahal, Agra, India.jpg",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  },
+  {
+    "slug": "angkor",
+    "title": "Angkor Wat",
+    "file": "angkor.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Angkor_Wat.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Angkor_Wat.jpg/1920px-Angkor_Wat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Bjørn Christian Tørrissen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  },
+  {
+    "slug": "forbidden",
+    "title": "Forbidden City",
+    "file": "forbidden.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:The_Forbidden_City_-_View_from_Coal_Hill.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Forbidden_City_-_View_from_Coal_Hill.jpg/1920px-The_Forbidden_City_-_View_from_Coal_Hill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Pixelflake",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  }
+]

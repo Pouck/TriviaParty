@@ -1,0 +1,87 @@
+{
+  "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — QCM",
+  "subject": "Mythologie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-odyssee-20261012-01",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Sur quelle île Ulysse veut-il rentrer ?",
+      "options": [
+        "A — Ithaque",
+        "B — Lesbos",
+        "C — Rhodes",
+        "D — Crète"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-odyssee-20261012/island.png"
+    },
+    {
+      "id": "lib-qcm-odyssee-20261012-02",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel dieu poursuit Ulysse de sa colère ?",
+      "options": [
+        "A — Poséidon",
+        "B — Apollon",
+        "C — Héphaïstos",
+        "D — Dionysos"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-odyssee-20261012-03",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel prénom Ulysse donne-t-il au Cyclope pour le tromper ?",
+      "options": [
+        "A — Paris",
+        "B — Nestor",
+        "C — Achille",
+        "D — Personne"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-odyssee-20261012-04",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Comment Ulysse écoute-t-il les Sirènes sans les rejoindre ?",
+      "options": [
+        "A — Endormi",
+        "B — Attaché au mât",
+        "C — Caché sous un mouton",
+        "D — Dans un coffre"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/lib-qcm-odyssee-20261012/ship.png"
+    },
+    {
+      "id": "lib-qcm-odyssee-20261012-05",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle déesse aide souvent Ulysse ?",
+      "options": [
+        "A — Artémis",
+        "B — Héra",
+        "C — Athéna",
+        "D — Aphrodite"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

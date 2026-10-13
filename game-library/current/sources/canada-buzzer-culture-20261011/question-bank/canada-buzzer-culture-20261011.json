@@ -1,0 +1,65 @@
+{
+  "category": "Canada — Culture et institutions — Réponses écrites — 1",
+  "subject": "Histoire",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-culture-20261011-01",
+      "category": "Canada — Culture et institutions — Réponses écrites — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel chemin de fer transcontinental voit son dernier crampon posé en 1885 ?",
+      "acceptableAnswers": [
+        "Le Canadien Pacifique"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-culture-20261011-02",
+      "category": "Canada — Culture et institutions — Réponses écrites — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle province canadienne est la principale productrice mondiale de sirop d’érable ?",
+      "acceptableAnswers": [
+        "Le Québec"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-culture-20261011-03",
+      "category": "Canada — Culture et institutions — Réponses écrites — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Qui écrit la chanson The Maple Leaf Forever en 1867 ?",
+      "acceptableAnswers": [
+        "Alexander Muir"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-culture-20261011-04",
+      "category": "Canada — Culture et institutions — Réponses écrites — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle goélette de Nouvelle-Écosse figure sur la pièce canadienne de dix cents ?",
+      "acceptableAnswers": [
+        "Le Bluenose"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-culture-20261011-05",
+      "category": "Canada — Culture et institutions — Réponses écrites — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Comment appelle-t-on les partisans de la Couronne britannique qui s’installent au Canada après la Révolution américaine ?",
+      "acceptableAnswers": [
+        "Les loyalistes"
+      ]
+    }
+  ]
+}

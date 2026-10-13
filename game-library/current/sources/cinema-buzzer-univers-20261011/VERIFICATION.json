@@ -1,0 +1,80 @@
+[
+  {
+    "question": 1,
+    "questionId": "cinema-buzzer-univers-20261011-01",
+    "originalPackage": "cinema-buzzer-univers-20261011",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.dc.com/characters/batman"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "cinema-buzzer-univers-20261011-02",
+    "originalPackage": "cinema-buzzer-univers-20261011",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.marvel.com/comics/guides/181/who_has_wielded_thors_hammer"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "cinema-buzzer-univers-20261011-03",
+    "originalPackage": "cinema-buzzer-univers-20261011",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.dc.com/characters/superman"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "cinema-buzzer-univers-20261011-04",
+    "originalPackage": "cinema-buzzer-univers-20261011",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.starwars.com/databank/lightsaber"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "cinema-buzzer-univers-20261011-05",
+    "originalPackage": "cinema-buzzer-univers-20261011",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.avatar.com/pandorapedia/"
+      ],
+      "note": "Pandora est une lune ; le mot « planète » a été évité."
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "cinema-buzzer-univers-20261011-06",
+    "originalPackage": "cinema-buzzer-univers-20261011",
+    "reference": {
+      "question": 6,
+      "sources": [
+        "https://movies.disney.com/frozen"
+      ],
+      "note": ""
+    },
+    "new": false
+  }
+]

@@ -1,0 +1,145 @@
+{
+  "category": "Musique — Œuvres dans le temps — Chronologie",
+  "subject": "Musique",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "lib-chronologie-musique-reperes-20261012-01",
+      "category": "Musique — Œuvres dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les compositeurs selon leur naissance",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Jean-Sébastien Bach"
+        },
+        {
+          "id": "item-1",
+          "text": "Beethoven"
+        },
+        {
+          "id": "item-2",
+          "text": "Mozart"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-musique-reperes-20261012-02",
+      "category": "Musique — Œuvres dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les créations publiques de ces œuvres",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Le Lac des cygnes"
+        },
+        {
+          "id": "item-1",
+          "text": "La Flûte enchantée"
+        },
+        {
+          "id": "item-2",
+          "text": "Neuvième Symphonie de Beethoven"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-musique-reperes-20261012-03",
+      "category": "Musique — Œuvres dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties des albums",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "A Night at the Opera — Queen"
+        },
+        {
+          "id": "item-1",
+          "text": "Thriller — Michael Jackson"
+        },
+        {
+          "id": "item-2",
+          "text": "Abbey Road — The Beatles"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-musique-reperes-20261012-04",
+      "category": "Musique — Œuvres dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les compositeurs selon leur naissance",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Chopin"
+        },
+        {
+          "id": "item-1",
+          "text": "Tchaïkovski"
+        },
+        {
+          "id": "item-2",
+          "text": "Vivaldi"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-musique-reperes-20261012-05",
+      "category": "Musique — Œuvres dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces repères musicaux",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Sortie d’Abbey Road"
+        },
+        {
+          "id": "item-1",
+          "text": "Sortie de Thriller"
+        },
+        {
+          "id": "item-2",
+          "text": "Création de La Flûte enchantée"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "category": "Littérature française — Œuvres : choix multiples — 1",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-01",
+      "category": "Littérature française — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Victor Hugo met en scène Quasimodo et Esmeralda ?",
+      "options": [
+        "A — Le Fantôme de l’Opéra",
+        "B — Notre-Dame de Paris",
+        "C — Le Comte de Monte-Cristo",
+        "D — Les Misérables"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-02",
+      "category": "Littérature française — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Au début de L’Étranger d’Albert Camus, quel événement Meursault apprend-il ?",
+      "options": [
+        "A — La mort de sa mère",
+        "B — Un meurtre sur une plage",
+        "C — Sa prochaine exécution",
+        "D — Le début d’une épidémie"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-03",
+      "category": "Littérature française — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Dans quelle œuvre de Proust une madeleine fait-elle surgir des souvenirs involontaires ?",
+      "options": [
+        "A — À la recherche du temps perdu",
+        "B — La Comédie humaine",
+        "C — Voyage au bout de la nuit",
+        "D — Les Fleurs du mal"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-04",
+      "category": "Littérature française — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Dumas évoque le mariage de Marguerite de Valois et la Saint-Barthélemy ?",
+      "options": [
+        "A — Vingt Ans après",
+        "B — La Tulipe noire",
+        "C — La Reine Margot",
+        "D — Les Trois Mousquetaires"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-05",
+      "category": "Littérature française — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Dans quel lieu parisien se déroule principalement Le Fantôme de l’Opéra de Gaston Leroux ?",
+      "options": [
+        "A — Notre-Dame de Paris",
+        "B — Le palais du Louvre",
+        "C — Les catacombes",
+        "D — Le palais Garnier"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

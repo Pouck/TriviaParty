@@ -1,0 +1,95 @@
+{
+  "category": "Mythologie romaine — Dieux et récits — Qui suis-je ?",
+  "subject": "Mythologie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-mythologie-romaine-20261012-01",
+      "category": "Mythologie romaine — Dieux et récits — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je protège notamment le mariage.",
+        "Mon équivalente grecque est Héra.",
+        "Jupiter est mon époux.",
+        "Je suis la reine des dieux romains."
+      ],
+      "acceptableAnswers": [
+        "Junon"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-romaine-20261012-02",
+      "category": "Mythologie romaine — Dieux et récits — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je travaille auprès des flammes.",
+        "Mon équivalent grec est Héphaïstos.",
+        "Je suis associé à la forge.",
+        "Je suis le dieu romain du feu et des forgerons."
+      ],
+      "acceptableAnswers": [
+        "Vulcain"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-romaine-20261012-03",
+      "category": "Mythologie romaine — Dieux et récits — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis associée à la nature sauvage.",
+        "Mon équivalente grecque est Artémis.",
+        "Je porte souvent un arc.",
+        "Je suis la déesse romaine de la chasse."
+      ],
+      "acceptableAnswers": [
+        "Diane"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-romaine-20261012-04",
+      "category": "Mythologie romaine — Dieux et récits — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes fêtes sont célèbres dans le monde romain.",
+        "Mon équivalent grec est Dionysos.",
+        "Je suis lié à la vigne.",
+        "Je suis le dieu romain du vin."
+      ],
+      "acceptableAnswers": [
+        "Bacchus"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-romaine-20261012-05",
+      "category": "Mythologie romaine — Dieux et récits — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je grandis avec mon frère jumeau.",
+        "Une louve nous nourrit dans la légende.",
+        "Mon frère s’appelle Rémus.",
+        "Je suis le fondateur légendaire de Rome."
+      ],
+      "acceptableAnswers": [
+        "Romulus"
+      ]
+    }
+  ]
+}

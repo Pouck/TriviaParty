@@ -1,0 +1,95 @@
+{
+  "category": "Mythologie grecque — Héros et objets — Qui suis-je ? écrit",
+  "subject": "Mythologie",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Qui suis-je ? écrit"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-mythologie-grecque-monstres-et-objets-20261010-01",
+      "category": "Mythologie grecque — Héros et objets — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Dans la tradition grecque ancienne, je suis l’une des trois filles de Phorcys et de Céto appelées Gorgones.",
+        "Contrairement à mes deux sœurs, je suis mortelle.",
+        "Mon regard peut changer en pierre ceux qui me regardent directement.",
+        "Gorgone à la chevelure de serpents, je suis décapitée par Persée."
+      ],
+      "acceptableAnswers": [
+        "Méduse"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-mythologie-grecque-monstres-et-objets-20261010-02",
+      "category": "Mythologie grecque — Héros et objets — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Héphaïstos me façonne en décorant ma surface de scènes terrestres et célestes.",
+        "Je représente notamment deux cités, des travaux agricoles et une danse.",
+        "Thétis fait fabriquer les armes dont je fais partie après la mort de Patrocle.",
+        "Je suis la pièce défensive de l’armure d’Achille longuement décrite dans le chant XVIII de l’Iliade."
+      ],
+      "acceptableAnswers": [
+        "Le bouclier d’Achille"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-grecque-20261012-03",
+      "category": "Mythologie grecque — Héros et objets — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis lié au théâtre et aux fêtes.",
+        "Des satyres et des ménades m’accompagnent.",
+        "La vigne est mon symbole.",
+        "Je suis le dieu grec du vin."
+      ],
+      "acceptableAnswers": [
+        "Dionysos"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-grecque-20261012-04",
+      "category": "Mythologie grecque — Héros et objets — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "J’utilise des objets magiques pour une mission dangereuse.",
+        "J’évite de regarder mon ennemie directement.",
+        "Je sauve aussi Andromède.",
+        "Je suis le héros qui décapite Méduse."
+      ],
+      "acceptableAnswers": [
+        "Persée"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-grecque-20261012-05",
+      "category": "Mythologie grecque — Héros et objets — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je combats pendant la guerre de Troie.",
+        "Patrocle est mon compagnon.",
+        "Mon nom évoque un point faible du corps.",
+        "Je suis le héros célèbre pour son talon."
+      ],
+      "acceptableAnswers": [
+        "Achille"
+      ]
+    }
+  ]
+}

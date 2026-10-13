@@ -1,0 +1,145 @@
+{
+  "category": "Histoire — Explorateurs — Voyages et expéditions — Chronologie",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "lib-chronologie-explorateurs-reperes-20261012-01",
+      "category": "Histoire — Explorateurs — Voyages et expéditions — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces étapes de navigation européenne",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Vasco de Gama atteint l’Inde"
+        },
+        {
+          "id": "item-1",
+          "text": "Colomb atteint les Caraïbes"
+        },
+        {
+          "id": "item-2",
+          "text": "L’expédition de Magellan-Elcano achève le tour du monde"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "lib-chronologie-explorateurs-reperes-20261012-02",
+      "category": "Histoire — Explorateurs — Voyages et expéditions — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces repères en Amérique du Nord",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Champlain fonde Québec"
+        },
+        {
+          "id": "item-1",
+          "text": "Premier voyage de Cartier"
+        },
+        {
+          "id": "item-2",
+          "text": "Cabot atteint les côtes de l’Atlantique Nord"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-explorateurs-reperes-20261012-03",
+      "category": "Histoire — Explorateurs — Voyages et expéditions — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces repères",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Premier voyage de Cartier"
+        },
+        {
+          "id": "item-1",
+          "text": "Amundsen atteint le pôle Sud"
+        },
+        {
+          "id": "item-2",
+          "text": "Champlain fonde Québec"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-explorateurs-reperes-20261012-04",
+      "category": "Histoire — Explorateurs — Voyages et expéditions — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les étapes de la première circumnavigation",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Mort de Magellan aux Philippines"
+        },
+        {
+          "id": "item-1",
+          "text": "Retour d’Elcano en Espagne"
+        },
+        {
+          "id": "item-2",
+          "text": "Départ de l’expédition de Magellan"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-explorateurs-reperes-20261012-05",
+      "category": "Histoire — Explorateurs — Voyages et expéditions — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces voyages",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Amundsen atteint le pôle Sud"
+        },
+        {
+          "id": "item-1",
+          "text": "Cartier atteint Hochelaga"
+        },
+        {
+          "id": "item-2",
+          "text": "Colomb atteint les Caraïbes"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    }
+  ]
+}

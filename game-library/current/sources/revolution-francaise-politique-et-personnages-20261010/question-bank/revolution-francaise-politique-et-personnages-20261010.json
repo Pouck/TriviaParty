@@ -1,0 +1,85 @@
+{
+  "category": "Révolution française — Politique et personnages",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-politique-et-personnages-20261010-01",
+      "category": "Révolution française — Politique et personnages",
+      "prompt": "Sous l’Ancien Régime, quel groupe appartient au tiers état ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Les membres de la famille royale",
+        "B — Les paysans, les artisans et les bourgeois non nobles",
+        "C — Le clergé catholique",
+        "D — La noblesse"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-politique-et-personnages-20261010-02",
+      "category": "Révolution française — Politique et personnages",
+      "prompt": "À quel célèbre club politique Robespierre appartient-il pendant la Révolution ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le club des Cordeliers",
+        "B — Le club des Feuillants",
+        "C — Le club de Clichy",
+        "D — Le club des Jacobins"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-politique-et-personnages-20261010-03",
+      "category": "Révolution française — Politique et personnages",
+      "prompt": "Qui assassina Jean-Paul Marat dans sa baignoire en 1793 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Charlotte Corday",
+        "B — Lucile Desmoulins",
+        "C — Madame Roland",
+        "D — Olympe de Gouges"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-politique-et-personnages-20261010-04",
+      "category": "Révolution française — Politique et personnages",
+      "prompt": "Quel comité créé en 1793 joua un rôle central dans le gouvernement révolutionnaire pendant la Terreur ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Les États généraux",
+        "B — Le Directoire",
+        "C — Le Comité de salut public",
+        "D — Le Comité de constitution"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "resize-20261012-louis-xvi",
+      "kind": "multipleChoice",
+      "category": "Révolution française — Politique et personnages",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roi de France est exécuté en 1793 ?",
+      "options": [
+        "A — Louis XVI",
+        "B — Louis XV",
+        "C — Charles X",
+        "D — Louis XIV"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

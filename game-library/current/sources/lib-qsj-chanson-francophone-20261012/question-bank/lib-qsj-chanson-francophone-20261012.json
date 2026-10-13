@@ -1,0 +1,95 @@
+{
+  "category": "Chanson francophone — Classiques — Qui suis-je ? écrit",
+  "subject": "Musique",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Qui suis-je ? écrit"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-chanson-francophone-20261012-01",
+      "category": "Chanson francophone — Classiques — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une figure de la chanson française.",
+        "Non, je ne regrette rien est un de mes succès.",
+        "Je suis surnommée la Môme.",
+        "On m’associe à La Vie en rose."
+      ],
+      "acceptableAnswers": [
+        "Édith Piaf"
+      ]
+    },
+    {
+      "id": "lib-qsj-chanson-francophone-20261012-02",
+      "category": "Chanson francophone — Classiques — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un chanteur belge francophone.",
+        "Je suis célèbre pour ma présence intense sur scène.",
+        "Je chante Amsterdam.",
+        "J’ai écrit Ne me quitte pas."
+      ],
+      "acceptableAnswers": [
+        "Jacques Brel"
+      ]
+    },
+    {
+      "id": "lib-qsj-chanson-francophone-20261012-03",
+      "category": "Chanson francophone — Classiques — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je chante souvent avec une guitare.",
+        "Mes textes jouent avec la poésie et l’ironie.",
+        "Je suis lié à la ville de Sète.",
+        "Je suis l’auteur des Copains d’abord."
+      ],
+      "acceptableAnswers": [
+        "Georges Brassens"
+      ]
+    },
+    {
+      "id": "lib-qsj-chanson-francophone-20261012-04",
+      "category": "Chanson francophone — Classiques — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes racines familiales sont arméniennes.",
+        "Je chante notamment Emmenez-moi.",
+        "Hier encore fait partie de mes succès.",
+        "Je suis l’interprète de La Bohème."
+      ],
+      "acceptableAnswers": [
+        "Charles Aznavour"
+      ]
+    },
+    {
+      "id": "lib-qsj-chanson-francophone-20261012-05",
+      "category": "Chanson francophone — Classiques — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une autrice-compositrice-interprète française.",
+        "Mon surnom évoque une dame en noir.",
+        "Nantes appartient à mon répertoire.",
+        "Je chante L’Aigle noir."
+      ],
+      "acceptableAnswers": [
+        "Barbara"
+      ]
+    }
+  ]
+}

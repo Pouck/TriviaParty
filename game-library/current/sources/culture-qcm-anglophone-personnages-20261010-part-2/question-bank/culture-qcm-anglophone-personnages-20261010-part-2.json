@@ -1,0 +1,85 @@
+{
+  "category": "Littérature britannique et irlandaise — Personnages : choix multiples — 2",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-06",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Qui lit Paradise Lost et souffre du rejet des humains dans Frankenstein ?",
+      "options": [
+        "A — Henry Clerval",
+        "B — Igor",
+        "C — Victor Frankenstein",
+        "D — La créature"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-07",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel hobbit porte l’Anneau unique jusqu’au Mordor dans The Lord of the Rings ?",
+      "options": [
+        "A — Frodon Sacquet",
+        "B — Bilbon Sacquet",
+        "C — Aragorn",
+        "D — Samsagace Gamegie"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-08",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel personnage d’Oscar Wilde reste jeune tandis que son portrait porte les marques de son vieillissement et de ses fautes ?",
+      "options": [
+        "A — Ernest Worthing",
+        "B — Lord Henry Wotton",
+        "C — Dorian Gray",
+        "D — Algernon Moncrieff"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-09",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel employé du ministère de la Vérité tient secrètement un journal dans 1984 ?",
+      "options": [
+        "A — O’Brien",
+        "B — Winston Smith",
+        "C — Big Brother",
+        "D — Emmanuel Goldstein"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-10",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle héroïne de Lewis Carroll suit un lapin dans un monde peuplé du Chat du Cheshire ?",
+      "options": [
+        "A — Alice",
+        "B — Dorothée",
+        "C — Lucy",
+        "D — Wendy"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

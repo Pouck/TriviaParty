@@ -1,0 +1,100 @@
+{
+  "category": "Cinéma — Films et personnages — QCM",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "cinema-qcm-films-personnages-20261011-01",
+      "category": "Cinéma — Films et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui incarne Gandalf dans la trilogie du Seigneur des anneaux réalisée par Peter Jackson ?",
+      "options": [
+        "A — Christopher Lee",
+        "B — Ian McKellen",
+        "C — Michael Gambon",
+        "D — Richard Harris"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "cinema-qcm-films-personnages-20261011-02",
+      "category": "Cinéma — Films et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui réalise Titanic, sorti en 1997 ?",
+      "options": [
+        "A — James Cameron",
+        "B — Robert Zemeckis",
+        "C — Ridley Scott",
+        "D — Steven Spielberg"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "cinema-qcm-films-personnages-20261011-03",
+      "category": "Cinéma — Films et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans quelle ville se déroule principalement Blade Runner, le film de 1982 ?",
+      "options": [
+        "A — Los Angeles",
+        "B — Chicago",
+        "C — Tokyo",
+        "D — New York"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "cinema-qcm-films-personnages-20261011-04",
+      "category": "Cinéma — Films et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel objet Cobb fait-il tourner dans la dernière scène d’Inception ?",
+      "options": [
+        "A — Une pièce de monnaie",
+        "B — Un dé",
+        "C — Une bague",
+        "D — Une toupie"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "cinema-qcm-films-personnages-20261011-05",
+      "category": "Cinéma — Films et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel écrivain est l’auteur du roman Dune, adapté au cinéma ?",
+      "options": [
+        "A — Philip K. Dick",
+        "B — Isaac Asimov",
+        "C — Frank Herbert",
+        "D — Arthur C. Clarke"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "cinema-qcm-films-personnages-20261011-06",
+      "category": "Cinéma — Films et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans Gladiator (2000), quelle civilisation domine le monde de Maximus ?",
+      "options": [
+        "A — L’Empire perse",
+        "B — L’Empire romain",
+        "C — La Grèce antique",
+        "D — L’Égypte pharaonique"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

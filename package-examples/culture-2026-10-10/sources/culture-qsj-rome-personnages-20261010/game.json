@@ -1,0 +1,15 @@
+{
+  "id": "culture-qsj-rome-personnages-20261010",
+  "name": "Qui suis-je ? — Rome antique — République et Empire",
+  "description": "4 questions en français. 4 indices de 20 secondes ; 20 → 15 → 10 → 5 points ; erreur : −5 points.",
+  "categoryPackages": [
+    "culture-qsj-rome-personnages-20261010"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 20,
+    "decayPercentagePerFlip": 0.0,
+    "maxFlips": 3,
+    "pointsDecayPerFlip": 5
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "category": "Littérature américaine — Œuvres et personnages — Qui suis-je ? écrit — 1",
+  "subject": "Littérature",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Qui suis-je ? écrit"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-americaine-oeuvres-20261010-01",
+      "category": "Littérature américaine — Œuvres et personnages — Qui suis-je ? écrit — 1",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Publié en 1851, mon récit commence par un narrateur qui se présente sous le nom d’Ismaël.",
+        "De longs chapitres de mon texte décrivent les baleines et les techniques de la chasse baleinière.",
+        "À bord du Pequod, le capitaine Achab poursuit une vengeance qui consume tout l’équipage.",
+        "Je suis le roman d’Herman Melville consacré à la poursuite d’un grand cachalot blanc."
+      ],
+      "acceptableAnswers": [
+        "Moby-Dick"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-americaine-oeuvres-20261010-02",
+      "category": "Littérature américaine — Œuvres et personnages — Qui suis-je ? écrit — 1",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je décris les excès et les désillusions de l’Amérique des années 1920.",
+        "Nick Carraway raconte les événements depuis Long Island, où il habite près d’une vaste demeure.",
+        "Un millionnaire organise des fêtes somptueuses dans l’espoir de retrouver Daisy Buchanan.",
+        "Je suis le roman de F. Scott Fitzgerald dont le titre porte le nom de ce mystérieux millionnaire."
+      ],
+      "acceptableAnswers": [
+        "The Great Gatsby"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-americaine-personnages-20261010-01",
+      "category": "Littérature américaine — Œuvres et personnages — Qui suis-je ? écrit — 1",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis avocat dans la ville fictive de Maycomb, en Alabama, pendant la Grande Dépression.",
+        "Veuf, j’élève Scout et Jem en leur enseignant à comprendre le point de vue des autres.",
+        "Je défends Tom Robinson, un homme noir injustement accusé de viol.",
+        "Je suis le père avocat de To Kill a Mockingbird, le roman de Harper Lee."
+      ],
+      "acceptableAnswers": [
+        "Atticus Finch"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-americaine-personnages-20261010-02",
+      "category": "Littérature américaine — Œuvres et personnages — Qui suis-je ? écrit — 1",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Adolescent de seize ans, je suis renvoyé de l’école Pencey Prep avant les vacances de Noël.",
+        "J’erre dans New York et me sens révolté par l’hypocrisie du monde adulte.",
+        "Ma sœur Phoebe m’écoute imaginer que je pourrais empêcher des enfants de tomber d’une falaise.",
+        "Je suis le jeune narrateur de The Catcher in the Rye, le roman de J. D. Salinger."
+      ],
+      "acceptableAnswers": [
+        "Holden Caulfield"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-americaine-20261012-03",
+      "category": "Littérature américaine — Œuvres et personnages — Qui suis-je ? écrit — 1",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un roman de Harper Lee.",
+        "Scout raconte une enfance en Alabama.",
+        "Son père défend Tom Robinson.",
+        "Cet avocat s’appelle Atticus Finch."
+      ],
+      "acceptableAnswers": [
+        "To Kill a Mockingbird",
+        "Ne tirez pas sur l’oiseau moqueur"
+      ]
+    }
+  ]
+}

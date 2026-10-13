@@ -1,0 +1,95 @@
+{
+  "category": "Mythologie grecque — Dieux et héros — Qui suis-je ?",
+  "subject": "Mythologie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-mythologie-grecque-20261012-01",
+      "category": "Mythologie grecque — Dieux et héros — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je protège voyageurs et messagers.",
+        "Je porte souvent un caducée.",
+        "Mes sandales sont ailées.",
+        "Je suis le messager des dieux grecs."
+      ],
+      "acceptableAnswers": [
+        "Hermès"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-grecque-20261012-02",
+      "category": "Mythologie grecque — Dieux et héros — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis la sœur jumelle d’Apollon.",
+        "Les animaux sauvages m’accompagnent.",
+        "Mon arc me sert à chasser.",
+        "Je suis la déesse grecque de la chasse."
+      ],
+      "acceptableAnswers": [
+        "Artémis"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-grecque-20261012-03",
+      "category": "Mythologie grecque — Dieux et héros — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis lié au théâtre et aux fêtes.",
+        "Des satyres et des ménades m’accompagnent.",
+        "La vigne est mon symbole.",
+        "Je suis le dieu grec du vin."
+      ],
+      "acceptableAnswers": [
+        "Dionysos"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-grecque-20261012-04",
+      "category": "Mythologie grecque — Dieux et héros — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "J’utilise des objets magiques pour une mission dangereuse.",
+        "J’évite de regarder mon ennemie directement.",
+        "Je sauve aussi Andromède.",
+        "Je suis le héros qui décapite Méduse."
+      ],
+      "acceptableAnswers": [
+        "Persée"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-grecque-20261012-05",
+      "category": "Mythologie grecque — Dieux et héros — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je combats pendant la guerre de Troie.",
+        "Patrocle est mon compagnon.",
+        "Mon nom évoque un point faible du corps.",
+        "Je suis le héros célèbre pour son talon."
+      ],
+      "acceptableAnswers": [
+        "Achille"
+      ]
+    }
+  ]
+}

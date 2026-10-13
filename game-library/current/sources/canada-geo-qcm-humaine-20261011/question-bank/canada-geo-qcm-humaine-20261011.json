@@ -1,0 +1,100 @@
+{
+  "category": "Géographie du Canada — Géographie politique et humaine",
+  "subject": "Géographie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-humaine-20261011-01",
+      "category": "Géographie du Canada — Géographie politique et humaine",
+      "prompt": "Quel méridien sert de frontière entre l’Alberta et la Saskatchewan ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le 120e méridien ouest",
+        "B — Le 110e méridien ouest",
+        "C — Le 130e méridien ouest",
+        "D — Le 100e méridien ouest"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-humaine-20261011-02",
+      "category": "Géographie du Canada — Géographie politique et humaine",
+      "prompt": "Quelle province canadienne est entièrement séparée du continent nord-américain ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — L’Île-du-Prince-Édouard",
+        "B — Terre-Neuve-et-Labrador",
+        "C — Le Nouveau-Brunswick",
+        "D — La Nouvelle-Écosse"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-humaine-20261011-03",
+      "category": "Géographie du Canada — Géographie politique et humaine",
+      "prompt": "Quelle ville de l’Ontario possède la plus grande superficie terrestre municipale ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Hamilton",
+        "B — Toronto",
+        "C — Ottawa",
+        "D — Le Grand Sudbury"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-humaine-20261011-04",
+      "category": "Géographie du Canada — Géographie politique et humaine",
+      "prompt": "Quelle particularité géographique distingue la pointe Pelée, qui s’avance dans le lac Érié ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Elle est le point le plus bas du Canada",
+        "B — Elle est le plus petit parc national du Canada",
+        "C — Elle est le point le plus au sud du Canada continental",
+        "D — Elle est la région la plus pluvieuse de l’Ontario"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-humaine-20261011-05",
+      "category": "Géographie du Canada — Géographie politique et humaine",
+      "prompt": "Quelle capitale provinciale ou territoriale canadienne se trouve au nord du cercle polaire arctique ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Aucune de ces capitales",
+        "B — Whitehorse",
+        "C — Yellowknife",
+        "D — Iqaluit"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-humaine-20261011-06",
+      "category": "Géographie du Canada — Géographie politique et humaine",
+      "prompt": "Quel grand corridor urbain et industriel relie Québec au sud-ouest de l’Ontario ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le corridor transcanadien",
+        "B — Le corridor Québec–Windsor",
+        "C — Le bassin des Grands Lacs",
+        "D — Le Golden Horseshoe"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

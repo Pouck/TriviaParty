@@ -1,0 +1,84 @@
+{
+  "category": "Histoire - Chronologie de la Grèce antique",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "antique-grece-antique-20261010-01",
+      "category": "Histoire - Chronologie de la Grèce antique",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour les débuts de la Grèce antique ?\n• Lois écrites de Dracon à Athènes\n• Réformes démocratiques de Clisthène\n• Premiers Jeux olympiques antiques traditionnellement datés",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Réformes démocratiques de Clisthène → Lois écrites de Dracon à Athènes → Premiers Jeux olympiques antiques traditionnellement datés",
+        "B — Premiers Jeux olympiques antiques traditionnellement datés → Réformes démocratiques de Clisthène → Lois écrites de Dracon à Athènes",
+        "C — Premiers Jeux olympiques antiques traditionnellement datés → Lois écrites de Dracon à Athènes → Réformes démocratiques de Clisthène",
+        "D — Lois écrites de Dracon à Athènes → Premiers Jeux olympiques antiques traditionnellement datés → Réformes démocratiques de Clisthène"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "antique-grece-antique-20261010-02",
+      "category": "Histoire - Chronologie de la Grèce antique",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour les batailles des guerres médiques ?\n• Bataille des Thermopyles\n• Bataille navale de Salamine\n• Bataille de Marathon",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Bataille navale de Salamine → Bataille des Thermopyles → Bataille de Marathon",
+        "B — Bataille de Marathon → Bataille des Thermopyles → Bataille navale de Salamine",
+        "C — Bataille des Thermopyles → Bataille de Marathon → Bataille navale de Salamine",
+        "D — Bataille de Marathon → Bataille navale de Salamine → Bataille des Thermopyles"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "antique-grece-antique-20261010-03",
+      "category": "Histoire - Chronologie de la Grèce antique",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour la guerre du Péloponnèse ?\n• Défaite de l’expédition athénienne en Sicile\n• Capitulation d’Athènes face à Sparte\n• Début de l’épidémie dite « peste d’Athènes »",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Début de l’épidémie dite « peste d’Athènes » → Défaite de l’expédition athénienne en Sicile → Capitulation d’Athènes face à Sparte",
+        "B — Défaite de l’expédition athénienne en Sicile → Début de l’épidémie dite « peste d’Athènes » → Capitulation d’Athènes face à Sparte",
+        "C — Capitulation d’Athènes face à Sparte → Défaite de l’expédition athénienne en Sicile → Début de l’épidémie dite « peste d’Athènes »",
+        "D — Début de l’épidémie dite « peste d’Athènes » → Capitulation d’Athènes face à Sparte → Défaite de l’expédition athénienne en Sicile"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "antique-grece-antique-20261010-04",
+      "category": "Histoire - Chronologie de la Grèce antique",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour la naissance des philosophes (du premier né au dernier né) ?\n• Naissance de Platon\n• Naissance d’Aristote\n• Naissance de Socrate",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Naissance de Socrate → Naissance de Platon → Naissance d’Aristote",
+        "B — Naissance de Platon → Naissance de Socrate → Naissance d’Aristote",
+        "C — Naissance de Socrate → Naissance d’Aristote → Naissance de Platon",
+        "D — Naissance d’Aristote → Naissance de Platon → Naissance de Socrate"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "antique-grece-antique-20261010-05",
+      "category": "Histoire - Chronologie de la Grèce antique",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour les conquêtes d’Alexandre le Grand ?\n• Conquête de l’Égypte\n• Bataille de Gaugamèles contre Darius III\n• Traversée de l’Hellespont vers l’Asie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Traversée de l’Hellespont vers l’Asie → Bataille de Gaugamèles contre Darius III → Conquête de l’Égypte",
+        "B — Bataille de Gaugamèles contre Darius III → Conquête de l’Égypte → Traversée de l’Hellespont vers l’Asie",
+        "C — Conquête de l’Égypte → Traversée de l’Hellespont vers l’Asie → Bataille de Gaugamèles contre Darius III",
+        "D — Traversée de l’Hellespont vers l’Asie → Conquête de l’Égypte → Bataille de Gaugamèles contre Darius III"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "category": "Qui suis-je ? — Canada — Figures du XXe siècle",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "canada-qsj-icones-20261011-01",
+      "category": "Qui suis-je ? — Canada — Figures du XXe siècle",
+      "basePoints": 25,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes journaux intimes révèlent mon intérêt pour le spiritisme et les séances avec des médiums.",
+        "Né à Berlin, aujourd’hui Kitchener, je dirige le Canada pendant la Seconde Guerre mondiale.",
+        "Je fais face à une grave crise de la conscription en 1944.",
+        "Ma formule politique est : « La conscription si nécessaire, mais pas nécessairement la conscription. »",
+        "Je suis le premier ministre canadien ayant exercé cette fonction le plus longtemps, plus de 21 ans."
+      ],
+      "acceptableAnswers": [
+        "William Lyon Mackenzie King"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "canada-qsj-icones-20261011-02",
+      "category": "Qui suis-je ? — Canada — Figures du XXe siècle",
+      "basePoints": 25,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis enseignant et historien avant de commencer une carrière diplomatique.",
+        "Je préside l’Assemblée générale des Nations unies en 1952.",
+        "Lors de la crise de Suez, je propose une force d’urgence des Nations unies.",
+        "Cette initiative me vaut le prix Nobel de la paix en 1957.",
+        "Premier ministre de 1963 à 1968, je dirige le gouvernement qui adopte le drapeau à la feuille d’érable."
+      ],
+      "acceptableAnswers": [
+        "Lester B. Pearson"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "canada-qsj-icones-20261011-03",
+      "category": "Qui suis-je ? — Canada — Figures du XXe siècle",
+      "basePoints": 25,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Juriste montréalais, je participe à la fondation de la revue Cité libre.",
+        "Élu député fédéral en 1965, je suscite la « trudeaumanie » lors de mon accession au pouvoir en 1968.",
+        "Mon gouvernement adopte la Loi sur les langues officielles et rapatrie la Constitution en 1982.",
+        "Pendant la crise d’Octobre de 1970, je réponds à un journaliste : « Just watch me. »",
+        "Je suis le quinzième premier ministre du Canada et le père de Justin Trudeau."
+      ],
+      "acceptableAnswers": [
+        "Pierre Elliott Trudeau"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "canada-qsj-icones-20261011-04",
+      "category": "Qui suis-je ? — Canada — Figures du XXe siècle",
+      "basePoints": 25,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Né à Winnipeg, je grandis à Port Coquitlam ; un cancer entraîne l’amputation de ma jambe droite en 1977.",
+        "Le coureur amputé Dick Traum m’inspire à préparer une longue course de collecte de fonds.",
+        "Le 12 avril 1980, je commence à Saint-Jean, à Terre-Neuve, en trempant ma jambe artificielle dans l’Atlantique.",
+        "Après 143 jours, je dois arrêter près de Thunder Bay parce que le cancer a atteint mes poumons.",
+        "Je suis le jeune athlète canadien qui lance le Marathon de l’espoir."
+      ],
+      "acceptableAnswers": [
+        "Terry Fox"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "canada-qsj-icones-20261011-05",
+      "category": "Qui suis-je ? — Canada — Figures du XXe siècle",
+      "basePoints": 25,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Née à Vancouver en 1905, je deviens la première Canadienne diplômée en génie électrique.",
+        "À Canadian Car and Foundry, je supervise la production de chasseurs Hawker Hurricane.",
+        "Mon travail me vaut le surnom de « Queen of the Hurricanes ».",
+        "Militante pour les droits des femmes, je siège à la Commission royale d’enquête sur la situation de la femme.",
+        "Je suis l’ingénieure aéronautique canadienne surnommée la reine des Hurricane."
+      ],
+      "acceptableAnswers": [
+        "Elsie MacGill"
+      ]
+    }
+  ]
+}

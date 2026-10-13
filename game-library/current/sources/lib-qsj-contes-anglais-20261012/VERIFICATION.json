@@ -1,0 +1,82 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-qsj-contes-anglais-20261012-01",
+    "originalPackage": "lib-qsj-contes-anglais-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.gutenberg.org/ebooks/7439",
+        "https://www.gutenberg.org/ebooks/14241",
+        "https://www.bl.uk/stories/blogs/posts/king-arthur-fable-fact-and-fiction"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-qsj-contes-anglais-20261012-02",
+    "originalPackage": "lib-qsj-contes-anglais-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.gutenberg.org/ebooks/7439",
+        "https://www.gutenberg.org/ebooks/14241",
+        "https://www.bl.uk/stories/blogs/posts/king-arthur-fable-fact-and-fiction"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-qsj-contes-anglais-20261012-03",
+    "originalPackage": "lib-qsj-contes-anglais-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.gutenberg.org/ebooks/7439",
+        "https://www.gutenberg.org/ebooks/14241",
+        "https://www.bl.uk/stories/blogs/posts/king-arthur-fable-fact-and-fiction"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-qsj-contes-anglais-20261012-04",
+    "originalPackage": "lib-qsj-contes-anglais-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.gutenberg.org/ebooks/7439",
+        "https://www.gutenberg.org/ebooks/14241",
+        "https://www.bl.uk/stories/blogs/posts/king-arthur-fable-fact-and-fiction"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qsj-contes-anglais-20261012-05",
+    "originalPackage": "lib-qsj-contes-anglais-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.gutenberg.org/ebooks/7439",
+        "https://www.gutenberg.org/ebooks/14241",
+        "https://www.bl.uk/stories/blogs/posts/king-arthur-fable-fact-and-fiction"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

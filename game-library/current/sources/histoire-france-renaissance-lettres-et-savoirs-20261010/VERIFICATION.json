@@ -1,0 +1,42 @@
+[
+  {
+    "question": 1,
+    "questionId": "fr-renaissance-lettres-et-savoirs-20261010-01",
+    "originalPackage": "histoire-france-renaissance-lettres-et-savoirs-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "fr-renaissance-lettres-et-savoirs-20261010-02",
+    "originalPackage": "histoire-france-renaissance-lettres-et-savoirs-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "fr-renaissance-lettres-et-savoirs-20261010-03",
+    "originalPackage": "histoire-france-renaissance-lettres-et-savoirs-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "fr-renaissance-lettres-et-savoirs-20261010-04",
+    "originalPackage": "histoire-france-renaissance-lettres-et-savoirs-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "resize-20261012-pleiade",
+    "originalPackage": null,
+    "reference": {
+      "sources": [
+        "https://gallica.bnf.fr/selections/fr/html/litteratures/les-classiques-de-la-litterature-la-pleiade"
+      ],
+      "note": ""
+    },
+    "new": true
+  }
+]

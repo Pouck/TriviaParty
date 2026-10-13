@@ -1,0 +1,15 @@
+{
+  "id": "arts-buzzer-regards-scenes-20261011",
+  "name": "Arts — Regards et scènes — Buzzer",
+  "description": "6 questions en français. 15 secondes ; 15 → 10 → 5 points. Réponse au buzzer : 10 secondes.",
+  "categoryPackages": [
+    "arts-buzzer-regards-scenes-20261011"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

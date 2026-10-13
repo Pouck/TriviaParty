@@ -1,0 +1,87 @@
+{
+  "category": "Animaux terrestres — Mammifères — QCM",
+  "subject": "Nature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-animaux-terrestres-20261012-01",
+      "category": "Animaux terrestres — Mammifères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel animal porte ces rayures noires et blanches ?",
+      "options": [
+        "A — La girafe",
+        "B — Le zèbre",
+        "C — L’okapi",
+        "D — L’antilope"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/lib-qcm-animaux-terrestres-20261012/zebra.jpg"
+    },
+    {
+      "id": "lib-qcm-animaux-terrestres-20261012-02",
+      "category": "Animaux terrestres — Mammifères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel mammifère porte généralement son petit dans une poche ?",
+      "options": [
+        "A — Le kangourou",
+        "B — Le renard",
+        "C — Le lapin",
+        "D — Le panda"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-animaux-terrestres-20261012-03",
+      "category": "Animaux terrestres — Mammifères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel animal est représenté ici ?",
+      "options": [
+        "A — Un chameau",
+        "B — Un lama",
+        "C — Une girafe",
+        "D — Un cerf"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/lib-qcm-animaux-terrestres-20261012/giraffe.jpg"
+    },
+    {
+      "id": "lib-qcm-animaux-terrestres-20261012-04",
+      "category": "Animaux terrestres — Mammifères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel mammifère pond des œufs ?",
+      "options": [
+        "A — L’ornithorynque",
+        "B — Le castor",
+        "C — La loutre",
+        "D — Le raton laveur"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-animaux-terrestres-20261012-05",
+      "category": "Animaux terrestres — Mammifères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle nourriture est particulièrement associée au panda géant ?",
+      "options": [
+        "A — Le poisson",
+        "B — Les glands",
+        "C — Les fourmis",
+        "D — Le bambou"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

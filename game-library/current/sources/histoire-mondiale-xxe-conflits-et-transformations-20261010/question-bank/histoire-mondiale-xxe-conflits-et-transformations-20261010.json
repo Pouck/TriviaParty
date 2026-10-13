@@ -1,0 +1,117 @@
+{
+  "category": "Histoire mondiale — Grands repères — QCM — 3",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-guerres-et-reformes-03-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 3",
+      "prompt": "Qui fut le premier être humain à voyager dans l’espace et à effectuer une orbite terrestre, en 1961 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Alan Shepard",
+        "B — Iouri Gagarine",
+        "C — Alexeï Leonov",
+        "D — John Glenn"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-guerres-et-reformes-04-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 3",
+      "prompt": "Quelle politique de Gorbatchev, dont le nom signifie « transparence » ou « ouverture », favorisa le débat public en URSS ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La perestroïka",
+        "B — La démocratisation",
+        "C — La glasnost",
+        "D — Le Gosplan"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-histoire-mondiale-generale-20261012-01",
+      "category": "Histoire mondiale — Grands repères — QCM — 3",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle civilisation a construit les pyramides de Gizeh ?",
+      "options": [
+        "A — L’Égypte antique",
+        "B — La Grèce antique",
+        "C — L’Empire inca",
+        "D — L’Empire romain"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-histoire-mondiale-generale-20261012/pyramids.jpg"
+    },
+    {
+      "id": "lib-qcm-histoire-mondiale-generale-20261012-02",
+      "category": "Histoire mondiale — Grands repères — QCM — 3",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel souverain macédonien conquiert l’Empire perse ?",
+      "options": [
+        "A — Jules César",
+        "B — Alexandre le Grand",
+        "C — Charlemagne",
+        "D — Hannibal"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-histoire-mondiale-generale-20261012-03",
+      "category": "Histoire mondiale — Grands repères — QCM — 3",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel pays est associé à la Grande Muraille ?",
+      "options": [
+        "A — La Chine",
+        "B — Le Japon",
+        "C — L’Inde",
+        "D — La Corée du Sud"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-histoire-mondiale-generale-20261012/wall.jpg"
+    },
+    {
+      "id": "lib-qcm-histoire-mondiale-generale-20261012-04",
+      "category": "Histoire mondiale — Grands repères — QCM — 3",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel inventeur européen est célèbre pour l’imprimerie à caractères mobiles au XVe siècle ?",
+      "options": [
+        "A — Newton",
+        "B — Edison",
+        "C — Gutenberg",
+        "D — Galilée"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-histoire-mondiale-generale-20261012-05",
+      "category": "Histoire mondiale — Grands repères — QCM — 3",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel mouvement commence en France en 1789 ?",
+      "options": [
+        "A — La Renaissance",
+        "B — La Réforme protestante",
+        "C — La révolution industrielle",
+        "D — La Révolution française"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cinema-qcm-films-personnages-20261011",
+    "name": "Cinéma — Films et personnages — QCM",
+    "mode": "qcm",
+    "count": 8
+  },
+  {
+    "id": "cinema-qcm-coulisses-20261011",
+    "name": "Cinéma — Réalisateurs, musique et animation — QCM",
+    "mode": "qcm",
+    "count": 8
+  },
+  {
+    "id": "cinema-qcm-prix-classiques-20261011",
+    "name": "Cinéma — Récompenses et classiques — QCM",
+    "mode": "qcm",
+    "count": 8
+  },
+  {
+    "id": "cinema-buzzer-titres-heros-20261011",
+    "name": "Cinéma — Titres et héros — Rapide — Buzzer",
+    "mode": "buzzer",
+    "count": 8
+  },
+  {
+    "id": "cinema-buzzer-univers-20261011",
+    "name": "Cinéma — Univers et animation — Rapide — Buzzer",
+    "mode": "buzzer",
+    "count": 8
+  },
+  {
+    "id": "cinema-buzzer-france-quebec-20261011",
+    "name": "Cinéma — France et Québec — Rapide — Buzzer",
+    "mode": "buzzer",
+    "count": 8
+  },
+  {
+    "id": "cinema-qsj-films-20261011",
+    "name": "Cinéma — Films à découvrir — Qui suis-je ?",
+    "mode": "qsj",
+    "count": 5
+  },
+  {
+    "id": "cinema-qsj-figures-20261011",
+    "name": "Cinéma — Cinéastes et personnages — Qui suis-je ?",
+    "mode": "qsj",
+    "count": 5
+  },
+  {
+    "id": "cinema-chronologie-reperes-20261011",
+    "name": "Cinéma — Sorties de films — Repères — Chronologie",
+    "mode": "chronologie",
+    "count": 6
+  },
+  {
+    "id": "cinema-chronologie-sagas-20261011",
+    "name": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+    "mode": "chronologie",
+    "count": 6
+  }
+]

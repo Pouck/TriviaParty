@@ -1,0 +1,15 @@
+{
+  "id": "original-gaming-history",
+  "name": "Histoire du jeu vidéo",
+  "description": "Ensemble de questions original révisé : français, 15 points, deux visuels et trois textes.",
+  "categoryPackages": [
+    "gaming-history"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

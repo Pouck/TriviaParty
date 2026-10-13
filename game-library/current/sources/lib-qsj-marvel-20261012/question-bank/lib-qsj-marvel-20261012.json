@@ -1,0 +1,96 @@
+{
+  "category": "Marvel — Héros et univers — Qui suis-je ? écrit",
+  "subject": "Super-héros",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Qui suis-je ? écrit"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-marvel-20261012-01",
+      "category": "Marvel — Héros et univers — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un inventeur et un homme d’affaires.",
+        "Mon assistant informatique m’aide à combattre.",
+        "Mon armure vole et porte de nombreuses armes.",
+        "Je suis Tony Stark, l’homme de fer."
+      ],
+      "acceptableAnswers": [
+        "Iron Man"
+      ]
+    },
+    {
+      "id": "lib-qsj-marvel-20261012-02",
+      "category": "Marvel — Héros et univers — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je dirige un royaume riche en vibranium.",
+        "Mon costume évoque un grand félin.",
+        "Mon nom civil est T’Challa.",
+        "Je suis le héros protecteur du Wakanda."
+      ],
+      "acceptableAnswers": [
+        "Black Panther"
+      ]
+    },
+    {
+      "id": "lib-qsj-marvel-20261012-03",
+      "category": "Marvel — Héros et univers — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Une exposition aux rayons gamma change ma vie.",
+        "Dans ma vie humaine, je suis un scientifique.",
+        "La colère déclenche ma transformation.",
+        "Je suis le géant vert associé à Bruce Banner."
+      ],
+      "acceptableAnswers": [
+        "Hulk"
+      ]
+    },
+    {
+      "id": "lib-qsj-marvel-20261012-04",
+      "category": "Marvel — Héros et univers — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "J’exerçais la chirurgie avant de perdre l’usage précis de mes mains.",
+        "Je découvre ensuite les arts mystiques.",
+        "Je porte une cape de lévitation.",
+        "Je suis le célèbre sorcier de Marvel."
+      ],
+      "acceptableAnswers": [
+        "Doctor Strange",
+        "Docteur Strange"
+      ]
+    },
+    {
+      "id": "lib-qsj-marvel-20261012-05",
+      "category": "Marvel — Héros et univers — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je voyage avec les Gardiens de la Galaxie.",
+        "Rocket est mon compagnon.",
+        "Mon corps ressemble à un arbre.",
+        "Je ne dis habituellement que « Je s’appelle Groot »."
+      ],
+      "acceptableAnswers": [
+        "Groot"
+      ]
+    }
+  ]
+}

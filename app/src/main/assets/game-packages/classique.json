@@ -1,0 +1,18 @@
+{
+  "id": "classic",
+  "name": "Classique",
+  "description": "Toutes les catégories, pour une partie complète.",
+  "categoryPackages": [
+    "gaming-history",
+    "pop-culture",
+    "science-tech",
+    "video-game-maps",
+    "world-geography"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 10,
+    "decayPercentagePerFlip": 0.1,
+    "maxFlips": 5
+  },
+  "answerTimeSeconds": 10
+}

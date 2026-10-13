@@ -1,0 +1,66 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.britishmuseum.org/collection/object/G_1805-0703-43"
+    ],
+    "note": "Une copie du modèle antique attribué à Myron ; on ne demande pas l’auteur de la copie.",
+    "photo": "https://commons.wikimedia.org/wiki/File:Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos,_2nd_century_CE_(Glyptothek_Munich).jpg"
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.musee-rodin.fr/musee/collections/oeuvres/baiser"
+    ],
+    "note": "",
+    "photo": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/Cortile-Ottagono/laocoonte.html"
+    ],
+    "note": "",
+    "photo": "https://commons.wikimedia.org/wiki/File:Laoco%C3%B6n_and_his_sons_group.jpg"
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.galleriaaccademiafirenze.it/fr/opere/david-michelangelo/"
+    ],
+    "note": "",
+    "photo": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.vatican.va/news_services/or/or_quo/115q01.pdf"
+    ],
+    "note": "",
+    "photo": "https://commons.wikimedia.org/wiki/File:Pieta_de_Michelangelo_-_Vaticano.jpg"
+  },
+  {
+    "question": 6,
+    "sources": [
+      "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/moai"
+    ],
+    "note": "",
+    "photo": null
+  },
+  {
+    "question": 7,
+    "sources": [
+      "https://www.nga.gov/artworks/110292-little-dancer-aged-fourteen"
+    ],
+    "note": "Des bronzes posthumes existent ; la question porte sur le créateur du modèle.",
+    "photo": "https://commons.wikimedia.org/wiki/File:The_Little_Fourteen-Year-Old_Dancer_MET_DP-14939-005.jpg"
+  },
+  {
+    "question": 8,
+    "sources": [
+      "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm"
+    ],
+    "note": "",
+    "photo": null
+  }
+]

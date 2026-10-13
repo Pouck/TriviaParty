@@ -1,0 +1,159 @@
+{
+  "category": "Canada — Guerres et relations internationales — QCM",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-01",
+      "category": "Canada — Guerres et relations internationales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Lors de quelle bataille d’avril 1917 les Canadiens avancent-ils derrière un barrage roulant d’artillerie ?",
+      "options": [
+        "A — Passchendaele",
+        "B — La Somme",
+        "C — La crête de Vimy",
+        "D — La deuxième bataille d’Ypres"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-02",
+      "category": "Canada — Guerres et relations internationales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle loi adoptée en 1917 sous Robert Borden impose la conscription ?",
+      "options": [
+        "A — La Loi du service militaire",
+        "B — La Loi des élections en temps de guerre",
+        "C — La Loi du service naval",
+        "D — La Loi sur les mesures de guerre"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-03",
+      "category": "Canada — Guerres et relations internationales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Pendant quel conflit les Canadiens combattent-ils à Kapelsche Veer et participent-ils à la libération des Pays-Bas en 1945 ?",
+      "options": [
+        "A — La guerre de Corée",
+        "B — La Seconde Guerre mondiale",
+        "C — La guerre du Golfe",
+        "D — La Première Guerre mondiale"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-04",
+      "category": "Canada — Guerres et relations internationales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel texte de 1931 reconnaît l’autonomie législative du Canada, tout en laissant certaines modifications constitutionnelles à Londres ?",
+      "options": [
+        "A — Le Statut de Westminster",
+        "B — L’Acte de l’Amérique du Nord britannique",
+        "C — La Déclaration Balfour",
+        "D — La Loi de 1982 sur le Canada"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-05",
+      "category": "Canada — Guerres et relations internationales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle voie navigable canado-américaine inaugurée en 1959 relie Montréal au lac Érié ?",
+      "options": [
+        "A — La Voie maritime du Saint-Laurent",
+        "B — La Voie navigable transcanadienne",
+        "C — Le canal Welland seul",
+        "D — Le canal Rideau"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-06",
+      "category": "Canada — Guerres et relations internationales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel premier ministre canadien hésite à placer les forces canadiennes en état d’alerte pendant la crise des missiles de Cuba en 1962 ?",
+      "options": [
+        "A — Lester B. Pearson",
+        "B — Louis St-Laurent",
+        "C — Pierre Elliott Trudeau",
+        "D — John Diefenbaker"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-07",
+      "category": "Canada — Guerres et relations internationales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle crise de 1926 découle du refus du gouverneur général de dissoudre le Parlement à la demande de Mackenzie King ?",
+      "options": [
+        "A — La crise de Chanak",
+        "B — L’affaire King-Byng",
+        "C — Le différend Balfour",
+        "D — La crise de la Peur rouge"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-08",
+      "category": "Canada — Guerres et relations internationales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Que désigne le Programme d’entraînement aérien du Commonwealth britannique pendant la Seconde Guerre mondiale ?",
+      "options": [
+        "A — Un programme canadien d’artillerie",
+        "B — Un protocole de débarquement de croiseurs",
+        "C — La formation de personnel navigant allié au Canada",
+        "D — La formation de troupes blindées"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-09",
+      "category": "Canada — Guerres et relations internationales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel accord commercial entre le Canada et les États-Unis entre en vigueur en 1989 ?",
+      "options": [
+        "A — L’ALENA",
+        "B — Le GATT",
+        "C — L’Accord de libre-échange Canada–États-Unis",
+        "D — Le Pacte de l’automobile"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-10",
+      "category": "Canada — Guerres et relations internationales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel territoire est créé en 1999 à la suite de l’accord sur les revendications territoriales des Inuit ?",
+      "options": [
+        "A — L’Inuvialuit",
+        "B — Les Territoires du Nord-Ouest",
+        "C — Le Yukon",
+        "D — Le Nunavut"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

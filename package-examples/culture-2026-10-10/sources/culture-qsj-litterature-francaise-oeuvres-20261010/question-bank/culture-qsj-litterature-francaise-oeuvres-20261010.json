@@ -1,0 +1,43 @@
+{
+  "category": "Qui suis-je ? — Littérature française — Œuvres",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-francaise-oeuvres-20261010-01",
+      "category": "Qui suis-je ? — Littérature française — Œuvres",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon auteur reprend mon écriture pendant son exil à Guernesey ; je parais en 1862.",
+        "Mes épisodes conduisent le lecteur des barricades de juin 1832 aux égouts de Paris.",
+        "L’inspecteur Javert poursuit mon personnage central, un ancien forçat.",
+        "Je suis le roman de Victor Hugo racontant le destin de Jean Valjean."
+      ],
+      "acceptableAnswers": [
+        "Les Misérables"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-francaise-oeuvres-20261010-02",
+      "category": "Qui suis-je ? — Littérature française — Œuvres",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un conte illustré publié en 1943 par un écrivain également aviateur.",
+        "Mon narrateur, en panne dans le Sahara, rencontre un enfant venu de l’astéroïde B 612.",
+        "Une rose et un renard jouent un rôle essentiel dans ma réflexion sur les liens et la responsabilité.",
+        "Je suis le célèbre conte d’Antoine de Saint-Exupéry consacré à un petit voyageur venu d’une autre planète."
+      ],
+      "acceptableAnswers": [
+        "Le Petit Prince"
+      ]
+    }
+  ]
+}

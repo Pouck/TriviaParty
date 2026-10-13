@@ -1,0 +1,217 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-chronologie-architecture-reperes-20261012-01",
+    "originalPackage": "lib-chronologie-architecture-reperes-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.toureiffel.paris/en/the-monument/history",
+        "https://www.sydneyoperahouse.com/our-story",
+        "https://www.burjkhalifa.ae/",
+        "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm",
+        "https://www.chateauversailles.fr/",
+        "https://www.louvre.fr/"
+      ],
+      "note": "Tour Eiffel (1889) → Opéra de Sydney (1973) → Burj Khalifa (2010)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez ces inaugurations.",
+      "events": [
+        [
+          "Tour Eiffel",
+          1889
+        ],
+        [
+          "Opéra de Sydney",
+          1973
+        ],
+        [
+          "Burj Khalifa",
+          2010
+        ]
+      ],
+      "sources": [
+        "https://www.toureiffel.paris/fr/actualites/130-ans/1889-2019-130-ans-demerveillement",
+        "https://www.sydneyoperahouse.com/our-story/50-years-extraordinary-moments",
+        "https://www.burjkhalifa.ae/the-tower/making/"
+      ]
+    }
+  },
+  {
+    "question": 2,
+    "questionId": "lib-chronologie-architecture-reperes-20261012-02",
+    "originalPackage": "lib-chronologie-architecture-reperes-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.toureiffel.paris/en/the-monument/history",
+        "https://www.sydneyoperahouse.com/our-story",
+        "https://www.burjkhalifa.ae/",
+        "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm",
+        "https://www.chateauversailles.fr/",
+        "https://www.louvre.fr/"
+      ],
+      "note": "Statue de la Liberté à New York (1886) → Tour Eiffel (1889) → Opéra de Sydney (1973)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez ces ouvertures au public.",
+      "events": [
+        [
+          "Louvre comme musée",
+          1793
+        ],
+        [
+          "Statue de la Liberté à New York",
+          1886
+        ],
+        [
+          "Tour CN à Toronto",
+          1976
+        ]
+      ],
+      "sources": [
+        "https://mini-site.louvre.fr/trimestriel/2019/Agenda_mars_mai_2019/files/assets/common/downloads/publication.pdf",
+        "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm",
+        "https://www.cntower.ca/history"
+      ]
+    }
+  },
+  {
+    "question": 3,
+    "questionId": "lib-chronologie-architecture-reperes-20261012-03",
+    "originalPackage": "lib-chronologie-architecture-reperes-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.toureiffel.paris/en/the-monument/history",
+        "https://www.sydneyoperahouse.com/our-story",
+        "https://www.burjkhalifa.ae/",
+        "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm",
+        "https://www.chateauversailles.fr/",
+        "https://www.louvre.fr/"
+      ],
+      "note": "Ouverture du Louvre comme musée (1793) → Inauguration de la tour Eiffel (1889) → Ouverture du Burj Khalifa (2010)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez ces étapes de monuments européens.",
+      "events": [
+        [
+          "Achèvement de la basilique Saint-Pierre actuelle",
+          1626
+        ],
+        [
+          "Installation de la cour à Versailles",
+          1682
+        ],
+        [
+          "Inauguration du palais Garnier",
+          1875
+        ]
+      ],
+      "sources": [
+        "https://www.basilicasanpietro.va/fr/faq/quand-la-basilique-saintpierre-atelle-ete-construite",
+        "https://www.chateauversailles.fr/decouvrir/histoire/grandes-dates/versailles-capitale-royaume",
+        "https://www.operadeparis.fr/info/150-ans-du-palais-garnier"
+      ]
+    }
+  },
+  {
+    "question": 4,
+    "questionId": "lib-chronologie-architecture-reperes-20261012-04",
+    "originalPackage": "lib-chronologie-architecture-reperes-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.toureiffel.paris/en/the-monument/history",
+        "https://www.sydneyoperahouse.com/our-story",
+        "https://www.burjkhalifa.ae/",
+        "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm",
+        "https://www.chateauversailles.fr/",
+        "https://www.louvre.fr/"
+      ],
+      "note": "Installation de la cour de Louis XIV à Versailles (1682) → Ouverture du Louvre comme musée (1793) → Ouverture de l’Opéra de Sydney (1973)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez ces étapes de construction et d’ouverture.",
+      "events": [
+        [
+          "Début du chantier de la Sagrada Família",
+          1882
+        ],
+        [
+          "Ouverture de Tower Bridge",
+          1894
+        ],
+        [
+          "Ouverture du Golden Gate Bridge",
+          1937
+        ]
+      ],
+      "sources": [
+        "https://sagradafamilia.org/en/history-of-the-temple",
+        "https://www.towerbridge.org.uk/stories/history",
+        "https://www.goldengate.org/bridge/history-research/moments-events/key-dates/"
+      ]
+    }
+  },
+  {
+    "question": 5,
+    "questionId": "lib-chronologie-architecture-reperes-20261012-05",
+    "originalPackage": "lib-chronologie-architecture-reperes-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.toureiffel.paris/en/the-monument/history",
+        "https://www.sydneyoperahouse.com/our-story",
+        "https://www.burjkhalifa.ae/",
+        "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm",
+        "https://www.chateauversailles.fr/",
+        "https://www.louvre.fr/"
+      ],
+      "note": "Statue de la Liberté à New York (1886) → Opéra de Sydney (1973) → Burj Khalifa (2010)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez ces inaugurations du XXe siècle.",
+      "events": [
+        [
+          "Empire State Building",
+          1931
+        ],
+        [
+          "Centre Pompidou",
+          1977
+        ],
+        [
+          "Pyramide du Louvre",
+          1989
+        ]
+      ],
+      "sources": [
+        "https://www.esbnyc.com/about/history",
+        "https://www.centrepompidou.fr/fileadmin/user_upload/dossier-ressources-architecture-centre-pompidou-chrono_20230829.pdf",
+        "https://www.louvre.fr/decouvrir/le-palais/une-pyramide-pour-symbole"
+      ]
+    }
+  }
+]

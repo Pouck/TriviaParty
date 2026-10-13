@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "sydney",
+    "title": "Sydney Opera House",
+    "file": "sydney.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Sydney_Australia._(21339175489).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Sydney_Australia._%2821339175489%29.jpg/1920px-Sydney_Australia._%2821339175489%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Bernard Spragg. NZ from Christchurch, New Zealand",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "Sydney Australia.",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "architecture-qcm-moderne-20261011"
+  },
+  {
+    "slug": "guggenheim",
+    "title": "Solomon R. Guggenheim Museum",
+    "file": "guggenheim.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Solomon_R._Guggenheim_Museum_(48059131351).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg/1920px-Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Ajay Suresh from New York, NY, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "credit": "Solomon R. Guggenheim Museum",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "architecture-qcm-moderne-20261011"
+  },
+  {
+    "slug": "fallingwater",
+    "title": "Fallingwater",
+    "file": "fallingwater.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Fallingwater3.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Fallingwater3.jpg/1920px-Fallingwater3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "lachrimae72",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "https://pixabay.com/photos/house-in-nature-house-falling-water-2110133/",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "architecture-qcm-moderne-20261011"
+  }
+]

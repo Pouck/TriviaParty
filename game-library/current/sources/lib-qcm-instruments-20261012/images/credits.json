@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "violin",
+    "title": "Violin",
+    "file": "violin.png",
+    "commons": "https://commons.wikimedia.org/wiki/File:Violin_VL100.png",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Violin_VL100.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Just plain Bill",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "Own work based on: Violin VL100.jpg",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-instruments-20261012"
+  },
+  {
+    "slug": "harp",
+    "title": "Harp",
+    "file": "harp.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Salvi_harp_Diana.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Salvi_harp_Diana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "N.S.M. s.p.a.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Salvi Harps",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-instruments-20261012"
+  }
+]

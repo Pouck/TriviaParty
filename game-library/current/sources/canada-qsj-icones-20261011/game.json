@@ -1,0 +1,15 @@
+{
+  "id": "canada-qsj-icones-20261011",
+  "name": "Qui suis-je ? écrit — Canada — Figures du XXe siècle",
+  "description": "5 questions en français. 5 indices de 20 secondes ; 5 points par palier.  Lecture confirmée par les joueurs avant chaque indice. Réponses écrites, validées individuellement par l’hôte.",
+  "categoryPackages": [
+    "canada-qsj-icones-20261011"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 20,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 4,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

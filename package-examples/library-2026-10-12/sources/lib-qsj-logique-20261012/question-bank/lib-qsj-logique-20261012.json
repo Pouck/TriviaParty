@@ -1,0 +1,103 @@
+{
+  "category": "Logique — Défis rapides — Qui suis-je ?",
+  "subject": "Logique et énigmes",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-logique-20261012-01",
+      "category": "Logique — Défis rapides — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un nombre entier.",
+        "M’ajouter à un nombre ne le change pas.",
+        "Je représente l’absence de quantité.",
+        "Mon chiffre s’écrit 0."
+      ],
+      "acceptableAnswers": [
+        "Le zéro",
+        "Zéro",
+        "0"
+      ]
+    },
+    {
+      "id": "lib-qsj-logique-20261012-02",
+      "category": "Logique — Défis rapides — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une figure plane.",
+        "La somme de mes angles vaut 180 degrés en géométrie ordinaire.",
+        "J’ai trois côtés.",
+        "Mon nom commence par « tri »."
+      ],
+      "acceptableAnswers": [
+        "Un triangle",
+        "Triangle"
+      ]
+    },
+    {
+      "id": "lib-qsj-logique-20261012-03",
+      "category": "Logique — Défis rapides — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un nombre entier.",
+        "Je peux être partagé en deux groupes égaux sans reste.",
+        "2, 4 et 6 sont des exemples de moi.",
+        "Je suis divisible par deux."
+      ],
+      "acceptableAnswers": [
+        "Un nombre pair",
+        "Nombre pair",
+        "Pair"
+      ]
+    },
+    {
+      "id": "lib-qsj-logique-20261012-04",
+      "category": "Logique — Défis rapides — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un quadrilatère.",
+        "Tous mes angles sont droits.",
+        "Mes quatre côtés ont la même longueur.",
+        "Je ressemble à une case de damier."
+      ],
+      "acceptableAnswers": [
+        "Un carré",
+        "Carré"
+      ]
+    },
+    {
+      "id": "lib-qsj-logique-20261012-05",
+      "category": "Logique — Défis rapides — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une part d’un tout.",
+        "Deux parts comme moi reconstituent le tout.",
+        "Je correspond à 50 %.",
+        "Je suis ce qu’on obtient en divisant par deux."
+      ],
+      "acceptableAnswers": [
+        "La moitié",
+        "Moitié",
+        "Une moitié"
+      ]
+    }
+  ]
+}

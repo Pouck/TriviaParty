@@ -1,0 +1,67 @@
+[
+  {
+    "question": 1,
+    "questionId": "architecture-qsj-antiquite-20261011-01",
+    "originalPackage": "architecture-qsj-antiquite-20261011",
+    "reference": {
+      "question": 1,
+      "site": "colosseum",
+      "verification": "https://colosseo.it/en/area/the-colosseum/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "architecture-qsj-antiquite-20261011-02",
+    "originalPackage": "architecture-qsj-antiquite-20261011",
+    "reference": {
+      "question": 2,
+      "site": "parthenon",
+      "verification": "https://whc.unesco.org/en/list/404/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "architecture-qsj-antiquite-20261011-03",
+    "originalPackage": "architecture-qsj-antiquite-20261011",
+    "reference": {
+      "question": 3,
+      "site": "giza",
+      "verification": "https://whc.unesco.org/en/list/86/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "architecture-qsj-civilisations-20261011-01",
+    "originalPackage": "architecture-qsj-civilisations-20261011",
+    "reference": {
+      "question": 1,
+      "site": "petra",
+      "verification": "https://whc.unesco.org/en/list/326/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "architecture-qsj-civilisations-20261011-03",
+    "originalPackage": "architecture-qsj-civilisations-20261011",
+    "reference": {
+      "question": 3,
+      "site": "angkor",
+      "verification": "https://whc.unesco.org/en/list/668/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  }
+]

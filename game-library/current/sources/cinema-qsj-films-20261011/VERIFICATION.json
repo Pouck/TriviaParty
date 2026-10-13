@@ -1,0 +1,67 @@
+[
+  {
+    "question": 1,
+    "questionId": "cinema-qsj-films-20261011-01",
+    "originalPackage": "cinema-qsj-films-20261011",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.backtothefuture.com/movies/backtothefuture1/"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "cinema-qsj-films-20261011-02",
+    "originalPackage": "cinema-qsj-films-20261011",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://amblin.com/movie/jaws/"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "cinema-qsj-films-20261011-03",
+    "originalPackage": "cinema-qsj-films-20261011",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.bfi.org.uk/features/matrix-wachowskis-keanu-reeves"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "cinema-qsj-films-20261011-04",
+    "originalPackage": "cinema-qsj-films-20261011",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.sonyclassics.com/film/amelie/"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "cinema-qsj-films-20261011-05",
+    "originalPackage": "cinema-qsj-films-20261011",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://d23.com/a-to-z/pirates-of-the-caribbean-the-curse-of-the-black-pearl-film/"
+      ],
+      "note": ""
+    },
+    "new": false
+  }
+]

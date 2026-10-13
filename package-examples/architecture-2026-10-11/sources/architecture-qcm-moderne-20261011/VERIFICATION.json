@@ -1,0 +1,44 @@
+[
+  {
+    "question": 1,
+    "site": "sydney",
+    "verification": "https://www.sydneyoperahouse.com/our-story/jorn-utzon",
+    "note": "",
+    "photo": "https://commons.wikimedia.org/wiki/File:Sydney_Australia._(21339175489).jpg"
+  },
+  {
+    "question": 2,
+    "site": "cn",
+    "verification": "https://www.cntower.ca/history",
+    "note": "",
+    "photo": null
+  },
+  {
+    "question": 3,
+    "site": "guggenheim",
+    "verification": "https://www.guggenheim.org/articles/checklist/your-guide-to-the-guggenheims-secret-language",
+    "note": "Le Guggenheim de New York est de Wright ; celui de Bilbao est de Gehry.",
+    "photo": "https://commons.wikimedia.org/wiki/File:Solomon_R._Guggenheim_Museum_(48059131351).jpg"
+  },
+  {
+    "question": 4,
+    "site": "pompidou",
+    "verification": "https://www.centrepompidou.fr/en/centre-pompidou-is-transforming-itself/an-iconic-architecture",
+    "note": "",
+    "photo": null
+  },
+  {
+    "question": 5,
+    "site": "fallingwater",
+    "verification": "https://fallingwater.org/history/the-kaufmanns-fallingwater/designing-fallingwater/",
+    "note": "",
+    "photo": "https://commons.wikimedia.org/wiki/File:Fallingwater3.jpg"
+  },
+  {
+    "question": 6,
+    "site": "brasilia",
+    "verification": "https://whc.unesco.org/en/list/445/",
+    "note": "Lúcio Costa est l’urbaniste du plan ; Oscar Niemeyer est l’architecte des bâtiments cités.",
+    "photo": null
+  }
+]

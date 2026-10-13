@@ -1,0 +1,120 @@
+{
+  "category": "Arts — Tableaux célèbres — Buzzer",
+  "subject": "Arts",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-01",
+      "category": "Arts — Tableaux célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel est le nom de cette peinture murale de Léonard de Vinci ?",
+      "acceptableAnswers": [
+        "La Cène",
+        "The Last Supper",
+        "L’Ultima Cena"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/cene.jpg"
+    },
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-02",
+      "category": "Arts — Tableaux célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel peintre néerlandais a peint La Jeune Fille à la perle ?",
+      "acceptableAnswers": [
+        "Johannes Vermeer",
+        "Vermeer"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-03",
+      "category": "Arts — Tableaux célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel artiste américain a peint American Gothic ?",
+      "acceptableAnswers": [
+        "Grant Wood",
+        "Wood"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/gothic.jpg"
+    },
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-04",
+      "category": "Arts — Tableaux célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelles fleurs composent les célèbres bouquets jaunes de Van Gogh ?",
+      "acceptableAnswers": [
+        "Des tournesols",
+        "Tournesols"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-05",
+      "category": "Arts — Tableaux célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel est le titre de ce tableau d’Eugène Delacroix ?",
+      "acceptableAnswers": [
+        "La Liberté guidant le peuple",
+        "Liberté guidant le peuple"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/liberte.jpg"
+    },
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-06",
+      "category": "Arts — Tableaux célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel peintre espagnol est l’auteur des Ménines ?",
+      "acceptableAnswers": [
+        "Diego Velázquez",
+        "Velázquez",
+        "Velazquez"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-07",
+      "category": "Arts — Tableaux célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui a peint Le Radeau de la Méduse ?",
+      "acceptableAnswers": [
+        "Théodore Géricault",
+        "Géricault",
+        "Gericault"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/radeau.jpg"
+    },
+    {
+      "id": "arts-buzzer-tableaux-celebres-20261011-08",
+      "category": "Arts — Tableaux célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel tableau de Picasso évoque une ville basque bombardée en 1937 ?",
+      "acceptableAnswers": [
+        "Guernica"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

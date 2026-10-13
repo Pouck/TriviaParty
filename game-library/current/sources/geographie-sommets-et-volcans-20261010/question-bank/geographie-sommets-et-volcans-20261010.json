@@ -1,0 +1,100 @@
+{
+  "category": "Géographie - Sommets et volcans",
+  "subject": "Géographie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "geo-sommets-et-volcans-20261010-01",
+      "category": "Géographie - Sommets et volcans",
+      "prompt": "Quel volcan, emblème du Japon, peut être aperçu depuis Tokyo par temps clair ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Mont Kita",
+        "B — Mont Fuji",
+        "C — Mont Aso",
+        "D — Mont Ontake"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-sommets-et-volcans-20261010-02",
+      "category": "Géographie - Sommets et volcans",
+      "prompt": "Quel volcan actif se dresse près de Naples, en Italie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Etna",
+        "B — Vésuve",
+        "C — Stromboli",
+        "D — Vulcano"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-sommets-et-volcans-20261010-03",
+      "category": "Géographie - Sommets et volcans",
+      "prompt": "Quelle montagne au sommet plat domine Le Cap, en Afrique du Sud ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Montagne de la Table",
+        "B — Tête du Lion",
+        "C — Drakensberg",
+        "D — Pic du Diable"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-sommets-et-volcans-20261010-04",
+      "category": "Géographie - Sommets et volcans",
+      "prompt": "Quel sommet andin s’élève à l’est de Santiago, sur la frontière entre le Chili et l’Argentine ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Aconcagua",
+        "B — Huascarán",
+        "C — Chimborazo",
+        "D — Tupungato"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-sommets-et-volcans-20261010-05",
+      "category": "Géographie - Sommets et volcans",
+      "prompt": "Quel volcan emblématique, haut d’environ 4 400 m, est visible depuis Seattle, dans l’État de Washington ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Mont Rainier",
+        "B — Mont Saint Helens",
+        "C — Mont Hood",
+        "D — Mont Adams"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-sommets-et-volcans-20261010-06",
+      "category": "Géographie - Sommets et volcans",
+      "prompt": "Quel sommet de Rio de Janeiro, au Brésil, porte la statue du Christ Rédempteur ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Pain de Sucre",
+        "B — Pedra da Gávea",
+        "C — Corcovado",
+        "D — Pico da Bandeira"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

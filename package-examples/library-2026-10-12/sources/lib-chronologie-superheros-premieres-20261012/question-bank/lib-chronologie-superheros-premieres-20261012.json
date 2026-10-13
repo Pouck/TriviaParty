@@ -1,0 +1,145 @@
+{
+  "category": "DC et Marvel — Premières apparitions — Chronologie",
+  "subject": "Super-héros",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "lib-chronologie-superheros-premieres-20261012-01",
+      "category": "DC et Marvel — Premières apparitions — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les débuts en bande dessinée",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Batman"
+        },
+        {
+          "id": "item-1",
+          "text": "Wonder Woman"
+        },
+        {
+          "id": "item-2",
+          "text": "Superman"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-superheros-premieres-20261012-02",
+      "category": "DC et Marvel — Premières apparitions — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les débuts en bande dessinée",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Iron Man"
+        },
+        {
+          "id": "item-1",
+          "text": "Spider-Man — Peter Parker"
+        },
+        {
+          "id": "item-2",
+          "text": "Captain America"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-superheros-premieres-20261012-03",
+      "category": "DC et Marvel — Premières apparitions — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les débuts en bande dessinée",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Black Panther"
+        },
+        {
+          "id": "item-1",
+          "text": "Iron Man"
+        },
+        {
+          "id": "item-2",
+          "text": "Wolverine"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "lib-chronologie-superheros-premieres-20261012-04",
+      "category": "DC et Marvel — Premières apparitions — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les débuts en bande dessinée",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Spider-Man — Peter Parker"
+        },
+        {
+          "id": "item-1",
+          "text": "Superman"
+        },
+        {
+          "id": "item-2",
+          "text": "Wolverine"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "lib-chronologie-superheros-premieres-20261012-05",
+      "category": "DC et Marvel — Premières apparitions — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les débuts en bande dessinée",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Iron Man"
+        },
+        {
+          "id": "item-1",
+          "text": "Black Panther"
+        },
+        {
+          "id": "item-2",
+          "text": "Batman"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

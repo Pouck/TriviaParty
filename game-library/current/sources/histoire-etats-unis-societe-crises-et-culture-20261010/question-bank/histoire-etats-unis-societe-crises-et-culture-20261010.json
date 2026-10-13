@@ -1,0 +1,116 @@
+{
+  "category": "Histoire des États-Unis — Société et repères — QCM",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "us-societe-crises-et-culture-20261010-01",
+      "category": "Histoire des États-Unis — Société et repères — QCM",
+      "prompt": "Quel réseau clandestin aidait des personnes réduites en esclavage à gagner des territoires libres, notamment le Canada ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — L’Express abolitionniste",
+        "B — Le Chemin de fer clandestin",
+        "C — Le Freedom Trail",
+        "D — La Ligne de la liberté"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-societe-crises-et-culture-20261010-02",
+      "category": "Histoire des États-Unis — Société et repères — QCM",
+      "prompt": "Quelle interdiction le 18e amendement, ratifié en 1919, établissait-il aux États-Unis ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le vote des femmes aux élections fédérales",
+        "B — La perception de l’impôt fédéral sur le revenu",
+        "C — La fabrication et la vente de boissons alcoolisées destinées à la consommation",
+        "D — La semaine de travail de 40 heures"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-societe-crises-et-culture-20261010-03",
+      "category": "Histoire des États-Unis — Société et repères — QCM",
+      "prompt": "Quelle convention tenue dans l’État de New York en 1848 marqua une étape majeure du mouvement pour les droits des femmes ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La convention de Seneca Falls",
+        "B — L’assemblée d’Albany",
+        "C — La conférence des ouvrières de Lowell",
+        "D — Le sommet de Saratoga Springs"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-societe-crises-et-culture-20261010-04",
+      "category": "Histoire des États-Unis — Société et repères — QCM",
+      "prompt": "Quelle grande crise économique des années 1930 est associée au krach boursier de 1929 et à un chômage massif ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La Grande Dépression",
+        "B — La crise du Dust Bowl",
+        "C — La crise de la stagflation",
+        "D — La panique de 1893"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-histoire-etats-unis-20261012-03",
+      "category": "Histoire des États-Unis — Société et repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "En quelle année la Déclaration d’indépendance est-elle adoptée ?",
+      "options": [
+        "A — 1789",
+        "B — 1776",
+        "C — 1812",
+        "D — 1492"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-histoire-etats-unis-20261012-04",
+      "category": "Histoire des États-Unis — Société et repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel président est associé à l’abolition de l’esclavage pendant la guerre de Sécession ?",
+      "options": [
+        "A — Theodore Roosevelt",
+        "B — George Washington",
+        "C — John Kennedy",
+        "D — Abraham Lincoln"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-histoire-etats-unis-20261012-05",
+      "category": "Histoire des États-Unis — Société et repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle mission américaine permet le premier pas humain sur la Lune ?",
+      "options": [
+        "A — Gemini 4",
+        "B — Apollo 8",
+        "C — Apollo 11",
+        "D — Mercury 7"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/lib-qcm-histoire-etats-unis-20261012/moon.jpg"
+    }
+  ]
+}

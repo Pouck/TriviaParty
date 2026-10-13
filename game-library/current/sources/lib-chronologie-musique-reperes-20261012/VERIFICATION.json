@@ -1,0 +1,97 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-chronologie-musique-reperes-20261012-01",
+    "originalPackage": "lib-chronologie-musique-reperes-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.beethoven.de/",
+        "https://mozarteum.at/",
+        "https://www.thebeatles.com/abbey-road",
+        "https://www.michaeljackson.com/albums/thriller/",
+        "https://www.queenonline.com/music",
+        "https://www.britannica.com/"
+      ],
+      "note": "Jean-Sébastien Bach (1685) → Mozart (1756) → Beethoven (1770)",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-chronologie-musique-reperes-20261012-02",
+    "originalPackage": "lib-chronologie-musique-reperes-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.beethoven.de/",
+        "https://mozarteum.at/",
+        "https://www.thebeatles.com/abbey-road",
+        "https://www.michaeljackson.com/albums/thriller/",
+        "https://www.queenonline.com/music",
+        "https://www.britannica.com/"
+      ],
+      "note": "La Flûte enchantée (1791) → Neuvième Symphonie de Beethoven (1824) → Le Lac des cygnes (1877)",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-chronologie-musique-reperes-20261012-03",
+    "originalPackage": "lib-chronologie-musique-reperes-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.beethoven.de/",
+        "https://mozarteum.at/",
+        "https://www.thebeatles.com/abbey-road",
+        "https://www.michaeljackson.com/albums/thriller/",
+        "https://www.queenonline.com/music",
+        "https://www.britannica.com/"
+      ],
+      "note": "Abbey Road — The Beatles (1969) → A Night at the Opera — Queen (1975) → Thriller — Michael Jackson (1982)",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-chronologie-musique-reperes-20261012-04",
+    "originalPackage": "lib-chronologie-musique-reperes-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.beethoven.de/",
+        "https://mozarteum.at/",
+        "https://www.thebeatles.com/abbey-road",
+        "https://www.michaeljackson.com/albums/thriller/",
+        "https://www.queenonline.com/music",
+        "https://www.britannica.com/"
+      ],
+      "note": "Vivaldi (1678) → Chopin (1810) → Tchaïkovski (1840)",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-chronologie-musique-reperes-20261012-05",
+    "originalPackage": "lib-chronologie-musique-reperes-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.beethoven.de/",
+        "https://mozarteum.at/",
+        "https://www.thebeatles.com/abbey-road",
+        "https://www.michaeljackson.com/albums/thriller/",
+        "https://www.queenonline.com/music",
+        "https://www.britannica.com/"
+      ],
+      "note": "Création de La Flûte enchantée (1791) → Sortie d’Abbey Road (1969) → Sortie de Thriller (1982)",
+      "visual": null
+    },
+    "new": false
+  }
+]

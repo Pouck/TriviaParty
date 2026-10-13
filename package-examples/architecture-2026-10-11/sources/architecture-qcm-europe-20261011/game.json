@@ -1,0 +1,15 @@
+{
+  "id": "architecture-qcm-europe-20261011",
+  "name": "Architecture — Monuments d’Europe — QCM",
+  "description": "6 questions en français. 3 avec photo et 3 textuelles ; 15 secondes ; 15 → 10 → 5 points.",
+  "categoryPackages": [
+    "architecture-qcm-europe-20261011"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

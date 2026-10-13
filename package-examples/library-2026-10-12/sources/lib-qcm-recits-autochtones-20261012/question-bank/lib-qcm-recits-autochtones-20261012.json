@@ -1,0 +1,87 @@
+{
+  "category": "Contes et légendes — Récits autochtones — Traditions nommées — QCM",
+  "subject": "Contes et légendes",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-recits-autochtones-20261012-01",
+      "category": "Contes et légendes — Récits autochtones — Traditions nommées — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans le récit oneida de la Femme du Ciel, quel animal porte la nouvelle terre ?",
+      "options": [
+        "A — Le castor",
+        "B — Le loup",
+        "C — La tortue",
+        "D — L’aigle"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/turtle.jpg"
+    },
+    {
+      "id": "lib-qcm-recits-autochtones-20261012-02",
+      "category": "Contes et légendes — Récits autochtones — Traditions nommées — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel oiseau est un transformateur dans le récit haïda présenté par GwaaGanad ?",
+      "options": [
+        "A — L’autruche",
+        "B — Le corbeau",
+        "C — Le paon",
+        "D — Le flamant"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/raven.jpg"
+    },
+    {
+      "id": "lib-qcm-recits-autochtones-20261012-03",
+      "category": "Contes et légendes — Récits autochtones — Traditions nommées — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "À quel milieu Sedna est-elle liée dans les récits inuit ?",
+      "options": [
+        "A — Les volcans",
+        "B — La jungle",
+        "C — Le désert",
+        "D — La mer"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-recits-autochtones-20261012-04",
+      "category": "Contes et légendes — Récits autochtones — Traditions nommées — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans le récit oneida, qui empêche la Femme du Ciel de tomber dans l’eau ?",
+      "options": [
+        "A — Des oiseaux",
+        "B — Des cerfs",
+        "C — Des chevaux",
+        "D — Des loups"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-recits-autochtones-20261012-05",
+      "category": "Contes et légendes — Récits autochtones — Traditions nommées — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel héros est associé notamment aux récits mi’kmaq ?",
+      "options": [
+        "A — Glooscap",
+        "B — Zeus",
+        "C — Robin des Bois",
+        "D — Merlin"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "lion",
+    "title": "Lion",
+    "file": "lion.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/1920px-020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work, from gileslaurent.com",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-buzzer-animaux-terrestres-20261012"
+  },
+  {
+    "slug": "beaver",
+    "title": "North American beaver",
+    "file": "beaver.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:American_Beaver.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/6/6b/American_Beaver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Steve from Washington, DC, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "credit": "American Beaver",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-buzzer-animaux-terrestres-20261012"
+  }
+]

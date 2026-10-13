@@ -1,0 +1,43 @@
+[
+  {
+    "question": 1,
+    "questionId": "culture-qsj-rome-monuments-et-crises-20261010-01",
+    "originalPackage": "culture-qsj-rome-monuments-et-crises-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "culture-qsj-rome-monuments-et-crises-20261010-02",
+    "originalPackage": "culture-qsj-rome-monuments-et-crises-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "culture-qsj-rome-monuments-et-crises-20261010-03",
+    "originalPackage": "culture-qsj-rome-monuments-et-crises-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "culture-qsj-rome-monuments-et-crises-20261010-04",
+    "originalPackage": "culture-qsj-rome-monuments-et-crises-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "resize-20261012-auguste",
+    "originalPackage": null,
+    "reference": {
+      "sources": [
+        "https://www.metmuseum.org/ko/essays/augustan-rule-27-b-c-14-a-d",
+        "https://resources.metmuseum.org/resources/metpublications/pdf/Pergamon_and_the_Hellenistic_Kingdoms_of_the_Ancient_World.pdf"
+      ],
+      "note": ""
+    },
+    "new": true
+  }
+]

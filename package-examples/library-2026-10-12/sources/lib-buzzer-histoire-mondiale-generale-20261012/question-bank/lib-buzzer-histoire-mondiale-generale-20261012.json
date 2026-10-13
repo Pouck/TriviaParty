@@ -1,0 +1,78 @@
+{
+  "category": "Histoire mondiale — Grands repères — Buzzer",
+  "subject": "Histoire",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-histoire-mondiale-generale-20261012-01",
+      "category": "Histoire mondiale — Grands repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel amphithéâtre antique célèbre se trouve à Rome ?",
+      "acceptableAnswers": [
+        "Le Colisée",
+        "Colisée"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/colosseum.jpg"
+    },
+    {
+      "id": "lib-buzzer-histoire-mondiale-generale-20261012-02",
+      "category": "Histoire mondiale — Grands repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel mur européen tombe en 1989 ?",
+      "acceptableAnswers": [
+        "Le mur de Berlin",
+        "Mur de Berlin"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/berlin-wall.jpg"
+    },
+    {
+      "id": "lib-buzzer-histoire-mondiale-generale-20261012-03",
+      "category": "Histoire mondiale — Grands repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui est le premier humain à marcher sur la Lune ?",
+      "acceptableAnswers": [
+        "Neil Armstrong",
+        "Armstrong"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-histoire-mondiale-generale-20261012-04",
+      "category": "Histoire mondiale — Grands repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle organisation internationale est fondée en 1945 pour favoriser la paix ?",
+      "acceptableAnswers": [
+        "L’ONU",
+        "ONU",
+        "Organisation des Nations unies"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-histoire-mondiale-generale-20261012-05",
+      "category": "Histoire mondiale — Grands repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel dirigeant sud-africain reçoit la liberté en 1990 après un long emprisonnement ?",
+      "acceptableAnswers": [
+        "Nelson Mandela",
+        "Mandela"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

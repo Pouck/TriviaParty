@@ -1,0 +1,80 @@
+[
+  {
+    "question": 1,
+    "questionId": "cinema-qcm-films-personnages-20261011-01",
+    "originalPackage": "cinema-qcm-films-personnages-20261011",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.mckellen.com/cinema/lotr/"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "cinema-qcm-films-personnages-20261011-02",
+    "originalPackage": "cinema-qcm-films-personnages-20261011",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.bfi.org.uk/film/aa4a1930-21de-51ce-9700-6acaf2d59437/titanic"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "cinema-qcm-films-personnages-20261011-03",
+    "originalPackage": "cinema-qcm-films-personnages-20261011",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.bfi.org.uk/features/where-begin-with-ridley-scott"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "cinema-qcm-films-personnages-20261011-04",
+    "originalPackage": "cinema-qcm-films-personnages-20261011",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.nolanfans.com/library/pdf/inception-screenplay.pdf"
+      ],
+      "note": "La question porte sur l’objet visible, sans imposer une interprétation de la fin ni de son propriétaire initial."
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "cinema-qcm-films-personnages-20261011-05",
+    "originalPackage": "cinema-qcm-films-personnages-20261011",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.dunemovie.com/"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "cinema-qcm-films-personnages-20261011-06",
+    "originalPackage": "cinema-qcm-films-personnages-20261011",
+    "reference": {
+      "question": 6,
+      "sources": [
+        "https://www.paramountpictures.com/movies/gladiator"
+      ],
+      "note": ""
+    },
+    "new": false
+  }
+]

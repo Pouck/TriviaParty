@@ -1,0 +1,85 @@
+{
+  "category": "Canada — Jalons sociaux et politiques modernes — QCM — 1",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-01",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel premier ministre de la Saskatchewan est en fonction lors de l’entrée en vigueur de l’assurance médicale universelle en 1962 ?",
+      "options": [
+        "A — Tommy Douglas",
+        "B — Allan Blakeney",
+        "C — Woodrow Lloyd",
+        "D — John Diefenbaker"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-02",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle commission royale créée en 1963 étudie le bilinguisme et le biculturalisme ?",
+      "options": [
+        "A — La commission Macdonald",
+        "B — La commission Laurendeau-Dunton",
+        "C — La commission Massey",
+        "D — La commission Rowell-Sirois"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-03",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle loi de 1969 décriminalise certains actes homosexuels privés entre adultes consentants d’au moins 21 ans ?",
+      "options": [
+        "A — La Loi canadienne sur les droits de la personne",
+        "B — La Loi constitutionnelle",
+        "C — La réforme de la Loi sur les mesures de guerre",
+        "D — La Loi de 1968-69 modifiant le droit pénal"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-04",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "En quelle année le drapeau canadien à la feuille d’érable est-il inauguré ?",
+      "options": [
+        "A — 1965",
+        "B — 1957",
+        "C — 1982",
+        "D — 1945"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-05",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel premier ministre du Québec mène le camp du Oui lors du référendum de 1980 sur la souveraineté-association ?",
+      "options": [
+        "A — René Lévesque",
+        "B — Jacques Parizeau",
+        "C — Robert Bourassa",
+        "D — Lucien Bouchard"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

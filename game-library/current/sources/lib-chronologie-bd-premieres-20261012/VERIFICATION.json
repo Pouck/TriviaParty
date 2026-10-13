@@ -1,0 +1,178 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-chronologie-bd-premieres-20261012-01",
+    "originalPackage": "lib-chronologie-bd-premieres-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.tintin.com/en/albums",
+        "https://www.dupuis.com/univers/FR/spirou.html",
+        "https://www.luckyluke.com/",
+        "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+        "https://www.dupuis.com/"
+      ],
+      "note": "Tintin (1929) → Spirou (1938) → Astérix (1959)",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-chronologie-bd-premieres-20261012-02",
+    "originalPackage": "lib-chronologie-bd-premieres-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.tintin.com/en/albums",
+        "https://www.dupuis.com/univers/FR/spirou.html",
+        "https://www.luckyluke.com/",
+        "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+        "https://www.dupuis.com/"
+      ],
+      "note": "Lucky Luke (1946) → Gaston Lagaffe (1957) → Les Schtroumpfs (1958)",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-chronologie-bd-premieres-20261012-03",
+    "originalPackage": "lib-chronologie-bd-premieres-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.tintin.com/en/albums",
+        "https://www.dupuis.com/univers/FR/spirou.html",
+        "https://www.luckyluke.com/",
+        "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+        "https://www.dupuis.com/"
+      ],
+      "note": "Spirou (1938) → Lucky Luke (1946) → Gaston Lagaffe (1957)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez les premières apparitions en BD.",
+      "events": [
+        [
+          "Blake et Mortimer",
+          1946
+        ],
+        [
+          "Marsupilami",
+          1952
+        ],
+        [
+          "Boule et Bill",
+          1959
+        ]
+      ],
+      "sources": [
+        "https://www.dargaud.com/auteurs/edgar-p-jacobs",
+        "https://www.larousse.fr/encyclopedie/personnage/André_Franquin/120242",
+        "https://www.larousse.fr/encyclopedie/divers/Boule_et_Bill/184544"
+      ]
+    }
+  },
+  {
+    "question": 4,
+    "questionId": "lib-chronologie-bd-premieres-20261012-04",
+    "originalPackage": "lib-chronologie-bd-premieres-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.tintin.com/en/albums",
+        "https://www.dupuis.com/univers/FR/spirou.html",
+        "https://www.luckyluke.com/",
+        "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+        "https://www.dupuis.com/"
+      ],
+      "note": "Tintin (1929) → Les Schtroumpfs (1958) → Astérix (1959)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez les premières apparitions en BD.",
+      "events": [
+        [
+          "Iznogoud",
+          1962
+        ],
+        [
+          "Achille Talon",
+          1963
+        ],
+        [
+          "Le Chat de Geluck",
+          1983
+        ]
+      ],
+      "sources": [
+        "https://iznogoud.com/naissance_vizir",
+        "https://www.dargaud.com/auteurs/greg",
+        "https://lechat.com/philippe-geluck/"
+      ]
+    }
+  },
+  {
+    "question": 5,
+    "questionId": "lib-chronologie-bd-premieres-20261012-05",
+    "originalPackage": "lib-chronologie-bd-premieres-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.tintin.com/en/albums",
+        "https://www.dupuis.com/univers/FR/spirou.html",
+        "https://www.luckyluke.com/",
+        "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+        "https://www.dupuis.com/"
+      ],
+      "note": "Tintin (1929) → Lucky Luke (1946) → Astérix (1959)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez les débuts de ces séries en BD.",
+      "events": [
+        [
+          "XIII",
+          1984
+        ],
+        [
+          "Largo Winch",
+          1990
+        ],
+        [
+          "Lou !",
+          2004
+        ]
+      ],
+      "sources": [
+        "https://www.dargaud.com/bd/xiii",
+        "https://www.dupuis.com/seriebd/largo-winch-l-integrale/4064",
+        "https://www.glenat.com/glenat-bd/lou-tome-01-9782723442756/"
+      ]
+    }
+  },
+  {
+    "question": 6,
+    "questionId": "q4",
+    "originalPackage": "original-pop-culture",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 7,
+    "questionId": "q24",
+    "originalPackage": "original-video-game-maps",
+    "reference": {},
+    "new": false
+  }
+]

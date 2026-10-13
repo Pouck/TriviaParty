@@ -1,0 +1,58 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.dc.com/characters/batman"
+    ],
+    "note": ""
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.marvel.com/comics/guides/181/who_has_wielded_thors_hammer"
+    ],
+    "note": ""
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.dc.com/characters/superman"
+    ],
+    "note": ""
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.starwars.com/databank/lightsaber"
+    ],
+    "note": ""
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.avatar.com/pandorapedia/"
+    ],
+    "note": "Pandora est une lune ; le mot « planète » a été évité."
+  },
+  {
+    "question": 6,
+    "sources": [
+      "https://movies.disney.com/frozen"
+    ],
+    "note": ""
+  },
+  {
+    "question": 7,
+    "sources": [
+      "https://www.pixar.com/finding-nemo"
+    ],
+    "note": ""
+  },
+  {
+    "question": 8,
+    "sources": [
+      "https://movies.disney.com/the-lion-king"
+    ],
+    "note": ""
+  }
+]

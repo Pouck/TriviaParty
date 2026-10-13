@@ -1,0 +1,77 @@
+{
+  "category": "Musique — Instruments — Buzzer",
+  "subject": "Musique",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-instruments-20261012-01",
+      "category": "Musique — Instruments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel instrument à soufflet est représenté ici ?",
+      "acceptableAnswers": [
+        "Un accordéon",
+        "Accordéon"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-instruments-20261012/accordion.jpg"
+    },
+    {
+      "id": "lib-buzzer-instruments-20261012-02",
+      "category": "Musique — Instruments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel instrument à cordes pincées est représenté ici ?",
+      "acceptableAnswers": [
+        "Une guitare",
+        "Guitare"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-instruments-20261012/guitar.jpg"
+    },
+    {
+      "id": "lib-buzzer-instruments-20261012-03",
+      "category": "Musique — Instruments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment appelle-t-on la baguette courbe qui frotte les cordes d’un violon ?",
+      "acceptableAnswers": [
+        "Un archet",
+        "Archet"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-instruments-20261012-04",
+      "category": "Musique — Instruments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel ensemble de percussions comprend souvent grosse caisse et cymbales ?",
+      "acceptableAnswers": [
+        "Une batterie",
+        "Batterie"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-instruments-20261012-05",
+      "category": "Musique — Instruments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel petit instrument se joue en soufflant dans plusieurs trous côte à côte ?",
+      "acceptableAnswers": [
+        "Un harmonica",
+        "Harmonica"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

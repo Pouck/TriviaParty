@@ -1,0 +1,87 @@
+{
+  "category": "Géographie mondiale",
+  "subject": "Géographie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "q3",
+      "category": "Géographie mondiale",
+      "prompt": "Dans quel pays se trouve ce monument ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La France",
+        "B — Le Japon",
+        "C — Le Brésil",
+        "D — L’Italie"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/original-world-geography/eiffel.jpg"
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q9",
+      "category": "Géographie mondiale",
+      "prompt": "Quelle est la capitale de l’Australie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Sydney",
+        "B — Melbourne",
+        "C — Brisbane",
+        "D — Canberra"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q10",
+      "category": "Géographie mondiale",
+      "prompt": "Quel est le plus grand pays par superficie totale ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le Canada",
+        "B — La Russie",
+        "C — Les États-Unis",
+        "D — Le Brésil"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q11",
+      "category": "Géographie mondiale",
+      "prompt": "Quel fleuve traverse Le Caire ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le Nil",
+        "B — L’Amazone",
+        "C — Le Yangtsé",
+        "D — Le Mississippi"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q12",
+      "category": "Géographie mondiale",
+      "prompt": "Quelle chaîne de montagnes contient l’Everest ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Les Andes",
+        "B — Les Alpes",
+        "C — L’Himalaya",
+        "D — L’Atlas"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/original-world-geography/everest.jpg"
+    }
+  ]
+}

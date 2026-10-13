@@ -1,0 +1,44 @@
+[
+  {
+    "question": 1,
+    "questionId": "geo-afrique-20261010-01",
+    "originalPackage": "geographie-afrique-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "geo-afrique-20261010-02",
+    "originalPackage": "geographie-afrique-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "geo-afrique-20261010-03",
+    "originalPackage": "geographie-afrique-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "geo-afrique-20261010-04",
+    "originalPackage": "geographie-afrique-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "geo-asie-20261010-01",
+    "originalPackage": "geographie-asie-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "geo-asie-20261010-02",
+    "originalPackage": "geographie-asie-20261010",
+    "reference": {},
+    "new": false
+  }
+]

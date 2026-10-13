@@ -1,0 +1,159 @@
+{
+  "category": "Littérature britannique et irlandaise — Personnages : choix multiples",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-01",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel détective créé par Conan Doyle habite au 221B Baker Street ?",
+      "options": [
+        "A — Hercule Poirot",
+        "B — Sherlock Holmes",
+        "C — Ebenezer Scrooge",
+        "D — John Watson"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-02",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Qui est le maître de Thornfield Hall dans Jane Eyre ?",
+      "options": [
+        "A — Fitzwilliam Darcy",
+        "B — Heathcliff",
+        "C — Arthur Pendennis",
+        "D — Edward Rochester"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-03",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel prince du Danemark cherche à venger son père dans une tragédie de Shakespeare ?",
+      "options": [
+        "A — Macbeth",
+        "B — Hamlet",
+        "C — Le roi Lear",
+        "D — Othello"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-04",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle héroïne de Jane Austen se croit douée pour arranger les mariages de son entourage ?",
+      "options": [
+        "A — Fanny Price",
+        "B — Elinor Dashwood",
+        "C — Emma Woodhouse",
+        "D — Catherine Morland"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-05",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel avare change après la visite d’esprits dans A Christmas Carol de Dickens ?",
+      "options": [
+        "A — Fagin",
+        "B — Pip",
+        "C — Ebenezer Scrooge",
+        "D — Uriah Heep"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-06",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Qui lit Paradise Lost et souffre du rejet des humains dans Frankenstein ?",
+      "options": [
+        "A — Victor Frankenstein",
+        "B — La créature",
+        "C — Igor",
+        "D — Henry Clerval"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-07",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel hobbit porte l’Anneau unique jusqu’au Mordor dans The Lord of the Rings ?",
+      "options": [
+        "A — Frodon Sacquet",
+        "B — Aragorn",
+        "C — Samsagace Gamegie",
+        "D — Bilbon Sacquet"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-08",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel personnage d’Oscar Wilde reste jeune tandis que son portrait porte les marques de son vieillissement et de ses fautes ?",
+      "options": [
+        "A — Lord Henry Wotton",
+        "B — Ernest Worthing",
+        "C — Algernon Moncrieff",
+        "D — Dorian Gray"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-09",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel employé du ministère de la Vérité tient secrètement un journal dans 1984 ?",
+      "options": [
+        "A — O’Brien",
+        "B — Emmanuel Goldstein",
+        "C — Big Brother",
+        "D — Winston Smith"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-10",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle héroïne de Lewis Carroll suit un lapin dans un monde peuplé du Chat du Cheshire ?",
+      "options": [
+        "A — Alice",
+        "B — Wendy",
+        "C — Dorothée",
+        "D — Lucy"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

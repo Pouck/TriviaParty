@@ -1,0 +1,87 @@
+{
+  "category": "Logique — Défis rapides — QCM",
+  "subject": "Logique et énigmes",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-logique-20261012-01",
+      "category": "Logique — Défis rapides — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Comptez de deux en deux : 2, 4, 6, 8… Quel nombre suit ?",
+      "options": [
+        "A — 9",
+        "B — 10",
+        "C — 12",
+        "D — 16"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/lib-qcm-logique-20261012/sequence.png"
+    },
+    {
+      "id": "lib-qcm-logique-20261012-02",
+      "category": "Logique — Défis rapides — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Tous les chats de ce jeu sont bleus. Mina est un chat. Quelle couleur a Mina ?",
+      "options": [
+        "A — Rouge",
+        "B — Verte",
+        "C — Impossible à savoir",
+        "D — Bleue"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-logique-20261012-03",
+      "category": "Logique — Défis rapides — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Combien de pommes voyez-vous en tout ?",
+      "options": [
+        "A — 5",
+        "B — 3",
+        "C — 4",
+        "D — 6"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-logique-20261012/five-apples.png"
+    },
+    {
+      "id": "lib-qcm-logique-20261012-04",
+      "category": "Logique — Défis rapides — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Lina est devant Hugo, qui est devant Zoé. Qui est en dernier ?",
+      "options": [
+        "A — Lina",
+        "B — Hugo",
+        "C — Zoé",
+        "D — Impossible à savoir"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-logique-20261012-05",
+      "category": "Logique — Défis rapides — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Une boîte contient 4 billes rouges et 1 bleue. Combien de billes contient-elle ?",
+      "options": [
+        "A — 5",
+        "B — 4",
+        "C — 6",
+        "D — 3"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

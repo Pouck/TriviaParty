@@ -1,0 +1,115 @@
+{
+  "category": "Histoire mondiale — Grands repères — QCM — 2",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-revoltes-et-unifications-04-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 2",
+      "prompt": "Quel chef italien mena les « Chemises rouges » lors de l’expédition des Mille en 1860 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Giuseppe Mazzini",
+        "B — Camillo Benso, comte de Cavour",
+        "C — Giuseppe Garibaldi",
+        "D — Victor-Emmanuel II"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-conflits-et-transformations-01-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 2",
+      "prompt": "Quelle organisation internationale commence ses activités en 1920 pour favoriser la paix après la Première Guerre mondiale ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — L’OTAN",
+        "B — Le pacte de Varsovie",
+        "C — L’Organisation des Nations unies",
+        "D — La Société des Nations"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-conflits-et-transformations-02-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 2",
+      "prompt": "Quel projet dirigé par les États-Unis développa les premières armes nucléaires pendant la Seconde Guerre mondiale ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le projet Manhattan",
+        "B — Le programme Apollo",
+        "C — Le programme V-2",
+        "D — Le programme britannique de radar"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-conflits-et-transformations-03-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 2",
+      "prompt": "Comment appelle-t-on la division de l’Inde britannique en 1947, qui donne naissance à l’Inde et au Pakistan indépendants ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le Grand Réalignement",
+        "B — L’accord de décolonisation",
+        "C — La partition de l’Inde",
+        "D — La rupture de Lahore"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-conflits-et-transformations-04-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 2",
+      "prompt": "Quel dirigeant du mouvement Solidarność devint président de la Pologne en 1990 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Lech Wałęsa",
+        "B — Václav Havel",
+        "C — Wojciech Jaruzelski",
+        "D — Imre Nagy"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-guerres-et-reformes-01-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 2",
+      "prompt": "Quelle bataille opposa les armées française et allemande de février à décembre 1916 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La bataille de Gallipoli",
+        "B — La bataille de Verdun",
+        "C — La bataille de Passchendaele",
+        "D — La bataille de la Somme"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-guerres-et-reformes-02-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 2",
+      "prompt": "Quel programme américain finança la reconstruction de l’Europe occidentale à partir de 1948 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La doctrine Eisenhower",
+        "B — Le plan Marshall",
+        "C — Le programme de prêt-bail",
+        "D — La doctrine Truman"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

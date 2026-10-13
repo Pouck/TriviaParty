@@ -1,0 +1,95 @@
+{
+  "category": "Histoire de France — Figures et repères — Qui suis-je ?",
+  "subject": "Histoire",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-histoire-france-generale-20261012-01",
+      "category": "Histoire de France — Figures et repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon règne dure plus de soixante-dix ans.",
+        "Je fais de Versailles le centre de ma cour.",
+        "Je suis associé à la monarchie absolue.",
+        "On me surnomme le Roi-Soleil."
+      ],
+      "acceptableAnswers": [
+        "Louis XIV"
+      ]
+    },
+    {
+      "id": "lib-qsj-histoire-france-generale-20261012-02",
+      "category": "Histoire de France — Figures et repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je viens de Domrémy.",
+        "Je participe à la guerre de Cent Ans.",
+        "J’aide les forces françaises à Orléans.",
+        "On m’appelle la Pucelle d’Orléans."
+      ],
+      "acceptableAnswers": [
+        "Jeanne d’Arc"
+      ]
+    },
+    {
+      "id": "lib-qsj-histoire-france-generale-20261012-03",
+      "category": "Histoire de France — Figures et repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je règne pendant la Renaissance.",
+        "Marignan marque le début de mon règne.",
+        "J’accueille Léonard de Vinci en France.",
+        "Mon prénom est François et je suis le premier de ce nom."
+      ],
+      "acceptableAnswers": [
+        "François Ier"
+      ]
+    },
+    {
+      "id": "lib-qsj-histoire-france-generale-20261012-04",
+      "category": "Histoire de France — Figures et repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis née dans la dynastie des Habsbourg.",
+        "Je deviens reine de France.",
+        "La Révolution met fin à ma vie.",
+        "Je suis l’épouse de Louis XVI."
+      ],
+      "acceptableAnswers": [
+        "Marie-Antoinette"
+      ]
+    },
+    {
+      "id": "lib-qsj-histoire-france-generale-20261012-05",
+      "category": "Histoire de France — Figures et repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je dirige la France libre pendant la guerre.",
+        "Je prononce l’appel du 18 juin 1940.",
+        "Je deviens président sous la Ve République.",
+        "On m’appelle souvent le Général."
+      ],
+      "acceptableAnswers": [
+        "Charles de Gaulle"
+      ]
+    }
+  ]
+}

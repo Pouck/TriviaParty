@@ -1,0 +1,87 @@
+{
+  "category": "Cinéma — Studio Ghibli — Films animés — QCM",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-ghibli-20261012-01",
+      "category": "Cinéma — Studio Ghibli — Films animés — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a réalisé Mon voisin Totoro ?",
+      "options": [
+        "A — Isao Takahata",
+        "B — Hayao Miyazaki",
+        "C — Satoshi Kon",
+        "D — Mamoru Hosoda"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-ghibli-20261012-02",
+      "category": "Cinéma — Studio Ghibli — Films animés — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel véhicule magique apparaît dans Mon voisin Totoro ?",
+      "options": [
+        "A — Un chat-bus",
+        "B — Un chien-train",
+        "C — Un renard-avion",
+        "D — Un lapin-bateau"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-ghibli-20261012/bus.png"
+    },
+    {
+      "id": "lib-qcm-ghibli-20261012-03",
+      "category": "Cinéma — Studio Ghibli — Films animés — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans Ponyo, quel animal marin est d’abord la petite héroïne ?",
+      "options": [
+        "A — Une pieuvre",
+        "B — Une méduse",
+        "C — Une tortue",
+        "D — Un poisson"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-ghibli-20261012-04",
+      "category": "Cinéma — Studio Ghibli — Films animés — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel film suit une jeune sorcière qui livre des colis ?",
+      "options": [
+        "A — Kiki la petite sorcière",
+        "B — Le Château ambulant",
+        "C — Porco Rosso",
+        "D — Le Vent se lève"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-ghibli-20261012/broom.png"
+    },
+    {
+      "id": "lib-qcm-ghibli-20261012-05",
+      "category": "Cinéma — Studio Ghibli — Films animés — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans Le Voyage de Chihiro, les parents deviennent quels animaux ?",
+      "options": [
+        "A — Des chats",
+        "B — Des singes",
+        "C — Des cochons",
+        "D — Des loups"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

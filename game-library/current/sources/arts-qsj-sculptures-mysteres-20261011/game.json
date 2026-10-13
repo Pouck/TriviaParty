@@ -1,0 +1,15 @@
+{
+  "id": "arts-qsj-sculptures-mysteres-20261011",
+  "name": "Arts — Sculptures mystères — Qui suis-je ?",
+  "description": "5 questions en français. 4 indices de 20 secondes ; 5 points par palier. Réponse au buzzer : 10 secondes. Lecture confirmée par les joueurs avant chaque indice.",
+  "categoryPackages": [
+    "arts-qsj-sculptures-mysteres-20261011"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 20,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 3,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

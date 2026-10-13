@@ -1,0 +1,79 @@
+{
+  "category": "Géographie mondiale — Reliefs et océans — Buzzer",
+  "subject": "Géographie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-geographie-monde-20261012-01",
+      "category": "Géographie mondiale — Reliefs et océans — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel est le plus haut sommet terrestre au-dessus du niveau de la mer ?",
+      "acceptableAnswers": [
+        "L’Everest",
+        "Everest",
+        "Mont Everest"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/everest.jpg"
+    },
+    {
+      "id": "lib-buzzer-geographie-monde-20261012-02",
+      "category": "Géographie mondiale — Reliefs et océans — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel continent entoure le pôle Sud ?",
+      "acceptableAnswers": [
+        "L’Antarctique",
+        "Antarctique"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/antarctica.png"
+    },
+    {
+      "id": "lib-buzzer-geographie-monde-20261012-03",
+      "category": "Géographie mondiale — Reliefs et océans — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle mer sépare principalement le sud de l’Europe du nord de l’Afrique ?",
+      "acceptableAnswers": [
+        "La Méditerranée",
+        "Méditerranée",
+        "Mer Méditerranée"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-geographie-monde-20261012-04",
+      "category": "Géographie mondiale — Reliefs et océans — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel fleuve traverse l’Égypte ?",
+      "acceptableAnswers": [
+        "Le Nil",
+        "Nil"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-geographie-monde-20261012-05",
+      "category": "Géographie mondiale — Reliefs et océans — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle ligne imaginaire sépare les hémisphères Nord et Sud ?",
+      "acceptableAnswers": [
+        "L’équateur",
+        "Équateur"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

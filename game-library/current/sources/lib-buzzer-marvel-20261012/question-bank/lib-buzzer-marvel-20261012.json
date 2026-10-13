@@ -1,0 +1,75 @@
+{
+  "category": "Marvel — Héros et univers — Réponses écrites",
+  "subject": "Super-héros",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-marvel-20261012-01",
+      "category": "Marvel — Héros et univers — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel milliardaire construit l’armure d’Iron Man ?",
+      "acceptableAnswers": [
+        "Tony Stark"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-marvel-20261012-02",
+      "category": "Marvel — Héros et univers — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel héros utilise des toiles et est aussi Peter Parker ?",
+      "acceptableAnswers": [
+        "Spider-Man",
+        "Spiderman",
+        "L’Homme-araignée"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-marvel-20261012/web.png"
+    },
+    {
+      "id": "lib-buzzer-marvel-20261012-03",
+      "category": "Marvel — Héros et univers — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel héros mutant porte des griffes et le nom Logan ?",
+      "acceptableAnswers": [
+        "Wolverine"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-marvel-20261012-04",
+      "category": "Marvel — Héros et univers — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel héros de Marvel est le dieu du tonnerre ?",
+      "acceptableAnswers": [
+        "Thor"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-marvel-20261012/lightning.png"
+    },
+    {
+      "id": "lib-buzzer-marvel-20261012-05",
+      "category": "Marvel — Héros et univers — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel groupe comprend Star-Lord, Gamora, Rocket et Groot ?",
+      "acceptableAnswers": [
+        "Les Gardiens de la Galaxie",
+        "Gardiens de la Galaxie"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

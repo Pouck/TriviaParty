@@ -1,0 +1,76 @@
+{
+  "category": "Légendes de France — Régions et créatures — Buzzer",
+  "subject": "Contes et légendes",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-legendes-france-20261012-01",
+      "category": "Légendes de France — Régions et créatures — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle créature légendaire donne son nom aux fêtes de Tarascon ?",
+      "acceptableAnswers": [
+        "La Tarasque",
+        "Tarasque"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/dragon.png"
+    },
+    {
+      "id": "lib-buzzer-legendes-france-20261012-02",
+      "category": "Légendes de France — Régions et créatures — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle ville légendaire bretonne est engloutie sous la mer ?",
+      "acceptableAnswers": [
+        "Ys"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/sea.png"
+    },
+    {
+      "id": "lib-buzzer-legendes-france-20261012-03",
+      "category": "Légendes de France — Régions et créatures — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle fée légendaire est associée à la famille de Lusignan ?",
+      "acceptableAnswers": [
+        "Mélusine"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-legendes-france-20261012-04",
+      "category": "Légendes de France — Régions et créatures — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle bête terrorise le Gévaudan au XVIIIe siècle ?",
+      "acceptableAnswers": [
+        "La Bête du Gévaudan",
+        "Bête du Gévaudan"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-legendes-france-20261012-05",
+      "category": "Légendes de France — Régions et créatures — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel nom désigne de petits êtres féeriques des traditions bretonnes ?",
+      "acceptableAnswers": [
+        "Les korrigans",
+        "Korrigans",
+        "Korrigan"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

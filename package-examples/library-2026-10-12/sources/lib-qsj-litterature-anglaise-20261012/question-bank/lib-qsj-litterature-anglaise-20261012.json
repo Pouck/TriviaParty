@@ -1,0 +1,98 @@
+{
+  "category": "Littérature anglophone — Classiques — Qui suis-je ?",
+  "subject": "Littérature",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-litterature-anglaise-20261012-01",
+      "category": "Littérature anglophone — Classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un roman publié en 1818.",
+        "Un savant y crée un être vivant.",
+        "Le nom du savant est souvent donné par erreur à la créature.",
+        "Mary Shelley est mon autrice."
+      ],
+      "acceptableAnswers": [
+        "Frankenstein"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-anglaise-20261012-02",
+      "category": "Littérature anglophone — Classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un roman de Jane Austen.",
+        "Mon héroïne a quatre sœurs.",
+        "Mr Darcy occupe une place centrale dans mon intrigue.",
+        "Je raconte l’histoire d’Elizabeth Bennet."
+      ],
+      "acceptableAnswers": [
+        "Pride and Prejudice",
+        "Orgueil et Préjugés"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-anglaise-20261012-03",
+      "category": "Littérature anglophone — Classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une fable politique de 1945.",
+        "Des animaux renversent leur fermier.",
+        "Des cochons prennent ensuite le pouvoir.",
+        "Je suis la ferme de George Orwell."
+      ],
+      "acceptableAnswers": [
+        "Animal Farm",
+        "La Ferme des animaux"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-anglaise-20261012-04",
+      "category": "Littérature anglophone — Classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un roman gothique de Bram Stoker.",
+        "Jonathan Harker y visite un château.",
+        "Mon personnage célèbre vient de Transylvanie.",
+        "Il est un comte vampire."
+      ],
+      "acceptableAnswers": [
+        "Dracula"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-anglaise-20261012-05",
+      "category": "Littérature anglophone — Classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un récit de Lewis Carroll.",
+        "Une petite fille tombe dans un terrier.",
+        "Un chapelier et un chat étrange apparaissent.",
+        "Je suis le voyage d’Alice au pays des merveilles."
+      ],
+      "acceptableAnswers": [
+        "Alice’s Adventures in Wonderland",
+        "Alice au pays des merveilles"
+      ]
+    }
+  ]
+}

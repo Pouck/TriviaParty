@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "blocks",
+    "title": "Indice visuel — blocks",
+    "file": "blocks.png",
+    "artist": "Trivia Party — diagramme ou indice visuel local",
+    "license": "Illustration locale ; glyphes système crédités",
+    "licenseUrl": "https://learn.microsoft.com/en-us/typography/fonts/font-faq",
+    "commons": null,
+    "credit": "Graphisme de jeu ; symboles rendus avec la police système Segoe UI Emoji, sans redistribution du fichier de police.",
+    "changes": "Indice représentatif, pas une image du film ou de la bande dessinée.",
+    "originalPackage": "lib-qcm-jeux-video-20261012"
+  },
+  {
+    "slug": "hedgehog",
+    "title": "Hedgehog",
+    "file": "hedgehog.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Igel.JPG",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/7/72/Igel.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "Gibe",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "credit": "photo taken by Gibe",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-jeux-video-20261012"
+  }
+]

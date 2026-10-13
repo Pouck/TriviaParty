@@ -1,0 +1,95 @@
+{
+  "category": "Cinéma — Studio Ghibli — Films animés — Qui suis-je ?",
+  "subject": "Cinéma",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-ghibli-20261012-01",
+      "category": "Cinéma — Studio Ghibli — Films animés — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je traverse un lieu étrange avec mes parents.",
+        "Je dois travailler dans un établissement de bains.",
+        "Yubaba me retire une partie de mon nom.",
+        "Je suis la petite fille aidée par Haku."
+      ],
+      "acceptableAnswers": [
+        "Chihiro"
+      ]
+    },
+    {
+      "id": "lib-qsj-ghibli-20261012-02",
+      "category": "Cinéma — Studio Ghibli — Films animés — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je vis près de grands arbres.",
+        "Deux sœurs découvrent mon existence.",
+        "Je rencontre les enfants à un arrêt de bus sous la pluie.",
+        "Je suis le grand voisin gris du film de Miyazaki."
+      ],
+      "acceptableAnswers": [
+        "Totoro"
+      ]
+    },
+    {
+      "id": "lib-qsj-ghibli-20261012-03",
+      "category": "Cinéma — Studio Ghibli — Films animés — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je quitte ma famille pour apprendre à vivre seule.",
+        "Jiji est mon chat noir.",
+        "Je livre des colis en volant.",
+        "Je suis la petite sorcière sur son balai."
+      ],
+      "acceptableAnswers": [
+        "Kiki"
+      ]
+    },
+    {
+      "id": "lib-qsj-ghibli-20261012-04",
+      "category": "Cinéma — Studio Ghibli — Films animés — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je viens du monde marin.",
+        "Je rencontre un garçon appelé Sôsuke.",
+        "Je veux devenir une petite fille.",
+        "Je suis l’héroïne poisson du film de Miyazaki."
+      ],
+      "acceptableAnswers": [
+        "Ponyo"
+      ]
+    },
+    {
+      "id": "lib-qsj-ghibli-20261012-05",
+      "category": "Cinéma — Studio Ghibli — Films animés — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je travaille dans une boutique de chapeaux.",
+        "Une sorcière me transforme en vieille femme.",
+        "Je rencontre Calcifer et le magicien Hauru.",
+        "Je suis l’héroïne du Château ambulant."
+      ],
+      "acceptableAnswers": [
+        "Sophie"
+      ]
+    }
+  ]
+}

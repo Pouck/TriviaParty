@@ -1,0 +1,87 @@
+{
+  "category": "DC — Héros et univers — QCM",
+  "subject": "Super-héros",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-dc-20261012-01",
+      "category": "DC — Héros et univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel animal inspire l’identité de Batman ?",
+      "options": [
+        "A — Le loup",
+        "B — Le hibou",
+        "C — Le corbeau",
+        "D — La chauve-souris"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/lib-qcm-dc-20261012/bat.png"
+    },
+    {
+      "id": "lib-qcm-dc-20261012-02",
+      "category": "DC — Héros et univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel est le nom civil de Superman ?",
+      "options": [
+        "A — Peter Parker",
+        "B — Clark Kent",
+        "C — Bruce Wayne",
+        "D — Barry Allen"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-dc-20261012-03",
+      "category": "DC — Héros et univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle héroïne est une princesse des Amazones ?",
+      "options": [
+        "A — Wonder Woman",
+        "B — Catwoman",
+        "C — Harley Quinn",
+        "D — Supergirl"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-dc-20261012-04",
+      "category": "DC — Héros et univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel héros de DC est associé à la vitesse et à l’éclair ?",
+      "options": [
+        "A — Green Arrow",
+        "B — Aquaman",
+        "C — Flash",
+        "D — Cyborg"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/lib-qcm-dc-20261012/lightning.png"
+    },
+    {
+      "id": "lib-qcm-dc-20261012-05",
+      "category": "DC — Héros et univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans quelle ville Batman combat-il le crime ?",
+      "options": [
+        "A — Gotham City",
+        "B — Metropolis",
+        "C — Central City",
+        "D — Star City"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

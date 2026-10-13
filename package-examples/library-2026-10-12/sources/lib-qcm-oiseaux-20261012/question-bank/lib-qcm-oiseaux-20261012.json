@@ -1,0 +1,87 @@
+{
+  "category": "Oiseaux — Portraits et habitudes — QCM",
+  "subject": "Nature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-oiseaux-20261012-01",
+      "category": "Oiseaux — Portraits et habitudes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel oiseau est représenté ici ?",
+      "options": [
+        "A — Un perroquet",
+        "B — Un pélican",
+        "C — Un toucan",
+        "D — Un martin-pêcheur"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/toucan.jpg"
+    },
+    {
+      "id": "lib-qcm-oiseaux-20261012-02",
+      "category": "Oiseaux — Portraits et habitudes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel oiseau peut voler sur place devant une fleur ?",
+      "options": [
+        "A — Le colibri",
+        "B — L’autruche",
+        "C — Le corbeau",
+        "D — Le cygne"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-oiseaux-20261012-03",
+      "category": "Oiseaux — Portraits et habitudes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel oiseau fait une grande roue avec ses plumes ?",
+      "options": [
+        "A — Le flamant",
+        "B — Le paon",
+        "C — Le héron",
+        "D — La grue"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/peacock.jpg"
+    },
+    {
+      "id": "lib-qcm-oiseaux-20261012-04",
+      "category": "Oiseaux — Portraits et habitudes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel oiseau ne vole pas mais nage très bien en Antarctique ?",
+      "options": [
+        "A — La mouette",
+        "B — L’albatros",
+        "C — Le macareux",
+        "D — Le manchot"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-oiseaux-20261012-05",
+      "category": "Oiseaux — Portraits et habitudes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel oiseau martèle les troncs avec son bec ?",
+      "options": [
+        "A — Le moineau",
+        "B — Le canard",
+        "C — Le pic",
+        "D — Le pigeon"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

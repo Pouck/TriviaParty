@@ -1,0 +1,67 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.toureiffel.paris/en/the-monument/history",
+      "https://www.sydneyoperahouse.com/our-story",
+      "https://www.burjkhalifa.ae/",
+      "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm",
+      "https://www.chateauversailles.fr/",
+      "https://www.louvre.fr/"
+    ],
+    "note": "Tour Eiffel (1889) → Opéra de Sydney (1973) → Burj Khalifa (2010)",
+    "visual": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.toureiffel.paris/en/the-monument/history",
+      "https://www.sydneyoperahouse.com/our-story",
+      "https://www.burjkhalifa.ae/",
+      "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm",
+      "https://www.chateauversailles.fr/",
+      "https://www.louvre.fr/"
+    ],
+    "note": "Statue de la Liberté à New York (1886) → Tour Eiffel (1889) → Opéra de Sydney (1973)",
+    "visual": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.toureiffel.paris/en/the-monument/history",
+      "https://www.sydneyoperahouse.com/our-story",
+      "https://www.burjkhalifa.ae/",
+      "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm",
+      "https://www.chateauversailles.fr/",
+      "https://www.louvre.fr/"
+    ],
+    "note": "Ouverture du Louvre comme musée (1793) → Inauguration de la tour Eiffel (1889) → Ouverture du Burj Khalifa (2010)",
+    "visual": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.toureiffel.paris/en/the-monument/history",
+      "https://www.sydneyoperahouse.com/our-story",
+      "https://www.burjkhalifa.ae/",
+      "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm",
+      "https://www.chateauversailles.fr/",
+      "https://www.louvre.fr/"
+    ],
+    "note": "Installation de la cour de Louis XIV à Versailles (1682) → Ouverture du Louvre comme musée (1793) → Ouverture de l’Opéra de Sydney (1973)",
+    "visual": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.toureiffel.paris/en/the-monument/history",
+      "https://www.sydneyoperahouse.com/our-story",
+      "https://www.burjkhalifa.ae/",
+      "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm",
+      "https://www.chateauversailles.fr/",
+      "https://www.louvre.fr/"
+    ],
+    "note": "Statue de la Liberté à New York (1886) → Opéra de Sydney (1973) → Burj Khalifa (2010)",
+    "visual": null
+  }
+]

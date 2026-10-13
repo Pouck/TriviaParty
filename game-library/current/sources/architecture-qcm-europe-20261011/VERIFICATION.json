@@ -1,0 +1,80 @@
+[
+  {
+    "question": 1,
+    "questionId": "architecture-qcm-europe-20261011-01",
+    "originalPackage": "architecture-qcm-europe-20261011",
+    "reference": {
+      "question": 1,
+      "site": "colosseum",
+      "verification": "https://colosseo.it/en/area/the-colosseum/",
+      "note": "Le Colisée est un amphithéâtre, pas un théâtre semi-circulaire.",
+      "photo": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "architecture-qcm-europe-20261011-02",
+    "originalPackage": "architecture-qcm-europe-20261011",
+    "reference": {
+      "question": 2,
+      "site": "pantheon",
+      "verification": "https://direzionemuseiroma.cultura.gov.it/pantheon/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "architecture-qcm-europe-20261011-03",
+    "originalPackage": "architecture-qcm-europe-20261011",
+    "reference": {
+      "question": 3,
+      "site": "pisa",
+      "verification": "https://www.opapisa.it/en/square-of-miracles/tower/",
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Italy_-_Pisa_-_Leaning_Tower.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "architecture-qcm-europe-20261011-04",
+    "originalPackage": "architecture-qcm-europe-20261011",
+    "reference": {
+      "question": 4,
+      "site": "chenonceau",
+      "verification": "https://www.chenonceau.com/chateau-renaissance/pieces/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "architecture-qcm-europe-20261011-05",
+    "originalPackage": "architecture-qcm-europe-20261011",
+    "reference": {
+      "question": 5,
+      "site": "alhambra",
+      "verification": "https://whc.unesco.org/en/list/314/",
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "architecture-qcm-europe-20261011-06",
+    "originalPackage": "architecture-qcm-europe-20261011",
+    "reference": {
+      "question": 6,
+      "site": "chartres",
+      "verification": "https://whc.unesco.org/en/list/81/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  }
+]

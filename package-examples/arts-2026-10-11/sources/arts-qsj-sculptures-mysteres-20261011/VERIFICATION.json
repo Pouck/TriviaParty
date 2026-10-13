@@ -1,0 +1,42 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm"
+    ],
+    "note": "",
+    "photo": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.musee-rodin.fr/musee/collections/oeuvres/monument-bourgeois-de-calais"
+    ],
+    "note": "",
+    "photo": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://press.moma.org/wp-content/uploads/2018/10/brancusi_object_labels_for_press_final.pdf"
+    ],
+    "note": "Plusieurs versions et matériaux existent ; on demande le titre de la série.",
+    "photo": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/moai"
+    ],
+    "note": "",
+    "photo": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://bargellomusei.it/en/visit-itineraries/donatello-e-lalba-del-rinascimento/"
+    ],
+    "note": "Le dernier indice précise l’artiste : distinguer de Michel-Ange et de Verrocchio.",
+    "photo": null
+  }
+]

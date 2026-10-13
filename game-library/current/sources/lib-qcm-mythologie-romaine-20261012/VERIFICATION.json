@@ -1,0 +1,82 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-qcm-mythologie-romaine-20261012-01",
+    "originalPackage": "lib-qcm-mythologie-romaine-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.metmuseum.org/essays/roman-religion",
+        "https://www.perseus.tufts.edu/hopper/",
+        "https://www.britishmuseum.org/collection"
+      ],
+      "note": "",
+      "visual": "lightning"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-qcm-mythologie-romaine-20261012-02",
+    "originalPackage": "lib-qcm-mythologie-romaine-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.metmuseum.org/essays/roman-religion",
+        "https://www.perseus.tufts.edu/hopper/",
+        "https://www.britishmuseum.org/collection"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-qcm-mythologie-romaine-20261012-03",
+    "originalPackage": "lib-qcm-mythologie-romaine-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.metmuseum.org/essays/roman-religion",
+        "https://www.perseus.tufts.edu/hopper/",
+        "https://www.britishmuseum.org/collection"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-qcm-mythologie-romaine-20261012-04",
+    "originalPackage": "lib-qcm-mythologie-romaine-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.metmuseum.org/essays/roman-religion",
+        "https://www.perseus.tufts.edu/hopper/",
+        "https://www.britishmuseum.org/collection"
+      ],
+      "note": "",
+      "visual": "wolf"
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qcm-mythologie-romaine-20261012-05",
+    "originalPackage": "lib-qcm-mythologie-romaine-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.metmuseum.org/essays/roman-religion",
+        "https://www.perseus.tufts.edu/hopper/",
+        "https://www.britishmuseum.org/collection"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

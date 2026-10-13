@@ -1,0 +1,62 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.dc.com/characters/superman",
+      "https://www.dc.com/characters/batman",
+      "https://www.dc.com/characters/wonder-woman",
+      "https://www.marvel.com/comics/guides/1284/80th_anniversary_silver_age",
+      "https://share.marvel.com/comics/discover/1305/80th-anniversary-the-70s"
+    ],
+    "note": "Superman (1938) → Batman (1939) → Wonder Woman (1941)",
+    "visual": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.dc.com/characters/superman",
+      "https://www.dc.com/characters/batman",
+      "https://www.dc.com/characters/wonder-woman",
+      "https://www.marvel.com/comics/guides/1284/80th_anniversary_silver_age",
+      "https://share.marvel.com/comics/discover/1305/80th-anniversary-the-70s"
+    ],
+    "note": "Captain America (1941) → Spider-Man — Peter Parker (1962) → Iron Man (1963)",
+    "visual": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.dc.com/characters/superman",
+      "https://www.dc.com/characters/batman",
+      "https://www.dc.com/characters/wonder-woman",
+      "https://www.marvel.com/comics/guides/1284/80th_anniversary_silver_age",
+      "https://share.marvel.com/comics/discover/1305/80th-anniversary-the-70s"
+    ],
+    "note": "Iron Man (1963) → Black Panther (1966) → Wolverine (1974)",
+    "visual": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.dc.com/characters/superman",
+      "https://www.dc.com/characters/batman",
+      "https://www.dc.com/characters/wonder-woman",
+      "https://www.marvel.com/comics/guides/1284/80th_anniversary_silver_age",
+      "https://share.marvel.com/comics/discover/1305/80th-anniversary-the-70s"
+    ],
+    "note": "Superman (1938) → Spider-Man — Peter Parker (1962) → Wolverine (1974)",
+    "visual": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.dc.com/characters/superman",
+      "https://www.dc.com/characters/batman",
+      "https://www.dc.com/characters/wonder-woman",
+      "https://www.marvel.com/comics/guides/1284/80th_anniversary_silver_age",
+      "https://share.marvel.com/comics/discover/1305/80th-anniversary-the-70s"
+    ],
+    "note": "Batman (1939) → Iron Man (1963) → Black Panther (1966)",
+    "visual": null
+  }
+]

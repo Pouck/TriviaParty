@@ -1,0 +1,65 @@
+{
+  "category": "Canada — Premières et repères historiques — Buzzer — 1",
+  "subject": "Histoire",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-01",
+      "category": "Canada — Premières et repères historiques — Buzzer — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Qui est la souveraine britannique lors de la Confédération canadienne en 1867 ?",
+      "acceptableAnswers": [
+        "La reine Victoria"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-02",
+      "category": "Canada — Premières et repères historiques — Buzzer — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Dans quel territoire canadien se déroule la ruée vers l’or du Klondike, commencée en 1896 ?",
+      "acceptableAnswers": [
+        "Le Yukon"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-03",
+      "category": "Canada — Premières et repères historiques — Buzzer — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel est le titre de l’hymne national du Canada ?",
+      "acceptableAnswers": [
+        "Ô Canada"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-04",
+      "category": "Canada — Premières et repères historiques — Buzzer — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel explorateur atteint l’Amérique du Nord en 1497 à bord du Matthew ?",
+      "acceptableAnswers": [
+        "Jean Cabot"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-05",
+      "category": "Canada — Premières et repères historiques — Buzzer — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel corps policier canadien est célèbre pour sa tunique rouge et son chapeau Stetson ?",
+      "acceptableAnswers": [
+        "La Gendarmerie royale du Canada"
+      ]
+    }
+  ]
+}

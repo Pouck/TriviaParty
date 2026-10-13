@@ -1,0 +1,65 @@
+{
+  "category": "Canada — Géographie et symboles — Buzzer — 2",
+  "subject": "Géographie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-symboles-20261011-06",
+      "category": "Canada — Géographie et symboles — Buzzer — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel est le sport national d’hiver du Canada ?",
+      "acceptableAnswers": [
+        "Le hockey sur glace"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-symboles-20261011-07",
+      "category": "Canada — Géographie et symboles — Buzzer — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelles sont les deux langues officielles du Canada ?",
+      "acceptableAnswers": [
+        "Le français et l’anglais"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-symboles-20261011-08",
+      "category": "Canada — Géographie et symboles — Buzzer — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel oiseau figure sur la pièce canadienne d’un dollar ?",
+      "acceptableAnswers": [
+        "Le plongeon huard"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-symboles-20261011-09",
+      "category": "Canada — Géographie et symboles — Buzzer — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel surnom anglais donne-t-on couramment à la pièce canadienne d’un dollar ?",
+      "acceptableAnswers": [
+        "Loonie"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-symboles-20261011-10",
+      "category": "Canada — Géographie et symboles — Buzzer — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel surnom anglais donne-t-on couramment à la pièce canadienne de deux dollars ?",
+      "acceptableAnswers": [
+        "Toonie"
+      ]
+    }
+  ]
+}

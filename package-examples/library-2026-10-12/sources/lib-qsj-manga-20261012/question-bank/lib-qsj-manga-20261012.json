@@ -1,0 +1,99 @@
+{
+  "category": "Manga — Grands classiques — Qui suis-je ?",
+  "subject": "BD et manga",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-manga-20261012-01",
+      "category": "Manga — Grands classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je grandis dans le village de Konoha.",
+        "J’ai un démon-renard scellé en moi.",
+        "Je rêve de devenir Hokage.",
+        "Je suis le ninja blond qui adore les ramen."
+      ],
+      "acceptableAnswers": [
+        "Naruto"
+      ]
+    },
+    {
+      "id": "lib-qsj-manga-20261012-02",
+      "category": "Manga — Grands classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je rassemble un équipage de pirates.",
+        "Un fruit du démon a rendu mon corps élastique.",
+        "Je cherche le trésor One Piece.",
+        "Je suis le capitaine au chapeau de paille."
+      ],
+      "acceptableAnswers": [
+        "Monkey D. Luffy",
+        "Luffy"
+      ]
+    },
+    {
+      "id": "lib-qsj-manga-20261012-03",
+      "category": "Manga — Grands classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un Saiyan élevé sur Terre.",
+        "Je m’entraîne pour affronter des adversaires puissants.",
+        "Le Kamehameha est ma technique célèbre.",
+        "Je suis le héros principal de Dragon Ball."
+      ],
+      "acceptableAnswers": [
+        "Son Goku",
+        "Goku"
+      ]
+    },
+    {
+      "id": "lib-qsj-manga-20261012-04",
+      "category": "Manga — Grands classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Dans ma vie quotidienne, je suis Usagi Tsukino.",
+        "Luna, une chatte parlante, m’accompagne.",
+        "Je combats avec les guerrières Sailor.",
+        "Je suis la guerrière associée à la Lune."
+      ],
+      "acceptableAnswers": [
+        "Sailor Moon"
+      ]
+    },
+    {
+      "id": "lib-qsj-manga-20261012-05",
+      "category": "Manga — Grands classiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un lycéen très doué.",
+        "Un dieu de la mort nommé Ryuk me suit.",
+        "J’écris des noms dans un carnet qui tue.",
+        "Je suis le personnage appelé Kira dans Death Note."
+      ],
+      "acceptableAnswers": [
+        "Light Yagami",
+        "Light",
+        "Kira"
+      ]
+    }
+  ]
+}

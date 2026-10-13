@@ -1,0 +1,159 @@
+{
+  "category": "Littérature française — Œuvres : choix multiples",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-01",
+      "category": "Littérature française — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Victor Hugo met en scène Quasimodo et Esmeralda ?",
+      "options": [
+        "A — Le Fantôme de l’Opéra",
+        "B — Les Misérables",
+        "C — Notre-Dame de Paris",
+        "D — Le Comte de Monte-Cristo"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-02",
+      "category": "Littérature française — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Au début de L’Étranger d’Albert Camus, quel événement Meursault apprend-il ?",
+      "options": [
+        "A — La mort de sa mère",
+        "B — Un meurtre sur une plage",
+        "C — Le début d’une épidémie",
+        "D — Sa prochaine exécution"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-03",
+      "category": "Littérature française — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Dans quelle œuvre de Proust une madeleine fait-elle surgir des souvenirs involontaires ?",
+      "options": [
+        "A — Voyage au bout de la nuit",
+        "B — À la recherche du temps perdu",
+        "C — Les Fleurs du mal",
+        "D — La Comédie humaine"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-04",
+      "category": "Littérature française — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Dumas évoque le mariage de Marguerite de Valois et la Saint-Barthélemy ?",
+      "options": [
+        "A — La Reine Margot",
+        "B — Les Trois Mousquetaires",
+        "C — Vingt Ans après",
+        "D — La Tulipe noire"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-05",
+      "category": "Littérature française — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Dans quel lieu parisien se déroule principalement Le Fantôme de l’Opéra de Gaston Leroux ?",
+      "options": [
+        "A — Le palais Garnier",
+        "B — Les catacombes",
+        "C — Notre-Dame de Paris",
+        "D — Le palais du Louvre"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-06",
+      "category": "Littérature française — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Stendhal raconte l’ascension sociale de Julien Sorel ?",
+      "options": [
+        "A — La Chartreuse de Parme",
+        "B — Illusions perdues",
+        "C — Le Père Goriot",
+        "D — Le Rouge et le Noir"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-07",
+      "category": "Littérature française — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel milieu Émile Zola décrit-il dans Germinal ?",
+      "options": [
+        "A — Les banques parisiennes",
+        "B — Les mines de charbon",
+        "C — Les vignobles",
+        "D — Les ateliers de haute couture"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-08",
+      "category": "Littérature française — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel conte de Voltaire critique l’idée que tout serait pour le mieux dans le meilleur des mondes ?",
+      "options": [
+        "A — Du contrat social",
+        "B — Zadig",
+        "C — Candide",
+        "D — Micromégas"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-09",
+      "category": "Littérature française — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "À quel ensemble littéraire de Balzac appartient Le Père Goriot ?",
+      "options": [
+        "A — Les Rougon-Macquart",
+        "B — La Comédie humaine",
+        "C — The Century Trilogy",
+        "D — À la recherche du temps perdu"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-oeuvres-20261010-10",
+      "category": "Littérature française — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Le Deuxième Sexe de Simone de Beauvoir est une œuvre majeure de quelle pensée ?",
+      "options": [
+        "A — Le naturalisme",
+        "B — Le surréalisme",
+        "C — Le structuralisme",
+        "D — La philosophie féministe"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

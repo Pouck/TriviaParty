@@ -1,0 +1,61 @@
+[
+  {
+    "question": 1,
+    "questionId": "culture-qsj-mythologie-romaine-fondations-20261010-01",
+    "originalPackage": "culture-qsj-mythologie-romaine-fondations-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "culture-qsj-mythologie-romaine-fondations-20261010-02",
+    "originalPackage": "culture-qsj-mythologie-romaine-fondations-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-qsj-mythologie-romaine-20261012-03",
+    "originalPackage": "lib-qsj-mythologie-romaine-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.metmuseum.org/essays/roman-religion",
+        "https://www.perseus.tufts.edu/hopper/",
+        "https://www.britishmuseum.org/collection"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-qsj-mythologie-romaine-20261012-04",
+    "originalPackage": "lib-qsj-mythologie-romaine-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.metmuseum.org/essays/roman-religion",
+        "https://www.perseus.tufts.edu/hopper/",
+        "https://www.britishmuseum.org/collection"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "resize-20261012-neptune",
+    "originalPackage": null,
+    "reference": {
+      "sources": [
+        "https://www.perseus.tufts.edu/hopper/",
+        "https://www.britishmuseum.org/collection"
+      ],
+      "note": ""
+    },
+    "new": true
+  }
+]

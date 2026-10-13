@@ -1,0 +1,194 @@
+{
+  "category": "Géographie — Cartes du monde — 2",
+  "subject": "Géographie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "geo-asie-20261010-03",
+      "category": "Géographie — Cartes du monde — 2",
+      "prompt": "Quelle lettre correspond à l’Iran sur la carte ?",
+      "imageUrl": "images/geographie-asie-20261010/carte-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 0,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Iran » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Irak » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Syrie » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-asie-20261010-04",
+      "category": "Géographie — Cartes du monde — 2",
+      "prompt": "Quelle lettre correspond au Yémen sur la carte ?",
+      "imageUrl": "images/geographie-asie-20261010/carte-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 3,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Arabie saoudite » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Oman » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Émirats arabes unis » sur la carte ?",
+          "correctOptionIndex": 2
+        },
+        {
+          "prompt": "Quelle lettre indique « Yémen » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-europe-20261010-01",
+      "category": "Géographie — Cartes du monde — 2",
+      "prompt": "Quelle lettre correspond à la Roumanie sur la carte ?",
+      "imageUrl": "images/geographie-europe-20261010/carte-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 0,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Roumanie » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Bulgarie » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Bosnie-Herzégovine » sur la carte ?",
+          "correctOptionIndex": 2
+        },
+        {
+          "prompt": "Quelle lettre indique « Moldavie » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-europe-20261010-02",
+      "category": "Géographie — Cartes du monde — 2",
+      "prompt": "Quelle lettre correspond à la Lituanie sur la carte ?",
+      "imageUrl": "images/geographie-europe-20261010/carte-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 1,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Estonie » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Lituanie » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Lettonie » sur la carte ?",
+          "correctOptionIndex": 2
+        },
+        {
+          "prompt": "Quelle lettre indique « Biélorussie (Bélarus) » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-europe-20261010-03",
+      "category": "Géographie — Cartes du monde — 2",
+      "prompt": "Quelle lettre correspond à Monaco sur la carte ?",
+      "imageUrl": "images/geographie-europe-20261010/carte-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 3,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Monaco » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-europe-20261010-04",
+      "category": "Géographie — Cartes du monde — 2",
+      "prompt": "Quelle lettre correspond à la Croatie sur la carte ?",
+      "imageUrl": "images/geographie-europe-20261010/carte-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 2,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Tchéquie » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Slovaquie » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Croatie » sur la carte ?",
+          "correctOptionIndex": 2
+        }
+      ]
+    }
+  ]
+}

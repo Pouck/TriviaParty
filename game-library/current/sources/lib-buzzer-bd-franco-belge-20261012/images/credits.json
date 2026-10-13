@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "stone",
+    "title": "Indice visuel — stone",
+    "file": "stone.png",
+    "artist": "Trivia Party — diagramme ou indice visuel local",
+    "license": "Illustration locale ; glyphes système crédités",
+    "licenseUrl": "https://learn.microsoft.com/en-us/typography/fonts/font-faq",
+    "commons": null,
+    "credit": "Graphisme de jeu ; symboles rendus avec la police système Segoe UI Emoji, sans redistribution du fichier de police.",
+    "changes": "Indice représentatif, pas une image du film ou de la bande dessinée.",
+    "originalPackage": "lib-buzzer-bd-franco-belge-20261012"
+  },
+  {
+    "slug": "bd-character-03",
+    "title": "Jolly Jumper — illustration officielle",
+    "file": "bd-character-03.png",
+    "commons": "https://www.dargaud.com/bd/lucky-luke",
+    "download": "https://www.dargaud.com/sites/dargaud.com/files/2020-03/lucky_luke_personnages_jolly_jumper_0.png",
+    "artist": "Morris / Dargaud",
+    "license": "Illustration protégée — droits réservés à ses ayants droit",
+    "licenseUrl": "https://www.dargaud.com/bd/lucky-luke",
+    "credit": "Jolly Jumper, Lucky Luke — Morris / Dargaud. Illustration de la page personnages de l’éditeur.",
+    "changes": "Aucune modification",
+    "originalPackage": "lib-buzzer-bd-franco-belge-20261012"
+  }
+]

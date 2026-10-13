@@ -1,0 +1,145 @@
+{
+  "category": "TEST — Chronologie",
+  "subject": "Tests",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "kind": "ordering",
+      "prompt": "Quel ordre va du plus ancien au plus récent ?",
+      "id": "test-04-chronologie-q1",
+      "category": "TEST — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Cabot"
+        },
+        {
+          "id": "item-1",
+          "text": "Québec"
+        },
+        {
+          "id": "item-2",
+          "text": "Cartier"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "prompt": "Classez ces nombres du plus petit au plus grand.",
+      "items": [
+        {
+          "id": "three",
+          "text": "Trois"
+        },
+        {
+          "id": "one",
+          "text": "Un"
+        },
+        {
+          "id": "two",
+          "text": "Deux"
+        }
+      ],
+      "correctOrderIds": [
+        "one",
+        "two",
+        "three"
+      ],
+      "id": "test-05-ordering-q1",
+      "category": "TEST — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    },
+    {
+      "id": "test-20261012-chronologie-complement-1",
+      "category": "TEST — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces peintures selon leur réalisation :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "La Naissance de Vénus"
+        },
+        {
+          "id": "item-1",
+          "text": "Les Ménines"
+        },
+        {
+          "id": "item-2",
+          "text": "Les Époux Arnolfini"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "test-20261012-chronologie-complement-2",
+      "category": "TEST — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces peintures selon leur réalisation :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "La Jeune Fille à la perle"
+        },
+        {
+          "id": "item-1",
+          "text": "La Ronde de nuit"
+        },
+        {
+          "id": "item-2",
+          "text": "Impression, soleil levant"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "test-20261012-chronologie-complement-3",
+      "category": "TEST — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces tableaux du XIXe siècle :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "La Liberté guidant le peuple"
+        },
+        {
+          "id": "item-1",
+          "text": "Olympia"
+        },
+        {
+          "id": "item-2",
+          "text": "Le Radeau de la Méduse"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

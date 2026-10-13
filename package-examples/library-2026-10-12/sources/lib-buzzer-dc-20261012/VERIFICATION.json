@@ -1,0 +1,62 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.dc.com/characters/batman",
+      "https://www.dc.com/characters/superman",
+      "https://www.dc.com/characters/wonder-woman",
+      "https://www.dc.com/characters/the-flash",
+      "https://www.dc.com/characters/aquaman"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.dc.com/characters/batman",
+      "https://www.dc.com/characters/superman",
+      "https://www.dc.com/characters/wonder-woman",
+      "https://www.dc.com/characters/the-flash",
+      "https://www.dc.com/characters/aquaman"
+    ],
+    "note": "",
+    "visual": "sea"
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.dc.com/characters/batman",
+      "https://www.dc.com/characters/superman",
+      "https://www.dc.com/characters/wonder-woman",
+      "https://www.dc.com/characters/the-flash",
+      "https://www.dc.com/characters/aquaman"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.dc.com/characters/batman",
+      "https://www.dc.com/characters/superman",
+      "https://www.dc.com/characters/wonder-woman",
+      "https://www.dc.com/characters/the-flash",
+      "https://www.dc.com/characters/aquaman"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.dc.com/characters/batman",
+      "https://www.dc.com/characters/superman",
+      "https://www.dc.com/characters/wonder-woman",
+      "https://www.dc.com/characters/the-flash",
+      "https://www.dc.com/characters/aquaman"
+    ],
+    "note": "",
+    "visual": "rope"
+  }
+]

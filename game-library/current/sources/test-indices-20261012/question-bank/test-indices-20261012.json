@@ -1,0 +1,102 @@
+{
+  "category": "TEST — Qui suis-je ?",
+  "subject": "Tests",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "qui-suis-je-demo-01",
+      "category": "TEST — Qui suis-je ?",
+      "prompt": "Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "clues": [
+        "Je mesure une durée sans électricité.",
+        "On me retourne pour recommencer la mesure.",
+        "Deux réservoirs sont reliés par un passage étroit.",
+        "Du sable passe d’un réservoir à l’autre à travers un passage étroit."
+      ],
+      "acceptableAnswers": [
+        "Un sablier",
+        "Sablier"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une planète rocheuse.",
+        "Deux petits satellites tournent autour de moi.",
+        "Mon sol riche en oxyde de fer me donne une couleur caractéristique.",
+        "On me surnomme la planète rouge."
+      ],
+      "acceptableAnswers": [
+        "Mars"
+      ],
+      "id": "test-03-qui-suis-je-q1",
+      "category": "TEST — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5
+    },
+    {
+      "id": "test-20261012-indices-complement-1",
+      "category": "TEST — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon chantier commence sous Vespasien, puis Titus m’inaugure en 80 de notre ère.",
+        "Mon plan elliptique entoure une arène et des gradins.",
+        "Des gladiateurs et des animaux ont participé aux spectacles que j’accueillais.",
+        "Je suis le célèbre amphithéâtre antique de Rome."
+      ],
+      "acceptableAnswers": [
+        "Le Colisée",
+        "Colisée",
+        "L’amphithéâtre Flavien"
+      ]
+    },
+    {
+      "id": "test-20261012-indices-complement-2",
+      "category": "TEST — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis construit au Ve siècle avant notre ère, à l’époque de Périclès.",
+        "Mes colonnes appartiennent principalement à l’ordre dorique.",
+        "J’étais consacré à Athéna et j’abritais une statue réalisée par Phidias.",
+        "Je suis le grand temple qui domine l’Acropole d’Athènes."
+      ],
+      "acceptableAnswers": [
+        "Le Parthénon",
+        "Parthénon"
+      ]
+    },
+    {
+      "id": "test-20261012-indices-complement-3",
+      "category": "TEST — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un monument funéraire de la IVe dynastie égyptienne.",
+        "Je suis la seule merveille de l’Antiquité encore largement conservée.",
+        "Deux autres grandes pyramides se dressent à mes côtés.",
+        "Je suis la plus imposante des trois pyramides du plateau de Gizeh."
+      ],
+      "acceptableAnswers": [
+        "La grande pyramide de Khéops",
+        "La pyramide de Khéops",
+        "Khéops",
+        "La grande pyramide de Gizeh"
+      ]
+    }
+  ]
+}

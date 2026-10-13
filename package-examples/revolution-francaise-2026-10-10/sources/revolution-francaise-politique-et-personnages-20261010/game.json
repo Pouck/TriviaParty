@@ -1,0 +1,15 @@
+{
+  "id": "revolution-francaise-politique-et-personnages-20261010",
+  "name": "Révolution française — Politique et personnages",
+  "description": "4 questions en français. 15 secondes ; 15, 10 puis 5 points.",
+  "categoryPackages": [
+    "revolution-francaise-politique-et-personnages-20261010"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0.0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "category": "Contes et légendes — Récits autochtones — Traditions nommées — Buzzer",
+  "subject": "Contes et légendes",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-recits-autochtones-20261012-01",
+      "category": "Contes et légendes — Récits autochtones — Traditions nommées — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans le récit oneida, la Femme du Ciel arrive-t-elle du ciel ou de la mer ?",
+      "acceptableAnswers": [
+        "Du ciel",
+        "Ciel"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-recits-autochtones-20261012-02",
+      "category": "Contes et légendes — Récits autochtones — Traditions nommées — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel animal représenté ici apparaît dans les récits marins de Sedna ?",
+      "acceptableAnswers": [
+        "Un phoque",
+        "Phoque"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/seal.jpg"
+    },
+    {
+      "id": "lib-buzzer-recits-autochtones-20261012-03",
+      "category": "Contes et légendes — Récits autochtones — Traditions nommées — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel oiseau noir se transforme en personnage dans des récits haïdas ?",
+      "acceptableAnswers": [
+        "Le corbeau",
+        "Corbeau"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/raven.jpg"
+    },
+    {
+      "id": "lib-buzzer-recits-autochtones-20261012-04",
+      "category": "Contes et légendes — Récits autochtones — Traditions nommées — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel animal plongeur rapporte de la terre dans le récit oneida présenté ici ?",
+      "acceptableAnswers": [
+        "Le rat musqué",
+        "Rat musqué"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-recits-autochtones-20261012-05",
+      "category": "Contes et légendes — Récits autochtones — Traditions nommées — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "La tradition mi’kmaq de Glooscap vient de quel continent ?",
+      "acceptableAnswers": [
+        "L’Amérique du Nord",
+        "Amérique du Nord"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "snow",
+    "title": "Indice visuel — snow",
+    "file": "snow.png",
+    "artist": "Trivia Party — diagramme ou indice visuel local",
+    "license": "Illustration locale ; glyphes système crédités",
+    "licenseUrl": "https://learn.microsoft.com/en-us/typography/fonts/font-faq",
+    "commons": null,
+    "credit": "Graphisme de jeu ; symboles rendus avec la police système Segoe UI Emoji, sans redistribution du fichier de police.",
+    "changes": "Indice représentatif, pas une image du film ou de la bande dessinée.",
+    "originalPackage": "lib-buzzer-inventions-canada-20261012"
+  },
+  {
+    "slug": "basketball",
+    "title": "Basketball",
+    "file": "basketball.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_(2751923597).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg/1920px-USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "kris krüg from Vancouver, Canada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "credit": "USA vs. China Mens Basketball - Beijing 2008 Olympic Games\n\nUploaded by Flickrworker",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-buzzer-inventions-canada-20261012"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "canada-buzzer-premieres-20261011",
+  "name": "Canada — Premières et repères historiques — Buzzer",
+  "description": "10 questions en français. 15 secondes ; 15 → 10 → 5 points.",
+  "categoryPackages": [
+    "canada-buzzer-premieres-20261011"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

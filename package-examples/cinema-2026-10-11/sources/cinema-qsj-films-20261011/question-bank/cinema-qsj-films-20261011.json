@@ -1,0 +1,106 @@
+{
+  "category": "Cinéma — Films à découvrir — Qui suis-je ?",
+  "subject": "Cinéma",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "cinema-qsj-films-20261011-01",
+      "category": "Cinéma — Films à découvrir — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon histoire met en péril l’existence d’un adolescent lorsqu’il rencontre ses parents encore jeunes.",
+        "Une horloge frappée par la foudre joue un rôle décisif dans mon dénouement.",
+        "Doc Brown transforme une DeLorean en machine à voyager dans le temps.",
+        "Marty McFly est envoyé de 1985 à 1955 dans ce film de Robert Zemeckis."
+      ],
+      "acceptableAnswers": [
+        "Back to the Future",
+        "Retour vers le futur"
+      ]
+    },
+    {
+      "id": "cinema-qsj-films-20261011-02",
+      "category": "Cinéma — Films à découvrir — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon intrigue oppose la sécurité des habitants aux intérêts touristiques d’une station balnéaire.",
+        "Un policier, un biologiste marin et un pêcheur partent ensemble en mer.",
+        "La communauté d’Amity est terrorisée par un grand requin blanc.",
+        "Je suis le film de Steven Spielberg, sorti en 1975, qui a fait craindre les baignades en mer."
+      ],
+      "acceptableAnswers": [
+        "Jaws",
+        "Les Dents de la mer",
+        "Les Dents de mer"
+      ]
+    },
+    {
+      "id": "cinema-qsj-films-20261011-03",
+      "category": "Cinéma — Films à découvrir — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon héros découvre que sa vie quotidienne masque une réalité fabriquée par des machines.",
+        "Morpheus lui propose de choisir entre une pilule rouge et une pilule bleue.",
+        "Keanu Reeves incarne Neo, qui affronte notamment l’agent Smith.",
+        "Je suis le film de science-fiction des Wachowski, sorti en 1999, consacré à une simulation informatique."
+      ],
+      "acceptableAnswers": [
+        "The Matrix",
+        "Matrix",
+        "La Matrice"
+      ]
+    },
+    {
+      "id": "cinema-qsj-films-20261011-04",
+      "category": "Cinéma — Films à découvrir — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon héroïne décide d’améliorer discrètement la vie des gens qu’elle observe.",
+        "Elle croise notamment un collectionneur de photos nommé Nino Quincampoix.",
+        "Audrey Tautou y joue une serveuse du quartier de Montmartre.",
+        "Je suis le film de Jean-Pierre Jeunet dont l’héroïne parisienne porte le prénom Amélie."
+      ],
+      "acceptableAnswers": [
+        "Le Fabuleux Destin d’Amélie Poulain",
+        "Amélie",
+        "Amélie Poulain",
+        "Amelie"
+      ]
+    },
+    {
+      "id": "cinema-qsj-films-20261011-05",
+      "category": "Cinéma — Films à découvrir — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Une malédiction transforme certains de mes personnages en squelettes sous la lumière de la lune.",
+        "Will Turner cherche à sauver Elizabeth Swann, enlevée à Port Royal.",
+        "Le capitaine Barbossa a pris le navire d’un pirate excentrique incarné par Johnny Depp.",
+        "Je suis le premier Pirates des Caraïbes, sorti en 2003, avec Jack Sparrow et le Black Pearl."
+      ],
+      "acceptableAnswers": [
+        "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "Pirates des Caraïbes : La Malédiction du Black Pearl",
+        "La Malédiction du Black Pearl",
+        "Pirates des Caraïbes 1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "category": "Mythologie romaine — Dieux et récits — Buzzer",
+  "subject": "Mythologie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-mythologie-romaine-20261012-01",
+      "category": "Mythologie romaine — Dieux et récits — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel dieu romain règne sur les mers ?",
+      "acceptableAnswers": [
+        "Neptune"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/sea.png"
+    },
+    {
+      "id": "lib-buzzer-mythologie-romaine-20261012-02",
+      "category": "Mythologie romaine — Dieux et récits — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel dieu romain correspond à Hermès ?",
+      "acceptableAnswers": [
+        "Mercure"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-mythologie-romaine-20261012-03",
+      "category": "Mythologie romaine — Dieux et récits — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle déesse romaine protège le foyer ?",
+      "acceptableAnswers": [
+        "Vesta"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/fire.png"
+    },
+    {
+      "id": "lib-buzzer-mythologie-romaine-20261012-04",
+      "category": "Mythologie romaine — Dieux et récits — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel héros troyen est au centre de L’Énéide ?",
+      "acceptableAnswers": [
+        "Énée"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-mythologie-romaine-20261012-05",
+      "category": "Mythologie romaine — Dieux et récits — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle déesse romaine correspond à Athéna ?",
+      "acceptableAnswers": [
+        "Minerve"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

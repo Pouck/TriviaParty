@@ -1,0 +1,87 @@
+{
+  "category": "Chanson francophone — Classiques — QCM",
+  "subject": "Musique",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-chanson-francophone-20261012-01",
+      "category": "Chanson francophone — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle chanteuse est associée à La Vie en rose ?",
+      "options": [
+        "A — Juliette Gréco",
+        "B — Édith Piaf",
+        "C — Dalida",
+        "D — Barbara"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/rose.jpg"
+    },
+    {
+      "id": "lib-qcm-chanson-francophone-20261012-02",
+      "category": "Chanson francophone — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui chante Amsterdam et Ne me quitte pas ?",
+      "options": [
+        "A — Charles Trenet",
+        "B — Serge Gainsbourg",
+        "C — Jacques Brel",
+        "D — Charles Aznavour"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-chanson-francophone-20261012-03",
+      "category": "Chanson francophone — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel chanteur a écrit Les Copains d’abord ?",
+      "options": [
+        "A — Jacques Dutronc",
+        "B — Michel Sardou",
+        "C — Alain Souchon",
+        "D — Georges Brassens"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-chanson-francophone-20261012-04",
+      "category": "Chanson francophone — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel instrument est associé à Yvette Horner ?",
+      "options": [
+        "A — La harpe",
+        "B — La contrebasse",
+        "C — Le saxophone",
+        "D — L’accordéon"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/accordion.jpg"
+    },
+    {
+      "id": "lib-qcm-chanson-francophone-20261012-05",
+      "category": "Chanson francophone — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui chante La Bohème ?",
+      "options": [
+        "A — Charles Aznavour",
+        "B — Gilbert Bécaud",
+        "C — Claude François",
+        "D — Charles Trenet"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

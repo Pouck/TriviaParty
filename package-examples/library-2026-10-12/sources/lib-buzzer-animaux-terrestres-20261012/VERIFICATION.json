@@ -1,0 +1,52 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://nationalzoo.si.edu/animals",
+      "https://animals.sandiegozoo.org/animals",
+      "https://australian.museum/learn/animals/mammals/platypus/"
+    ],
+    "note": "",
+    "visual": "lion"
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://nationalzoo.si.edu/animals",
+      "https://animals.sandiegozoo.org/animals",
+      "https://australian.museum/learn/animals/mammals/platypus/"
+    ],
+    "note": "",
+    "visual": "beaver"
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://nationalzoo.si.edu/animals",
+      "https://animals.sandiegozoo.org/animals",
+      "https://australian.museum/learn/animals/mammals/platypus/"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://nationalzoo.si.edu/animals",
+      "https://animals.sandiegozoo.org/animals",
+      "https://australian.museum/learn/animals/mammals/platypus/"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://nationalzoo.si.edu/animals",
+      "https://animals.sandiegozoo.org/animals",
+      "https://australian.museum/learn/animals/mammals/platypus/"
+    ],
+    "note": "",
+    "visual": null
+  }
+]

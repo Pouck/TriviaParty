@@ -1,0 +1,40 @@
+{
+  "category": "TEST Carte — repères",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Carte — repères"
+  ],
+  "questions": [
+    {
+      "kind": "mapChoice",
+      "prompt": "Choisissez le repère B sur cette carte de démonstration.",
+      "options": [
+        {
+          "label": "A",
+          "xRatio": 0.3,
+          "yRatio": 0.3
+        },
+        {
+          "label": "B",
+          "xRatio": 0.5,
+          "yRatio": 0.45
+        },
+        {
+          "label": "C",
+          "xRatio": 0.55,
+          "yRatio": 0.65
+        },
+        {
+          "label": "D",
+          "xRatio": 0.4,
+          "yRatio": 0.7
+        }
+      ],
+      "correctOptionIndex": 1,
+      "id": "test-06-map-choice-q1",
+      "category": "TEST Carte — repères",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "category": "Mythologie grecque — Dieux et mortels — Qui suis-je ? écrit",
+  "subject": "Mythologie",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Qui suis-je ? écrit"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-mythologie-grecque-dieux-et-mortels-20261010-01",
+      "category": "Mythologie grecque — Dieux et mortels — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Dans un mythe thébain, ma mère Sémélé meurt après avoir voulu voir Zeus dans sa gloire divine.",
+        "Zeus me sauve et achève ma gestation dans sa cuisse.",
+        "Mon cortège comprend des satyres et des ménades ; la vigne, le lierre et le thyrse me sont associés.",
+        "Je suis le dieu grec du vin, des fêtes et du théâtre."
+      ],
+      "acceptableAnswers": [
+        "Dionysos"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-mythologie-grecque-dieux-et-mortels-20261010-02",
+      "category": "Mythologie grecque — Dieux et mortels — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Selon un récit, ma jalousie envers mon neveu me conduit à le précipiter du haut de l’Acropole.",
+        "En Crète, Minos me charge de bâtir un labyrinthe pour enfermer le Minotaure.",
+        "Pour quitter l’île avec mon fils, je fabrique des ailes de plumes assemblées avec de la cire.",
+        "Je suis l’inventeur mythique et le père d’Icare, qui vole trop près du soleil."
+      ],
+      "acceptableAnswers": [
+        "Dédale"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-grecque-20261012-01",
+      "category": "Mythologie grecque — Dieux et mortels — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je protège voyageurs et messagers.",
+        "Je porte souvent un caducée.",
+        "Mes sandales sont ailées.",
+        "Je suis le messager des dieux grecs."
+      ],
+      "acceptableAnswers": [
+        "Hermès"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-grecque-20261012-02",
+      "category": "Mythologie grecque — Dieux et mortels — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis la sœur jumelle d’Apollon.",
+        "Les animaux sauvages m’accompagnent.",
+        "Mon arc me sert à chasser.",
+        "Je suis la déesse grecque de la chasse."
+      ],
+      "acceptableAnswers": [
+        "Artémis"
+      ]
+    },
+    {
+      "id": "resize-20261012-athena",
+      "kind": "guessWho",
+      "category": "Mythologie grecque — Dieux et mortels — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "La chouette est l’un de mes symboles.",
+        "Selon le mythe, je nais de la tête de Zeus.",
+        "Je protège la cité d’Athènes.",
+        "Je suis la déesse grecque de la sagesse."
+      ],
+      "acceptableAnswers": [
+        "Athéna",
+        "Athena"
+      ]
+    }
+  ]
+}

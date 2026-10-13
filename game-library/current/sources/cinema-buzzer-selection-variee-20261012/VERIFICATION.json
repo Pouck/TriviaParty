@@ -1,0 +1,80 @@
+[
+  {
+    "question": 1,
+    "questionId": "cinema-buzzer-france-quebec-20261011-07",
+    "originalPackage": "cinema-buzzer-france-quebec-20261011",
+    "reference": {
+      "question": 7,
+      "sources": [
+        "https://www.cinematheque.qc.ca/en/cinema/bon-cop-bad-cop/"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "cinema-buzzer-france-quebec-20261011-08",
+    "originalPackage": "cinema-buzzer-france-quebec-20261011",
+    "reference": {
+      "question": 8,
+      "sources": [
+        "https://www.musicboxfilms.com/film/monsieur-lazhar/"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "cinema-buzzer-titres-heros-20261011-07",
+    "originalPackage": "cinema-buzzer-titres-heros-20261011",
+    "reference": {
+      "question": 7,
+      "sources": [
+        "https://www.marvel.com/comics/guides/1723/tony-stark-iron-man"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "cinema-buzzer-titres-heros-20261011-08",
+    "originalPackage": "cinema-buzzer-titres-heros-20261011",
+    "reference": {
+      "question": 8,
+      "sources": [
+        "https://movies.disney.com/zootopia"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "cinema-buzzer-univers-20261011-07",
+    "originalPackage": "cinema-buzzer-univers-20261011",
+    "reference": {
+      "question": 7,
+      "sources": [
+        "https://www.pixar.com/finding-nemo"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "cinema-buzzer-univers-20261011-08",
+    "originalPackage": "cinema-buzzer-univers-20261011",
+    "reference": {
+      "question": 8,
+      "sources": [
+        "https://movies.disney.com/the-lion-king"
+      ],
+      "note": ""
+    },
+    "new": false
+  }
+]

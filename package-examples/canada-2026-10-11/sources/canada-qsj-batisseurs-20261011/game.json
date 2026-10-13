@@ -1,0 +1,15 @@
+{
+  "id": "canada-qsj-batisseurs-20261011",
+  "name": "Qui suis-je ? — Canada — Bâtisseurs et premières époques",
+  "description": "5 questions en français. 5 indices de 20 secondes ; 25 → 20 → 15 → 10 → 5 points ; erreur : −5 points.",
+  "categoryPackages": [
+    "canada-qsj-batisseurs-20261011"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 20,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 4,
+    "pointsDecayPerFlip": 5
+  }
+}

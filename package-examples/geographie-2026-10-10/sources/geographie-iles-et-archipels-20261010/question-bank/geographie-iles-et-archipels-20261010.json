@@ -1,0 +1,69 @@
+{
+  "category": "Géographie - Îles et archipels",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "geo-iles-et-archipels-20261010-01",
+      "category": "Géographie - Îles et archipels",
+      "prompt": "Sur quelle île se trouve le cœur de Tokyo, la capitale du Japon ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Hokkaido",
+        "B — Honshu",
+        "C — Kyushu",
+        "D — Shikoku"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-iles-et-archipels-20261010-02",
+      "category": "Géographie - Îles et archipels",
+      "prompt": "Sur quelle île de l’archipel d’Hawaï se trouve Honolulu ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Kauai",
+        "B — Maui",
+        "C — Oahu",
+        "D — Hawaï (la Grande Île)"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-iles-et-archipels-20261010-03",
+      "category": "Géographie - Îles et archipels",
+      "prompt": "Quelle grande île se situe au sud-est de l’Inde ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Sri Lanka",
+        "B — Maldives",
+        "C — Sumatra",
+        "D — Madagascar"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-iles-et-archipels-20261010-04",
+      "category": "Géographie - Îles et archipels",
+      "prompt": "Sur quelle île méditerranéenne se trouve Palerme ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Sardaigne",
+        "B — Chypre",
+        "C — Corse",
+        "D — Sicile"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

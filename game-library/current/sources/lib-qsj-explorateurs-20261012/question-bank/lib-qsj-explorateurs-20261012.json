@@ -1,0 +1,96 @@
+{
+  "category": "Histoire — Explorateurs célèbres — Qui suis-je ?",
+  "subject": "Histoire",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-explorateurs-20261012-01",
+      "category": "Histoire — Explorateurs célèbres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je viens de Venise.",
+        "Mon voyage me conduit vers l’Asie.",
+        "Je séjourne dans l’empire de Kubilai Khan.",
+        "Je suis le voyageur associé au Livre des merveilles."
+      ],
+      "acceptableAnswers": [
+        "Marco Polo"
+      ]
+    },
+    {
+      "id": "lib-qsj-explorateurs-20261012-02",
+      "category": "Histoire — Explorateurs célèbres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un navigateur de Saint-Malo.",
+        "Je traverse l’Atlantique au XVIe siècle.",
+        "Je remonte le Saint-Laurent.",
+        "Je suis l’explorateur français arrivé à Hochelaga en 1535."
+      ],
+      "acceptableAnswers": [
+        "Jacques Cartier"
+      ]
+    },
+    {
+      "id": "lib-qsj-explorateurs-20261012-03",
+      "category": "Histoire — Explorateurs célèbres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je cartographie des régions d’Amérique du Nord.",
+        "Je noue des alliances avec des nations autochtones.",
+        "Je participe au développement de la Nouvelle-France.",
+        "Je fonde Québec en 1608."
+      ],
+      "acceptableAnswers": [
+        "Samuel de Champlain"
+      ]
+    },
+    {
+      "id": "lib-qsj-explorateurs-20261012-04",
+      "category": "Histoire — Explorateurs célèbres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un explorateur norvégien.",
+        "Je mène des expéditions dans les régions polaires.",
+        "Mon équipe arrive avant celle de Scott.",
+        "J’atteins le pôle Sud en décembre 1911."
+      ],
+      "acceptableAnswers": [
+        "Roald Amundsen"
+      ]
+    },
+    {
+      "id": "lib-qsj-explorateurs-20261012-05",
+      "category": "Histoire — Explorateurs célèbres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un navigateur portugais.",
+        "Je contourne l’Afrique par le cap de Bonne-Espérance.",
+        "Je débarque à Calicut en 1498.",
+        "J’ouvre une route maritime européenne vers l’Inde."
+      ],
+      "acceptableAnswers": [
+        "Vasco de Gama",
+        "Vasco da Gama"
+      ]
+    }
+  ]
+}

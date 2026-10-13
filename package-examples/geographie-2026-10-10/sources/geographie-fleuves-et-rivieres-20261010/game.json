@@ -1,0 +1,15 @@
+{
+  "id": "geographie-fleuves-et-rivieres-20261010",
+  "name": "Géographie - Fleuves et rivières",
+  "description": "Identifiez les cours d’eau des grandes villes du monde. 12 questions à choix multiples. 15 secondes par question ; 15, 10 puis 5 points.",
+  "categoryPackages": [
+    "geographie-fleuves-et-rivieres-20261010"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0.0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "category": "Arts — Sculptures mystères — Qui suis-je ?",
+  "subject": "Arts",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "arts-qsj-sculptures-mysteres-20261011-01",
+      "category": "Arts — Sculptures mystères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Ma peau de cuivre recouvre une structure métallique.",
+        "Cadeau de la France aux États-Unis, je suis inaugurée en 1886.",
+        "Je porte une couronne à rayons et une torche levée.",
+        "Je suis la statue de Bartholdi dans le port de New York."
+      ],
+      "acceptableAnswers": [
+        "La Statue de la Liberté",
+        "La Liberté éclairant le monde",
+        "Statue of Liberty"
+      ]
+    },
+    {
+      "id": "arts-qsj-sculptures-mysteres-20261011-02",
+      "category": "Arts — Sculptures mystères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "J’évoque un siège pendant la guerre de Cent Ans.",
+        "Je rassemble six hommes aux expressions graves.",
+        "Mes personnages portent une corde au cou ou les clés de leur ville.",
+        "Rodin m’a créé pour les habitants qui se sont livrés pour sauver Calais."
+      ],
+      "acceptableAnswers": [
+        "Les Bourgeois de Calais",
+        "Le Monument des Bourgeois de Calais"
+      ]
+    },
+    {
+      "id": "arts-qsj-sculptures-mysteres-20261011-03",
+      "category": "Arts — Sculptures mystères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je fais partie d’une série de sculptures de Constantin Brancusi.",
+        "Ma forme abandonne les détails anatomiques au profit d’une ligne élancée.",
+        "Je suggère l’élan du vol sans montrer de plumes ni d’ailes déployées.",
+        "Je suis l’oiseau de Brancusi dont le titre évoque l’espace."
+      ],
+      "acceptableAnswers": [
+        "L’Oiseau dans l’espace",
+        "Bird in Space",
+        "Oiseau dans l’espace"
+      ]
+    },
+    {
+      "id": "arts-qsj-sculptures-mysteres-20261011-04",
+      "category": "Arts — Sculptures mystères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Nous représentons des ancêtres et pouvons être placés sur des plateformes cérémonielles.",
+        "Nos silhouettes de pierre possèdent de grandes têtes aux traits allongés.",
+        "Nous sommes associés au peuple rapanui et à son île du Pacifique.",
+        "Nous sommes les statues monumentales de l’île de Pâques."
+      ],
+      "acceptableAnswers": [
+        "Les moaï",
+        "Moaï",
+        "Moai"
+      ]
+    },
+    {
+      "id": "arts-qsj-sculptures-mysteres-20261011-05",
+      "category": "Arts — Sculptures mystères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une œuvre de la Renaissance conservée au musée du Bargello.",
+        "Je porte un chapeau et des bottes, tout en étant presque nu.",
+        "La tête de Goliath repose à mes pieds ; mon matériau est le bronze.",
+        "Je suis le David en bronze sculpté par Donatello."
+      ],
+      "acceptableAnswers": [
+        "Le David en bronze de Donatello",
+        "David de Donatello",
+        "David"
+      ]
+    }
+  ]
+}

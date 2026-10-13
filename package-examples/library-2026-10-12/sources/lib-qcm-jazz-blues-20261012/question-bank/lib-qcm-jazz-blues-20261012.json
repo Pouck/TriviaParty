@@ -1,0 +1,87 @@
+{
+  "category": "Jazz, blues et soul — Repères — QCM",
+  "subject": "Musique",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-jazz-blues-20261012-01",
+      "category": "Jazz, blues et soul — Repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel instrument joue Louis Armstrong ?",
+      "options": [
+        "A — La trompette",
+        "B — Le violon",
+        "C — La harpe",
+        "D — L’accordéon"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/trumpet.jpg"
+    },
+    {
+      "id": "lib-qcm-jazz-blues-20261012-02",
+      "category": "Jazz, blues et soul — Repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui est associé à l’album Kind of Blue ?",
+      "options": [
+        "A — Duke Ellington",
+        "B — Charlie Parker",
+        "C — Miles Davis",
+        "D — Louis Armstrong"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-jazz-blues-20261012-03",
+      "category": "Jazz, blues et soul — Repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel genre accorde une grande place à l’improvisation ?",
+      "options": [
+        "A — La marche militaire",
+        "B — La comptine",
+        "C — Le jazz",
+        "D — Le plain-chant"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-jazz-blues-20261012-04",
+      "category": "Jazz, blues et soul — Repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel instrument est représenté ici ?",
+      "options": [
+        "A — Une clarinette",
+        "B — Un saxophone",
+        "C — Un basson",
+        "D — Un hautbois"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/saxophone.png"
+    },
+    {
+      "id": "lib-qcm-jazz-blues-20261012-05",
+      "category": "Jazz, blues et soul — Repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle chanteuse est connue comme la First Lady of Song ?",
+      "options": [
+        "A — Madonna",
+        "B — Nina Hagen",
+        "C — Édith Piaf",
+        "D — Ella Fitzgerald"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

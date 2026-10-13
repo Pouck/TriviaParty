@@ -1,0 +1,74 @@
+{
+  "category": "Contes et légendes de France — Buzzer",
+  "subject": "Contes et légendes",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-contes-francais-20261012-01",
+      "category": "Contes et légendes de France — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui porte un panier à sa grand-mère dans un conte de Perrault ?",
+      "acceptableAnswers": [
+        "Le Petit Chaperon rouge"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-contes-francais-20261012-02",
+      "category": "Contes et légendes de France — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel animal trompe le Petit Chaperon rouge chez Perrault ?",
+      "acceptableAnswers": [
+        "Le loup"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/wolf.jpg"
+    },
+    {
+      "id": "lib-buzzer-contes-francais-20261012-03",
+      "category": "Contes et légendes de France — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel personnage transforme une citrouille en carrosse pour Cendrillon ?",
+      "acceptableAnswers": [
+        "La fée marraine",
+        "Sa marraine",
+        "La marraine"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/pumpkin.png"
+    },
+    {
+      "id": "lib-buzzer-contes-francais-20261012-04",
+      "category": "Contes et légendes de France — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui laisse des cailloux pour retrouver son chemin chez Perrault ?",
+      "acceptableAnswers": [
+        "Le Petit Poucet"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-contes-francais-20261012-05",
+      "category": "Contes et légendes de France — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel conte français met en scène une princesse cachée sous une peau d’animal ?",
+      "acceptableAnswers": [
+        "Peau d’âne"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

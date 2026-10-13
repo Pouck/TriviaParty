@@ -1,0 +1,52 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.metmuseum.org/essays/greek-gods-and-religious-practices",
+      "https://www.theoi.com/",
+      "https://www.perseus.tufts.edu/hopper/"
+    ],
+    "note": "",
+    "visual": "lightning"
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.metmuseum.org/essays/greek-gods-and-religious-practices",
+      "https://www.theoi.com/",
+      "https://www.perseus.tufts.edu/hopper/"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.metmuseum.org/essays/greek-gods-and-religious-practices",
+      "https://www.theoi.com/",
+      "https://www.perseus.tufts.edu/hopper/"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.metmuseum.org/essays/greek-gods-and-religious-practices",
+      "https://www.theoi.com/",
+      "https://www.perseus.tufts.edu/hopper/"
+    ],
+    "note": "",
+    "visual": "winged-horse"
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.metmuseum.org/essays/greek-gods-and-religious-practices",
+      "https://www.theoi.com/",
+      "https://www.perseus.tufts.edu/hopper/"
+    ],
+    "note": "",
+    "visual": null
+  }
+]

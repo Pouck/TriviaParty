@@ -1,0 +1,106 @@
+[
+  {
+    "question": 1,
+    "questionId": "monde-xxe-guerres-et-reformes-03-20261010",
+    "originalPackage": "histoire-mondiale-xxe-guerres-et-reformes-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "monde-xxe-guerres-et-reformes-04-20261010",
+    "originalPackage": "histoire-mondiale-xxe-guerres-et-reformes-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-qcm-histoire-mondiale-generale-20261012-01",
+    "originalPackage": "lib-qcm-histoire-mondiale-generale-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.britishmuseum.org/collection",
+        "https://www.bl.uk/magna-carta",
+        "https://www.nasa.gov/mission/apollo-11/",
+        "https://www.un.org/en/about-us/history-of-the-un",
+        "https://www.worldhistory.org/"
+      ],
+      "note": "",
+      "visual": "pyramids"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-qcm-histoire-mondiale-generale-20261012-02",
+    "originalPackage": "lib-qcm-histoire-mondiale-generale-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.britishmuseum.org/collection",
+        "https://www.bl.uk/magna-carta",
+        "https://www.nasa.gov/mission/apollo-11/",
+        "https://www.un.org/en/about-us/history-of-the-un",
+        "https://www.worldhistory.org/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qcm-histoire-mondiale-generale-20261012-03",
+    "originalPackage": "lib-qcm-histoire-mondiale-generale-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.britishmuseum.org/collection",
+        "https://www.bl.uk/magna-carta",
+        "https://www.nasa.gov/mission/apollo-11/",
+        "https://www.un.org/en/about-us/history-of-the-un",
+        "https://www.worldhistory.org/"
+      ],
+      "note": "",
+      "visual": "wall"
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "lib-qcm-histoire-mondiale-generale-20261012-04",
+    "originalPackage": "lib-qcm-histoire-mondiale-generale-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.britishmuseum.org/collection",
+        "https://www.bl.uk/magna-carta",
+        "https://www.nasa.gov/mission/apollo-11/",
+        "https://www.un.org/en/about-us/history-of-the-un",
+        "https://www.worldhistory.org/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 7,
+    "questionId": "lib-qcm-histoire-mondiale-generale-20261012-05",
+    "originalPackage": "lib-qcm-histoire-mondiale-generale-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.britishmuseum.org/collection",
+        "https://www.bl.uk/magna-carta",
+        "https://www.nasa.gov/mission/apollo-11/",
+        "https://www.un.org/en/about-us/history-of-the-un",
+        "https://www.worldhistory.org/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

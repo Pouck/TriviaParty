@@ -1,0 +1,85 @@
+{
+  "category": "Littérature britannique et irlandaise — Personnages : choix multiples — 1",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-01",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel détective créé par Conan Doyle habite au 221B Baker Street ?",
+      "options": [
+        "A — Hercule Poirot",
+        "B — Sherlock Holmes",
+        "C — Ebenezer Scrooge",
+        "D — John Watson"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-02",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Qui est le maître de Thornfield Hall dans Jane Eyre ?",
+      "options": [
+        "A — Edward Rochester",
+        "B — Fitzwilliam Darcy",
+        "C — Heathcliff",
+        "D — Arthur Pendennis"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-03",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel prince du Danemark cherche à venger son père dans une tragédie de Shakespeare ?",
+      "options": [
+        "A — Le roi Lear",
+        "B — Macbeth",
+        "C — Hamlet",
+        "D — Othello"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-04",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle héroïne de Jane Austen se croit douée pour arranger les mariages de son entourage ?",
+      "options": [
+        "A — Fanny Price",
+        "B — Elinor Dashwood",
+        "C — Catherine Morland",
+        "D — Emma Woodhouse"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-personnages-20261010-05",
+      "category": "Littérature britannique et irlandaise — Personnages : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel avare change après la visite d’esprits dans A Christmas Carol de Dickens ?",
+      "options": [
+        "A — Ebenezer Scrooge",
+        "B — Fagin",
+        "C — Pip",
+        "D — Uriah Heep"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

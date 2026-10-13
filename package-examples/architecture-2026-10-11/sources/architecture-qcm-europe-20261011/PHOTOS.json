@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "colosseum",
+    "title": "Colosseum",
+    "file": "colosseum.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1920px-Colosseo_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "FeaturedPics",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  },
+  {
+    "slug": "pisa",
+    "title": "Leaning Tower of Pisa",
+    "file": "pisa.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Italy_-_Pisa_-_Leaning_Tower.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Italy_-_Pisa_-_Leaning_Tower.jpg/1920px-Italy_-_Pisa_-_Leaning_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "credit": "own work\nhttp://www.arne-mueseler.com",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  },
+  {
+    "slug": "alhambra",
+    "title": "Alhambra",
+    "file": "alhambra.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg/1920px-Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Jebulon",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  }
+]

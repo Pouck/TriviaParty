@@ -1,0 +1,67 @@
+[
+  {
+    "question": 1,
+    "questionId": "architecture-qsj-modernes-20261011-01",
+    "originalPackage": "architecture-qsj-modernes-20261011",
+    "reference": {
+      "question": 1,
+      "site": "eiffel",
+      "verification": "https://www.toureiffel.paris/en/the-monument/history",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "architecture-qsj-modernes-20261011-02",
+    "originalPackage": "architecture-qsj-modernes-20261011",
+    "reference": {
+      "question": 2,
+      "site": "sydney",
+      "verification": "https://www.sydneyoperahouse.com/our-story/jorn-utzon",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "architecture-qsj-modernes-20261011-03",
+    "originalPackage": "architecture-qsj-modernes-20261011",
+    "reference": {
+      "question": 3,
+      "site": "fallingwater",
+      "verification": "https://fallingwater.org/history/the-kaufmanns-fallingwater/designing-fallingwater/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "architecture-qsj-sacre-20261011-01",
+    "originalPackage": "architecture-qsj-sacre-20261011",
+    "reference": {
+      "question": 1,
+      "site": "notredame",
+      "verification": "https://www.notredamedeparis.fr/en/understand/architecture/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "architecture-qsj-sacre-20261011-03",
+    "originalPackage": "architecture-qsj-sacre-20261011",
+    "reference": {
+      "question": 3,
+      "site": "sagrada",
+      "verification": "https://sagradafamilia.org/en/history-of-the-temple",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  }
+]

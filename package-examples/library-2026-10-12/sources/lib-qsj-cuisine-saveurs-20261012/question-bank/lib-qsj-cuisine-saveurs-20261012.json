@@ -1,0 +1,100 @@
+{
+  "category": "Cuisine — Saveurs et desserts du monde — Qui suis-je ?",
+  "subject": "Cuisine",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-cuisine-saveurs-20261012-01",
+      "category": "Cuisine — Saveurs et desserts du monde — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un aliment sucré ou amer.",
+        "Je peux être noir, au lait ou blanc.",
+        "Le cacao est essentiel aux versions noires et au lait.",
+        "Je me vends souvent en tablettes."
+      ],
+      "acceptableAnswers": [
+        "Le chocolat",
+        "Chocolat"
+      ]
+    },
+    {
+      "id": "lib-qsj-cuisine-saveurs-20261012-02",
+      "category": "Cuisine — Saveurs et desserts du monde — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une viennoiserie.",
+        "Ma pâte est généralement feuilletée.",
+        "Je suis souvent mangé au petit-déjeuner.",
+        "Ma forme rappelle une lune partielle."
+      ],
+      "acceptableAnswers": [
+        "Le croissant",
+        "Croissant"
+      ]
+    },
+    {
+      "id": "lib-qsj-cuisine-saveurs-20261012-03",
+      "category": "Cuisine — Saveurs et desserts du monde — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un plat mexicain.",
+        "Je peux contenir viande, légumes et salsa.",
+        "Ma garniture repose sur une tortilla.",
+        "Mon nom compte quatre lettres et commence par T."
+      ],
+      "acceptableAnswers": [
+        "Le taco",
+        "Taco"
+      ]
+    },
+    {
+      "id": "lib-qsj-cuisine-saveurs-20261012-04",
+      "category": "Cuisine — Saveurs et desserts du monde — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un petit gâteau.",
+        "Mes coques sont souvent colorées.",
+        "Elles sont réunies par une garniture.",
+        "Ma version parisienne compte deux coques à base d’amande."
+      ],
+      "acceptableAnswers": [
+        "Le macaron",
+        "Macaron"
+      ]
+    },
+    {
+      "id": "lib-qsj-cuisine-saveurs-20261012-05",
+      "category": "Cuisine — Saveurs et desserts du monde — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un aliment japonais.",
+        "Ma texture est souple et collante.",
+        "Je peux entourer une garniture sucrée.",
+        "Je suis fait de riz gluant pilé."
+      ],
+      "acceptableAnswers": [
+        "Le mochi",
+        "Mochi"
+      ]
+    }
+  ]
+}

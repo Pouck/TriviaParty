@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "seal",
+    "title": "Harbour seal",
+    "file": "seal.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Common_seal_(Phoca_vitulina)_2.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Common_seal_%28Phoca_vitulina%29_2.jpg/1920px-Common_seal_%28Phoca_vitulina%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work, from Sharp Photography, sharpphotography",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-buzzer-recits-autochtones-20261012"
+  },
+  {
+    "slug": "raven",
+    "title": "Common raven",
+    "file": "raven.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Corvus_corax_clarionensis,_Point_Reyes_National_Seashore.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Corvus_corax_clarionensis%2C_Point_Reyes_National_Seashore.jpg/1920px-Corvus_corax_clarionensis%2C_Point_Reyes_National_Seashore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-buzzer-recits-autochtones-20261012"
+  }
+]

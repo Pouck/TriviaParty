@@ -1,0 +1,145 @@
+{
+  "category": "Géographie - Afrique",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "geo-afrique-20261010-01",
+      "category": "Géographie - Afrique",
+      "prompt": "Quelle lettre correspond à l’Angola sur la carte ?",
+      "imageUrl": "images/carte-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 1,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Cameroun » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Angola » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Zimbabwe » sur la carte ?",
+          "correctOptionIndex": 2
+        },
+        {
+          "prompt": "Quelle lettre indique « Mozambique » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-afrique-20261010-02",
+      "category": "Géographie - Afrique",
+      "prompt": "Quelle lettre correspond au Niger sur la carte ?",
+      "imageUrl": "images/carte-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 2,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Mali » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Tchad » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Niger » sur la carte ?",
+          "correctOptionIndex": 2
+        },
+        {
+          "prompt": "Quelle lettre indique « Mauritanie » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-afrique-20261010-03",
+      "category": "Géographie - Afrique",
+      "prompt": "Quelle lettre correspond au Gabon sur la carte ?",
+      "imageUrl": "images/carte-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 0,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Gabon » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Kenya » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Ouganda » sur la carte ?",
+          "correctOptionIndex": 2
+        },
+        {
+          "prompt": "Quelle lettre indique « République du Congo » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-afrique-20261010-04",
+      "category": "Géographie - Afrique",
+      "prompt": "Quelle lettre correspond à la Zambie sur la carte ?",
+      "imageUrl": "images/carte-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 3,
+      "randomVariants": [
+        {
+          "prompt": "Quelle lettre indique « Malawi » sur la carte ?",
+          "correctOptionIndex": 0
+        },
+        {
+          "prompt": "Quelle lettre indique « Burkina Faso » sur la carte ?",
+          "correctOptionIndex": 1
+        },
+        {
+          "prompt": "Quelle lettre indique « Namibie » sur la carte ?",
+          "correctOptionIndex": 2
+        },
+        {
+          "prompt": "Quelle lettre indique « Zambie » sur la carte ?",
+          "correctOptionIndex": 3
+        }
+      ]
+    }
+  ]
+}

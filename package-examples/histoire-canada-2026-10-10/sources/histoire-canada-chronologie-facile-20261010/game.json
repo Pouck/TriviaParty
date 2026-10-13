@@ -1,0 +1,15 @@
+{
+  "id": "histoire-canada-chronologie-facile-20261010",
+  "name": "Histoire du Canada - Chronologie facile",
+  "description": "5 questions de chronologie à choix multiples. Du plus ancien au plus récent. 15 secondes ; 15, 10 puis 5 points.",
+  "categoryPackages": [
+    "histoire-canada-chronologie-facile-20261010"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0.0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

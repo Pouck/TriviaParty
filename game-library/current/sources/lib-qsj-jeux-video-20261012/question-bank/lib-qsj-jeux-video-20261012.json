@@ -1,0 +1,95 @@
+{
+  "category": "Jeux vidéo — Grands univers — Qui suis-je ?",
+  "subject": "Jeux vidéo",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-jeux-video-20261012-01",
+      "category": "Jeux vidéo — Grands univers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un héros de Nintendo.",
+        "Luigi est mon frère.",
+        "Je sauve souvent la princesse Peach.",
+        "Je suis le plombier à la casquette rouge."
+      ],
+      "acceptableAnswers": [
+        "Mario"
+      ]
+    },
+    {
+      "id": "lib-qsj-jeux-video-20261012-02",
+      "category": "Jeux vidéo — Grands univers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un héros de Sega.",
+        "Je cours à grande vitesse.",
+        "Je ramasse souvent des anneaux.",
+        "Je suis un hérisson bleu."
+      ],
+      "acceptableAnswers": [
+        "Sonic"
+      ]
+    },
+    {
+      "id": "lib-qsj-jeux-video-20261012-03",
+      "category": "Jeux vidéo — Grands univers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un Pokémon.",
+        "Mes joues peuvent produire de l’électricité.",
+        "Je suis un compagnon de Sacha dans le dessin animé.",
+        "Je suis jaune, avec une queue en forme d’éclair."
+      ],
+      "acceptableAnswers": [
+        "Pikachu"
+      ]
+    },
+    {
+      "id": "lib-qsj-jeux-video-20261012-04",
+      "category": "Jeux vidéo — Grands univers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un jeu de construction et d’exploration.",
+        "Les joueurs fabriquent des outils et des abris.",
+        "Les creepers peuplent mon monde.",
+        "Mes paysages sont faits de blocs."
+      ],
+      "acceptableAnswers": [
+        "Minecraft"
+      ]
+    },
+    {
+      "id": "lib-qsj-jeux-video-20261012-05",
+      "category": "Jeux vidéo — Grands univers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un héros de jeu d’arcade.",
+        "Je mange des pastilles.",
+        "Des fantômes me poursuivent dans un labyrinthe.",
+        "Je suis un disque jaune à grande bouche."
+      ],
+      "acceptableAnswers": [
+        "Pac-Man"
+      ]
+    }
+  ]
+}

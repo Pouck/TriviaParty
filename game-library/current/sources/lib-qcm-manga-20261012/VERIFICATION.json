@@ -1,0 +1,92 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-qcm-manga-20261012-01",
+    "originalPackage": "lib-qcm-manga-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.viz.com/naruto",
+        "https://www.viz.com/one-piece",
+        "https://www.viz.com/dragon-ball",
+        "https://www.viz.com/death-note",
+        "https://www.viz.com/sailor-moon"
+      ],
+      "note": "",
+      "visual": "ramen"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-qcm-manga-20261012-02",
+    "originalPackage": "lib-qcm-manga-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.viz.com/naruto",
+        "https://www.viz.com/one-piece",
+        "https://www.viz.com/dragon-ball",
+        "https://www.viz.com/death-note",
+        "https://www.viz.com/sailor-moon"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-qcm-manga-20261012-03",
+    "originalPackage": "lib-qcm-manga-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.viz.com/naruto",
+        "https://www.viz.com/one-piece",
+        "https://www.viz.com/dragon-ball",
+        "https://www.viz.com/death-note",
+        "https://www.viz.com/sailor-moon"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-qcm-manga-20261012-04",
+    "originalPackage": "lib-qcm-manga-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.viz.com/naruto",
+        "https://www.viz.com/one-piece",
+        "https://www.viz.com/dragon-ball",
+        "https://www.viz.com/death-note",
+        "https://www.viz.com/sailor-moon"
+      ],
+      "note": "",
+      "visual": "seven-balls"
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qcm-manga-20261012-05",
+    "originalPackage": "lib-qcm-manga-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.viz.com/naruto",
+        "https://www.viz.com/one-piece",
+        "https://www.viz.com/dragon-ball",
+        "https://www.viz.com/death-note",
+        "https://www.viz.com/sailor-moon"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

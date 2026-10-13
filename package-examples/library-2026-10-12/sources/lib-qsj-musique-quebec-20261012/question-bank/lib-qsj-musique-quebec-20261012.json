@@ -1,0 +1,95 @@
+{
+  "category": "Musique — Artistes du Québec — Qui suis-je ?",
+  "subject": "Musique",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-musique-quebec-20261012-01",
+      "category": "Musique — Artistes du Québec — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je viens de Charlemagne, au Québec.",
+        "Je chante en français et en anglais.",
+        "Je remporte l’Eurovision pour la Suisse en 1988.",
+        "J’interprète My Heart Will Go On pour Titanic."
+      ],
+      "acceptableAnswers": [
+        "Céline Dion"
+      ]
+    },
+    {
+      "id": "lib-qsj-musique-quebec-20261012-02",
+      "category": "Musique — Artistes du Québec — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis écrivain et chansonnier.",
+        "Je m’accompagne souvent à la guitare.",
+        "Je suis associé à l’île d’Orléans.",
+        "Les trophées de l’ADISQ portent mon prénom."
+      ],
+      "acceptableAnswers": [
+        "Félix Leclerc"
+      ]
+    },
+    {
+      "id": "lib-qsj-musique-quebec-20261012-03",
+      "category": "Musique — Artistes du Québec — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je viens de Natashquan.",
+        "La langue française et le Québec occupent mon œuvre.",
+        "Je chante Mon pays.",
+        "J’ai écrit Gens du pays."
+      ],
+      "acceptableAnswers": [
+        "Gilles Vigneault"
+      ]
+    },
+    {
+      "id": "lib-qsj-musique-quebec-20261012-04",
+      "category": "Musique — Artistes du Québec — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis né à Montréal.",
+        "Je suis aussi poète et romancier.",
+        "Suzanne fait partie de mes chansons.",
+        "J’ai écrit Hallelujah."
+      ],
+      "acceptableAnswers": [
+        "Leonard Cohen"
+      ]
+    },
+    {
+      "id": "lib-qsj-musique-quebec-20261012-05",
+      "category": "Musique — Artistes du Québec — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un artiste québécois aux spectacles énergiques.",
+        "J’allie chanson et rock.",
+        "Je chante Lindberg avec Louise Forestier.",
+        "J’interprète Je reviendrai à Montréal."
+      ],
+      "acceptableAnswers": [
+        "Robert Charlebois"
+      ]
+    }
+  ]
+}

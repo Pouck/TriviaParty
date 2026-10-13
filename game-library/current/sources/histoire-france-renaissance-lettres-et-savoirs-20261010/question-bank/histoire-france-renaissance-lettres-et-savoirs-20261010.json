@@ -1,0 +1,85 @@
+{
+  "category": "Histoire de France — Renaissance — Lettres et savoirs",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-lettres-et-savoirs-20261010-01",
+      "category": "Histoire de France — Renaissance — Lettres et savoirs",
+      "prompt": "Quel chirurgien de la Renaissance est célèbre pour ses soins aux blessés de guerre et l’emploi de ligatures lors des amputations ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Ambroise Paré",
+        "B — Nostradamus",
+        "C — Michel de Montaigne",
+        "D — René Descartes"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-lettres-et-savoirs-20261010-02",
+      "category": "Histoire de France — Renaissance — Lettres et savoirs",
+      "prompt": "Quel écrivain publia la première édition de ses Essais en 1580 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Pierre de Ronsard",
+        "B — François Rabelais",
+        "C — Michel de Montaigne",
+        "D — Jean Calvin"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-lettres-et-savoirs-20261010-03",
+      "category": "Histoire de France — Renaissance — Lettres et savoirs",
+      "prompt": "Quelle mesure linguistique célèbre figure dans l’ordonnance de Villers-Cotterêts de 1539 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — L’interdiction de tous les textes protestants",
+        "B — L’autorisation du théâtre public",
+        "C — La création d’universités publiques",
+        "D — L’emploi du français dans les actes judiciaires à la place du latin"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-lettres-et-savoirs-20261010-04",
+      "category": "Histoire de France — Renaissance — Lettres et savoirs",
+      "prompt": "Comment appelle-t-on la pratique consistant à acheter certains offices publics sous l’Ancien Régime ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La vénalité des offices",
+        "B — La gabelle",
+        "C — Les chartes de monopole",
+        "D — La levée féodale"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "resize-20261012-pleiade",
+      "kind": "multipleChoice",
+      "category": "Histoire de France — Renaissance — Lettres et savoirs",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel groupe de poètes réunit notamment Ronsard et Du Bellay ?",
+      "options": [
+        "A — Les Encyclopédistes",
+        "B — La Pléiade",
+        "C — L’Oulipo",
+        "D — Le Parnasse"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

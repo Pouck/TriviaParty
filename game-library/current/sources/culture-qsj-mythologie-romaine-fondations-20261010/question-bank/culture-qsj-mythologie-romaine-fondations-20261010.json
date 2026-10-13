@@ -1,0 +1,95 @@
+{
+  "category": "Mythologie romaine — Dieux et fondations — Qui suis-je ?",
+  "subject": "Mythologie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-mythologie-romaine-fondations-20261010-01",
+      "category": "Mythologie romaine — Dieux et fondations — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je fuis Troie en flammes en portant mon père Anchise et en emmenant mon fils Ascagne.",
+        "Mon voyage me conduit à Carthage, où Didon s’éprend de moi.",
+        "Ma mère Vénus me protège dans ma quête d’une nouvelle terre en Italie.",
+        "Je suis le héros troyen dont Virgile raconte le voyage dans l’Énéide."
+      ],
+      "acceptableAnswers": [
+        "Énée"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-mythologie-romaine-fondations-20261010-02",
+      "category": "Mythologie romaine — Dieux et fondations — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Nous sommes les fils légendaires de la vestale Rhéa Silvia, menacés par le roi Amulius.",
+        "Abandonnés près du Tibre, nous sommes recueillis et allaités par une louve.",
+        "Devenus adultes, nous nous disputons au sujet d’une nouvelle ville ; un seul de nous survit.",
+        "Nous sommes les jumeaux de la légende de la fondation de Rome."
+      ],
+      "acceptableAnswers": [
+        "Romulus et Rémus"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-romaine-20261012-03",
+      "category": "Mythologie romaine — Dieux et fondations — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis associée à la nature sauvage.",
+        "Mon équivalente grecque est Artémis.",
+        "Je porte souvent un arc.",
+        "Je suis la déesse romaine de la chasse."
+      ],
+      "acceptableAnswers": [
+        "Diane"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-romaine-20261012-04",
+      "category": "Mythologie romaine — Dieux et fondations — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes fêtes sont célèbres dans le monde romain.",
+        "Mon équivalent grec est Dionysos.",
+        "Je suis lié à la vigne.",
+        "Je suis le dieu romain du vin."
+      ],
+      "acceptableAnswers": [
+        "Bacchus"
+      ]
+    },
+    {
+      "id": "resize-20261012-neptune",
+      "kind": "guessWho",
+      "category": "Mythologie romaine — Dieux et fondations — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes tempêtes menacent les marins.",
+        "On me représente avec un trident.",
+        "Mon équivalent grec est Poséidon.",
+        "Je suis le dieu romain des mers."
+      ],
+      "acceptableAnswers": [
+        "Neptune"
+      ]
+    }
+  ]
+}

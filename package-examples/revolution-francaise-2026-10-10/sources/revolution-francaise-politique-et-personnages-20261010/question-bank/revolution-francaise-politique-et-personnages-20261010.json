@@ -1,0 +1,69 @@
+{
+  "category": "Révolution française — Politique et personnages",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-politique-et-personnages-20261010-01",
+      "category": "Révolution française — Politique et personnages",
+      "prompt": "Sous l’Ancien Régime, quel groupe appartient au tiers état ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La noblesse",
+        "B — Les membres de la famille royale",
+        "C — Le clergé catholique",
+        "D — Les paysans, les artisans et les bourgeois non nobles"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-politique-et-personnages-20261010-02",
+      "category": "Révolution française — Politique et personnages",
+      "prompt": "À quel célèbre club politique Robespierre appartient-il pendant la Révolution ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le club des Cordeliers",
+        "B — Le club des Jacobins",
+        "C — Le club de Clichy",
+        "D — Le club des Feuillants"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-politique-et-personnages-20261010-03",
+      "category": "Révolution française — Politique et personnages",
+      "prompt": "Qui assassina Jean-Paul Marat dans sa baignoire en 1793 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Madame Roland",
+        "B — Lucile Desmoulins",
+        "C — Charlotte Corday",
+        "D — Olympe de Gouges"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-politique-et-personnages-20261010-04",
+      "category": "Révolution française — Politique et personnages",
+      "prompt": "Quel comité créé en 1793 joua un rôle central dans le gouvernement révolutionnaire pendant la Terreur ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le Comité de salut public",
+        "B — Les États généraux",
+        "C — Le Comité de constitution",
+        "D — Le Directoire"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

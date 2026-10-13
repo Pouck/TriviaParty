@@ -1,0 +1,145 @@
+{
+  "category": "Architecture — Monuments dans le temps — Chronologie",
+  "subject": "Architecture",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "lib-chronologie-architecture-reperes-20261012-01",
+      "category": "Architecture — Monuments dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les ouvertures et inaugurations",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Opéra de Sydney"
+        },
+        {
+          "id": "item-1",
+          "text": "Tour Eiffel"
+        },
+        {
+          "id": "item-2",
+          "text": "Burj Khalifa"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "lib-chronologie-architecture-reperes-20261012-02",
+      "category": "Architecture — Monuments dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces inaugurations",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Tour Eiffel"
+        },
+        {
+          "id": "item-1",
+          "text": "Statue de la Liberté à New York"
+        },
+        {
+          "id": "item-2",
+          "text": "Opéra de Sydney"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "lib-chronologie-architecture-reperes-20261012-03",
+      "category": "Architecture — Monuments dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces repères",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Ouverture du Burj Khalifa"
+        },
+        {
+          "id": "item-1",
+          "text": "Inauguration de la tour Eiffel"
+        },
+        {
+          "id": "item-2",
+          "text": "Ouverture du Louvre comme musée"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-architecture-reperes-20261012-04",
+      "category": "Architecture — Monuments dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces repères",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Ouverture de l’Opéra de Sydney"
+        },
+        {
+          "id": "item-1",
+          "text": "Installation de la cour de Louis XIV à Versailles"
+        },
+        {
+          "id": "item-2",
+          "text": "Ouverture du Louvre comme musée"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-architecture-reperes-20261012-05",
+      "category": "Architecture — Monuments dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces inaugurations",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Opéra de Sydney"
+        },
+        {
+          "id": "item-1",
+          "text": "Burj Khalifa"
+        },
+        {
+          "id": "item-2",
+          "text": "Statue de la Liberté à New York"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

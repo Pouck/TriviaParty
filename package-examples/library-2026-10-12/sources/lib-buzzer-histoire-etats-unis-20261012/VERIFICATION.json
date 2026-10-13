@@ -1,0 +1,57 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.archives.gov/founding-docs",
+      "https://www.nps.gov/people/abraham-lincoln.htm",
+      "https://www.nasa.gov/mission/apollo-11/",
+      "https://www.si.edu/"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.archives.gov/founding-docs",
+      "https://www.nps.gov/people/abraham-lincoln.htm",
+      "https://www.nasa.gov/mission/apollo-11/",
+      "https://www.si.edu/"
+    ],
+    "note": "",
+    "visual": "rushmore"
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.archives.gov/founding-docs",
+      "https://www.nps.gov/people/abraham-lincoln.htm",
+      "https://www.nasa.gov/mission/apollo-11/",
+      "https://www.si.edu/"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.archives.gov/founding-docs",
+      "https://www.nps.gov/people/abraham-lincoln.htm",
+      "https://www.nasa.gov/mission/apollo-11/",
+      "https://www.si.edu/"
+    ],
+    "note": "",
+    "visual": "moon"
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.archives.gov/founding-docs",
+      "https://www.nps.gov/people/abraham-lincoln.htm",
+      "https://www.nasa.gov/mission/apollo-11/",
+      "https://www.si.edu/"
+    ],
+    "note": "",
+    "visual": null
+  }
+]

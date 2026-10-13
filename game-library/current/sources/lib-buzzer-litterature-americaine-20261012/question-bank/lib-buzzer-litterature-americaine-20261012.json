@@ -1,0 +1,72 @@
+{
+  "category": "Littérature américaine — Classiques — Réponses écrites",
+  "subject": "Littérature",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-litterature-americaine-20261012-01",
+      "category": "Littérature américaine — Classiques — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel avocat défend Tom Robinson dans To Kill a Mockingbird ?",
+      "acceptableAnswers": [
+        "Atticus Finch"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-litterature-americaine-20261012-02",
+      "category": "Littérature américaine — Classiques — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel auteur américain a créé Tom Sawyer ?",
+      "acceptableAnswers": [
+        "Mark Twain"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-litterature-americaine-20261012-03",
+      "category": "Littérature américaine — Classiques — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel roman de Melville suit la chasse à une baleine blanche ?",
+      "acceptableAnswers": [
+        "Moby-Dick"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-litterature-americaine-20261012/whale.jpg"
+    },
+    {
+      "id": "lib-buzzer-litterature-americaine-20261012-04",
+      "category": "Littérature américaine — Classiques — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel roman de Thoreau porte le nom d’un étang ?",
+      "acceptableAnswers": [
+        "Walden"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-litterature-americaine-20261012/lake.jpg"
+    },
+    {
+      "id": "lib-buzzer-litterature-americaine-20261012-05",
+      "category": "Littérature américaine — Classiques — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel auteur a écrit The Old Man and the Sea ?",
+      "acceptableAnswers": [
+        "Ernest Hemingway"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

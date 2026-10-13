@@ -1,0 +1,84 @@
+{
+  "category": "Histoire - Chronologie de la Rome antique",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "antique-rome-antique-20261010-01",
+      "category": "Histoire - Chronologie de la Rome antique",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour le passage de la République au principat ?\n• Assassinat de Jules César\n• Octavien reçoit le titre d’Auguste\n• Jules César franchit le Rubicon",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Assassinat de Jules César → Jules César franchit le Rubicon → Octavien reçoit le titre d’Auguste",
+        "B — Octavien reçoit le titre d’Auguste → Assassinat de Jules César → Jules César franchit le Rubicon",
+        "C — Jules César franchit le Rubicon → Octavien reçoit le titre d’Auguste → Assassinat de Jules César",
+        "D — Jules César franchit le Rubicon → Assassinat de Jules César → Octavien reçoit le titre d’Auguste"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "antique-rome-antique-20261010-02",
+      "category": "Histoire - Chronologie de la Rome antique",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour les grands conflits de la République romaine ?\n• Destruction de Carthage à la fin de la troisième guerre punique\n• Début de la révolte de Spartacus\n• Hannibal traverse les Alpes",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Destruction de Carthage à la fin de la troisième guerre punique → Hannibal traverse les Alpes → Début de la révolte de Spartacus",
+        "B — Hannibal traverse les Alpes → Destruction de Carthage à la fin de la troisième guerre punique → Début de la révolte de Spartacus",
+        "C — Début de la révolte de Spartacus → Destruction de Carthage à la fin de la troisième guerre punique → Hannibal traverse les Alpes",
+        "D — Hannibal traverse les Alpes → Début de la révolte de Spartacus → Destruction de Carthage à la fin de la troisième guerre punique"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "antique-rome-antique-20261010-03",
+      "category": "Histoire - Chronologie de la Rome antique",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour les événements du début de l’Empire romain ?\n• Éruption du Vésuve qui ensevelit Pompéi\n• Inauguration du Colisée par Titus\n• Grand incendie de Rome sous Néron",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Éruption du Vésuve qui ensevelit Pompéi → Grand incendie de Rome sous Néron → Inauguration du Colisée par Titus",
+        "B — Grand incendie de Rome sous Néron → Éruption du Vésuve qui ensevelit Pompéi → Inauguration du Colisée par Titus",
+        "C — Grand incendie de Rome sous Néron → Inauguration du Colisée par Titus → Éruption du Vésuve qui ensevelit Pompéi",
+        "D — Inauguration du Colisée par Titus → Éruption du Vésuve qui ensevelit Pompéi → Grand incendie de Rome sous Néron"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "antique-rome-antique-20261010-04",
+      "category": "Histoire - Chronologie de la Rome antique",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour les réformes de l’Empire romain tardif ?\n• Accord de Milan sur la liberté religieuse, appelé « édit de Milan »\n• Inauguration de Constantinople par Constantin\n• Mise en place de la tétrarchie par Dioclétien",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Accord de Milan sur la liberté religieuse, appelé « édit de Milan » → Mise en place de la tétrarchie par Dioclétien → Inauguration de Constantinople par Constantin",
+        "B — Mise en place de la tétrarchie par Dioclétien → Inauguration de Constantinople par Constantin → Accord de Milan sur la liberté religieuse, appelé « édit de Milan »",
+        "C — Mise en place de la tétrarchie par Dioclétien → Accord de Milan sur la liberté religieuse, appelé « édit de Milan » → Inauguration de Constantinople par Constantin",
+        "D — Inauguration de Constantinople par Constantin → Accord de Milan sur la liberté religieuse, appelé « édit de Milan » → Mise en place de la tétrarchie par Dioclétien"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "antique-rome-antique-20261010-05",
+      "category": "Histoire - Chronologie de la Rome antique",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour les dernières décennies de l’Empire romain d’Occident ?\n• Sac de Rome par les Vandales\n• Déposition de Romulus Augustule\n• Sac de Rome par les Wisigoths d’Alaric",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Sac de Rome par les Wisigoths d’Alaric → Sac de Rome par les Vandales → Déposition de Romulus Augustule",
+        "B — Sac de Rome par les Wisigoths d’Alaric → Déposition de Romulus Augustule → Sac de Rome par les Vandales",
+        "C — Déposition de Romulus Augustule → Sac de Rome par les Vandales → Sac de Rome par les Wisigoths d’Alaric",
+        "D — Sac de Rome par les Vandales → Sac de Rome par les Wisigoths d’Alaric → Déposition de Romulus Augustule"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

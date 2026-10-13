@@ -1,0 +1,73 @@
+{
+  "category": "Mythologie grecque — Dieux et héros — Buzzer",
+  "subject": "Mythologie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-mythologie-grecque-20261012-01",
+      "category": "Mythologie grecque — Dieux et héros — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel monstre a des serpents pour cheveux ?",
+      "acceptableAnswers": [
+        "Méduse"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/snakes.png"
+    },
+    {
+      "id": "lib-buzzer-mythologie-grecque-20261012-02",
+      "category": "Mythologie grecque — Dieux et héros — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel héros vainc le Minotaure ?",
+      "acceptableAnswers": [
+        "Thésée"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-mythologie-grecque-20261012-03",
+      "category": "Mythologie grecque — Dieux et héros — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment s’appelle le chien à trois têtes des Enfers ?",
+      "acceptableAnswers": [
+        "Cerbère"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-mythologie-grecque-20261012-04",
+      "category": "Mythologie grecque — Dieux et héros — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel oiseau mythique renaît de ses cendres ?",
+      "acceptableAnswers": [
+        "Le phénix",
+        "Phénix"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/phoenix.png"
+    },
+    {
+      "id": "lib-buzzer-mythologie-grecque-20261012-05",
+      "category": "Mythologie grecque — Dieux et héros — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel héros mène les Argonautes à la recherche de la Toison d’or ?",
+      "acceptableAnswers": [
+        "Jason"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

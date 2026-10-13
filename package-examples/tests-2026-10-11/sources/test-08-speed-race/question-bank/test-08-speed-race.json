@@ -1,0 +1,32 @@
+{
+  "category": "TEST Course de vitesse",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Course de vitesse"
+  ],
+  "questions": [
+    {
+      "kind": "speedRace",
+      "prompt": "Quelle planète est surnommée la planète rouge ?",
+      "subQuestion": {
+        "kind": "multipleChoice",
+        "prompt": "Quelle planète est surnommée la planète rouge ?",
+        "options": [
+          "A — Vénus",
+          "B — Mars",
+          "C — Jupiter",
+          "D — Saturne"
+        ],
+        "correctOptionIndex": 1,
+        "id": "test-08-speed-race-sub",
+        "category": "TEST Course de vitesse",
+        "basePoints": 15,
+        "penaltyPoints": 0
+      },
+      "id": "test-08-speed-race-q1",
+      "category": "TEST Course de vitesse",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "category": "Cinéma — Récompenses et classiques — QCM",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-01",
+      "category": "Cinéma — Récompenses et classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel film devient, en 2020, le premier film principalement non anglophone à remporter l’Oscar du meilleur film ?",
+      "options": [
+        "A — Crouching Tiger, Hidden Dragon",
+        "B — Parasite",
+        "C — La vita è bella",
+        "D — Roma"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-02",
+      "category": "Cinéma — Récompenses et classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Parmi ces films, lequel remporte onze Oscars lors de la cérémonie de 1998 ?",
+      "options": [
+        "A — Avatar",
+        "B — Titanic",
+        "C — Terminator 2: Judgment Day",
+        "D — Jurassic Park"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-03",
+      "category": "Cinéma — Récompenses et classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel film reçoit le premier Oscar du meilleur long métrage d’animation, remis en 2002 ?",
+      "options": [
+        "A — Monsters, Inc.",
+        "B — The Lion King",
+        "C — Toy Story 2",
+        "D — Shrek"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-04",
+      "category": "Cinéma — Récompenses et classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel film de Quentin Tarantino remporte la Palme d’or en 1994 ?",
+      "options": [
+        "A — Jackie Brown",
+        "B — Reservoir Dogs",
+        "C — Pulp Fiction",
+        "D — Kill Bill: Volume 1"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-05",
+      "category": "Cinéma — Récompenses et classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel est le premier long métrage d’animation des studios Disney ?",
+      "options": [
+        "A — Snow White and the Seven Dwarfs",
+        "B — Fantasia",
+        "C — Pinocchio",
+        "D — Dumbo"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-06",
+      "category": "Cinéma — Récompenses et classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui incarne Furiosa dans Mad Max: Fury Road (2015) ?",
+      "options": [
+        "A — Charlize Theron",
+        "B — Emily Blunt",
+        "C — Anya Taylor-Joy",
+        "D — Cate Blanchett"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

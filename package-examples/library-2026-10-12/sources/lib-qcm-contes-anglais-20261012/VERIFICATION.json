@@ -1,0 +1,52 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.gutenberg.org/ebooks/7439",
+      "https://www.gutenberg.org/ebooks/14241",
+      "https://www.bl.uk/stories/blogs/posts/king-arthur-fable-fact-and-fiction"
+    ],
+    "note": "",
+    "visual": "cow"
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.gutenberg.org/ebooks/7439",
+      "https://www.gutenberg.org/ebooks/14241",
+      "https://www.bl.uk/stories/blogs/posts/king-arthur-fable-fact-and-fiction"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.gutenberg.org/ebooks/7439",
+      "https://www.gutenberg.org/ebooks/14241",
+      "https://www.bl.uk/stories/blogs/posts/king-arthur-fable-fact-and-fiction"
+    ],
+    "note": "",
+    "visual": "forest"
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.gutenberg.org/ebooks/7439",
+      "https://www.gutenberg.org/ebooks/14241",
+      "https://www.bl.uk/stories/blogs/posts/king-arthur-fable-fact-and-fiction"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.gutenberg.org/ebooks/7439",
+      "https://www.gutenberg.org/ebooks/14241",
+      "https://www.bl.uk/stories/blogs/posts/king-arthur-fable-fact-and-fiction"
+    ],
+    "note": "",
+    "visual": null
+  }
+]

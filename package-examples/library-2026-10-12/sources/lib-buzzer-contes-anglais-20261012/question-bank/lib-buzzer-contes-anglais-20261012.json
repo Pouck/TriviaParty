@@ -1,0 +1,76 @@
+{
+  "category": "Contes et légendes d’Angleterre — Buzzer",
+  "subject": "Contes et légendes",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-contes-anglais-20261012-01",
+      "category": "Contes et légendes d’Angleterre — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Combien de cochons construisent chacun une maison dans le conte ?",
+      "acceptableAnswers": [
+        "Trois",
+        "3"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/three-houses.png"
+    },
+    {
+      "id": "lib-buzzer-contes-anglais-20261012-02",
+      "category": "Contes et légendes d’Angleterre — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment s’appelle la fille qui entre chez les trois ours ?",
+      "acceptableAnswers": [
+        "Boucle d’or",
+        "Goldilocks"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-contes-anglais-20261012-03",
+      "category": "Contes et légendes d’Angleterre — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel héros grimpe vers un géant grâce à une plante magique ?",
+      "acceptableAnswers": [
+        "Jack"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/beanstalk.png"
+    },
+    {
+      "id": "lib-buzzer-contes-anglais-20261012-04",
+      "category": "Contes et légendes d’Angleterre — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel compagnon géant de Robin des Bois porte le nom Petit Jean ?",
+      "acceptableAnswers": [
+        "Petit Jean",
+        "Little John"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-contes-anglais-20261012-05",
+      "category": "Contes et légendes d’Angleterre — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel héros minuscule du folklore anglais est appelé Tom Pouce ?",
+      "acceptableAnswers": [
+        "Tom Pouce",
+        "Tom Thumb"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

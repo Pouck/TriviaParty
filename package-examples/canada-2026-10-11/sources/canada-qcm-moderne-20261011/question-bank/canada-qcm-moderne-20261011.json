@@ -1,0 +1,159 @@
+{
+  "category": "Canada — Jalons sociaux et politiques modernes — QCM",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-01",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel premier ministre de la Saskatchewan est en fonction lors de l’entrée en vigueur de l’assurance médicale universelle en 1962 ?",
+      "options": [
+        "A — Allan Blakeney",
+        "B — Tommy Douglas",
+        "C — Woodrow Lloyd",
+        "D — John Diefenbaker"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-02",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle commission royale créée en 1963 étudie le bilinguisme et le biculturalisme ?",
+      "options": [
+        "A — La commission Macdonald",
+        "B — La commission Massey",
+        "C — La commission Rowell-Sirois",
+        "D — La commission Laurendeau-Dunton"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-03",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle loi de 1969 décriminalise certains actes homosexuels privés entre adultes consentants d’au moins 21 ans ?",
+      "options": [
+        "A — La Loi de 1968-69 modifiant le droit pénal",
+        "B — La Loi constitutionnelle",
+        "C — La réforme de la Loi sur les mesures de guerre",
+        "D — La Loi canadienne sur les droits de la personne"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-04",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "En quelle année le drapeau canadien à la feuille d’érable est-il inauguré ?",
+      "options": [
+        "A — 1965",
+        "B — 1982",
+        "C — 1957",
+        "D — 1945"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-05",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel premier ministre du Québec mène le camp du Oui lors du référendum de 1980 sur la souveraineté-association ?",
+      "options": [
+        "A — Robert Bourassa",
+        "B — Lucien Bouchard",
+        "C — René Lévesque",
+        "D — Jacques Parizeau"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-06",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle partie de la Loi constitutionnelle de 1982 garantit des droits et libertés fondamentaux au Canada ?",
+      "options": [
+        "A — L’Amendement de la Déclaration des droits",
+        "B — La Clause de l’Amérique du Nord britannique",
+        "C — La Charte canadienne des droits et libertés",
+        "D — La Prérogative dérogatoire"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-07",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel accord constitutionnel de 1987 propose notamment de reconnaître le Québec comme société distincte ?",
+      "options": [
+        "A — L’accord de Charlottetown",
+        "B — L’accord du lac Meech",
+        "C — La Déclaration de Calgary",
+        "D — La Charte de Victoria"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-08",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "En 1993, Kim Campbell devient la première femme au Canada à occuper quelle fonction ?",
+      "options": [
+        "A — Juge en chef de la Cour suprême",
+        "B — Gouverneure générale",
+        "C — Cheffe de l’opposition officielle",
+        "D — Première ministre"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-09",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel est le résultat arrondi du référendum québécois de 1995 ?",
+      "options": [
+        "A — 50,12 % Non ; 49,88 % Oui",
+        "B — 50,58 % Non ; 49,42 % Oui",
+        "C — 54,20 % Non ; 45,80 % Oui",
+        "D — 51,10 % Non ; 48,90 % Oui"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-moderne-20261011-10",
+      "category": "Canada — Jalons sociaux et politiques modernes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle disposition permet de déroger pour au plus cinq ans aux articles 2 et 7 à 15 de la Charte, avec possibilité de renouvellement ?",
+      "options": [
+        "A — La disposition de dérogation (article 33)",
+        "B — La prérogative royale",
+        "C — La formule de modification",
+        "D — La clause de paix, ordre et bon gouvernement"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

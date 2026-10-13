@@ -1,0 +1,73 @@
+{
+  "category": "DC — Héros et univers — Buzzer",
+  "subject": "Super-héros",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-dc-20261012-01",
+      "category": "DC — Héros et univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle planète est le monde natal de Superman ?",
+      "acceptableAnswers": [
+        "Krypton"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-dc-20261012-02",
+      "category": "DC — Héros et univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel héros règne sur Atlantis dans l’univers DC ?",
+      "acceptableAnswers": [
+        "Aquaman"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-dc-20261012/sea.png"
+    },
+    {
+      "id": "lib-buzzer-dc-20261012-03",
+      "category": "DC — Héros et univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel milliardaire est Batman ?",
+      "acceptableAnswers": [
+        "Bruce Wayne"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-dc-20261012-04",
+      "category": "DC — Héros et univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel adversaire de Batman porte souvent un maquillage de clown ?",
+      "acceptableAnswers": [
+        "Le Joker",
+        "Joker"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-dc-20261012-05",
+      "category": "DC — Héros et univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle héroïne utilise un lasso de vérité ?",
+      "acceptableAnswers": [
+        "Wonder Woman"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-dc-20261012/rope.png"
+    }
+  ]
+}

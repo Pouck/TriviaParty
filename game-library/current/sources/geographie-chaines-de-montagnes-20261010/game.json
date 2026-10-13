@@ -1,0 +1,16 @@
+{
+  "id": "geographie-chaines-de-montagnes-20261010",
+  "name": "Géographie - Chaînes de montagnes",
+  "description": "6 questions en français. 15 points au départ ; −1 point par seconde. Sablier unique de 15 secondes.",
+  "categoryPackages": [
+    "geographie-chaines-de-montagnes-20261010"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 15,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 0,
+    "pointsDecayPerFlip": null,
+    "pointsDecayPerSecond": 1
+  },
+  "answerTimeSeconds": 10
+}

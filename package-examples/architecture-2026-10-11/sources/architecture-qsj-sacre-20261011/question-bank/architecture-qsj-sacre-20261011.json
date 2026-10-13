@@ -1,0 +1,66 @@
+{
+  "category": "Architecture — Édifices sacrés — Qui suis-je ?",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "architecture-qsj-sacre-20261011-01",
+      "category": "Architecture — Édifices sacrés — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes arcs-boutants soutiennent un édifice gothique commencé au XIIe siècle.",
+        "Trois grandes roses de vitraux font partie de mes trésors.",
+        "Victor Hugo m’a rendue célèbre dans un roman peuplé de Quasimodo et d’Esmeralda.",
+        "Je suis la grande cathédrale de l’île de la Cité, à Paris."
+      ],
+      "acceptableAnswers": [
+        "Notre-Dame de Paris",
+        "La cathédrale Notre-Dame de Paris"
+      ]
+    },
+    {
+      "id": "architecture-qsj-sacre-20261011-02",
+      "category": "Architecture — Édifices sacrés — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "L’empereur Justinien me fait reconstruire au VIe siècle.",
+        "Ma vaste coupole est un symbole de l’architecture byzantine.",
+        "Au fil de mon histoire, j’ai servi d’église, de mosquée et de musée.",
+        "Mon nom signifie « Sagesse divine » ; je me trouve à Istanbul."
+      ],
+      "acceptableAnswers": [
+        "Sainte-Sophie",
+        "Hagia Sophia",
+        "Ayasofya",
+        "La basilique Sainte-Sophie"
+      ]
+    },
+    {
+      "id": "architecture-qsj-sacre-20261011-03",
+      "category": "Architecture — Édifices sacrés — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon chantier débute en 1882 ; Antoni Gaudí en reprend la direction l’année suivante.",
+        "Mes colonnes ramifiées évoquent une forêt de pierre.",
+        "Mes façades racontent notamment la Nativité et la Passion du Christ.",
+        "Je suis la basilique emblématique de Gaudí, à Barcelone."
+      ],
+      "acceptableAnswers": [
+        "La Sagrada Família",
+        "Sagrada Família",
+        "Sagrada Familia"
+      ]
+    }
+  ]
+}

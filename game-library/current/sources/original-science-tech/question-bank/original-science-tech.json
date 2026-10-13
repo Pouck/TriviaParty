@@ -1,0 +1,87 @@
+{
+  "category": "Sciences et technologie",
+  "subject": "Sciences",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "q5",
+      "category": "Sciences et technologie",
+      "prompt": "Quel langage informatique porte le nom d’une île indonésienne ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Java",
+        "B — JavaScript",
+        "C — Python",
+        "D — C++"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/original-science-tech/island.png"
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q17",
+      "category": "Sciences et technologie",
+      "prompt": "Quel est le symbole chimique de l’or ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Gd",
+        "B — Au",
+        "C — Ag",
+        "D — Fe"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q18",
+      "category": "Sciences et technologie",
+      "prompt": "Quelle entreprise a créé l’iPhone ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Apple",
+        "B — Google",
+        "C — Microsoft",
+        "D — Amazon"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q19",
+      "category": "Sciences et technologie",
+      "prompt": "Comment appelle-t-on le passage de l’eau liquide à la glace ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La fusion",
+        "B — L’évaporation",
+        "C — La sublimation",
+        "D — La solidification"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/original-science-tech/snow.png"
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q20",
+      "category": "Sciences et technologie",
+      "prompt": "Quelle planète est la plus proche du Soleil ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Vénus",
+        "B — Mars",
+        "C — Mercure",
+        "D — La Terre"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

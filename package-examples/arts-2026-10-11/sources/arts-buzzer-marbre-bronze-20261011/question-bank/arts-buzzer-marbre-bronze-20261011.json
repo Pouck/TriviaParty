@@ -1,0 +1,122 @@
+{
+  "category": "Arts — Marbre et bronze — Buzzer",
+  "subject": "Arts",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "arts-buzzer-marbre-bronze-20261011-01",
+      "category": "Arts — Marbre et bronze — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment s’appelle cette statue de lanceur de disque ?",
+      "acceptableAnswers": [
+        "Le Discobole",
+        "Discobole",
+        "Discobolus"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/discobole.jpg"
+    },
+    {
+      "id": "arts-buzzer-marbre-bronze-20261011-02",
+      "category": "Arts — Marbre et bronze — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui a sculpté Le Baiser, le célèbre couple enlacé ?",
+      "acceptableAnswers": [
+        "Auguste Rodin",
+        "Rodin"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "arts-buzzer-marbre-bronze-20261011-03",
+      "category": "Arts — Marbre et bronze — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel personnage troyen est représenté ici avec ses deux fils et des serpents ?",
+      "acceptableAnswers": [
+        "Laocoon",
+        "Laocoön"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/laocoon.jpg"
+    },
+    {
+      "id": "arts-buzzer-marbre-bronze-20261011-04",
+      "category": "Arts — Marbre et bronze — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans quelle ville italienne se trouve le David original de Michel-Ange ?",
+      "acceptableAnswers": [
+        "Florence",
+        "Firenze"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "arts-buzzer-marbre-bronze-20261011-05",
+      "category": "Arts — Marbre et bronze — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment s’appelle cette sculpture de Michel-Ange ?",
+      "acceptableAnswers": [
+        "La Pietà",
+        "Pietà",
+        "Pieta"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/pieta.jpg"
+    },
+    {
+      "id": "arts-buzzer-marbre-bronze-20261011-06",
+      "category": "Arts — Marbre et bronze — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "De quelle île du Pacifique les moaï sont-ils originaires ?",
+      "acceptableAnswers": [
+        "Rapa Nui",
+        "L’île de Pâques",
+        "Île de Pâques",
+        "Easter Island"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "arts-buzzer-marbre-bronze-20261011-07",
+      "category": "Arts — Marbre et bronze — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel artiste a créé La Petite Danseuse de quatorze ans ?",
+      "acceptableAnswers": [
+        "Edgar Degas",
+        "Degas"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/danseuse.jpg"
+    },
+    {
+      "id": "arts-buzzer-marbre-bronze-20261011-08",
+      "category": "Arts — Marbre et bronze — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel pays a offert la statue de la Liberté aux États-Unis ?",
+      "acceptableAnswers": [
+        "La France",
+        "France"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "category": "Histoire du Canada - Chronologie moins facile",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "kind": "ordering",
+      "id": "canada-moins-facile-20261010-01",
+      "category": "Histoire du Canada - Chronologie moins facile",
+      "prompt": "Quel ordre va du plus ancien au plus récent pour le début du XXe siècle ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Vimy"
+        },
+        {
+          "id": "item-1",
+          "text": "Alberta et Saskatchewan"
+        },
+        {
+          "id": "item-2",
+          "text": "Empress of Ireland"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "canada-moins-facile-20261010-02",
+      "category": "Histoire du Canada - Chronologie moins facile",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Dieppe"
+        },
+        {
+          "id": "item-1",
+          "text": "Hong Kong"
+        },
+        {
+          "id": "item-2",
+          "text": "Juno Beach"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "canada-moins-facile-20261010-03",
+      "category": "Histoire du Canada - Chronologie moins facile",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Voie maritime"
+        },
+        {
+          "id": "item-1",
+          "text": "Expo 67"
+        },
+        {
+          "id": "item-2",
+          "text": "Terre-Neuve"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "canada-moins-facile-20261010-04",
+      "category": "Histoire du Canada - Chronologie moins facile",
+      "prompt": "Quel ordre va du plus ancien au plus récent pour les crises et attentats ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Attentat d’Air India"
+        },
+        {
+          "id": "item-1",
+          "text": "Crise d’Oka"
+        },
+        {
+          "id": "item-2",
+          "text": "Crise d’Octobre"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "canada-moins-facile-20261010-05",
+      "category": "Histoire du Canada - Chronologie moins facile",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Nunavut"
+        },
+        {
+          "id": "item-1",
+          "text": "Référendum québécois"
+        },
+        {
+          "id": "item-2",
+          "text": "Échec de Meech"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://naturalhistory.si.edu/education/teaching-resources/life-science/butterflies-and-beyond",
+      "https://www.allaboutbirds.org/guide/",
+      "https://www.britannica.com/science/metamorphosis"
+    ],
+    "note": "Œuf → Chenille → Papillon adulte",
+    "visual": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://naturalhistory.si.edu/education/teaching-resources/life-science/butterflies-and-beyond",
+      "https://www.allaboutbirds.org/guide/",
+      "https://www.britannica.com/science/metamorphosis"
+    ],
+    "note": "Œuf → Têtard → Grenouille adulte",
+    "visual": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://naturalhistory.si.edu/education/teaching-resources/life-science/butterflies-and-beyond",
+      "https://www.allaboutbirds.org/guide/",
+      "https://www.britannica.com/science/metamorphosis"
+    ],
+    "note": "Ponte de l’œuf → Éclosion → Premier envol",
+    "visual": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://naturalhistory.si.edu/education/teaching-resources/life-science/butterflies-and-beyond",
+      "https://www.allaboutbirds.org/guide/",
+      "https://www.britannica.com/science/metamorphosis"
+    ],
+    "note": "Gestation → Naissance → Sevrage",
+    "visual": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://naturalhistory.si.edu/education/teaching-resources/life-science/butterflies-and-beyond",
+      "https://www.allaboutbirds.org/guide/",
+      "https://www.britannica.com/science/metamorphosis"
+    ],
+    "note": "Œuf → Larve → Abeille adulte",
+    "visual": null
+  }
+]

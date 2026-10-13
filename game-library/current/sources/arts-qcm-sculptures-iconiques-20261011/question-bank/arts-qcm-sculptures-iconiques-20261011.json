@@ -1,0 +1,103 @@
+{
+  "category": "Arts — Sculptures iconiques — QCM",
+  "subject": "Arts",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "arts-qcm-sculptures-iconiques-20261011-01",
+      "category": "Arts — Sculptures iconiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a sculpté ce David en marbre ?",
+      "options": [
+        "A — Auguste Rodin",
+        "B — Donatello",
+        "C — Michel-Ange",
+        "D — Le Bernin"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/arts-qcm-sculptures-iconiques-20261011/david.jpg"
+    },
+    {
+      "id": "arts-qcm-sculptures-iconiques-20261011-02",
+      "category": "Arts — Sculptures iconiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel animal est représenté par Maman, la sculpture monumentale de Louise Bourgeois ?",
+      "options": [
+        "A — Une pieuvre",
+        "B — Une araignée",
+        "C — Une fourmi",
+        "D — Une libellule"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "arts-qcm-sculptures-iconiques-20261011-03",
+      "category": "Arts — Sculptures iconiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans quel musée se trouve la Vénus de Milo ?",
+      "options": [
+        "A — Le British Museum",
+        "B — Le Prado",
+        "C — Le Rijksmuseum",
+        "D — Le Louvre"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/arts-qcm-sculptures-iconiques-20261011/venus.jpg"
+    },
+    {
+      "id": "arts-qcm-sculptures-iconiques-20261011-04",
+      "category": "Arts — Sculptures iconiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel métal forme l’enveloppe extérieure de la statue de la Liberté ?",
+      "options": [
+        "A — Le zinc",
+        "B — Le cuivre",
+        "C — L’argent",
+        "D — L’aluminium"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "arts-qcm-sculptures-iconiques-20261011-05",
+      "category": "Arts — Sculptures iconiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle divinité grecque est représentée par la Victoire de Samothrace ?",
+      "options": [
+        "A — Niké",
+        "B — Athéna",
+        "C — Artémis",
+        "D — Héra"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/arts-qcm-sculptures-iconiques-20261011/victoire.jpg"
+    },
+    {
+      "id": "arts-qcm-sculptures-iconiques-20261011-06",
+      "category": "Arts — Sculptures iconiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans le groupe Apollon et Daphné du Bernin, en quel végétal Daphné se transforme-t-elle ?",
+      "options": [
+        "A — Un laurier",
+        "B — Un cyprès",
+        "C — Un olivier",
+        "D — Un chêne"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

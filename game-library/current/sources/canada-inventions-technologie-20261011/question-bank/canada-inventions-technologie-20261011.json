@@ -1,0 +1,100 @@
+{
+  "category": "Inventions canadiennes — Transport, technologie et communication",
+  "subject": "Sciences",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-technologie-20261011-01",
+      "category": "Inventions canadiennes — Transport, technologie et communication",
+      "prompt": "Quel véhicule à plusieurs passagers Joseph-Armand Bombardier commercialise-t-il dans les années 1930 pour circuler sur la neige ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — L’autoneige B7",
+        "B — L’aéroglisseur",
+        "C — Le quad tout-terrain",
+        "D — Le navire brise-glace"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-technologie-20261011-02",
+      "category": "Inventions canadiennes — Transport, technologie et communication",
+      "prompt": "Quel dispositif Henry Woodward et Mathew Evans font-ils breveter à Toronto en 1874, avant qu’Edison acquière des droits sur leur invention ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le grille-pain électrique",
+        "B — Une lampe à incandescence",
+        "C — Le téléphone à cadran",
+        "D — La machine à laver électrique"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-technologie-20261011-03",
+      "category": "Inventions canadiennes — Transport, technologie et communication",
+      "prompt": "Dans quel programme de la NASA le Canadarm original, utilisé pour la première fois dans l’espace en 1981, est-il installé ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Les missions lunaires Apollo",
+        "B — Les sondes Voyager",
+        "C — Le programme de la navette spatiale",
+        "D — Les véhicules d’exploration de Mars"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-technologie-20261011-04",
+      "category": "Inventions canadiennes — Transport, technologie et communication",
+      "prompt": "Quel appareil de Research In Motion lancé en 1999 permet notamment d’échanger des courriels sans fil ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le Palm Pilot",
+        "B — Le Motorola Razr",
+        "C — Le Nokia 3310",
+        "D — Le BlackBerry"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-technologie-20261011-05",
+      "category": "Inventions canadiennes — Transport, technologie et communication",
+      "prompt": "Quel appareil George Klein et son équipe perfectionnent-ils au CNRC dans les années 1950 pour améliorer l’autonomie des personnes handicapées ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le fauteuil roulant électrique",
+        "B — La prothèse de jambe mécanique",
+        "C — La machine à écrire en braille",
+        "D — L’appareil auditif acoustique"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-technologie-20261011-06",
+      "category": "Inventions canadiennes — Transport, technologie et communication",
+      "prompt": "Quel équipement ferroviaire John William Elliot imagine-t-il et fait-il breveter en 1869 pour dégager la neige ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — L’aiguillage hydraulique",
+        "B — Le chasse-neige rotatif",
+        "C — La grue diesel",
+        "D — Le frein à vapeur de locomotive"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

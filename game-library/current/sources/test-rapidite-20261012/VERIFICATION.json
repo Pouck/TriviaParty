@@ -1,0 +1,61 @@
+[
+  {
+    "question": 1,
+    "questionId": "test-08-speed-race-q1",
+    "originalPackage": "test-08-speed-race",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "test-20261012-rapidite-complement-1",
+    "originalPackage": "architecture-qcm-asie-orient-20261011",
+    "reference": {
+      "question": 1,
+      "site": "taj",
+      "verification": "https://whc.unesco.org/en/list/252/",
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg"
+    },
+    "new": true
+  },
+  {
+    "question": 3,
+    "questionId": "test-20261012-rapidite-complement-2",
+    "originalPackage": "architecture-qcm-asie-orient-20261011",
+    "reference": {
+      "question": 2,
+      "site": "petra",
+      "verification": "https://whc.unesco.org/en/list/326/",
+      "note": "",
+      "photo": null
+    },
+    "new": true
+  },
+  {
+    "question": 4,
+    "questionId": "test-20261012-rapidite-complement-3",
+    "originalPackage": "architecture-qcm-asie-orient-20261011",
+    "reference": {
+      "question": 3,
+      "site": "angkor",
+      "verification": "https://whc.unesco.org/en/list/668/",
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Angkor_Wat.jpg"
+    },
+    "new": true
+  },
+  {
+    "question": 5,
+    "questionId": "test-20261012-rapidite-complement-4",
+    "originalPackage": "architecture-qcm-asie-orient-20261011",
+    "reference": {
+      "question": 4,
+      "site": "borobudur",
+      "verification": "https://whc.unesco.org/en/list/592/",
+      "note": "",
+      "photo": null
+    },
+    "new": true
+  }
+]

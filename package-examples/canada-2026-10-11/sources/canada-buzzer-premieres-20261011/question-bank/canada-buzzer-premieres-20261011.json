@@ -1,0 +1,119 @@
+{
+  "category": "Canada — Premières et repères historiques — Buzzer",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-01",
+      "category": "Canada — Premières et repères historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Qui est la souveraine britannique lors de la Confédération canadienne en 1867 ?",
+      "acceptableAnswers": [
+        "La reine Victoria"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-02",
+      "category": "Canada — Premières et repères historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Dans quel territoire canadien se déroule la ruée vers l’or du Klondike, commencée en 1896 ?",
+      "acceptableAnswers": [
+        "Le Yukon"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-03",
+      "category": "Canada — Premières et repères historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel est le titre de l’hymne national du Canada ?",
+      "acceptableAnswers": [
+        "Ô Canada"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-04",
+      "category": "Canada — Premières et repères historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel explorateur atteint l’Amérique du Nord en 1497 à bord du Matthew ?",
+      "acceptableAnswers": [
+        "Jean Cabot"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-05",
+      "category": "Canada — Premières et repères historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel corps policier canadien est célèbre pour sa tunique rouge et son chapeau Stetson ?",
+      "acceptableAnswers": [
+        "La Gendarmerie royale du Canada"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-06",
+      "category": "Canada — Premières et repères historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle province entre dans la Confédération en 1949 ?",
+      "acceptableAnswers": [
+        "Terre-Neuve, aujourd’hui Terre-Neuve-et-Labrador"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-07",
+      "category": "Canada — Premières et repères historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle exposition universelle se tient à Montréal pour le centenaire canadien en 1967 ?",
+      "acceptableAnswers": [
+        "Expo 67"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-08",
+      "category": "Canada — Premières et repères historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle hormone les travaux de Banting, Best, Macleod et Collip à Toronto permettent-ils d’utiliser contre le diabète ?",
+      "acceptableAnswers": [
+        "L’insuline"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-09",
+      "category": "Canada — Premières et repères historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Au large de quelle île canadienne le Titanic sombre-t-il en 1912 ?",
+      "acceptableAnswers": [
+        "Terre-Neuve"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-premieres-20261011-10",
+      "category": "Canada — Premières et repères historiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel titre porte la personne qui représente le monarque au niveau fédéral au Canada ?",
+      "acceptableAnswers": [
+        "Gouverneur général ou gouverneure générale"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "lib-qcm-devinettes-20261012",
+  "name": "Devinettes — Objets familiers — QCM",
+  "description": "5 questions accessibles en français. 2 visuelles et 3 textuelles ; 30 s ; 15 → 10 → 5 pts.",
+  "categoryPackages": [
+    "lib-qcm-devinettes-20261012"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 10,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "category": "Inventions canadiennes — Créateurs et objets — Qui suis-je ?",
+  "subject": "Sciences",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-inventions-canada-20261012-01",
+      "category": "Inventions canadiennes — Créateurs et objets — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis né au Canada.",
+        "J’enseigne l’éducation physique aux États-Unis.",
+        "J’utilise deux paniers de pêches pour créer un jeu.",
+        "J’invente le basketball."
+      ],
+      "acceptableAnswers": [
+        "James Naismith"
+      ]
+    },
+    {
+      "id": "lib-qsj-inventions-canada-20261012-02",
+      "category": "Inventions canadiennes — Créateurs et objets — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je viens de Valcourt.",
+        "Je développe des véhicules adaptés à l’hiver.",
+        "Mes véhicules peuvent transporter des gens sur la neige.",
+        "Mon nom est celui d’une célèbre entreprise québécoise."
+      ],
+      "acceptableAnswers": [
+        "Joseph-Armand Bombardier",
+        "Bombardier"
+      ]
+    },
+    {
+      "id": "lib-qsj-inventions-canada-20261012-03",
+      "category": "Inventions canadiennes — Créateurs et objets — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une hormone.",
+        "Je joue un rôle dans la régulation du sucre sanguin.",
+        "L’équipe de Banting travaille à mon usage médical à Toronto.",
+        "Je suis essentielle au traitement de nombreux diabétiques."
+      ],
+      "acceptableAnswers": [
+        "L’insuline",
+        "Insuline"
+      ]
+    },
+    {
+      "id": "lib-qsj-inventions-canada-20261012-04",
+      "category": "Inventions canadiennes — Créateurs et objets — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un appareil robotisé.",
+        "Je travaille dans l’espace.",
+        "J’ai été installé sur les navettes de la NASA.",
+        "Mon nom anglais rappelle le Canada et un bras."
+      ],
+      "acceptableAnswers": [
+        "Le Canadarm",
+        "Canadarm"
+      ]
+    },
+    {
+      "id": "lib-qsj-inventions-canada-20261012-05",
+      "category": "Inventions canadiennes — Créateurs et objets — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un système de cinéma.",
+        "Des Canadiens ont participé à mon développement.",
+        "Je suis associé à une très grande image.",
+        "Je suis célèbre pour mes écrans géants et immersifs."
+      ],
+      "acceptableAnswers": [
+        "IMAX"
+      ]
+    }
+  ]
+}

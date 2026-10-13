@@ -1,0 +1,64 @@
+[
+  {
+    "question": 1,
+    "questionId": "revolution-chronologie-20261010-01",
+    "originalPackage": "revolution-francaise-chronologie-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "revolution-chronologie-20261010-02",
+    "originalPackage": "revolution-francaise-chronologie-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "revolution-chronologie-20261010-03",
+    "originalPackage": "revolution-francaise-chronologie-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "revolution-chronologie-20261010-04",
+    "originalPackage": "revolution-francaise-chronologie-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "resize-20261012-jalons-1789",
+    "originalPackage": null,
+    "reference": {
+      "sources": [
+        "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/assemblee-nationale-constituante"
+      ],
+      "note": "20 juin 1789 → nuit du 4 août 1789 → 26 août 1789"
+    },
+    "new": true,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez ces événements de 1789.",
+      "events": [
+        [
+          "Ouverture des États généraux",
+          "1789-05-05"
+        ],
+        [
+          "Abolition des privilèges",
+          "1789-08-04"
+        ],
+        [
+          "Déclaration des droits de l’homme et du citoyen",
+          "1789-08-26"
+        ]
+      ],
+      "sources": [
+        "https://www.chateauversailles.fr/decouvrir/histoire/grandes-dates/ouverture-etats-generaux"
+      ]
+    }
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "category": "Géographie mondiale — Villes et monuments — QCM",
+  "subject": "Géographie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-geographie-villes-20261012-01",
+      "category": "Géographie mondiale — Villes et monuments — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans quelle ville se trouve la tour Eiffel ?",
+      "options": [
+        "A — Lyon",
+        "B — Bruxelles",
+        "C — Genève",
+        "D — Paris"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/lib-qcm-geographie-villes-20261012/eiffel.jpg"
+    },
+    {
+      "id": "lib-qcm-geographie-villes-20261012-02",
+      "category": "Géographie mondiale — Villes et monuments — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle ville abrite le Taj Mahal ?",
+      "options": [
+        "A — Delhi",
+        "B — Agra",
+        "C — Mumbai",
+        "D — Jaipur"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/lib-qcm-geographie-villes-20261012/taj.jpg"
+    },
+    {
+      "id": "lib-qcm-geographie-villes-20261012-03",
+      "category": "Géographie mondiale — Villes et monuments — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle est la capitale de l’Espagne ?",
+      "options": [
+        "A — Barcelone",
+        "B — Séville",
+        "C — Madrid",
+        "D — Valence"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-geographie-villes-20261012-04",
+      "category": "Géographie mondiale — Villes et monuments — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle ville est la capitale du Japon ?",
+      "options": [
+        "A — Tokyo",
+        "B — Hiroshima",
+        "C — Kyoto",
+        "D — Osaka"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-geographie-villes-20261012-05",
+      "category": "Géographie mondiale — Villes et monuments — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle est la capitale du Brésil ?",
+      "options": [
+        "A — Brasília",
+        "B — Rio de Janeiro",
+        "C — São Paulo",
+        "D — Salvador"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

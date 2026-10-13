@@ -1,0 +1,15 @@
+{
+  "id": "original-science-tech",
+  "name": "Sciences et technologie",
+  "description": "Ensemble de questions original révisé : français, 15 points, deux visuels et trois textes.",
+  "categoryPackages": [
+    "science-tech"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

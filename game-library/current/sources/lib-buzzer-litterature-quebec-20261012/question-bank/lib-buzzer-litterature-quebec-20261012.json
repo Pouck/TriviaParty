@@ -1,0 +1,74 @@
+{
+  "category": "Littérature québécoise — Grands noms — Réponses écrites",
+  "subject": "Littérature",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-litterature-quebec-20261012-01",
+      "category": "Littérature québécoise — Grands noms — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel dramaturge québécois a créé Les Belles-Sœurs ?",
+      "acceptableAnswers": [
+        "Michel Tremblay"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-litterature-quebec-20261012-02",
+      "category": "Littérature québécoise — Grands noms — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle romancière a écrit Bonheur d’occasion ?",
+      "acceptableAnswers": [
+        "Gabrielle Roy"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-litterature-quebec-20261012-03",
+      "category": "Littérature québécoise — Grands noms — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel poète québécois évoque un Vaisseau d’or ?",
+      "acceptableAnswers": [
+        "Émile Nelligan",
+        "Nelligan"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-litterature-quebec-20261012/ship.png"
+    },
+    {
+      "id": "lib-buzzer-litterature-quebec-20261012-04",
+      "category": "Littérature québécoise — Grands noms — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel auteur-chansonnier québécois a écrit Pieds nus dans l’aube ?",
+      "acceptableAnswers": [
+        "Félix Leclerc",
+        "Leclerc"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-litterature-quebec-20261012/sunrise.png"
+    },
+    {
+      "id": "lib-buzzer-litterature-quebec-20261012-05",
+      "category": "Littérature québécoise — Grands noms — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel roman de Louis Hémon raconte la vie d’une jeune fille au Lac-Saint-Jean ?",
+      "acceptableAnswers": [
+        "Maria Chapdelaine"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

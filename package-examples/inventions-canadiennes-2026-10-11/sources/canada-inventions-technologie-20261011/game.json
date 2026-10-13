@@ -1,0 +1,15 @@
+{
+  "id": "canada-inventions-technologie-20261011",
+  "name": "Inventions canadiennes — Transport, technologie et communication",
+  "description": "6 QCM en français ; 15 secondes ; 15 → 10 → 5 points.",
+  "categoryPackages": [
+    "canada-inventions-technologie-20261011"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

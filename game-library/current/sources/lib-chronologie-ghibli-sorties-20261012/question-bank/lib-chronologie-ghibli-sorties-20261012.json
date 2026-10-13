@@ -1,0 +1,145 @@
+{
+  "category": "Cinéma — Studio Ghibli — Sorties japonaises — Chronologie",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "lib-chronologie-ghibli-sorties-20261012-01",
+      "category": "Cinéma — Studio Ghibli — Sorties japonaises — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties au Japon",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Kiki la petite sorcière"
+        },
+        {
+          "id": "item-1",
+          "text": "Le Château dans le ciel"
+        },
+        {
+          "id": "item-2",
+          "text": "Mon voisin Totoro"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-ghibli-sorties-20261012-02",
+      "category": "Cinéma — Studio Ghibli — Sorties japonaises — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties originales au Japon.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Je peux entendre l’océan"
+        },
+        {
+          "id": "item-1",
+          "text": "Souvenirs goutte à goutte"
+        },
+        {
+          "id": "item-2",
+          "text": "Porco Rosso"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-ghibli-sorties-20261012-03",
+      "category": "Cinéma — Studio Ghibli — Sorties japonaises — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties originales au Japon.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Si tu tends l’oreille"
+        },
+        {
+          "id": "item-1",
+          "text": "Princesse Mononoké"
+        },
+        {
+          "id": "item-2",
+          "text": "Pompoko"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-ghibli-sorties-20261012-04",
+      "category": "Cinéma — Studio Ghibli — Sorties japonaises — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties originales au Japon.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Mes voisins les Yamada"
+        },
+        {
+          "id": "item-1",
+          "text": "Le Royaume des chats"
+        },
+        {
+          "id": "item-2",
+          "text": "Le Voyage de Chihiro"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-ghibli-sorties-20261012-05",
+      "category": "Cinéma — Studio Ghibli — Sorties japonaises — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties originales au Japon.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Les Contes de Terremer"
+        },
+        {
+          "id": "item-1",
+          "text": "Ponyo sur la falaise"
+        },
+        {
+          "id": "item-2",
+          "text": "Le Château ambulant"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

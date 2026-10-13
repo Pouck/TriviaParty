@@ -1,0 +1,43 @@
+{
+  "category": "Qui suis-je ? — Mythologie romaine — Héros et fondations",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-mythologie-romaine-fondations-20261010-01",
+      "category": "Qui suis-je ? — Mythologie romaine — Héros et fondations",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je fuis Troie en flammes en portant mon père Anchise et en emmenant mon fils Ascagne.",
+        "Mon voyage me conduit à Carthage, où Didon s’éprend de moi.",
+        "Ma mère Vénus me protège dans ma quête d’une nouvelle terre en Italie.",
+        "Je suis le héros troyen dont Virgile raconte le voyage dans l’Énéide."
+      ],
+      "acceptableAnswers": [
+        "Énée"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-mythologie-romaine-fondations-20261010-02",
+      "category": "Qui suis-je ? — Mythologie romaine — Héros et fondations",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Nous sommes les fils légendaires de la vestale Rhéa Silvia, menacés par le roi Amulius.",
+        "Abandonnés près du Tibre, nous sommes recueillis et allaités par une louve.",
+        "Devenus adultes, nous nous disputons au sujet d’une nouvelle ville ; un seul de nous survit.",
+        "Nous sommes les jumeaux de la légende de la fondation de Rome."
+      ],
+      "acceptableAnswers": [
+        "Romulus et Rémus"
+      ]
+    }
+  ]
+}

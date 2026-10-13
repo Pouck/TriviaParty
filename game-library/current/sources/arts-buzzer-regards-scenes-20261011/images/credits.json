@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "baiser",
+    "title": "The Kiss (Klimt)",
+    "file": "baiser.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg/1920px-The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Gustav Klimt",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Google Art Project",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "arts-buzzer-regards-scenes-20261011"
+  },
+  {
+    "slug": "cri",
+    "title": "The Scream",
+    "file": "cri.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/1920px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Edvard Munch",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "National Museum of Art, Architecture and Design",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "arts-buzzer-regards-scenes-20261011"
+  },
+  {
+    "slug": "olympia",
+    "title": "Olympia (Manet)",
+    "file": "olympia.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Edouard_Manet_-_Olympia_-_Google_Art_ProjectFXD.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Edouard_Manet_-_Olympia_-_Google_Art_ProjectFXD.jpg/1920px-Edouard_Manet_-_Olympia_-_Google_Art_ProjectFXD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Édouard Manet",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Google Arts & Culture  — ywFEI4rxgCSO1Q",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "arts-buzzer-regards-scenes-20261011"
+  },
+  {
+    "slug": "galette",
+    "title": "Bal du moulin de la Galette",
+    "file": "galette.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Renoir,_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette,_1876.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg/1920px-Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Pierre-Auguste Renoir",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Google Art & Culture",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "arts-buzzer-regards-scenes-20261011"
+  }
+]

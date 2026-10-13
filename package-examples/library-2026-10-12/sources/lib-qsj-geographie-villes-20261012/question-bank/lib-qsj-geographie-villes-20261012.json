@@ -1,0 +1,95 @@
+{
+  "category": "Géographie mondiale — Villes et monuments — Qui suis-je ?",
+  "subject": "Géographie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-geographie-villes-20261012-01",
+      "category": "Géographie mondiale — Villes et monuments — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis traversée par la Seine.",
+        "Le Louvre est l’un de mes musées.",
+        "La tour Eiffel domine mon paysage.",
+        "Je suis la capitale de la France."
+      ],
+      "acceptableAnswers": [
+        "Paris"
+      ]
+    },
+    {
+      "id": "lib-qsj-geographie-villes-20261012-02",
+      "category": "Géographie mondiale — Villes et monuments — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une ville sur le Tibre.",
+        "On me surnomme la Ville éternelle.",
+        "Le Colisée est un de mes monuments.",
+        "Je suis la capitale de l’Italie."
+      ],
+      "acceptableAnswers": [
+        "Rome"
+      ]
+    },
+    {
+      "id": "lib-qsj-geographie-villes-20261012-03",
+      "category": "Géographie mondiale — Villes et monuments — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis traversée par la Tamise.",
+        "Buckingham Palace se trouve chez moi.",
+        "Big Ben est un de mes symboles.",
+        "Je suis la capitale du Royaume-Uni."
+      ],
+      "acceptableAnswers": [
+        "Londres"
+      ]
+    },
+    {
+      "id": "lib-qsj-geographie-villes-20261012-04",
+      "category": "Géographie mondiale — Villes et monuments — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je me trouve sur l’île de Honshū.",
+        "Je suis une immense métropole asiatique.",
+        "Kyoto a été une ancienne capitale de mon pays.",
+        "Je suis la capitale du Japon."
+      ],
+      "acceptableAnswers": [
+        "Tokyo"
+      ]
+    },
+    {
+      "id": "lib-qsj-geographie-villes-20261012-05",
+      "category": "Géographie mondiale — Villes et monuments — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Le Bosphore traverse ma ville.",
+        "Je m’étends en Europe et en Asie.",
+        "J’ai porté le nom de Constantinople.",
+        "Je suis la grande ville turque où se trouve Sainte-Sophie."
+      ],
+      "acceptableAnswers": [
+        "Istanbul"
+      ]
+    }
+  ]
+}

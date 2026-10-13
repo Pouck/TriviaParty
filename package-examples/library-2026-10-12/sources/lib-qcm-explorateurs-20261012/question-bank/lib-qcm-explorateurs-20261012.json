@@ -1,0 +1,87 @@
+{
+  "category": "Histoire — Explorateurs célèbres — QCM",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-explorateurs-20261012-01",
+      "category": "Histoire — Explorateurs célèbres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui fonde Québec en 1608 ?",
+      "options": [
+        "A — La Pérouse",
+        "B — Jacques Cartier",
+        "C — Jean Cabot",
+        "D — Samuel de Champlain"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-explorateurs-20261012-02",
+      "category": "Histoire — Explorateurs célèbres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel explorateur navigue sur le Saint-Laurent au XVIe siècle ?",
+      "options": [
+        "A — Marco Polo",
+        "B — Vasco de Gama",
+        "C — Jacques Cartier",
+        "D — James Cook"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/river.jpg"
+    },
+    {
+      "id": "lib-qcm-explorateurs-20261012-03",
+      "category": "Histoire — Explorateurs célèbres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel voyageur vénitien est associé à la cour de Kubilai Khan ?",
+      "options": [
+        "A — Marco Polo",
+        "B — Amundsen",
+        "C — Magellan",
+        "D — Ibn Battûta"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-explorateurs-20261012-04",
+      "category": "Histoire — Explorateurs célèbres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui atteint le pôle Sud en 1911 ?",
+      "options": [
+        "A — Ernest Shackleton",
+        "B — Robert Peary",
+        "C — Robert Scott",
+        "D — Roald Amundsen"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/antarctica.png"
+    },
+    {
+      "id": "lib-qcm-explorateurs-20261012-05",
+      "category": "Histoire — Explorateurs célèbres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle expédition réalise le premier tour du monde, terminé par Elcano ?",
+      "options": [
+        "A — L’expédition de Cook",
+        "B — L’expédition de Magellan",
+        "C — L’expédition de Cartier",
+        "D — L’expédition de Franklin"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "category": "Sciences — Découvertes accessibles — Qui suis-je ?",
+  "subject": "Sciences",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-science-generale-20261012-01",
+      "category": "Sciences — Découvertes accessibles — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je ne produis pas ma propre lumière visible.",
+        "Mes phases changent au fil des semaines.",
+        "Apollo 11 a atteint ma surface.",
+        "Je suis le satellite naturel de la Terre."
+      ],
+      "acceptableAnswers": [
+        "La Lune",
+        "Lune"
+      ]
+    },
+    {
+      "id": "lib-qsj-science-generale-20261012-02",
+      "category": "Sciences — Découvertes accessibles — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je crée un champ autour de moi.",
+        "Je possède deux pôles.",
+        "J’attire notamment le fer.",
+        "On m’utilise parfois pour tenir un papier sur un réfrigérateur."
+      ],
+      "acceptableAnswers": [
+        "Un aimant",
+        "Aimant"
+      ]
+    },
+    {
+      "id": "lib-qsj-science-generale-20261012-03",
+      "category": "Sciences — Découvertes accessibles — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une planète du Système solaire.",
+        "Je possède Phobos et Déimos comme lunes.",
+        "Des robots explorent ma surface.",
+        "On me surnomme la planète rouge."
+      ],
+      "acceptableAnswers": [
+        "Mars"
+      ]
+    },
+    {
+      "id": "lib-qsj-science-generale-20261012-04",
+      "category": "Sciences — Découvertes accessibles — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un appareil scientifique.",
+        "Je permets d’observer ce qui est très petit.",
+        "On m’utilise pour étudier des cellules.",
+        "Mes lentilles agrandissent l’image d’un échantillon."
+      ],
+      "acceptableAnswers": [
+        "Un microscope",
+        "Microscope"
+      ]
+    },
+    {
+      "id": "lib-qsj-science-generale-20261012-05",
+      "category": "Sciences — Découvertes accessibles — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un physicien.",
+        "Mon visage aux cheveux blancs est célèbre.",
+        "E = mc² est associé à mon travail.",
+        "J’ai développé la relativité."
+      ],
+      "acceptableAnswers": [
+        "Albert Einstein",
+        "Einstein"
+      ]
+    }
+  ]
+}

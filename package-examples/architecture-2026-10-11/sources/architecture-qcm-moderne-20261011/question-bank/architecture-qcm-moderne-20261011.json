@@ -1,0 +1,102 @@
+{
+  "category": "Architecture — Architecture moderne — QCM",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "architecture-qcm-moderne-20261011-01",
+      "category": "Architecture — Architecture moderne — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a conçu cet opéra ?",
+      "options": [
+        "A — Jørn Utzon",
+        "B — Le Corbusier",
+        "C — Alvar Aalto",
+        "D — Eero Saarinen"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/sydney.jpg"
+    },
+    {
+      "id": "architecture-qcm-moderne-20261011-02",
+      "category": "Architecture — Architecture moderne — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans quelle ville canadienne se trouve la tour CN ?",
+      "options": [
+        "A — Calgary",
+        "B — Toronto",
+        "C — Vancouver",
+        "D — Montréal"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "architecture-qcm-moderne-20261011-03",
+      "category": "Architecture — Architecture moderne — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a conçu ce musée new-yorkais ?",
+      "options": [
+        "A — Frank Gehry",
+        "B — Mies van der Rohe",
+        "C — I. M. Pei",
+        "D — Frank Lloyd Wright"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/guggenheim.jpg"
+    },
+    {
+      "id": "architecture-qcm-moderne-20261011-04",
+      "category": "Architecture — Architecture moderne — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle particularité architecturale distingue le Centre Pompidou, à Paris ?",
+      "options": [
+        "A — Une structure entièrement en bois",
+        "B — Ses réseaux techniques et circulations visibles à l’extérieur",
+        "C — Des façades sans aucune fenêtre",
+        "D — Une coupole médiévale"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "architecture-qcm-moderne-20261011-05",
+      "category": "Architecture — Architecture moderne — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Où est la maison par rapport à la cascade ?",
+      "options": [
+        "A — Au-dessus",
+        "B — Sous l’eau",
+        "C — Dans une grotte",
+        "D — De l’autre côté d’un lac"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/fallingwater.jpg"
+    },
+    {
+      "id": "architecture-qcm-moderne-20261011-06",
+      "category": "Architecture — Architecture moderne — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel architecte a conçu plusieurs grands bâtiments publics de Brasília, dont le Congrès national ?",
+      "options": [
+        "A — Norman Foster",
+        "B — Renzo Piano",
+        "C — Oscar Niemeyer",
+        "D — Antoni Gaudí"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

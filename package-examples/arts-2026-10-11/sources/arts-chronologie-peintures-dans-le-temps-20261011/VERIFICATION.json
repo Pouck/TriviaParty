@@ -1,0 +1,62 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.nationalgallery.org.uk/paintings/catalogues/campbell-1998/the-arnolfini-portrait",
+      "https://www.uffizi.it/opere/nascita-di-venere",
+      "https://www.museodelprado.es/en/easy-to-read/las-meninas-diego-velazquez/c43f1c8d-e6c9-a8c2-44dc-0c9be2e10177"
+    ],
+    "note": "La Naissance de Vénus est datée vers 1485. Corrigé : Les Époux Arnolfini (1434) → La Naissance de Vénus (1485) → Les Ménines (1656)",
+    "photo": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.rijksmuseum.nl/en/stories/10-things/story/10-things-about-rembrandt-s-night-watch",
+      "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring",
+      "https://www.marmottan.fr/notice/4014/"
+    ],
+    "note": " Corrigé : La Ronde de nuit (1642) → La Jeune Fille à la perle (1665) → Impression, soleil levant (1872)",
+    "photo": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/romanticism-topicality-sensuality",
+      "https://collections.louvre.fr/en/ark:/53355/cl010065872",
+      "https://www.musee-orsay.fr/fr/oeuvres/olympia-712"
+    ],
+    "note": "Radeau : 1818–1819 ; Liberté : 1830 ; Olympia : réalisation en 1863, pas exposition de 1865. Corrigé : Le Radeau de la Méduse (1819) → La Liberté guidant le peuple (1830) → Olympia (1863)",
+    "photo": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.musee-orsay.fr/en/artworks/bal-du-moulin-de-la-galette-497",
+      "https://www.moma.org/collection/works/79802",
+      "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00939"
+    ],
+    "note": "La Nuit étoilée de Saint-Rémy ; première version peinte du Cri. Corrigé : Bal du moulin de la Galette (1876) → La Nuit étoilée (1889) → Le Cri — version peinte de 1893 (1893)",
+    "photo": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.belvedere.at/en/permanent-collection",
+      "https://www.artic.edu/artworks/6565/american-gothic",
+      "https://guernica.museoreinasofia.es/agente/pablo-picasso-5322"
+    ],
+    "note": "Le Baiser : 1908–1909 (certaines notices donnent vers 1907–1909), sans incidence sur l’ordre. Corrigé : Le Baiser de Klimt (1909) → American Gothic (1930) → Guernica (1937)",
+    "photo": null
+  },
+  {
+    "question": 6,
+    "sources": [
+      "https://www.marmottan.fr/notice/4014/",
+      "https://www.moma.org/collection/works/79018",
+      "https://archive.artic.edu/hopper/nighthawks/"
+    ],
+    "note": " Corrigé : Impression, soleil levant (1872) → La Persistance de la mémoire (1931) → Nighthawks (1942)",
+    "photo": null
+  }
+]

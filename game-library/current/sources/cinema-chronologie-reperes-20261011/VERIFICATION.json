@@ -1,0 +1,112 @@
+[
+  {
+    "question": 1,
+    "questionId": "cinema-chronologie-reperes-20261011-01",
+    "originalPackage": "cinema-chronologie-reperes-20261011",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://amblin.com/movie/jaws/",
+        "https://www.lucasfilm.com/productions/raiders-of-the-lost-ark/",
+        "https://amblin.com/movie/jurassic-park/"
+      ],
+      "note": "Premières sorties originales en salles ; pas les rééditions, remakes ni la chronologie interne du récit. Corrigé : Jaws (1975) → Raiders of the Lost Ark (1981) → Jurassic Park (1993)"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "cinema-chronologie-reperes-20261011-02",
+    "originalPackage": "cinema-chronologie-reperes-20261011",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://d23.com/list-of-disney-films/"
+      ],
+      "note": "Premières sorties originales en salles ; pas les rééditions, remakes ni la chronologie interne du récit. Corrigé : Snow White and the Seven Dwarfs (1937) → Cinderella (1950) → The Lion King (1994)"
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "cinema-chronologie-reperes-20261011-03",
+    "originalPackage": "cinema-chronologie-reperes-20261011",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.bfi.org.uk/film/cefccdb2-b558-5623-9c17-72b4be7bd4c1/2001-a-space-odyssey",
+        "https://www.starwars.com/news/star-wars-movies-and-series-guide",
+        "https://www.bfi.org.uk/features/matrix-wachowskis-keanu-reeves"
+      ],
+      "note": "Premières sorties originales en salles ; pas les rééditions, remakes ni la chronologie interne du récit. Corrigé : 2001: A Space Odyssey (1968) → Star Wars: A New Hope (1977) → The Matrix (1999)"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "cinema-chronologie-reperes-20261011-04",
+    "originalPackage": "cinema-chronologie-reperes-20261011",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://catalog.afi.com/Catalog/moviedetails/50652",
+        "https://www.bfi.org.uk/lists/best-musical-every-year",
+        "https://catalog.afi.com/Catalog/moviedetails/55211"
+      ],
+      "note": "Premières sorties originales en salles ; pas les rééditions, remakes ni la chronologie interne du récit. Corrigé : Singin’ in the Rain (1952) → The Sound of Music (1965) → Grease (1978)"
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "cinema-chronologie-reperes-20261011-05",
+    "originalPackage": "cinema-chronologie-reperes-20261011",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.bfi.org.uk/sight-and-sound/greatest-films-all-time/all-voters/ben-stoddart",
+        "https://www.bfi.org.uk/film/43a149e2-78d7-53e5-bed2-a26c8dca3e2d/batman-begins",
+        "https://www.sonypictures.com/movies/spiderman"
+      ],
+      "note": "Premières sorties originales en salles ; pas les rééditions, remakes ni la chronologie interne du récit. Corrigé : Superman (Christopher Reeve) (1978) → Batman (Michael Keaton) (1989) → Spider-Man (Tobey Maguire) (2002)"
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "cinema-chronologie-reperes-20261011-06",
+    "originalPackage": "cinema-chronologie-reperes-20261011",
+    "reference": {
+      "question": 6,
+      "sources": [
+        "https://www.backtothefuture.com/movies/backtothefuture1/",
+        "https://amblin.com/movie/jurassic-park/",
+        "https://www.bfi.org.uk/film/aa4a1930-21de-51ce-9700-6acaf2d59437/titanic"
+      ],
+      "note": "Premières sorties originales en salles ; pas les rééditions, remakes ni la chronologie interne du récit. Corrigé : Back to the Future (1985) → Jurassic Park (1993) → Titanic (1997)"
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez les sorties originales de ces films.",
+      "events": [
+        [
+          "E.T. the Extra-Terrestrial",
+          1982
+        ],
+        [
+          "Back to the Future",
+          1985
+        ],
+        [
+          "Titanic",
+          1997
+        ]
+      ],
+      "sources": [
+        "https://www.universalpicturesathome.com/movies/et-the-extra-terrestrial"
+      ]
+    }
+  }
+]

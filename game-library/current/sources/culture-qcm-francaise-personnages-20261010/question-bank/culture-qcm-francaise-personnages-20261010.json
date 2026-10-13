@@ -1,0 +1,85 @@
+{
+  "category": "Littérature française — Personnages : choix multiples — 1",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-01",
+      "category": "Littérature française — Personnages : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel jeune Gascon part pour Paris avec l’ambition de devenir mousquetaire dans le roman de Dumas ?",
+      "options": [
+        "A — Aramis",
+        "B — Athos",
+        "C — Porthos",
+        "D — D’Artagnan"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-02",
+      "category": "Littérature française — Personnages : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Qui perd le collier emprunté à une amie dans La Parure de Maupassant ?",
+      "options": [
+        "A — Mathilde Loisel",
+        "B — Jeanne de Lamare",
+        "C — Madame de Rênal",
+        "D — Boule de Suif"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-03",
+      "category": "Littérature française — Personnages : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Pour quel acte Jean Valjean est-il initialement condamné au bagne ?",
+      "options": [
+        "A — Le vol d’une montre",
+        "B — Une agression contre un percepteur",
+        "C — Le vol d’un pain pour nourrir la famille de sa sœur",
+        "D — La falsification d’une signature"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-04",
+      "category": "Littérature française — Personnages : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel est le nom du musicien qui se cache sous l’identité du Fantôme de l’Opéra ?",
+      "options": [
+        "A — Erik",
+        "B — Quasimodo",
+        "C — Raoul",
+        "D — Javert"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-francaise-personnages-20261010-05",
+      "category": "Littérature française — Personnages : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel imposteur religieux donne son nom à une comédie de Molière ?",
+      "options": [
+        "A — Dom Juan",
+        "B — Tartuffe",
+        "C — Harpagon",
+        "D — Alceste"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

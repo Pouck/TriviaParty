@@ -1,0 +1,95 @@
+{
+  "category": "Contes et légendes d’Angleterre — Qui suis-je ?",
+  "subject": "Contes et légendes",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-contes-anglais-20261012-01",
+      "category": "Contes et légendes d’Angleterre — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon histoire se déroule en Angleterre médiévale.",
+        "Le shérif de Nottingham est mon adversaire.",
+        "Je suis un archer associé à Sherwood.",
+        "Je suis le hors-la-loi qui aide les pauvres."
+      ],
+      "acceptableAnswers": [
+        "Robin des Bois"
+      ]
+    },
+    {
+      "id": "lib-qsj-contes-anglais-20261012-02",
+      "category": "Contes et légendes d’Angleterre — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je découvre un repas et des meubles sans permission.",
+        "Je préfère ce qui n’est ni trop grand ni trop petit.",
+        "Les propriétaires de la maison sont trois ours.",
+        "Mon nom évoque ma chevelure blonde."
+      ],
+      "acceptableAnswers": [
+        "Boucle d’or"
+      ]
+    },
+    {
+      "id": "lib-qsj-contes-anglais-20261012-03",
+      "category": "Contes et légendes d’Angleterre — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je reçois des graines en échange d’un animal.",
+        "Une plante géante pousse pendant la nuit.",
+        "Je rencontre un géant dans le ciel.",
+        "Je suis le héros du Haricot magique."
+      ],
+      "acceptableAnswers": [
+        "Jack"
+      ]
+    },
+    {
+      "id": "lib-qsj-contes-anglais-20261012-04",
+      "category": "Contes et légendes d’Angleterre — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un personnage d’une comptine anglaise.",
+        "Je m’assieds en hauteur avant de tomber.",
+        "Les hommes du roi ne peuvent me réparer.",
+        "Je suis souvent représenté comme un œuf."
+      ],
+      "acceptableAnswers": [
+        "Humpty Dumpty"
+      ]
+    },
+    {
+      "id": "lib-qsj-contes-anglais-20261012-05",
+      "category": "Contes et légendes d’Angleterre — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Nous sommes trois frères dans un conte.",
+        "Nous construisons des abris de matériaux différents.",
+        "Un loup essaie de souffler nos maisons.",
+        "Notre maison de briques résiste."
+      ],
+      "acceptableAnswers": [
+        "Les Trois Petits Cochons"
+      ]
+    }
+  ]
+}

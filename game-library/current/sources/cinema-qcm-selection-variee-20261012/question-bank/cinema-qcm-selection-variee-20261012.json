@@ -1,0 +1,100 @@
+{
+  "category": "Cinéma — Personnages et grands univers — QCM",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "cinema-qcm-coulisses-20261011-07",
+      "category": "Cinéma — Personnages et grands univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel film utilise principalement l’animation image par image de marionnettes ?",
+      "options": [
+        "A — Toy Story",
+        "B — Zootopia",
+        "C — Finding Nemo",
+        "D — L’Étrange Noël de monsieur Jack"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "cinema-qcm-coulisses-20261011-08",
+      "category": "Cinéma — Personnages et grands univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel long métrage de 1995 est le premier entièrement animé par ordinateur ?",
+      "options": [
+        "A — Shrek",
+        "B — Toy Story",
+        "C — Monsters, Inc.",
+        "D — A Bug’s Life"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "cinema-qcm-films-personnages-20261011-07",
+      "category": "Cinéma — Personnages et grands univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel nom porte la famille au centre de The Godfather (Le Parrain) ?",
+      "options": [
+        "A — Tattaglia",
+        "B — Barzini",
+        "C — Corleone",
+        "D — Soprano"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "cinema-qcm-films-personnages-20261011-08",
+      "category": "Cinéma — Personnages et grands univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quels sont les trois amis au centre de La Haine ?",
+      "options": [
+        "A — Vinz, Saïd et Hubert",
+        "B — Nino, Driss et Philippe",
+        "C — Hubert, Philippe et Saïd",
+        "D — Vinz, Nino et Driss"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-07",
+      "category": "Cinéma — Personnages et grands univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui réalise 2001: A Space Odyssey ?",
+      "options": [
+        "A — Stanley Kubrick",
+        "B — George Lucas",
+        "C — Steven Spielberg",
+        "D — Ridley Scott"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-08",
+      "category": "Cinéma — Personnages et grands univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel film québécois remporte l’Oscar du meilleur film en langue étrangère en 2004 ?",
+      "options": [
+        "A — Le Déclin de l’empire américain",
+        "B — Les Invasions barbares",
+        "C — Monsieur Lazhar",
+        "D — Incendies"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "category": "Architecture — Reconnaissance — Europe — Buzzer",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "architecture-buzzer-europe-20261011-01",
+      "category": "Architecture — Reconnaissance — Europe — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel monument voyez-vous ?",
+      "acceptableAnswers": [
+        "La tour Eiffel",
+        "Tour Eiffel"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/eiffel.jpg"
+    },
+    {
+      "id": "architecture-buzzer-europe-20261011-02",
+      "category": "Architecture — Reconnaissance — Europe — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel site français est célèbre pour son abbaye perchée sur un îlot rocheux au milieu d’une baie ?",
+      "acceptableAnswers": [
+        "Le Mont-Saint-Michel",
+        "Mont-Saint-Michel"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "architecture-buzzer-europe-20261011-03",
+      "category": "Architecture — Reconnaissance — Europe — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel nom courant désigne cette célèbre tour de l’horloge londonienne ?",
+      "acceptableAnswers": [
+        "Big Ben",
+        "La tour Elizabeth",
+        "Elizabeth Tower"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/bigben.jpg"
+    },
+    {
+      "id": "architecture-buzzer-europe-20261011-04",
+      "category": "Architecture — Reconnaissance — Europe — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel roi, surnommé le Roi-Soleil, a fait de Versailles le siège de sa cour ?",
+      "acceptableAnswers": [
+        "Louis XIV",
+        "Louis 14"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "architecture-buzzer-europe-20261011-05",
+      "category": "Architecture — Reconnaissance — Europe — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel monument parisien voyez-vous ?",
+      "acceptableAnswers": [
+        "L’Arc de triomphe",
+        "Arc de triomphe",
+        "L’Arc de triomphe de l’Étoile"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/arc.jpg"
+    },
+    {
+      "id": "architecture-buzzer-europe-20261011-06",
+      "category": "Architecture — Reconnaissance — Europe — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans quelle ville espagnole se trouve la Sagrada Família ?",
+      "acceptableAnswers": [
+        "Barcelone",
+        "Barcelona"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "category": "Animaux marins — Sous l’eau — Buzzer",
+  "subject": "Nature",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-animaux-marins-20261012-01",
+      "category": "Animaux marins — Sous l’eau — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel mammifère marin est représenté ici ?",
+      "acceptableAnswers": [
+        "Un dauphin",
+        "Dauphin"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-animaux-marins-20261012/dolphin.jpg"
+    },
+    {
+      "id": "lib-buzzer-animaux-marins-20261012-02",
+      "category": "Animaux marins — Sous l’eau — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel reptile marin possède une carapace ?",
+      "acceptableAnswers": [
+        "La tortue marine",
+        "Tortue",
+        "Tortue marine"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-animaux-marins-20261012/turtle.jpg"
+    },
+    {
+      "id": "lib-buzzer-animaux-marins-20261012-03",
+      "category": "Animaux marins — Sous l’eau — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel animal marin forme un polype et peut bâtir des récifs ?",
+      "acceptableAnswers": [
+        "Le corail",
+        "Corail"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-animaux-marins-20261012-04",
+      "category": "Animaux marins — Sous l’eau — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel grand cétacé noir et blanc est aussi appelé épaulard ?",
+      "acceptableAnswers": [
+        "L’orque",
+        "Orque",
+        "Épaulard"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-animaux-marins-20261012-05",
+      "category": "Animaux marins — Sous l’eau — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel poisson cartilagineux est connu pour son aileron dorsal ?",
+      "acceptableAnswers": [
+        "Le requin",
+        "Requin"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

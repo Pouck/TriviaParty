@@ -1,0 +1,55 @@
+[
+  {
+    "question": 1,
+    "questionId": "qui-suis-je-demo-01",
+    "originalPackage": "qui-suis-je-demo",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "test-03-qui-suis-je-q1",
+    "originalPackage": "test-03-qui-suis-je",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "test-20261012-indices-complement-1",
+    "originalPackage": "architecture-qsj-antiquite-20261011",
+    "reference": {
+      "question": 1,
+      "site": "colosseum",
+      "verification": "https://colosseo.it/en/area/the-colosseum/",
+      "note": "",
+      "photo": null
+    },
+    "new": true
+  },
+  {
+    "question": 4,
+    "questionId": "test-20261012-indices-complement-2",
+    "originalPackage": "architecture-qsj-antiquite-20261011",
+    "reference": {
+      "question": 2,
+      "site": "parthenon",
+      "verification": "https://whc.unesco.org/en/list/404/",
+      "note": "",
+      "photo": null
+    },
+    "new": true
+  },
+  {
+    "question": 5,
+    "questionId": "test-20261012-indices-complement-3",
+    "originalPackage": "architecture-qsj-antiquite-20261011",
+    "reference": {
+      "question": 3,
+      "site": "giza",
+      "verification": "https://whc.unesco.org/en/list/86/",
+      "note": "",
+      "photo": null
+    },
+    "new": true
+  }
+]

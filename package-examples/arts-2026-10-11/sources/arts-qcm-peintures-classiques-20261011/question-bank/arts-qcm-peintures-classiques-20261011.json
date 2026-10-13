@@ -1,0 +1,134 @@
+{
+  "category": "Arts — Peintures classiques — QCM",
+  "subject": "Arts",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-01",
+      "category": "Arts — Peintures classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a peint ce portrait ?",
+      "options": [
+        "A — Léonard de Vinci",
+        "B — Sandro Botticelli",
+        "C — Raphaël",
+        "D — Le Caravage"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/joconde.jpg"
+    },
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-02",
+      "category": "Arts — Peintures classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Où Michel-Ange a-t-il peint La Création d’Adam ?",
+      "options": [
+        "A — Le palais des Doges",
+        "B — La chapelle Sixtine",
+        "C — La cathédrale de Florence",
+        "D — Le Panthéon"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-03",
+      "category": "Arts — Peintures classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel est le titre de cette œuvre de Botticelli ?",
+      "options": [
+        "A — La Naissance de Vénus",
+        "B — L’Annonciation",
+        "C — Le Printemps",
+        "D — La Vierge à la grenade"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/naissance.jpg"
+    },
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-04",
+      "category": "Arts — Peintures classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans La Cène de Léonard de Vinci, combien d’apôtres entourent Jésus ?",
+      "options": [
+        "A — 13",
+        "B — 12",
+        "C — 11",
+        "D — 10"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-05",
+      "category": "Arts — Peintures classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle princesse est au centre des Ménines ?",
+      "options": [
+        "A — Marie-Antoinette",
+        "B — Isabelle de Castille",
+        "C — Marguerite-Thérèse",
+        "D — Élisabeth Ire"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/menines.jpg"
+    },
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-06",
+      "category": "Arts — Peintures classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel peintre a réalisé Les Époux Arnolfini ?",
+      "options": [
+        "A — Pieter Bruegel l’Ancien",
+        "B — Jérôme Bosch",
+        "C — Albrecht Dürer",
+        "D — Jan van Eyck"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-07",
+      "category": "Arts — Peintures classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel est le titre de ce tableau de Vermeer ?",
+      "options": [
+        "A — La Laitière",
+        "B — La Femme à la balance",
+        "C — La Jeune Fille à la perle",
+        "D — La Dentellière"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/perle.jpg"
+    },
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-08",
+      "category": "Arts — Peintures classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans La Naissance de Vénus, la déesse se tient sur quel objet ?",
+      "options": [
+        "A — Une amphore",
+        "B — Un trône",
+        "C — Un char",
+        "D — Une coquille"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

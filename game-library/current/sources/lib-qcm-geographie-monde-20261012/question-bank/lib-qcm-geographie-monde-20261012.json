@@ -1,0 +1,87 @@
+{
+  "category": "Géographie mondiale — Reliefs et océans — QCM",
+  "subject": "Géographie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-geographie-monde-20261012-01",
+      "category": "Géographie mondiale — Reliefs et océans — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel est le plus grand océan ?",
+      "options": [
+        "A — L’Atlantique",
+        "B — L’Indien",
+        "C — L’Arctique",
+        "D — Le Pacifique"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/lib-qcm-geographie-monde-20261012/ocean.png"
+    },
+    {
+      "id": "lib-qcm-geographie-monde-20261012-02",
+      "category": "Géographie mondiale — Reliefs et océans — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel est le plus grand désert chaud ?",
+      "options": [
+        "A — Le Sahara",
+        "B — L’Atacama",
+        "C — Le Gobi",
+        "D — Le Kalahari"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-geographie-monde-20261012-03",
+      "category": "Géographie mondiale — Reliefs et océans — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Sur quel continent se trouve l’Amazonie ?",
+      "options": [
+        "A — L’Afrique",
+        "B — L’Asie",
+        "C — L’Amérique du Sud",
+        "D — L’Océanie"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-geographie-monde-20261012-04",
+      "category": "Géographie mondiale — Reliefs et océans — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel pays abrite ce mont Fuji ?",
+      "options": [
+        "A — Le Japon",
+        "B — La Corée du Sud",
+        "C — Le Vietnam",
+        "D — La Chine"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-geographie-monde-20261012/fuji.jpg"
+    },
+    {
+      "id": "lib-qcm-geographie-monde-20261012-05",
+      "category": "Géographie mondiale — Reliefs et océans — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle chaîne longe l’ouest de l’Amérique du Sud ?",
+      "options": [
+        "A — L’Oural",
+        "B — Les Andes",
+        "C — Les Alpes",
+        "D — L’Atlas"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

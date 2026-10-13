@@ -1,0 +1,77 @@
+{
+  "category": "Géographie du Canada — Sites et plans d’eau — Réponses écrites",
+  "subject": "Géographie",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "canada-geo-buzzer-sites-20261011-01",
+      "category": "Géographie du Canada — Sites et plans d’eau — Réponses écrites",
+      "prompt": "Quelles célèbres chutes se trouvent à la frontière entre l’Ontario et l’État de New York ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Les chutes du Niagara",
+        "Chutes du Niagara",
+        "Niagara"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-geo-buzzer-sites-20261011-02",
+      "category": "Géographie du Canada — Sites et plans d’eau — Réponses écrites",
+      "prompt": "Quel océan borde les côtes les plus septentrionales du Canada ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "L’océan Arctique",
+        "L’Arctique",
+        "Arctique"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-geo-buzzer-sites-20261011-03",
+      "category": "Géographie du Canada — Sites et plans d’eau — Réponses écrites",
+      "prompt": "Quelle est la capitale du Nunavut ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Iqaluit"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-geo-buzzer-sites-20261011-04",
+      "category": "Géographie du Canada — Sites et plans d’eau — Réponses écrites",
+      "prompt": "Quelle province est reliée à la Nouvelle-Écosse par l’isthme de Chignectou ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Le Nouveau-Brunswick",
+        "Nouveau-Brunswick"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-geo-buzzer-sites-20261011-05",
+      "category": "Géographie du Canada — Sites et plans d’eau — Réponses écrites",
+      "prompt": "Quelle chaîne de montagnes traverse l’ouest de l’Alberta et la Colombie-Britannique ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Les Rocheuses",
+        "Les montagnes Rocheuses",
+        "Rocheuses"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "category": "Histoire des États-Unis — Grands repères — QCM",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-histoire-etats-unis-20261012-01",
+      "category": "Histoire des États-Unis — Grands repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui est le premier président des États-Unis ?",
+      "options": [
+        "A — Thomas Jefferson",
+        "B — Abraham Lincoln",
+        "C — John Adams",
+        "D — George Washington"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-histoire-etats-unis-20261012-02",
+      "category": "Histoire des États-Unis — Grands repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle statue est offerte par la France aux États-Unis ?",
+      "options": [
+        "A — Le David",
+        "B — Le Penseur",
+        "C — La Statue de la Liberté",
+        "D — Le Discobole"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/liberty-statue.jpg"
+    },
+    {
+      "id": "lib-qcm-histoire-etats-unis-20261012-03",
+      "category": "Histoire des États-Unis — Grands repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "En quelle année la Déclaration d’indépendance est-elle adoptée ?",
+      "options": [
+        "A — 1492",
+        "B — 1776",
+        "C — 1789",
+        "D — 1812"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-histoire-etats-unis-20261012-04",
+      "category": "Histoire des États-Unis — Grands repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel président est associé à l’abolition de l’esclavage pendant la guerre de Sécession ?",
+      "options": [
+        "A — Theodore Roosevelt",
+        "B — Abraham Lincoln",
+        "C — George Washington",
+        "D — John Kennedy"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-histoire-etats-unis-20261012-05",
+      "category": "Histoire des États-Unis — Grands repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle mission américaine permet le premier pas humain sur la Lune ?",
+      "options": [
+        "A — Apollo 11",
+        "B — Mercury 7",
+        "C — Apollo 8",
+        "D — Gemini 4"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/moon.jpg"
+    }
+  ]
+}

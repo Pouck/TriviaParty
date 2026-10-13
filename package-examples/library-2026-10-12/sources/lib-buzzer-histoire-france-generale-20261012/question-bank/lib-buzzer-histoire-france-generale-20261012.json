@@ -1,0 +1,75 @@
+{
+  "category": "Histoire de France — Figures et repères — Buzzer",
+  "subject": "Histoire",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-histoire-france-generale-20261012-01",
+      "category": "Histoire de France — Figures et repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle reine est l’épouse de Louis XVI ?",
+      "acceptableAnswers": [
+        "Marie-Antoinette"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-histoire-france-generale-20261012-02",
+      "category": "Histoire de France — Figures et repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel empereur français est vaincu à Waterloo ?",
+      "acceptableAnswers": [
+        "Napoléon Bonaparte",
+        "Napoléon"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/battle.png"
+    },
+    {
+      "id": "lib-buzzer-histoire-france-generale-20261012-03",
+      "category": "Histoire de France — Figures et repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel édit de 1598 accorde une tolérance religieuse aux protestants ?",
+      "acceptableAnswers": [
+        "L’édit de Nantes",
+        "Édit de Nantes"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-histoire-france-generale-20261012-04",
+      "category": "Histoire de France — Figures et repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel palais royal près de Paris est associé au Roi-Soleil ?",
+      "acceptableAnswers": [
+        "Versailles"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/versailles.jpg"
+    },
+    {
+      "id": "lib-buzzer-histoire-france-generale-20261012-05",
+      "category": "Histoire de France — Figures et repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel chef de la France libre prononce l’appel du 18 juin 1940 ?",
+      "acceptableAnswers": [
+        "Charles de Gaulle",
+        "De Gaulle"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

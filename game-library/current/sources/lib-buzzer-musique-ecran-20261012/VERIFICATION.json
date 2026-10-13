@@ -1,0 +1,92 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-buzzer-musique-ecran-20261012-01",
+    "originalPackage": "lib-buzzer-musique-ecran-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.starwars.com/news/john-williams-birthday",
+        "https://www.celinedion.com/",
+        "https://www.ghibli.jp/works/",
+        "https://www.andrewlloydwebber.com/",
+        "https://www.disney.com/"
+      ],
+      "note": "",
+      "visual": "lion"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-buzzer-musique-ecran-20261012-02",
+    "originalPackage": "lib-buzzer-musique-ecran-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.starwars.com/news/john-williams-birthday",
+        "https://www.celinedion.com/",
+        "https://www.ghibli.jp/works/",
+        "https://www.andrewlloydwebber.com/",
+        "https://www.disney.com/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-buzzer-musique-ecran-20261012-03",
+    "originalPackage": "lib-buzzer-musique-ecran-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.starwars.com/news/john-williams-birthday",
+        "https://www.celinedion.com/",
+        "https://www.ghibli.jp/works/",
+        "https://www.andrewlloydwebber.com/",
+        "https://www.disney.com/"
+      ],
+      "note": "",
+      "visual": "snowman"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-buzzer-musique-ecran-20261012-04",
+    "originalPackage": "lib-buzzer-musique-ecran-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.starwars.com/news/john-williams-birthday",
+        "https://www.celinedion.com/",
+        "https://www.ghibli.jp/works/",
+        "https://www.andrewlloydwebber.com/",
+        "https://www.disney.com/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-buzzer-musique-ecran-20261012-05",
+    "originalPackage": "lib-buzzer-musique-ecran-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.starwars.com/news/john-williams-birthday",
+        "https://www.celinedion.com/",
+        "https://www.ghibli.jp/works/",
+        "https://www.andrewlloydwebber.com/",
+        "https://www.disney.com/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

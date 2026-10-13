@@ -1,0 +1,119 @@
+{
+  "category": "Cinéma — France et Québec — Rapide — Buzzer",
+  "subject": "Cinéma",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "cinema-buzzer-france-quebec-20261011-01",
+      "category": "Cinéma — France et Québec — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui incarne le chef d’orchestre Stanislas Lefort dans La Grande Vadrouille ?",
+      "acceptableAnswers": [
+        "Louis de Funès",
+        "Louis de Funes",
+        "De Funès"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-france-quebec-20261011-02",
+      "category": "Cinéma — France et Québec — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans Les Choristes, quelle activité musicale Clément Mathieu fait-il pratiquer aux élèves ?",
+      "acceptableAnswers": [
+        "Le chant choral",
+        "Le chant",
+        "Une chorale",
+        "Un chœur"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-france-quebec-20261011-03",
+      "category": "Cinéma — France et Québec — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle reine d’Égypte confie la construction d’un palais à Numérobis dans le film d’Alain Chabat ?",
+      "acceptableAnswers": [
+        "Cléopâtre",
+        "Cleopatre"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-france-quebec-20261011-04",
+      "category": "Cinéma — France et Québec — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans quelle ville se déroule principalement Le Fabuleux Destin d’Amélie Poulain ?",
+      "acceptableAnswers": [
+        "Paris"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-france-quebec-20261011-05",
+      "category": "Cinéma — France et Québec — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui joue Philippe, l’homme tétraplégique, dans le film français Intouchables ?",
+      "acceptableAnswers": [
+        "François Cluzet",
+        "Francois Cluzet",
+        "Cluzet"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-france-quebec-20261011-06",
+      "category": "Cinéma — France et Québec — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel acteur incarne Godefroy de Montmirail dans Les Visiteurs ?",
+      "acceptableAnswers": [
+        "Jean Reno",
+        "Reno"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-france-quebec-20261011-07",
+      "category": "Cinéma — France et Québec — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans Bon Cop, Bad Cop, de quelles deux provinces viennent les policiers principaux ?",
+      "acceptableAnswers": [
+        "Le Québec et l’Ontario",
+        "Québec et Ontario",
+        "Ontario et Québec"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-france-quebec-20261011-08",
+      "category": "Cinéma — France et Québec — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "De quel pays Bachir Lazhar est-il originaire dans Monsieur Lazhar ?",
+      "acceptableAnswers": [
+        "L’Algérie",
+        "Algérie",
+        "Algerie"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

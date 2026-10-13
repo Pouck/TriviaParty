@@ -1,0 +1,85 @@
+{
+  "category": "Littérature britannique et irlandaise — Œuvres : choix multiples — 1",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-01",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Entre quelles villes se déroule A Tale of Two Cities de Charles Dickens ?",
+      "options": [
+        "A — Édimbourg et Dublin",
+        "B — Londres et Paris",
+        "C — Londres et Rome",
+        "D — Londres et Amsterdam"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-02",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman d’Emily Brontë raconte les relations tourmentées de Heathcliff et Catherine Earnshaw ?",
+      "options": [
+        "A — Middlemarch",
+        "B — Jane Eyre",
+        "C — Wuthering Heights",
+        "D — The Tenant of Wildfell Hall"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-03",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Dans quelle chaîne de montagnes Jonathan Harker rejoint-il le château de Dracula ?",
+      "options": [
+        "A — Les Carpates",
+        "B — L’Oural",
+        "C — Les Pyrénées",
+        "D — Les Alpes"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-04",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de William Golding met en scène des garçons isolés sur une île et la dégradation de leur société ?",
+      "options": [
+        "A — Lord of the Flies",
+        "B — 1984",
+        "C — Brave New World",
+        "D — The Catcher in the Rye"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-05",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel événement Clarissa prépare-t-elle au cours de la journée racontée dans Mrs Dalloway ?",
+      "options": [
+        "A — Un mariage",
+        "B — Une exposition",
+        "C — Des funérailles",
+        "D — Une réception en soirée"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

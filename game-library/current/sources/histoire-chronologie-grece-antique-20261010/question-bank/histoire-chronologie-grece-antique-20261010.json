@@ -1,0 +1,145 @@
+{
+  "category": "Histoire - Chronologie de la Grèce antique",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "kind": "ordering",
+      "id": "antique-grece-antique-20261010-01",
+      "category": "Histoire - Chronologie de la Grèce antique",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Réformes démocratiques de Clisthène"
+        },
+        {
+          "id": "item-1",
+          "text": "Premiers Jeux olympiques antiques traditionnellement datés"
+        },
+        {
+          "id": "item-2",
+          "text": "Lois écrites de Dracon à Athènes"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "antique-grece-antique-20261010-02",
+      "category": "Histoire - Chronologie de la Grèce antique",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Bataille des Thermopyles"
+        },
+        {
+          "id": "item-1",
+          "text": "Bataille de Marathon"
+        },
+        {
+          "id": "item-2",
+          "text": "Bataille navale de Salamine"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "antique-grece-antique-20261010-03",
+      "category": "Histoire - Chronologie de la Grèce antique",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Capitulation d’Athènes face à Sparte"
+        },
+        {
+          "id": "item-1",
+          "text": "Début de l’épidémie dite « peste d’Athènes »"
+        },
+        {
+          "id": "item-2",
+          "text": "Défaite de l’expédition athénienne en Sicile"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "antique-grece-antique-20261010-04",
+      "category": "Histoire - Chronologie de la Grèce antique",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Naissance de Platon"
+        },
+        {
+          "id": "item-1",
+          "text": "Naissance de Socrate"
+        },
+        {
+          "id": "item-2",
+          "text": "Naissance d’Aristote"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "antique-grece-antique-20261010-05",
+      "category": "Histoire - Chronologie de la Grèce antique",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Bataille de Gaugamèles contre Darius III"
+        },
+        {
+          "id": "item-1",
+          "text": "Traversée de l’Hellespont vers l’Asie"
+        },
+        {
+          "id": "item-2",
+          "text": "Conquête de l’Égypte"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    }
+  ]
+}

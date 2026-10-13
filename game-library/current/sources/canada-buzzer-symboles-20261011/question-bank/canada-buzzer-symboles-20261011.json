@@ -1,0 +1,65 @@
+{
+  "category": "Canada — Géographie et symboles — Buzzer — 1",
+  "subject": "Géographie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-symboles-20261011-01",
+      "category": "Canada — Géographie et symboles — Buzzer — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel animal figure sur la pièce canadienne de cinq cents ?",
+      "acceptableAnswers": [
+        "Le castor"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-symboles-20261011-02",
+      "category": "Canada — Géographie et symboles — Buzzer — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle est la capitale du Canada ?",
+      "acceptableAnswers": [
+        "Ottawa"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-symboles-20261011-03",
+      "category": "Canada — Géographie et symboles — Buzzer — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Combien de provinces le Canada compte-t-il ?",
+      "acceptableAnswers": [
+        "Dix"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-symboles-20261011-04",
+      "category": "Canada — Géographie et symboles — Buzzer — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle feuille figure sur le drapeau canadien ?",
+      "acceptableAnswers": [
+        "La feuille d’érable"
+      ]
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-buzzer-symboles-20261011-05",
+      "category": "Canada — Géographie et symboles — Buzzer — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle ville canadienne accueille les Jeux olympiques d’été de 1976 ?",
+      "acceptableAnswers": [
+        "Montréal"
+      ]
+    }
+  ]
+}

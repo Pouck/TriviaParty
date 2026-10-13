@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "cene",
+    "title": "The Last Supper (Leonardo)",
+    "file": "cene.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/1920px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Leonardo da Vinci",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Online Taken on 23 July 2013",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "arts-buzzer-tableaux-celebres-20261011"
+  },
+  {
+    "slug": "gothic",
+    "title": "American Gothic",
+    "file": "gothic.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Grant_Wood_-_American_Gothic_(1930).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Grant_Wood_-_American_Gothic_%281930%29.jpg/1920px-Grant_Wood_-_American_Gothic_%281930%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Grant Wood",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Art Institute of Chicago:  online database:  entry  6565",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "arts-buzzer-tableaux-celebres-20261011"
+  },
+  {
+    "slug": "liberte",
+    "title": "Liberty Leading the People",
+    "file": "liberte.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/1920px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Eugène Delacroix",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "photo Shonagon 2024-05-02",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "arts-buzzer-tableaux-celebres-20261011"
+  },
+  {
+    "slug": "radeau",
+    "title": "The Raft of the Medusa",
+    "file": "radeau.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg/1920px-JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Théodore Géricault",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Unknown sourceUnknown source",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "arts-buzzer-tableaux-celebres-20261011"
+  }
+]

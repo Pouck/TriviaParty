@@ -1,0 +1,15 @@
+{
+  "id": "canada-inventions-quotidien-20261011",
+  "name": "Inventions canadiennes — Sports, culture et vie quotidienne",
+  "description": "6 QCM en français ; 15 secondes ; 15 → 10 → 5 points.",
+  "categoryPackages": [
+    "canada-inventions-quotidien-20261011"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

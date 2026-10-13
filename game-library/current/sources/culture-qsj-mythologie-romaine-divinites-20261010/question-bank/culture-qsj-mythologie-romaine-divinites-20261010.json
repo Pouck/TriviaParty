@@ -1,0 +1,95 @@
+{
+  "category": "Mythologie romaine — Dieux et héros — Qui suis-je ?",
+  "subject": "Mythologie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-mythologie-romaine-divinites-20261010-01",
+      "category": "Mythologie romaine — Dieux et héros — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une divinité spécifiquement romaine, sans équivalent grec exact.",
+        "À Rome, les portes de mon sanctuaire sont traditionnellement ouvertes en temps de guerre et fermées en temps de paix.",
+        "J’incarne les passages et les commencements ; le mois de janvier me doit son nom.",
+        "Je suis le dieu romain représenté avec deux visages tournés dans des directions opposées."
+      ],
+      "acceptableAnswers": [
+        "Janus"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-mythologie-romaine-divinites-20261010-02",
+      "category": "Mythologie romaine — Dieux et héros — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon rôle romain associe la guerre à la protection de la communauté et, dans certains rites, des champs.",
+        "Dans la légende romaine, je suis le père des jumeaux Romulus et Rémus.",
+        "Mes prêtres, les Saliens, portent des boucliers sacrés dont un aurait été envoyé du ciel.",
+        "Je suis le dieu romain de la guerre, et le mois de mars porte mon nom."
+      ],
+      "acceptableAnswers": [
+        "Mars"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-romaine-20261012-01",
+      "category": "Mythologie romaine — Dieux et héros — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je protège notamment le mariage.",
+        "Mon équivalente grecque est Héra.",
+        "Jupiter est mon époux.",
+        "Je suis la reine des dieux romains."
+      ],
+      "acceptableAnswers": [
+        "Junon"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-romaine-20261012-02",
+      "category": "Mythologie romaine — Dieux et héros — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je travaille auprès des flammes.",
+        "Mon équivalent grec est Héphaïstos.",
+        "Je suis associé à la forge.",
+        "Je suis le dieu romain du feu et des forgerons."
+      ],
+      "acceptableAnswers": [
+        "Vulcain"
+      ]
+    },
+    {
+      "id": "lib-qsj-mythologie-romaine-20261012-05",
+      "category": "Mythologie romaine — Dieux et héros — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je grandis avec mon frère jumeau.",
+        "Une louve nous nourrit dans la légende.",
+        "Mon frère s’appelle Rémus.",
+        "Je suis le fondateur légendaire de Rome."
+      ],
+      "acceptableAnswers": [
+        "Romulus"
+      ]
+    }
+  ]
+}

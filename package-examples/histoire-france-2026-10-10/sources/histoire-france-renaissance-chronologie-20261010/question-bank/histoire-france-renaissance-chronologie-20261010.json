@@ -1,0 +1,69 @@
+{
+  "category": "Histoire de France — Renaissance — Chronologie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-chronologie-20261010-01",
+      "category": "Histoire de France — Renaissance — Chronologie",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces étapes royales et architecturales ?\n• Début de la construction de Chambord\n• Avènement de François Ier\n• Arrivée de Léonard de Vinci en France",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — François Ier → Arrivée de Léonard → Chambord",
+        "B — Chambord → François Ier → Arrivée de Léonard",
+        "C — Arrivée de Léonard → François Ier → Chambord",
+        "D — François Ier → Chambord → Arrivée de Léonard"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-chronologie-20261010-02",
+      "category": "Histoire de France — Renaissance — Chronologie",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces événements littéraires et linguistiques ?\n• Ordonnance de Villers-Cotterêts\n• Publication de Défense et illustration de la langue française\n• Publication de Gargantua",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Défense et illustration → Gargantua → Villers-Cotterêts",
+        "B — Villers-Cotterêts → Gargantua → Défense et illustration",
+        "C — Gargantua → Défense et illustration → Villers-Cotterêts",
+        "D — Gargantua → Villers-Cotterêts → Défense et illustration"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-chronologie-20261010-03",
+      "category": "Histoire de France — Renaissance — Chronologie",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces épisodes des guerres de Religion ?\n• Massacre de la Saint-Barthélemy\n• Édit d’Amboise\n• Massacre de Wassy",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Amboise → Wassy → Saint-Barthélemy",
+        "B — Saint-Barthélemy → Amboise → Wassy",
+        "C — Wassy → Amboise → Saint-Barthélemy",
+        "D — Wassy → Saint-Barthélemy → Amboise"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-chronologie-20261010-04",
+      "category": "Histoire de France — Renaissance — Chronologie",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces événements politiques et militaires ?\n• Édit de Nantes\n• Victoire française à Marignan\n• Assassinat d’Henri III",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Édit de Nantes → Marignan → Assassinat d’Henri III",
+        "B — Marignan → Assassinat d’Henri III → Édit de Nantes",
+        "C — Marignan → Édit de Nantes → Assassinat d’Henri III",
+        "D — Assassinat d’Henri III → Marignan → Édit de Nantes"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

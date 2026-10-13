@@ -1,0 +1,87 @@
+{
+  "category": "Littérature française — Romans et personnages — QCM",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-litterature-france-20261012-01",
+      "category": "Littérature française — Romans et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a écrit Les Misérables ?",
+      "options": [
+        "A — Émile Zola",
+        "B — Alexandre Dumas",
+        "C — Victor Hugo",
+        "D — Gustave Flaubert"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-litterature-france-20261012-02",
+      "category": "Littérature française — Romans et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel roman de Verne voyage sous la mer ?",
+      "options": [
+        "A — Vingt mille lieues sous les mers",
+        "B — Germinal",
+        "C — Madame Bovary",
+        "D — Candide"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/sea.png"
+    },
+    {
+      "id": "lib-qcm-litterature-france-20261012-03",
+      "category": "Littérature française — Romans et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui est l’auteur de Candide ?",
+      "options": [
+        "A — Montesquieu",
+        "B — Voltaire",
+        "C — Rousseau",
+        "D — Diderot"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-litterature-france-20261012-04",
+      "category": "Littérature française — Romans et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel personnage est le sonneur de Notre-Dame ?",
+      "options": [
+        "A — Javert",
+        "B — d’Artagnan",
+        "C — Rastignac",
+        "D — Quasimodo"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/notre-dame.jpg"
+    },
+    {
+      "id": "lib-qcm-litterature-france-20261012-05",
+      "category": "Littérature française — Romans et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a écrit Germinal ?",
+      "options": [
+        "A — Maupassant",
+        "B — Proust",
+        "C — Émile Zola",
+        "D — Stendhal"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "category": "Littérature américaine — Œuvres : choix multiples — 2",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-06",
+      "category": "Littérature américaine — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Dans quelle ville Esther Greenwood effectue-t-elle un stage d’été dans The Bell Jar de Sylvia Plath ?",
+      "options": [
+        "A — Londres",
+        "B — New York",
+        "C — Boston",
+        "D — Paris"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-07",
+      "category": "Littérature américaine — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel ouvrage de Thoreau décrit son expérience de vie dans une cabane près d’un étang du Massachusetts ?",
+      "options": [
+        "A — Walden",
+        "B — Self-Reliance",
+        "C — Nature",
+        "D — Leaves of Grass"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-08",
+      "category": "Littérature américaine — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel poisson Santiago combat-il dans The Old Man and the Sea d’Hemingway ?",
+      "options": [
+        "A — Un grand marlin",
+        "B — Un cachalot",
+        "C — Un calmar géant",
+        "D — Un grand requin blanc"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-09",
+      "category": "Littérature américaine — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Faulkner décrit le déclin de la famille Compson ?",
+      "options": [
+        "A — Light in August",
+        "B — Absalom, Absalom!",
+        "C — As I Lay Dying",
+        "D — The Sound and the Fury"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-10",
+      "category": "Littérature américaine — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle campagne politique américaine The Crucible d’Arthur Miller critique-t-elle par une analogie historique ?",
+      "options": [
+        "A — La conscription pendant la guerre du Vietnam",
+        "B — Les luttes contre la ségrégation",
+        "C — Le maccarthysme et la chasse aux communistes",
+        "D — Le scandale du Watergate"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

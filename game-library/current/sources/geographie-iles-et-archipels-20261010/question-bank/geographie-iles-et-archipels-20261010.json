@@ -1,0 +1,100 @@
+{
+  "category": "Géographie — Îles et eaux du monde — QCM",
+  "subject": "Géographie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "geo-iles-et-archipels-20261010-01",
+      "category": "Géographie — Îles et eaux du monde — QCM",
+      "prompt": "Sur quelle île se trouve le cœur de Tokyo, la capitale du Japon ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Honshu",
+        "B — Shikoku",
+        "C — Hokkaido",
+        "D — Kyushu"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-iles-et-archipels-20261010-02",
+      "category": "Géographie — Îles et eaux du monde — QCM",
+      "prompt": "Sur quelle île de l’archipel d’Hawaï se trouve Honolulu ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Kauai",
+        "B — Oahu",
+        "C — Hawaï (la Grande Île)",
+        "D — Maui"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-iles-et-archipels-20261010-03",
+      "category": "Géographie — Îles et eaux du monde — QCM",
+      "prompt": "Quelle grande île se situe au sud-est de l’Inde ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Maldives",
+        "B — Madagascar",
+        "C — Sri Lanka",
+        "D — Sumatra"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-iles-et-archipels-20261010-04",
+      "category": "Géographie — Îles et eaux du monde — QCM",
+      "prompt": "Sur quelle île méditerranéenne se trouve Palerme ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Sicile",
+        "B — Chypre",
+        "C — Corse",
+        "D — Sardaigne"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-lacs-mers-et-golfes-20261010-01",
+      "category": "Géographie — Îles et eaux du monde — QCM",
+      "prompt": "Quelle mer sépare la côte est de la Grande-Bretagne de l’Europe continentale ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Mer Celtique",
+        "B — Mer du Nord",
+        "C — Manche",
+        "D — Mer Baltique"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-lacs-mers-et-golfes-20261010-02",
+      "category": "Géographie — Îles et eaux du monde — QCM",
+      "prompt": "Quel grand lac africain est partagé entre la Tanzanie, l’Ouganda et le Kenya ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Lac Turkana",
+        "B — Lac Malawi",
+        "C — Lac Tanganyika",
+        "D — Lac Victoria"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

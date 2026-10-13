@@ -1,0 +1,86 @@
+[
+  {
+    "question": 1,
+    "questionId": "arts-buzzer-marbre-bronze-20261011-01",
+    "originalPackage": "arts-buzzer-marbre-bronze-20261011",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.britishmuseum.org/collection/object/G_1805-0703-43"
+      ],
+      "note": "Une copie du modèle antique attribué à Myron ; on ne demande pas l’auteur de la copie.",
+      "photo": "https://commons.wikimedia.org/wiki/File:Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos,_2nd_century_CE_(Glyptothek_Munich).jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "arts-buzzer-marbre-bronze-20261011-02",
+    "originalPackage": "arts-buzzer-marbre-bronze-20261011",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.musee-rodin.fr/musee/collections/oeuvres/baiser"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "arts-buzzer-marbre-bronze-20261011-03",
+    "originalPackage": "arts-buzzer-marbre-bronze-20261011",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/Cortile-Ottagono/laocoonte.html"
+      ],
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Laoco%C3%B6n_and_his_sons_group.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "arts-buzzer-marbre-bronze-20261011-04",
+    "originalPackage": "arts-buzzer-marbre-bronze-20261011",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.galleriaaccademiafirenze.it/fr/opere/david-michelangelo/"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "arts-buzzer-marbre-bronze-20261011-05",
+    "originalPackage": "arts-buzzer-marbre-bronze-20261011",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.vatican.va/news_services/or/or_quo/115q01.pdf"
+      ],
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Pieta_de_Michelangelo_-_Vaticano.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "arts-buzzer-marbre-bronze-20261011-06",
+    "originalPackage": "arts-buzzer-marbre-bronze-20261011",
+    "reference": {
+      "question": 6,
+      "sources": [
+        "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/moai"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  }
+]

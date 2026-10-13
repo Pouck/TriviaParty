@@ -1,0 +1,145 @@
+{
+  "category": "Histoire de France — Renaissance — Chronologie",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "kind": "ordering",
+      "id": "fr-renaissance-chronologie-20261010-01",
+      "category": "Histoire de France — Renaissance — Chronologie",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "François Ier"
+        },
+        {
+          "id": "item-1",
+          "text": "Chambord"
+        },
+        {
+          "id": "item-2",
+          "text": "Arrivée de Léonard"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "fr-renaissance-chronologie-20261010-02",
+      "category": "Histoire de France — Renaissance — Chronologie",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Défense et illustration"
+        },
+        {
+          "id": "item-1",
+          "text": "Villers-Cotterêts"
+        },
+        {
+          "id": "item-2",
+          "text": "Gargantua"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "fr-renaissance-chronologie-20261010-03",
+      "category": "Histoire de France — Renaissance — Chronologie",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Saint-Barthélemy"
+        },
+        {
+          "id": "item-1",
+          "text": "Amboise"
+        },
+        {
+          "id": "item-2",
+          "text": "Wassy"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "fr-renaissance-chronologie-20261010-04",
+      "category": "Histoire de France — Renaissance — Chronologie",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Assassinat d’Henri III"
+        },
+        {
+          "id": "item-1",
+          "text": "Édit de Nantes"
+        },
+        {
+          "id": "item-2",
+          "text": "Marignan"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "resize-20261012-rois-renaissance",
+      "kind": "ordering",
+      "category": "Histoire de France — Renaissance — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Classez ces accessions au trône de France",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "François Ier devient roi"
+        },
+        {
+          "id": "item-1",
+          "text": "Henri IV devient roi"
+        },
+        {
+          "id": "item-2",
+          "text": "Henri II devient roi"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    }
+  ]
+}

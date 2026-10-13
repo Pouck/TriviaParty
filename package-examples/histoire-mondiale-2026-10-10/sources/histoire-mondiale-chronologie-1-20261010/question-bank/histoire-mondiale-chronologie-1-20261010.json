@@ -1,0 +1,69 @@
+{
+  "category": "Histoire mondiale — XIXe et XXe siècles : chronologie 1",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "monde-chronologie-1-01-20261010",
+      "category": "Histoire mondiale — XIXe et XXe siècles : chronologie 1",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces transformations politiques ?\n• Restauration de Meiji\n• Proclamation de l’Empire allemand\n• Bataille de Waterloo",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Restauration de Meiji → Bataille de Waterloo → Proclamation de l’Empire allemand",
+        "B — Proclamation de l’Empire allemand → Restauration de Meiji → Bataille de Waterloo",
+        "C — Bataille de Waterloo → Restauration de Meiji → Proclamation de l’Empire allemand",
+        "D — Bataille de Waterloo → Proclamation de l’Empire allemand → Restauration de Meiji"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-chronologie-1-02-20261010",
+      "category": "Histoire mondiale — XIXe et XXe siècles : chronologie 1",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces événements du début du XXe siècle ?\n• Début de la Première Guerre mondiale\n• Abdication de Nicolas II\n• Naufrage du Titanic",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Naufrage du Titanic → Début de la Première Guerre mondiale → Abdication de Nicolas II",
+        "B — Début de la Première Guerre mondiale → Naufrage du Titanic → Abdication de Nicolas II",
+        "C — Naufrage du Titanic → Abdication de Nicolas II → Début de la Première Guerre mondiale",
+        "D — Abdication de Nicolas II → Début de la Première Guerre mondiale → Naufrage du Titanic"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-chronologie-1-03-20261010",
+      "category": "Histoire mondiale — XIXe et XXe siècles : chronologie 1",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces événements de la guerre froide ?\n• Début de la construction du mur de Berlin\n• Crise des missiles de Cuba\n• Lancement de Spoutnik 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Début de la construction du mur de Berlin → Lancement de Spoutnik 1 → Crise des missiles de Cuba",
+        "B — Lancement de Spoutnik 1 → Début de la construction du mur de Berlin → Crise des missiles de Cuba",
+        "C — Crise des missiles de Cuba → Début de la construction du mur de Berlin → Lancement de Spoutnik 1",
+        "D — Lancement de Spoutnik 1 → Crise des missiles de Cuba → Début de la construction du mur de Berlin"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-chronologie-1-04-20261010",
+      "category": "Histoire mondiale — XIXe et XXe siècles : chronologie 1",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces bouleversements de la fin du XXe siècle ?\n• Libération de Nelson Mandela\n• Dissolution de l’Union soviétique\n• Chute du mur de Berlin",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Dissolution de l’Union soviétique → Libération de Nelson Mandela → Chute du mur de Berlin",
+        "B — Libération de Nelson Mandela → Chute du mur de Berlin → Dissolution de l’Union soviétique",
+        "C — Chute du mur de Berlin → Dissolution de l’Union soviétique → Libération de Nelson Mandela",
+        "D — Chute du mur de Berlin → Libération de Nelson Mandela → Dissolution de l’Union soviétique"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

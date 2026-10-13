@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "ocean",
+    "title": "Pacific Ocean",
+    "file": "ocean.png",
+    "commons": "https://commons.wikimedia.org/wiki/File:Pacific_Ocean_-_en.png",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Pacific_Ocean_-_en.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "CIA World Factbook",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "CIA World Factbook",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-geographie-monde-20261012"
+  },
+  {
+    "slug": "fuji",
+    "title": "Mount Fuji",
+    "file": "fuji.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg/1920px-View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Suicasmo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-geographie-monde-20261012"
+  }
+]

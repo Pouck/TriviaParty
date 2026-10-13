@@ -1,0 +1,16 @@
+{
+  "id": "original-video-game-maps",
+  "name": "Jeux vidéo — Univers et personnages — QCM",
+  "description": "7 questions en français. 15 points au départ ; −1 point par seconde. Sablier unique de 15 secondes.",
+  "categoryPackages": [
+    "original-video-game-maps"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 15,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 0,
+    "pointsDecayPerFlip": null,
+    "pointsDecayPerSecond": 1
+  },
+  "answerTimeSeconds": 10
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "ronde",
+    "title": "The Night Watch",
+    "file": "ronde.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/1920px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Rembrandt",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "https://www.rijksmuseum.nl/en/collection/SK-C-5",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "arts-qcm-couleurs-mouvements-20261011"
+  },
+  {
+    "slug": "impression",
+    "title": "Impression, Sunrise",
+    "file": "impression.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/1920px-Monet_-_Impression%2C_Sunrise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Claude Monet",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "art database",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "arts-qcm-couleurs-mouvements-20261011"
+  },
+  {
+    "slug": "nuit",
+    "title": "The Starry Night",
+    "file": "nuit.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1920px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Vincent van Gogh",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Google Arts & Culture  — bgEuwDxel93-Pg",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "arts-qcm-couleurs-mouvements-20261011"
+  },
+  {
+    "slug": "vague",
+    "title": "The Great Wave off Kanagawa",
+    "file": "vague.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Tsunami_by_hokusai_19th_century.jpg/1920px-Tsunami_by_hokusai_19th_century.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Katsushika Hokusai",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Metropolitan Museum of Art:  entry  45434",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "arts-qcm-couleurs-mouvements-20261011"
+  }
+]

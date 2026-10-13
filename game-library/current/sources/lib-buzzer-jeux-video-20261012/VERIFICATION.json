@@ -1,0 +1,92 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-buzzer-jeux-video-20261012-01",
+    "originalPackage": "lib-buzzer-jeux-video-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.nintendo.com/us/",
+        "https://www.minecraft.net/",
+        "https://www.pokemon.com/",
+        "https://www.sonicthehedgehog.com/",
+        "https://www.pacman.com/"
+      ],
+      "note": "",
+      "visual": "lightning"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-buzzer-jeux-video-20261012-02",
+    "originalPackage": "lib-buzzer-jeux-video-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.nintendo.com/us/",
+        "https://www.minecraft.net/",
+        "https://www.pokemon.com/",
+        "https://www.sonicthehedgehog.com/",
+        "https://www.pacman.com/"
+      ],
+      "note": "",
+      "visual": "maze"
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-buzzer-jeux-video-20261012-03",
+    "originalPackage": "lib-buzzer-jeux-video-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.nintendo.com/us/",
+        "https://www.minecraft.net/",
+        "https://www.pokemon.com/",
+        "https://www.sonicthehedgehog.com/",
+        "https://www.pacman.com/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-buzzer-jeux-video-20261012-04",
+    "originalPackage": "lib-buzzer-jeux-video-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.nintendo.com/us/",
+        "https://www.minecraft.net/",
+        "https://www.pokemon.com/",
+        "https://www.sonicthehedgehog.com/",
+        "https://www.pacman.com/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-buzzer-jeux-video-20261012-05",
+    "originalPackage": "lib-buzzer-jeux-video-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.nintendo.com/us/",
+        "https://www.minecraft.net/",
+        "https://www.pokemon.com/",
+        "https://www.sonicthehedgehog.com/",
+        "https://www.pacman.com/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

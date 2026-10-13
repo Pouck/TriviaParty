@@ -1,0 +1,52 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.chateauversailles.fr/",
+      "https://www.britannica.com/place/France/History",
+      "https://www.louvre.fr/"
+    ],
+    "note": "",
+    "visual": "sunrise"
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.chateauversailles.fr/",
+      "https://www.britannica.com/place/France/History",
+      "https://www.louvre.fr/"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.chateauversailles.fr/",
+      "https://www.britannica.com/place/France/History",
+      "https://www.louvre.fr/"
+    ],
+    "note": "",
+    "visual": "versailles"
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.chateauversailles.fr/",
+      "https://www.britannica.com/place/France/History",
+      "https://www.louvre.fr/"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.chateauversailles.fr/",
+      "https://www.britannica.com/place/France/History",
+      "https://www.louvre.fr/"
+    ],
+    "note": "",
+    "visual": null
+  }
+]

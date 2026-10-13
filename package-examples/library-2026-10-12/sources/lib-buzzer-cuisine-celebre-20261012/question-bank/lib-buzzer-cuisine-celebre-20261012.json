@@ -1,0 +1,77 @@
+{
+  "category": "Cuisine — Plats célèbres — Buzzer",
+  "subject": "Cuisine",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-cuisine-celebre-20261012-01",
+      "category": "Cuisine — Plats célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel plat espagnol au riz cuit souvent dans une large poêle ?",
+      "acceptableAnswers": [
+        "La paella",
+        "Paella"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/paella.jpg"
+    },
+    {
+      "id": "lib-buzzer-cuisine-celebre-20261012-02",
+      "category": "Cuisine — Plats célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel pain français long et fin est représenté ici ?",
+      "acceptableAnswers": [
+        "Une baguette",
+        "Baguette"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/baguette.jpg"
+    },
+    {
+      "id": "lib-buzzer-cuisine-celebre-20261012-03",
+      "category": "Cuisine — Plats célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel dessert italien porte un nom signifiant « tire-moi vers le haut » ?",
+      "acceptableAnswers": [
+        "Le tiramisu",
+        "Tiramisu"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-cuisine-celebre-20261012-04",
+      "category": "Cuisine — Plats célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel produit sucré est tiré de la sève des érables ?",
+      "acceptableAnswers": [
+        "Le sirop d’érable",
+        "Sirop d’érable"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-cuisine-celebre-20261012-05",
+      "category": "Cuisine — Plats célèbres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel plat maghrébin est associé à la semoule et à un bouillon ?",
+      "acceptableAnswers": [
+        "Le couscous",
+        "Couscous"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

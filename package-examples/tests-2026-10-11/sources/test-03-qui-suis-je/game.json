@@ -1,0 +1,15 @@
+{
+  "id": "test-03-qui-suis-je",
+  "name": "TEST Qui suis-je ?",
+  "description": "Une question pour tester le rendu et les contrôles.",
+  "categoryPackages": [
+    "test-03-qui-suis-je"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 20,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 3,
+    "pointsDecayPerFlip": 5
+  }
+}

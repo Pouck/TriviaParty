@@ -1,0 +1,15 @@
+{
+  "id": "qui-suis-je-demo",
+  "name": "Démo — Qui suis-je ?",
+  "description": "Trois indices de 20 secondes ; 15 → 10 → 5 points ; erreur : −5 points.",
+  "categoryPackages": [
+    "qui-suis-je-demo"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 20,
+    "decayPercentagePerFlip": 0.0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

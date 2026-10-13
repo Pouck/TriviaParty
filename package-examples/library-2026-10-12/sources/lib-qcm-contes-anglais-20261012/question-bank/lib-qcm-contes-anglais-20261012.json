@@ -1,0 +1,87 @@
+{
+  "category": "Contes et légendes d’Angleterre — QCM",
+  "subject": "Contes et légendes",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-contes-anglais-20261012-01",
+      "category": "Contes et légendes d’Angleterre — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans Jack et le Haricot magique, que troque Jack contre des haricots ?",
+      "options": [
+        "A — Un chien",
+        "B — Une vache",
+        "C — Un cheval",
+        "D — Un mouton"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/cow.jpg"
+    },
+    {
+      "id": "lib-qcm-contes-anglais-20261012-02",
+      "category": "Contes et légendes d’Angleterre — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle maison résiste au loup dans Les Trois Petits Cochons ?",
+      "options": [
+        "A — La maison de bois",
+        "B — La maison de paille",
+        "C — La maison de briques",
+        "D — La tente"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-contes-anglais-20261012-03",
+      "category": "Contes et légendes d’Angleterre — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel héros légendaire est associé à la forêt de Sherwood ?",
+      "options": [
+        "A — Robin des Bois",
+        "B — Peter Pan",
+        "C — Oliver Twist",
+        "D — Sherlock Holmes"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/forest.jpg"
+    },
+    {
+      "id": "lib-qcm-contes-anglais-20261012-04",
+      "category": "Contes et légendes d’Angleterre — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel objet est trop grand pour Boucle d’or dans la maison des ours ?",
+      "options": [
+        "A — Un des lits",
+        "B — Une botte",
+        "C — La clé de la maison",
+        "D — Une baguette"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-contes-anglais-20261012-05",
+      "category": "Contes et légendes d’Angleterre — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel personnage de comptine anglaise tombe d’un mur ?",
+      "options": [
+        "A — Tom Thumb",
+        "B — Old King Cole",
+        "C — Jack Frost",
+        "D — Humpty Dumpty"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

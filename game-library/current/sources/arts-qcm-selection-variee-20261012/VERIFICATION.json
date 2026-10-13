@@ -1,0 +1,86 @@
+[
+  {
+    "question": 1,
+    "questionId": "arts-qcm-couleurs-mouvements-20261011-07",
+    "originalPackage": "arts-qcm-couleurs-mouvements-20261011",
+    "reference": {
+      "question": 7,
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/39799"
+      ],
+      "note": "La Grande Vague est une estampe sur bois, pas une peinture à l’huile.",
+      "photo": "https://commons.wikimedia.org/wiki/File:Tsunami_by_hokusai_19th_century.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "arts-qcm-couleurs-mouvements-20261011-08",
+    "originalPackage": "arts-qcm-couleurs-mouvements-20261011",
+    "reference": {
+      "question": 8,
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "arts-qcm-peintures-classiques-20261011-07",
+    "originalPackage": "arts-qcm-peintures-classiques-20261011",
+    "reference": {
+      "question": 7,
+      "sources": [
+        "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring"
+      ],
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "arts-qcm-peintures-classiques-20261011-08",
+    "originalPackage": "arts-qcm-peintures-classiques-20261011",
+    "reference": {
+      "question": 8,
+      "sources": [
+        "https://www.uffizi.it/opere/nascita-di-venere"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "arts-qcm-sculptures-iconiques-20261011-07",
+    "originalPackage": "arts-qcm-sculptures-iconiques-20261011",
+    "reference": {
+      "question": 7,
+      "sources": [
+        "https://www.musee-rodin.fr/en/musee/collections/oeuvres/penseur-meudon"
+      ],
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Le_Penseur_by_Rodin_(Kunsthalle_Bielefeld)_2014-04-10.JPG"
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "arts-qcm-sculptures-iconiques-20261011-08",
+    "originalPackage": "arts-qcm-sculptures-iconiques-20261011",
+    "reference": {
+      "question": 8,
+      "sources": [
+        "https://bargellomusei.it/en/visit-itineraries/donatello-e-lalba-del-rinascimento/"
+      ],
+      "note": "Le chapeau distingue le David en bronze du David en marbre du même artiste.",
+      "photo": null
+    },
+    "new": false
+  }
+]

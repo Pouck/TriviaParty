@@ -1,0 +1,100 @@
+{
+  "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "cinema-qcm-coulisses-20261011-01",
+      "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui compose le célèbre thème principal du premier Star Wars, sorti en 1977 ?",
+      "options": [
+        "A — John Williams",
+        "B — Howard Shore",
+        "C — Ennio Morricone",
+        "D — Hans Zimmer"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "cinema-qcm-coulisses-20261011-02",
+      "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui réalise Parasite, Palme d’or en 2019 ?",
+      "options": [
+        "A — Lee Chang-dong",
+        "B — Bong Joon-ho",
+        "C — Park Chan-wook",
+        "D — Kim Ki-duk"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "cinema-qcm-coulisses-20261011-03",
+      "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui réalise Le Fabuleux Destin d’Amélie Poulain ?",
+      "options": [
+        "A — Jean-Pierre Jeunet",
+        "B — Luc Besson",
+        "C — Michel Gondry",
+        "D — Jacques Audiard"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "cinema-qcm-coulisses-20261011-04",
+      "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui réalise Le Bon, la Brute et le Truand ?",
+      "options": [
+        "A — Clint Eastwood",
+        "B — Sam Peckinpah",
+        "C — John Ford",
+        "D — Sergio Leone"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "cinema-qcm-coulisses-20261011-05",
+      "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel cinéaste réalise Le Voyage de Chihiro ?",
+      "options": [
+        "A — Mamoru Hosoda",
+        "B — Isao Takahata",
+        "C — Hayao Miyazaki",
+        "D — Satoshi Kon"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "cinema-qcm-coulisses-20261011-06",
+      "category": "Cinéma — Réalisateurs, musique et animation — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel studio produit WALL-E ?",
+      "options": [
+        "A — DreamWorks Animation",
+        "B — Pixar",
+        "C — Studio Ghibli",
+        "D — Aardman"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "test-oral-et-variantes-20261012",
+  "name": "TEST — Buzzer, indices et rapidité",
+  "description": "5 questions en français. 4 indices de 20 secondes ; 5 points par palier. Réponse au buzzer : 10 secondes.",
+  "categoryPackages": [
+    "test-oral-et-variantes-20261012"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 3,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

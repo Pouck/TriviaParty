@@ -1,0 +1,96 @@
+{
+  "category": "Littérature britannique et irlandaise — Œuvres et personnages — Qui suis-je ? — 1",
+  "subject": "Littérature",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-anglophone-oeuvres-20261010-01",
+      "category": "Littérature britannique et irlandaise — Œuvres et personnages — Qui suis-je ? — 1",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je nais d’un défi littéraire lancé lors d’un séjour près du lac Léman en 1816, puis parais en 1818.",
+        "Mon sous-titre est The Modern Prometheus, et mon récit s’ouvre sur des lettres d’un explorateur.",
+        "Une créature rejetée exige une compagne, que son créateur commence puis détruit.",
+        "Je suis le roman de Mary Shelley dans lequel Victor donne vie à une créature."
+      ],
+      "acceptableAnswers": [
+        "Frankenstein"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-anglophone-oeuvres-20261010-02",
+      "category": "Littérature britannique et irlandaise — Œuvres et personnages — Qui suis-je ? — 1",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Publiée en 1945, je suis une satire qui évoque la révolution russe et le stalinisme.",
+        "Un vieux verrat inspire la révolte d’animaux contre le fermier Jones.",
+        "Les cochons au pouvoir modifient peu à peu les règles pour justifier leurs privilèges.",
+        "Je suis la fable politique de George Orwell dont les animaux prennent le contrôle d’une ferme."
+      ],
+      "acceptableAnswers": [
+        "Animal Farm"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-anglophone-personnages-20261010-01",
+      "category": "Littérature britannique et irlandaise — Œuvres et personnages — Qui suis-je ? — 1",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je demeure à Satis House, où les horloges sont arrêtées à neuf heures moins vingt.",
+        "Abandonnée le jour de mon mariage, je conserve ma robe de mariée et les vestiges du banquet.",
+        "J’élève Estella pour qu’elle fasse souffrir les hommes, mais j’en viens à regretter ma conduite.",
+        "Je suis la mariée délaissée de Great Expectations de Charles Dickens."
+      ],
+      "acceptableAnswers": [
+        "Miss Havisham"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-anglophone-personnages-20261010-02",
+      "category": "Littérature britannique et irlandaise — Œuvres et personnages — Qui suis-je ? — 1",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis la deuxième de cinq sœurs et je me distingue par ma vivacité d’esprit.",
+        "Je me trompe d’abord sur le caractère d’un riche homme qui m’a dédaignée lors d’un bal.",
+        "Je refuse Mr Collins, puis une première demande en mariage du maître de Pemberley.",
+        "Je suis l’héroïne de Pride and Prejudice de Jane Austen, qui finit par épouser Darcy."
+      ],
+      "acceptableAnswers": [
+        "Elizabeth Bennet"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-anglaise-20261012-02",
+      "category": "Littérature britannique et irlandaise — Œuvres et personnages — Qui suis-je ? — 1",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un roman de Jane Austen.",
+        "Mon héroïne a quatre sœurs.",
+        "Mr Darcy occupe une place centrale dans mon intrigue.",
+        "Je raconte l’histoire d’Elizabeth Bennet."
+      ],
+      "acceptableAnswers": [
+        "Pride and Prejudice",
+        "Orgueil et Préjugés"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "category": "TEST — Rapidité",
+  "subject": "Tests",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Rapidité"
+  ],
+  "questions": [
+    {
+      "kind": "speedRace",
+      "prompt": "Quelle planète est surnommée la planète rouge ?",
+      "subQuestion": {
+        "kind": "multipleChoice",
+        "prompt": "Quelle planète est surnommée la planète rouge ?",
+        "options": [
+          "A — Vénus",
+          "B — Mars",
+          "C — Jupiter",
+          "D — Saturne"
+        ],
+        "correctOptionIndex": 1,
+        "id": "test-08-speed-race-sub",
+        "category": "TEST — Rapidité",
+        "basePoints": 15,
+        "penaltyPoints": 0
+      },
+      "id": "test-08-speed-race-q1",
+      "category": "TEST — Rapidité",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    },
+    {
+      "kind": "speedRace",
+      "id": "test-20261012-rapidite-complement-1",
+      "category": "TEST — Rapidité",
+      "prompt": "Qui a commandé ce mausolée ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "subQuestion": {
+        "id": "test-20261012-rapidite-complement-1",
+        "category": "TEST — Rapidité",
+        "basePoints": 15,
+        "penaltyPoints": 0,
+        "kind": "multipleChoice",
+        "prompt": "Qui a commandé ce mausolée ?",
+        "options": [
+          "A — Babur",
+          "B — Aurangzeb",
+          "C — Shah Jahan",
+          "D — Akbar"
+        ],
+        "correctOptionIndex": 2,
+        "imageUrl": "images/architecture-qcm-asie-orient-20261011/taj.jpg"
+      }
+    },
+    {
+      "kind": "speedRace",
+      "id": "test-20261012-rapidite-complement-2",
+      "category": "TEST — Rapidité",
+      "prompt": "Quel peuple a fait de Pétra sa capitale et y a sculpté des façades dans la roche ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "subQuestion": {
+        "id": "test-20261012-rapidite-complement-2",
+        "category": "TEST — Rapidité",
+        "basePoints": 15,
+        "penaltyPoints": 0,
+        "kind": "multipleChoice",
+        "prompt": "Quel peuple a fait de Pétra sa capitale et y a sculpté des façades dans la roche ?",
+        "options": [
+          "A — Les Phéniciens",
+          "B — Les Hittites",
+          "C — Les Perses achéménides",
+          "D — Les Nabatéens"
+        ],
+        "correctOptionIndex": 3
+      }
+    },
+    {
+      "kind": "speedRace",
+      "id": "test-20261012-rapidite-complement-3",
+      "category": "TEST — Rapidité",
+      "prompt": "Dans quel pays est ce temple ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "subQuestion": {
+        "id": "test-20261012-rapidite-complement-3",
+        "category": "TEST — Rapidité",
+        "basePoints": 15,
+        "penaltyPoints": 0,
+        "kind": "multipleChoice",
+        "prompt": "Dans quel pays est ce temple ?",
+        "options": [
+          "A — Thaïlande",
+          "B — Cambodge",
+          "C — Laos",
+          "D — Myanmar"
+        ],
+        "correctOptionIndex": 1,
+        "imageUrl": "images/architecture-qcm-asie-orient-20261011/angkor.jpg"
+      }
+    },
+    {
+      "kind": "speedRace",
+      "id": "test-20261012-rapidite-complement-4",
+      "category": "TEST — Rapidité",
+      "prompt": "À quelle tradition religieuse le temple de Borobudur, sur l’île de Java, appartient-il ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "subQuestion": {
+        "id": "test-20261012-rapidite-complement-4",
+        "category": "TEST — Rapidité",
+        "basePoints": 15,
+        "penaltyPoints": 0,
+        "kind": "multipleChoice",
+        "prompt": "À quelle tradition religieuse le temple de Borobudur, sur l’île de Java, appartient-il ?",
+        "options": [
+          "A — Le shintoïsme",
+          "B — Le bouddhisme",
+          "C — Le taoïsme",
+          "D — Le zoroastrisme"
+        ],
+        "correctOptionIndex": 1
+      }
+    }
+  ]
+}

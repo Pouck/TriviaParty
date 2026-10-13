@@ -1,0 +1,15 @@
+{
+  "id": "arts-buzzer-marbre-bronze-20261011",
+  "name": "Arts — Marbre et bronze — Réponses écrites",
+  "description": "6 questions en français. 30 secondes ; 15 → 10 → 5 points.  Réponses écrites, validées individuellement par l’hôte.",
+  "categoryPackages": [
+    "arts-buzzer-marbre-bronze-20261011"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 10,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

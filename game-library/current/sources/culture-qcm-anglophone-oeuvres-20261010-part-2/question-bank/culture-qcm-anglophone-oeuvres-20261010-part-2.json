@@ -1,0 +1,85 @@
+{
+  "category": "Littérature britannique et irlandaise — Œuvres : choix multiples — 2",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-06",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel poème épique de Milton raconte la chute de Satan et l’expulsion d’Adam et Ève de l’Éden ?",
+      "options": [
+        "A — The Faerie Queene",
+        "B — Paradise Lost",
+        "C — The Prelude",
+        "D — The Canterbury Tales"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-07",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Vers quelle région Robert Walton se dirige-t-il dans les lettres qui encadrent Frankenstein ?",
+      "options": [
+        "A — Le pôle Nord",
+        "B — Les mers du Sud",
+        "C — L’Afrique centrale",
+        "D — L’Amazonie"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-08",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Huxley décrit un État mondial où la population consomme une drogue appelée soma ?",
+      "options": [
+        "A — Fahrenheit 451",
+        "B — Animal Farm",
+        "C — Brave New World",
+        "D — The Time Machine"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-09",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Jane Austen raconte les retrouvailles d’Anne Elliot avec le capitaine Wentworth ?",
+      "options": [
+        "A — Persuasion",
+        "B — Mansfield Park",
+        "C — Sense and Sensibility",
+        "D — Northanger Abbey"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-10",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel recueil de Chaucer met en scène un concours de récits entre pèlerins en route vers Canterbury ?",
+      "options": [
+        "A — Decameron",
+        "B — Sir Gawain and the Green Knight",
+        "C — Le Morte Darthur",
+        "D — The Canterbury Tales"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

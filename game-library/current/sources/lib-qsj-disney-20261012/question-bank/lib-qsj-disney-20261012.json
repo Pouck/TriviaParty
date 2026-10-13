@@ -1,0 +1,95 @@
+{
+  "category": "Disney — Animation — Qui suis-je ?",
+  "subject": "Cinéma",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-disney-20261012-01",
+      "category": "Disney — Animation — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je cache un pouvoir que je maîtrise mal.",
+        "Ma sœur s’appelle Anna.",
+        "Je peux créer de la glace et de la neige.",
+        "Je suis la reine d’Arendelle dans La Reine des neiges."
+      ],
+      "acceptableAnswers": [
+        "Elsa"
+      ]
+    },
+    {
+      "id": "lib-qsj-disney-20261012-02",
+      "category": "Disney — Animation — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je collectionne les objets du monde des humains.",
+        "Mon père est le roi Triton.",
+        "Je rêve de vivre sur terre avec le prince Éric.",
+        "Je suis La Petite Sirène de Disney."
+      ],
+      "acceptableAnswers": [
+        "Ariel"
+      ]
+    },
+    {
+      "id": "lib-qsj-disney-20261012-03",
+      "category": "Disney — Animation — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je prends la place de mon père dans l’armée.",
+        "Je me déguise pour pouvoir combattre.",
+        "Le petit dragon Mushu m’accompagne.",
+        "Je suis l’héroïne chinoise d’un film Disney."
+      ],
+      "acceptableAnswers": [
+        "Mulan"
+      ]
+    },
+    {
+      "id": "lib-qsj-disney-20261012-04",
+      "category": "Disney — Animation — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "J’aime lire et rêve d’une autre vie.",
+        "Je suis retenue dans un château enchanté.",
+        "Lumière et Big Ben m’accueillent.",
+        "Je suis l’héroïne de La Belle et la Bête."
+      ],
+      "acceptableAnswers": [
+        "Belle"
+      ]
+    },
+    {
+      "id": "lib-qsj-disney-20261012-05",
+      "category": "Disney — Animation — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une expérience extraterrestre.",
+        "Mon numéro est 626.",
+        "Une petite fille d’Hawaï m’adopte.",
+        "Je suis le compagnon bleu de Lilo."
+      ],
+      "acceptableAnswers": [
+        "Stitch"
+      ]
+    }
+  ]
+}

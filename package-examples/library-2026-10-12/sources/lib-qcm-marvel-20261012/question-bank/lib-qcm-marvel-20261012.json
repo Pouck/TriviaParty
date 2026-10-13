@@ -1,0 +1,87 @@
+{
+  "category": "Marvel — Héros et univers — QCM",
+  "subject": "Super-héros",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-marvel-20261012-01",
+      "category": "Marvel — Héros et univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel héros de Marvel utilise un bouclier ?",
+      "options": [
+        "A — Iron Man",
+        "B — Doctor Strange",
+        "C — Hawkeye",
+        "D — Captain America"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/shield.png"
+    },
+    {
+      "id": "lib-qcm-marvel-20261012-02",
+      "category": "Marvel — Héros et univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle est l’identité de Spider-Man, le héros créé en 1962 ?",
+      "options": [
+        "A — Steve Rogers",
+        "B — Peter Parker",
+        "C — Matt Murdock",
+        "D — Bruce Banner"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-marvel-20261012-03",
+      "category": "Marvel — Héros et univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel héros devient vert lorsqu’il se transforme ?",
+      "options": [
+        "A — Hulk",
+        "B — Thor",
+        "C — Vision",
+        "D — Loki"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-marvel-20261012-04",
+      "category": "Marvel — Héros et univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel dieu de Marvel manie Mjöllnir ?",
+      "options": [
+        "A — Thor",
+        "B — Heimdall",
+        "C — Loki",
+        "D — Odin"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/hammer.png"
+    },
+    {
+      "id": "lib-qcm-marvel-20261012-05",
+      "category": "Marvel — Héros et univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel royaume africain fictif est celui de Black Panther ?",
+      "options": [
+        "A — Latveria",
+        "B — Sokovia",
+        "C — Le Wakanda",
+        "D — Genosha"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

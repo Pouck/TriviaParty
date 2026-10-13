@@ -1,0 +1,145 @@
+{
+  "category": "Nature — Cycles de vie — Chronologie",
+  "subject": "Nature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "lib-chronologie-nature-cycles-20261012-01",
+      "category": "Nature — Cycles de vie — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces étapes de vie du papillon",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Chenille"
+        },
+        {
+          "id": "item-1",
+          "text": "Œuf"
+        },
+        {
+          "id": "item-2",
+          "text": "Papillon adulte"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "lib-chronologie-nature-cycles-20261012-02",
+      "category": "Nature — Cycles de vie — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces étapes de vie de la grenouille",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Têtard"
+        },
+        {
+          "id": "item-1",
+          "text": "Grenouille adulte"
+        },
+        {
+          "id": "item-2",
+          "text": "Œuf"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-nature-cycles-20261012-03",
+      "category": "Nature — Cycles de vie — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces étapes de vie d’un oiseau",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Premier envol"
+        },
+        {
+          "id": "item-1",
+          "text": "Ponte de l’œuf"
+        },
+        {
+          "id": "item-2",
+          "text": "Éclosion"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-nature-cycles-20261012-04",
+      "category": "Nature — Cycles de vie — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces étapes chez un mammifère",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Sevrage"
+        },
+        {
+          "id": "item-1",
+          "text": "Gestation"
+        },
+        {
+          "id": "item-2",
+          "text": "Naissance"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-nature-cycles-20261012-05",
+      "category": "Nature — Cycles de vie — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces étapes d’une abeille",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Larve"
+        },
+        {
+          "id": "item-1",
+          "text": "Abeille adulte"
+        },
+        {
+          "id": "item-2",
+          "text": "Œuf"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

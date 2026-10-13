@@ -1,0 +1,15 @@
+{
+  "id": "cinema-chronologie-reperes-20261011",
+  "name": "Cinéma — Sorties de films — Repères — Chronologie",
+  "description": "6 questions en français. Lecture libre puis 45 secondes ; 15 → 10 → 5 points. Réponse au buzzer : 10 secondes.",
+  "categoryPackages": [
+    "cinema-chronologie-reperes-20261011"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 15,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

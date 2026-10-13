@@ -1,0 +1,96 @@
+{
+  "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Qui suis-je ?",
+  "subject": "Mythologie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-odyssee-20261012-01",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je reviens de la guerre de Troie.",
+        "Mon voyage de retour dure dix ans.",
+        "J’utilise la ruse contre un Cyclope.",
+        "Je suis le roi d’Ithaque et l’époux de Pénélope."
+      ],
+      "acceptableAnswers": [
+        "Ulysse",
+        "Odysseus"
+      ]
+    },
+    {
+      "id": "lib-qsj-odyssee-20261012-02",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Des prétendants veulent m’épouser.",
+        "Je défais la nuit ce que je tisse le jour.",
+        "Télémaque est mon fils.",
+        "Je suis l’épouse qui attend Ulysse."
+      ],
+      "acceptableAnswers": [
+        "Pénélope"
+      ]
+    },
+    {
+      "id": "lib-qsj-odyssee-20261012-03",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je vis dans une grotte avec mes troupeaux.",
+        "Poséidon est mon père.",
+        "Un voyageur me dit s’appeler Personne.",
+        "Je suis le Cyclope aveuglé par Ulysse."
+      ],
+      "acceptableAnswers": [
+        "Polyphème"
+      ]
+    },
+    {
+      "id": "lib-qsj-odyssee-20261012-04",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je vis sur l’île d’Ééa.",
+        "Je possède des pouvoirs magiques.",
+        "Je transforme des marins en cochons.",
+        "Je suis la magicienne rencontrée par Ulysse."
+      ],
+      "acceptableAnswers": [
+        "Circé"
+      ]
+    },
+    {
+      "id": "lib-qsj-odyssee-20261012-05",
+      "category": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Nous apparaissons dans le voyage d’Ulysse.",
+        "Notre chant attire les marins.",
+        "Les compagnons d’Ulysse se bouchent les oreilles.",
+        "Ulysse est attaché au mât pour nous écouter."
+      ],
+      "acceptableAnswers": [
+        "Les Sirènes"
+      ]
+    }
+  ]
+}

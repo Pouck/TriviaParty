@@ -1,0 +1,172 @@
+{
+  "category": "Arts — Peintures dans le temps — Chronologie",
+  "subject": "Arts",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "arts-chronologie-peintures-dans-le-temps-20261011-01",
+      "category": "Arts — Peintures dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces peintures selon leur réalisation :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Les Époux Arnolfini"
+        },
+        {
+          "id": "item-1",
+          "text": "Les Ménines"
+        },
+        {
+          "id": "item-2",
+          "text": "La Naissance de Vénus"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "id": "arts-chronologie-peintures-dans-le-temps-20261011-02",
+      "category": "Arts — Peintures dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces peintures selon leur réalisation :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Impression, soleil levant"
+        },
+        {
+          "id": "item-1",
+          "text": "La Jeune Fille à la perle"
+        },
+        {
+          "id": "item-2",
+          "text": "La Ronde de nuit"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "id": "arts-chronologie-peintures-dans-le-temps-20261011-03",
+      "category": "Arts — Peintures dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces tableaux du XIXe siècle :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Le Radeau de la Méduse"
+        },
+        {
+          "id": "item-1",
+          "text": "Olympia"
+        },
+        {
+          "id": "item-2",
+          "text": "La Liberté guidant le peuple"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "id": "arts-chronologie-peintures-dans-le-temps-20261011-04",
+      "category": "Arts — Peintures dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces tableaux de la fin du XIXe siècle :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Le Cri — version peinte de 1893"
+        },
+        {
+          "id": "item-1",
+          "text": "La Nuit étoilée"
+        },
+        {
+          "id": "item-2",
+          "text": "Bal du moulin de la Galette"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "id": "arts-chronologie-peintures-dans-le-temps-20261011-05",
+      "category": "Arts — Peintures dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces tableaux du début du XXe siècle :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Guernica"
+        },
+        {
+          "id": "item-1",
+          "text": "Le Baiser de Klimt"
+        },
+        {
+          "id": "item-2",
+          "text": "American Gothic"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "id": "arts-chronologie-peintures-dans-le-temps-20261011-06",
+      "category": "Arts — Peintures dans le temps — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces œuvres selon leur réalisation.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "La Persistance de la mémoire"
+        },
+        {
+          "id": "item-1",
+          "text": "Campbell’s Soup Cans"
+        },
+        {
+          "id": "item-2",
+          "text": "Nighthawks"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    }
+  ]
+}

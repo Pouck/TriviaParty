@@ -1,0 +1,130 @@
+{
+  "category": "Cinéma — Films et personnages — QCM",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "cinema-qcm-films-personnages-20261011-01",
+      "category": "Cinéma — Films et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui incarne Gandalf dans la trilogie du Seigneur des anneaux réalisée par Peter Jackson ?",
+      "options": [
+        "A — Ian McKellen",
+        "B — Michael Gambon",
+        "C — Christopher Lee",
+        "D — Richard Harris"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "cinema-qcm-films-personnages-20261011-02",
+      "category": "Cinéma — Films et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui réalise Titanic, sorti en 1997 ?",
+      "options": [
+        "A — Ridley Scott",
+        "B — James Cameron",
+        "C — Robert Zemeckis",
+        "D — Steven Spielberg"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "cinema-qcm-films-personnages-20261011-03",
+      "category": "Cinéma — Films et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans quelle ville se déroule principalement Blade Runner, le film de 1982 ?",
+      "options": [
+        "A — New York",
+        "B — Chicago",
+        "C — Los Angeles",
+        "D — Tokyo"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "cinema-qcm-films-personnages-20261011-04",
+      "category": "Cinéma — Films et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel objet Cobb fait-il tourner dans la dernière scène d’Inception ?",
+      "options": [
+        "A — Une toupie",
+        "B — Une pièce de monnaie",
+        "C — Une bague",
+        "D — Un dé"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "cinema-qcm-films-personnages-20261011-05",
+      "category": "Cinéma — Films et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel écrivain est l’auteur du roman Dune, adapté au cinéma ?",
+      "options": [
+        "A — Philip K. Dick",
+        "B — Frank Herbert",
+        "C — Arthur C. Clarke",
+        "D — Isaac Asimov"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "cinema-qcm-films-personnages-20261011-06",
+      "category": "Cinéma — Films et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans Gladiator (2000), quelle civilisation domine le monde de Maximus ?",
+      "options": [
+        "A — L’Égypte pharaonique",
+        "B — La Grèce antique",
+        "C — L’Empire perse",
+        "D — L’Empire romain"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "cinema-qcm-films-personnages-20261011-07",
+      "category": "Cinéma — Films et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel nom porte la famille au centre de The Godfather (Le Parrain) ?",
+      "options": [
+        "A — Tattaglia",
+        "B — Soprano",
+        "C — Barzini",
+        "D — Corleone"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "cinema-qcm-films-personnages-20261011-08",
+      "category": "Cinéma — Films et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quels sont les trois amis au centre de La Haine ?",
+      "options": [
+        "A — Nino, Driss et Philippe",
+        "B — Vinz, Nino et Driss",
+        "C — Vinz, Saïd et Hubert",
+        "D — Hubert, Philippe et Saïd"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "category": "Histoire des États-Unis — Chronologie",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "kind": "ordering",
+      "id": "us-chronologie-20261010-01",
+      "category": "Histoire des États-Unis — Chronologie",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Boston Tea Party"
+        },
+        {
+          "id": "item-1",
+          "text": "Massacre de Boston"
+        },
+        {
+          "id": "item-2",
+          "text": "Adoption de la Déclaration d’indépendance"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "us-chronologie-20261010-02",
+      "category": "Histoire des États-Unis — Chronologie",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Ratification de la Déclaration des droits"
+        },
+        {
+          "id": "item-1",
+          "text": "Adoption des Articles de la Confédération"
+        },
+        {
+          "id": "item-2",
+          "text": "Ratification de la Constitution"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "us-chronologie-20261010-03",
+      "category": "Histoire des États-Unis — Chronologie",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Loi sur le déplacement des peuples autochtones"
+        },
+        {
+          "id": "item-1",
+          "text": "Début de la ruée vers l’or en Californie"
+        },
+        {
+          "id": "item-2",
+          "text": "Achat de la Louisiane"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "us-chronologie-20261010-04",
+      "category": "Histoire des États-Unis — Chronologie",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Reddition de Lee à Appomattox"
+        },
+        {
+          "id": "item-1",
+          "text": "Bataille de Gettysburg"
+        },
+        {
+          "id": "item-2",
+          "text": "Attaque de Fort Sumter"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "id": "resize-20261012-usa-xxe",
+      "kind": "ordering",
+      "category": "Histoire des États-Unis — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Classez ces événements américains du XXe siècle",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Krach de Wall Street"
+        },
+        {
+          "id": "item-1",
+          "text": "Premiers pas humains sur la Lune"
+        },
+        {
+          "id": "item-2",
+          "text": "Premier vol motorisé des frères Wright"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

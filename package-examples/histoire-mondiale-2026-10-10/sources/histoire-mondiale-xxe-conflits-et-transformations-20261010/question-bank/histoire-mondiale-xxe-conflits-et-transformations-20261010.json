@@ -1,0 +1,69 @@
+{
+  "category": "Histoire mondiale — XXe siècle : conflits et transformations",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-conflits-et-transformations-01-20261010",
+      "category": "Histoire mondiale — XXe siècle : conflits et transformations",
+      "prompt": "Quelle organisation internationale commence ses activités en 1920 pour favoriser la paix après la Première Guerre mondiale ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La Société des Nations",
+        "B — L’OTAN",
+        "C — Le pacte de Varsovie",
+        "D — L’Organisation des Nations unies"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-conflits-et-transformations-02-20261010",
+      "category": "Histoire mondiale — XXe siècle : conflits et transformations",
+      "prompt": "Quel projet dirigé par les États-Unis développa les premières armes nucléaires pendant la Seconde Guerre mondiale ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le programme Apollo",
+        "B — Le programme britannique de radar",
+        "C — Le projet Manhattan",
+        "D — Le programme V-2"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-conflits-et-transformations-03-20261010",
+      "category": "Histoire mondiale — XXe siècle : conflits et transformations",
+      "prompt": "Comment appelle-t-on la division de l’Inde britannique en 1947, qui donne naissance à l’Inde et au Pakistan indépendants ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le Grand Réalignement",
+        "B — La partition de l’Inde",
+        "C — L’accord de décolonisation",
+        "D — La rupture de Lahore"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xxe-conflits-et-transformations-04-20261010",
+      "category": "Histoire mondiale — XXe siècle : conflits et transformations",
+      "prompt": "Quel dirigeant du mouvement Solidarność devint président de la Pologne en 1990 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Wojciech Jaruzelski",
+        "B — Václav Havel",
+        "C — Imre Nagy",
+        "D — Lech Wałęsa"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

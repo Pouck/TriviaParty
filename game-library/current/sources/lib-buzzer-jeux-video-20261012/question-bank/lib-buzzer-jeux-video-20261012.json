@@ -1,0 +1,73 @@
+{
+  "category": "Jeux vidéo — Grands univers — Buzzer",
+  "subject": "Jeux vidéo",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-jeux-video-20261012-01",
+      "category": "Jeux vidéo — Grands univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel personnage jaune de Pokémon est associé à l’électricité ?",
+      "acceptableAnswers": [
+        "Pikachu"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-jeux-video-20261012/lightning.png"
+    },
+    {
+      "id": "lib-buzzer-jeux-video-20261012-02",
+      "category": "Jeux vidéo — Grands univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel jeu d’arcade suit un personnage jaune dans un labyrinthe ?",
+      "acceptableAnswers": [
+        "Pac-Man",
+        "Pacman"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-jeux-video-20261012/maze.png"
+    },
+    {
+      "id": "lib-buzzer-jeux-video-20261012-03",
+      "category": "Jeux vidéo — Grands univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel frère de Mario porte du vert ?",
+      "acceptableAnswers": [
+        "Luigi"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-jeux-video-20261012-04",
+      "category": "Jeux vidéo — Grands univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle princesse donne son nom à une série d’aventures de Nintendo ?",
+      "acceptableAnswers": [
+        "Zelda"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-jeux-video-20261012-05",
+      "category": "Jeux vidéo — Grands univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel jeu de course réunit Mario et ses amis sur des karts ?",
+      "acceptableAnswers": [
+        "Mario Kart"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

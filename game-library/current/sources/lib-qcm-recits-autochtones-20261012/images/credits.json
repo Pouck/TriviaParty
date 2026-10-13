@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "turtle",
+    "title": "Green sea turtle",
+    "file": "turtle.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_(Chelonia_mydas)_Moorea.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/1920px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work, from Sharp Photography, sharpphotography.co.uk",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-recits-autochtones-20261012"
+  },
+  {
+    "slug": "raven",
+    "title": "Common raven",
+    "file": "raven.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Corvus_corax_clarionensis,_Point_Reyes_National_Seashore.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Corvus_corax_clarionensis%2C_Point_Reyes_National_Seashore.jpg/1920px-Corvus_corax_clarionensis%2C_Point_Reyes_National_Seashore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-recits-autochtones-20261012"
+  }
+]

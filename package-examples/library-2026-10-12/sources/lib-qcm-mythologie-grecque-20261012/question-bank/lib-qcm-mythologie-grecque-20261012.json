@@ -1,0 +1,87 @@
+{
+  "category": "Mythologie grecque — Dieux et héros — QCM",
+  "subject": "Mythologie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-mythologie-grecque-20261012-01",
+      "category": "Mythologie grecque — Dieux et héros — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel dieu grec manie la foudre ?",
+      "options": [
+        "A — Apollon",
+        "B — Zeus",
+        "C — Hadès",
+        "D — Hermès"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/lightning.png"
+    },
+    {
+      "id": "lib-qcm-mythologie-grecque-20261012-02",
+      "category": "Mythologie grecque — Dieux et héros — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle déesse est associée à la sagesse ?",
+      "options": [
+        "A — Athéna",
+        "B — Déméter",
+        "C — Artémis",
+        "D — Aphrodite"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-mythologie-grecque-20261012-03",
+      "category": "Mythologie grecque — Dieux et héros — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel héros accomplit douze travaux ?",
+      "options": [
+        "A — Persée",
+        "B — Jason",
+        "C — Thésée",
+        "D — Héraclès"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-mythologie-grecque-20261012-04",
+      "category": "Mythologie grecque — Dieux et héros — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel cheval mythique possède des ailes ?",
+      "options": [
+        "A — Chiron",
+        "B — Cerbère",
+        "C — Pégase",
+        "D — Arion"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/winged-horse.png"
+    },
+    {
+      "id": "lib-qcm-mythologie-grecque-20261012-05",
+      "category": "Mythologie grecque — Dieux et héros — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel dieu grec règne sur les mers ?",
+      "options": [
+        "A — Dionysos",
+        "B — Poséidon",
+        "C — Héphaïstos",
+        "D — Arès"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

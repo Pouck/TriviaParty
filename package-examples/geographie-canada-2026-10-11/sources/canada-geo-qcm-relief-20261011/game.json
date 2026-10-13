@@ -1,0 +1,15 @@
+{
+  "id": "canada-geo-qcm-relief-20261011",
+  "name": "Géographie du Canada — Relief et extrêmes",
+  "description": "6 questions en français ; 15 secondes ; 15 → 10 → 5 points.",
+  "categoryPackages": [
+    "canada-geo-qcm-relief-20261011"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

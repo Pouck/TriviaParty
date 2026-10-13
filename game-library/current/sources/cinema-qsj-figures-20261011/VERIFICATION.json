@@ -1,0 +1,67 @@
+[
+  {
+    "question": 1,
+    "questionId": "cinema-qsj-figures-20261011-01",
+    "originalPackage": "cinema-qsj-figures-20261011",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://amblin.com/steven-spielberg/"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "cinema-qsj-figures-20261011-02",
+    "originalPackage": "cinema-qsj-figures-20261011",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.charliechaplin.com/en/biography/articles/21-Chaplin-s-Life"
+      ],
+      "note": "On demande l’artiste, pas seulement le nom de son personnage Charlot."
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "cinema-qsj-figures-20261011-03",
+    "originalPackage": "cinema-qsj-figures-20261011",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.bfi.org.uk/features/set-alfred-hitchcock"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "cinema-qsj-figures-20261011-04",
+    "originalPackage": "cinema-qsj-figures-20261011",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.lucasfilm.com/productions/indiana-jones-and-the-last-crusade/"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "cinema-qsj-figures-20261011-05",
+    "originalPackage": "cinema-qsj-figures-20261011",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.007.com/the-films/"
+      ],
+      "note": ""
+    },
+    "new": false
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-qcm-geographie-villes-20261012-01",
+    "originalPackage": "lib-qcm-geographie-villes-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.louvre.fr/",
+        "https://www.colosseo.it/en/",
+        "https://www.sydneyoperahouse.com/",
+        "https://www.tajmahal.gov.in/",
+        "https://www.britannica.com/place"
+      ],
+      "note": "",
+      "visual": "eiffel"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-qcm-geographie-villes-20261012-02",
+    "originalPackage": "lib-qcm-geographie-villes-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.louvre.fr/",
+        "https://www.colosseo.it/en/",
+        "https://www.sydneyoperahouse.com/",
+        "https://www.tajmahal.gov.in/",
+        "https://www.britannica.com/place"
+      ],
+      "note": "",
+      "visual": "taj"
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-qcm-geographie-villes-20261012-03",
+    "originalPackage": "lib-qcm-geographie-villes-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.louvre.fr/",
+        "https://www.colosseo.it/en/",
+        "https://www.sydneyoperahouse.com/",
+        "https://www.tajmahal.gov.in/",
+        "https://www.britannica.com/place"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-qcm-geographie-villes-20261012-04",
+    "originalPackage": "lib-qcm-geographie-villes-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.louvre.fr/",
+        "https://www.colosseo.it/en/",
+        "https://www.sydneyoperahouse.com/",
+        "https://www.tajmahal.gov.in/",
+        "https://www.britannica.com/place"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qcm-geographie-villes-20261012-05",
+    "originalPackage": "lib-qcm-geographie-villes-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.louvre.fr/",
+        "https://www.colosseo.it/en/",
+        "https://www.sydneyoperahouse.com/",
+        "https://www.tajmahal.gov.in/",
+        "https://www.britannica.com/place"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

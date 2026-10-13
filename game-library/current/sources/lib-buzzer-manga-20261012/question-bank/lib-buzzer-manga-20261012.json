@@ -1,0 +1,76 @@
+{
+  "category": "Manga — Grands classiques — Réponses écrites",
+  "subject": "BD et manga",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-manga-20261012-01",
+      "category": "Manga — Grands classiques — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel est le titre du manga de pirates de Luffy ?",
+      "acceptableAnswers": [
+        "One Piece"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-manga-20261012/ship.png"
+    },
+    {
+      "id": "lib-buzzer-manga-20261012-02",
+      "category": "Manga — Grands classiques — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel héros de Dragon Ball est aussi appelé Kakarot ?",
+      "acceptableAnswers": [
+        "Son Goku",
+        "Goku"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-manga-20261012-03",
+      "category": "Manga — Grands classiques — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle héroïne de manga est associée à la Lune et aux guerrières Sailor ?",
+      "acceptableAnswers": [
+        "Sailor Moon"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-manga-20261012/moon.jpg"
+    },
+    {
+      "id": "lib-buzzer-manga-20261012-04",
+      "category": "Manga — Grands classiques — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel ninja blond rêve de devenir Hokage ?",
+      "acceptableAnswers": [
+        "Naruto Uzumaki",
+        "Naruto"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-manga-20261012-05",
+      "category": "Manga — Grands classiques — Réponses écrites",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel héros robot d’Osamu Tezuka est connu en français sous le nom Astro ?",
+      "acceptableAnswers": [
+        "Astro Boy",
+        "Astro",
+        "Astro le petit robot"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

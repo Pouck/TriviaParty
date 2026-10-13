@@ -1,0 +1,77 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-chronologie-disney-sorties-20261012-01",
+    "originalPackage": "lib-chronologie-disney-sorties-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://d23.com/list-of-disney-films/",
+        "https://disneyanimation.com/films/"
+      ],
+      "note": "Blanche-Neige et les Sept Nains (1937) → Dumbo (1941) → Bambi (1942)",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-chronologie-disney-sorties-20261012-02",
+    "originalPackage": "lib-chronologie-disney-sorties-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://d23.com/list-of-disney-films/",
+        "https://disneyanimation.com/films/"
+      ],
+      "note": "Cendrillon (1950) → La Belle au bois dormant (1959) → Le Livre de la jungle (1967)",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-chronologie-disney-sorties-20261012-03",
+    "originalPackage": "lib-chronologie-disney-sorties-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://d23.com/list-of-disney-films/",
+        "https://disneyanimation.com/films/"
+      ],
+      "note": "La Petite Sirène (1989) → La Belle et la Bête (1991) → Aladdin (1992)",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-chronologie-disney-sorties-20261012-04",
+    "originalPackage": "lib-chronologie-disney-sorties-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://d23.com/list-of-disney-films/",
+        "https://disneyanimation.com/films/"
+      ],
+      "note": "Le Roi lion (1994) → Mulan (1998) → Lilo et Stitch (2002)",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-chronologie-disney-sorties-20261012-05",
+    "originalPackage": "lib-chronologie-disney-sorties-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://d23.com/list-of-disney-films/",
+        "https://disneyanimation.com/films/"
+      ],
+      "note": "La Princesse et la Grenouille (2009) → La Reine des neiges (2013) → Vaiana (2016)",
+      "visual": null
+    },
+    "new": false
+  }
+]

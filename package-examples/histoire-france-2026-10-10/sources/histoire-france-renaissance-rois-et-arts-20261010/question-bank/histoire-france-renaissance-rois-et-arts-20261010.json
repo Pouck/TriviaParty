@@ -1,0 +1,69 @@
+{
+  "category": "Histoire de France — Renaissance — Rois et arts",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-rois-et-arts-20261010-01",
+      "category": "Histoire de France — Renaissance — Rois et arts",
+      "prompt": "Quel artiste italien François Ier accueillit-il au Clos Lucé, où il passa ses dernières années ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Léonard de Vinci",
+        "B — Sandro Botticelli",
+        "C — Michel-Ange",
+        "D — Raphaël"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-rois-et-arts-20261010-02",
+      "category": "Histoire de France — Renaissance — Rois et arts",
+      "prompt": "Quelle reine, épouse d’Henri II, fut la mère de François II, Charles IX et Henri III ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Isabelle d’Este",
+        "B — Marie de Médicis",
+        "C — Lucrèce Borgia",
+        "D — Catherine de Médicis"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-rois-et-arts-20261010-03",
+      "category": "Histoire de France — Renaissance — Rois et arts",
+      "prompt": "Quel château possède une célèbre galerie construite sur un pont qui enjambe le Cher ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Amboise",
+        "B — Chenonceau",
+        "C — Fontainebleau",
+        "D — Chambord"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-rois-et-arts-20261010-04",
+      "category": "Histoire de France — Renaissance — Rois et arts",
+      "prompt": "Quel musée parisien occupe l’ancien palais que François Ier fit transformer dans le style Renaissance ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le Centre Pompidou",
+        "B — Le musée d’Orsay",
+        "C — Le Louvre",
+        "D — Le musée de l’Orangerie"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

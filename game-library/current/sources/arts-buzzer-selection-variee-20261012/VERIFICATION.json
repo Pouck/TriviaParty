@@ -1,0 +1,86 @@
+[
+  {
+    "question": 1,
+    "questionId": "arts-buzzer-marbre-bronze-20261011-07",
+    "originalPackage": "arts-buzzer-marbre-bronze-20261011",
+    "reference": {
+      "question": 7,
+      "sources": [
+        "https://www.nga.gov/artworks/110292-little-dancer-aged-fourteen"
+      ],
+      "note": "Des bronzes posthumes existent ; la question porte sur le créateur du modèle.",
+      "photo": "https://commons.wikimedia.org/wiki/File:The_Little_Fourteen-Year-Old_Dancer_MET_DP-14939-005.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "arts-buzzer-marbre-bronze-20261011-08",
+    "originalPackage": "arts-buzzer-marbre-bronze-20261011",
+    "reference": {
+      "question": 8,
+      "sources": [
+        "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "arts-buzzer-regards-scenes-20261011-07",
+    "originalPackage": "arts-buzzer-regards-scenes-20261011",
+    "reference": {
+      "question": 7,
+      "sources": [
+        "https://www.musee-orsay.fr/en/artworks/bal-du-moulin-de-la-galette-497"
+      ],
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Renoir,_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette,_1876.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "arts-buzzer-regards-scenes-20261011-08",
+    "originalPackage": "arts-buzzer-regards-scenes-20261011",
+    "reference": {
+      "question": 8,
+      "sources": [
+        "https://www.moma.org/collection/works/79802"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "arts-buzzer-tableaux-celebres-20261011-07",
+    "originalPackage": "arts-buzzer-tableaux-celebres-20261011",
+    "reference": {
+      "question": 7,
+      "sources": [
+        "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/romanticism-topicality-sensuality"
+      ],
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "arts-buzzer-tableaux-celebres-20261011-08",
+    "originalPackage": "arts-buzzer-tableaux-celebres-20261011",
+    "reference": {
+      "question": 8,
+      "sources": [
+        "https://guernica.museoreinasofia.es/agente/pablo-picasso-5322"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  }
+]

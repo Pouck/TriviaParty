@@ -1,0 +1,99 @@
+{
+  "category": "Inventions canadiennes — Médecine et percées vitales",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-medical-20261011-01",
+      "category": "Inventions canadiennes — Médecine et percées vitales",
+      "prompt": "Quelle hormone les travaux de Banting, Best, Macleod et Collip à Toronto permettent-ils d’utiliser contre le diabète au début des années 1920 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — L’insuline",
+        "B — La pénicilline",
+        "C — L’adrénaline",
+        "D — La cortisone"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-medical-20261011-02",
+      "category": "Inventions canadiennes — Médecine et percées vitales",
+      "prompt": "Quel appareil cardiaque externe John Hopps contribue-t-il à développer en 1950 avec une équipe canadienne étudiant l’hypothermie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le stimulateur cardiaque",
+        "B — L’électrocardiographe",
+        "C — Le défibrillateur implantable",
+        "D — La machine de dialyse rénale"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-medical-20261011-03",
+      "category": "Inventions canadiennes — Médecine et percées vitales",
+      "prompt": "Quel objet jetable Harry Wasylyk et Larry Hansen contribuent-ils à mettre au point au Canada vers 1950 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Les gants médicaux en latex",
+        "B — Les lingettes désinfectantes",
+        "C — Le sac à ordures en plastique",
+        "D — Le film alimentaire"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-medical-20261011-04",
+      "category": "Inventions canadiennes — Médecine et percées vitales",
+      "prompt": "Pour traiter certaines tumeurs superficielles de la vessie, quel produit Álvaro Morales et ses collègues administrent-ils dans la vessie dans une étude publiée en 1976 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La pénicilline",
+        "B — La cortisone",
+        "C — L’insuline",
+        "D — Le vaccin BCG"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-medical-20261011-05",
+      "category": "Inventions canadiennes — Médecine et percées vitales",
+      "prompt": "De quelles cellules James Till et Ernest McCulloch démontrent-ils expérimentalement l’existence dans des travaux publiés en 1961 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Les cellules musculaires",
+        "B — Les cellules souches sanguines",
+        "C — Les cellules nerveuses",
+        "D — Les cellules de la rétine"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-inventions-medical-20261011-06",
+      "category": "Inventions canadiennes — Médecine et percées vitales",
+      "prompt": "Quel usage du curare Harold Griffith et Enid Johnson introduisent-ils en chirurgie à Montréal en 1942 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — L’anesthésie locale de la peau",
+        "B — Les points de suture résorbables",
+        "C — La relaxation musculaire pendant l’anesthésie générale",
+        "D — La désinfection des plaies"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

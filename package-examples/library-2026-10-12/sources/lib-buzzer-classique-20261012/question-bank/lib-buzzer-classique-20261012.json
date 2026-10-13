@@ -1,0 +1,79 @@
+{
+  "category": "Musique classique — Compositeurs et œuvres — Buzzer",
+  "subject": "Musique",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-classique-20261012-01",
+      "category": "Musique classique — Compositeurs et œuvres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui a composé Le Lac des cygnes ?",
+      "acceptableAnswers": [
+        "Tchaïkovski",
+        "Piotr Ilitch Tchaïkovski"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/swan.jpg"
+    },
+    {
+      "id": "lib-buzzer-classique-20261012-02",
+      "category": "Musique classique — Compositeurs et œuvres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel compositeur devient presque sourd tout en continuant de créer ?",
+      "acceptableAnswers": [
+        "Ludwig van Beethoven",
+        "Beethoven"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-classique-20261012-03",
+      "category": "Musique classique — Compositeurs et œuvres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel compositeur français a écrit Clair de lune ?",
+      "acceptableAnswers": [
+        "Claude Debussy",
+        "Debussy"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/moon.jpg"
+    },
+    {
+      "id": "lib-buzzer-classique-20261012-04",
+      "category": "Musique classique — Compositeurs et œuvres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle famille d’instruments comprend le violon et le violoncelle ?",
+      "acceptableAnswers": [
+        "Les cordes",
+        "Cordes",
+        "Instruments à cordes"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-classique-20261012-05",
+      "category": "Musique classique — Compositeurs et œuvres — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel compositeur allemand est associé aux Concertos brandebourgeois ?",
+      "acceptableAnswers": [
+        "Jean-Sébastien Bach",
+        "Bach",
+        "Johann Sebastian Bach"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

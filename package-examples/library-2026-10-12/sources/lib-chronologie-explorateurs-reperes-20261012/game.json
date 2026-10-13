@@ -1,0 +1,15 @@
+{
+  "id": "lib-chronologie-explorateurs-reperes-20261012",
+  "name": "Histoire — Explorateurs — Voyages et expéditions — Chronologie",
+  "description": "5 questions accessibles en français. Lecture libre puis 45 s ; trois cartes à glisser ; 15 → 10 → 5 pts.",
+  "categoryPackages": [
+    "lib-chronologie-explorateurs-reperes-20261012"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 15,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "category": "Légendes de France — Régions et créatures — Qui suis-je ? écrit",
+  "subject": "Contes et légendes",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Qui suis-je ? écrit"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-legendes-france-20261012-01",
+      "category": "Légendes de France — Régions et créatures — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un monstre d’une légende provençale.",
+        "Sainte Marthe est associée à mon histoire.",
+        "Des fêtes me font défiler à Tarascon.",
+        "Mon nom rappelle celui de cette ville."
+      ],
+      "acceptableAnswers": [
+        "La Tarasque",
+        "Tarasque"
+      ]
+    },
+    {
+      "id": "lib-qsj-legendes-france-20261012-02",
+      "category": "Légendes de France — Régions et créatures — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une fée de récits médiévaux.",
+        "Je suis associée à Lusignan.",
+        "Un interdit protège mon intimité.",
+        "Je peux apparaître moitié femme, moitié serpent."
+      ],
+      "acceptableAnswers": [
+        "Mélusine"
+      ]
+    },
+    {
+      "id": "lib-qsj-legendes-france-20261012-03",
+      "category": "Légendes de France — Régions et créatures — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une ville de légende bretonne.",
+        "Le roi Gradlon est lié à mon histoire.",
+        "Dahut apparaît dans plusieurs versions du récit.",
+        "Je suis la cité engloutie sous la mer."
+      ],
+      "acceptableAnswers": [
+        "Ys"
+      ]
+    },
+    {
+      "id": "lib-qsj-legendes-france-20261012-04",
+      "category": "Légendes de France — Régions et créatures — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un être du folklore breton.",
+        "Je suis souvent petit et facétieux.",
+        "On m’associe aux lieux et aux nuits mystérieuses.",
+        "Mon nom commence par « korri »."
+      ],
+      "acceptableAnswers": [
+        "Un korrigan",
+        "Korrigan",
+        "Les korrigans"
+      ]
+    },
+    {
+      "id": "lib-qsj-legendes-france-20261012-05",
+      "category": "Légendes de France — Régions et créatures — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon histoire se déroule au XVIIIe siècle.",
+        "Des attaques frappent une région de France.",
+        "Mon identité exacte reste discutée.",
+        "Mon nom est celui de la bête associée au Gévaudan."
+      ],
+      "acceptableAnswers": [
+        "La Bête du Gévaudan",
+        "Bête du Gévaudan"
+      ]
+    }
+  ]
+}

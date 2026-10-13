@@ -1,0 +1,145 @@
+{
+  "category": "Cinéma — Studio Ghibli — Sorties japonaises — Chronologie",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "lib-chronologie-ghibli-sorties-20261012-01",
+      "category": "Cinéma — Studio Ghibli — Sorties japonaises — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties au Japon",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Kiki la petite sorcière"
+        },
+        {
+          "id": "item-1",
+          "text": "Le Château dans le ciel"
+        },
+        {
+          "id": "item-2",
+          "text": "Mon voisin Totoro"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-ghibli-sorties-20261012-02",
+      "category": "Cinéma — Studio Ghibli — Sorties japonaises — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties au Japon",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Princesse Mononoké"
+        },
+        {
+          "id": "item-1",
+          "text": "Le Voyage de Chihiro"
+        },
+        {
+          "id": "item-2",
+          "text": "Porco Rosso"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-ghibli-sorties-20261012-03",
+      "category": "Cinéma — Studio Ghibli — Sorties japonaises — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties au Japon",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Ponyo sur la falaise"
+        },
+        {
+          "id": "item-1",
+          "text": "Le Vent se lève"
+        },
+        {
+          "id": "item-2",
+          "text": "Le Château ambulant"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-ghibli-sorties-20261012-04",
+      "category": "Cinéma — Studio Ghibli — Sorties japonaises — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties au Japon",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Le Voyage de Chihiro"
+        },
+        {
+          "id": "item-1",
+          "text": "Le Garçon et le Héron"
+        },
+        {
+          "id": "item-2",
+          "text": "Mon voisin Totoro"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-ghibli-sorties-20261012-05",
+      "category": "Cinéma — Studio Ghibli — Sorties japonaises — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les sorties au Japon",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Ponyo sur la falaise"
+        },
+        {
+          "id": "item-1",
+          "text": "Le Conte de la princesse Kaguya"
+        },
+        {
+          "id": "item-2",
+          "text": "Princesse Mononoké"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

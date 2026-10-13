@@ -1,0 +1,87 @@
+{
+  "category": "Contes et légendes de France — QCM",
+  "subject": "Contes et légendes",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-contes-francais-20261012-01",
+      "category": "Contes et légendes de France — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Chez Perrault, quel objet permet au Petit Poucet de voyager vite ?",
+      "options": [
+        "A — Une baguette",
+        "B — Un anneau",
+        "C — Un tapis volant",
+        "D — Les bottes de sept lieues"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-contes-francais-20261012-02",
+      "category": "Contes et légendes de France — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel conte de Perrault met en scène une pantoufle de verre ?",
+      "options": [
+        "A — Cendrillon",
+        "B — Peau d’âne",
+        "C — Les Fées",
+        "D — Riquet à la houppe"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-contes-francais-20261012/slipper.png"
+    },
+    {
+      "id": "lib-qcm-contes-francais-20261012-03",
+      "category": "Contes et légendes de France — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel personnage interdit d’ouvrir une pièce de son château ?",
+      "options": [
+        "A — Barbe bleue",
+        "B — Le Chat botté",
+        "C — Le Petit Poucet",
+        "D — Riquet à la houppe"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-contes-francais-20261012-04",
+      "category": "Contes et légendes de France — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans Le Chat botté, en quel animal l’ogre se change-t-il avant d’être mangé ?",
+      "options": [
+        "A — Un lion",
+        "B — Un lapin",
+        "C — Une souris",
+        "D — Un serpent"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/lib-qcm-contes-francais-20261012/mouse.png"
+    },
+    {
+      "id": "lib-qcm-contes-francais-20261012-05",
+      "category": "Contes et légendes de France — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a publié les célèbres contes français de 1697 ?",
+      "options": [
+        "A — Molière",
+        "B — Charles Perrault",
+        "C — Victor Hugo",
+        "D — Jules Verne"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

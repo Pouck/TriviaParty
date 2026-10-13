@@ -1,0 +1,92 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-qsj-classique-20261012-01",
+    "originalPackage": "lib-qsj-classique-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://mozarteum.at/en/mozart-museums/mozarts-residence",
+        "https://www.beethoven.de/",
+        "https://www.britannica.com/biography/Antonio-Vivaldi",
+        "https://www.britannica.com/biography/Frederic-Chopin",
+        "https://www.britannica.com/biography/Pyotr-Ilyich-Tchaikovsky"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-qsj-classique-20261012-02",
+    "originalPackage": "lib-qsj-classique-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://mozarteum.at/en/mozart-museums/mozarts-residence",
+        "https://www.beethoven.de/",
+        "https://www.britannica.com/biography/Antonio-Vivaldi",
+        "https://www.britannica.com/biography/Frederic-Chopin",
+        "https://www.britannica.com/biography/Pyotr-Ilyich-Tchaikovsky"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-qsj-classique-20261012-03",
+    "originalPackage": "lib-qsj-classique-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://mozarteum.at/en/mozart-museums/mozarts-residence",
+        "https://www.beethoven.de/",
+        "https://www.britannica.com/biography/Antonio-Vivaldi",
+        "https://www.britannica.com/biography/Frederic-Chopin",
+        "https://www.britannica.com/biography/Pyotr-Ilyich-Tchaikovsky"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-qsj-classique-20261012-04",
+    "originalPackage": "lib-qsj-classique-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://mozarteum.at/en/mozart-museums/mozarts-residence",
+        "https://www.beethoven.de/",
+        "https://www.britannica.com/biography/Antonio-Vivaldi",
+        "https://www.britannica.com/biography/Frederic-Chopin",
+        "https://www.britannica.com/biography/Pyotr-Ilyich-Tchaikovsky"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qsj-classique-20261012-05",
+    "originalPackage": "lib-qsj-classique-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://mozarteum.at/en/mozart-museums/mozarts-residence",
+        "https://www.beethoven.de/",
+        "https://www.britannica.com/biography/Antonio-Vivaldi",
+        "https://www.britannica.com/biography/Frederic-Chopin",
+        "https://www.britannica.com/biography/Pyotr-Ilyich-Tchaikovsky"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "architecture-qsj-sacre-20261011",
+  "name": "Architecture — Édifices sacrés — Qui suis-je ?",
+  "description": "3 questions en français. 4 indices de 20 secondes ; 20 → 15 → 10 → 5 points ; erreur : −5 points.",
+  "categoryPackages": [
+    "architecture-qsj-sacre-20261011"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 20,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 3,
+    "pointsDecayPerFlip": 5
+  }
+}

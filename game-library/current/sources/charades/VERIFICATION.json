@@ -1,0 +1,51 @@
+[
+  {
+    "question": 1,
+    "questionId": "charades-nun-ace",
+    "originalPackage": "charades",
+    "reference": {
+      "note": "as + en + sœur = ascenseur ; ancien rébus remplacé par une charade textuelle complète."
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "resize-20261012-chapeau",
+    "originalPackage": null,
+    "reference": {
+      "sources": [],
+      "note": "chat + peau"
+    },
+    "new": true
+  },
+  {
+    "question": 3,
+    "questionId": "resize-20261012-radeau",
+    "originalPackage": null,
+    "reference": {
+      "sources": [],
+      "note": "rat + dos"
+    },
+    "new": true
+  },
+  {
+    "question": 4,
+    "questionId": "resize-20261012-pinceau",
+    "originalPackage": null,
+    "reference": {
+      "sources": [],
+      "note": "pain + seau"
+    },
+    "new": true
+  },
+  {
+    "question": 5,
+    "questionId": "resize-20261012-cartable",
+    "originalPackage": null,
+    "reference": {
+      "sources": [],
+      "note": "car + table"
+    },
+    "new": true
+  }
+]

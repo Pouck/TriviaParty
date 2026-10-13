@@ -1,0 +1,43 @@
+{
+  "category": "Qui suis-je ? — Littérature américaine — Œuvres",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-americaine-oeuvres-20261010-01",
+      "category": "Qui suis-je ? — Littérature américaine — Œuvres",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Publié en 1851, mon récit commence par un narrateur qui se présente sous le nom d’Ismaël.",
+        "De longs chapitres de mon texte décrivent les baleines et les techniques de la chasse baleinière.",
+        "À bord du Pequod, le capitaine Achab poursuit une vengeance qui consume tout l’équipage.",
+        "Je suis le roman d’Herman Melville consacré à la poursuite d’un grand cachalot blanc."
+      ],
+      "acceptableAnswers": [
+        "Moby-Dick"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-americaine-oeuvres-20261010-02",
+      "category": "Qui suis-je ? — Littérature américaine — Œuvres",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je décris les excès et les désillusions de l’Amérique des années 1920.",
+        "Nick Carraway raconte les événements depuis Long Island, où il habite près d’une vaste demeure.",
+        "Un millionnaire organise des fêtes somptueuses dans l’espoir de retrouver Daisy Buchanan.",
+        "Je suis le roman de F. Scott Fitzgerald dont le titre porte le nom de ce mystérieux millionnaire."
+      ],
+      "acceptableAnswers": [
+        "The Great Gatsby"
+      ]
+    }
+  ]
+}

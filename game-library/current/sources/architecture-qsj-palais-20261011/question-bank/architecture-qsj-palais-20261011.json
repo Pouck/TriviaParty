@@ -1,0 +1,103 @@
+{
+  "category": "Architecture — Palais et lieux d’exception — Qui suis-je ? écrit",
+  "subject": "Architecture",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Qui suis-je ? écrit"
+  ],
+  "questions": [
+    {
+      "id": "architecture-qsj-palais-20261011-01",
+      "category": "Architecture — Palais et lieux d’exception — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "À l’origine, je suis un pavillon de chasse de Louis XIII.",
+        "Mes jardins sont étroitement associés au travail d’André Le Nôtre.",
+        "Ma galerie des Glaces est l’une de mes salles les plus célèbres.",
+        "Je suis le palais près de Paris où Louis XIV installe sa cour."
+      ],
+      "acceptableAnswers": [
+        "Le château de Versailles",
+        "Versailles",
+        "Le palais de Versailles"
+      ]
+    },
+    {
+      "id": "architecture-qsj-palais-20261011-02",
+      "category": "Architecture — Palais et lieux d’exception — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "François Ier lance mon chantier en 1519.",
+        "Ma silhouette de la Renaissance rassemble tours, cheminées et terrasses.",
+        "Mon escalier à double révolution permet d’emprunter deux parcours distincts.",
+        "Je suis le célèbre château de François Ier, près de Blois."
+      ],
+      "acceptableAnswers": [
+        "Le château de Chambord",
+        "Chambord"
+      ]
+    },
+    {
+      "id": "architecture-qsj-palais-20261011-03",
+      "category": "Architecture — Palais et lieux d’exception — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes palais conservent un remarquable héritage de la dynastie nasride.",
+        "Mes décors associent calligraphie, motifs géométriques et stucs sculptés.",
+        "Ma cour des Lions comporte une célèbre fontaine portée par douze lions.",
+        "Je suis l’ensemble palatial fortifié qui domine Grenade, en Espagne."
+      ],
+      "acceptableAnswers": [
+        "L’Alhambra",
+        "Alhambra"
+      ]
+    },
+    {
+      "id": "architecture-qsj-civilisations-20261011-02",
+      "category": "Architecture — Palais et lieux d’exception — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un mausolée moghol élevé au XVIIe siècle.",
+        "Mon ensemble associe un jardin symétrique, du marbre blanc et des incrustations de pierres.",
+        "Shah Jahan me fait construire en mémoire de Mumtaz Mahal.",
+        "Je suis le célèbre monument de marbre blanc situé à Agra, en Inde."
+      ],
+      "acceptableAnswers": [
+        "Le Taj Mahal",
+        "Taj Mahal"
+      ]
+    },
+    {
+      "id": "architecture-qsj-sacre-20261011-02",
+      "category": "Architecture — Palais et lieux d’exception — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "L’empereur Justinien me fait reconstruire au VIe siècle.",
+        "Ma vaste coupole est un symbole de l’architecture byzantine.",
+        "Au fil de mon histoire, j’ai servi d’église, de mosquée et de musée.",
+        "Mon nom signifie « Sagesse divine » ; je me trouve à Istanbul."
+      ],
+      "acceptableAnswers": [
+        "Sainte-Sophie",
+        "Hagia Sophia",
+        "Ayasofya",
+        "La basilique Sainte-Sophie"
+      ]
+    }
+  ]
+}

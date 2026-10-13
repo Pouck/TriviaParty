@@ -1,0 +1,15 @@
+{
+  "id": "lib-chronologie-bd-premieres-20261012",
+  "name": "Culture populaire — Jeux et BD — Chronologie",
+  "description": "7 questions en français. Lecture libre puis 45 secondes ; 15 → 10 → 5 points. Réponse au buzzer : 10 secondes.",
+  "categoryPackages": [
+    "lib-chronologie-bd-premieres-20261012"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 15,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

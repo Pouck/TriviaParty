@@ -1,0 +1,87 @@
+{
+  "category": "Musique — Instruments — QCM",
+  "subject": "Musique",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-instruments-20261012-01",
+      "category": "Musique — Instruments — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel instrument est représenté ici ?",
+      "options": [
+        "A — Une guitare",
+        "B — Une mandoline",
+        "C — Une harpe",
+        "D — Un violon"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/violin.png"
+    },
+    {
+      "id": "lib-qcm-instruments-20261012-02",
+      "category": "Musique — Instruments — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel instrument possède habituellement 88 touches ?",
+      "options": [
+        "A — Le piano",
+        "B — Le clavecin",
+        "C — L’accordéon",
+        "D — L’orgue portatif"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-instruments-20261012-03",
+      "category": "Musique — Instruments — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel instrument est représenté ici ?",
+      "options": [
+        "A — Un luth",
+        "B — Une harpe",
+        "C — Un violoncelle",
+        "D — Une contrebasse"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/harp.jpg"
+    },
+    {
+      "id": "lib-qcm-instruments-20261012-04",
+      "category": "Musique — Instruments — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel instrument utilise une coulisse pour modifier la hauteur des notes ?",
+      "options": [
+        "A — Le trombone",
+        "B — Le cor",
+        "C — La trompette",
+        "D — Le tuba"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-instruments-20261012-05",
+      "category": "Musique — Instruments — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel instrument appartient à la famille des bois malgré son corps généralement métallique ?",
+      "options": [
+        "A — La trompette",
+        "B — Le cor",
+        "C — La flûte traversière",
+        "D — Le trombone"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

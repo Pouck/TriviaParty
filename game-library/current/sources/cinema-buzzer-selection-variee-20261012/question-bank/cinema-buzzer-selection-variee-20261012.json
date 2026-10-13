@@ -1,0 +1,91 @@
+{
+  "category": "Cinéma — Personnages et grands univers — Buzzer",
+  "subject": "Cinéma",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "id": "cinema-buzzer-france-quebec-20261011-07",
+      "category": "Cinéma — Personnages et grands univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans Bon Cop, Bad Cop, de quelles deux provinces viennent les policiers principaux ?",
+      "acceptableAnswers": [
+        "Le Québec et l’Ontario",
+        "Québec et Ontario",
+        "Ontario et Québec"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-france-quebec-20261011-08",
+      "category": "Cinéma — Personnages et grands univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "De quel pays Bachir Lazhar est-il originaire dans Monsieur Lazhar ?",
+      "acceptableAnswers": [
+        "L’Algérie",
+        "Algérie",
+        "Algerie"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-titres-heros-20261011-07",
+      "category": "Cinéma — Personnages et grands univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel superhéros se cache derrière l’identité de Tony Stark ?",
+      "acceptableAnswers": [
+        "Iron Man",
+        "Ironman"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-titres-heros-20261011-08",
+      "category": "Cinéma — Personnages et grands univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel film d’animation réunit la policière lapine Judy Hopps et le renard Nick Wilde ?",
+      "acceptableAnswers": [
+        "Zootopia",
+        "Zootopie",
+        "Zootropolis"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-univers-20261011-07",
+      "category": "Cinéma — Personnages et grands univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel type de poisson est Nemo ?",
+      "acceptableAnswers": [
+        "Un poisson-clown",
+        "Poisson-clown",
+        "Poisson clown"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-univers-20261011-08",
+      "category": "Cinéma — Personnages et grands univers — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel lion est le fils de Mufasa dans The Lion King (Le Roi lion) ?",
+      "acceptableAnswers": [
+        "Simba"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

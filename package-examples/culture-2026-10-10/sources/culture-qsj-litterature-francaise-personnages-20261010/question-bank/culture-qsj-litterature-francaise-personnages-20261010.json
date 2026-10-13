@@ -1,0 +1,43 @@
+{
+  "category": "Qui suis-je ? — Littérature française — Personnages",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-francaise-personnages-20261010-01",
+      "category": "Qui suis-je ? — Littérature française — Personnages",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Injustement enfermé au château d’If pendant quatorze ans, j’y reçois l’enseignement de l’abbé Faria.",
+        "Je m’évade en prenant la place de mon maître mort dans son sac funéraire, puis je retrouve un trésor.",
+        "Sous des identités comme l’abbé Busoni, je prépare ma vengeance contre ceux qui m’ont trahi.",
+        "Je suis le marin qui devient le comte de Monte-Cristo dans le roman d’Alexandre Dumas."
+      ],
+      "acceptableAnswers": [
+        "Edmond Dantès"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "culture-qsj-litterature-francaise-personnages-20261010-02",
+      "category": "Qui suis-je ? — Littérature française — Personnages",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je vis en Normandie et supporte mal une existence provinciale éloignée de mes rêves romanesques.",
+        "Mes liaisons et mes dépenses me conduisent à une situation désespérée.",
+        "Mon histoire, publiée en revue en 1856, vaut à son auteur un procès en 1857.",
+        "Je suis l’épouse de Charles et l’héroïne de Madame Bovary, de Gustave Flaubert."
+      ],
+      "acceptableAnswers": [
+        "Emma Bovary"
+      ]
+    }
+  ]
+}

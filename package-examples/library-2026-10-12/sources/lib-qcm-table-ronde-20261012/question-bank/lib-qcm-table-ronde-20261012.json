@@ -1,0 +1,87 @@
+{
+  "category": "Le cycle de la Table ronde — QCM",
+  "subject": "Contes et légendes",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-table-ronde-20261012-01",
+      "category": "Le cycle de la Table ronde — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui est le roi de la Table ronde ?",
+      "options": [
+        "A — Arthur",
+        "B — Henri VIII",
+        "C — Richard Cœur de Lion",
+        "D — Charlemagne"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-table-ronde-20261012-02",
+      "category": "Le cycle de la Table ronde — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle forme a la table des chevaliers d’Arthur ?",
+      "options": [
+        "A — Rectangulaire",
+        "B — Ronde",
+        "C — Carrée",
+        "D — Triangulaire"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/round-table.png"
+    },
+    {
+      "id": "lib-qcm-table-ronde-20261012-03",
+      "category": "Le cycle de la Table ronde — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel enchanteur conseille Arthur ?",
+      "options": [
+        "A — Dumbledore",
+        "B — Prospero",
+        "C — Merlin",
+        "D — Gandalf"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-table-ronde-20261012-04",
+      "category": "Le cycle de la Table ronde — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel objet sacré les chevaliers recherchent-ils ?",
+      "options": [
+        "A — La boîte de Pandore",
+        "B — Le Graal",
+        "C — Le trident",
+        "D — La Toison d’or"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/cup.png"
+    },
+    {
+      "id": "lib-qcm-table-ronde-20261012-05",
+      "category": "Le cycle de la Table ronde — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel chevalier est célèbre pour son amour de Guenièvre ?",
+      "options": [
+        "A — Galahad",
+        "B — Perceval",
+        "C — Gauvain",
+        "D — Lancelot"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

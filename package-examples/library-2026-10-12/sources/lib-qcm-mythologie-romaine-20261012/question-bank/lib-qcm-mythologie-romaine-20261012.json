@@ -1,0 +1,87 @@
+{
+  "category": "Mythologie romaine — Dieux et récits — QCM",
+  "subject": "Mythologie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-mythologie-romaine-20261012-01",
+      "category": "Mythologie romaine — Dieux et récits — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel dieu romain correspond à Zeus ?",
+      "options": [
+        "A — Mercure",
+        "B — Neptune",
+        "C — Jupiter",
+        "D — Mars"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/lightning.png"
+    },
+    {
+      "id": "lib-qcm-mythologie-romaine-20261012-02",
+      "category": "Mythologie romaine — Dieux et récits — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle déesse romaine correspond à Aphrodite ?",
+      "options": [
+        "A — Diane",
+        "B — Vénus",
+        "C — Minerve",
+        "D — Junon"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-mythologie-romaine-20261012-03",
+      "category": "Mythologie romaine — Dieux et récits — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel dieu romain est associé à la guerre ?",
+      "options": [
+        "A — Mars",
+        "B — Janus",
+        "C — Bacchus",
+        "D — Vulcain"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-mythologie-romaine-20261012-04",
+      "category": "Mythologie romaine — Dieux et récits — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel animal nourrit Romulus et Rémus dans la légende ?",
+      "options": [
+        "A — Une ourse",
+        "B — Une biche",
+        "C — Une louve",
+        "D — Une chèvre"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/wolf.jpg"
+    },
+    {
+      "id": "lib-qcm-mythologie-romaine-20261012-05",
+      "category": "Mythologie romaine — Dieux et récits — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel dieu romain est représenté avec deux visages ?",
+      "options": [
+        "A — Apollon",
+        "B — Pluton",
+        "C — Saturne",
+        "D — Janus"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

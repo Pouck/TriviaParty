@@ -1,0 +1,99 @@
+{
+  "category": "Histoire de France — Moyen Âge — Vie quotidienne",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "fr-moyen-age-vie-quotidienne-20261010-01",
+      "category": "Histoire de France — Moyen Âge — Vie quotidienne",
+      "prompt": "En France médiévale, quels êtres pouvaient parfois être jugés pour avoir blessé ou tué une personne ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Des murs de château",
+        "B — Des vêtements",
+        "C — Des rivières",
+        "D — Des animaux"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-moyen-age-vie-quotidienne-20261010-02",
+      "category": "Histoire de France — Moyen Âge — Vie quotidienne",
+      "prompt": "Quelle grande épidémie ravage la France au milieu du XIVe siècle, notamment en 1348 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La Jacquerie",
+        "B — La peste noire",
+        "C — Le Grand Schisme",
+        "D — La Grande Famine"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-moyen-age-vie-quotidienne-20261010-03",
+      "category": "Histoire de France — Moyen Âge — Vie quotidienne",
+      "prompt": "Comment appelle-t-on les règles limitant le luxe et certains vêtements selon le statut social ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La loi salique",
+        "B — Les codes de chevalerie",
+        "C — Les chartes de métiers",
+        "D — Les lois somptuaires"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-moyen-age-vie-quotidienne-20261010-04",
+      "category": "Histoire de France — Moyen Âge — Vie quotidienne",
+      "prompt": "Quel palais de l’île de la Cité fut une résidence des rois de France au Moyen Âge ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La Bastille",
+        "B — Le palais de la Cité",
+        "C — Le palais du Luxembourg",
+        "D — Le château de Vincennes"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-moyen-age-vie-quotidienne-20261010-05",
+      "category": "Histoire de France — Moyen Âge — Vie quotidienne",
+      "prompt": "Quelles organisations réglementaient l’apprentissage et l’exercice de nombreux métiers dans les villes médiévales ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Les ordres monastiques",
+        "B — Les fiefs féodaux",
+        "C — Les communautés de métiers",
+        "D — Les communes"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-moyen-age-vie-quotidienne-20261010-06",
+      "category": "Histoire de France — Moyen Âge — Vie quotidienne",
+      "prompt": "Quel prélèvement ecclésiastique portait sur les récoltes et est traditionnellement associé au dixième ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La dîme",
+        "B — La taille",
+        "C — La gabelle",
+        "D — La corvée"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

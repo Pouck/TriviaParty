@@ -1,0 +1,145 @@
+{
+  "category": "Littérature — Premières publications — Chronologie",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "lib-chronologie-romans-publications-20261012-01",
+      "category": "Littérature — Premières publications — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les premières publications en volume",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Pride and Prejudice"
+        },
+        {
+          "id": "item-1",
+          "text": "Jane Eyre"
+        },
+        {
+          "id": "item-2",
+          "text": "Frankenstein"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-romans-publications-20261012-02",
+      "category": "Littérature — Premières publications — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les premières publications en volume",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Madame Bovary"
+        },
+        {
+          "id": "item-1",
+          "text": "Notre-Dame de Paris"
+        },
+        {
+          "id": "item-2",
+          "text": "Les Misérables"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "lib-chronologie-romans-publications-20261012-03",
+      "category": "Littérature — Premières publications — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les premières publications en volume",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "The Great Gatsby"
+        },
+        {
+          "id": "item-1",
+          "text": "Moby-Dick"
+        },
+        {
+          "id": "item-2",
+          "text": "To Kill a Mockingbird"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "lib-chronologie-romans-publications-20261012-04",
+      "category": "Littérature — Premières publications — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les premières publications en volume",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Animal Farm"
+        },
+        {
+          "id": "item-1",
+          "text": "Dracula"
+        },
+        {
+          "id": "item-2",
+          "text": "Alice’s Adventures in Wonderland"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-romans-publications-20261012-05",
+      "category": "Littérature — Premières publications — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les premières publications",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Fahrenheit 451"
+        },
+        {
+          "id": "item-1",
+          "text": "Le Petit Prince"
+        },
+        {
+          "id": "item-2",
+          "text": "Candide"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    }
+  ]
+}

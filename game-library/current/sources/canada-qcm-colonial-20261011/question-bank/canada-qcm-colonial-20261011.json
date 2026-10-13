@@ -1,0 +1,85 @@
+{
+  "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM — 1",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-01",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel établissement français est fondé en Acadie en 1605 par l’expédition de Pierre Dugua de Mons et de Champlain ?",
+      "options": [
+        "A — Port-Royal",
+        "B — Ville-Marie",
+        "C — Plaisance",
+        "D — Tadoussac"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-02",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Pourquoi la Proclamation royale de 1763 est-elle importante pour les relations avec les peuples autochtones ?",
+      "options": [
+        "A — Elle expulse les francophones du Québec",
+        "B — Elle crée le monopole de la Compagnie de la Baie d’Hudson",
+        "C — Elle crée le Haut-Canada et le Bas-Canada",
+        "D — Elle reconnaît des droits territoriaux autochtones et encadre les cessions de terres"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-03",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle loi britannique de 1774 protège la pratique du catholicisme et rétablit le droit civil français au Québec ?",
+      "options": [
+        "A — Le traité d’Utrecht",
+        "B — L’Acte constitutionnel",
+        "C — L’Acte de Québec",
+        "D — La Loi d’indemnisation des pertes de la rébellion"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-04",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel changement l’Acte constitutionnel de 1791 apporte-t-il ?",
+      "options": [
+        "A — La division de la province de Québec en Haut-Canada et Bas-Canada",
+        "B — L’intégration de la Terre de Rupert",
+        "C — L’annexion de l’Île-du-Prince-Édouard à la Nouvelle-Écosse",
+        "D — La fixation de toute la frontière au 49e parallèle"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-05",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel réformiste s’allie à Robert Baldwin pour obtenir le gouvernement responsable dans la province du Canada ?",
+      "options": [
+        "A — Allan MacNab",
+        "B — Louis-Hippolyte La Fontaine",
+        "C — Louis-Joseph Papineau",
+        "D — William Lyon Mackenzie"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

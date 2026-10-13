@@ -1,0 +1,77 @@
+{
+  "category": "Cuisine — Saveurs et desserts du monde — Buzzer",
+  "subject": "Cuisine",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-cuisine-saveurs-20261012-01",
+      "category": "Cuisine — Saveurs et desserts du monde — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle fève sert à fabriquer le chocolat ?",
+      "acceptableAnswers": [
+        "La fève de cacao",
+        "Cacao"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-cuisine-saveurs-20261012/cacao.jpg"
+    },
+    {
+      "id": "lib-buzzer-cuisine-saveurs-20261012-02",
+      "category": "Cuisine — Saveurs et desserts du monde — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel dessert français est une fine crêpe garnie ou roulée ?",
+      "acceptableAnswers": [
+        "Une crêpe",
+        "Crêpe"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-cuisine-saveurs-20261012-03",
+      "category": "Cuisine — Saveurs et desserts du monde — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel dessert italien au café est représenté ici ?",
+      "acceptableAnswers": [
+        "Le tiramisu",
+        "Tiramisu"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-cuisine-saveurs-20261012/tiramisu.jpg"
+    },
+    {
+      "id": "lib-buzzer-cuisine-saveurs-20261012-04",
+      "category": "Cuisine — Saveurs et desserts du monde — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel petit gâteau français assemble deux coques avec une garniture ?",
+      "acceptableAnswers": [
+        "Le macaron",
+        "Macaron"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-cuisine-saveurs-20261012-05",
+      "category": "Cuisine — Saveurs et desserts du monde — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel dessert japonais est à base de riz gluant pilé ?",
+      "acceptableAnswers": [
+        "Le mochi",
+        "Mochi"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

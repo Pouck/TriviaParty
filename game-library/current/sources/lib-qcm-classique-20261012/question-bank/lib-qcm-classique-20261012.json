@@ -1,0 +1,87 @@
+{
+  "category": "Musique classique — Compositeurs et œuvres — QCM",
+  "subject": "Musique",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-classique-20261012-01",
+      "category": "Musique classique — Compositeurs et œuvres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a composé Les Quatre Saisons ?",
+      "options": [
+        "A — Mozart",
+        "B — Bach",
+        "C — Beethoven",
+        "D — Antonio Vivaldi"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/lib-qcm-classique-20261012/four-seasons.png"
+    },
+    {
+      "id": "lib-qcm-classique-20261012-02",
+      "category": "Musique classique — Compositeurs et œuvres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a composé La Flûte enchantée ?",
+      "options": [
+        "A — Mozart",
+        "B — Chopin",
+        "C — Debussy",
+        "D — Ravel"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-classique-20261012-03",
+      "category": "Musique classique — Compositeurs et œuvres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel instrument est particulièrement associé à Chopin ?",
+      "options": [
+        "A — La batterie",
+        "B — La trompette",
+        "C — Le piano",
+        "D — Le tuba"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/lib-qcm-classique-20261012/piano.jpg"
+    },
+    {
+      "id": "lib-qcm-classique-20261012-04",
+      "category": "Musique classique — Compositeurs et œuvres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel compositeur a écrit le Boléro ?",
+      "options": [
+        "A — Claude Debussy",
+        "B — Maurice Ravel",
+        "C — Camille Saint-Saëns",
+        "D — Hector Berlioz"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-classique-20261012-05",
+      "category": "Musique classique — Compositeurs et œuvres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans quelle symphonie de Beethoven trouve-t-on l’Ode à la joie ?",
+      "options": [
+        "A — La Neuvième",
+        "B — La Troisième",
+        "C — La Cinquième",
+        "D — La Sixième"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

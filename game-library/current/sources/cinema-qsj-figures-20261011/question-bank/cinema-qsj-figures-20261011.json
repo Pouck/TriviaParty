@@ -1,0 +1,104 @@
+{
+  "category": "Cinéma — Cinéastes et personnages — Qui suis-je ? écrit",
+  "subject": "Cinéma",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Qui suis-je ? écrit"
+  ],
+  "questions": [
+    {
+      "id": "cinema-qsj-figures-20261011-01",
+      "category": "Cinéma — Cinéastes et personnages — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je réalise Duel, un suspense où un automobiliste est poursuivi par un camion.",
+        "Mon film Schindler’s List me vaut l’Oscar de la réalisation.",
+        "Je mets en scène E.T. et les dinosaures de Jurassic Park.",
+        "Je suis le réalisateur de Jaws et de plusieurs aventures d’Indiana Jones."
+      ],
+      "acceptableAnswers": [
+        "Steven Spielberg",
+        "Spielberg"
+      ]
+    },
+    {
+      "id": "cinema-qsj-figures-20261011-02",
+      "category": "Cinéma — Cinéastes et personnages — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Né à Londres en 1889, je suis acteur, réalisateur et compositeur.",
+        "Dans Modern Times, je confronte mon personnage à une chaîne de montage.",
+        "Une petite moustache, une canne et un chapeau melon font partie de mon image.",
+        "Je suis l’acteur et cinéaste qui a créé le personnage de Charlot."
+      ],
+      "acceptableAnswers": [
+        "Charlie Chaplin",
+        "Charles Chaplin",
+        "Chaplin"
+      ]
+    },
+    {
+      "id": "cinema-qsj-figures-20261011-03",
+      "category": "Cinéma — Cinéastes et personnages — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "J’aime faire de brèves apparitions dans mes propres films.",
+        "Rope expérimente un récit donnant l’impression de longs plans ininterrompus.",
+        "Je dirige James Stewart dans Rear Window et Vertigo.",
+        "Surnommé le maître du suspense, je réalise Psycho et The Birds."
+      ],
+      "acceptableAnswers": [
+        "Alfred Hitchcock",
+        "Hitchcock"
+      ]
+    },
+    {
+      "id": "cinema-qsj-figures-20261011-04",
+      "category": "Cinéma — Cinéastes et personnages — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon père, professeur, est incarné par Sean Connery dans l’une de mes aventures.",
+        "Je recherche notamment l’Arche d’alliance et le Saint Graal.",
+        "Mon fouet et mon chapeau accompagnent mes expéditions ; je redoute les serpents.",
+        "Je suis l’archéologue aventurier incarné pendant des décennies par Harrison Ford."
+      ],
+      "acceptableAnswers": [
+        "Indiana Jones",
+        "Indy",
+        "Henry Jones Junior",
+        "Henry Jones Jr."
+      ]
+    },
+    {
+      "id": "cinema-qsj-figures-20261011-05",
+      "category": "Cinéma — Cinéastes et personnages — Qui suis-je ? écrit",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes aventures cinématographiques commencent avec Dr. No, en 1962.",
+        "M dirige mes missions et Q me fournit des équipements spéciaux.",
+        "Sean Connery, Roger Moore et Daniel Craig font partie des acteurs qui m’ont incarné.",
+        "Je suis l’agent secret britannique connu sous le numéro 007."
+      ],
+      "acceptableAnswers": [
+        "James Bond",
+        "Bond",
+        "007"
+      ]
+    }
+  ]
+}

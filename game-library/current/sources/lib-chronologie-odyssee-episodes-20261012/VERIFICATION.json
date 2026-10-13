@@ -1,0 +1,99 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-chronologie-odyssee-episodes-20261012-01",
+    "originalPackage": "lib-chronologie-odyssee-episodes-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.gutenberg.org/ebooks/1727",
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136"
+      ],
+      "note": "Fin de la guerre de Troie → Rencontre du Cyclope → Retour à Ithaque",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-chronologie-odyssee-episodes-20261012-02",
+    "originalPackage": "lib-chronologie-odyssee-episodes-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.gutenberg.org/ebooks/1727",
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136"
+      ],
+      "note": "Rencontre du Cyclope → Séjour chez Circé → Passage devant les Sirènes",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-chronologie-odyssee-episodes-20261012-03",
+    "originalPackage": "lib-chronologie-odyssee-episodes-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.gutenberg.org/ebooks/1727",
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136"
+      ],
+      "note": "Séjour chez Circé → Passage devant les Sirènes → Séjour chez Calypso",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Suivez le voyage d’Ulysse, pas l’ordre des chapitres.",
+      "events": [
+        [
+          "Accueil chez Éole",
+          1
+        ],
+        [
+          "Attaque des Lestrygons",
+          2
+        ],
+        [
+          "Arrivée chez Circé",
+          3
+        ]
+      ],
+      "sources": [
+        "https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0012.tlg002.pope1726watson1858-eng2/book:10/"
+      ]
+    }
+  },
+  {
+    "question": 4,
+    "questionId": "lib-chronologie-odyssee-episodes-20261012-04",
+    "originalPackage": "lib-chronologie-odyssee-episodes-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.gutenberg.org/ebooks/1727",
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136"
+      ],
+      "note": "Arrivée à Ithaque → Épreuve de l’arc et combat contre les prétendants → Pénélope reconnaît Ulysse grâce au secret du lit",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-chronologie-odyssee-episodes-20261012-05",
+    "originalPackage": "lib-chronologie-odyssee-episodes-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.gutenberg.org/ebooks/1727",
+        "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136"
+      ],
+      "note": "Séjour chez Calypso → Accueil chez les Phéaciens → Arrivée à Ithaque",
+      "visual": null
+    },
+    "new": false
+  }
+]

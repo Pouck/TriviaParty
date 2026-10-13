@@ -1,0 +1,120 @@
+{
+  "category": "Arts — Regards et scènes — Buzzer",
+  "subject": "Arts",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "arts-buzzer-regards-scenes-20261011-01",
+      "category": "Arts — Regards et scènes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui a peint ce Baiser aux couleurs dorées ?",
+      "acceptableAnswers": [
+        "Gustav Klimt",
+        "Klimt"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/baiser.jpg"
+    },
+    {
+      "id": "arts-buzzer-regards-scenes-20261011-02",
+      "category": "Arts — Regards et scènes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel port français Monet représente-t-il dans Impression, soleil levant ?",
+      "acceptableAnswers": [
+        "Le Havre",
+        "Havre"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "arts-buzzer-regards-scenes-20261011-03",
+      "category": "Arts — Regards et scènes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel est le titre de cette œuvre d’Edvard Munch ?",
+      "acceptableAnswers": [
+        "Le Cri",
+        "The Scream"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/cri.jpg"
+    },
+    {
+      "id": "arts-buzzer-regards-scenes-20261011-04",
+      "category": "Arts — Regards et scènes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui a peint Nighthawks, la scène d’un café de nuit ?",
+      "acceptableAnswers": [
+        "Edward Hopper",
+        "Hopper"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "arts-buzzer-regards-scenes-20261011-05",
+      "category": "Arts — Regards et scènes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui a peint Olympia ?",
+      "acceptableAnswers": [
+        "Édouard Manet",
+        "Manet"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/olympia.jpg"
+    },
+    {
+      "id": "arts-buzzer-regards-scenes-20261011-06",
+      "category": "Arts — Regards et scènes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle montagne japonaise apparaît au loin dans La Grande Vague de Hokusai ?",
+      "acceptableAnswers": [
+        "Le mont Fuji",
+        "Fuji",
+        "Fujiyama"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "arts-buzzer-regards-scenes-20261011-07",
+      "category": "Arts — Regards et scènes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui a peint le Bal du moulin de la Galette ?",
+      "acceptableAnswers": [
+        "Auguste Renoir",
+        "Pierre-Auguste Renoir",
+        "Renoir"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/galette.jpg"
+    },
+    {
+      "id": "arts-buzzer-regards-scenes-20261011-08",
+      "category": "Arts — Regards et scènes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel artiste a peint La Nuit étoilée de Saint-Rémy en 1889 ?",
+      "acceptableAnswers": [
+        "Vincent van Gogh",
+        "Van Gogh"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

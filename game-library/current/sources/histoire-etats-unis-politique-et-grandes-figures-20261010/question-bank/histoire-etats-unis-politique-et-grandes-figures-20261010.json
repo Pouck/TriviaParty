@@ -1,0 +1,101 @@
+{
+  "category": "Histoire des États-Unis — Figures et institutions — QCM",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "us-politique-et-grandes-figures-20261010-01",
+      "category": "Histoire des États-Unis — Figures et institutions — QCM",
+      "prompt": "Qui fut le principal rédacteur de la Déclaration d’indépendance, puis le troisième président des États-Unis ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Thomas Jefferson",
+        "B — John Adams",
+        "C — Benjamin Franklin",
+        "D — Alexander Hamilton"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-politique-et-grandes-figures-20261010-02",
+      "category": "Histoire des États-Unis — Figures et institutions — QCM",
+      "prompt": "Qui participa à l’expédition de Lewis et Clark en facilitant notamment les échanges avec les Shoshones ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Geronimo",
+        "B — Sacagawea",
+        "C — Pocahontas",
+        "D — Squanto"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-politique-et-grandes-figures-20261010-03",
+      "category": "Histoire des États-Unis — Figures et institutions — QCM",
+      "prompt": "Après quelle bataille Lincoln annonça-t-il la proclamation préliminaire d’émancipation en septembre 1862 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Bull Run",
+        "B — Antietam",
+        "C — Fredericksburg",
+        "D — Shiloh"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-politique-et-grandes-figures-20261010-04",
+      "category": "Histoire des États-Unis — Figures et institutions — QCM",
+      "prompt": "Quel arrêt de 1803 affirma le pouvoir de la Cour suprême de déclarer une loi fédérale contraire à la Constitution ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — McCulloch c. Maryland",
+        "B — Dred Scott c. Sandford",
+        "C — Marbury c. Madison",
+        "D — Gibbons c. Ogden"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-histoire-etats-unis-20261012-01",
+      "category": "Histoire des États-Unis — Figures et institutions — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui est le premier président des États-Unis ?",
+      "options": [
+        "A — George Washington",
+        "B — Abraham Lincoln",
+        "C — Thomas Jefferson",
+        "D — John Adams"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-histoire-etats-unis-20261012-02",
+      "category": "Histoire des États-Unis — Figures et institutions — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle statue est offerte par la France aux États-Unis ?",
+      "options": [
+        "A — Le David",
+        "B — Le Penseur",
+        "C — Le Discobole",
+        "D — La Statue de la Liberté"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/lib-qcm-histoire-etats-unis-20261012/liberty-statue.jpg"
+    }
+  ]
+}

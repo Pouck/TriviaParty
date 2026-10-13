@@ -1,0 +1,58 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.mckellen.com/cinema/lotr/"
+    ],
+    "note": ""
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.bfi.org.uk/film/aa4a1930-21de-51ce-9700-6acaf2d59437/titanic"
+    ],
+    "note": ""
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.bfi.org.uk/features/where-begin-with-ridley-scott"
+    ],
+    "note": ""
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.nolanfans.com/library/pdf/inception-screenplay.pdf"
+    ],
+    "note": "La question porte sur l’objet visible, sans imposer une interprétation de la fin ni de son propriétaire initial."
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.dunemovie.com/"
+    ],
+    "note": ""
+  },
+  {
+    "question": 6,
+    "sources": [
+      "https://www.paramountpictures.com/movies/gladiator"
+    ],
+    "note": ""
+  },
+  {
+    "question": 7,
+    "sources": [
+      "https://www.paramountpictures.com/movies/the-godfather"
+    ],
+    "note": ""
+  },
+  {
+    "question": 8,
+    "sources": [
+      "https://www.bfi.org.uk/features/la-haine-project-surrealism"
+    ],
+    "note": ""
+  }
+]

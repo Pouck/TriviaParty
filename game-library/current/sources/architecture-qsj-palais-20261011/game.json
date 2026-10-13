@@ -1,0 +1,15 @@
+{
+  "id": "architecture-qsj-palais-20261011",
+  "name": "Architecture — Palais et lieux d’exception — Qui suis-je ? écrit",
+  "description": "5 questions en français. 4 indices de 20 secondes ; 5 points par palier.  Lecture confirmée par les joueurs avant chaque indice. Réponses écrites, validées individuellement par l’hôte.",
+  "categoryPackages": [
+    "architecture-qsj-palais-20261011"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 20,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 3,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

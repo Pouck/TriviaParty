@@ -1,0 +1,62 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.tintin.com/en/albums",
+      "https://www.dupuis.com/univers/FR/spirou.html",
+      "https://www.luckyluke.com/",
+      "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+      "https://www.dupuis.com/"
+    ],
+    "note": "Tintin (1929) → Spirou (1938) → Astérix (1959)",
+    "visual": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.tintin.com/en/albums",
+      "https://www.dupuis.com/univers/FR/spirou.html",
+      "https://www.luckyluke.com/",
+      "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+      "https://www.dupuis.com/"
+    ],
+    "note": "Lucky Luke (1946) → Gaston Lagaffe (1957) → Les Schtroumpfs (1958)",
+    "visual": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.tintin.com/en/albums",
+      "https://www.dupuis.com/univers/FR/spirou.html",
+      "https://www.luckyluke.com/",
+      "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+      "https://www.dupuis.com/"
+    ],
+    "note": "Spirou (1938) → Lucky Luke (1946) → Gaston Lagaffe (1957)",
+    "visual": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.tintin.com/en/albums",
+      "https://www.dupuis.com/univers/FR/spirou.html",
+      "https://www.luckyluke.com/",
+      "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+      "https://www.dupuis.com/"
+    ],
+    "note": "Tintin (1929) → Les Schtroumpfs (1958) → Astérix (1959)",
+    "visual": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.tintin.com/en/albums",
+      "https://www.dupuis.com/univers/FR/spirou.html",
+      "https://www.luckyluke.com/",
+      "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+      "https://www.dupuis.com/"
+    ],
+    "note": "Tintin (1929) → Lucky Luke (1946) → Astérix (1959)",
+    "visual": null
+  }
+]

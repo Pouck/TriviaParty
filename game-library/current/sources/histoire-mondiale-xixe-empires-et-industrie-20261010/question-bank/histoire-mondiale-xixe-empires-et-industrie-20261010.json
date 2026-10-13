@@ -1,0 +1,115 @@
+{
+  "category": "Histoire mondiale — Grands repères — QCM — 1",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-empires-et-industrie-01-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 1",
+      "prompt": "Quel congrès réorganisa l’Europe en 1814–1815 après les guerres napoléoniennes ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le traité de Versailles",
+        "B — La conférence de Berlin",
+        "C — La paix de Westphalie",
+        "D — Le congrès de Vienne"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-empires-et-industrie-02-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 1",
+      "prompt": "Quel territoire passe de l’administration de la Compagnie des Indes orientales à celle de la Couronne britannique en 1858 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — L’Australie",
+        "B — Le Canada",
+        "C — L’Inde",
+        "D — L’Afrique du Sud"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-empires-et-industrie-03-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 1",
+      "prompt": "Quel canal, ouvert en 1869, relie la mer Méditerranée à la mer Rouge ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le canal Érié",
+        "B — Le canal de Kiel",
+        "C — Le canal de Suez",
+        "D — Le canal de Panama"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-empires-et-industrie-04-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 1",
+      "prompt": "Quel enjeu était notamment au cœur de la conférence de Berlin de 1884–1885 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Créer une monnaie européenne commune",
+        "B — Fixer des règles entre puissances pour l’expansion coloniale en Afrique",
+        "C — Former une alliance militaire contre l’Empire ottoman",
+        "D — Restreindre collectivement le commerce avec la Chine"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-revoltes-et-unifications-01-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 1",
+      "prompt": "Quel nom portent les deux guerres du XIXe siècle opposant notamment le Royaume-Uni à la Chine des Qing, dont la première entraîne la cession de l’île de Hong Kong ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Les guerres de l’opium",
+        "B — La révolte des Taiping",
+        "C — La guerre sino-japonaise",
+        "D — La révolte des Boxers"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-revoltes-et-unifications-02-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 1",
+      "prompt": "Quel officier américain arriva avec ses « navires noirs » dans la baie d’Edo, près de l’actuelle Tokyo, en 1853 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — William Bainbridge",
+        "B — Matthew Perry",
+        "C — John Paul Jones",
+        "D — George Dewey"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-revoltes-et-unifications-03-20261010",
+      "category": "Histoire mondiale — Grands repères — QCM — 1",
+      "prompt": "Quelle révolte chinoise fut menée par Hong Xiuquan, qui affirmait être le frère cadet de Jésus ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La révolte des Taiping",
+        "B — La révolte d’An Lushan",
+        "C — La révolte du Lotus blanc",
+        "D — La révolte des Dounganes"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

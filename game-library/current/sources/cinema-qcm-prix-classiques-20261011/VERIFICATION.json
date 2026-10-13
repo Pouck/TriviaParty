@@ -1,0 +1,80 @@
+[
+  {
+    "question": 1,
+    "questionId": "cinema-qcm-prix-classiques-20261011-01",
+    "originalPackage": "cinema-qcm-prix-classiques-20261011",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.oscars.org/oscars/ceremonies/2020"
+      ],
+      "note": "Cérémonie de 2020 ; Parasite est un film de 2019."
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "cinema-qcm-prix-classiques-20261011-02",
+    "originalPackage": "cinema-qcm-prix-classiques-20261011",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.oscars.org/oscars/ceremonies/1998"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "cinema-qcm-prix-classiques-20261011-03",
+    "originalPackage": "cinema-qcm-prix-classiques-20261011",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.oscars.org/oscars/ceremonies/2002"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "cinema-qcm-prix-classiques-20261011-04",
+    "originalPackage": "cinema-qcm-prix-classiques-20261011",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.festival-cannes.com/en/f/pulp-fiction/"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "cinema-qcm-prix-classiques-20261011-05",
+    "originalPackage": "cinema-qcm-prix-classiques-20261011",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://d23.com/list-of-disney-films/"
+      ],
+      "note": "Premier long métrage d’animation Disney, pas premier long métrage d’animation de l’histoire du cinéma."
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "cinema-qcm-prix-classiques-20261011-06",
+    "originalPackage": "cinema-qcm-prix-classiques-20261011",
+    "reference": {
+      "question": 6,
+      "sources": [
+        "https://www.bfi.org.uk/lists/10-great-dangerous-journey-films"
+      ],
+      "note": "Le film de 2015 est précisé pour éviter la confusion avec Furiosa (2024)."
+    },
+    "new": false
+  }
+]

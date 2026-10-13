@@ -1,0 +1,92 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-qcm-explorateurs-20261012-01",
+    "originalPackage": "lib-qcm-explorateurs-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+        "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+        "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+        "https://www.britannica.com/biography/Marco-Polo",
+        "https://www.britannica.com/biography/Roald-Amundsen"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-qcm-explorateurs-20261012-02",
+    "originalPackage": "lib-qcm-explorateurs-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+        "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+        "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+        "https://www.britannica.com/biography/Marco-Polo",
+        "https://www.britannica.com/biography/Roald-Amundsen"
+      ],
+      "note": "",
+      "visual": "river"
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-qcm-explorateurs-20261012-03",
+    "originalPackage": "lib-qcm-explorateurs-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+        "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+        "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+        "https://www.britannica.com/biography/Marco-Polo",
+        "https://www.britannica.com/biography/Roald-Amundsen"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-qcm-explorateurs-20261012-04",
+    "originalPackage": "lib-qcm-explorateurs-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+        "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+        "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+        "https://www.britannica.com/biography/Marco-Polo",
+        "https://www.britannica.com/biography/Roald-Amundsen"
+      ],
+      "note": "",
+      "visual": "antarctica"
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qcm-explorateurs-20261012-05",
+    "originalPackage": "lib-qcm-explorateurs-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+        "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+        "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+        "https://www.britannica.com/biography/Marco-Polo",
+        "https://www.britannica.com/biography/Roald-Amundsen"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

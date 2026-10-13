@@ -1,0 +1,172 @@
+{
+  "category": "Histoire mondiale — Transformations et explorations — Chronologie — 1",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "kind": "ordering",
+      "id": "monde-chronologie-1-01-20261010",
+      "category": "Histoire mondiale — Transformations et explorations — Chronologie — 1",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Proclamation de l’Empire allemand"
+        },
+        {
+          "id": "item-1",
+          "text": "Restauration de Meiji"
+        },
+        {
+          "id": "item-2",
+          "text": "Bataille de Waterloo"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "monde-chronologie-1-02-20261010",
+      "category": "Histoire mondiale — Transformations et explorations — Chronologie — 1",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Début de la Première Guerre mondiale"
+        },
+        {
+          "id": "item-1",
+          "text": "Naufrage du Titanic"
+        },
+        {
+          "id": "item-2",
+          "text": "Abdication de Nicolas II"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "monde-chronologie-1-03-20261010",
+      "category": "Histoire mondiale — Transformations et explorations — Chronologie — 1",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Début de la construction du mur de Berlin"
+        },
+        {
+          "id": "item-1",
+          "text": "Lancement de Spoutnik 1"
+        },
+        {
+          "id": "item-2",
+          "text": "Crise des missiles de Cuba"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "monde-chronologie-1-04-20261010",
+      "category": "Histoire mondiale — Transformations et explorations — Chronologie — 1",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Libération de Nelson Mandela"
+        },
+        {
+          "id": "item-1",
+          "text": "Dissolution de l’Union soviétique"
+        },
+        {
+          "id": "item-2",
+          "text": "Chute du mur de Berlin"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-explorateurs-reperes-20261012-01",
+      "category": "Histoire mondiale — Transformations et explorations — Chronologie — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces étapes de navigation européenne",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Vasco de Gama atteint l’Inde"
+        },
+        {
+          "id": "item-1",
+          "text": "Colomb atteint les Caraïbes"
+        },
+        {
+          "id": "item-2",
+          "text": "L’expédition de Magellan-Elcano achève le tour du monde"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "lib-chronologie-explorateurs-reperes-20261012-02",
+      "category": "Histoire mondiale — Transformations et explorations — Chronologie — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez ces repères en Amérique du Nord",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Champlain fonde Québec"
+        },
+        {
+          "id": "item-1",
+          "text": "Premier voyage de Cartier"
+        },
+        {
+          "id": "item-2",
+          "text": "Cabot atteint les côtes de l’Atlantique Nord"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "category": "Culture populaire — Jeux et BD — Chronologie",
+  "subject": "Culture populaire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "lib-chronologie-bd-premieres-20261012-01",
+      "category": "Culture populaire — Jeux et BD — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les premières apparitions",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Spirou"
+        },
+        {
+          "id": "item-1",
+          "text": "Astérix"
+        },
+        {
+          "id": "item-2",
+          "text": "Tintin"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-bd-premieres-20261012-02",
+      "category": "Culture populaire — Jeux et BD — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les premières apparitions",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Gaston Lagaffe"
+        },
+        {
+          "id": "item-1",
+          "text": "Les Schtroumpfs"
+        },
+        {
+          "id": "item-2",
+          "text": "Lucky Luke"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-bd-premieres-20261012-03",
+      "category": "Culture populaire — Jeux et BD — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les premières apparitions en BD.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Marsupilami"
+        },
+        {
+          "id": "item-1",
+          "text": "Blake et Mortimer"
+        },
+        {
+          "id": "item-2",
+          "text": "Boule et Bill"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "lib-chronologie-bd-premieres-20261012-04",
+      "category": "Culture populaire — Jeux et BD — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les premières apparitions en BD.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Le Chat de Geluck"
+        },
+        {
+          "id": "item-1",
+          "text": "Achille Talon"
+        },
+        {
+          "id": "item-2",
+          "text": "Iznogoud"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-bd-premieres-20261012-05",
+      "category": "Culture populaire — Jeux et BD — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les débuts de ces séries en BD.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Lou !"
+        },
+        {
+          "id": "item-1",
+          "text": "XIII"
+        },
+        {
+          "id": "item-2",
+          "text": "Largo Winch"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "q4",
+      "category": "Culture populaire — Jeux et BD — Chronologie",
+      "prompt": "Classez ces consoles selon leur sortie.",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Nintendo 64"
+        },
+        {
+          "id": "item-1",
+          "text": "Nintendo Switch"
+        },
+        {
+          "id": "item-2",
+          "text": "Xbox 360"
+        },
+        {
+          "id": "item-3",
+          "text": "PlayStation 2"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-3",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "q24",
+      "category": "Culture populaire — Jeux et BD — Chronologie",
+      "prompt": "Classez ces jeux selon leur première sortie.",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Skyrim"
+        },
+        {
+          "id": "item-1",
+          "text": "Elden Ring"
+        },
+        {
+          "id": "item-2",
+          "text": "Pokémon Rouge/Bleu"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "category": "Histoire de France — Renaissance — Lettres et savoirs",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-lettres-et-savoirs-20261010-01",
+      "category": "Histoire de France — Renaissance — Lettres et savoirs",
+      "prompt": "Quel chirurgien de la Renaissance est célèbre pour ses soins aux blessés de guerre et l’emploi de ligatures lors des amputations ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Nostradamus",
+        "B — René Descartes",
+        "C — Michel de Montaigne",
+        "D — Ambroise Paré"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-lettres-et-savoirs-20261010-02",
+      "category": "Histoire de France — Renaissance — Lettres et savoirs",
+      "prompt": "Quel écrivain publia la première édition de ses Essais en 1580 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Pierre de Ronsard",
+        "B — Jean Calvin",
+        "C — Michel de Montaigne",
+        "D — François Rabelais"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-lettres-et-savoirs-20261010-03",
+      "category": "Histoire de France — Renaissance — Lettres et savoirs",
+      "prompt": "Quelle mesure linguistique célèbre figure dans l’ordonnance de Villers-Cotterêts de 1539 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — L’emploi du français dans les actes judiciaires à la place du latin",
+        "B — L’interdiction de tous les textes protestants",
+        "C — La création d’universités publiques",
+        "D — L’autorisation du théâtre public"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-lettres-et-savoirs-20261010-04",
+      "category": "Histoire de France — Renaissance — Lettres et savoirs",
+      "prompt": "Comment appelle-t-on la pratique consistant à acheter certains offices publics sous l’Ancien Régime ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La levée féodale",
+        "B — La vénalité des offices",
+        "C — Les chartes de monopole",
+        "D — La gabelle"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

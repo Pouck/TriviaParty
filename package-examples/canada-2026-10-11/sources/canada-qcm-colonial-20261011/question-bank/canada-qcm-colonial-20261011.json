@@ -1,0 +1,159 @@
+{
+  "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-01",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel établissement français est fondé en Acadie en 1605 par l’expédition de Pierre Dugua de Mons et de Champlain ?",
+      "options": [
+        "A — Port-Royal",
+        "B — Plaisance",
+        "C — Tadoussac",
+        "D — Ville-Marie"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-02",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Pourquoi la Proclamation royale de 1763 est-elle importante pour les relations avec les peuples autochtones ?",
+      "options": [
+        "A — Elle crée le monopole de la Compagnie de la Baie d’Hudson",
+        "B — Elle crée le Haut-Canada et le Bas-Canada",
+        "C — Elle reconnaît des droits territoriaux autochtones et encadre les cessions de terres",
+        "D — Elle expulse les francophones du Québec"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-03",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle loi britannique de 1774 protège la pratique du catholicisme et rétablit le droit civil français au Québec ?",
+      "options": [
+        "A — La Loi d’indemnisation des pertes de la rébellion",
+        "B — L’Acte de Québec",
+        "C — L’Acte constitutionnel",
+        "D — Le traité d’Utrecht"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-04",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel changement l’Acte constitutionnel de 1791 apporte-t-il ?",
+      "options": [
+        "A — L’annexion de l’Île-du-Prince-Édouard à la Nouvelle-Écosse",
+        "B — La division de la province de Québec en Haut-Canada et Bas-Canada",
+        "C — La fixation de toute la frontière au 49e parallèle",
+        "D — L’intégration de la Terre de Rupert"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-05",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel réformiste s’allie à Robert Baldwin pour obtenir le gouvernement responsable dans la province du Canada ?",
+      "options": [
+        "A — Allan MacNab",
+        "B — William Lyon Mackenzie",
+        "C — Louis-Hippolyte La Fontaine",
+        "D — Louis-Joseph Papineau"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-06",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel lord rédige en 1839 un rapport proposant l’union des deux Canadas et l’assimilation des Canadiens français ?",
+      "options": [
+        "A — Lord Durham",
+        "B — Lord Monck",
+        "C — Lord Elgin",
+        "D — Lord Dorchester"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-07",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle compagnie cède ses droits sur la Terre de Rupert, transférée au Canada en 1870 ?",
+      "options": [
+        "A — La Compagnie du Nord-Ouest",
+        "B — La Compagnie britannique des Indes orientales",
+        "C — La Compagnie française des Indes",
+        "D — La Compagnie de la Baie d’Hudson"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-08",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle province entre dans la Confédération en 1873 après avoir accumulé une importante dette ferroviaire ?",
+      "options": [
+        "A — Terre-Neuve",
+        "B — La Nouvelle-Écosse",
+        "C — L’Île-du-Prince-Édouard",
+        "D — La Colombie-Britannique"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-09",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel programme économique de Macdonald instaure des tarifs protectionnistes en 1879 ?",
+      "options": [
+        "A — La Politique nationale",
+        "B — Le traité de réciprocité",
+        "C — L’Accord du Commonwealth",
+        "D — Le Système du Dominion"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-10",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle décision de 1929 reconnaît que les femmes sont des personnes admissibles à siéger au Sénat ?",
+      "options": [
+        "A — L’affaire du traité du flétan",
+        "B — L’arrêt Murdoch",
+        "C — L’affaire King-Byng",
+        "D — L’affaire « personne » (Edwards c. Canada)"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "category": "Oiseaux — Portraits et habitudes — Buzzer",
+  "subject": "Nature",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-oiseaux-20261012-01",
+      "category": "Oiseaux — Portraits et habitudes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel oiseau africain est le plus grand oiseau vivant ?",
+      "acceptableAnswers": [
+        "L’autruche",
+        "Autruche"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/ostrich.jpg"
+    },
+    {
+      "id": "lib-buzzer-oiseaux-20261012-02",
+      "category": "Oiseaux — Portraits et habitudes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel rapace nocturne est représenté ici ?",
+      "acceptableAnswers": [
+        "Un hibou",
+        "Hibou",
+        "Grand-duc"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/owl.jpg"
+    },
+    {
+      "id": "lib-buzzer-oiseaux-20261012-03",
+      "category": "Oiseaux — Portraits et habitudes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle partie du corps des oiseaux remplace les dents pour saisir la nourriture ?",
+      "acceptableAnswers": [
+        "Le bec",
+        "Bec"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-oiseaux-20261012-04",
+      "category": "Oiseaux — Portraits et habitudes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel oiseau domestique pond les œufs les plus courants en cuisine ?",
+      "acceptableAnswers": [
+        "La poule",
+        "Poule"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-oiseaux-20261012-05",
+      "category": "Oiseaux — Portraits et habitudes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment nomme-t-on le déplacement saisonnier de nombreux oiseaux ?",
+      "acceptableAnswers": [
+        "La migration",
+        "Migration"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

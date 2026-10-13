@@ -1,0 +1,160 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-chronologie-ghibli-sorties-20261012-01",
+    "originalPackage": "lib-chronologie-ghibli-sorties-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.ghibli.jp/works/"
+      ],
+      "note": "Le Château dans le ciel (1986) → Mon voisin Totoro (1988) → Kiki la petite sorcière (1989)",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-chronologie-ghibli-sorties-20261012-02",
+    "originalPackage": "lib-chronologie-ghibli-sorties-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.ghibli.jp/works/"
+      ],
+      "note": "Porco Rosso (1992) → Princesse Mononoké (1997) → Le Voyage de Chihiro (2001)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez les sorties originales au Japon.",
+      "events": [
+        [
+          "Souvenirs goutte à goutte",
+          1991
+        ],
+        [
+          "Porco Rosso",
+          1992
+        ],
+        [
+          "Je peux entendre l’océan",
+          1993
+        ]
+      ],
+      "sources": [
+        "https://www.ghibli.jp/works/"
+      ]
+    }
+  },
+  {
+    "question": 3,
+    "questionId": "lib-chronologie-ghibli-sorties-20261012-03",
+    "originalPackage": "lib-chronologie-ghibli-sorties-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.ghibli.jp/works/"
+      ],
+      "note": "Le Château ambulant (2004) → Ponyo sur la falaise (2008) → Le Vent se lève (2013)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez les sorties originales au Japon.",
+      "events": [
+        [
+          "Pompoko",
+          1994
+        ],
+        [
+          "Si tu tends l’oreille",
+          1995
+        ],
+        [
+          "Princesse Mononoké",
+          1997
+        ]
+      ],
+      "sources": [
+        "https://www.ghibli.jp/works/"
+      ]
+    }
+  },
+  {
+    "question": 4,
+    "questionId": "lib-chronologie-ghibli-sorties-20261012-04",
+    "originalPackage": "lib-chronologie-ghibli-sorties-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.ghibli.jp/works/"
+      ],
+      "note": "Mon voisin Totoro (1988) → Le Voyage de Chihiro (2001) → Le Garçon et le Héron (2023)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez les sorties originales au Japon.",
+      "events": [
+        [
+          "Mes voisins les Yamada",
+          1999
+        ],
+        [
+          "Le Voyage de Chihiro",
+          2001
+        ],
+        [
+          "Le Royaume des chats",
+          2002
+        ]
+      ],
+      "sources": [
+        "https://www.ghibli.jp/works/"
+      ]
+    }
+  },
+  {
+    "question": 5,
+    "questionId": "lib-chronologie-ghibli-sorties-20261012-05",
+    "originalPackage": "lib-chronologie-ghibli-sorties-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.ghibli.jp/works/"
+      ],
+      "note": "Princesse Mononoké (1997) → Ponyo sur la falaise (2008) → Le Conte de la princesse Kaguya (2013)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez les sorties originales au Japon.",
+      "events": [
+        [
+          "Le Château ambulant",
+          2004
+        ],
+        [
+          "Les Contes de Terremer",
+          2006
+        ],
+        [
+          "Ponyo sur la falaise",
+          2008
+        ]
+      ],
+      "sources": [
+        "https://www.ghibli.jp/works/"
+      ]
+    }
+  }
+]

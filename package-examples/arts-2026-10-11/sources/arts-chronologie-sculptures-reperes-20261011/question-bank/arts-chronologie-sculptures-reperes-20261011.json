@@ -1,0 +1,100 @@
+{
+  "category": "Arts — Sculptures et repères — Chronologie",
+  "subject": "Arts",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "arts-chronologie-sculptures-reperes-20261011-01",
+      "category": "Arts — Sculptures et repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Classez ces œuvres selon leur création :\n• David de Michel-Ange\n• Vénus de Milo\n• Le Penseur — conception du modèle",
+      "options": [
+        "A — Vénus de Milo → Le Penseur — conception du modèle → David de Michel-Ange",
+        "B — David de Michel-Ange → Vénus de Milo → Le Penseur — conception du modèle",
+        "C — David de Michel-Ange → Le Penseur — conception du modèle → Vénus de Milo",
+        "D — Vénus de Milo → David de Michel-Ange → Le Penseur — conception du modèle"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "arts-chronologie-sculptures-reperes-20261011-02",
+      "category": "Arts — Sculptures et repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Classez ces modèles de Rodin selon leur conception :\n• Le Baiser\n• Les Bourgeois de Calais\n• Le Penseur",
+      "options": [
+        "A — Le Baiser → Les Bourgeois de Calais → Le Penseur",
+        "B — Le Penseur → Le Baiser → Les Bourgeois de Calais",
+        "C — Le Baiser → Le Penseur → Les Bourgeois de Calais",
+        "D — Le Penseur → Les Bourgeois de Calais → Le Baiser"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "arts-chronologie-sculptures-reperes-20261011-03",
+      "category": "Arts — Sculptures et repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Classez ces présentations publiques :\n• Inauguration de la statue de la Liberté\n• Installation des Bourgeois de Calais à Calais\n• Dévoilement du David de Michel-Ange",
+      "options": [
+        "A — Inauguration de la statue de la Liberté → Installation des Bourgeois de Calais à Calais → Dévoilement du David de Michel-Ange",
+        "B — Dévoilement du David de Michel-Ange → Inauguration de la statue de la Liberté → Installation des Bourgeois de Calais à Calais",
+        "C — Dévoilement du David de Michel-Ange → Installation des Bourgeois de Calais à Calais → Inauguration de la statue de la Liberté",
+        "D — Inauguration de la statue de la Liberté → Dévoilement du David de Michel-Ange → Installation des Bourgeois de Calais à Calais"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "arts-chronologie-sculptures-reperes-20261011-04",
+      "category": "Arts — Sculptures et repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Classez ces découvertes archéologiques :\n• Découverte de la Vénus de Milo\n• Découverte de la Victoire de Samothrace\n• Découverte du groupe du Laocoon",
+      "options": [
+        "A — Découverte du groupe du Laocoon → Découverte de la Victoire de Samothrace → Découverte de la Vénus de Milo",
+        "B — Découverte de la Vénus de Milo → Découverte de la Victoire de Samothrace → Découverte du groupe du Laocoon",
+        "C — Découverte du groupe du Laocoon → Découverte de la Vénus de Milo → Découverte de la Victoire de Samothrace",
+        "D — Découverte de la Vénus de Milo → Découverte du groupe du Laocoon → Découverte de la Victoire de Samothrace"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "arts-chronologie-sculptures-reperes-20261011-05",
+      "category": "Arts — Sculptures et repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Classez ces sculptures modernes selon les repères précisés :\n• L’Oiseau dans l’espace — version du MoMA de 1928\n• Maman — conception de Louise Bourgeois\n• Inauguration de la statue de la Liberté",
+      "options": [
+        "A — Inauguration de la statue de la Liberté → L’Oiseau dans l’espace — version du MoMA de 1928 → Maman — conception de Louise Bourgeois",
+        "B — Inauguration de la statue de la Liberté → Maman — conception de Louise Bourgeois → L’Oiseau dans l’espace — version du MoMA de 1928",
+        "C — L’Oiseau dans l’espace — version du MoMA de 1928 → Maman — conception de Louise Bourgeois → Inauguration de la statue de la Liberté",
+        "D — L’Oiseau dans l’espace — version du MoMA de 1928 → Inauguration de la statue de la Liberté → Maman — conception de Louise Bourgeois"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "arts-chronologie-sculptures-reperes-20261011-06",
+      "category": "Arts — Sculptures et repères — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Classez ces œuvres de Michel-Ange selon leur achèvement :\n• Plafond de la chapelle Sixtine\n• David de Florence\n• Pietà de Saint-Pierre",
+      "options": [
+        "A — Pietà de Saint-Pierre → Plafond de la chapelle Sixtine → David de Florence",
+        "B — David de Florence → Pietà de Saint-Pierre → Plafond de la chapelle Sixtine",
+        "C — David de Florence → Plafond de la chapelle Sixtine → Pietà de Saint-Pierre",
+        "D — Pietà de Saint-Pierre → David de Florence → Plafond de la chapelle Sixtine"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

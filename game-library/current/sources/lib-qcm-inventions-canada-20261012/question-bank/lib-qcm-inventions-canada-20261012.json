@@ -1,0 +1,87 @@
+{
+  "category": "Inventions canadiennes — Créateurs et objets — QCM",
+  "subject": "Sciences",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-inventions-canada-20261012-01",
+      "category": "Inventions canadiennes — Créateurs et objets — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel sport James Naismith invente-t-il en 1891 ?",
+      "options": [
+        "A — Le volleyball",
+        "B — Le football",
+        "C — Le baseball",
+        "D — Le basketball"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/lib-qcm-inventions-canada-20261012/basketball.jpg"
+    },
+    {
+      "id": "lib-qcm-inventions-canada-20261012-02",
+      "category": "Inventions canadiennes — Créateurs et objets — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle hormone traite le diabète grâce aux travaux de l’équipe de Toronto ?",
+      "options": [
+        "A — L’insuline",
+        "B — L’adrénaline",
+        "C — La mélatonine",
+        "D — La thyroxine"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-inventions-canada-20261012-03",
+      "category": "Inventions canadiennes — Créateurs et objets — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel créateur québécois est associé aux véhicules qui circulent sur la neige ?",
+      "options": [
+        "A — Arthur Sicard",
+        "B — Joseph-Armand Bombardier",
+        "C — George Klein",
+        "D — Alexander Graham Bell"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/lib-qcm-inventions-canada-20261012/snowmobile.jpg"
+    },
+    {
+      "id": "lib-qcm-inventions-canada-20261012-04",
+      "category": "Inventions canadiennes — Créateurs et objets — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel système de cinéma à écran géant est développé au Canada ?",
+      "options": [
+        "A — IMAX",
+        "B — Technicolor",
+        "C — Dolby",
+        "D — CinemaScope"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-inventions-canada-20261012-05",
+      "category": "Inventions canadiennes — Créateurs et objets — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel robot canadien a équipé les navettes spatiales ?",
+      "options": [
+        "A — Sojourner",
+        "B — Curiosity",
+        "C — Le Canadarm",
+        "D — Voyager"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

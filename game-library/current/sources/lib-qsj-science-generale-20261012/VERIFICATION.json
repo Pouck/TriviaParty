@@ -1,0 +1,87 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-qsj-science-generale-20261012-01",
+    "originalPackage": "lib-qsj-science-generale-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://science.nasa.gov/solar-system/",
+        "https://www.nasa.gov/",
+        "https://www.nobelprize.org/",
+        "https://www.si.edu/spotlight/buginfo"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-qsj-science-generale-20261012-02",
+    "originalPackage": "lib-qsj-science-generale-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://science.nasa.gov/solar-system/",
+        "https://www.nasa.gov/",
+        "https://www.nobelprize.org/",
+        "https://www.si.edu/spotlight/buginfo"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-qsj-science-generale-20261012-03",
+    "originalPackage": "lib-qsj-science-generale-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://science.nasa.gov/solar-system/",
+        "https://www.nasa.gov/",
+        "https://www.nobelprize.org/",
+        "https://www.si.edu/spotlight/buginfo"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-qsj-science-generale-20261012-04",
+    "originalPackage": "lib-qsj-science-generale-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://science.nasa.gov/solar-system/",
+        "https://www.nasa.gov/",
+        "https://www.nobelprize.org/",
+        "https://www.si.edu/spotlight/buginfo"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qsj-science-generale-20261012-05",
+    "originalPackage": "lib-qsj-science-generale-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://science.nasa.gov/solar-system/",
+        "https://www.nasa.gov/",
+        "https://www.nobelprize.org/",
+        "https://www.si.edu/spotlight/buginfo"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

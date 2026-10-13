@@ -1,0 +1,72 @@
+{
+  "category": "Géographie mondiale — Villes et monuments — Buzzer",
+  "subject": "Géographie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-geographie-villes-20261012-01",
+      "category": "Géographie mondiale — Villes et monuments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans quelle ville se trouve cet opéra célèbre ?",
+      "acceptableAnswers": [
+        "Sydney"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/sydney.jpg"
+    },
+    {
+      "id": "lib-buzzer-geographie-villes-20261012-02",
+      "category": "Géographie mondiale — Villes et monuments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle capitale italienne abrite le Colisée ?",
+      "acceptableAnswers": [
+        "Rome"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/colosseum.jpg"
+    },
+    {
+      "id": "lib-buzzer-geographie-villes-20261012-03",
+      "category": "Géographie mondiale — Villes et monuments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle est la capitale du Portugal ?",
+      "acceptableAnswers": [
+        "Lisbonne"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-geographie-villes-20261012-04",
+      "category": "Géographie mondiale — Villes et monuments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle capitale anglaise est traversée par la Tamise ?",
+      "acceptableAnswers": [
+        "Londres"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-geographie-villes-20261012-05",
+      "category": "Géographie mondiale — Villes et monuments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle est la capitale du Maroc ?",
+      "acceptableAnswers": [
+        "Rabat"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

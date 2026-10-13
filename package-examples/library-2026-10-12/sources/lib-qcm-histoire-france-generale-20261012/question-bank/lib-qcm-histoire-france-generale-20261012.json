@@ -1,0 +1,87 @@
+{
+  "category": "Histoire de France — Figures et repères — QCM",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-histoire-france-generale-20261012-01",
+      "category": "Histoire de France — Figures et repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel roi de France est surnommé le Roi-Soleil ?",
+      "options": [
+        "A — Louis XVI",
+        "B — François Ier",
+        "C — Henri IV",
+        "D — Louis XIV"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/sunrise.png"
+    },
+    {
+      "id": "lib-qcm-histoire-france-generale-20261012-02",
+      "category": "Histoire de France — Figures et repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle héroïne contribue à libérer Orléans en 1429 ?",
+      "options": [
+        "A — Jeanne d’Arc",
+        "B — Olympe de Gouges",
+        "C — Aliénor d’Aquitaine",
+        "D — Catherine de Médicis"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-histoire-france-generale-20261012-03",
+      "category": "Histoire de France — Figures et repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel château est associé au règne de Louis XIV ?",
+      "options": [
+        "A — Vincennes",
+        "B — Chenonceau",
+        "C — Versailles",
+        "D — Chambord"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/versailles.jpg"
+    },
+    {
+      "id": "lib-qcm-histoire-france-generale-20261012-04",
+      "category": "Histoire de France — Figures et repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel roi accueille Léonard de Vinci en France ?",
+      "options": [
+        "A — François Ier",
+        "B — Louis XIII",
+        "C — Charles X",
+        "D — Henri III"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-histoire-france-generale-20261012-05",
+      "category": "Histoire de France — Figures et repères — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle prison-forteresse est prise le 14 juillet 1789 ?",
+      "options": [
+        "A — Le Louvre",
+        "B — La Bastille",
+        "C — La Conciergerie",
+        "D — Le château d’If"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

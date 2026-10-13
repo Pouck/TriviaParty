@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "discobole",
+    "title": "Discobolus",
+    "file": "discobole.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos,_2nd_century_CE_(Glyptothek_Munich).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos%2C_2nd_century_CE_%28Glyptothek_Munich%29.jpg/1920px-Roman_bronze_copy_of_Myron%E2%80%99s_Discobolos%2C_2nd_century_CE_%28Glyptothek_Munich%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "No machine-readable author provided. MatthiasKabel assumed (based on copyright claims).",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  },
+  {
+    "slug": "laocoon",
+    "title": "Laocoon and His Sons",
+    "file": "laocoon.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Laoco%C3%B6n_and_his_sons_group.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Laoco%C3%B6n_and_his_sons_group.jpg/1920px-Laoco%C3%B6n_and_his_sons_group.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Wilfredor",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  },
+  {
+    "slug": "pieta",
+    "title": "Pietà (Michelangelo)",
+    "file": "pieta.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Pieta_de_Michelangelo_-_Vaticano.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/6/65/Pieta_de_Michelangelo_-_Vaticano.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "original file by Stanislav Traykov",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "credit": "File:Michelangelo's Pieta 5450 cropncleaned edit-2.jpg",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  },
+  {
+    "slug": "danseuse",
+    "title": "Little Dancer of Fourteen Years",
+    "file": "danseuse.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:The_Little_Fourteen-Year-Old_Dancer_MET_DP-14939-005.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/The_Little_Fourteen-Year-Old_Dancer_MET_DP-14939-005.jpg/1920px-The_Little_Fourteen-Year-Old_Dancer_MET_DP-14939-005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Edgar Degas",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art. See the Image and Data Resources Open Access Policy",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  }
+]

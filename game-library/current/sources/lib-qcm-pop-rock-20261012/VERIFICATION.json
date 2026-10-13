@@ -1,0 +1,92 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-qcm-pop-rock-20261012-01",
+    "originalPackage": "lib-qcm-pop-rock-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.thebeatles.com/",
+        "https://www.queenonline.com/freddie_mercury",
+        "https://www.michaeljackson.com/albums/thriller/",
+        "https://www.bobmarley.com/",
+        "https://www.graceland.com/elvis-biography"
+      ],
+      "note": "",
+      "visual": "crosswalk"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-qcm-pop-rock-20261012-02",
+    "originalPackage": "lib-qcm-pop-rock-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.thebeatles.com/",
+        "https://www.queenonline.com/freddie_mercury",
+        "https://www.michaeljackson.com/albums/thriller/",
+        "https://www.bobmarley.com/",
+        "https://www.graceland.com/elvis-biography"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-qcm-pop-rock-20261012-03",
+    "originalPackage": "lib-qcm-pop-rock-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.thebeatles.com/",
+        "https://www.queenonline.com/freddie_mercury",
+        "https://www.michaeljackson.com/albums/thriller/",
+        "https://www.bobmarley.com/",
+        "https://www.graceland.com/elvis-biography"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-qcm-pop-rock-20261012-04",
+    "originalPackage": "lib-qcm-pop-rock-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.thebeatles.com/",
+        "https://www.queenonline.com/freddie_mercury",
+        "https://www.michaeljackson.com/albums/thriller/",
+        "https://www.bobmarley.com/",
+        "https://www.graceland.com/elvis-biography"
+      ],
+      "note": "",
+      "visual": "guitar"
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qcm-pop-rock-20261012-05",
+    "originalPackage": "lib-qcm-pop-rock-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.thebeatles.com/",
+        "https://www.queenonline.com/freddie_mercury",
+        "https://www.michaeljackson.com/albums/thriller/",
+        "https://www.bobmarley.com/",
+        "https://www.graceland.com/elvis-biography"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

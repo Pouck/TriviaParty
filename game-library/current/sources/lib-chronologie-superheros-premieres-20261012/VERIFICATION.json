@@ -1,0 +1,185 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-chronologie-superheros-premieres-20261012-01",
+    "originalPackage": "lib-chronologie-superheros-premieres-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.dc.com/characters/superman",
+        "https://www.dc.com/characters/batman",
+        "https://www.dc.com/characters/wonder-woman",
+        "https://www.marvel.com/comics/guides/1284/80th_anniversary_silver_age",
+        "https://share.marvel.com/comics/discover/1305/80th-anniversary-the-70s"
+      ],
+      "note": "Superman (1938) → Batman (1939) → Wonder Woman (1941)",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-chronologie-superheros-premieres-20261012-02",
+    "originalPackage": "lib-chronologie-superheros-premieres-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.dc.com/characters/superman",
+        "https://www.dc.com/characters/batman",
+        "https://www.dc.com/characters/wonder-woman",
+        "https://www.marvel.com/comics/guides/1284/80th_anniversary_silver_age",
+        "https://share.marvel.com/comics/discover/1305/80th-anniversary-the-70s"
+      ],
+      "note": "Captain America (1941) → Spider-Man — Peter Parker (1962) → Iron Man (1963)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez les débuts en bande dessinée.",
+      "events": [
+        [
+          "Captain America",
+          1941
+        ],
+        [
+          "Hulk",
+          1962
+        ],
+        [
+          "Wolverine",
+          1974
+        ]
+      ],
+      "sources": [
+        "https://www.marvel.com/comics/guides/1284/80th_anniversary_silver_age",
+        "https://www.marvel.com/comics/guides/1305/80th-anniversary-the-70s"
+      ]
+    }
+  },
+  {
+    "question": 3,
+    "questionId": "lib-chronologie-superheros-premieres-20261012-03",
+    "originalPackage": "lib-chronologie-superheros-premieres-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.dc.com/characters/superman",
+        "https://www.dc.com/characters/batman",
+        "https://www.dc.com/characters/wonder-woman",
+        "https://www.marvel.com/comics/guides/1284/80th_anniversary_silver_age",
+        "https://share.marvel.com/comics/discover/1305/80th-anniversary-the-70s"
+      ],
+      "note": "Iron Man (1963) → Black Panther (1966) → Wolverine (1974)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez les débuts de ces héros en BD.",
+      "events": [
+        [
+          "Flash — Barry Allen",
+          1956
+        ],
+        [
+          "Green Lantern — Hal Jordan",
+          1959
+        ],
+        [
+          "Iron Man",
+          1963
+        ]
+      ],
+      "sources": [
+        "https://www.dc.com/blog/2023/06/14/flash-facts-things-you-may-not-know-about-the-scarlet-speedster",
+        "https://www.dc.com/blog/2021/09/24/finding-the-perfect-foe-how-long-did-it-take",
+        "https://www.marvel.com/comics/guides/1284/80th_anniversary_silver_age"
+      ]
+    }
+  },
+  {
+    "question": 4,
+    "questionId": "lib-chronologie-superheros-premieres-20261012-04",
+    "originalPackage": "lib-chronologie-superheros-premieres-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.dc.com/characters/superman",
+        "https://www.dc.com/characters/batman",
+        "https://www.dc.com/characters/wonder-woman",
+        "https://www.marvel.com/comics/guides/1284/80th_anniversary_silver_age",
+        "https://share.marvel.com/comics/discover/1305/80th-anniversary-the-70s"
+      ],
+      "note": "Superman (1938) → Spider-Man — Peter Parker (1962) → Wolverine (1974)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez les débuts en bande dessinée.",
+      "events": [
+        [
+          "Les Quatre Fantastiques",
+          1961
+        ],
+        [
+          "Spider-Man — Peter Parker",
+          1962
+        ],
+        [
+          "Black Panther",
+          1966
+        ]
+      ],
+      "sources": [
+        "https://www.marvel.com/comics/guides/1284/80th_anniversary_silver_age"
+      ]
+    }
+  },
+  {
+    "question": 5,
+    "questionId": "lib-chronologie-superheros-premieres-20261012-05",
+    "originalPackage": "lib-chronologie-superheros-premieres-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.dc.com/characters/superman",
+        "https://www.dc.com/characters/batman",
+        "https://www.dc.com/characters/wonder-woman",
+        "https://www.marvel.com/comics/guides/1284/80th_anniversary_silver_age",
+        "https://share.marvel.com/comics/discover/1305/80th-anniversary-the-70s"
+      ],
+      "note": "Batman (1939) → Iron Man (1963) → Black Panther (1966)",
+      "visual": null
+    },
+    "new": false,
+    "editorialRevision": {
+      "date": "2026-10-12",
+      "reason": "Réduire les événements et ordres répétés",
+      "prompt": "Classez les débuts en bande dessinée.",
+      "events": [
+        [
+          "Doctor Strange",
+          1963
+        ],
+        [
+          "Luke Cage",
+          1972
+        ],
+        [
+          "Deadpool",
+          1991
+        ]
+      ],
+      "sources": [
+        "https://www.marvel.com/amp/articles/comics/the-8-most-influential-doctor-strange-stories",
+        "https://share.marvel.com/comics/discover/433/luke-cage",
+        "https://www.marvel.com/comics/discover/1381/80th-anniversary-the-90s"
+      ]
+    }
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "question": 1,
+    "questionId": "arts-buzzer-regards-scenes-20261011-01",
+    "originalPackage": "arts-buzzer-regards-scenes-20261011",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.belvedere.at/en/permanent-collection"
+      ],
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "arts-buzzer-regards-scenes-20261011-02",
+    "originalPackage": "arts-buzzer-regards-scenes-20261011",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.marmottan.fr/notice/4014/"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "arts-buzzer-regards-scenes-20261011-03",
+    "originalPackage": "arts-buzzer-regards-scenes-20261011",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00939"
+      ],
+      "note": "Image de la version peinte de 1893 ; Munch en a réalisé plusieurs versions.",
+      "photo": "https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "arts-buzzer-regards-scenes-20261011-04",
+    "originalPackage": "arts-buzzer-regards-scenes-20261011",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://archive.artic.edu/hopper/nighthawks/"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "arts-buzzer-regards-scenes-20261011-05",
+    "originalPackage": "arts-buzzer-regards-scenes-20261011",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.musee-orsay.fr/fr/oeuvres/olympia-712"
+      ],
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Edouard_Manet_-_Olympia_-_Google_Art_ProjectFXD.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "arts-buzzer-regards-scenes-20261011-06",
+    "originalPackage": "arts-buzzer-regards-scenes-20261011",
+    "reference": {
+      "question": 6,
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/39799"
+      ],
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  }
+]

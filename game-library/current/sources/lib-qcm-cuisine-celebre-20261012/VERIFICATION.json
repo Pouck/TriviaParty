@@ -1,0 +1,87 @@
+[
+  {
+    "question": 1,
+    "questionId": "lib-qcm-cuisine-celebre-20261012-01",
+    "originalPackage": "lib-qcm-cuisine-celebre-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiuolo-00722",
+        "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602",
+        "https://www.britannica.com/topic/food",
+        "https://www.bonjourquebec.com/fr-ca/decouvrir/gastronomie"
+      ],
+      "note": "",
+      "visual": "pizza"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "lib-qcm-cuisine-celebre-20261012-02",
+    "originalPackage": "lib-qcm-cuisine-celebre-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiuolo-00722",
+        "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602",
+        "https://www.britannica.com/topic/food",
+        "https://www.bonjourquebec.com/fr-ca/decouvrir/gastronomie"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "lib-qcm-cuisine-celebre-20261012-03",
+    "originalPackage": "lib-qcm-cuisine-celebre-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiuolo-00722",
+        "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602",
+        "https://www.britannica.com/topic/food",
+        "https://www.bonjourquebec.com/fr-ca/decouvrir/gastronomie"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "lib-qcm-cuisine-celebre-20261012-04",
+    "originalPackage": "lib-qcm-cuisine-celebre-20261012",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiuolo-00722",
+        "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602",
+        "https://www.britannica.com/topic/food",
+        "https://www.bonjourquebec.com/fr-ca/decouvrir/gastronomie"
+      ],
+      "note": "",
+      "visual": "sushi"
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qcm-cuisine-celebre-20261012-05",
+    "originalPackage": "lib-qcm-cuisine-celebre-20261012",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiuolo-00722",
+        "https://ich.unesco.org/en/RL/knowledge-know-how-and-practices-pertaining-to-the-production-and-consumption-of-couscous-01602",
+        "https://www.britannica.com/topic/food",
+        "https://www.bonjourquebec.com/fr-ca/decouvrir/gastronomie"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

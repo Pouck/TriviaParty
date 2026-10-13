@@ -1,0 +1,103 @@
+{
+  "category": "Architecture — Monuments d’Europe — QCM",
+  "subject": "Architecture",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "architecture-qcm-europe-20261011-01",
+      "category": "Architecture — Monuments d’Europe — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle était la fonction de cet édifice romain ?",
+      "options": [
+        "A — Réunions du Sénat",
+        "B — Spectacles et combats",
+        "C — Stockage de céréales",
+        "D — Bains publics"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/architecture-qcm-europe-20261011/colosseum.jpg"
+    },
+    {
+      "id": "architecture-qcm-europe-20261011-02",
+      "category": "Architecture — Monuments d’Europe — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel élément caractéristique perce le sommet de la coupole du Panthéon de Rome ?",
+      "options": [
+        "A — Un oculus circulaire",
+        "B — Une flèche",
+        "C — Une cheminée",
+        "D — Un clocher"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "architecture-qcm-europe-20261011-03",
+      "category": "Architecture — Monuments d’Europe — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "À quoi servait cette tour ?",
+      "options": [
+        "A — Un clocher",
+        "B — Un phare",
+        "C — Un observatoire",
+        "D — Une tour de défense"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/architecture-qcm-europe-20261011/pisa.jpg"
+    },
+    {
+      "id": "architecture-qcm-europe-20261011-04",
+      "category": "Architecture — Monuments d’Europe — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle rivière la galerie du château de Chenonceau enjambe-t-elle ?",
+      "options": [
+        "A — La Loire",
+        "B — Le Cher",
+        "C — L’Indre",
+        "D — La Vienne"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "architecture-qcm-europe-20261011-05",
+      "category": "Architecture — Monuments d’Europe — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans quelle ville espagnole est ce site ?",
+      "options": [
+        "A — Séville",
+        "B — Cordoue",
+        "C — Tolède",
+        "D — Grenade"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/architecture-qcm-europe-20261011/alhambra.jpg"
+    },
+    {
+      "id": "architecture-qcm-europe-20261011-06",
+      "category": "Architecture — Monuments d’Europe — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "La cathédrale de Chartres est un chef-d’œuvre de quel style architectural ?",
+      "options": [
+        "A — Roman",
+        "B — Baroque",
+        "C — Gothique",
+        "D — Néoclassique"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

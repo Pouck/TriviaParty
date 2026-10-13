@@ -1,0 +1,65 @@
+{
+  "category": "Architecture — Sites de grandes civilisations — Qui suis-je ?",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "architecture-qsj-civilisations-20261011-01",
+      "category": "Architecture — Sites de grandes civilisations — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Un système de canalisations et de citernes permettait d’utiliser l’eau dans mon environnement aride.",
+        "Je fus un important centre caravanier des Nabatéens.",
+        "Le défilé du Siq conduit à ma façade appelée le Trésor.",
+        "Je suis la célèbre cité aux façades taillées dans la roche rose, en Jordanie."
+      ],
+      "acceptableAnswers": [
+        "Pétra",
+        "Petra",
+        "La cité de Pétra"
+      ]
+    },
+    {
+      "id": "architecture-qsj-civilisations-20261011-02",
+      "category": "Architecture — Sites de grandes civilisations — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un mausolée moghol élevé au XVIIe siècle.",
+        "Mon ensemble associe un jardin symétrique, du marbre blanc et des incrustations de pierres.",
+        "Shah Jahan me fait construire en mémoire de Mumtaz Mahal.",
+        "Je suis le célèbre monument de marbre blanc situé à Agra, en Inde."
+      ],
+      "acceptableAnswers": [
+        "Le Taj Mahal",
+        "Taj Mahal"
+      ]
+    },
+    {
+      "id": "architecture-qsj-civilisations-20261011-03",
+      "category": "Architecture — Sites de grandes civilisations — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis construit au XIIe siècle sous le roi Suryavarman II.",
+        "À l’origine consacré à Vishnou, je deviens ensuite un lieu de culte bouddhiste.",
+        "Mes tours figurent sur le drapeau national du pays où je me trouve.",
+        "Je suis le célèbre temple khmer près de Siem Reap, au Cambodge."
+      ],
+      "acceptableAnswers": [
+        "Angkor Vat",
+        "Angkor Wat",
+        "Le temple d’Angkor Vat"
+      ]
+    }
+  ]
+}

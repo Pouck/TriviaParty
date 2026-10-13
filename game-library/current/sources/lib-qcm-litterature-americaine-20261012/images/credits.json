@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "whale",
+    "title": "Sperm whale",
+    "file": "whale.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Mother_and_baby_sperm_whale.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Mother_and_baby_sperm_whale.jpg/1920px-Mother_and_baby_sperm_whale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Gabriel Barathieu",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "credit": "https://www.flickr.com/photos/barathieu/7277953560/",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-litterature-americaine-20261012"
+  },
+  {
+    "slug": "book",
+    "title": "Indice visuel — book",
+    "file": "book.png",
+    "artist": "Trivia Party — diagramme ou indice visuel local",
+    "license": "Illustration locale ; glyphes système crédités",
+    "licenseUrl": "https://learn.microsoft.com/en-us/typography/fonts/font-faq",
+    "commons": null,
+    "credit": "Graphisme de jeu ; symboles rendus avec la police système Segoe UI Emoji, sans redistribution du fichier de police.",
+    "changes": "Indice représentatif, pas une image du film ou de la bande dessinée.",
+    "originalPackage": "lib-qcm-litterature-americaine-20261012"
+  }
+]

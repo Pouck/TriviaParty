@@ -1,0 +1,15 @@
+{
+  "id": "cinema-qsj-figures-20261011",
+  "name": "Cinéma — Cinéastes et personnages — Qui suis-je ?",
+  "description": "5 questions en français. 4 indices de 20 secondes ; 20 → 15 → 10 → 5 points ; erreur : −5 points.",
+  "categoryPackages": [
+    "cinema-qsj-figures-20261011"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 20,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 3,
+    "pointsDecayPerFlip": 5
+  }
+}

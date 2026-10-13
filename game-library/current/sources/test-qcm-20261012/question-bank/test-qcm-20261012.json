@@ -1,0 +1,87 @@
+{
+  "category": "TEST — QCM et images",
+  "subject": "Tests",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "prompt": "Quelle planète est surnommée la planète rouge ?",
+      "options": [
+        "A — Jupiter",
+        "B — Saturne",
+        "C — Mars",
+        "D — Vénus"
+      ],
+      "correctOptionIndex": 2,
+      "id": "test-01-qcm-q1",
+      "category": "TEST — QCM et images",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "prompt": "Quelle planète est surnommée la planète rouge ?",
+      "options": [
+        "A — Mars",
+        "B — Saturne",
+        "C — Vénus",
+        "D — Jupiter"
+      ],
+      "correctOptionIndex": 0,
+      "id": "test-07-wager-q1",
+      "category": "TEST — QCM et images",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "test-09-carte-qcm-q1",
+      "category": "TEST — QCM et images",
+      "prompt": "Quelle lettre correspond à l’Angola sur la carte ?",
+      "imageUrl": "images/test-09-carte-qcm/carte-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "test-20261012-qcm-complement-1",
+      "category": "TEST — QCM et images",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a commandé ce mausolée ?",
+      "options": [
+        "A — Akbar",
+        "B — Aurangzeb",
+        "C — Babur",
+        "D — Shah Jahan"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/architecture-qcm-asie-orient-20261011/taj.jpg"
+    },
+    {
+      "id": "test-20261012-qcm-complement-2",
+      "category": "TEST — QCM et images",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel peuple a fait de Pétra sa capitale et y a sculpté des façades dans la roche ?",
+      "options": [
+        "A — Les Perses achéménides",
+        "B — Les Nabatéens",
+        "C — Les Hittites",
+        "D — Les Phéniciens"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

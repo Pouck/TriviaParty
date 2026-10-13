@@ -1,0 +1,76 @@
+{
+  "category": "TEST — Buzzer",
+  "subject": "Tests",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "prompt": "Quelle est la capitale de la France ?",
+      "acceptableAnswers": [
+        "Paris"
+      ],
+      "id": "test-02-buzzer-q1",
+      "category": "TEST — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    },
+    {
+      "id": "test-20261012-buzzer-complement-1",
+      "category": "TEST — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel monument voyez-vous ?",
+      "acceptableAnswers": [
+        "La tour Eiffel",
+        "Tour Eiffel"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/architecture-buzzer-europe-20261011/eiffel.jpg"
+    },
+    {
+      "id": "test-20261012-buzzer-complement-2",
+      "category": "TEST — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel site français est célèbre pour son abbaye perchée sur un îlot rocheux au milieu d’une baie ?",
+      "acceptableAnswers": [
+        "Le Mont-Saint-Michel",
+        "Mont-Saint-Michel"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "test-20261012-buzzer-complement-3",
+      "category": "TEST — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel nom courant désigne cette célèbre tour de l’horloge londonienne ?",
+      "acceptableAnswers": [
+        "Big Ben",
+        "La tour Elizabeth",
+        "Elizabeth Tower"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/architecture-buzzer-europe-20261011/bigben.jpg"
+    },
+    {
+      "id": "test-20261012-buzzer-complement-4",
+      "category": "TEST — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel roi, surnommé le Roi-Soleil, a fait de Versailles le siège de sa cour ?",
+      "acceptableAnswers": [
+        "Louis XIV",
+        "Louis 14"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

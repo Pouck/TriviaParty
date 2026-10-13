@@ -1,0 +1,87 @@
+{
+  "category": "Littérature américaine — Classiques — QCM",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-litterature-americaine-20261012-01",
+      "category": "Littérature américaine — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a écrit The Great Gatsby ?",
+      "options": [
+        "A — Ernest Hemingway",
+        "B — John Steinbeck",
+        "C — F. Scott Fitzgerald",
+        "D — Mark Twain"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-litterature-americaine-20261012-02",
+      "category": "Littérature américaine — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel animal Ahab poursuit-il dans Moby-Dick ?",
+      "options": [
+        "A — Une baleine",
+        "B — Une pieuvre",
+        "C — Un dauphin",
+        "D — Un requin"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/whale.jpg"
+    },
+    {
+      "id": "lib-qcm-litterature-americaine-20261012-03",
+      "category": "Littérature américaine — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a écrit The Grapes of Wrath ?",
+      "options": [
+        "A — Nathaniel Hawthorne",
+        "B — Herman Melville",
+        "C — William Faulkner",
+        "D — John Steinbeck"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-litterature-americaine-20261012-04",
+      "category": "Littérature américaine — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans Fahrenheit 451, que brûlent les pompiers ?",
+      "options": [
+        "A — Des livres",
+        "B — Des récoltes",
+        "C — Des bateaux",
+        "D — Des tableaux"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/book.png"
+    },
+    {
+      "id": "lib-qcm-litterature-americaine-20261012-05",
+      "category": "Littérature américaine — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle autrice a écrit Beloved ?",
+      "options": [
+        "A — Louisa May Alcott",
+        "B — Toni Morrison",
+        "C — Harper Lee",
+        "D — Sylvia Plath"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

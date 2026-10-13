@@ -1,0 +1,77 @@
+{
+  "category": "Animaux terrestres — Mammifères — Buzzer",
+  "subject": "Nature",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-animaux-terrestres-20261012-01",
+      "category": "Animaux terrestres — Mammifères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel grand félin mâle porte souvent une crinière ?",
+      "acceptableAnswers": [
+        "Le lion",
+        "Lion"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lion.jpg"
+    },
+    {
+      "id": "lib-buzzer-animaux-terrestres-20261012-02",
+      "category": "Animaux terrestres — Mammifères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel animal construit des barrages avec des branches ?",
+      "acceptableAnswers": [
+        "Le castor",
+        "Castor"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/beaver.jpg"
+    },
+    {
+      "id": "lib-buzzer-animaux-terrestres-20261012-03",
+      "category": "Animaux terrestres — Mammifères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Combien de bosses a généralement le dromadaire ?",
+      "acceptableAnswers": [
+        "Une",
+        "1"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-animaux-terrestres-20261012-04",
+      "category": "Animaux terrestres — Mammifères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel grand mammifère a une trompe ?",
+      "acceptableAnswers": [
+        "L’éléphant",
+        "Éléphant"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-animaux-terrestres-20261012-05",
+      "category": "Animaux terrestres — Mammifères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel animal arctique est aussi appelé ours blanc ?",
+      "acceptableAnswers": [
+        "L’ours polaire",
+        "Ours polaire"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "question": 1,
+    "questionId": "q13",
+    "originalPackage": "original-pop-culture",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "q14",
+    "originalPackage": "original-pop-culture",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "q15",
+    "originalPackage": "original-pop-culture",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "q16",
+    "originalPackage": "original-pop-culture",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qcm-jeux-video-20261012-01",
+    "originalPackage": "lib-qcm-jeux-video-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.nintendo.com/us/",
+        "https://www.minecraft.net/",
+        "https://www.pokemon.com/",
+        "https://www.sonicthehedgehog.com/",
+        "https://www.pacman.com/"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "lib-qcm-jeux-video-20261012-02",
+    "originalPackage": "lib-qcm-jeux-video-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.nintendo.com/us/",
+        "https://www.minecraft.net/",
+        "https://www.pokemon.com/",
+        "https://www.sonicthehedgehog.com/",
+        "https://www.pacman.com/"
+      ],
+      "note": "",
+      "visual": "blocks"
+    },
+    "new": false
+  }
+]

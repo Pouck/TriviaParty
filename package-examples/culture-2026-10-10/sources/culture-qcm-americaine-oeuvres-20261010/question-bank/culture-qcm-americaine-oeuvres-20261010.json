@@ -1,0 +1,159 @@
+{
+  "category": "Littérature américaine — Œuvres : choix multiples",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-01",
+      "category": "Littérature américaine — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Dans quelle communauté historique se déroule The Scarlet Letter de Hawthorne ?",
+      "options": [
+        "A — Les planteurs de Virginie au XVIIIe siècle",
+        "B — Les industriels new-yorkais au XIXe siècle",
+        "C — Les puritains du Massachusetts au XVIIe siècle",
+        "D — Les quakers de Pennsylvanie"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-02",
+      "category": "Littérature américaine — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Steinbeck suit la famille Joad de l’Oklahoma à la Californie pendant la Grande Dépression ?",
+      "options": [
+        "A — The Grapes of Wrath",
+        "B — East of Eden",
+        "C — Cannery Row",
+        "D — Of Mice and Men"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-03",
+      "category": "Littérature américaine — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle est la mission des pompiers dans Fahrenheit 451 de Ray Bradbury ?",
+      "options": [
+        "A — Secourir les habitants des gratte-ciel",
+        "B — Brûler les livres interdits et les maisons qui en abritent",
+        "C — Éteindre les incendies chimiques",
+        "D — Disperser les manifestations"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-04",
+      "category": "Littérature américaine — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Toni Morrison raconte l’histoire de Sethe, hantée par le passé et par le retour d’une figure liée à sa fille morte ?",
+      "options": [
+        "A — Beloved",
+        "B — Song of Solomon",
+        "C — Sula",
+        "D — The Bluest Eye"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-05",
+      "category": "Littérature américaine — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Joseph Heller porte le nom d’un paradoxe bureaucratique empêchant des aviateurs d’échapper aux missions ?",
+      "options": [
+        "A — Slaughterhouse-Five",
+        "B — A Farewell to Arms",
+        "C — The Things They Carried",
+        "D — Catch-22"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-06",
+      "category": "Littérature américaine — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Dans quelle ville Esther Greenwood effectue-t-elle un stage d’été dans The Bell Jar de Sylvia Plath ?",
+      "options": [
+        "A — Londres",
+        "B — Boston",
+        "C — Paris",
+        "D — New York"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-07",
+      "category": "Littérature américaine — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel ouvrage de Thoreau décrit son expérience de vie dans une cabane près d’un étang du Massachusetts ?",
+      "options": [
+        "A — Leaves of Grass",
+        "B — Self-Reliance",
+        "C — Walden",
+        "D — Nature"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-08",
+      "category": "Littérature américaine — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel poisson Santiago combat-il dans The Old Man and the Sea d’Hemingway ?",
+      "options": [
+        "A — Un grand marlin",
+        "B — Un calmar géant",
+        "C — Un grand requin blanc",
+        "D — Un cachalot"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-09",
+      "category": "Littérature américaine — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Faulkner décrit le déclin de la famille Compson ?",
+      "options": [
+        "A — Light in August",
+        "B — The Sound and the Fury",
+        "C — As I Lay Dying",
+        "D — Absalom, Absalom!"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-10",
+      "category": "Littérature américaine — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle campagne politique américaine The Crucible d’Arthur Miller critique-t-elle par une analogie historique ?",
+      "options": [
+        "A — Les luttes contre la ségrégation",
+        "B — Le maccarthysme et la chasse aux communistes",
+        "C — Le scandale du Watergate",
+        "D — La conscription pendant la guerre du Vietnam"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "test-04-chronologie",
+  "name": "TEST Chronologie — QCM",
+  "description": "Une question pour tester le rendu et les contrôles.",
+  "categoryPackages": [
+    "test-04-chronologie"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

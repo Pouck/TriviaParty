@@ -1,0 +1,100 @@
+{
+  "category": "Géographie — Paysages et milieux naturels — QCM",
+  "subject": "Nature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "geo-deserts-et-paysages-arides-20261010-01",
+      "category": "Géographie — Paysages et milieux naturels — QCM",
+      "prompt": "Dans quel désert se trouve Las Vegas, au Nevada ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Désert de Chihuahua",
+        "B — Désert des Mojaves",
+        "C — Désert du Grand Bassin",
+        "D — Désert de Sonora"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-deserts-et-paysages-arides-20261010-02",
+      "category": "Géographie — Paysages et milieux naturels — QCM",
+      "prompt": "Quel désert côtier du nord du Chili est réputé être le désert non polaire le plus aride du monde ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Désert du Monte",
+        "B — Désert de Patagonie",
+        "C — Désert de Sechura",
+        "D — Désert d’Atacama"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-deserts-et-paysages-arides-20261010-03",
+      "category": "Géographie — Paysages et milieux naturels — QCM",
+      "prompt": "Quel désert s’étend dans le sud de la Mongolie et le nord de la Chine, le long d’anciennes routes commerciales de la soie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Désert de Gobi",
+        "B — Désert du Karakoum",
+        "C — Désert du Kyzylkoum",
+        "D — Désert du Taklamakan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-deserts-et-paysages-arides-20261010-04",
+      "category": "Géographie — Paysages et milieux naturels — QCM",
+      "prompt": "Quel désert de la péninsule Arabique comprend le Rub al-Khali, surnommé le « Quart Vide » ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Désert du Néguev",
+        "B — Désert du Thar",
+        "C — Désert d’Arabie",
+        "D — Désert de Syrie"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-lacs-mers-et-golfes-20261010-03",
+      "category": "Géographie — Paysages et milieux naturels — QCM",
+      "prompt": "Quelle vaste étendue d’eau salée, sans débouché sur l’océan, est bordée notamment par la Russie, l’Iran et le Kazakhstan ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Mer Caspienne",
+        "B — Mer d’Aral",
+        "C — Mer Noire",
+        "D — Mer Morte"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-lacs-mers-et-golfes-20261010-04",
+      "category": "Géographie — Paysages et milieux naturels — QCM",
+      "prompt": "Sur la rive sud-ouest de quel Grand Lac se trouve Chicago, dans l’Illinois ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Lac Érié",
+        "B — Lac Michigan",
+        "C — Lac Huron",
+        "D — Lac Supérieur"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

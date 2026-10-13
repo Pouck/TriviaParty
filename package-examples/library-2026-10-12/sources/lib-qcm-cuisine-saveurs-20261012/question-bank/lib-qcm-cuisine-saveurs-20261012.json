@@ -1,0 +1,87 @@
+{
+  "category": "Cuisine — Saveurs et desserts du monde — QCM",
+  "subject": "Cuisine",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-cuisine-saveurs-20261012-01",
+      "category": "Cuisine — Saveurs et desserts du monde — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel fruit sec forme la base habituelle de la pâte de massepain ?",
+      "options": [
+        "A — L’amande",
+        "B — La noisette",
+        "C — La noix de cajou",
+        "D — La noix de coco"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-cuisine-saveurs-20261012-02",
+      "category": "Cuisine — Saveurs et desserts du monde — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel ingrédient donne son nom à la vanille ?",
+      "options": [
+        "A — Un grain de café",
+        "B — Les gousses d’une orchidée",
+        "C — Une racine de rose",
+        "D — Une écorce de chêne"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-cuisine-saveurs-20261012-03",
+      "category": "Cuisine — Saveurs et desserts du monde — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle viennoiserie en forme de croissant est représentée ?",
+      "options": [
+        "A — Un millefeuille",
+        "B — Un éclair",
+        "C — Un macaron",
+        "D — Un croissant"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/croissant.jpg"
+    },
+    {
+      "id": "lib-qcm-cuisine-saveurs-20261012-04",
+      "category": "Cuisine — Saveurs et desserts du monde — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel plat mexicain se sert dans une tortilla garnie ?",
+      "options": [
+        "A — Une crêpe Suzette",
+        "B — Un ravioli",
+        "C — Un taco",
+        "D — Un sushi"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/taco.jpg"
+    },
+    {
+      "id": "lib-qcm-cuisine-saveurs-20261012-05",
+      "category": "Cuisine — Saveurs et desserts du monde — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle épice est tirée d’une fleur de crocus ?",
+      "options": [
+        "A — Le gingembre",
+        "B — Le safran",
+        "C — La cannelle",
+        "D — Le poivre"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

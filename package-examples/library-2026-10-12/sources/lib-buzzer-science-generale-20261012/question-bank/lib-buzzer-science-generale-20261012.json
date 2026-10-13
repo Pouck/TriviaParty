@@ -1,0 +1,77 @@
+{
+  "category": "Sciences — Découvertes accessibles — Buzzer",
+  "subject": "Sciences",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-science-generale-20261012-01",
+      "category": "Sciences — Découvertes accessibles — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel satellite naturel tourne autour de la Terre ?",
+      "acceptableAnswers": [
+        "La Lune",
+        "Lune"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/moon.jpg"
+    },
+    {
+      "id": "lib-buzzer-science-generale-20261012-02",
+      "category": "Sciences — Découvertes accessibles — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel métal un aimant attire-t-il facilement : le fer ou l’or ?",
+      "acceptableAnswers": [
+        "Le fer",
+        "Fer"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/magnet.png"
+    },
+    {
+      "id": "lib-buzzer-science-generale-20261012-03",
+      "category": "Sciences — Découvertes accessibles — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel gaz de l’air est indispensable à notre respiration ?",
+      "acceptableAnswers": [
+        "L’oxygène",
+        "Oxygène"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-science-generale-20261012-04",
+      "category": "Sciences — Découvertes accessibles — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment appelle-t-on le passage de l’eau liquide en vapeur ?",
+      "acceptableAnswers": [
+        "L’évaporation",
+        "Évaporation"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-science-generale-20261012-05",
+      "category": "Sciences — Découvertes accessibles — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Qui est associé à la théorie de la relativité ?",
+      "acceptableAnswers": [
+        "Albert Einstein",
+        "Einstein"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "category": "Histoire des États-Unis — Grands repères — Qui suis-je ?",
+  "subject": "Histoire",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-histoire-etats-unis-20261012-01",
+      "category": "Histoire des États-Unis — Grands repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je dirige les forces américaines pendant la guerre d’indépendance.",
+        "Mon nom est celui de la capitale fédérale.",
+        "J’apparais sur le billet américain d’un dollar.",
+        "Je suis le premier président des États-Unis."
+      ],
+      "acceptableAnswers": [
+        "George Washington"
+      ]
+    },
+    {
+      "id": "lib-qsj-histoire-etats-unis-20261012-02",
+      "category": "Histoire des États-Unis — Grands repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis président pendant la guerre de Sécession.",
+        "Je prononce le discours de Gettysburg.",
+        "Je suis assassiné au théâtre Ford.",
+        "Je suis associé à l’émancipation des esclaves."
+      ],
+      "acceptableAnswers": [
+        "Abraham Lincoln"
+      ]
+    },
+    {
+      "id": "lib-qsj-histoire-etats-unis-20261012-03",
+      "category": "Histoire des États-Unis — Grands repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis pasteur et militant.",
+        "Je défends les droits civiques par la non-violence.",
+        "Je prononce un discours à Washington en 1963.",
+        "Ce discours est connu comme I Have a Dream."
+      ],
+      "acceptableAnswers": [
+        "Martin Luther King Jr.",
+        "Martin Luther King"
+      ]
+    },
+    {
+      "id": "lib-qsj-histoire-etats-unis-20261012-04",
+      "category": "Histoire des États-Unis — Grands repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une figure des droits civiques.",
+        "Mon geste a lieu à Montgomery, en Alabama.",
+        "Je refuse de céder ma place dans un bus.",
+        "Mon prénom est Rosa."
+      ],
+      "acceptableAnswers": [
+        "Rosa Parks"
+      ]
+    },
+    {
+      "id": "lib-qsj-histoire-etats-unis-20261012-05",
+      "category": "Histoire des États-Unis — Grands repères — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis pilote puis astronaute.",
+        "Buzz Aldrin et Michael Collins sont mes coéquipiers.",
+        "Je commande Apollo 11.",
+        "Je suis le premier humain à marcher sur la Lune."
+      ],
+      "acceptableAnswers": [
+        "Neil Armstrong"
+      ]
+    }
+  ]
+}

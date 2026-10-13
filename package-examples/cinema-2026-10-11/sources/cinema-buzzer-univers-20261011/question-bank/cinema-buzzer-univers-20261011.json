@@ -1,0 +1,113 @@
+{
+  "category": "Cinéma — Univers et animation — Rapide — Buzzer",
+  "subject": "Cinéma",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "cinema-buzzer-univers-20261011-01",
+      "category": "Cinéma — Univers et animation — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans quelle ville fictive Batman combat-il le crime ?",
+      "acceptableAnswers": [
+        "Gotham",
+        "Gotham City"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-univers-20261011-02",
+      "category": "Cinéma — Univers et animation — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment s’appelle le marteau de Thor dans les films Marvel ?",
+      "acceptableAnswers": [
+        "Mjolnir",
+        "Mjølnir"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-univers-20261011-03",
+      "category": "Cinéma — Univers et animation — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "De quelle planète Superman est-il originaire ?",
+      "acceptableAnswers": [
+        "Krypton"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-univers-20261011-04",
+      "category": "Cinéma — Univers et animation — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle arme lumineuse les Jedi utilisent-ils dans Star Wars ?",
+      "acceptableAnswers": [
+        "Un sabre laser",
+        "Le sabre laser",
+        "Sabre laser",
+        "Lightsaber"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-univers-20261011-05",
+      "category": "Cinéma — Univers et animation — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Sur quel monde vivent les Na’vi dans Avatar ?",
+      "acceptableAnswers": [
+        "Pandora"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-univers-20261011-06",
+      "category": "Cinéma — Univers et animation — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment s’appelle la sœur d’Anna qui possède des pouvoirs de glace dans Frozen (La Reine des neiges) ?",
+      "acceptableAnswers": [
+        "Elsa"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-univers-20261011-07",
+      "category": "Cinéma — Univers et animation — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel type de poisson est Nemo ?",
+      "acceptableAnswers": [
+        "Un poisson-clown",
+        "Poisson-clown",
+        "Poisson clown"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "cinema-buzzer-univers-20261011-08",
+      "category": "Cinéma — Univers et animation — Rapide — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel lion est le fils de Mufasa dans The Lion King (Le Roi lion) ?",
+      "acceptableAnswers": [
+        "Simba"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

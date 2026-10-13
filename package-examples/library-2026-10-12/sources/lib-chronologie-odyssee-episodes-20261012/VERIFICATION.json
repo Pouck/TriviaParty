@@ -1,0 +1,47 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.gutenberg.org/ebooks/1727",
+      "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136"
+    ],
+    "note": "Fin de la guerre de Troie → Rencontre du Cyclope → Retour à Ithaque",
+    "visual": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.gutenberg.org/ebooks/1727",
+      "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136"
+    ],
+    "note": "Rencontre du Cyclope → Séjour chez Circé → Passage devant les Sirènes",
+    "visual": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.gutenberg.org/ebooks/1727",
+      "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136"
+    ],
+    "note": "Séjour chez Circé → Passage devant les Sirènes → Séjour chez Calypso",
+    "visual": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.gutenberg.org/ebooks/1727",
+      "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136"
+    ],
+    "note": "Arrivée à Ithaque → Épreuve de l’arc et combat contre les prétendants → Pénélope reconnaît Ulysse grâce au secret du lit",
+    "visual": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.gutenberg.org/ebooks/1727",
+      "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0136"
+    ],
+    "note": "Séjour chez Calypso → Accueil chez les Phéaciens → Arrivée à Ithaque",
+    "visual": null
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "category": "Histoire des États-Unis — Chronologie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "us-chronologie-20261010-01",
+      "category": "Histoire des États-Unis — Chronologie",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces événements de la Révolution américaine ?\n• Boston Tea Party\n• Adoption de la Déclaration d’indépendance\n• Massacre de Boston",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Massacre de Boston → Boston Tea Party → Adoption de la Déclaration d’indépendance",
+        "B — Massacre de Boston → Adoption de la Déclaration d’indépendance → Boston Tea Party",
+        "C — Boston Tea Party → Adoption de la Déclaration d’indépendance → Massacre de Boston",
+        "D — Boston Tea Party → Massacre de Boston → Adoption de la Déclaration d’indépendance"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-chronologie-20261010-02",
+      "category": "Histoire des États-Unis — Chronologie",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces étapes constitutionnelles ?\n• Ratification de la Constitution\n• Ratification de la Déclaration des droits\n• Adoption des Articles de la Confédération",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Ratification de la Constitution → Ratification de la Déclaration des droits → Adoption des Articles de la Confédération",
+        "B — Adoption des Articles de la Confédération → Ratification de la Constitution → Ratification de la Déclaration des droits",
+        "C — Adoption des Articles de la Confédération → Ratification de la Déclaration des droits → Ratification de la Constitution",
+        "D — Ratification de la Constitution → Adoption des Articles de la Confédération → Ratification de la Déclaration des droits"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-chronologie-20261010-03",
+      "category": "Histoire des États-Unis — Chronologie",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces événements de l’expansion vers l’ouest ?\n• Loi sur le déplacement des peuples autochtones\n• Début de la ruée vers l’or en Californie\n• Achat de la Louisiane",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Achat de la Louisiane → Début de la ruée vers l’or en Californie → Loi sur le déplacement des peuples autochtones",
+        "B — Loi sur le déplacement des peuples autochtones → Achat de la Louisiane → Début de la ruée vers l’or en Californie",
+        "C — Achat de la Louisiane → Loi sur le déplacement des peuples autochtones → Début de la ruée vers l’or en Californie",
+        "D — Début de la ruée vers l’or en Californie → Achat de la Louisiane → Loi sur le déplacement des peuples autochtones"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-chronologie-20261010-04",
+      "category": "Histoire des États-Unis — Chronologie",
+      "prompt": "Quel est l’ordre chronologique, du plus ancien au plus récent, pour ces étapes de la guerre de Sécession ?\n• Bataille de Gettysburg\n• Reddition de Lee à Appomattox\n• Attaque de Fort Sumter",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Bataille de Gettysburg → Attaque de Fort Sumter → Reddition de Lee à Appomattox",
+        "B — Bataille de Gettysburg → Reddition de Lee à Appomattox → Attaque de Fort Sumter",
+        "C — Attaque de Fort Sumter → Reddition de Lee à Appomattox → Bataille de Gettysburg",
+        "D — Attaque de Fort Sumter → Bataille de Gettysburg → Reddition de Lee à Appomattox"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

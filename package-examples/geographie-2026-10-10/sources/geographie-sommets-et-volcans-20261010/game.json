@@ -1,0 +1,15 @@
+{
+  "id": "geographie-sommets-et-volcans-20261010",
+  "name": "Géographie - Sommets et volcans",
+  "description": "Identifiez les montagnes du monde. 6 questions à choix multiples. 15 secondes par question ; 15, 10 puis 5 points.",
+  "categoryPackages": [
+    "geographie-sommets-et-volcans-20261010"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0.0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

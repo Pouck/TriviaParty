@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "liberty-statue",
+    "title": "Statue of Liberty",
+    "file": "liberty-statue.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Front_view_of_Statue_of_Liberty_(cropped).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Front_view_of_Statue_of_Liberty_%28cropped%29.jpg/1920px-Front_view_of_Statue_of_Liberty_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "AskALotl",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-histoire-etats-unis-20261012"
+  },
+  {
+    "slug": "moon",
+    "title": "Moon",
+    "file": "moon.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1920px-FullMoon2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Gregory H. Revera",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-histoire-etats-unis-20261012"
+  }
+]

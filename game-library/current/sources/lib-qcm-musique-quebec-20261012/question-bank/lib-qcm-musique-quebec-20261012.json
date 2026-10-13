@@ -1,0 +1,87 @@
+{
+  "category": "Musique — Artistes du Québec — QCM",
+  "subject": "Musique",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-musique-quebec-20261012-01",
+      "category": "Musique — Artistes du Québec — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a écrit Gens du pays ?",
+      "options": [
+        "A — Gilles Vigneault",
+        "B — Félix Leclerc",
+        "C — Robert Charlebois",
+        "D — Claude Dubois"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-musique-quebec-20261012/maple-leaf.png"
+    },
+    {
+      "id": "lib-qcm-musique-quebec-20261012-02",
+      "category": "Musique — Artistes du Québec — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel instrument accompagne souvent Félix Leclerc ?",
+      "options": [
+        "A — La trompette",
+        "B — Le violon",
+        "C — La guitare",
+        "D — La batterie"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/lib-qcm-musique-quebec-20261012/guitar.jpg"
+    },
+    {
+      "id": "lib-qcm-musique-quebec-20261012-03",
+      "category": "Musique — Artistes du Québec — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel artiste montréalais a écrit Hallelujah ?",
+      "options": [
+        "A — Bryan Adams",
+        "B — Leonard Cohen",
+        "C — Neil Young",
+        "D — Gordon Lightfoot"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-musique-quebec-20261012-04",
+      "category": "Musique — Artistes du Québec — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel groupe québécois est associé à la musique traditionnelle ?",
+      "options": [
+        "A — La Bottine Souriante",
+        "B — Simple Plan",
+        "C — Voivod",
+        "D — Les Trois Accords"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-musique-quebec-20261012-05",
+      "category": "Musique — Artistes du Québec — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel chanteur interprète Lindberg avec Louise Forestier ?",
+      "options": [
+        "A — Jean-Pierre Ferland",
+        "B — Michel Rivard",
+        "C — Daniel Bélanger",
+        "D — Robert Charlebois"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

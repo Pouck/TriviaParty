@@ -1,0 +1,36 @@
+{
+  "category": "TEST Ordre — compatibilité ancien format",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Ordre — compatibilité ancien format"
+  ],
+  "questions": [
+    {
+      "kind": "ordering",
+      "prompt": "Classez ces nombres du plus petit au plus grand.",
+      "items": [
+        {
+          "id": "three",
+          "text": "Trois"
+        },
+        {
+          "id": "one",
+          "text": "Un"
+        },
+        {
+          "id": "two",
+          "text": "Deux"
+        }
+      ],
+      "correctOrderIds": [
+        "one",
+        "two",
+        "three"
+      ],
+      "id": "test-05-ordering-q1",
+      "category": "TEST Ordre — compatibilité ancien format",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    }
+  ]
+}

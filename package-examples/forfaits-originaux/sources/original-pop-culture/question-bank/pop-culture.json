@@ -1,0 +1,87 @@
+{
+  "category": "Culture populaire",
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "q4",
+      "category": "Culture populaire",
+      "prompt": "Classez ces consoles selon leur sortie.",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Nintendo Switch → Xbox 360 → PlayStation 2 → Nintendo 64",
+        "B — Nintendo 64 → PlayStation 2 → Xbox 360 → Nintendo Switch",
+        "C — Nintendo 64 → PlayStation 2 → Nintendo Switch → Xbox 360",
+        "D — PlayStation 2 → Nintendo 64 → Xbox 360 → Nintendo Switch"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q13",
+      "category": "Culture populaire",
+      "prompt": "Quel film de James Cameron se déroule sur Pandora ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Avengers: Endgame",
+        "B — Titanic",
+        "C — Star Wars: Le Réveil de la Force",
+        "D — Avatar"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/forest.jpg"
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q14",
+      "category": "Culture populaire",
+      "prompt": "Quel groupe a enregistré Bohemian Rhapsody ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — The Rolling Stones",
+        "B — The Beatles",
+        "C — Queen",
+        "D — Led Zeppelin"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/guitar.jpg"
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q15",
+      "category": "Culture populaire",
+      "prompt": "Quel super-héros est Tony Stark ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Iron Man",
+        "B — Thor",
+        "C — Captain America",
+        "D — Spider-Man"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q16",
+      "category": "Culture populaire",
+      "prompt": "Quel artiste chante Blinding Lights ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Justin Timberlake",
+        "B — The Weeknd",
+        "C — Usher",
+        "D — Bruno Mars"
+      ],
+      "correctOptionIndex": 1
+    }
+  ],
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "subject": "Culture populaire"
+}

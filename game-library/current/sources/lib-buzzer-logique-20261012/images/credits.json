@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "fives",
+    "title": "Indice visuel — fives",
+    "file": "fives.png",
+    "artist": "Trivia Party — diagramme ou indice visuel local",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commons": null,
+    "credit": "Diagramme dessiné pour le jeu.",
+    "changes": "Indice représentatif, pas une image du film ou de la bande dessinée.",
+    "originalPackage": "lib-buzzer-logique-20261012"
+  },
+  {
+    "slug": "four-squares",
+    "title": "Indice visuel — four-squares",
+    "file": "four-squares.png",
+    "artist": "Trivia Party — diagramme ou indice visuel local",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "commons": null,
+    "credit": "Diagramme dessiné pour le jeu.",
+    "changes": "Indice représentatif, pas une image du film ou de la bande dessinée.",
+    "originalPackage": "lib-buzzer-logique-20261012"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "category": "TEST Buzzer",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "prompt": "Quelle est la capitale de la France ?",
+      "acceptableAnswers": [
+        "Paris"
+      ],
+      "id": "test-02-buzzer-q1",
+      "category": "TEST Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "burj",
+    "title": "Burj Khalifa",
+    "file": "burj.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_from_a_ferry,_Dubai.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Burj_Khalifa_from_a_ferry%2C_Dubai.jpg/1920px-Burj_Khalifa_from_a_ferry%2C_Dubai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Jpbowen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  },
+  {
+    "slug": "goldengate",
+    "title": "Golden Gate Bridge",
+    "file": "goldengate.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_as_seen_from_Battery_East.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Golden_Gate_Bridge_as_seen_from_Battery_East.jpg/1920px-Golden_Gate_Bridge_as_seen_from_Battery_East.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  },
+  {
+    "slug": "habitat",
+    "title": "Habitat 67",
+    "file": "habitat.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Habitat_67_2019_dllu_01.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Habitat_67_2019_dllu_01.jpg/1920px-Habitat_67_2019_dllu_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Dllu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia."
+  }
+]

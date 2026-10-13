@@ -1,0 +1,44 @@
+[
+  {
+    "question": 1,
+    "questionId": "us-chronologie-20261010-01",
+    "originalPackage": "histoire-etats-unis-chronologie-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "us-chronologie-20261010-02",
+    "originalPackage": "histoire-etats-unis-chronologie-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "us-chronologie-20261010-03",
+    "originalPackage": "histoire-etats-unis-chronologie-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "us-chronologie-20261010-04",
+    "originalPackage": "histoire-etats-unis-chronologie-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "resize-20261012-usa-xxe",
+    "originalPackage": null,
+    "reference": {
+      "sources": [
+        "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
+        "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+        "https://www.nasa.gov/history/apollo-11-mission-overview/"
+      ],
+      "note": "Premier vol motorisé des frères Wright (1903) → Krach de Wall Street (1929) → Premiers pas humains sur la Lune (1969)"
+    },
+    "new": true
+  }
+]

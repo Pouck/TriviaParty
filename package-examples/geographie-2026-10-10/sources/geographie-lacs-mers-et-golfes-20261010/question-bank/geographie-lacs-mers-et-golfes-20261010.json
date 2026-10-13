@@ -1,0 +1,69 @@
+{
+  "category": "Géographie - Lacs, mers et golfes",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "geo-lacs-mers-et-golfes-20261010-01",
+      "category": "Géographie - Lacs, mers et golfes",
+      "prompt": "Quelle mer sépare la côte est de la Grande-Bretagne de l’Europe continentale ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Mer Celtique",
+        "B — Manche",
+        "C — Mer du Nord",
+        "D — Mer Baltique"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-lacs-mers-et-golfes-20261010-02",
+      "category": "Géographie - Lacs, mers et golfes",
+      "prompt": "Quel grand lac africain est partagé entre la Tanzanie, l’Ouganda et le Kenya ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Lac Malawi",
+        "B — Lac Victoria",
+        "C — Lac Turkana",
+        "D — Lac Tanganyika"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-lacs-mers-et-golfes-20261010-03",
+      "category": "Géographie - Lacs, mers et golfes",
+      "prompt": "Quelle vaste étendue d’eau salée, sans débouché sur l’océan, est bordée notamment par la Russie, l’Iran et le Kazakhstan ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Mer Caspienne",
+        "B — Mer Morte",
+        "C — Mer d’Aral",
+        "D — Mer Noire"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-lacs-mers-et-golfes-20261010-04",
+      "category": "Géographie - Lacs, mers et golfes",
+      "prompt": "Sur la rive sud-ouest de quel Grand Lac se trouve Chicago, dans l’Illinois ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Lac Supérieur",
+        "B — Lac Érié",
+        "C — Lac Huron",
+        "D — Lac Michigan"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

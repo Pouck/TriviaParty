@@ -1,0 +1,85 @@
+{
+  "category": "Révolution française — Culture et mobilisation",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-culture-et-mobilisation-20261010-01",
+      "category": "Révolution française — Culture et mobilisation",
+      "prompt": "Dans le nom « sans-culottes », que désigne le mot « culottes » ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Des pantalons courts s’arrêtant au genou",
+        "B — Des coiffes militaires",
+        "C — Des chemises",
+        "D — Des chaussures à boucles"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-culture-et-mobilisation-20261010-02",
+      "category": "Révolution française — Culture et mobilisation",
+      "prompt": "Dans le calendrier républicain, combien de jours compte une décade ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — 5 jours",
+        "B — 7 jours",
+        "C — 12 jours",
+        "D — 10 jours"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-culture-et-mobilisation-20261010-03",
+      "category": "Révolution française — Culture et mobilisation",
+      "prompt": "Quel chant composé par Rouget de Lisle en 1792 devient un hymne national en 1795 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le Chant du départ",
+        "B — Vive le roi",
+        "C — La Marseillaise",
+        "D — Ça ira"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "revolution-culture-et-mobilisation-20261010-04",
+      "category": "Révolution française — Culture et mobilisation",
+      "prompt": "Quel principe est au cœur de la levée en masse décrétée en 1793 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La mobilisation de la population pour soutenir l’effort de guerre",
+        "B — L’emploi exclusif de la cavalerie",
+        "C — L’interdiction permanente des mercenaires",
+        "D — Le recours exclusif à la guérilla"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "resize-20261012-guillotine",
+      "kind": "multipleChoice",
+      "category": "Révolution française — Culture et mobilisation",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel instrument d’exécution devient un symbole de la Révolution française ?",
+      "options": [
+        "A — La roue",
+        "B — La guillotine",
+        "C — Le gibet",
+        "D — La chaise électrique"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

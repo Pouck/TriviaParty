@@ -1,0 +1,15 @@
+{
+  "id": "lib-qsj-devinettes-20261012",
+  "name": "Devinettes — Objets familiers — Qui suis-je ?",
+  "description": "5 questions accessibles en français. 4 indices de 20 s ; 20 → 15 → 10 → 5 pts ; erreur : −5 pts.",
+  "categoryPackages": [
+    "lib-qsj-devinettes-20261012"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 20,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 3,
+    "pointsDecayPerFlip": 5
+  }
+}

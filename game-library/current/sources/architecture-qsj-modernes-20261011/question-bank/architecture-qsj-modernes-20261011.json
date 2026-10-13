@@ -1,0 +1,104 @@
+{
+  "category": "Architecture — Monuments emblématiques — Qui suis-je ?",
+  "subject": "Architecture",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "architecture-qsj-modernes-20261011-01",
+      "category": "Architecture — Monuments emblématiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes pièces de fer puddlé sont assemblées à l’aide de rivets.",
+        "Je suis construite pour l’Exposition universelle de 1889.",
+        "Je me dresse au Champ-de-Mars et porte le nom de l’entrepreneur qui m’a réalisée.",
+        "Je suis la célèbre tour métallique devenue un symbole de Paris."
+      ],
+      "acceptableAnswers": [
+        "La tour Eiffel",
+        "Tour Eiffel"
+      ]
+    },
+    {
+      "id": "architecture-qsj-modernes-20261011-02",
+      "category": "Architecture — Monuments emblématiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Le projet de mon architecte danois remporte un concours international en 1957.",
+        "Je suis construit à Bennelong Point, au bord d’un port australien.",
+        "Mes grandes coques blanches abritent des salles de spectacle.",
+        "Mes toitures évoquent des voiles sur le port de Sydney, en Australie."
+      ],
+      "acceptableAnswers": [
+        "L’opéra de Sydney",
+        "Opéra de Sydney",
+        "Sydney Opera House"
+      ]
+    },
+    {
+      "id": "architecture-qsj-modernes-20261011-03",
+      "category": "Architecture — Monuments emblématiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une résidence de week-end commandée par la famille Kaufmann en Pennsylvanie.",
+        "Mes terrasses en porte-à-faux s’avancent au-dessus d’un ruisseau.",
+        "Frank Lloyd Wright m’intègre directement à une cascade.",
+        "Mon nom anglais évoque l’eau qui tombe sous mes terrasses."
+      ],
+      "acceptableAnswers": [
+        "Fallingwater",
+        "La Maison sur la cascade",
+        "Maison sur la cascade",
+        "La maison Kaufmann"
+      ]
+    },
+    {
+      "id": "architecture-qsj-sacre-20261011-01",
+      "category": "Architecture — Monuments emblématiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes arcs-boutants soutiennent un édifice gothique commencé au XIIe siècle.",
+        "Trois grandes roses de vitraux font partie de mes trésors.",
+        "Victor Hugo m’a rendue célèbre dans un roman peuplé de Quasimodo et d’Esmeralda.",
+        "Je suis la grande cathédrale de l’île de la Cité, à Paris."
+      ],
+      "acceptableAnswers": [
+        "Notre-Dame de Paris",
+        "La cathédrale Notre-Dame de Paris"
+      ]
+    },
+    {
+      "id": "architecture-qsj-sacre-20261011-03",
+      "category": "Architecture — Monuments emblématiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon chantier débute en 1882 ; Antoni Gaudí en reprend la direction l’année suivante.",
+        "Mes colonnes ramifiées évoquent une forêt de pierre.",
+        "Mes façades racontent notamment la Nativité et la Passion du Christ.",
+        "Je suis la basilique emblématique de Gaudí, à Barcelone."
+      ],
+      "acceptableAnswers": [
+        "La Sagrada Família",
+        "Sagrada Família",
+        "Sagrada Familia"
+      ]
+    }
+  ]
+}

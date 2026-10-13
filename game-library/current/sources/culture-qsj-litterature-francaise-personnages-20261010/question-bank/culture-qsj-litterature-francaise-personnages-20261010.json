@@ -1,0 +1,95 @@
+{
+  "category": "Littérature française — Œuvres et personnages — Qui suis-je ? écrit — 2",
+  "subject": "Littérature",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Qui suis-je ? écrit"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-litterature-france-20261012-01",
+      "category": "Littérature française — Œuvres et personnages — Qui suis-je ? écrit — 2",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je décris notamment la misère au XIXe siècle.",
+        "Javert poursuit mon personnage principal.",
+        "Cosette et Jean Valjean appartiennent à mon récit.",
+        "Je suis le grand roman de Victor Hugo sur cet ancien forçat."
+      ],
+      "acceptableAnswers": [
+        "Les Misérables"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-france-20261012-02",
+      "category": "Littérature française — Œuvres et personnages — Qui suis-je ? écrit — 2",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon narrateur est un aviateur.",
+        "Un enfant lui demande de dessiner un mouton.",
+        "Une rose et un renard marquent mon histoire.",
+        "Je suis le conte de Saint-Exupéry au petit héros venu d’un astéroïde."
+      ],
+      "acceptableAnswers": [
+        "Le Petit Prince"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-france-20261012-04",
+      "category": "Littérature française — Œuvres et personnages — Qui suis-je ? écrit — 2",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un roman d’Alexandre Dumas.",
+        "Mon héros est emprisonné au château d’If.",
+        "Il trouve un trésor et prépare sa vengeance.",
+        "Il s’appelle Edmond Dantès."
+      ],
+      "acceptableAnswers": [
+        "Le Comte de Monte-Cristo"
+      ]
+    },
+    {
+      "id": "lib-qsj-litterature-france-20261012-05",
+      "category": "Littérature française — Œuvres et personnages — Qui suis-je ? écrit — 2",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un conte philosophique.",
+        "Pangloss enseigne l’optimisme à mon héros.",
+        "Je me moque de l’idée du meilleur des mondes.",
+        "Voltaire est mon auteur."
+      ],
+      "acceptableAnswers": [
+        "Candide"
+      ]
+    },
+    {
+      "id": "resize-20261012-hugo",
+      "kind": "guessWho",
+      "category": "Littérature française — Œuvres et personnages — Qui suis-je ? écrit — 2",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Une partie de mon exil se déroule sur l’île de Guernesey.",
+        "Je suis poète, dramaturge et romancier français du XIXe siècle.",
+        "J’écris Notre-Dame de Paris.",
+        "Je suis l’auteur des Misérables."
+      ],
+      "acceptableAnswers": [
+        "Victor Hugo"
+      ]
+    }
+  ]
+}

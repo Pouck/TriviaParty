@@ -1,0 +1,145 @@
+{
+  "category": "Histoire - Chronologie de la Rome antique",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "kind": "ordering",
+      "id": "antique-rome-antique-20261010-01",
+      "category": "Histoire - Chronologie de la Rome antique",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Assassinat de Jules César"
+        },
+        {
+          "id": "item-1",
+          "text": "Jules César franchit le Rubicon"
+        },
+        {
+          "id": "item-2",
+          "text": "Octavien reçoit le titre d’Auguste"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "antique-rome-antique-20261010-02",
+      "category": "Histoire - Chronologie de la Rome antique",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Destruction de Carthage à la fin de la troisième guerre punique"
+        },
+        {
+          "id": "item-1",
+          "text": "Début de la révolte de Spartacus"
+        },
+        {
+          "id": "item-2",
+          "text": "Hannibal traverse les Alpes"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "antique-rome-antique-20261010-03",
+      "category": "Histoire - Chronologie de la Rome antique",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Éruption du Vésuve qui ensevelit Pompéi"
+        },
+        {
+          "id": "item-1",
+          "text": "Grand incendie de Rome sous Néron"
+        },
+        {
+          "id": "item-2",
+          "text": "Inauguration du Colisée par Titus"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "antique-rome-antique-20261010-04",
+      "category": "Histoire - Chronologie de la Rome antique",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Inauguration de Constantinople par Constantin"
+        },
+        {
+          "id": "item-1",
+          "text": "Mise en place de la tétrarchie par Dioclétien"
+        },
+        {
+          "id": "item-2",
+          "text": "Accord de Milan sur la liberté religieuse, appelé « édit de Milan »"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "antique-rome-antique-20261010-05",
+      "category": "Histoire - Chronologie de la Rome antique",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Sac de Rome par les Vandales"
+        },
+        {
+          "id": "item-1",
+          "text": "Déposition de Romulus Augustule"
+        },
+        {
+          "id": "item-2",
+          "text": "Sac de Rome par les Wisigoths d’Alaric"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

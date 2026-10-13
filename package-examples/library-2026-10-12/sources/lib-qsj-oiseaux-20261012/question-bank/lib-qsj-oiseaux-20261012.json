@@ -1,0 +1,102 @@
+{
+  "category": "Oiseaux — Portraits et habitudes — Qui suis-je ?",
+  "subject": "Nature",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-oiseaux-20261012-01",
+      "category": "Oiseaux — Portraits et habitudes — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un petit oiseau des Amériques.",
+        "Mes ailes battent très rapidement.",
+        "Je me nourris souvent de nectar.",
+        "Je peux rester en vol devant une fleur."
+      ],
+      "acceptableAnswers": [
+        "Le colibri",
+        "Colibri",
+        "Oiseau-mouche"
+      ]
+    },
+    {
+      "id": "lib-qsj-oiseaux-20261012-02",
+      "category": "Oiseaux — Portraits et habitudes — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes ailes sont adaptées à la nage.",
+        "Je vis dans l’hémisphère Sud.",
+        "Je ne vole pas.",
+        "On me confond souvent avec le pingouin."
+      ],
+      "acceptableAnswers": [
+        "Le manchot",
+        "Manchot"
+      ]
+    },
+    {
+      "id": "lib-qsj-oiseaux-20261012-03",
+      "category": "Oiseaux — Portraits et habitudes — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un oiseau au cri puissant.",
+        "Le mâle porte des plumes aux motifs en forme d’yeux.",
+        "Il déploie sa traîne pour séduire.",
+        "Je suis l’oiseau qui fait la roue."
+      ],
+      "acceptableAnswers": [
+        "Le paon",
+        "Paon"
+      ]
+    },
+    {
+      "id": "lib-qsj-oiseaux-20261012-04",
+      "category": "Oiseaux — Portraits et habitudes — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je cherche souvent des insectes dans le bois.",
+        "Je grimpe sur les troncs.",
+        "Mon bec frappe les arbres.",
+        "Mon nom français commence comme celui d’un outil pointu."
+      ],
+      "acceptableAnswers": [
+        "Le pic",
+        "Pic",
+        "Pivert"
+      ]
+    },
+    {
+      "id": "lib-qsj-oiseaux-20261012-05",
+      "category": "Oiseaux — Portraits et habitudes — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je viens d’Afrique.",
+        "Je cours très vite sur deux grandes pattes.",
+        "Je ponds les plus gros œufs des oiseaux vivants.",
+        "Je suis le plus grand oiseau, mais je ne vole pas."
+      ],
+      "acceptableAnswers": [
+        "L’autruche",
+        "Autruche"
+      ]
+    }
+  ]
+}

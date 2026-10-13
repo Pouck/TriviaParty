@@ -1,0 +1,15 @@
+{
+  "id": "arts-buzzer-selection-variee-20261012",
+  "name": "Arts — Œuvres et artistes — Réponses écrites",
+  "description": "6 questions en français. 30 secondes ; 15 → 10 → 5 points.  Réponses écrites, validées individuellement par l’hôte.",
+  "categoryPackages": [
+    "arts-buzzer-selection-variee-20261012"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 10,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

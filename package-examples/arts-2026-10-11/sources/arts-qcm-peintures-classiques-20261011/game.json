@@ -1,0 +1,15 @@
+{
+  "id": "arts-qcm-peintures-classiques-20261011",
+  "name": "Arts — Peintures classiques — QCM",
+  "description": "8 questions en français. 4 images et 4 questions textuelles ; 15 secondes ; 15 → 10 → 5 points.",
+  "categoryPackages": [
+    "arts-qcm-peintures-classiques-20261011"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "category": "Cartes de jeux vidéo",
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "q21",
+      "category": "Cartes de jeux vidéo",
+      "prompt": "Quel jeu construit ses paysages avec des blocs ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Minecraft",
+        "B — Portal",
+        "C — Fortnite",
+        "D — Tetris"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/blocks.png"
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q22",
+      "category": "Cartes de jeux vidéo",
+      "prompt": "Quel royaume est au centre de The Legend of Zelda ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Tamriel",
+        "B — Le Royaume Champignon",
+        "C — Midgar",
+        "D — Hyrule"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/castle.png"
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q23",
+      "category": "Cartes de jeux vidéo",
+      "prompt": "Dans quel jeu peut-on construire pendant un Battle Royale ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Overwatch",
+        "B — Rocket League",
+        "C — Gran Turismo",
+        "D — Fortnite"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q24",
+      "category": "Cartes de jeux vidéo",
+      "prompt": "Classez ces jeux selon leur première sortie.",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Pokémon Rouge/Bleu → Elden Ring → Skyrim",
+        "B — Skyrim → Pokémon Rouge/Bleu → Elden Ring",
+        "C — Pokémon Rouge/Bleu → Skyrim → Elden Ring",
+        "D — Elden Ring → Skyrim → Pokémon Rouge/Bleu"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q25",
+      "category": "Cartes de jeux vidéo",
+      "prompt": "Quelle ville est au centre de Cyberpunk 2077 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Raccoon City",
+        "B — Night City",
+        "C — Gotham City",
+        "D — Neo-Tokyo"
+      ],
+      "correctOptionIndex": 1
+    }
+  ],
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "subject": "Jeux vidéo"
+}

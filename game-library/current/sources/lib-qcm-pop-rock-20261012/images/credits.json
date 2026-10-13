@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "crosswalk",
+    "title": "Indice visuel — crosswalk",
+    "file": "crosswalk.png",
+    "artist": "Trivia Party — diagramme ou indice visuel local",
+    "license": "Illustration locale ; glyphes système crédités",
+    "licenseUrl": "https://learn.microsoft.com/en-us/typography/fonts/font-faq",
+    "commons": null,
+    "credit": "Graphisme de jeu ; symboles rendus avec la police système Segoe UI Emoji, sans redistribution du fichier de police.",
+    "changes": "Indice représentatif, pas une image du film ou de la bande dessinée.",
+    "originalPackage": "lib-qcm-pop-rock-20261012"
+  },
+  {
+    "slug": "guitar",
+    "title": "Acoustic guitar",
+    "file": "guitar.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Man_playing_an_acoustic_brazilian_guitar_(Viol%C3%A3o)_on_Marco_Zero_Square,_Refice,_Pernambuco,_Brazil.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Man_playing_an_acoustic_brazilian_guitar_%28Viol%C3%A3o%29_on_Marco_Zero_Square%2C_Refice%2C_Pernambuco%2C_Brazil.jpg/1920px-Man_playing_an_acoustic_brazilian_guitar_%28Viol%C3%A3o%29_on_Marco_Zero_Square%2C_Refice%2C_Pernambuco%2C_Brazil.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Wilfredor",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "Own work",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-pop-rock-20261012"
+  }
+]

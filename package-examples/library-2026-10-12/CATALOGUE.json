@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "lib-chronologie-bd-premieres-20261012",
+    "name": "BD — Premières apparitions — Chronologie",
+    "topic": "BD — Premières apparitions",
+    "subject": "BD et manga",
+    "mode": "chronologie",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-chronologie-superheros-premieres-20261012",
+    "name": "DC et Marvel — Premières apparitions — Chronologie",
+    "topic": "DC et Marvel — Premières apparitions",
+    "subject": "Super-héros",
+    "mode": "chronologie",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-chronologie-disney-sorties-20261012",
+    "name": "Disney — Sorties des films animés — Chronologie",
+    "topic": "Disney — Sorties des films animés",
+    "subject": "Cinéma",
+    "mode": "chronologie",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-chronologie-ghibli-sorties-20261012",
+    "name": "Cinéma — Studio Ghibli — Sorties japonaises — Chronologie",
+    "topic": "Studio Ghibli — Sorties japonaises",
+    "subject": "Cinéma",
+    "mode": "chronologie",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-chronologie-musique-reperes-20261012",
+    "name": "Musique — Œuvres dans le temps — Chronologie",
+    "topic": "Musique — Œuvres dans le temps",
+    "subject": "Musique",
+    "mode": "chronologie",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-chronologie-romans-publications-20261012",
+    "name": "Littérature — Premières publications — Chronologie",
+    "topic": "Littérature — Premières publications",
+    "subject": "Littérature",
+    "mode": "chronologie",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-chronologie-explorateurs-reperes-20261012",
+    "name": "Histoire — Explorateurs — Voyages et expéditions — Chronologie",
+    "topic": "Explorateurs — Voyages et expéditions",
+    "subject": "Histoire",
+    "mode": "chronologie",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-chronologie-odyssee-episodes-20261012",
+    "name": "Mythologie — L’Odyssée — Ordre des épisodes — Chronologie",
+    "topic": "L’Odyssée — Ordre des épisodes",
+    "subject": "Mythologie",
+    "mode": "chronologie",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-chronologie-nature-cycles-20261012",
+    "name": "Nature — Cycles de vie — Chronologie",
+    "topic": "Nature — Cycles de vie",
+    "subject": "Nature",
+    "mode": "chronologie",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-chronologie-architecture-reperes-20261012",
+    "name": "Architecture — Monuments dans le temps — Chronologie",
+    "topic": "Architecture — Monuments dans le temps",
+    "subject": "Architecture",
+    "mode": "chronologie",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-litterature-france-20261012",
+    "name": "Littérature française — Romans et personnages — QCM",
+    "topic": "Littérature française — Romans et personnages",
+    "subject": "Littérature",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-litterature-france-20261012",
+    "name": "Littérature française — Romans et personnages — Buzzer",
+    "topic": "Littérature française — Romans et personnages",
+    "subject": "Littérature",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-litterature-france-20261012",
+    "name": "Littérature française — Romans et personnages — Qui suis-je ?",
+    "topic": "Littérature française — Romans et personnages",
+    "subject": "Littérature",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-litterature-anglaise-20261012",
+    "name": "Littérature anglophone — Classiques — QCM",
+    "topic": "Littérature anglophone — Classiques",
+    "subject": "Littérature",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-litterature-anglaise-20261012",
+    "name": "Littérature anglophone — Classiques — Buzzer",
+    "topic": "Littérature anglophone — Classiques",
+    "subject": "Littérature",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-litterature-anglaise-20261012",
+    "name": "Littérature anglophone — Classiques — Qui suis-je ?",
+    "topic": "Littérature anglophone — Classiques",
+    "subject": "Littérature",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-litterature-americaine-20261012",
+    "name": "Littérature américaine — Classiques — QCM",
+    "topic": "Littérature américaine — Classiques",
+    "subject": "Littérature",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-litterature-americaine-20261012",
+    "name": "Littérature américaine — Classiques — Buzzer",
+    "topic": "Littérature américaine — Classiques",
+    "subject": "Littérature",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-litterature-americaine-20261012",
+    "name": "Littérature américaine — Classiques — Qui suis-je ?",
+    "topic": "Littérature américaine — Classiques",
+    "subject": "Littérature",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-jeux-video-20261012",
+    "name": "Jeux vidéo — Grands univers — QCM",
+    "topic": "Jeux vidéo — Grands univers",
+    "subject": "Jeux vidéo",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-jeux-video-20261012",
+    "name": "Jeux vidéo — Grands univers — Buzzer",
+    "topic": "Jeux vidéo — Grands univers",
+    "subject": "Jeux vidéo",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-jeux-video-20261012",
+    "name": "Jeux vidéo — Grands univers — Qui suis-je ?",
+    "topic": "Jeux vidéo — Grands univers",
+    "subject": "Jeux vidéo",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-science-generale-20261012",
+    "name": "Sciences — Découvertes accessibles — QCM",
+    "topic": "Sciences — Découvertes accessibles",
+    "subject": "Sciences",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-science-generale-20261012",
+    "name": "Sciences — Découvertes accessibles — Buzzer",
+    "topic": "Sciences — Découvertes accessibles",
+    "subject": "Sciences",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-science-generale-20261012",
+    "name": "Sciences — Découvertes accessibles — Qui suis-je ?",
+    "topic": "Sciences — Découvertes accessibles",
+    "subject": "Sciences",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-inventions-canada-20261012",
+    "name": "Inventions canadiennes — Créateurs et objets — QCM",
+    "topic": "Inventions canadiennes — Créateurs et objets",
+    "subject": "Sciences",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-inventions-canada-20261012",
+    "name": "Inventions canadiennes — Créateurs et objets — Buzzer",
+    "topic": "Inventions canadiennes — Créateurs et objets",
+    "subject": "Sciences",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-inventions-canada-20261012",
+    "name": "Inventions canadiennes — Créateurs et objets — Qui suis-je ?",
+    "topic": "Inventions canadiennes — Créateurs et objets",
+    "subject": "Sciences",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-histoire-france-generale-20261012",
+    "name": "Histoire de France — Figures et repères — QCM",
+    "topic": "Histoire de France — Figures et repères",
+    "subject": "Histoire",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-histoire-france-generale-20261012",
+    "name": "Histoire de France — Figures et repères — Buzzer",
+    "topic": "Histoire de France — Figures et repères",
+    "subject": "Histoire",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-histoire-france-generale-20261012",
+    "name": "Histoire de France — Figures et repères — Qui suis-je ?",
+    "topic": "Histoire de France — Figures et repères",
+    "subject": "Histoire",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-histoire-etats-unis-20261012",
+    "name": "Histoire des États-Unis — Grands repères — QCM",
+    "topic": "Histoire des États-Unis — Grands repères",
+    "subject": "Histoire",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-histoire-etats-unis-20261012",
+    "name": "Histoire des États-Unis — Grands repères — Buzzer",
+    "topic": "Histoire des États-Unis — Grands repères",
+    "subject": "Histoire",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-histoire-etats-unis-20261012",
+    "name": "Histoire des États-Unis — Grands repères — Qui suis-je ?",
+    "topic": "Histoire des États-Unis — Grands repères",
+    "subject": "Histoire",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-bd-franco-belge-20261012",
+    "name": "BD française et belge — QCM",
+    "topic": "BD française et belge",
+    "subject": "BD et manga",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-bd-franco-belge-20261012",
+    "name": "BD française et belge — Buzzer",
+    "topic": "BD française et belge",
+    "subject": "BD et manga",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-bd-franco-belge-20261012",
+    "name": "BD française et belge — Qui suis-je ?",
+    "topic": "BD française et belge",
+    "subject": "BD et manga",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-dc-20261012",
+    "name": "DC — Héros et univers — QCM",
+    "topic": "DC — Héros et univers",
+    "subject": "Super-héros",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-dc-20261012",
+    "name": "DC — Héros et univers — Buzzer",
+    "topic": "DC — Héros et univers",
+    "subject": "Super-héros",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-dc-20261012",
+    "name": "DC — Héros et univers — Qui suis-je ?",
+    "topic": "DC — Héros et univers",
+    "subject": "Super-héros",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-marvel-20261012",
+    "name": "Marvel — Héros et univers — QCM",
+    "topic": "Marvel — Héros et univers",
+    "subject": "Super-héros",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-marvel-20261012",
+    "name": "Marvel — Héros et univers — Buzzer",
+    "topic": "Marvel — Héros et univers",
+    "subject": "Super-héros",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-marvel-20261012",
+    "name": "Marvel — Héros et univers — Qui suis-je ?",
+    "topic": "Marvel — Héros et univers",
+    "subject": "Super-héros",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-manga-20261012",
+    "name": "Manga — Grands classiques — QCM",
+    "topic": "Manga — Grands classiques",
+    "subject": "BD et manga",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-manga-20261012",
+    "name": "Manga — Grands classiques — Buzzer",
+    "topic": "Manga — Grands classiques",
+    "subject": "BD et manga",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-manga-20261012",
+    "name": "Manga — Grands classiques — Qui suis-je ?",
+    "topic": "Manga — Grands classiques",
+    "subject": "BD et manga",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-disney-20261012",
+    "name": "Disney — Animation — QCM",
+    "topic": "Disney — Animation",
+    "subject": "Cinéma",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-disney-20261012",
+    "name": "Disney — Animation — Buzzer",
+    "topic": "Disney — Animation",
+    "subject": "Cinéma",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-disney-20261012",
+    "name": "Disney — Animation — Qui suis-je ?",
+    "topic": "Disney — Animation",
+    "subject": "Cinéma",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-ghibli-20261012",
+    "name": "Cinéma — Studio Ghibli — Films animés — QCM",
+    "topic": "Studio Ghibli — Films animés",
+    "subject": "Cinéma",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-ghibli-20261012",
+    "name": "Cinéma — Studio Ghibli — Films animés — Buzzer",
+    "topic": "Studio Ghibli — Films animés",
+    "subject": "Cinéma",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-ghibli-20261012",
+    "name": "Cinéma — Studio Ghibli — Films animés — Qui suis-je ?",
+    "topic": "Studio Ghibli — Films animés",
+    "subject": "Cinéma",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-recits-autochtones-20261012",
+    "name": "Contes et légendes — Récits autochtones — Traditions nommées — QCM",
+    "topic": "Récits autochtones — Traditions nommées",
+    "subject": "Contes et légendes",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-recits-autochtones-20261012",
+    "name": "Contes et légendes — Récits autochtones — Traditions nommées — Buzzer",
+    "topic": "Récits autochtones — Traditions nommées",
+    "subject": "Contes et légendes",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-recits-autochtones-20261012",
+    "name": "Contes et légendes — Récits autochtones — Traditions nommées — Qui suis-je ?",
+    "topic": "Récits autochtones — Traditions nommées",
+    "subject": "Contes et légendes",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-mythologie-grecque-20261012",
+    "name": "Mythologie grecque — Dieux et héros — QCM",
+    "topic": "Mythologie grecque — Dieux et héros",
+    "subject": "Mythologie",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-mythologie-grecque-20261012",
+    "name": "Mythologie grecque — Dieux et héros — Buzzer",
+    "topic": "Mythologie grecque — Dieux et héros",
+    "subject": "Mythologie",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-mythologie-grecque-20261012",
+    "name": "Mythologie grecque — Dieux et héros — Qui suis-je ?",
+    "topic": "Mythologie grecque — Dieux et héros",
+    "subject": "Mythologie",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-mythologie-romaine-20261012",
+    "name": "Mythologie romaine — Dieux et récits — QCM",
+    "topic": "Mythologie romaine — Dieux et récits",
+    "subject": "Mythologie",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-mythologie-romaine-20261012",
+    "name": "Mythologie romaine — Dieux et récits — Buzzer",
+    "topic": "Mythologie romaine — Dieux et récits",
+    "subject": "Mythologie",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-mythologie-romaine-20261012",
+    "name": "Mythologie romaine — Dieux et récits — Qui suis-je ?",
+    "topic": "Mythologie romaine — Dieux et récits",
+    "subject": "Mythologie",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-contes-francais-20261012",
+    "name": "Contes et légendes de France — QCM",
+    "topic": "Contes et légendes de France",
+    "subject": "Contes et légendes",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-contes-francais-20261012",
+    "name": "Contes et légendes de France — Buzzer",
+    "topic": "Contes et légendes de France",
+    "subject": "Contes et légendes",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-contes-francais-20261012",
+    "name": "Contes et légendes de France — Qui suis-je ?",
+    "topic": "Contes et légendes de France",
+    "subject": "Contes et légendes",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-contes-anglais-20261012",
+    "name": "Contes et légendes d’Angleterre — QCM",
+    "topic": "Contes et légendes d’Angleterre",
+    "subject": "Contes et légendes",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-contes-anglais-20261012",
+    "name": "Contes et légendes d’Angleterre — Buzzer",
+    "topic": "Contes et légendes d’Angleterre",
+    "subject": "Contes et légendes",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-contes-anglais-20261012",
+    "name": "Contes et légendes d’Angleterre — Qui suis-je ?",
+    "topic": "Contes et légendes d’Angleterre",
+    "subject": "Contes et légendes",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-table-ronde-20261012",
+    "name": "Le cycle de la Table ronde — QCM",
+    "topic": "Le cycle de la Table ronde",
+    "subject": "Contes et légendes",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-table-ronde-20261012",
+    "name": "Le cycle de la Table ronde — Buzzer",
+    "topic": "Le cycle de la Table ronde",
+    "subject": "Contes et légendes",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-table-ronde-20261012",
+    "name": "Le cycle de la Table ronde — Qui suis-je ?",
+    "topic": "Le cycle de la Table ronde",
+    "subject": "Contes et légendes",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-odyssee-20261012",
+    "name": "Mythologie — L’Odyssée — Le voyage d’Ulysse — QCM",
+    "topic": "L’Odyssée — Le voyage d’Ulysse",
+    "subject": "Mythologie",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-odyssee-20261012",
+    "name": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Buzzer",
+    "topic": "L’Odyssée — Le voyage d’Ulysse",
+    "subject": "Mythologie",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-odyssee-20261012",
+    "name": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Qui suis-je ?",
+    "topic": "L’Odyssée — Le voyage d’Ulysse",
+    "subject": "Mythologie",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-chanson-francophone-20261012",
+    "name": "Chanson francophone — Classiques — QCM",
+    "topic": "Chanson francophone — Classiques",
+    "subject": "Musique",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-chanson-francophone-20261012",
+    "name": "Chanson francophone — Classiques — Buzzer",
+    "topic": "Chanson francophone — Classiques",
+    "subject": "Musique",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-chanson-francophone-20261012",
+    "name": "Chanson francophone — Classiques — Qui suis-je ?",
+    "topic": "Chanson francophone — Classiques",
+    "subject": "Musique",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-musique-quebec-20261012",
+    "name": "Musique — Artistes du Québec — QCM",
+    "topic": "Musique — Artistes du Québec",
+    "subject": "Musique",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-musique-quebec-20261012",
+    "name": "Musique — Artistes du Québec — Buzzer",
+    "topic": "Musique — Artistes du Québec",
+    "subject": "Musique",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-musique-quebec-20261012",
+    "name": "Musique — Artistes du Québec — Qui suis-je ?",
+    "topic": "Musique — Artistes du Québec",
+    "subject": "Musique",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-pop-rock-20261012",
+    "name": "Musique — Pop et rock — Grands noms — QCM",
+    "topic": "Pop et rock — Grands noms",
+    "subject": "Musique",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-pop-rock-20261012",
+    "name": "Musique — Pop et rock — Grands noms — Buzzer",
+    "topic": "Pop et rock — Grands noms",
+    "subject": "Musique",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-pop-rock-20261012",
+    "name": "Musique — Pop et rock — Grands noms — Qui suis-je ?",
+    "topic": "Pop et rock — Grands noms",
+    "subject": "Musique",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-jazz-blues-20261012",
+    "name": "Jazz, blues et soul — Repères — QCM",
+    "topic": "Jazz, blues et soul — Repères",
+    "subject": "Musique",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-jazz-blues-20261012",
+    "name": "Jazz, blues et soul — Repères — Buzzer",
+    "topic": "Jazz, blues et soul — Repères",
+    "subject": "Musique",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-jazz-blues-20261012",
+    "name": "Jazz, blues et soul — Repères — Qui suis-je ?",
+    "topic": "Jazz, blues et soul — Repères",
+    "subject": "Musique",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-classique-20261012",
+    "name": "Musique classique — Compositeurs et œuvres — QCM",
+    "topic": "Musique classique — Compositeurs et œuvres",
+    "subject": "Musique",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-classique-20261012",
+    "name": "Musique classique — Compositeurs et œuvres — Buzzer",
+    "topic": "Musique classique — Compositeurs et œuvres",
+    "subject": "Musique",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-classique-20261012",
+    "name": "Musique classique — Compositeurs et œuvres — Qui suis-je ?",
+    "topic": "Musique classique — Compositeurs et œuvres",
+    "subject": "Musique",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-instruments-20261012",
+    "name": "Musique — Instruments — QCM",
+    "topic": "Musique — Instruments",
+    "subject": "Musique",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-instruments-20261012",
+    "name": "Musique — Instruments — Buzzer",
+    "topic": "Musique — Instruments",
+    "subject": "Musique",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-instruments-20261012",
+    "name": "Musique — Instruments — Qui suis-je ?",
+    "topic": "Musique — Instruments",
+    "subject": "Musique",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-musique-ecran-20261012",
+    "name": "Musique — Films et comédies musicales — QCM",
+    "topic": "Musique — Films et comédies musicales",
+    "subject": "Musique",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-musique-ecran-20261012",
+    "name": "Musique — Films et comédies musicales — Buzzer",
+    "topic": "Musique — Films et comédies musicales",
+    "subject": "Musique",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-musique-ecran-20261012",
+    "name": "Musique — Films et comédies musicales — Qui suis-je ?",
+    "topic": "Musique — Films et comédies musicales",
+    "subject": "Musique",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-oiseaux-20261012",
+    "name": "Oiseaux — Portraits et habitudes — QCM",
+    "topic": "Oiseaux — Portraits et habitudes",
+    "subject": "Nature",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-oiseaux-20261012",
+    "name": "Oiseaux — Portraits et habitudes — Buzzer",
+    "topic": "Oiseaux — Portraits et habitudes",
+    "subject": "Nature",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-oiseaux-20261012",
+    "name": "Oiseaux — Portraits et habitudes — Qui suis-je ?",
+    "topic": "Oiseaux — Portraits et habitudes",
+    "subject": "Nature",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-insectes-20261012",
+    "name": "Insectes — Petites bêtes — QCM",
+    "topic": "Insectes — Petites bêtes",
+    "subject": "Nature",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-insectes-20261012",
+    "name": "Insectes — Petites bêtes — Buzzer",
+    "topic": "Insectes — Petites bêtes",
+    "subject": "Nature",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-insectes-20261012",
+    "name": "Insectes — Petites bêtes — Qui suis-je ?",
+    "topic": "Insectes — Petites bêtes",
+    "subject": "Nature",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-animaux-terrestres-20261012",
+    "name": "Animaux terrestres — Mammifères — QCM",
+    "topic": "Animaux terrestres — Mammifères",
+    "subject": "Nature",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-animaux-terrestres-20261012",
+    "name": "Animaux terrestres — Mammifères — Buzzer",
+    "topic": "Animaux terrestres — Mammifères",
+    "subject": "Nature",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-animaux-terrestres-20261012",
+    "name": "Animaux terrestres — Mammifères — Qui suis-je ?",
+    "topic": "Animaux terrestres — Mammifères",
+    "subject": "Nature",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-animaux-marins-20261012",
+    "name": "Animaux marins — Sous l’eau — QCM",
+    "topic": "Animaux marins — Sous l’eau",
+    "subject": "Nature",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-animaux-marins-20261012",
+    "name": "Animaux marins — Sous l’eau — Buzzer",
+    "topic": "Animaux marins — Sous l’eau",
+    "subject": "Nature",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-animaux-marins-20261012",
+    "name": "Animaux marins — Sous l’eau — Qui suis-je ?",
+    "topic": "Animaux marins — Sous l’eau",
+    "subject": "Nature",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-logique-20261012",
+    "name": "Logique — Défis rapides — QCM",
+    "topic": "Logique — Défis rapides",
+    "subject": "Logique et énigmes",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-logique-20261012",
+    "name": "Logique — Défis rapides — Buzzer",
+    "topic": "Logique — Défis rapides",
+    "subject": "Logique et énigmes",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-logique-20261012",
+    "name": "Logique — Défis rapides — Qui suis-je ?",
+    "topic": "Logique — Défis rapides",
+    "subject": "Logique et énigmes",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-devinettes-20261012",
+    "name": "Devinettes — Objets familiers — QCM",
+    "topic": "Devinettes — Objets familiers",
+    "subject": "Logique et énigmes",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-devinettes-20261012",
+    "name": "Devinettes — Objets familiers — Buzzer",
+    "topic": "Devinettes — Objets familiers",
+    "subject": "Logique et énigmes",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-devinettes-20261012",
+    "name": "Devinettes — Objets familiers — Qui suis-je ?",
+    "topic": "Devinettes — Objets familiers",
+    "subject": "Logique et énigmes",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-legendes-france-20261012",
+    "name": "Légendes de France — Régions et créatures — QCM",
+    "topic": "Légendes de France — Régions et créatures",
+    "subject": "Contes et légendes",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-legendes-france-20261012",
+    "name": "Légendes de France — Régions et créatures — Buzzer",
+    "topic": "Légendes de France — Régions et créatures",
+    "subject": "Contes et légendes",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-legendes-france-20261012",
+    "name": "Légendes de France — Régions et créatures — Qui suis-je ?",
+    "topic": "Légendes de France — Régions et créatures",
+    "subject": "Contes et légendes",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-cuisine-saveurs-20261012",
+    "name": "Cuisine — Saveurs et desserts du monde — QCM",
+    "topic": "Cuisine — Saveurs et desserts du monde",
+    "subject": "Cuisine",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-cuisine-saveurs-20261012",
+    "name": "Cuisine — Saveurs et desserts du monde — Buzzer",
+    "topic": "Cuisine — Saveurs et desserts du monde",
+    "subject": "Cuisine",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-cuisine-saveurs-20261012",
+    "name": "Cuisine — Saveurs et desserts du monde — Qui suis-je ?",
+    "topic": "Cuisine — Saveurs et desserts du monde",
+    "subject": "Cuisine",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-cuisine-celebre-20261012",
+    "name": "Cuisine — Plats célèbres — QCM",
+    "topic": "Cuisine — Plats célèbres",
+    "subject": "Cuisine",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-cuisine-celebre-20261012",
+    "name": "Cuisine — Plats célèbres — Buzzer",
+    "topic": "Cuisine — Plats célèbres",
+    "subject": "Cuisine",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-cuisine-celebre-20261012",
+    "name": "Cuisine — Plats célèbres — Qui suis-je ?",
+    "topic": "Cuisine — Plats célèbres",
+    "subject": "Cuisine",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-litterature-quebec-20261012",
+    "name": "Littérature québécoise — Grands noms — QCM",
+    "topic": "Littérature québécoise — Grands noms",
+    "subject": "Littérature",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-litterature-quebec-20261012",
+    "name": "Littérature québécoise — Grands noms — Buzzer",
+    "topic": "Littérature québécoise — Grands noms",
+    "subject": "Littérature",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-litterature-quebec-20261012",
+    "name": "Littérature québécoise — Grands noms — Qui suis-je ?",
+    "topic": "Littérature québécoise — Grands noms",
+    "subject": "Littérature",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-histoire-mondiale-generale-20261012",
+    "name": "Histoire mondiale — Grands repères — QCM",
+    "topic": "Histoire mondiale — Grands repères",
+    "subject": "Histoire",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-histoire-mondiale-generale-20261012",
+    "name": "Histoire mondiale — Grands repères — Buzzer",
+    "topic": "Histoire mondiale — Grands repères",
+    "subject": "Histoire",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-histoire-mondiale-generale-20261012",
+    "name": "Histoire mondiale — Grands repères — Qui suis-je ?",
+    "topic": "Histoire mondiale — Grands repères",
+    "subject": "Histoire",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-geographie-monde-20261012",
+    "name": "Géographie mondiale — Reliefs et océans — QCM",
+    "topic": "Géographie mondiale — Reliefs et océans",
+    "subject": "Géographie",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-geographie-monde-20261012",
+    "name": "Géographie mondiale — Reliefs et océans — Buzzer",
+    "topic": "Géographie mondiale — Reliefs et océans",
+    "subject": "Géographie",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-geographie-monde-20261012",
+    "name": "Géographie mondiale — Reliefs et océans — Qui suis-je ?",
+    "topic": "Géographie mondiale — Reliefs et océans",
+    "subject": "Géographie",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-geographie-villes-20261012",
+    "name": "Géographie mondiale — Villes et monuments — QCM",
+    "topic": "Géographie mondiale — Villes et monuments",
+    "subject": "Géographie",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-geographie-villes-20261012",
+    "name": "Géographie mondiale — Villes et monuments — Buzzer",
+    "topic": "Géographie mondiale — Villes et monuments",
+    "subject": "Géographie",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-geographie-villes-20261012",
+    "name": "Géographie mondiale — Villes et monuments — Qui suis-je ?",
+    "topic": "Géographie mondiale — Villes et monuments",
+    "subject": "Géographie",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "lib-qcm-explorateurs-20261012",
+    "name": "Histoire — Explorateurs célèbres — QCM",
+    "topic": "Explorateurs célèbres",
+    "subject": "Histoire",
+    "mode": "qcm",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-buzzer-explorateurs-20261012",
+    "name": "Histoire — Explorateurs célèbres — Buzzer",
+    "topic": "Explorateurs célèbres",
+    "subject": "Histoire",
+    "mode": "buzzer",
+    "count": 5,
+    "images": 2
+  },
+  {
+    "id": "lib-qsj-explorateurs-20261012",
+    "name": "Histoire — Explorateurs célèbres — Qui suis-je ?",
+    "topic": "Explorateurs célèbres",
+    "subject": "Histoire",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  }
+]

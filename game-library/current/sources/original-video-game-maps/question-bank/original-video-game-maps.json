@@ -1,0 +1,118 @@
+{
+  "category": "Jeux vidéo — Univers et personnages — QCM",
+  "subject": "Jeux vidéo",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "q21",
+      "category": "Jeux vidéo — Univers et personnages — QCM",
+      "prompt": "Quel jeu construit ses paysages avec des blocs ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Minecraft",
+        "B — Fortnite",
+        "C — Tetris",
+        "D — Portal"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/original-video-game-maps/blocks.png"
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q22",
+      "category": "Jeux vidéo — Univers et personnages — QCM",
+      "prompt": "Quel royaume est au centre de The Legend of Zelda ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Hyrule",
+        "B — Tamriel",
+        "C — Le Royaume Champignon",
+        "D — Midgar"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/original-video-game-maps/castle.png"
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q23",
+      "category": "Jeux vidéo — Univers et personnages — QCM",
+      "prompt": "Dans quel jeu peut-on construire pendant un Battle Royale ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Gran Turismo",
+        "B — Fortnite",
+        "C — Rocket League",
+        "D — Overwatch"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q25",
+      "category": "Jeux vidéo — Univers et personnages — QCM",
+      "prompt": "Quelle ville est au centre de Cyberpunk 2077 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Raccoon City",
+        "B — Neo-Tokyo",
+        "C — Gotham City",
+        "D — Night City"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-jeux-video-20261012-03",
+      "category": "Jeux vidéo — Univers et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel personnage est un hérisson bleu ?",
+      "options": [
+        "A — Donkey Kong",
+        "B — Pikachu",
+        "C — Sonic",
+        "D — Yoshi"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/lib-qcm-jeux-video-20261012/hedgehog.jpg"
+    },
+    {
+      "id": "lib-qcm-jeux-video-20261012-04",
+      "category": "Jeux vidéo — Univers et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel héros contrôle-t-on souvent dans The Legend of Zelda ?",
+      "options": [
+        "A — Zelda",
+        "B — Link",
+        "C — Bowser",
+        "D — Ganondorf"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-jeux-video-20261012-05",
+      "category": "Jeux vidéo — Univers et personnages — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel jeu fait tomber des pièces de quatre carrés ?",
+      "options": [
+        "A — Minecraft",
+        "B — Pokémon",
+        "C — Tetris",
+        "D — Mario Kart"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "lib-qsj-litterature-france-20261012",
+  "name": "Littérature française — Romans et personnages — Qui suis-je ?",
+  "description": "5 questions accessibles en français. 4 indices de 20 s ; 20 → 15 → 10 → 5 pts ; erreur : −5 pts.",
+  "categoryPackages": [
+    "lib-qsj-litterature-france-20261012"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 20,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 3,
+    "pointsDecayPerFlip": 5
+  }
+}

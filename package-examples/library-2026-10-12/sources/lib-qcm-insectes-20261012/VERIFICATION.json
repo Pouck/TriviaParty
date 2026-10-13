@@ -1,0 +1,52 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://naturalhistory.si.edu/education/teaching-resources/life-science/butterflies-and-beyond",
+      "https://www.si.edu/spotlight/buginfo",
+      "https://www.britannica.com/animal/insect"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://naturalhistory.si.edu/education/teaching-resources/life-science/butterflies-and-beyond",
+      "https://www.si.edu/spotlight/buginfo",
+      "https://www.britannica.com/animal/insect"
+    ],
+    "note": "",
+    "visual": "ladybird"
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://naturalhistory.si.edu/education/teaching-resources/life-science/butterflies-and-beyond",
+      "https://www.si.edu/spotlight/buginfo",
+      "https://www.britannica.com/animal/insect"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://naturalhistory.si.edu/education/teaching-resources/life-science/butterflies-and-beyond",
+      "https://www.si.edu/spotlight/buginfo",
+      "https://www.britannica.com/animal/insect"
+    ],
+    "note": "",
+    "visual": "bee"
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://naturalhistory.si.edu/education/teaching-resources/life-science/butterflies-and-beyond",
+      "https://www.si.edu/spotlight/buginfo",
+      "https://www.britannica.com/animal/insect"
+    ],
+    "note": "",
+    "visual": null
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "question": 1,
+    "questionId": "culture-qsj-grece-figures-et-lieux-20261010-01",
+    "originalPackage": "culture-qsj-grece-figures-et-lieux-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "culture-qsj-grece-figures-et-lieux-20261010-02",
+    "originalPackage": "culture-qsj-grece-figures-et-lieux-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "culture-qsj-grece-figures-et-lieux-20261010-03",
+    "originalPackage": "culture-qsj-grece-figures-et-lieux-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "culture-qsj-grece-figures-et-lieux-20261010-04",
+    "originalPackage": "culture-qsj-grece-figures-et-lieux-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "resize-20261012-socrate",
+    "originalPackage": null,
+    "reference": {
+      "sources": [
+        "https://plato.stanford.edu/entries/socrates/"
+      ],
+      "note": ""
+    },
+    "new": true
+  }
+]

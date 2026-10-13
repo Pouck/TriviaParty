@@ -1,0 +1,85 @@
+{
+  "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM — 2",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-06",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel lord rédige en 1839 un rapport proposant l’union des deux Canadas et l’assimilation des Canadiens français ?",
+      "options": [
+        "A — Lord Monck",
+        "B — Lord Dorchester",
+        "C — Lord Elgin",
+        "D — Lord Durham"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-07",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle compagnie cède ses droits sur la Terre de Rupert, transférée au Canada en 1870 ?",
+      "options": [
+        "A — La Compagnie de la Baie d’Hudson",
+        "B — La Compagnie britannique des Indes orientales",
+        "C — La Compagnie française des Indes",
+        "D — La Compagnie du Nord-Ouest"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-08",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle province entre dans la Confédération en 1873 après avoir accumulé une importante dette ferroviaire ?",
+      "options": [
+        "A — Terre-Neuve",
+        "B — L’Île-du-Prince-Édouard",
+        "C — La Colombie-Britannique",
+        "D — La Nouvelle-Écosse"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-09",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel programme économique de Macdonald instaure des tarifs protectionnistes en 1879 ?",
+      "options": [
+        "A — L’Accord du Commonwealth",
+        "B — Le traité de réciprocité",
+        "C — La Politique nationale",
+        "D — Le Système du Dominion"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-colonial-20261011-10",
+      "category": "Canada — Époque coloniale et évolution constitutionnelle — QCM — 2",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle décision de 1929 reconnaît que les femmes sont des personnes admissibles à siéger au Sénat ?",
+      "options": [
+        "A — L’affaire « personne » (Edwards c. Canada)",
+        "B — L’affaire du traité du flétan",
+        "C — L’arrêt Murdoch",
+        "D — L’affaire King-Byng"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

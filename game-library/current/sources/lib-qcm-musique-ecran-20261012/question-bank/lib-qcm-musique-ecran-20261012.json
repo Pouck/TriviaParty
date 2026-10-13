@@ -1,0 +1,87 @@
+{
+  "category": "Musique — Films et comédies musicales — QCM",
+  "subject": "Musique",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-musique-ecran-20261012-01",
+      "category": "Musique — Films et comédies musicales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a composé la musique de Star Wars ?",
+      "options": [
+        "A — Hans Zimmer",
+        "B — John Williams",
+        "C — Ennio Morricone",
+        "D — Danny Elfman"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/lib-qcm-musique-ecran-20261012/space.png"
+    },
+    {
+      "id": "lib-qcm-musique-ecran-20261012-02",
+      "category": "Musique — Films et comédies musicales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui chante My Heart Will Go On pour Titanic ?",
+      "options": [
+        "A — Madonna",
+        "B — Whitney Houston",
+        "C — Céline Dion",
+        "D — Mariah Carey"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-musique-ecran-20261012-03",
+      "category": "Musique — Films et comédies musicales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel compositeur est souvent associé aux films de Miyazaki ?",
+      "options": [
+        "A — Ryuichi Sakamoto",
+        "B — John Barry",
+        "C — Alan Menken",
+        "D — Joe Hisaishi"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "lib-qcm-musique-ecran-20261012-04",
+      "category": "Musique — Films et comédies musicales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle comédie musicale met en scène un fantôme à l’Opéra de Paris ?",
+      "options": [
+        "A — The Phantom of the Opera",
+        "B — Cats",
+        "C — Chicago",
+        "D — Mamma Mia!"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-musique-ecran-20261012/mask.png"
+    },
+    {
+      "id": "lib-qcm-musique-ecran-20261012-05",
+      "category": "Musique — Films et comédies musicales — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel groupe fournit les chansons de Mamma Mia! ?",
+      "options": [
+        "A — ABBA",
+        "B — Queen",
+        "C — The Beatles",
+        "D — Bee Gees"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

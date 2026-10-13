@@ -1,0 +1,80 @@
+[
+  {
+    "question": 1,
+    "questionId": "cinema-qcm-coulisses-20261011-07",
+    "originalPackage": "cinema-qcm-coulisses-20261011",
+    "reference": {
+      "question": 7,
+      "sources": [
+        "https://d23.com/25-years-of-making-nightmares/"
+      ],
+      "note": "Henry Selick réalise ce film ; Tim Burton en est notamment le créateur et producteur."
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "cinema-qcm-coulisses-20261011-08",
+    "originalPackage": "cinema-qcm-coulisses-20261011",
+    "reference": {
+      "question": 8,
+      "sources": [
+        "https://www.pixar.com/our-story"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "cinema-qcm-films-personnages-20261011-07",
+    "originalPackage": "cinema-qcm-films-personnages-20261011",
+    "reference": {
+      "question": 7,
+      "sources": [
+        "https://www.paramountpictures.com/movies/the-godfather"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "cinema-qcm-films-personnages-20261011-08",
+    "originalPackage": "cinema-qcm-films-personnages-20261011",
+    "reference": {
+      "question": 8,
+      "sources": [
+        "https://www.bfi.org.uk/features/la-haine-project-surrealism"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "cinema-qcm-prix-classiques-20261011-07",
+    "originalPackage": "cinema-qcm-prix-classiques-20261011",
+    "reference": {
+      "question": 7,
+      "sources": [
+        "https://www.bfi.org.uk/film/cefccdb2-b558-5623-9c17-72b4be7bd4c1/2001-a-space-odyssey"
+      ],
+      "note": ""
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "cinema-qcm-prix-classiques-20261011-08",
+    "originalPackage": "cinema-qcm-prix-classiques-20261011",
+    "reference": {
+      "question": 8,
+      "sources": [
+        "https://www.oscars.org/oscars/ceremonies/2004"
+      ],
+      "note": ""
+    },
+    "new": false
+  }
+]

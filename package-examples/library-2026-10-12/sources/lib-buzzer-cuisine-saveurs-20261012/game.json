@@ -1,0 +1,15 @@
+{
+  "id": "lib-buzzer-cuisine-saveurs-20261012",
+  "name": "Cuisine — Saveurs et desserts du monde — Buzzer",
+  "description": "5 questions accessibles en français. 2 visuelles et 3 textuelles ; 15 s ; 15 → 10 → 5 pts.",
+  "categoryPackages": [
+    "lib-buzzer-cuisine-saveurs-20261012"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

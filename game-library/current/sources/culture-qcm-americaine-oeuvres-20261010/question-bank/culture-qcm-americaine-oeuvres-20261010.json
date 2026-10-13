@@ -1,0 +1,85 @@
+{
+  "category": "Littérature américaine — Œuvres : choix multiples — 1",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-01",
+      "category": "Littérature américaine — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Dans quelle communauté historique se déroule The Scarlet Letter de Hawthorne ?",
+      "options": [
+        "A — Les puritains du Massachusetts au XVIIe siècle",
+        "B — Les planteurs de Virginie au XVIIIe siècle",
+        "C — Les quakers de Pennsylvanie",
+        "D — Les industriels new-yorkais au XIXe siècle"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-02",
+      "category": "Littérature américaine — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Steinbeck suit la famille Joad de l’Oklahoma à la Californie pendant la Grande Dépression ?",
+      "options": [
+        "A — Of Mice and Men",
+        "B — The Grapes of Wrath",
+        "C — Cannery Row",
+        "D — East of Eden"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-03",
+      "category": "Littérature américaine — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle est la mission des pompiers dans Fahrenheit 451 de Ray Bradbury ?",
+      "options": [
+        "A — Disperser les manifestations",
+        "B — Éteindre les incendies chimiques",
+        "C — Secourir les habitants des gratte-ciel",
+        "D — Brûler les livres interdits et les maisons qui en abritent"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-04",
+      "category": "Littérature américaine — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Toni Morrison raconte l’histoire de Sethe, hantée par le passé et par le retour d’une figure liée à sa fille morte ?",
+      "options": [
+        "A — Sula",
+        "B — The Bluest Eye",
+        "C — Beloved",
+        "D — Song of Solomon"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-americaine-oeuvres-20261010-05",
+      "category": "Littérature américaine — Œuvres : choix multiples — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Joseph Heller porte le nom d’un paradoxe bureaucratique empêchant des aviateurs d’échapper aux missions ?",
+      "options": [
+        "A — Catch-22",
+        "B — Slaughterhouse-Five",
+        "C — A Farewell to Arms",
+        "D — The Things They Carried"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

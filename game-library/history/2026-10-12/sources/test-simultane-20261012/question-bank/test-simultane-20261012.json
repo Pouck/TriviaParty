@@ -1,0 +1,128 @@
+{
+  "category": "TEST — Réponses simultanées",
+  "subject": "Autres",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples",
+    "Chronologie",
+    "Carte"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "prompt": "Quelle planète est surnommée la planète rouge ?",
+      "options": [
+        "A — Vénus",
+        "B — Mars",
+        "C — Jupiter",
+        "D — Saturne"
+      ],
+      "correctOptionIndex": 1,
+      "id": "test-01-qcm-q1",
+      "category": "TEST — Réponses simultanées",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    },
+    {
+      "kind": "ordering",
+      "prompt": "Quel ordre va du plus ancien au plus récent ?",
+      "id": "test-04-chronologie-q1",
+      "category": "TEST — Réponses simultanées",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Cabot"
+        },
+        {
+          "id": "item-1",
+          "text": "Québec"
+        },
+        {
+          "id": "item-2",
+          "text": "Cartier"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "prompt": "Classez ces nombres du plus petit au plus grand.",
+      "items": [
+        {
+          "id": "three",
+          "text": "Trois"
+        },
+        {
+          "id": "one",
+          "text": "Un"
+        },
+        {
+          "id": "two",
+          "text": "Deux"
+        }
+      ],
+      "correctOrderIds": [
+        "one",
+        "two",
+        "three"
+      ],
+      "id": "test-05-ordering-q1",
+      "category": "TEST — Réponses simultanées",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    },
+    {
+      "kind": "mapChoice",
+      "prompt": "Choisissez le repère B sur cette carte de démonstration.",
+      "options": [
+        {
+          "label": "A",
+          "xRatio": 0.3,
+          "yRatio": 0.3
+        },
+        {
+          "label": "B",
+          "xRatio": 0.5,
+          "yRatio": 0.45
+        },
+        {
+          "label": "C",
+          "xRatio": 0.55,
+          "yRatio": 0.65
+        },
+        {
+          "label": "D",
+          "xRatio": 0.4,
+          "yRatio": 0.7
+        }
+      ],
+      "correctOptionIndex": 1,
+      "id": "test-06-map-choice-q1",
+      "category": "TEST — Réponses simultanées",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "test-09-carte-qcm-q1",
+      "category": "TEST — Réponses simultanées",
+      "prompt": "Quelle lettre correspond à l’Angola sur la carte ?",
+      "imageUrl": "images/test-09-carte-qcm/carte-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

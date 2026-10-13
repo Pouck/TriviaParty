@@ -1,0 +1,102 @@
+{
+  "category": "Géographie - Capitales — Réponses écrites",
+  "subject": "Géographie",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-01-v2",
+      "category": "Géographie - Capitales — Réponses écrites",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/geographie-capitales-20261010-v2/addis-abeba.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Addis-Abeba",
+        "Addis Abeba"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-02-v2",
+      "category": "Géographie - Capitales — Réponses écrites",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/geographie-capitales-20261010-v2/bangkok.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Bangkok"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-03-v2",
+      "category": "Géographie - Capitales — Réponses écrites",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/geographie-capitales-20261010-v2/kaboul.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Kaboul"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-04-v2",
+      "category": "Géographie - Capitales — Réponses écrites",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/geographie-capitales-20261010-v2/lima.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Lima"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-05-v2",
+      "category": "Géographie - Capitales — Réponses écrites",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/geographie-capitales-20261010-v2/luxembourg.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Luxembourg"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-06-v2",
+      "category": "Géographie - Capitales — Réponses écrites",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/geographie-capitales-20261010-v2/ottawa.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Ottawa"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-07-v2",
+      "category": "Géographie - Capitales — Réponses écrites",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/geographie-capitales-20261010-v2/paris.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Paris"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://collections.louvre.fr/en/ark:/53355/cl010277627",
+      "https://www.galleriaaccademiafirenze.it/fr/opere/david-michelangelo/",
+      "https://www.musee-rodin.fr/en/musee/collections/oeuvres/penseur-meudon"
+    ],
+    "note": "Vénus : vers 150–125 av. J.-C. ; David : 1501–1504 ; Penseur : conception en 1880, pas fonte d’un bronze. Corrigé : Vénus de Milo (150 av. J.-C.) → David de Michel-Ange (1504) → Le Penseur — conception du modèle (1880)",
+    "photo": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.musee-rodin.fr/en/musee/collections/oeuvres/penseur-meudon",
+      "https://www.musee-rodin.fr/musee/collections/oeuvres/baiser",
+      "https://www.musee-rodin.fr/musee/collections/oeuvres/monument-bourgeois-de-calais"
+    ],
+    "note": "Dates des modèles : 1880, vers 1882, 1884–1889 ; pas les dates des tirages ou installations. Corrigé : Le Penseur (1880) → Le Baiser (1882) → Les Bourgeois de Calais (1889)",
+    "photo": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.galleriaaccademiafirenze.it/fr/opere/david-michelangelo/",
+      "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm",
+      "https://www.musee-rodin.fr/musee/collections/oeuvres/monument-bourgeois-de-calais"
+    ],
+    "note": " Corrigé : Dévoilement du David de Michel-Ange (1504) → Inauguration de la statue de la Liberté (1886) → Installation des Bourgeois de Calais à Calais (1895)",
+    "photo": null
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/Cortile-Ottagono/laocoonte.html",
+      "https://collections.louvre.fr/en/ark:/53355/cl010277627",
+      "https://www.louvre.fr/en/support-the-louvre/become-a-patron/the-campaigns/the-winged-victory-of-samothrace-0"
+    ],
+    "note": "Il s’agit des découvertes modernes, pas de la création des œuvres antiques. Corrigé : Découverte du groupe du Laocoon (1506) → Découverte de la Vénus de Milo (1820) → Découverte de la Victoire de Samothrace (1863)",
+    "photo": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.nps.gov/stli/learn/statue-of-liberty-facts.htm",
+      "https://press.moma.org/wp-content/uploads/2018/10/brancusi_object_labels_for_press_final.pdf",
+      "https://www.guggenheim-bilbao.eus/fr/la-collection/oeuvres/maman"
+    ],
+    "note": "Maman : conception en 1999 ; certains exemplaires ont été fondus en 2001. Corrigé : Inauguration de la statue de la Liberté (1886) → L’Oiseau dans l’espace — version du MoMA de 1928 (1928) → Maman — conception de Louise Bourgeois (1999)",
+    "photo": null
+  },
+  {
+    "question": 6,
+    "sources": [
+      "https://www.vatican.va/news_services/or/or_quo/115q01.pdf",
+      "https://www.galleriaaccademiafirenze.it/fr/opere/david-michelangelo/",
+      "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/storia-cappella-sistina.html"
+    ],
+    "note": "Pietà vaticane, pas les Pietà tardives ; plafond de 1508–1512, pas Le Jugement dernier. Corrigé : Pietà de Saint-Pierre (1499) → David de Florence (1504) → Plafond de la chapelle Sixtine (1512)",
+    "photo": null
+  }
+]

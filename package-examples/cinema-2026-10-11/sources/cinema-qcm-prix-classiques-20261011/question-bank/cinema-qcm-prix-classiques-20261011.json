@@ -1,0 +1,130 @@
+{
+  "category": "Cinéma — Récompenses et classiques — QCM",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-01",
+      "category": "Cinéma — Récompenses et classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel film devient, en 2020, le premier film principalement non anglophone à remporter l’Oscar du meilleur film ?",
+      "options": [
+        "A — Crouching Tiger, Hidden Dragon",
+        "B — Roma",
+        "C — La vita è bella",
+        "D — Parasite"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-02",
+      "category": "Cinéma — Récompenses et classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Parmi ces films, lequel remporte onze Oscars lors de la cérémonie de 1998 ?",
+      "options": [
+        "A — Terminator 2: Judgment Day",
+        "B — Titanic",
+        "C — Jurassic Park",
+        "D — Avatar"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-03",
+      "category": "Cinéma — Récompenses et classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel film reçoit le premier Oscar du meilleur long métrage d’animation, remis en 2002 ?",
+      "options": [
+        "A — Toy Story 2",
+        "B — The Lion King",
+        "C — Monsters, Inc.",
+        "D — Shrek"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-04",
+      "category": "Cinéma — Récompenses et classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel film de Quentin Tarantino remporte la Palme d’or en 1994 ?",
+      "options": [
+        "A — Kill Bill: Volume 1",
+        "B — Pulp Fiction",
+        "C — Jackie Brown",
+        "D — Reservoir Dogs"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-05",
+      "category": "Cinéma — Récompenses et classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel est le premier long métrage d’animation des studios Disney ?",
+      "options": [
+        "A — Dumbo",
+        "B — Pinocchio",
+        "C — Snow White and the Seven Dwarfs",
+        "D — Fantasia"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-06",
+      "category": "Cinéma — Récompenses et classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui incarne Furiosa dans Mad Max: Fury Road (2015) ?",
+      "options": [
+        "A — Anya Taylor-Joy",
+        "B — Cate Blanchett",
+        "C — Charlize Theron",
+        "D — Emily Blunt"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-07",
+      "category": "Cinéma — Récompenses et classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui réalise 2001: A Space Odyssey ?",
+      "options": [
+        "A — Stanley Kubrick",
+        "B — Steven Spielberg",
+        "C — Ridley Scott",
+        "D — George Lucas"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "cinema-qcm-prix-classiques-20261011-08",
+      "category": "Cinéma — Récompenses et classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel film québécois remporte l’Oscar du meilleur film en langue étrangère en 2004 ?",
+      "options": [
+        "A — Les Invasions barbares",
+        "B — Incendies",
+        "C — Le Déclin de l’empire américain",
+        "D — Monsieur Lazhar"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

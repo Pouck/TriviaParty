@@ -1,0 +1,87 @@
+{
+  "category": "Histoire du jeu vidéo",
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "q1",
+      "category": "Histoire du jeu vidéo",
+      "prompt": "En quelle année la NES sort-elle en Amérique du Nord ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — 1985",
+        "B — 1989",
+        "C — 1987",
+        "D — 1983"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q2",
+      "category": "Histoire du jeu vidéo",
+      "prompt": "Qui a créé Mario ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Hideo Kojima",
+        "B — Gabe Newell",
+        "C — Satoru Iwata",
+        "D — Shigeru Miyamoto"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/mushroom.jpg"
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q6",
+      "category": "Histoire du jeu vidéo",
+      "prompt": "Quel jeu de blocs est célèbre sur Game Boy ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Tetris",
+        "B — Pokémon Rouge et Bleu",
+        "C — Super Mario Land",
+        "D — Donkey Kong"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q7",
+      "category": "Histoire du jeu vidéo",
+      "prompt": "Quelle console de salon est commercialisée en 1972 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — ColecoVision",
+        "B — Magnavox Odyssey",
+        "C — Fairchild Channel F",
+        "D — Atari 2600"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q8",
+      "category": "Histoire du jeu vidéo",
+      "prompt": "En quelle année sort la version complète de Minecraft ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — 2010",
+        "B — 2009",
+        "C — 2011",
+        "D — 2012"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/blocks.png"
+    }
+  ],
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "subject": "Jeux vidéo"
+}

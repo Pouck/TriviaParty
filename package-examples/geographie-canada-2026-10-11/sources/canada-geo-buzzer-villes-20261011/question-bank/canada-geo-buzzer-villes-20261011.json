@@ -1,0 +1,74 @@
+{
+  "category": "Géographie du Canada — Villes et provinces",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "canada-geo-buzzer-villes-20261011-01",
+      "category": "Géographie du Canada — Villes et provinces",
+      "prompt": "Combien de territoires le Canada compte-t-il ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Trois",
+        "3"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-geo-buzzer-villes-20261011-02",
+      "category": "Géographie du Canada — Villes et provinces",
+      "prompt": "Quelle est la province canadienne la plus peuplée ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Ontario",
+        "L’Ontario"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-geo-buzzer-villes-20261011-03",
+      "category": "Géographie du Canada — Villes et provinces",
+      "prompt": "Quel océan borde le Canada à l’ouest ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "L’océan Pacifique",
+        "Le Pacifique",
+        "Pacifique"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-geo-buzzer-villes-20261011-04",
+      "category": "Géographie du Canada — Villes et provinces",
+      "prompt": "Quelle est la capitale de la Colombie-Britannique ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Victoria"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "kind": "textAnswer",
+      "id": "canada-geo-buzzer-villes-20261011-05",
+      "category": "Géographie du Canada — Villes et provinces",
+      "prompt": "Quelle province des Prairies porte le nom d’un cours d’eau qui se jette dans le lac Winnipeg ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Saskatchewan",
+        "La Saskatchewan"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

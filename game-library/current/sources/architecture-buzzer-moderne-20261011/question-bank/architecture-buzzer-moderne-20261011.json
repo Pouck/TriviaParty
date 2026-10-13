@@ -1,0 +1,91 @@
+{
+  "category": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+  "subject": "Architecture",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "id": "architecture-buzzer-moderne-20261011-01",
+      "category": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel est le nom de ce gratte-ciel de Dubaï ?",
+      "acceptableAnswers": [
+        "Burj Khalifa",
+        "Le Burj Khalifa"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/architecture-buzzer-moderne-20261011/burj.jpg"
+    },
+    {
+      "id": "architecture-buzzer-moderne-20261011-02",
+      "category": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans quelle ville se trouve le palais de Buckingham ?",
+      "acceptableAnswers": [
+        "Londres",
+        "London"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "architecture-buzzer-moderne-20261011-03",
+      "category": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle ville américaine se trouve à l’extrémité sud de ce pont ?",
+      "acceptableAnswers": [
+        "San Francisco"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/architecture-buzzer-moderne-20261011/goldengate.jpg"
+    },
+    {
+      "id": "architecture-buzzer-moderne-20261011-04",
+      "category": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans quelle cité-État se trouve Marina Bay Sands, avec ses trois tours reliées par une terrasse ?",
+      "acceptableAnswers": [
+        "Singapour",
+        "Singapore"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "architecture-buzzer-moderne-20261011-05",
+      "category": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel ensemble résidentiel montréalais, construit pour l’Expo 67, voyez-vous ?",
+      "acceptableAnswers": [
+        "Habitat 67",
+        "Habitat67"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/architecture-buzzer-moderne-20261011/habitat.jpg"
+    },
+    {
+      "id": "architecture-buzzer-moderne-20261011-06",
+      "category": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "À quel style architectural associe-t-on le Chrysler Building de New York ?",
+      "acceptableAnswers": [
+        "L’Art déco",
+        "Art déco",
+        "Art deco"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

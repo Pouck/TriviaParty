@@ -1,0 +1,72 @@
+[
+  {
+    "id": "arts-qcm-peintures-classiques-20261011",
+    "name": "Arts — Peintures classiques — QCM",
+    "mode": "qcm",
+    "count": 8,
+    "images": 4
+  },
+  {
+    "id": "arts-qcm-couleurs-mouvements-20261011",
+    "name": "Arts — Couleurs et mouvements — QCM",
+    "mode": "qcm",
+    "count": 8,
+    "images": 4
+  },
+  {
+    "id": "arts-qcm-sculptures-iconiques-20261011",
+    "name": "Arts — Sculptures iconiques — QCM",
+    "mode": "qcm",
+    "count": 8,
+    "images": 4
+  },
+  {
+    "id": "arts-buzzer-tableaux-celebres-20261011",
+    "name": "Arts — Tableaux célèbres — Buzzer",
+    "mode": "buzzer",
+    "count": 8,
+    "images": 4
+  },
+  {
+    "id": "arts-buzzer-regards-scenes-20261011",
+    "name": "Arts — Regards et scènes — Buzzer",
+    "mode": "buzzer",
+    "count": 8,
+    "images": 4
+  },
+  {
+    "id": "arts-buzzer-marbre-bronze-20261011",
+    "name": "Arts — Marbre et bronze — Buzzer",
+    "mode": "buzzer",
+    "count": 8,
+    "images": 4
+  },
+  {
+    "id": "arts-qsj-peintures-mysteres-20261011",
+    "name": "Arts — Peintures mystères — Qui suis-je ?",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "arts-qsj-sculptures-mysteres-20261011",
+    "name": "Arts — Sculptures mystères — Qui suis-je ?",
+    "mode": "qsj",
+    "count": 5,
+    "images": 0
+  },
+  {
+    "id": "arts-chronologie-peintures-dans-le-temps-20261011",
+    "name": "Arts — Peintures dans le temps — Chronologie",
+    "mode": "chronologie",
+    "count": 6,
+    "images": 0
+  },
+  {
+    "id": "arts-chronologie-sculptures-reperes-20261011",
+    "name": "Arts — Sculptures et repères — Chronologie",
+    "mode": "chronologie",
+    "count": 6,
+    "images": 0
+  }
+]

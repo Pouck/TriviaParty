@@ -1,0 +1,25 @@
+{
+  "category": "TEST Carte — image et lettres",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Carte — image et lettres"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "test-09-carte-qcm-q1",
+      "category": "TEST Carte — image et lettres",
+      "prompt": "Quelle lettre correspond à l’Angola sur la carte ?",
+      "imageUrl": "images/carte-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

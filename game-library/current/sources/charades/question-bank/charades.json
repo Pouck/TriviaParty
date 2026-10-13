@@ -1,0 +1,71 @@
+{
+  "category": "Logique et énigmes — Charades — Buzzer",
+  "subject": "Logique et énigmes",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "charades-nun-ace",
+      "category": "Logique et énigmes — Charades — Buzzer",
+      "prompt": "Mon premier est la carte la plus forte. Mon deuxième est « en ». Mon troisième est une fille ayant les mêmes parents que moi. Mon tout monte et descend dans un immeuble.",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Ascenseur",
+        "Un ascenseur"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "id": "resize-20261012-chapeau",
+      "kind": "textAnswer",
+      "category": "Logique et énigmes — Charades — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Mon premier miaule. Mon second recouvre le corps. Mon tout se porte sur la tête.",
+      "acceptableAnswers": [
+        "Chapeau"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "id": "resize-20261012-radeau",
+      "kind": "textAnswer",
+      "category": "Logique et énigmes — Charades — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Mon premier est un petit rongeur. Mon second est la partie arrière du corps. Mon tout flotte sur l’eau.",
+      "acceptableAnswers": [
+        "Radeau"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "id": "resize-20261012-pinceau",
+      "kind": "textAnswer",
+      "category": "Logique et énigmes — Charades — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Mon premier se mange en tartines. Mon second sert à porter de l’eau. Mon tout sert à peindre.",
+      "acceptableAnswers": [
+        "Pinceau"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "id": "resize-20261012-cartable",
+      "kind": "textAnswer",
+      "category": "Logique et énigmes — Charades — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Mon premier est un véhicule qui transporte des passagers. Mon second est un meuble sur lequel on mange. Mon tout transporte les affaires d’école.",
+      "acceptableAnswers": [
+        "Cartable"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cinema-buzzer-univers-20261011",
+  "name": "Cinéma — Univers et animation — Rapide — Buzzer",
+  "description": "8 questions en français. 15 secondes ; 15 → 10 → 5 points.",
+  "categoryPackages": [
+    "cinema-buzzer-univers-20261011"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

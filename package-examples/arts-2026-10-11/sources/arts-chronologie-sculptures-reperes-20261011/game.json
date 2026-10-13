@@ -1,0 +1,15 @@
+{
+  "id": "arts-chronologie-sculptures-reperes-20261011",
+  "name": "Arts — Sculptures et repères — Chronologie",
+  "description": "6 questions en français. Lecture libre puis 30 secondes ; 15 → 10 → 5 points.",
+  "categoryPackages": [
+    "arts-chronologie-sculptures-reperes-20261011"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 10,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

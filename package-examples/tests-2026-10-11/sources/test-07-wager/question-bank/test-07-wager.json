@@ -1,0 +1,32 @@
+{
+  "category": "TEST Mise — ancien format",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Mise — ancien format"
+  ],
+  "questions": [
+    {
+      "kind": "wager",
+      "prompt": "Quelle planète est surnommée la planète rouge ?",
+      "subQuestion": {
+        "kind": "multipleChoice",
+        "prompt": "Quelle planète est surnommée la planète rouge ?",
+        "options": [
+          "A — Vénus",
+          "B — Mars",
+          "C — Jupiter",
+          "D — Saturne"
+        ],
+        "correctOptionIndex": 1,
+        "id": "test-07-wager-sub",
+        "category": "TEST Mise — ancien format",
+        "basePoints": 15,
+        "penaltyPoints": 0
+      },
+      "id": "test-07-wager-q1",
+      "category": "TEST Mise — ancien format",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    }
+  ]
+}

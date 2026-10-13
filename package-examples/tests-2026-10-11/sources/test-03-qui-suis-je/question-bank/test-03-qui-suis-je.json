@@ -1,0 +1,26 @@
+{
+  "category": "TEST Qui suis-je ?",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une planète rocheuse.",
+        "Deux petits satellites tournent autour de moi.",
+        "Mon sol riche en oxyde de fer me donne une couleur caractéristique.",
+        "On me surnomme la planète rouge."
+      ],
+      "acceptableAnswers": [
+        "Mars"
+      ],
+      "id": "test-03-qui-suis-je-q1",
+      "category": "TEST Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5
+    }
+  ]
+}

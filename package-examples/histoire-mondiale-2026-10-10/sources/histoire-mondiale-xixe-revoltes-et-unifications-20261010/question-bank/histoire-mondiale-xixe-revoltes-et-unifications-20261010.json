@@ -1,0 +1,69 @@
+{
+  "category": "Histoire mondiale — XIXe siècle : révoltes et unifications",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-revoltes-et-unifications-01-20261010",
+      "category": "Histoire mondiale — XIXe siècle : révoltes et unifications",
+      "prompt": "Quel nom portent les deux guerres du XIXe siècle opposant notamment le Royaume-Uni à la Chine des Qing, dont la première entraîne la cession de l’île de Hong Kong ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Les guerres de l’opium",
+        "B — La révolte des Taiping",
+        "C — La guerre sino-japonaise",
+        "D — La révolte des Boxers"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-revoltes-et-unifications-02-20261010",
+      "category": "Histoire mondiale — XIXe siècle : révoltes et unifications",
+      "prompt": "Quel officier américain arriva avec ses « navires noirs » dans la baie d’Edo, près de l’actuelle Tokyo, en 1853 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — William Bainbridge",
+        "B — George Dewey",
+        "C — John Paul Jones",
+        "D — Matthew Perry"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-revoltes-et-unifications-03-20261010",
+      "category": "Histoire mondiale — XIXe siècle : révoltes et unifications",
+      "prompt": "Quelle révolte chinoise fut menée par Hong Xiuquan, qui affirmait être le frère cadet de Jésus ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La révolte du Lotus blanc",
+        "B — La révolte des Dounganes",
+        "C — La révolte des Taiping",
+        "D — La révolte d’An Lushan"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-revoltes-et-unifications-04-20261010",
+      "category": "Histoire mondiale — XIXe siècle : révoltes et unifications",
+      "prompt": "Quel chef italien mena les « Chemises rouges » lors de l’expédition des Mille en 1860 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Camillo Benso, comte de Cavour",
+        "B — Giuseppe Garibaldi",
+        "C — Victor-Emmanuel II",
+        "D — Giuseppe Mazzini"
+      ],
+      "correctOptionIndex": 1
+    }
+  ]
+}

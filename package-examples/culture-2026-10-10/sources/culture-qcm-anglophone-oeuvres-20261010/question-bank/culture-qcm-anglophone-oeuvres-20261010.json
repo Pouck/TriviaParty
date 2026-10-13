@@ -1,0 +1,159 @@
+{
+  "category": "Littérature britannique et irlandaise — Œuvres : choix multiples",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-01",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Entre quelles villes se déroule A Tale of Two Cities de Charles Dickens ?",
+      "options": [
+        "A — Londres et Amsterdam",
+        "B — Édimbourg et Dublin",
+        "C — Londres et Paris",
+        "D — Londres et Rome"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-02",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman d’Emily Brontë raconte les relations tourmentées de Heathcliff et Catherine Earnshaw ?",
+      "options": [
+        "A — Middlemarch",
+        "B — Jane Eyre",
+        "C — Wuthering Heights",
+        "D — The Tenant of Wildfell Hall"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-03",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Dans quelle chaîne de montagnes Jonathan Harker rejoint-il le château de Dracula ?",
+      "options": [
+        "A — Les Carpates",
+        "B — Les Alpes",
+        "C — Les Pyrénées",
+        "D — L’Oural"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-04",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de William Golding met en scène des garçons isolés sur une île et la dégradation de leur société ?",
+      "options": [
+        "A — Lord of the Flies",
+        "B — Brave New World",
+        "C — The Catcher in the Rye",
+        "D — 1984"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-05",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel événement Clarissa prépare-t-elle au cours de la journée racontée dans Mrs Dalloway ?",
+      "options": [
+        "A — Un mariage",
+        "B — Une réception en soirée",
+        "C — Une exposition",
+        "D — Des funérailles"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-06",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel poème épique de Milton raconte la chute de Satan et l’expulsion d’Adam et Ève de l’Éden ?",
+      "options": [
+        "A — The Canterbury Tales",
+        "B — The Prelude",
+        "C — Paradise Lost",
+        "D — The Faerie Queene"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-07",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Vers quelle région Robert Walton se dirige-t-il dans les lettres qui encadrent Frankenstein ?",
+      "options": [
+        "A — L’Afrique centrale",
+        "B — Le pôle Nord",
+        "C — L’Amazonie",
+        "D — Les mers du Sud"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-08",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Huxley décrit un État mondial où la population consomme une drogue appelée soma ?",
+      "options": [
+        "A — Animal Farm",
+        "B — The Time Machine",
+        "C — Fahrenheit 451",
+        "D — Brave New World"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-09",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel roman de Jane Austen raconte les retrouvailles d’Anne Elliot avec le capitaine Wentworth ?",
+      "options": [
+        "A — Persuasion",
+        "B — Mansfield Park",
+        "C — Northanger Abbey",
+        "D — Sense and Sensibility"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "culture-qcm-anglophone-oeuvres-20261010-10",
+      "category": "Littérature britannique et irlandaise — Œuvres : choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel recueil de Chaucer met en scène un concours de récits entre pèlerins en route vers Canterbury ?",
+      "options": [
+        "A — Sir Gawain and the Green Knight",
+        "B — Le Morte Darthur",
+        "C — Decameron",
+        "D — The Canterbury Tales"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

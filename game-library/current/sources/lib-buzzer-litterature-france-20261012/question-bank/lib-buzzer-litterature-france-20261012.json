@@ -1,0 +1,73 @@
+{
+  "category": "Littérature française — Romans et personnages — Buzzer",
+  "subject": "Littérature",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-litterature-france-20261012-01",
+      "category": "Littérature française — Romans et personnages — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel ancien forçat est le héros des Misérables ?",
+      "acceptableAnswers": [
+        "Jean Valjean"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-litterature-france-20261012-02",
+      "category": "Littérature française — Romans et personnages — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel auteur raconte les aventures du capitaine Nemo ?",
+      "acceptableAnswers": [
+        "Jules Verne"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-litterature-france-20261012/submarine.png"
+    },
+    {
+      "id": "lib-buzzer-litterature-france-20261012-03",
+      "category": "Littérature française — Romans et personnages — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel héros de Dumas arrive de Gascogne pour devenir mousquetaire ?",
+      "acceptableAnswers": [
+        "d’Artagnan"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-litterature-france-20261012-04",
+      "category": "Littérature française — Romans et personnages — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel prince de Saint-Exupéry vient de l’astéroïde B-612 ?",
+      "acceptableAnswers": [
+        "Le Petit Prince"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-litterature-france-20261012/space.png"
+    },
+    {
+      "id": "lib-buzzer-litterature-france-20261012-05",
+      "category": "Littérature française — Romans et personnages — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel personnage de Dumas est aussi Edmond Dantès ?",
+      "acceptableAnswers": [
+        "Le Comte de Monte-Cristo",
+        "Comte de Monte-Cristo"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

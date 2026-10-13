@@ -1,0 +1,32 @@
+# Local configuration and IDE caches
+*.iml
+.gradle/
+.kotlin/
+.idea/
+/local.properties
+.DS_Store
+Thumbs.db
+/captures/
+.externalNativeBuild/
+.cxx/
+__pycache__/
+*.pyc
+
+# Compiled app output
+/app/build/
+*.apk
+*.aab
+*.jks
+*.keystore
+.env
+.env.*
+
+# This project's authoring and verification scripts live in build/.
+# Preserve those sources, while excluding generated previews, caches and logs.
+/build/*
+!/build/*.py
+!/build/*.cjs
+!/build/*.ps1
+!/build/answer-reactions.json
+!/build/library-image-keys.json
+!/build/PLAYTEST-*.md

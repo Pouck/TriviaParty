@@ -1,0 +1,87 @@
+{
+  "category": "Cuisine — Plats célèbres — QCM",
+  "subject": "Cuisine",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-cuisine-celebre-20261012-01",
+      "category": "Cuisine — Plats célèbres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel plat italien est représenté ici ?",
+      "options": [
+        "A — Une paella",
+        "B — Une pizza",
+        "C — Un couscous",
+        "D — Un sushi"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/lib-qcm-cuisine-celebre-20261012/pizza.jpg"
+    },
+    {
+      "id": "lib-qcm-cuisine-celebre-20261012-02",
+      "category": "Cuisine — Plats célèbres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel ingrédient forme la base du guacamole ?",
+      "options": [
+        "A — La courgette",
+        "B — Le concombre",
+        "C — L’avocat",
+        "D — Le pois chiche"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-cuisine-celebre-20261012-03",
+      "category": "Cuisine — Plats célèbres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel plat québécois combine frites, fromage en grains et sauce ?",
+      "options": [
+        "A — La poutine",
+        "B — La tourtière",
+        "C — Le pâté chinois",
+        "D — La cipaille"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-cuisine-celebre-20261012-04",
+      "category": "Cuisine — Plats célèbres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel plat japonais est associé au riz vinaigré ?",
+      "options": [
+        "A — Le sushi",
+        "B — Le couscous",
+        "C — Le risotto",
+        "D — Le chili"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-cuisine-celebre-20261012/sushi.jpg"
+    },
+    {
+      "id": "lib-qcm-cuisine-celebre-20261012-05",
+      "category": "Cuisine — Plats célèbres — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel ingrédient est la base traditionnelle du houmous ?",
+      "options": [
+        "A — Le maïs",
+        "B — La pomme de terre",
+        "C — Le haricot rouge",
+        "D — Le pois chiche"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

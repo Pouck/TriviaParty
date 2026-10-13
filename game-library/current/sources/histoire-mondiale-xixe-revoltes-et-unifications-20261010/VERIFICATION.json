@@ -1,0 +1,51 @@
+[
+  {
+    "question": 1,
+    "questionId": "monde-xixe-revoltes-et-unifications-04-20261010",
+    "originalPackage": "histoire-mondiale-xixe-revoltes-et-unifications-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "monde-xxe-conflits-et-transformations-01-20261010",
+    "originalPackage": "histoire-mondiale-xxe-conflits-et-transformations-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "monde-xxe-conflits-et-transformations-02-20261010",
+    "originalPackage": "histoire-mondiale-xxe-conflits-et-transformations-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "monde-xxe-conflits-et-transformations-03-20261010",
+    "originalPackage": "histoire-mondiale-xxe-conflits-et-transformations-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "monde-xxe-conflits-et-transformations-04-20261010",
+    "originalPackage": "histoire-mondiale-xxe-conflits-et-transformations-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "monde-xxe-guerres-et-reformes-01-20261010",
+    "originalPackage": "histoire-mondiale-xxe-guerres-et-reformes-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 7,
+    "questionId": "monde-xxe-guerres-et-reformes-02-20261010",
+    "originalPackage": "histoire-mondiale-xxe-guerres-et-reformes-20261010",
+    "reference": {},
+    "new": false
+  }
+]

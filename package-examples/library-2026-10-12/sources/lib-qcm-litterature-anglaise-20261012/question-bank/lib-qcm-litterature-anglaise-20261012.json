@@ -1,0 +1,87 @@
+{
+  "category": "Littérature anglophone — Classiques — QCM",
+  "subject": "Littérature",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-litterature-anglaise-20261012-01",
+      "category": "Littérature anglophone — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a écrit Pride and Prejudice ?",
+      "options": [
+        "A — Jane Austen",
+        "B — Virginia Woolf",
+        "C — Mary Shelley",
+        "D — Charlotte Brontë"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-litterature-anglaise-20261012-02",
+      "category": "Littérature anglophone — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel auteur a créé Sherlock Holmes ?",
+      "options": [
+        "A — Agatha Christie",
+        "B — Oscar Wilde",
+        "C — Charles Dickens",
+        "D — Arthur Conan Doyle"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/magnifier.png"
+    },
+    {
+      "id": "lib-qcm-litterature-anglaise-20261012-03",
+      "category": "Littérature anglophone — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans quel roman trouve-t-on le capitaine Crochet ?",
+      "options": [
+        "A — Jane Eyre",
+        "B — Dracula",
+        "C — Peter Pan",
+        "D — Alice’s Adventures in Wonderland"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-litterature-anglaise-20261012-04",
+      "category": "Littérature anglophone — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel auteur a écrit Animal Farm ?",
+      "options": [
+        "A — Aldous Huxley",
+        "B — George Orwell",
+        "C — William Golding",
+        "D — H. G. Wells"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/pig.jpg"
+    },
+    {
+      "id": "lib-qcm-litterature-anglaise-20261012-05",
+      "category": "Littérature anglophone — Classiques — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui a écrit Frankenstein ?",
+      "options": [
+        "A — Emily Brontë",
+        "B — George Eliot",
+        "C — Bram Stoker",
+        "D — Mary Shelley"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

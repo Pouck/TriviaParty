@@ -1,0 +1,85 @@
+{
+  "category": "Canada — Guerres et relations internationales — QCM — 1",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-01",
+      "category": "Canada — Guerres et relations internationales — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Lors de quelle bataille d’avril 1917 les Canadiens avancent-ils derrière un barrage roulant d’artillerie ?",
+      "options": [
+        "A — La deuxième bataille d’Ypres",
+        "B — Passchendaele",
+        "C — La crête de Vimy",
+        "D — La Somme"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-02",
+      "category": "Canada — Guerres et relations internationales — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle loi adoptée en 1917 sous Robert Borden impose la conscription ?",
+      "options": [
+        "A — La Loi des élections en temps de guerre",
+        "B — La Loi du service militaire",
+        "C — La Loi sur les mesures de guerre",
+        "D — La Loi du service naval"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-03",
+      "category": "Canada — Guerres et relations internationales — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Pendant quel conflit les Canadiens combattent-ils à Kapelsche Veer et participent-ils à la libération des Pays-Bas en 1945 ?",
+      "options": [
+        "A — La Seconde Guerre mondiale",
+        "B — La guerre de Corée",
+        "C — La guerre du Golfe",
+        "D — La Première Guerre mondiale"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-04",
+      "category": "Canada — Guerres et relations internationales — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quel texte de 1931 reconnaît l’autonomie législative du Canada, tout en laissant certaines modifications constitutionnelles à Londres ?",
+      "options": [
+        "A — Le Statut de Westminster",
+        "B — La Loi de 1982 sur le Canada",
+        "C — La Déclaration Balfour",
+        "D — L’Acte de l’Amérique du Nord britannique"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-qcm-international-20261011-05",
+      "category": "Canada — Guerres et relations internationales — QCM — 1",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle voie navigable canado-américaine inaugurée en 1959 relie Montréal au lac Érié ?",
+      "options": [
+        "A — Le canal Welland seul",
+        "B — Le canal Rideau",
+        "C — La Voie navigable transcanadienne",
+        "D — La Voie maritime du Saint-Laurent"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

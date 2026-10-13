@@ -1,0 +1,26 @@
+﻿Forfait;ID;Question;A;B;C;D;Réponse
+Histoire du jeu vidéo;q1;En quelle année la NES sort-elle en Amérique du Nord ?;A — 1985;B — 1989;C — 1987;D — 1983;A — 1985
+Histoire du jeu vidéo;q2;Qui a créé Mario ?;A — Hideo Kojima;B — Gabe Newell;C — Satoru Iwata;D — Shigeru Miyamoto;D — Shigeru Miyamoto
+Histoire du jeu vidéo;q6;Quel jeu de blocs est célèbre sur Game Boy ?;A — Tetris;B — Pokémon Rouge et Bleu;C — Super Mario Land;D — Donkey Kong;A — Tetris
+Histoire du jeu vidéo;q7;Quelle console de salon est commercialisée en 1972 ?;A — ColecoVision;B — Magnavox Odyssey;C — Fairchild Channel F;D — Atari 2600;B — Magnavox Odyssey
+Histoire du jeu vidéo;q8;En quelle année sort la version complète de Minecraft ?;A — 2010;B — 2009;C — 2011;D — 2012;C — 2011
+Culture populaire;q4;Classez ces consoles selon leur sortie.;A — Nintendo Switch → Xbox 360 → PlayStation 2 → Nintendo 64;B — Nintendo 64 → PlayStation 2 → Xbox 360 → Nintendo Switch;C — Nintendo 64 → PlayStation 2 → Nintendo Switch → Xbox 360;D — PlayStation 2 → Nintendo 64 → Xbox 360 → Nintendo Switch;B — Nintendo 64 → PlayStation 2 → Xbox 360 → Nintendo Switch
+Culture populaire;q13;Quel film de James Cameron se déroule sur Pandora ?;A — Avengers: Endgame;B — Titanic;C — Star Wars: Le Réveil de la Force;D — Avatar;D — Avatar
+Culture populaire;q14;Quel groupe a enregistré Bohemian Rhapsody ?;A — The Rolling Stones;B — The Beatles;C — Queen;D — Led Zeppelin;C — Queen
+Culture populaire;q15;Quel super-héros est Tony Stark ?;A — Iron Man;B — Thor;C — Captain America;D — Spider-Man;A — Iron Man
+Culture populaire;q16;Quel artiste chante Blinding Lights ?;A — Justin Timberlake;B — The Weeknd;C — Usher;D — Bruno Mars;B — The Weeknd
+Sciences et technologie;q5;Quel langage informatique porte le nom d’une île indonésienne ?;A — Java;B — C++;C — JavaScript;D — Python;A — Java
+Sciences et technologie;q17;Quel est le symbole chimique de l’or ?;A — Fe;B — Au;C — Gd;D — Ag;B — Au
+Sciences et technologie;q18;Quelle entreprise a créé l’iPhone ?;A — Amazon;B — Google;C — Apple;D — Microsoft;C — Apple
+Sciences et technologie;q19;Comment appelle-t-on le passage de l’eau liquide à la glace ?;A — L’évaporation;B — La fusion;C — La sublimation;D — La solidification;D — La solidification
+Sciences et technologie;q20;Quelle planète est la plus proche du Soleil ?;A — La Terre;B — Mars;C — Mercure;D — Vénus;C — Mercure
+Cartes de jeux vidéo;q21;Quel jeu construit ses paysages avec des blocs ?;A — Minecraft;B — Portal;C — Fortnite;D — Tetris;A — Minecraft
+Cartes de jeux vidéo;q22;Quel royaume est au centre de The Legend of Zelda ?;A — Tamriel;B — Le Royaume Champignon;C — Midgar;D — Hyrule;D — Hyrule
+Cartes de jeux vidéo;q23;Dans quel jeu peut-on construire pendant un Battle Royale ?;A — Overwatch;B — Rocket League;C — Gran Turismo;D — Fortnite;D — Fortnite
+Cartes de jeux vidéo;q24;Classez ces jeux selon leur première sortie.;A — Pokémon Rouge/Bleu → Elden Ring → Skyrim;B — Skyrim → Pokémon Rouge/Bleu → Elden Ring;C — Pokémon Rouge/Bleu → Skyrim → Elden Ring;D — Elden Ring → Skyrim → Pokémon Rouge/Bleu;C — Pokémon Rouge/Bleu → Skyrim → Elden Ring
+Cartes de jeux vidéo;q25;Quelle ville est au centre de Cyberpunk 2077 ?;A — Raccoon City;B — Night City;C — Gotham City;D — Neo-Tokyo;B — Night City
+Géographie mondiale;q3;Dans quel pays se trouve ce monument ?;A — La France;B — Le Brésil;C — L’Italie;D — Le Japon;A — La France
+Géographie mondiale;q9;Quelle est la capitale de l’Australie ?;A — Melbourne;B — Sydney;C — Brisbane;D — Canberra;D — Canberra
+Géographie mondiale;q10;Quel est le plus grand pays par superficie totale ?;A — Les États-Unis;B — La Russie;C — Le Canada;D — Le Brésil;B — La Russie
+Géographie mondiale;q11;Quel fleuve traverse Le Caire ?;A — Le Nil;B — L’Amazone;C — Le Yangtsé;D — Le Mississippi;A — Le Nil
+Géographie mondiale;q12;Quelle chaîne de montagnes contient l’Everest ?;A — L’Atlas;B — Les Alpes;C — L’Himalaya;D — Les Andes;C — L’Himalaya

@@ -1,0 +1,103 @@
+{
+  "category": "Arts — Œuvres et artistes — QCM",
+  "subject": "Arts",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-07",
+      "category": "Arts — Œuvres et artistes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel artiste japonais a créé cette célèbre estampe ?",
+      "options": [
+        "A — Hokusai",
+        "B — Hiroshige",
+        "C — Sesshū",
+        "D — Utamaro"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/arts-qcm-couleurs-mouvements-20261011/vague.jpg"
+    },
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-08",
+      "category": "Arts — Œuvres et artistes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel peintre est célèbre pour ses tableaux de Tournesols en vase ?",
+      "options": [
+        "A — Vincent van Gogh",
+        "B — Henri Rousseau",
+        "C — Paul Cézanne",
+        "D — Georges Seurat"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-07",
+      "category": "Arts — Œuvres et artistes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel est le titre de ce tableau de Vermeer ?",
+      "options": [
+        "A — La Femme à la balance",
+        "B — La Laitière",
+        "C — La Jeune Fille à la perle",
+        "D — La Dentellière"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/arts-qcm-peintures-classiques-20261011/perle.jpg"
+    },
+    {
+      "id": "arts-qcm-peintures-classiques-20261011-08",
+      "category": "Arts — Œuvres et artistes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans La Naissance de Vénus, la déesse se tient sur quel objet ?",
+      "options": [
+        "A — Un char",
+        "B — Une coquille",
+        "C — Un trône",
+        "D — Une amphore"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "arts-qcm-sculptures-iconiques-20261011-07",
+      "category": "Arts — Œuvres et artistes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui est l’auteur de cette sculpture appelée Le Penseur ?",
+      "options": [
+        "A — Camille Claudel",
+        "B — Auguste Rodin",
+        "C — Aristide Maillol",
+        "D — Antoine Bourdelle"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/arts-qcm-sculptures-iconiques-20261011/penseur.jpg"
+    },
+    {
+      "id": "arts-qcm-sculptures-iconiques-20261011-08",
+      "category": "Arts — Œuvres et artistes — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "En quel matériau est le David de Donatello coiffé d’un chapeau ?",
+      "options": [
+        "A — Terre cuite",
+        "B — Bois",
+        "C — Marbre",
+        "D — Bronze"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

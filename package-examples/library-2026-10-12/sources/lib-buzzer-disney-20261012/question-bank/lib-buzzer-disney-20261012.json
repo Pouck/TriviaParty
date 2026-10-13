@@ -1,0 +1,73 @@
+{
+  "category": "Disney — Animation — Buzzer",
+  "subject": "Cinéma",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-disney-20261012-01",
+      "category": "Disney — Animation — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle princesse perd une pantoufle de verre ?",
+      "acceptableAnswers": [
+        "Cendrillon"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-disney-20261012-02",
+      "category": "Disney — Animation — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel personnage de La Reine des neiges est un bonhomme de neige ?",
+      "acceptableAnswers": [
+        "Olaf"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/snowman.png"
+    },
+    {
+      "id": "lib-buzzer-disney-20261012-03",
+      "category": "Disney — Animation — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel petit garçon de bois souhaite devenir un vrai garçon ?",
+      "acceptableAnswers": [
+        "Pinocchio"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-disney-20261012-04",
+      "category": "Disney — Animation — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel phacochère accompagne Timon dans Le Roi lion ?",
+      "acceptableAnswers": [
+        "Pumbaa"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/warthog.jpg"
+    },
+    {
+      "id": "lib-buzzer-disney-20261012-05",
+      "category": "Disney — Animation — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle navigatrice de Disney voyage avec Maui ?",
+      "acceptableAnswers": [
+        "Vaiana",
+        "Moana"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

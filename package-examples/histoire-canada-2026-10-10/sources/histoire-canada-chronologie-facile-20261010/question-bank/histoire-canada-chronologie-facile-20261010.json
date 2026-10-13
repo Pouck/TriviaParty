@@ -1,0 +1,84 @@
+{
+  "category": "Histoire du Canada - Chronologie facile",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-facile-20261010-01",
+      "category": "Histoire du Canada - Chronologie facile",
+      "prompt": "Quel ordre va du plus ancien au plus récent pour les explorations et la fondation de Québec ?\n• Fondation de Québec par Champlain\n• Voyage de Jean Cabot en Amérique du Nord\n• Premier voyage de Jacques Cartier",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Cartier → Cabot → Champlain",
+        "B — Cabot → Cartier → Champlain",
+        "C — Cabot → Champlain → Cartier",
+        "D — Champlain → Cabot → Cartier"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-facile-20261010-02",
+      "category": "Histoire du Canada - Chronologie facile",
+      "prompt": "Quel ordre va du plus ancien au plus récent pour les conflits et traités du XVIIIe siècle ?\n• Signature du traité de Paris\n• Début de la Déportation des Acadiens\n• Bataille des plaines d’Abraham",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Déportation des Acadiens → Plaines d’Abraham → Traité de Paris",
+        "B — Traité de Paris → Déportation des Acadiens → Plaines d’Abraham",
+        "C — Plaines d’Abraham → Déportation des Acadiens → Traité de Paris",
+        "D — Déportation des Acadiens → Traité de Paris → Plaines d’Abraham"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-facile-20261010-03",
+      "category": "Histoire du Canada - Chronologie facile",
+      "prompt": "Quel ordre va du plus ancien au plus récent pour les étapes vers la Confédération ?\n• Entrée en vigueur de l’Acte de l’Amérique du Nord britannique\n• Rébellions du Haut et du Bas-Canada\n• Conférence de Charlottetown",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Rébellions → Charlottetown → Confédération",
+        "B — Charlottetown → Confédération → Rébellions",
+        "C — Rébellions → Confédération → Charlottetown",
+        "D — Charlottetown → Rébellions → Confédération"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-facile-20261010-04",
+      "category": "Histoire du Canada - Chronologie facile",
+      "prompt": "Quel ordre va du plus ancien au plus récent pour l’expansion vers l’Ouest ?\n• Découverte d’or au Klondike\n• Résistance de la Rivière-Rouge\n• Pose du dernier crampon du chemin de fer Canadien Pacifique",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Rivière-Rouge → Or au Klondike → Dernier crampon",
+        "B — Or au Klondike → Rivière-Rouge → Dernier crampon",
+        "C — Dernier crampon → Rivière-Rouge → Or au Klondike",
+        "D — Rivière-Rouge → Dernier crampon → Or au Klondike"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-facile-20261010-05",
+      "category": "Histoire du Canada - Chronologie facile",
+      "prompt": "Quel ordre va du plus ancien au plus récent pour les symboles et institutions du Canada ?\n• Rapatriement de la Constitution et entrée en vigueur de la Charte\n• Entrée en vigueur de la Loi sur la citoyenneté canadienne\n• Inauguration du drapeau à la feuille d’érable",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Citoyenneté canadienne → Rapatriement → Drapeau à la feuille d’érable",
+        "B — Rapatriement → Citoyenneté canadienne → Drapeau à la feuille d’érable",
+        "C — Citoyenneté canadienne → Drapeau à la feuille d’érable → Rapatriement",
+        "D — Drapeau à la feuille d’érable → Citoyenneté canadienne → Rapatriement"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

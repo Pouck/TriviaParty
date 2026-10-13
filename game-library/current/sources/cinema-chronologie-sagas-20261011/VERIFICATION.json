@@ -1,0 +1,84 @@
+[
+  {
+    "question": 1,
+    "questionId": "cinema-chronologie-sagas-20261011-01",
+    "originalPackage": "cinema-chronologie-sagas-20261011",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.lucasfilm.com/who-we-are/our-story/"
+      ],
+      "note": "Premières sorties originales en salles ; pas les rééditions, remakes ni la chronologie interne du récit. Corrigé : Raiders of the Lost Ark (1981) → Indiana Jones and the Temple of Doom (1984) → Indiana Jones and the Last Crusade (1989)"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "cinema-chronologie-sagas-20261011-02",
+    "originalPackage": "cinema-chronologie-sagas-20261011",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.007.com/page/57/?cat=missions&id=drno"
+      ],
+      "note": "Premières sorties originales en salles ; pas les rééditions, remakes ni la chronologie interne du récit. Corrigé : Casino Royale (2006) → Skyfall (2012) → Spectre (2015)"
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "cinema-chronologie-sagas-20261011-03",
+    "originalPackage": "cinema-chronologie-sagas-20261011",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://d23.com/list-of-disney-films/",
+        "https://www.pixar.com/our-story"
+      ],
+      "note": "Premières sorties originales en salles ; pas les rééditions, remakes ni la chronologie interne du récit. Corrigé : Toy Story (1995) → Finding Nemo (2003) → Inside Out (2015)"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "cinema-chronologie-sagas-20261011-04",
+    "originalPackage": "cinema-chronologie-sagas-20261011",
+    "reference": {
+      "question": 4,
+      "sources": [
+        "https://www.harrypotter.com/discover/films",
+        "https://www.bfi.org.uk/film/ff6fde32-6103-533b-96d5-214a6820eeb8/harry-potter-and-the-goblet-of-fire",
+        "https://www.bfi.org.uk/film/b20515b2-b16c-5b81-8aed-6c39e514e889/harry-potter-and-the-deathly-hallows-part-2"
+      ],
+      "note": "Premières sorties originales en salles ; pas les rééditions, remakes ni la chronologie interne du récit. Corrigé : Harry Potter à l’école des sorciers (2001) → Harry Potter et la Coupe de feu (2005) → Harry Potter et les Reliques de la Mort — Partie 2 (2011)"
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "cinema-chronologie-sagas-20261011-05",
+    "originalPackage": "cinema-chronologie-sagas-20261011",
+    "reference": {
+      "question": 5,
+      "sources": [
+        "https://www.bfi.org.uk/lists/remembering-ian-holm-10-essential-films",
+        "https://www.bfi.org.uk/film/83919a25-6bb5-5866-bef4-3249172e8b9a/the-lord-of-the-rings-the-two-towers"
+      ],
+      "note": "Premières sorties originales en salles ; pas les rééditions, remakes ni la chronologie interne du récit. Corrigé : La Communauté de l’anneau (2001) → Les Deux Tours (2002) → Le Retour du roi (2003)"
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "cinema-chronologie-sagas-20261011-06",
+    "originalPackage": "cinema-chronologie-sagas-20261011",
+    "reference": {
+      "question": 6,
+      "sources": [
+        "https://www.starwars.com/news/star-wars-movies-and-series-guide"
+      ],
+      "note": "Premières sorties originales en salles ; pas les rééditions, remakes ni la chronologie interne du récit. Corrigé : A New Hope (1977) → The Empire Strikes Back (1980) → Return of the Jedi (1983)"
+    },
+    "new": false
+  }
+]

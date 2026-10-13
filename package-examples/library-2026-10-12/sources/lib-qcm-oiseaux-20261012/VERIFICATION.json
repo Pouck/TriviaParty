@@ -1,0 +1,47 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.allaboutbirds.org/guide/",
+      "https://nationalzoo.si.edu/animals/birds"
+    ],
+    "note": "",
+    "visual": "toucan"
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.allaboutbirds.org/guide/",
+      "https://nationalzoo.si.edu/animals/birds"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.allaboutbirds.org/guide/",
+      "https://nationalzoo.si.edu/animals/birds"
+    ],
+    "note": "",
+    "visual": "peacock"
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.allaboutbirds.org/guide/",
+      "https://nationalzoo.si.edu/animals/birds"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.allaboutbirds.org/guide/",
+      "https://nationalzoo.si.edu/animals/birds"
+    ],
+    "note": "",
+    "visual": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "question": 1,
+    "questionId": "culture-qsj-litterature-americaine-oeuvres-20261010-01",
+    "originalPackage": "culture-qsj-litterature-americaine-oeuvres-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "culture-qsj-litterature-americaine-oeuvres-20261010-02",
+    "originalPackage": "culture-qsj-litterature-americaine-oeuvres-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "culture-qsj-litterature-americaine-personnages-20261010-01",
+    "originalPackage": "culture-qsj-litterature-americaine-personnages-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "culture-qsj-litterature-americaine-personnages-20261010-02",
+    "originalPackage": "culture-qsj-litterature-americaine-personnages-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-qsj-litterature-americaine-20261012-03",
+    "originalPackage": "lib-qsj-litterature-americaine-20261012",
+    "reference": {
+      "question": 3,
+      "sources": [
+        "https://www.loc.gov/",
+        "https://www.gutenberg.org/ebooks/2701",
+        "https://www.gutenberg.org/ebooks/64317",
+        "https://www.pulitzer.org/winners/harper-lee"
+      ],
+      "note": "",
+      "visual": null
+    },
+    "new": false
+  }
+]

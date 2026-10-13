@@ -1,0 +1,100 @@
+{
+  "category": "Cuisine — Plats célèbres — Qui suis-je ?",
+  "subject": "Cuisine",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-cuisine-celebre-20261012-01",
+      "category": "Cuisine — Plats célèbres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis associée au Québec.",
+        "Ma sauce est souvent brune.",
+        "Je contiens du fromage en grains.",
+        "Je réunis ce fromage, la sauce et des frites."
+      ],
+      "acceptableAnswers": [
+        "La poutine",
+        "Poutine"
+      ]
+    },
+    {
+      "id": "lib-qsj-cuisine-celebre-20261012-02",
+      "category": "Cuisine — Plats célèbres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je viens du Japon.",
+        "Je ne contiens pas toujours de poisson cru.",
+        "Mon riz est vinaigré.",
+        "Je suis servi en bouchées, parfois entourées d’algue."
+      ],
+      "acceptableAnswers": [
+        "Le sushi",
+        "Sushi"
+      ]
+    },
+    {
+      "id": "lib-qsj-cuisine-celebre-20261012-03",
+      "category": "Cuisine — Plats célèbres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis célèbre dans la cuisine italienne.",
+        "Je suis cuite au four.",
+        "Une pâte porte ma garniture.",
+        "Tomate et mozzarella me composent souvent."
+      ],
+      "acceptableAnswers": [
+        "La pizza",
+        "Pizza"
+      ]
+    },
+    {
+      "id": "lib-qsj-cuisine-celebre-20261012-04",
+      "category": "Cuisine — Plats célèbres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un plat des cuisines du Maghreb.",
+        "Je peux accompagner viande ou légumes.",
+        "Mon élément central est constitué de petits grains.",
+        "Ces grains sont généralement faits de semoule."
+      ],
+      "acceptableAnswers": [
+        "Le couscous",
+        "Couscous"
+      ]
+    },
+    {
+      "id": "lib-qsj-cuisine-celebre-20261012-05",
+      "category": "Cuisine — Plats célèbres — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un dessert italien.",
+        "Je contiens souvent du mascarpone.",
+        "Le café imbibe mes biscuits.",
+        "On saupoudre généralement mon dessus de cacao."
+      ],
+      "acceptableAnswers": [
+        "Le tiramisu",
+        "Tiramisu"
+      ]
+    }
+  ]
+}

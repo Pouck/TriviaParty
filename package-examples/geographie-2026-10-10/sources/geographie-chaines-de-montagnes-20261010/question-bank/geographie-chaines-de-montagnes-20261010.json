@@ -1,0 +1,99 @@
+{
+  "category": "Géographie - Chaînes de montagnes",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "geo-chaines-de-montagnes-20261010-01",
+      "category": "Géographie - Chaînes de montagnes",
+      "prompt": "Quelle chaîne montagneuse parcourt la péninsule italienne et en constitue la « colonne vertébrale » ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Dolomites",
+        "B — Alpes",
+        "C — Pyrénées",
+        "D — Apennins"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-chaines-de-montagnes-20261010-02",
+      "category": "Géographie - Chaînes de montagnes",
+      "prompt": "Quelle chaîne de montagnes forme une frontière naturelle entre la France et l’Espagne ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Pyrénées",
+        "B — Alpes",
+        "C — Massif central",
+        "D — Vosges"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-chaines-de-montagnes-20261010-03",
+      "category": "Géographie - Chaînes de montagnes",
+      "prompt": "Quelle chaîne montagneuse russe, située au nord de la mer Caspienne, marque traditionnellement la limite entre l’Europe et l’Asie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Altaï",
+        "B — Oural",
+        "C — Carpates",
+        "D — Caucase"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-chaines-de-montagnes-20261010-04",
+      "category": "Géographie - Chaînes de montagnes",
+      "prompt": "Quelle chaîne de montagnes se dresse à l’ouest de Denver, dans le Colorado ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Chaîne des Cascades",
+        "B — Appalaches",
+        "C — Montagnes Rocheuses",
+        "D — Sierra Nevada"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-chaines-de-montagnes-20261010-05",
+      "category": "Géographie - Chaînes de montagnes",
+      "prompt": "Quelle cordillère longe l’ouest de l’Amérique du Sud et traverse notamment le Pérou et la Colombie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Himalaya",
+        "B — Andes",
+        "C — Sierras de Córdoba",
+        "D — Atlas"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-chaines-de-montagnes-20261010-06",
+      "category": "Géographie - Chaînes de montagnes",
+      "prompt": "Dans quelle chaîne de montagnes se trouve le mont Blanc, visible depuis Genève par temps clair ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Vosges",
+        "B — Jura",
+        "C — Forêt-Noire",
+        "D — Alpes"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

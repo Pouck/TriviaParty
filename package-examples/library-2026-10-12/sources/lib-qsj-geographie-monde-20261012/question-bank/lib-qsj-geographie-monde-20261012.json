@@ -1,0 +1,101 @@
+{
+  "category": "Géographie mondiale — Reliefs et océans — Qui suis-je ?",
+  "subject": "Géographie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-geographie-monde-20261012-01",
+      "category": "Géographie mondiale — Reliefs et océans — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je couvre une grande partie du nord de l’Afrique.",
+        "Mon climat est très aride.",
+        "Je ne suis pas le plus grand désert si l’on compte les déserts polaires.",
+        "Je suis le plus grand désert chaud."
+      ],
+      "acceptableAnswers": [
+        "Le Sahara",
+        "Sahara"
+      ]
+    },
+    {
+      "id": "lib-qsj-geographie-monde-20261012-02",
+      "category": "Géographie mondiale — Reliefs et océans — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une chaîne de montagnes.",
+        "Je traverse notamment le Pérou et le Chili.",
+        "Je longe l’ouest de l’Amérique du Sud.",
+        "Mon nom est celui de sa grande cordillère."
+      ],
+      "acceptableAnswers": [
+        "Les Andes",
+        "Andes",
+        "Cordillère des Andes"
+      ]
+    },
+    {
+      "id": "lib-qsj-geographie-monde-20261012-03",
+      "category": "Géographie mondiale — Reliefs et océans — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un pays insulaire d’Asie.",
+        "Honshū est ma plus grande île.",
+        "Le mont Fuji est mon sommet emblématique.",
+        "Ma capitale est Tokyo."
+      ],
+      "acceptableAnswers": [
+        "Le Japon",
+        "Japon"
+      ]
+    },
+    {
+      "id": "lib-qsj-geographie-monde-20261012-04",
+      "category": "Géographie mondiale — Reliefs et océans — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un pays de l’hémisphère Sud.",
+        "Je suis célèbre pour mes marsupiaux.",
+        "Sydney abrite mon célèbre opéra.",
+        "Ma capitale est Canberra."
+      ],
+      "acceptableAnswers": [
+        "L’Australie",
+        "Australie"
+      ]
+    },
+    {
+      "id": "lib-qsj-geographie-monde-20261012-05",
+      "category": "Géographie mondiale — Reliefs et océans — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un continent couvert en grande partie de glace.",
+        "Des équipes scientifiques y séjournent.",
+        "Le pôle Sud se trouve sur mon territoire.",
+        "Je suis le continent situé le plus au sud."
+      ],
+      "acceptableAnswers": [
+        "L’Antarctique",
+        "Antarctique"
+      ]
+    }
+  ]
+}

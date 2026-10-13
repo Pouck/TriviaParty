@@ -1,0 +1,95 @@
+{
+  "category": "Le cycle de la Table ronde — Qui suis-je ?",
+  "subject": "Contes et légendes",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-table-ronde-20261012-01",
+      "category": "Le cycle de la Table ronde — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je connais des secrets et des prophéties.",
+        "J’aide à préparer le règne d’un jeune souverain.",
+        "Je conseille Arthur.",
+        "Je suis l’enchanteur de la légende arthurienne."
+      ],
+      "acceptableAnswers": [
+        "Merlin"
+      ]
+    },
+    {
+      "id": "lib-qsj-table-ronde-20261012-02",
+      "category": "Le cycle de la Table ronde — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un chevalier de la Table ronde.",
+        "Mon fils est Galahad.",
+        "J’aime la reine Guenièvre.",
+        "Mon surnom est « du Lac »."
+      ],
+      "acceptableAnswers": [
+        "Lancelot"
+      ]
+    },
+    {
+      "id": "lib-qsj-table-ronde-20261012-03",
+      "category": "Le cycle de la Table ronde — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis au centre d’une quête spirituelle.",
+        "Plusieurs chevaliers tentent de me retrouver.",
+        "Je suis souvent représenté comme une coupe sacrée.",
+        "Je suis l’objet recherché par les chevaliers de la Table ronde."
+      ],
+      "acceptableAnswers": [
+        "Le Graal"
+      ]
+    },
+    {
+      "id": "lib-qsj-table-ronde-20261012-04",
+      "category": "Le cycle de la Table ronde — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je rassemble de célèbres chevaliers.",
+        "Ma cour est associée à Camelot.",
+        "Guenièvre est mon épouse.",
+        "Je suis le roi de la Table ronde."
+      ],
+      "acceptableAnswers": [
+        "Arthur"
+      ]
+    },
+    {
+      "id": "lib-qsj-table-ronde-20261012-05",
+      "category": "Le cycle de la Table ronde — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un objet lié à la royauté légendaire.",
+        "La Dame du Lac m’est associée dans plusieurs versions.",
+        "Arthur me porte au combat.",
+        "Je suis son épée célèbre."
+      ],
+      "acceptableAnswers": [
+        "Excalibur"
+      ]
+    }
+  ]
+}

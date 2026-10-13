@@ -1,0 +1,145 @@
+{
+  "category": "Révolution française — Chronologie",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "kind": "ordering",
+      "id": "revolution-chronologie-20261010-01",
+      "category": "Révolution française — Chronologie",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Serment du Jeu de paume"
+        },
+        {
+          "id": "item-1",
+          "text": "Marche des femmes sur Versailles"
+        },
+        {
+          "id": "item-2",
+          "text": "Prise de la Bastille"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "revolution-chronologie-20261010-02",
+      "category": "Révolution française — Chronologie",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Exécution de Louis XVI"
+        },
+        {
+          "id": "item-1",
+          "text": "Abolition de la royauté"
+        },
+        {
+          "id": "item-2",
+          "text": "Fuite à Varennes"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-1",
+        "item-0"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "revolution-chronologie-20261010-03",
+      "category": "Révolution française — Chronologie",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Danton"
+        },
+        {
+          "id": "item-1",
+          "text": "Robespierre"
+        },
+        {
+          "id": "item-2",
+          "text": "Marie-Antoinette"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "kind": "ordering",
+      "id": "revolution-chronologie-20261010-04",
+      "category": "Révolution française — Chronologie",
+      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Sacre de Napoléon"
+        },
+        {
+          "id": "item-1",
+          "text": "Mise en place du Directoire"
+        },
+        {
+          "id": "item-2",
+          "text": "Coup d’État du 18 Brumaire"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "id": "resize-20261012-jalons-1789",
+      "kind": "ordering",
+      "category": "Révolution française — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Classez ces événements de 1789.",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Ouverture des États généraux"
+        },
+        {
+          "id": "item-1",
+          "text": "Déclaration des droits de l’homme et du citoyen"
+        },
+        {
+          "id": "item-2",
+          "text": "Abolition des privilèges"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    }
+  ]
+}

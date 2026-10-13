@@ -1,0 +1,134 @@
+{
+  "category": "Arts — Couleurs et mouvements — QCM",
+  "subject": "Arts",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-01",
+      "category": "Arts — Couleurs et mouvements — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel peintre est l’auteur de La Ronde de nuit ?",
+      "options": [
+        "A — Rembrandt",
+        "B — Peter Paul Rubens",
+        "C — Johannes Vermeer",
+        "D — Frans Hals"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/ronde.jpg"
+    },
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-02",
+      "category": "Arts — Couleurs et mouvements — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel musée parisien présente les Nymphéas dans deux salles ovales ?",
+      "options": [
+        "A — Le musée Rodin",
+        "B — Le musée du quai Branly",
+        "C — Le musée Carnavalet",
+        "D — Le musée de l’Orangerie"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-03",
+      "category": "Arts — Couleurs et mouvements — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Le titre de ce tableau de Monet a donné son nom à quel mouvement ?",
+      "options": [
+        "A — L’impressionnisme",
+        "B — Le surréalisme",
+        "C — Le fauvisme",
+        "D — Le cubisme"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/impression.jpg"
+    },
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-04",
+      "category": "Arts — Couleurs et mouvements — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quelle palette domine Guernica de Picasso ?",
+      "options": [
+        "A — Rouge, jaune et bleu",
+        "B — Noir, blanc et gris",
+        "C — Vert et violet",
+        "D — Rose et or"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-05",
+      "category": "Arts — Couleurs et mouvements — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel musée conserve cette Nuit étoilée de 1889 ?",
+      "options": [
+        "A — Le Louvre à Paris",
+        "B — Le Prado à Madrid",
+        "C — Le MoMA à New York",
+        "D — Les Offices à Florence"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/nuit.jpg"
+    },
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-06",
+      "category": "Arts — Couleurs et mouvements — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Dans La Persistance de la mémoire de Dalí, quels objets semblent fondre ?",
+      "options": [
+        "A — Des bouteilles",
+        "B — Des montres",
+        "C — Des livres",
+        "D — Des clés"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-07",
+      "category": "Arts — Couleurs et mouvements — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel artiste japonais a créé cette célèbre estampe ?",
+      "options": [
+        "A — Hiroshige",
+        "B — Sesshū",
+        "C — Hokusai",
+        "D — Utamaro"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/vague.jpg"
+    },
+    {
+      "id": "arts-qcm-couleurs-mouvements-20261011-08",
+      "category": "Arts — Couleurs et mouvements — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel peintre est célèbre pour ses tableaux de Tournesols en vase ?",
+      "options": [
+        "A — Paul Cézanne",
+        "B — Henri Rousseau",
+        "C — Georges Seurat",
+        "D — Vincent van Gogh"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

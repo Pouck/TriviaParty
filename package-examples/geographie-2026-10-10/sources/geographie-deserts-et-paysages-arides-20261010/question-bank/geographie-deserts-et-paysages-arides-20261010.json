@@ -1,0 +1,69 @@
+{
+  "category": "Géographie - Déserts et paysages arides",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "geo-deserts-et-paysages-arides-20261010-01",
+      "category": "Géographie - Déserts et paysages arides",
+      "prompt": "Dans quel désert se trouve Las Vegas, au Nevada ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Désert de Chihuahua",
+        "B — Désert de Sonora",
+        "C — Désert des Mojaves",
+        "D — Désert du Grand Bassin"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-deserts-et-paysages-arides-20261010-02",
+      "category": "Géographie - Déserts et paysages arides",
+      "prompt": "Quel désert côtier du nord du Chili est réputé être le désert non polaire le plus aride du monde ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Désert de Patagonie",
+        "B — Désert du Monte",
+        "C — Désert de Sechura",
+        "D — Désert d’Atacama"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-deserts-et-paysages-arides-20261010-03",
+      "category": "Géographie - Déserts et paysages arides",
+      "prompt": "Quel désert s’étend dans le sud de la Mongolie et le nord de la Chine, le long d’anciennes routes commerciales de la soie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Désert du Karakoum",
+        "B — Désert de Gobi",
+        "C — Désert du Taklamakan",
+        "D — Désert du Kyzylkoum"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-deserts-et-paysages-arides-20261010-04",
+      "category": "Géographie - Déserts et paysages arides",
+      "prompt": "Quel désert de la péninsule Arabique comprend le Rub al-Khali, surnommé le « Quart Vide » ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Désert d’Arabie",
+        "B — Désert de Syrie",
+        "C — Désert du Thar",
+        "D — Désert du Néguev"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "category": "Mythologie — L’Odyssée — Ordre des épisodes — Chronologie",
+  "subject": "Mythologie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "lib-chronologie-odyssee-episodes-20261012-01",
+      "category": "Mythologie — L’Odyssée — Ordre des épisodes — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Suivez le voyage d’Ulysse, pas l’ordre des chapitres",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Fin de la guerre de Troie"
+        },
+        {
+          "id": "item-1",
+          "text": "Retour à Ithaque"
+        },
+        {
+          "id": "item-2",
+          "text": "Rencontre du Cyclope"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-odyssee-episodes-20261012-02",
+      "category": "Mythologie — L’Odyssée — Ordre des épisodes — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Suivez le voyage d’Ulysse, pas l’ordre des chapitres",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Passage devant les Sirènes"
+        },
+        {
+          "id": "item-1",
+          "text": "Rencontre du Cyclope"
+        },
+        {
+          "id": "item-2",
+          "text": "Séjour chez Circé"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-odyssee-episodes-20261012-03",
+      "category": "Mythologie — L’Odyssée — Ordre des épisodes — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Suivez le voyage d’Ulysse, pas l’ordre des chapitres",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Séjour chez Calypso"
+        },
+        {
+          "id": "item-1",
+          "text": "Séjour chez Circé"
+        },
+        {
+          "id": "item-2",
+          "text": "Passage devant les Sirènes"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "id": "lib-chronologie-odyssee-episodes-20261012-04",
+      "category": "Mythologie — L’Odyssée — Ordre des épisodes — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Classez les événements du retour",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Épreuve de l’arc et combat contre les prétendants"
+        },
+        {
+          "id": "item-1",
+          "text": "Pénélope reconnaît Ulysse grâce au secret du lit"
+        },
+        {
+          "id": "item-2",
+          "text": "Arrivée à Ithaque"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    },
+    {
+      "id": "lib-chronologie-odyssee-episodes-20261012-05",
+      "category": "Mythologie — L’Odyssée — Ordre des épisodes — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Suivez le voyage d’Ulysse, pas l’ordre des chapitres",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Accueil chez les Phéaciens"
+        },
+        {
+          "id": "item-1",
+          "text": "Arrivée à Ithaque"
+        },
+        {
+          "id": "item-2",
+          "text": "Séjour chez Calypso"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

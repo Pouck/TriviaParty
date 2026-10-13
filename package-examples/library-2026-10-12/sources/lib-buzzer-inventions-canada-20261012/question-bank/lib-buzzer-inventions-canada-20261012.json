@@ -1,0 +1,77 @@
+{
+  "category": "Inventions canadiennes — Créateurs et objets — Buzzer",
+  "subject": "Sciences",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-inventions-canada-20261012-01",
+      "category": "Inventions canadiennes — Créateurs et objets — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel appareil Arthur Sicard développe-t-il pour enlever la neige ?",
+      "acceptableAnswers": [
+        "La souffleuse à neige",
+        "Souffleuse"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/snow.png"
+    },
+    {
+      "id": "lib-buzzer-inventions-canada-20261012-02",
+      "category": "Inventions canadiennes — Créateurs et objets — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel jeu de questions est créé par les Canadiens Chris Haney et Scott Abbott ?",
+      "acceptableAnswers": [
+        "Trivial Pursuit"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-inventions-canada-20261012-03",
+      "category": "Inventions canadiennes — Créateurs et objets — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel téléphone intelligent est développé par Research In Motion à Waterloo ?",
+      "acceptableAnswers": [
+        "Le BlackBerry",
+        "BlackBerry"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-inventions-canada-20261012-04",
+      "category": "Inventions canadiennes — Créateurs et objets — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel sport utilise les paniers de Naismith ?",
+      "acceptableAnswers": [
+        "Le basketball",
+        "Basket",
+        "Basketball"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/basketball.jpg"
+    },
+    {
+      "id": "lib-buzzer-inventions-canada-20261012-05",
+      "category": "Inventions canadiennes — Créateurs et objets — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel est le nom du bras robotisé canadien de la navette spatiale ?",
+      "acceptableAnswers": [
+        "Le Canadarm",
+        "Canadarm"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

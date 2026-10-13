@@ -1,0 +1,74 @@
+{
+  "category": "BD française et belge — Buzzer",
+  "subject": "BD et manga",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-bd-franco-belge-20261012-01",
+      "category": "BD française et belge — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Comment s’appelle le chien de Tintin ?",
+      "acceptableAnswers": [
+        "Milou"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-bd-franco-belge-20261012-02",
+      "category": "BD française et belge — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel ami d’Astérix porte des menhirs ?",
+      "acceptableAnswers": [
+        "Obélix"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-bd-franco-belge-20261012/stone.png"
+    },
+    {
+      "id": "lib-buzzer-bd-franco-belge-20261012-03",
+      "category": "BD française et belge — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel cheval accompagne Lucky Luke ?",
+      "acceptableAnswers": [
+        "Jolly Jumper"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-bd-franco-belge-20261012/bd-character-03.png"
+    },
+    {
+      "id": "lib-buzzer-bd-franco-belge-20261012-04",
+      "category": "BD française et belge — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel animal à longue queue est créé par Franquin ?",
+      "acceptableAnswers": [
+        "Le Marsupilami",
+        "Marsupilami"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-bd-franco-belge-20261012-05",
+      "category": "BD française et belge — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel est le nom du capitaine ami de Tintin ?",
+      "acceptableAnswers": [
+        "Haddock",
+        "Capitaine Haddock"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

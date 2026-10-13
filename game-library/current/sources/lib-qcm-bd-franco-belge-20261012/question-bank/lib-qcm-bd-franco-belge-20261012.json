@@ -1,0 +1,87 @@
+{
+  "category": "BD française et belge — QCM",
+  "subject": "BD et manga",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-bd-franco-belge-20261012-01",
+      "category": "BD française et belge — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel reporter voyage jusqu’à la Lune ?",
+      "options": [
+        "A — Spirou",
+        "B — Gaston",
+        "C — Lucky Luke",
+        "D — Tintin"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/lib-qcm-bd-franco-belge-20261012/moon.jpg"
+    },
+    {
+      "id": "lib-qcm-bd-franco-belge-20261012-02",
+      "category": "BD française et belge — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui prépare la potion magique d’Astérix ?",
+      "options": [
+        "A — Abraracourcix",
+        "B — Panoramix",
+        "C — Cétautomatix",
+        "D — Assurancetourix"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-bd-franco-belge-20261012-03",
+      "category": "BD française et belge — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel cow-boy tire plus vite que son ombre ?",
+      "options": [
+        "A — Lucky Luke",
+        "B — Blueberry",
+        "C — Red Ryder",
+        "D — Boule"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-bd-franco-belge-20261012-04",
+      "category": "BD française et belge — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel petit peuple bleu vit dans des maisons-champignons ?",
+      "options": [
+        "A — Les Minipouss",
+        "B — Les Snorky",
+        "C — Les Schtroumpfs",
+        "D — Les Barbapapa"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/lib-qcm-bd-franco-belge-20261012/mushroom.jpg"
+    },
+    {
+      "id": "lib-qcm-bd-franco-belge-20261012-05",
+      "category": "BD française et belge — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel héros maladroit travaille dans les bureaux du journal Spirou ?",
+      "options": [
+        "A — Gaston Lagaffe",
+        "B — Fantasio",
+        "C — Johan",
+        "D — Marsupilami"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

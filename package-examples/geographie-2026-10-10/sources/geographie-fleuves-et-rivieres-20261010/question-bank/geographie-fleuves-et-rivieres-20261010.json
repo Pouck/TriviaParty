@@ -1,0 +1,189 @@
+{
+  "category": "Géographie - Fleuves et rivières",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-01",
+      "category": "Géographie - Fleuves et rivières",
+      "prompt": "Quel cours d’eau traverse Bagdad, en Irak ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Euphrate",
+        "B — Tigre",
+        "C — Karoun",
+        "D — Jourdain"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-02",
+      "category": "Géographie - Fleuves et rivières",
+      "prompt": "Quel fleuve traverse Le Caire, en Égypte ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Nil",
+        "B — Zambèze",
+        "C — Congo",
+        "D — Niger"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-03",
+      "category": "Géographie - Fleuves et rivières",
+      "prompt": "Quel fleuve traverse Paris, en France ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Garonne",
+        "B — Rhône",
+        "C — Loire",
+        "D — Seine"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-04",
+      "category": "Géographie - Fleuves et rivières",
+      "prompt": "Quel fleuve traverse Rome, en Italie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Arno",
+        "B — Rubicon",
+        "C — Tibre",
+        "D — Pô"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-05",
+      "category": "Géographie - Fleuves et rivières",
+      "prompt": "Quel fleuve traverse Londres, au Royaume-Uni ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Mersey",
+        "B — Tamise",
+        "C — Clyde",
+        "D — Severn"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-06",
+      "category": "Géographie - Fleuves et rivières",
+      "prompt": "Quel fleuve traverse à la fois Vienne, en Autriche, et Budapest, en Hongrie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Danube",
+        "B — Rhin",
+        "C — Oder",
+        "D — Elbe"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-07",
+      "category": "Géographie - Fleuves et rivières",
+      "prompt": "Quel fleuve traverse Saint-Pétersbourg, en Russie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Neva",
+        "B — Volga",
+        "C — Ob",
+        "D — Don"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-08",
+      "category": "Géographie - Fleuves et rivières",
+      "prompt": "Quel cours d’eau traverse Dublin, en Irlande ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Shannon",
+        "B — Boyne",
+        "C — Lee",
+        "D — Liffey"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-09",
+      "category": "Géographie - Fleuves et rivières",
+      "prompt": "Au bord de quel cours d’eau se trouve Perth, en Australie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Darling",
+        "B — Swan",
+        "C — Yarra",
+        "D — Murray"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-10",
+      "category": "Géographie - Fleuves et rivières",
+      "prompt": "Quel cours d’eau traverse le centre de Shanghai, en Chine ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Yangzi Jiang (fleuve Bleu)",
+        "B — Zhu Jiang (rivière des Perles)",
+        "C — Huangpu",
+        "D — Huang He (fleuve Jaune)"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-11",
+      "category": "Géographie - Fleuves et rivières",
+      "prompt": "Quel fleuve borde Lisbonne, au Portugal ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Guadalquivir",
+        "B — Èbre",
+        "C — Douro",
+        "D — Tage"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "geo-fleuves-20261010-12",
+      "category": "Géographie - Fleuves et rivières",
+      "prompt": "Quel fleuve borde Kinshasa, en République démocratique du Congo ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Nil",
+        "B — Niger",
+        "C — Congo",
+        "D — Orange"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

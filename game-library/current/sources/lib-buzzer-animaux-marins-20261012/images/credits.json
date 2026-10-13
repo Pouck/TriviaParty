@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "dolphin",
+    "title": "Common bottlenose dolphin",
+    "file": "dolphin.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01-cropped.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Tursiops_truncatus_01-cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "artist": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "https://images.nasa.gov/details/KSC-04pd0178\nhttp://mediaarchive.ksc.nasa.gov/detail.cfm?mediaid=21807 on the Wayback Machine at the Wayback Machine",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-buzzer-animaux-marins-20261012"
+  },
+  {
+    "slug": "turtle",
+    "title": "Green sea turtle",
+    "file": "turtle.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_(Chelonia_mydas)_Moorea.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/1920px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work, from Sharp Photography, sharpphotography.co.uk",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-buzzer-animaux-marins-20261012"
+  }
+]

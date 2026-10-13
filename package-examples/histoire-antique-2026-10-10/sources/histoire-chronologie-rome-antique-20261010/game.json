@@ -1,0 +1,15 @@
+{
+  "id": "histoire-chronologie-rome-antique-20261010",
+  "name": "Histoire - Chronologie de la Rome antique",
+  "description": "5 chronologies à choix multiples. Lecture libre, puis départ du chrono par l’hôte. 15 secondes ; 15, 10 puis 5 points.",
+  "categoryPackages": [
+    "histoire-chronologie-rome-antique-20261010"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0.0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

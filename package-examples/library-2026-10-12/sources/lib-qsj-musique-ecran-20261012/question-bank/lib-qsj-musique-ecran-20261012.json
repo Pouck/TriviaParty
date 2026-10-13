@@ -1,0 +1,95 @@
+{
+  "category": "Musique — Films et comédies musicales — Qui suis-je ?",
+  "subject": "Musique",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-musique-ecran-20261012-01",
+      "category": "Musique — Films et comédies musicales — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un compositeur américain.",
+        "J’ai souvent travaillé avec Steven Spielberg.",
+        "J’ai composé les thèmes d’Indiana Jones et de Harry Potter.",
+        "La musique de Star Wars est aussi mon œuvre."
+      ],
+      "acceptableAnswers": [
+        "John Williams"
+      ]
+    },
+    {
+      "id": "lib-qsj-musique-ecran-20261012-02",
+      "category": "Musique — Films et comédies musicales — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un compositeur japonais.",
+        "J’écris souvent pour le cinéma d’animation.",
+        "Je collabore régulièrement avec Hayao Miyazaki.",
+        "J’ai composé la musique de Mon voisin Totoro."
+      ],
+      "acceptableAnswers": [
+        "Joe Hisaishi"
+      ]
+    },
+    {
+      "id": "lib-qsj-musique-ecran-20261012-03",
+      "category": "Musique — Films et comédies musicales — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un compositeur italien.",
+        "Ma musique de cinéma utilise parfois des sons inattendus.",
+        "Sergio Leone est un de mes collaborateurs célèbres.",
+        "J’ai composé pour Le Bon, la Brute et le Truand."
+      ],
+      "acceptableAnswers": [
+        "Ennio Morricone"
+      ]
+    },
+    {
+      "id": "lib-qsj-musique-ecran-20261012-04",
+      "category": "Musique — Films et comédies musicales — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une comédie musicale.",
+        "Mon histoire mêle mariage et recherche d’un père.",
+        "Dancing Queen figure dans mon répertoire.",
+        "Mes chansons viennent du groupe ABBA."
+      ],
+      "acceptableAnswers": [
+        "Mamma Mia!"
+      ]
+    },
+    {
+      "id": "lib-qsj-musique-ecran-20261012-05",
+      "category": "Musique — Films et comédies musicales — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une comédie musicale d’Andrew Lloyd Webber.",
+        "Mes personnages s’inspirent de poèmes de T. S. Eliot.",
+        "Memory est ma chanson la plus célèbre.",
+        "Mon titre anglais désigne des chats."
+      ],
+      "acceptableAnswers": [
+        "Cats"
+      ]
+    }
+  ]
+}

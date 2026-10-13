@@ -1,0 +1,99 @@
+{
+  "category": "Qui suis-je ? — Canada — Bâtisseurs et premières époques",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "kind": "guessWho",
+      "id": "canada-qsj-batisseurs-20261011-01",
+      "category": "Qui suis-je ? — Canada — Bâtisseurs et premières époques",
+      "basePoints": 25,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Né à Saint-Boniface en 1844, j’étudie au Petit Séminaire de Montréal.",
+        "Je préside le Comité national des Métis pour défendre les droits de mon peuple.",
+        "Mon gouvernement provisoire prépare une liste de droits avant la création du Manitoba en 1870.",
+        "Après la Résistance du Nord-Ouest, je suis pendu à Regina pour haute trahison en 1885.",
+        "Je suis le chef métis reconnu comme un fondateur du Manitoba."
+      ],
+      "acceptableAnswers": [
+        "Louis Riel"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "canada-qsj-batisseurs-20261011-02",
+      "category": "Qui suis-je ? — Canada — Bâtisseurs et premières époques",
+      "basePoints": 25,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Né à Glasgow, j’arrive au Haut-Canada avec ma famille en 1820 et deviens avocat à Kingston.",
+        "Je forme une importante alliance politique avec George-Étienne Cartier.",
+        "Je joue un rôle central aux conférences de Charlottetown et de Québec en 1864.",
+        "Le scandale du Pacifique me fait quitter le pouvoir en 1873 ; je reviens avec la Politique nationale.",
+        "Je suis le premier premier ministre du Canada, de 1867 à 1873, puis de 1878 à 1891."
+      ],
+      "acceptableAnswers": [
+        "John A. Macdonald"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "canada-qsj-batisseurs-20261011-03",
+      "category": "Qui suis-je ? — Canada — Bâtisseurs et premières époques",
+      "basePoints": 25,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Né à Brouage, je cartographie une partie du littoral atlantique nord-américain.",
+        "En 1609, je combats aux côtés d’alliés autochtones contre des Haudenosaunee.",
+        "En 1629, les frères Kirke prennent le poste français que je dirige.",
+        "On me surnomme le père de la Nouvelle-France.",
+        "Je suis l’explorateur français qui fonde Québec en 1608."
+      ],
+      "acceptableAnswers": [
+        "Samuel de Champlain"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "canada-qsj-batisseurs-20261011-04",
+      "category": "Qui suis-je ? — Canada — Bâtisseurs et premières époques",
+      "basePoints": 25,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Né dans la région de l’Ohio, je porte le nom mohawk Thayendanegea.",
+        "J’étudie dans une école du Connecticut et traduis des textes religieux en mohawk.",
+        "Pendant la Révolution américaine, je combats aux côtés des Britanniques.",
+        "Je contribue à l’installation de membres des Six Nations près de la rivière Grand.",
+        "Je suis le chef mohawk dont le nom anglais a donné celui de Brantford."
+      ],
+      "acceptableAnswers": [
+        "Joseph Brant"
+      ]
+    },
+    {
+      "kind": "guessWho",
+      "id": "canada-qsj-batisseurs-20261011-05",
+      "category": "Qui suis-je ? — Canada — Bâtisseurs et premières époques",
+      "basePoints": 25,
+      "penaltyPoints": 5,
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Né à Saint-Lin, je deviens chef du Parti libéral fédéral en 1887.",
+        "Je remporte les élections de 1896 en proposant un compromis sur les écoles du Manitoba.",
+        "Sous mon gouvernement, l’Alberta et la Saskatchewan deviennent des provinces et la marine canadienne est créée.",
+        "Je suis associé à l’idée que le XXe siècle appartiendrait au Canada.",
+        "Je suis le premier Canadien français à devenir premier ministre du Canada."
+      ],
+      "acceptableAnswers": [
+        "Wilfrid Laurier"
+      ]
+    }
+  ]
+}

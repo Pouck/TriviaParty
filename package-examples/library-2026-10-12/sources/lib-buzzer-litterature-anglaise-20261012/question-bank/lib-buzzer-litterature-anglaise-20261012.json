@@ -1,0 +1,73 @@
+{
+  "category": "Littérature anglophone — Classiques — Buzzer",
+  "subject": "Littérature",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-litterature-anglaise-20261012-01",
+      "category": "Littérature anglophone — Classiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel prince de Shakespeare est le fils du roi du Danemark assassiné ?",
+      "acceptableAnswers": [
+        "Hamlet"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-litterature-anglaise-20261012-02",
+      "category": "Littérature anglophone — Classiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle héroïne de Lewis Carroll suit un lapin blanc ?",
+      "acceptableAnswers": [
+        "Alice"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/rabbit.png"
+    },
+    {
+      "id": "lib-buzzer-litterature-anglaise-20261012-03",
+      "category": "Littérature anglophone — Classiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel détective habite au 221B Baker Street ?",
+      "acceptableAnswers": [
+        "Sherlock Holmes"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-litterature-anglaise-20261012-04",
+      "category": "Littérature anglophone — Classiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel avare de Dickens change après la visite de fantômes ?",
+      "acceptableAnswers": [
+        "Ebenezer Scrooge",
+        "Scrooge"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/ghost.png"
+    },
+    {
+      "id": "lib-buzzer-litterature-anglaise-20261012-05",
+      "category": "Littérature anglophone — Classiques — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel vampire est au centre du roman de Bram Stoker ?",
+      "acceptableAnswers": [
+        "Dracula"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

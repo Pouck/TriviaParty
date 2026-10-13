@@ -1,0 +1,24 @@
+{
+  "category": "TEST Choix multiples",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "prompt": "Quelle planète est surnommée la planète rouge ?",
+      "options": [
+        "A — Vénus",
+        "B — Mars",
+        "C — Jupiter",
+        "D — Saturne"
+      ],
+      "correctOptionIndex": 1,
+      "id": "test-01-qcm-q1",
+      "category": "TEST Choix multiples",
+      "basePoints": 15,
+      "penaltyPoints": 0
+    }
+  ]
+}

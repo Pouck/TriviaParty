@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "sea",
+    "title": "Indice visuel — sea",
+    "file": "sea.png",
+    "artist": "Trivia Party — diagramme ou indice visuel local",
+    "license": "Illustration locale ; glyphes système crédités",
+    "licenseUrl": "https://learn.microsoft.com/en-us/typography/fonts/font-faq",
+    "commons": null,
+    "credit": "Graphisme de jeu ; symboles rendus avec la police système Segoe UI Emoji, sans redistribution du fichier de police.",
+    "changes": "Indice représentatif, pas une image du film ou de la bande dessinée.",
+    "originalPackage": "lib-qcm-litterature-france-20261012"
+  },
+  {
+    "slug": "notre-dame",
+    "title": "Notre-Dame de Paris",
+    "file": "notre-dame.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris,_4_October_2017.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Notre-Dame_de_Paris%2C_4_October_2017.jpg/1920px-Notre-Dame_de_Paris%2C_4_October_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "Ali Sabbagh",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "Notre Dam De Paris",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-litterature-france-20261012"
+  }
+]

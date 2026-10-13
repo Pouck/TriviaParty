@@ -1,0 +1,3771 @@
+[
+  {
+    "id": "architecture-buzzer-europe-20261011",
+    "name": "Architecture — Reconnaissance — Europe — Réponses écrites",
+    "count": 6,
+    "subject": "Architecture",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "architecture-buzzer-europe-20261011"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "architecture-buzzer-moderne-20261011",
+    "name": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+    "count": 6,
+    "subject": "Architecture",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "architecture-buzzer-moderne-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "architecture-buzzer-monde-20261011",
+    "name": "Architecture — Reconnaissance — Sites historiques — Buzzer",
+    "count": 6,
+    "subject": "Architecture",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "architecture-buzzer-monde-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "architecture-qcm-asie-orient-20261011",
+    "name": "Architecture — Asie et Proche-Orient — QCM",
+    "count": 6,
+    "subject": "Architecture",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "architecture-qcm-asie-orient-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "architecture-qcm-europe-20261011",
+    "name": "Architecture — Monuments d’Europe — QCM",
+    "count": 6,
+    "subject": "Architecture",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "architecture-qcm-europe-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "architecture-qcm-moderne-20261011",
+    "name": "Architecture — Architecture moderne — QCM",
+    "count": 6,
+    "subject": "Architecture",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "architecture-qcm-moderne-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "architecture-qsj-antiquite-20261011",
+    "name": "Architecture — Merveilles historiques — Qui suis-je ?",
+    "count": 5,
+    "subject": "Architecture",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "architecture-qsj-antiquite-20261011",
+      "architecture-qsj-civilisations-20261011"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "architecture-qsj-modernes-20261011",
+    "name": "Architecture — Monuments emblématiques — Qui suis-je ?",
+    "count": 5,
+    "subject": "Architecture",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "architecture-qsj-modernes-20261011",
+      "architecture-qsj-sacre-20261011"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "architecture-qsj-palais-20261011",
+    "name": "Architecture — Palais et lieux d’exception — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Architecture",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "architecture-qsj-civilisations-20261011",
+      "architecture-qsj-palais-20261011",
+      "architecture-qsj-sacre-20261011"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "arts-buzzer-marbre-bronze-20261011",
+    "name": "Arts — Marbre et bronze — Réponses écrites",
+    "count": 6,
+    "subject": "Arts",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "arts-buzzer-marbre-bronze-20261011"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "arts-buzzer-regards-scenes-20261011",
+    "name": "Arts — Regards et scènes — Buzzer",
+    "count": 6,
+    "subject": "Arts",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "arts-buzzer-regards-scenes-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "arts-buzzer-selection-variee-20261012",
+    "name": "Arts — Œuvres et artistes — Réponses écrites",
+    "count": 6,
+    "subject": "Arts",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "arts-buzzer-marbre-bronze-20261011",
+      "arts-buzzer-regards-scenes-20261011",
+      "arts-buzzer-tableaux-celebres-20261011"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "arts-buzzer-tableaux-celebres-20261011",
+    "name": "Arts — Tableaux célèbres — Buzzer",
+    "count": 6,
+    "subject": "Arts",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "arts-buzzer-tableaux-celebres-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "arts-chronologie-peintures-dans-le-temps-20261011",
+    "name": "Arts — Peintures dans le temps — Chronologie",
+    "count": 6,
+    "subject": "Arts",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "arts-chronologie-peintures-dans-le-temps-20261011"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "arts-chronologie-sculptures-reperes-20261011",
+    "name": "Arts — Sculptures et repères — Chronologie",
+    "count": 6,
+    "subject": "Arts",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "arts-chronologie-sculptures-reperes-20261011"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "arts-qcm-couleurs-mouvements-20261011",
+    "name": "Arts — Couleurs et mouvements — QCM",
+    "count": 6,
+    "subject": "Arts",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "arts-qcm-couleurs-mouvements-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "arts-qcm-peintures-classiques-20261011",
+    "name": "Arts — Peintures classiques — QCM",
+    "count": 6,
+    "subject": "Arts",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "arts-qcm-peintures-classiques-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "arts-qcm-sculptures-iconiques-20261011",
+    "name": "Arts — Sculptures iconiques — QCM",
+    "count": 6,
+    "subject": "Arts",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "arts-qcm-sculptures-iconiques-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "arts-qcm-selection-variee-20261012",
+    "name": "Arts — Œuvres et artistes — QCM",
+    "count": 6,
+    "subject": "Arts",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "arts-qcm-couleurs-mouvements-20261011",
+      "arts-qcm-peintures-classiques-20261011",
+      "arts-qcm-sculptures-iconiques-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "arts-qsj-peintures-mysteres-20261011",
+    "name": "Arts — Peintures mystères — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Arts",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "arts-qsj-peintures-mysteres-20261011"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "arts-qsj-sculptures-mysteres-20261011",
+    "name": "Arts — Sculptures mystères — Qui suis-je ?",
+    "count": 5,
+    "subject": "Arts",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "arts-qsj-sculptures-mysteres-20261011"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "canada-buzzer-culture-20261011",
+    "name": "Canada — Culture et institutions — Réponses écrites — 1",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-buzzer-culture-20261011"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "canada-buzzer-culture-20261011-part-2",
+    "name": "Canada — Culture et institutions — Buzzer — 2",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-buzzer-culture-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-buzzer-premieres-20261011",
+    "name": "Canada — Premières et repères historiques — Buzzer — 1",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-buzzer-premieres-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-buzzer-premieres-20261011-part-2",
+    "name": "Canada — Premières et repères historiques — Buzzer — 2",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-buzzer-premieres-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-buzzer-symboles-20261011",
+    "name": "Canada — Géographie et symboles — Buzzer — 1",
+    "count": 5,
+    "subject": "Géographie",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-buzzer-symboles-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-buzzer-symboles-20261011-part-2",
+    "name": "Canada — Géographie et symboles — Buzzer — 2",
+    "count": 5,
+    "subject": "Géographie",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-buzzer-symboles-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-geo-buzzer-sites-20261011",
+    "name": "Géographie du Canada — Sites et plans d’eau — Réponses écrites",
+    "count": 5,
+    "subject": "Géographie",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-geo-buzzer-sites-20261011"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "canada-geo-buzzer-villes-20261011",
+    "name": "Géographie du Canada — Villes et provinces",
+    "count": 5,
+    "subject": "Géographie",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-geo-buzzer-villes-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-geo-qcm-eaux-climat-20261011",
+    "name": "Géographie du Canada — Eaux, îles et climat",
+    "count": 6,
+    "subject": "Géographie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-geo-qcm-eaux-climat-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-geo-qcm-humaine-20261011",
+    "name": "Géographie du Canada — Géographie politique et humaine",
+    "count": 6,
+    "subject": "Géographie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-geo-qcm-humaine-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-geo-qcm-relief-20261011",
+    "name": "Géographie du Canada — Relief et extrêmes",
+    "count": 6,
+    "subject": "Géographie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-geo-qcm-relief-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-inventions-medical-20261011",
+    "name": "Inventions canadiennes — Médecine et percées vitales",
+    "count": 6,
+    "subject": "Sciences",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-inventions-medical-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-inventions-quotidien-20261011",
+    "name": "Inventions canadiennes — Sports, culture et vie quotidienne",
+    "count": 6,
+    "subject": "Sciences",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-inventions-quotidien-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-inventions-technologie-20261011",
+    "name": "Inventions canadiennes — Transport, technologie et communication",
+    "count": 6,
+    "subject": "Sciences",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-inventions-technologie-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-qcm-colonial-20261011",
+    "name": "Canada — Époque coloniale et évolution constitutionnelle — QCM — 1",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-qcm-colonial-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-qcm-colonial-20261011-part-2",
+    "name": "Canada — Époque coloniale et évolution constitutionnelle — QCM — 2",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-qcm-colonial-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-qcm-international-20261011",
+    "name": "Canada — Guerres et relations internationales — QCM — 1",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-qcm-international-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-qcm-international-20261011-part-2",
+    "name": "Canada — Guerres et relations internationales — QCM — 2",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-qcm-international-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-qcm-moderne-20261011",
+    "name": "Canada — Jalons sociaux et politiques modernes — QCM — 1",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-qcm-moderne-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-qcm-moderne-20261011-part-2",
+    "name": "Canada — Jalons sociaux et politiques modernes — QCM — 2",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-qcm-moderne-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "canada-qsj-batisseurs-20261011",
+    "name": "Qui suis-je ? écrit — Canada — Bâtisseurs et premières époques",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-qsj-batisseurs-20261011"
+    ],
+    "seconds": 100
+  },
+  {
+    "id": "canada-qsj-icones-20261011",
+    "name": "Qui suis-je ? écrit — Canada — Figures du XXe siècle",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "canada-qsj-icones-20261011"
+    ],
+    "seconds": 100
+  },
+  {
+    "id": "charades",
+    "name": "Logique et énigmes — Charades — Buzzer",
+    "count": 5,
+    "subject": "Logique et énigmes",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "charades"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "cinema-buzzer-france-quebec-20261011",
+    "name": "Cinéma — France et Québec — Rapide — Buzzer",
+    "count": 6,
+    "subject": "Cinéma",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "cinema-buzzer-france-quebec-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "cinema-buzzer-selection-variee-20261012",
+    "name": "Cinéma — Personnages et grands univers — Buzzer",
+    "count": 6,
+    "subject": "Cinéma",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "cinema-buzzer-france-quebec-20261011",
+      "cinema-buzzer-titres-heros-20261011",
+      "cinema-buzzer-univers-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "cinema-buzzer-titres-heros-20261011",
+    "name": "Cinéma — Titres et héros — Rapide — Réponses écrites",
+    "count": 6,
+    "subject": "Cinéma",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "cinema-buzzer-titres-heros-20261011"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "cinema-buzzer-univers-20261011",
+    "name": "Cinéma — Univers et animation — Rapide — Réponses écrites",
+    "count": 6,
+    "subject": "Cinéma",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "cinema-buzzer-univers-20261011"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "cinema-chronologie-reperes-20261011",
+    "name": "Cinéma — Sorties de films — Repères — Chronologie",
+    "count": 6,
+    "subject": "Cinéma",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "cinema-chronologie-reperes-20261011"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "cinema-chronologie-sagas-20261011",
+    "name": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+    "count": 6,
+    "subject": "Cinéma",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "cinema-chronologie-sagas-20261011"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "cinema-qcm-coulisses-20261011",
+    "name": "Cinéma — Réalisateurs, musique et animation — QCM",
+    "count": 6,
+    "subject": "Cinéma",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "cinema-qcm-coulisses-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "cinema-qcm-films-personnages-20261011",
+    "name": "Cinéma — Films et personnages — QCM",
+    "count": 6,
+    "subject": "Cinéma",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "cinema-qcm-films-personnages-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "cinema-qcm-prix-classiques-20261011",
+    "name": "Cinéma — Récompenses et classiques — QCM",
+    "count": 6,
+    "subject": "Cinéma",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "cinema-qcm-prix-classiques-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "cinema-qcm-selection-variee-20261012",
+    "name": "Cinéma — Personnages et grands univers — QCM",
+    "count": 6,
+    "subject": "Cinéma",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "cinema-qcm-coulisses-20261011",
+      "cinema-qcm-films-personnages-20261011",
+      "cinema-qcm-prix-classiques-20261011"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "cinema-qsj-figures-20261011",
+    "name": "Cinéma — Cinéastes et personnages — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Cinéma",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "cinema-qsj-figures-20261011"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "cinema-qsj-films-20261011",
+    "name": "Cinéma — Films à découvrir — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Cinéma",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "cinema-qsj-films-20261011"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "culture-qcm-americaine-oeuvres-20261010",
+    "name": "Littérature américaine — Œuvres : choix multiples — 1",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qcm-americaine-oeuvres-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "culture-qcm-americaine-oeuvres-20261010-part-2",
+    "name": "Littérature américaine — Œuvres : choix multiples — 2",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qcm-americaine-oeuvres-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "culture-qcm-anglophone-oeuvres-20261010",
+    "name": "Littérature britannique et irlandaise — Œuvres : choix multiples — 1",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qcm-anglophone-oeuvres-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "culture-qcm-anglophone-oeuvres-20261010-part-2",
+    "name": "Littérature britannique et irlandaise — Œuvres : choix multiples — 2",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qcm-anglophone-oeuvres-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "culture-qcm-anglophone-personnages-20261010",
+    "name": "Littérature britannique et irlandaise — Personnages : choix multiples — 1",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qcm-anglophone-personnages-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "culture-qcm-anglophone-personnages-20261010-part-2",
+    "name": "Littérature britannique et irlandaise — Personnages : choix multiples — 2",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qcm-anglophone-personnages-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "culture-qcm-francaise-oeuvres-20261010",
+    "name": "Littérature française — Œuvres : choix multiples — 1",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qcm-francaise-oeuvres-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "culture-qcm-francaise-oeuvres-20261010-part-2",
+    "name": "Littérature française — Œuvres : choix multiples — 2",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qcm-francaise-oeuvres-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "culture-qcm-francaise-personnages-20261010",
+    "name": "Littérature française — Personnages : choix multiples — 1",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qcm-francaise-personnages-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "culture-qcm-francaise-personnages-20261010-part-2",
+    "name": "Littérature française — Personnages : choix multiples — 2",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qcm-francaise-personnages-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "culture-qsj-grece-figures-et-lieux-20261010",
+    "name": "Qui suis-je ? écrit — Grèce antique — Figures et lieux",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qsj-grece-figures-et-lieux-20261010"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "culture-qsj-grece-grandes-figures-20261010",
+    "name": "Qui suis-je ? — Grèce antique — Grandes figures",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qsj-grece-grandes-figures-20261010"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "culture-qsj-litterature-americaine-oeuvres-20261010",
+    "name": "Littérature américaine — Œuvres et personnages — Qui suis-je ? écrit — 1",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qsj-litterature-americaine-oeuvres-20261010",
+      "culture-qsj-litterature-americaine-personnages-20261010",
+      "lib-qsj-litterature-americaine-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "culture-qsj-litterature-americaine-personnages-20261010",
+    "name": "Littérature américaine — Œuvres et personnages — Qui suis-je ? — 2",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-litterature-americaine-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "culture-qsj-litterature-anglophone-oeuvres-20261010",
+    "name": "Littérature britannique et irlandaise — Œuvres et personnages — Qui suis-je ? — 1",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qsj-litterature-anglophone-oeuvres-20261010",
+      "culture-qsj-litterature-anglophone-personnages-20261010",
+      "lib-qsj-litterature-anglaise-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "culture-qsj-litterature-anglophone-personnages-20261010",
+    "name": "Littérature britannique et irlandaise — Œuvres et personnages — Qui suis-je ? — 2",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-litterature-anglaise-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "culture-qsj-litterature-francaise-oeuvres-20261010",
+    "name": "Littérature française — Œuvres et personnages — Qui suis-je ? — 1",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qsj-litterature-francaise-oeuvres-20261010",
+      "culture-qsj-litterature-francaise-personnages-20261010",
+      "lib-qsj-litterature-france-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "culture-qsj-litterature-francaise-personnages-20261010",
+    "name": "Littérature française — Œuvres et personnages — Qui suis-je ? écrit — 2",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-litterature-france-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "culture-qsj-mythologie-grecque-dieux-et-mortels-20261010",
+    "name": "Mythologie grecque — Dieux et mortels — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Mythologie",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qsj-mythologie-grecque-dieux-et-mortels-20261010",
+      "lib-qsj-mythologie-grecque-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "culture-qsj-mythologie-grecque-monstres-et-objets-20261010",
+    "name": "Mythologie grecque — Héros et objets — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Mythologie",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qsj-mythologie-grecque-monstres-et-objets-20261010",
+      "lib-qsj-mythologie-grecque-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "culture-qsj-mythologie-romaine-divinites-20261010",
+    "name": "Mythologie romaine — Dieux et héros — Qui suis-je ?",
+    "count": 5,
+    "subject": "Mythologie",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qsj-mythologie-romaine-divinites-20261010",
+      "lib-qsj-mythologie-romaine-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "culture-qsj-mythologie-romaine-fondations-20261010",
+    "name": "Mythologie romaine — Dieux et fondations — Qui suis-je ?",
+    "count": 5,
+    "subject": "Mythologie",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qsj-mythologie-romaine-fondations-20261010",
+      "lib-qsj-mythologie-romaine-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "culture-qsj-rome-monuments-et-crises-20261010",
+    "name": "Qui suis-je ? — Rome antique — Monuments et pouvoirs",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qsj-rome-monuments-et-crises-20261010"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "culture-qsj-rome-personnages-20261010",
+    "name": "Qui suis-je ? écrit — Rome antique — République et Empire",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "culture-qsj-rome-personnages-20261010"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "geographie-afrique-20261010",
+    "name": "Géographie — Cartes du monde — 1",
+    "count": 6,
+    "subject": "Géographie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 6,
+    "sources": [
+      "geographie-afrique-20261010",
+      "geographie-asie-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "geographie-amerique-du-sud-20261010",
+    "name": "Géographie — Cartes des Amériques",
+    "count": 5,
+    "subject": "Géographie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 5,
+    "sources": [
+      "geographie-amerique-du-sud-20261010",
+      "geographie-etats-unis-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "geographie-asie-20261010",
+    "name": "Géographie — Cartes du monde — 2",
+    "count": 6,
+    "subject": "Géographie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 6,
+    "sources": [
+      "geographie-asie-20261010",
+      "geographie-europe-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "geographie-capitales-20261010-v2",
+    "name": "Géographie - Capitales — Réponses écrites",
+    "count": 7,
+    "subject": "Géographie",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 7,
+    "sources": [
+      "geographie-capitales-20261010-v2"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "geographie-chaines-de-montagnes-20261010",
+    "name": "Géographie - Chaînes de montagnes",
+    "count": 6,
+    "subject": "Géographie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "geographie-chaines-de-montagnes-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "geographie-deserts-et-paysages-arides-20261010",
+    "name": "Géographie — Paysages et milieux naturels — QCM",
+    "count": 6,
+    "subject": "Nature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "geographie-deserts-et-paysages-arides-20261010",
+      "geographie-lacs-mers-et-golfes-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "geographie-fleuves-et-rivieres-20261010",
+    "name": "Géographie — Fleuves et rivières — 1",
+    "count": 6,
+    "subject": "Géographie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "geographie-fleuves-et-rivieres-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "geographie-fleuves-et-rivieres-20261010-part-2",
+    "name": "Géographie — Fleuves et rivières — 2",
+    "count": 6,
+    "subject": "Géographie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "geographie-fleuves-et-rivieres-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "geographie-iles-et-archipels-20261010",
+    "name": "Géographie — Îles et eaux du monde — QCM",
+    "count": 6,
+    "subject": "Géographie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "geographie-iles-et-archipels-20261010",
+      "geographie-lacs-mers-et-golfes-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "geographie-sommets-et-volcans-20261010",
+    "name": "Géographie - Sommets et volcans",
+    "count": 6,
+    "subject": "Géographie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "geographie-sommets-et-volcans-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "histoire-canada-chronologie-facile-20261010",
+    "name": "Histoire du Canada - Chronologie facile",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "histoire-canada-chronologie-facile-20261010"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "histoire-canada-chronologie-moins-facile-20261010",
+    "name": "Histoire du Canada - Chronologie moins facile",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "histoire-canada-chronologie-moins-facile-20261010"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "histoire-chronologie-grece-antique-20261010",
+    "name": "Histoire - Chronologie de la Grèce antique",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "histoire-chronologie-grece-antique-20261010"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "histoire-chronologie-rome-antique-20261010",
+    "name": "Histoire - Chronologie de la Rome antique",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "histoire-chronologie-rome-antique-20261010"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "histoire-etats-unis-chronologie-20261010",
+    "name": "Histoire des États-Unis — Chronologie",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "histoire-etats-unis-chronologie-20261010"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "histoire-etats-unis-politique-et-grandes-figures-20261010",
+    "name": "Histoire des États-Unis — Figures et institutions — QCM",
+    "count": 6,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 1,
+    "sources": [
+      "histoire-etats-unis-politique-et-grandes-figures-20261010",
+      "lib-qcm-histoire-etats-unis-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "histoire-etats-unis-societe-crises-et-culture-20261010",
+    "name": "Histoire des États-Unis — Société et repères — QCM",
+    "count": 7,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 1,
+    "sources": [
+      "histoire-etats-unis-societe-crises-et-culture-20261010",
+      "lib-qcm-histoire-etats-unis-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "histoire-france-moyen-age-reperes-20261010",
+    "name": "Histoire de France — Moyen Âge — Repères",
+    "count": 6,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "histoire-france-moyen-age-reperes-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "histoire-france-moyen-age-vie-quotidienne-20261010",
+    "name": "Histoire de France — Moyen Âge — Vie quotidienne",
+    "count": 6,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "histoire-france-moyen-age-vie-quotidienne-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "histoire-france-renaissance-chronologie-20261010",
+    "name": "Histoire de France — Renaissance — Chronologie",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "histoire-france-renaissance-chronologie-20261010"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "histoire-france-renaissance-lettres-et-savoirs-20261010",
+    "name": "Histoire de France — Renaissance — Lettres et savoirs",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "histoire-france-renaissance-lettres-et-savoirs-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "histoire-france-renaissance-rois-et-arts-20261010",
+    "name": "Histoire de France — Renaissance — Rois et arts",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "histoire-france-renaissance-rois-et-arts-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "histoire-mondiale-chronologie-1-20261010",
+    "name": "Histoire mondiale — Transformations et explorations — Chronologie — 1",
+    "count": 6,
+    "subject": "Histoire",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "histoire-mondiale-chronologie-1-20261010",
+      "lib-chronologie-explorateurs-reperes-20261012"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "histoire-mondiale-chronologie-2-20261010",
+    "name": "Histoire mondiale — Transformations et explorations — Chronologie — 2",
+    "count": 7,
+    "subject": "Histoire",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "histoire-mondiale-chronologie-2-20261010",
+      "lib-chronologie-explorateurs-reperes-20261012"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "histoire-mondiale-xixe-empires-et-industrie-20261010",
+    "name": "Histoire mondiale — Grands repères — QCM — 1",
+    "count": 7,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "histoire-mondiale-xixe-empires-et-industrie-20261010",
+      "histoire-mondiale-xixe-revoltes-et-unifications-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "histoire-mondiale-xixe-revoltes-et-unifications-20261010",
+    "name": "Histoire mondiale — Grands repères — QCM — 2",
+    "count": 7,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "histoire-mondiale-xixe-revoltes-et-unifications-20261010",
+      "histoire-mondiale-xxe-conflits-et-transformations-20261010",
+      "histoire-mondiale-xxe-guerres-et-reformes-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "histoire-mondiale-xxe-conflits-et-transformations-20261010",
+    "name": "Histoire mondiale — Grands repères — QCM — 3",
+    "count": 7,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "histoire-mondiale-xxe-guerres-et-reformes-20261010",
+      "lib-qcm-histoire-mondiale-generale-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-animaux-marins-20261012",
+    "name": "Animaux marins — Sous l’eau — Buzzer",
+    "count": 5,
+    "subject": "Nature",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-animaux-marins-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-animaux-terrestres-20261012",
+    "name": "Animaux terrestres — Mammifères — Buzzer",
+    "count": 5,
+    "subject": "Nature",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-animaux-terrestres-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-bd-franco-belge-20261012",
+    "name": "BD française et belge — Buzzer",
+    "count": 5,
+    "subject": "BD et manga",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-bd-franco-belge-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-chanson-francophone-20261012",
+    "name": "Chanson francophone — Classiques — Buzzer",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-chanson-francophone-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-classique-20261012",
+    "name": "Musique classique — Compositeurs et œuvres — Réponses écrites",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-classique-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-contes-anglais-20261012",
+    "name": "Contes et légendes d’Angleterre — Buzzer",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-contes-anglais-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-contes-francais-20261012",
+    "name": "Contes et légendes de France — Buzzer",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-contes-francais-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-cuisine-celebre-20261012",
+    "name": "Cuisine — Plats célèbres — Réponses écrites",
+    "count": 5,
+    "subject": "Cuisine",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-cuisine-celebre-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-cuisine-saveurs-20261012",
+    "name": "Cuisine — Saveurs et desserts du monde — Buzzer",
+    "count": 5,
+    "subject": "Cuisine",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-cuisine-saveurs-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-dc-20261012",
+    "name": "DC — Héros et univers — Buzzer",
+    "count": 5,
+    "subject": "Super-héros",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-dc-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-devinettes-20261012",
+    "name": "Devinettes — Objets familiers — Buzzer",
+    "count": 5,
+    "subject": "Logique et énigmes",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-devinettes-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-disney-20261012",
+    "name": "Disney — Animation — Réponses écrites",
+    "count": 5,
+    "subject": "Cinéma",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-disney-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-explorateurs-20261012",
+    "name": "Histoire — Explorateurs célèbres — Réponses écrites",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-explorateurs-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-geographie-monde-20261012",
+    "name": "Géographie mondiale — Reliefs et océans — Réponses écrites",
+    "count": 5,
+    "subject": "Géographie",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-geographie-monde-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-geographie-villes-20261012",
+    "name": "Géographie mondiale — Villes et monuments — Buzzer",
+    "count": 7,
+    "subject": "Géographie",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 4,
+    "sources": [
+      "geographie-capitales-20261010-v2",
+      "lib-buzzer-geographie-villes-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-ghibli-20261012",
+    "name": "Cinéma — Studio Ghibli — Films animés — Buzzer",
+    "count": 5,
+    "subject": "Cinéma",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-ghibli-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-histoire-etats-unis-20261012",
+    "name": "Histoire des États-Unis — Grands repères — Réponses écrites",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-histoire-etats-unis-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-histoire-france-generale-20261012",
+    "name": "Histoire de France — Figures et repères — Réponses écrites",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-histoire-france-generale-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-histoire-mondiale-generale-20261012",
+    "name": "Histoire mondiale — Grands repères — Buzzer",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-histoire-mondiale-generale-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-insectes-20261012",
+    "name": "Insectes — Petites bêtes — Réponses écrites",
+    "count": 5,
+    "subject": "Nature",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-insectes-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-instruments-20261012",
+    "name": "Musique — Instruments — Buzzer",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-instruments-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-inventions-canada-20261012",
+    "name": "Inventions canadiennes — Créateurs et objets — Réponses écrites",
+    "count": 5,
+    "subject": "Sciences",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-inventions-canada-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-jazz-blues-20261012",
+    "name": "Jazz, blues et soul — Repères — Réponses écrites",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-jazz-blues-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-jeux-video-20261012",
+    "name": "Jeux vidéo — Grands univers — Buzzer",
+    "count": 5,
+    "subject": "Jeux vidéo",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-jeux-video-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-legendes-france-20261012",
+    "name": "Légendes de France — Régions et créatures — Réponses écrites",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-legendes-france-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-litterature-americaine-20261012",
+    "name": "Littérature américaine — Classiques — Réponses écrites",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-litterature-americaine-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-litterature-anglaise-20261012",
+    "name": "Littérature anglophone — Classiques — Buzzer",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-litterature-anglaise-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-litterature-france-20261012",
+    "name": "Littérature française — Romans et personnages — Buzzer",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-litterature-france-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-litterature-quebec-20261012",
+    "name": "Littérature québécoise — Grands noms — Réponses écrites",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-litterature-quebec-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-logique-20261012",
+    "name": "Logique — Défis rapides — Réponses écrites",
+    "count": 5,
+    "subject": "Logique et énigmes",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-logique-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-manga-20261012",
+    "name": "Manga — Grands classiques — Réponses écrites",
+    "count": 5,
+    "subject": "BD et manga",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-manga-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-marvel-20261012",
+    "name": "Marvel — Héros et univers — Réponses écrites",
+    "count": 5,
+    "subject": "Super-héros",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-marvel-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-musique-ecran-20261012",
+    "name": "Musique — Films et comédies musicales — Buzzer",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-musique-ecran-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-musique-quebec-20261012",
+    "name": "Musique — Artistes du Québec — Réponses écrites",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-musique-quebec-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-mythologie-grecque-20261012",
+    "name": "Mythologie grecque — Dieux et héros — Buzzer",
+    "count": 5,
+    "subject": "Mythologie",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-mythologie-grecque-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-mythologie-romaine-20261012",
+    "name": "Mythologie romaine — Dieux et récits — Buzzer",
+    "count": 5,
+    "subject": "Mythologie",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-mythologie-romaine-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-odyssee-20261012",
+    "name": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Réponses écrites",
+    "count": 5,
+    "subject": "Mythologie",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-odyssee-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-oiseaux-20261012",
+    "name": "Oiseaux — Portraits et habitudes — Réponses écrites",
+    "count": 5,
+    "subject": "Nature",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-oiseaux-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-buzzer-pop-rock-20261012",
+    "name": "Musique — Pop et rock — Grands noms — Buzzer",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-pop-rock-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-recits-autochtones-20261012",
+    "name": "Contes et légendes — Récits autochtones — Traditions nommées — Buzzer",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-recits-autochtones-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-science-generale-20261012",
+    "name": "Sciences — Découvertes accessibles — Buzzer",
+    "count": 5,
+    "subject": "Sciences",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-science-generale-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-buzzer-table-ronde-20261012",
+    "name": "Le cycle de la Table ronde — Réponses écrites",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-buzzer-table-ronde-20261012"
+    ],
+    "seconds": 30
+  },
+  {
+    "id": "lib-chronologie-architecture-reperes-20261012",
+    "name": "Architecture — Monuments dans le temps — Chronologie",
+    "count": 5,
+    "subject": "Architecture",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-chronologie-architecture-reperes-20261012"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "lib-chronologie-bd-premieres-20261012",
+    "name": "Culture populaire — Jeux et BD — Chronologie",
+    "count": 7,
+    "subject": "Culture populaire",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-chronologie-bd-premieres-20261012",
+      "original-pop-culture",
+      "original-video-game-maps"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "lib-chronologie-disney-sorties-20261012",
+    "name": "Disney — Sorties des films animés — Chronologie",
+    "count": 5,
+    "subject": "Cinéma",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-chronologie-disney-sorties-20261012"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "lib-chronologie-ghibli-sorties-20261012",
+    "name": "Cinéma — Studio Ghibli — Sorties japonaises — Chronologie",
+    "count": 5,
+    "subject": "Cinéma",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-chronologie-ghibli-sorties-20261012"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "lib-chronologie-musique-reperes-20261012",
+    "name": "Musique — Œuvres dans le temps — Chronologie",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-chronologie-musique-reperes-20261012"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "lib-chronologie-nature-cycles-20261012",
+    "name": "Nature — Cycles de vie — Chronologie",
+    "count": 5,
+    "subject": "Nature",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-chronologie-nature-cycles-20261012"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "lib-chronologie-odyssee-episodes-20261012",
+    "name": "Mythologie — L’Odyssée — Ordre des épisodes — Chronologie",
+    "count": 5,
+    "subject": "Mythologie",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-chronologie-odyssee-episodes-20261012"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "lib-chronologie-romans-publications-20261012",
+    "name": "Littérature — Premières publications — Chronologie",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-chronologie-romans-publications-20261012"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "lib-chronologie-superheros-premieres-20261012",
+    "name": "DC et Marvel — Premières apparitions — Chronologie",
+    "count": 5,
+    "subject": "Super-héros",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-chronologie-superheros-premieres-20261012"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "lib-qcm-animaux-marins-20261012",
+    "name": "Animaux marins — Sous l’eau — QCM",
+    "count": 5,
+    "subject": "Nature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-animaux-marins-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-animaux-terrestres-20261012",
+    "name": "Animaux terrestres — Mammifères — QCM",
+    "count": 5,
+    "subject": "Nature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-animaux-terrestres-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-bd-franco-belge-20261012",
+    "name": "BD française et belge — QCM",
+    "count": 5,
+    "subject": "BD et manga",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-bd-franco-belge-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-chanson-francophone-20261012",
+    "name": "Chanson francophone — Classiques — QCM",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-chanson-francophone-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-classique-20261012",
+    "name": "Musique classique — Compositeurs et œuvres — QCM",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-classique-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-contes-anglais-20261012",
+    "name": "Contes et légendes d’Angleterre — QCM",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-contes-anglais-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-contes-francais-20261012",
+    "name": "Contes et légendes de France — QCM",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-contes-francais-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-cuisine-celebre-20261012",
+    "name": "Cuisine — Plats célèbres — QCM",
+    "count": 5,
+    "subject": "Cuisine",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-cuisine-celebre-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-cuisine-saveurs-20261012",
+    "name": "Cuisine — Saveurs et desserts du monde — QCM",
+    "count": 5,
+    "subject": "Cuisine",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-cuisine-saveurs-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-dc-20261012",
+    "name": "DC — Héros et univers — QCM",
+    "count": 5,
+    "subject": "Super-héros",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-dc-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-devinettes-20261012",
+    "name": "Devinettes — Objets familiers — QCM",
+    "count": 5,
+    "subject": "Logique et énigmes",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-devinettes-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-disney-20261012",
+    "name": "Disney — Animation — QCM",
+    "count": 5,
+    "subject": "Cinéma",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-disney-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-explorateurs-20261012",
+    "name": "Histoire — Explorateurs célèbres — QCM",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-explorateurs-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-geographie-monde-20261012",
+    "name": "Géographie mondiale — Reliefs et océans — QCM",
+    "count": 5,
+    "subject": "Géographie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-geographie-monde-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-geographie-villes-20261012",
+    "name": "Géographie mondiale — Villes et monuments — QCM",
+    "count": 5,
+    "subject": "Géographie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-geographie-villes-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-ghibli-20261012",
+    "name": "Cinéma — Studio Ghibli — Films animés — QCM",
+    "count": 5,
+    "subject": "Cinéma",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-ghibli-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-histoire-france-generale-20261012",
+    "name": "Histoire de France — Figures et repères — QCM",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-histoire-france-generale-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-insectes-20261012",
+    "name": "Insectes — Petites bêtes — QCM",
+    "count": 5,
+    "subject": "Nature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-insectes-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-instruments-20261012",
+    "name": "Musique — Instruments — QCM",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-instruments-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-inventions-canada-20261012",
+    "name": "Inventions canadiennes — Créateurs et objets — QCM",
+    "count": 5,
+    "subject": "Sciences",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-inventions-canada-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-jazz-blues-20261012",
+    "name": "Jazz, blues et soul — Repères — QCM",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-jazz-blues-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-legendes-france-20261012",
+    "name": "Légendes de France — Régions et créatures — QCM",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-legendes-france-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-litterature-americaine-20261012",
+    "name": "Littérature américaine — Classiques — QCM",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-litterature-americaine-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-litterature-anglaise-20261012",
+    "name": "Littérature anglophone — Classiques — QCM",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-litterature-anglaise-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-litterature-france-20261012",
+    "name": "Littérature française — Romans et personnages — QCM",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-litterature-france-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-litterature-quebec-20261012",
+    "name": "Littérature québécoise — Grands noms — QCM",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-litterature-quebec-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-logique-20261012",
+    "name": "Logique — Défis rapides — QCM",
+    "count": 5,
+    "subject": "Logique et énigmes",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-logique-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-manga-20261012",
+    "name": "Manga — Grands classiques — QCM",
+    "count": 5,
+    "subject": "BD et manga",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-manga-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-marvel-20261012",
+    "name": "Marvel — Héros et univers — QCM",
+    "count": 5,
+    "subject": "Super-héros",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-marvel-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-musique-ecran-20261012",
+    "name": "Musique — Films et comédies musicales — QCM",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-musique-ecran-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-musique-quebec-20261012",
+    "name": "Musique — Artistes du Québec — QCM",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-musique-quebec-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-mythologie-grecque-20261012",
+    "name": "Mythologie grecque — Dieux et héros — QCM",
+    "count": 5,
+    "subject": "Mythologie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-mythologie-grecque-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-mythologie-romaine-20261012",
+    "name": "Mythologie romaine — Dieux et récits — QCM",
+    "count": 5,
+    "subject": "Mythologie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-mythologie-romaine-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-odyssee-20261012",
+    "name": "Mythologie — L’Odyssée — Le voyage d’Ulysse — QCM",
+    "count": 5,
+    "subject": "Mythologie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-odyssee-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-oiseaux-20261012",
+    "name": "Oiseaux — Portraits et habitudes — QCM",
+    "count": 5,
+    "subject": "Nature",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-oiseaux-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-pop-rock-20261012",
+    "name": "Musique — Pop et rock — Grands noms — QCM",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-pop-rock-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-recits-autochtones-20261012",
+    "name": "Contes et légendes — Récits autochtones — Traditions nommées — QCM",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-recits-autochtones-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-science-generale-20261012",
+    "name": "Sciences — Découvertes accessibles — QCM",
+    "count": 5,
+    "subject": "Sciences",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-science-generale-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qcm-table-ronde-20261012",
+    "name": "Le cycle de la Table ronde — QCM",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "lib-qcm-table-ronde-20261012"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "lib-qsj-animaux-marins-20261012",
+    "name": "Animaux marins — Sous l’eau — Qui suis-je ?",
+    "count": 5,
+    "subject": "Nature",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-animaux-marins-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-animaux-terrestres-20261012",
+    "name": "Animaux terrestres — Mammifères — Qui suis-je ?",
+    "count": 5,
+    "subject": "Nature",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-animaux-terrestres-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-bd-franco-belge-20261012",
+    "name": "BD française et belge — Qui suis-je ?",
+    "count": 5,
+    "subject": "BD et manga",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-bd-franco-belge-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-chanson-francophone-20261012",
+    "name": "Chanson francophone — Classiques — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-chanson-francophone-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-classique-20261012",
+    "name": "Musique classique — Compositeurs et œuvres — Qui suis-je ?",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-classique-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-contes-anglais-20261012",
+    "name": "Contes et légendes d’Angleterre — Qui suis-je ?",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-contes-anglais-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-contes-francais-20261012",
+    "name": "Contes et légendes de France — Qui suis-je ?",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-contes-francais-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-cuisine-celebre-20261012",
+    "name": "Cuisine — Plats célèbres — Qui suis-je ?",
+    "count": 5,
+    "subject": "Cuisine",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-cuisine-celebre-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-cuisine-saveurs-20261012",
+    "name": "Cuisine — Saveurs et desserts du monde — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Cuisine",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-cuisine-saveurs-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-dc-20261012",
+    "name": "DC — Héros et univers — Qui suis-je ?",
+    "count": 5,
+    "subject": "Super-héros",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-dc-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-devinettes-20261012",
+    "name": "Devinettes — Objets familiers — Qui suis-je ?",
+    "count": 5,
+    "subject": "Logique et énigmes",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-devinettes-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-disney-20261012",
+    "name": "Disney — Animation — Qui suis-je ?",
+    "count": 5,
+    "subject": "Cinéma",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-disney-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-explorateurs-20261012",
+    "name": "Histoire — Explorateurs célèbres — Qui suis-je ?",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-explorateurs-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-geographie-monde-20261012",
+    "name": "Géographie mondiale — Reliefs et océans — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Géographie",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-geographie-monde-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-geographie-villes-20261012",
+    "name": "Géographie mondiale — Villes et monuments — Qui suis-je ?",
+    "count": 5,
+    "subject": "Géographie",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-geographie-villes-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-ghibli-20261012",
+    "name": "Cinéma — Studio Ghibli — Films animés — Qui suis-je ?",
+    "count": 5,
+    "subject": "Cinéma",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-ghibli-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-histoire-etats-unis-20261012",
+    "name": "Histoire des États-Unis — Grands repères — Qui suis-je ?",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-histoire-etats-unis-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-histoire-france-generale-20261012",
+    "name": "Histoire de France — Figures et repères — Qui suis-je ?",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-histoire-france-generale-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-histoire-mondiale-generale-20261012",
+    "name": "Histoire mondiale — Grands repères — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-histoire-mondiale-generale-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-insectes-20261012",
+    "name": "Insectes — Petites bêtes — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Nature",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-insectes-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-instruments-20261012",
+    "name": "Musique — Instruments — Qui suis-je ?",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-instruments-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-inventions-canada-20261012",
+    "name": "Inventions canadiennes — Créateurs et objets — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Sciences",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-inventions-canada-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-jazz-blues-20261012",
+    "name": "Jazz, blues et soul — Repères — Qui suis-je ?",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-jazz-blues-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-jeux-video-20261012",
+    "name": "Jeux vidéo — Grands univers — Qui suis-je ?",
+    "count": 5,
+    "subject": "Jeux vidéo",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-jeux-video-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-legendes-france-20261012",
+    "name": "Légendes de France — Régions et créatures — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-legendes-france-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-litterature-quebec-20261012",
+    "name": "Littérature québécoise — Grands noms — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-litterature-quebec-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-logique-20261012",
+    "name": "Logique — Défis rapides — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Logique et énigmes",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-logique-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-manga-20261012",
+    "name": "Manga — Grands classiques — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "BD et manga",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-manga-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-marvel-20261012",
+    "name": "Marvel — Héros et univers — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Super-héros",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-marvel-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-musique-ecran-20261012",
+    "name": "Musique — Films et comédies musicales — Qui suis-je ?",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-musique-ecran-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-musique-quebec-20261012",
+    "name": "Musique — Artistes du Québec — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-musique-quebec-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-odyssee-20261012",
+    "name": "Mythologie — L’Odyssée — Le voyage d’Ulysse — Qui suis-je ?",
+    "count": 5,
+    "subject": "Mythologie",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-odyssee-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-oiseaux-20261012",
+    "name": "Oiseaux — Portraits et habitudes — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Nature",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-oiseaux-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-pop-rock-20261012",
+    "name": "Musique — Pop et rock — Grands noms — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Musique",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-pop-rock-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-recits-autochtones-20261012",
+    "name": "Contes et légendes — Récits autochtones — Traditions nommées — Qui suis-je ?",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-recits-autochtones-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-science-generale-20261012",
+    "name": "Sciences — Découvertes accessibles — Qui suis-je ?",
+    "count": 5,
+    "subject": "Sciences",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-science-generale-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "lib-qsj-table-ronde-20261012",
+    "name": "Le cycle de la Table ronde — Qui suis-je ? écrit",
+    "count": 5,
+    "subject": "Contes et légendes",
+    "types": [
+      "Qui suis-je ? écrit"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "lib-qsj-table-ronde-20261012"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "original-gaming-history",
+    "name": "Histoire du jeu vidéo",
+    "count": 5,
+    "subject": "Jeux vidéo",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "original-gaming-history"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "original-pop-culture",
+    "name": "Culture populaire — QCM",
+    "count": 6,
+    "subject": "Culture populaire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "lib-qcm-jeux-video-20261012",
+      "original-pop-culture"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "original-science-tech",
+    "name": "Sciences et technologie",
+    "count": 5,
+    "subject": "Sciences",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "original-science-tech"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "original-video-game-maps",
+    "name": "Jeux vidéo — Univers et personnages — QCM",
+    "count": 7,
+    "subject": "Jeux vidéo",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 3,
+    "sources": [
+      "lib-qcm-jeux-video-20261012",
+      "original-video-game-maps"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "original-world-geography",
+    "name": "Géographie mondiale",
+    "count": 5,
+    "subject": "Géographie",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 2,
+    "sources": [
+      "original-world-geography"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "revolution-francaise-chronologie-20261010",
+    "name": "Révolution française — Chronologie",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Chronologie"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "revolution-francaise-chronologie-20261010"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "revolution-francaise-culture-et-mobilisation-20261010",
+    "name": "Révolution française — Culture et mobilisation",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "revolution-francaise-culture-et-mobilisation-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "revolution-francaise-politique-et-personnages-20261010",
+    "name": "Révolution française — Politique et personnages",
+    "count": 5,
+    "subject": "Histoire",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": false,
+    "images": 0,
+    "sources": [
+      "revolution-francaise-politique-et-personnages-20261010"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "test-buzzer-20261012",
+    "name": "TEST — Buzzer",
+    "count": 5,
+    "subject": "Tests",
+    "types": [
+      "Buzzer"
+    ],
+    "test": true,
+    "images": 2,
+    "sources": [
+      "architecture-buzzer-europe-20261011",
+      "test-02-buzzer"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "test-carte-20261012",
+    "name": "TEST — Cartes",
+    "count": 5,
+    "subject": "Tests",
+    "types": [
+      "Carte"
+    ],
+    "test": true,
+    "images": 0,
+    "sources": [
+      "test-06-map-choice"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "test-chronologie-20261012",
+    "name": "TEST — Chronologie",
+    "count": 5,
+    "subject": "Tests",
+    "types": [
+      "Chronologie"
+    ],
+    "test": true,
+    "images": 0,
+    "sources": [
+      "arts-chronologie-peintures-dans-le-temps-20261011",
+      "test-04-chronologie",
+      "test-05-ordering"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "test-indices-20261012",
+    "name": "TEST — Qui suis-je ?",
+    "count": 5,
+    "subject": "Tests",
+    "types": [
+      "Qui suis-je ?"
+    ],
+    "test": true,
+    "images": 0,
+    "sources": [
+      "architecture-qsj-antiquite-20261011",
+      "qui-suis-je-demo",
+      "test-03-qui-suis-je"
+    ],
+    "seconds": 80
+  },
+  {
+    "id": "test-qcm-20261012",
+    "name": "TEST — QCM et images",
+    "count": 5,
+    "subject": "Tests",
+    "types": [
+      "Choix multiples"
+    ],
+    "test": true,
+    "images": 2,
+    "sources": [
+      "architecture-qcm-asie-orient-20261011",
+      "test-01-qcm",
+      "test-07-wager",
+      "test-09-carte-qcm"
+    ],
+    "seconds": 15
+  },
+  {
+    "id": "test-rapidite-20261012",
+    "name": "TEST — Rapidité",
+    "count": 5,
+    "subject": "Tests",
+    "types": [
+      "Rapidité"
+    ],
+    "test": true,
+    "images": 2,
+    "sources": [
+      "architecture-qcm-asie-orient-20261011",
+      "test-08-speed-race"
+    ],
+    "seconds": 15
+  }
+]

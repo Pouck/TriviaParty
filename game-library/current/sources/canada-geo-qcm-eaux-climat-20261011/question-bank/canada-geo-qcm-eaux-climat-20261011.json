@@ -1,0 +1,100 @@
+{
+  "category": "Géographie du Canada — Eaux, îles et climat",
+  "subject": "Géographie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-eaux-climat-20261011-01",
+      "category": "Géographie du Canada — Eaux, îles et climat",
+      "prompt": "Quel fleuve s’écoule du Grand lac des Esclaves vers la mer de Beaufort, dans l’océan Arctique ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le Mackenzie",
+        "B — Le Yukon",
+        "C — Le Saint-Laurent",
+        "D — Le Nelson"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-eaux-climat-20261011-02",
+      "category": "Géographie du Canada — Eaux, îles et climat",
+      "prompt": "Quelle particularité rend l’île Manitoulin, dans le lac Huron, célèbre ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Elle connaît 24 heures de nuit en hiver",
+        "B — Elle contient le désert le plus au nord du monde",
+        "C — Elle est traversée par une frontière internationale",
+        "D — C’est la plus grande île située dans un lac d’eau douce au monde"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-eaux-climat-20261011-03",
+      "category": "Géographie du Canada — Eaux, îles et climat",
+      "prompt": "Sur quelle île canadienne se trouve la route panoramique Cabot Trail ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Haida Gwaii",
+        "B — Terre-Neuve",
+        "C — L’île du Cap-Breton",
+        "D — L’île d’Anticosti"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-eaux-climat-20261011-04",
+      "category": "Géographie du Canada — Eaux, îles et climat",
+      "prompt": "Quelle vallée de l’intérieur de la Colombie-Britannique est connue pour son climat semi-aride, lié notamment à l’ombre pluviométrique des montagnes ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La vallée du Saint-Laurent",
+        "B — La vallée de l’Okanagan",
+        "C — La vallée de l’Annapolis",
+        "D — La vallée de l’Outaouais"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-eaux-climat-20261011-05",
+      "category": "Géographie du Canada — Eaux, îles et climat",
+      "prompt": "Quelle immense baie intérieure reçoit les eaux de nombreux cours d’eau du centre du Canada et gèle en grande partie en hiver ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le golfe du Saint-Laurent",
+        "B — La baie d’Hudson",
+        "C — Les Grands Lacs",
+        "D — La mer de Beaufort"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "canada-geo-qcm-eaux-climat-20261011-06",
+      "category": "Géographie du Canada — Eaux, îles et climat",
+      "prompt": "Où trouve-t-on une forêt pluviale tempérée caractérisée par de grandes épinettes de Sitka et des thuyas géants ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Sur la côte ouest de l’île de Vancouver",
+        "B — Dans les Laurentides",
+        "C — Sur le dôme algonquin",
+        "D — Dans la vallée de l’Annapolis"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

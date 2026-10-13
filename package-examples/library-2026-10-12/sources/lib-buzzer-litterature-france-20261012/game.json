@@ -1,0 +1,15 @@
+{
+  "id": "lib-buzzer-litterature-france-20261012",
+  "name": "Littérature française — Romans et personnages — Buzzer",
+  "description": "5 questions accessibles en français. 2 visuelles et 3 textuelles ; 15 s ; 15 → 10 → 5 pts.",
+  "categoryPackages": [
+    "lib-buzzer-litterature-france-20261012"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "category": "Histoire des États-Unis — Société, crises et culture",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "us-societe-crises-et-culture-20261010-01",
+      "category": "Histoire des États-Unis — Société, crises et culture",
+      "prompt": "Quel réseau clandestin aidait des personnes réduites en esclavage à gagner des territoires libres, notamment le Canada ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le Freedom Trail",
+        "B — L’Express abolitionniste",
+        "C — La Ligne de la liberté",
+        "D — Le Chemin de fer clandestin"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-societe-crises-et-culture-20261010-02",
+      "category": "Histoire des États-Unis — Société, crises et culture",
+      "prompt": "Quelle interdiction le 18e amendement, ratifié en 1919, établissait-il aux États-Unis ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La fabrication et la vente de boissons alcoolisées destinées à la consommation",
+        "B — La perception de l’impôt fédéral sur le revenu",
+        "C — La semaine de travail de 40 heures",
+        "D — Le vote des femmes aux élections fédérales"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-societe-crises-et-culture-20261010-03",
+      "category": "Histoire des États-Unis — Société, crises et culture",
+      "prompt": "Quelle convention tenue dans l’État de New York en 1848 marqua une étape majeure du mouvement pour les droits des femmes ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — L’assemblée d’Albany",
+        "B — La convention de Seneca Falls",
+        "C — La conférence des ouvrières de Lowell",
+        "D — Le sommet de Saratoga Springs"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-societe-crises-et-culture-20261010-04",
+      "category": "Histoire des États-Unis — Société, crises et culture",
+      "prompt": "Quelle grande crise économique des années 1930 est associée au krach boursier de 1929 et à un chômage massif ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La crise de la stagflation",
+        "B — La panique de 1893",
+        "C — La Grande Dépression",
+        "D — La crise du Dust Bowl"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

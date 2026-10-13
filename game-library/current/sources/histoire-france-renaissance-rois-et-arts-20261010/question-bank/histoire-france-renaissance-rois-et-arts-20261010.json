@@ -1,0 +1,85 @@
+{
+  "category": "Histoire de France — Renaissance — Rois et arts",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-rois-et-arts-20261010-01",
+      "category": "Histoire de France — Renaissance — Rois et arts",
+      "prompt": "Quel artiste italien François Ier accueillit-il au Clos Lucé, où il passa ses dernières années ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Léonard de Vinci",
+        "B — Raphaël",
+        "C — Sandro Botticelli",
+        "D — Michel-Ange"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-rois-et-arts-20261010-02",
+      "category": "Histoire de France — Renaissance — Rois et arts",
+      "prompt": "Quelle reine, épouse d’Henri II, fut la mère de François II, Charles IX et Henri III ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Marie de Médicis",
+        "B — Catherine de Médicis",
+        "C — Lucrèce Borgia",
+        "D — Isabelle d’Este"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-rois-et-arts-20261010-03",
+      "category": "Histoire de France — Renaissance — Rois et arts",
+      "prompt": "Quel château possède une célèbre galerie construite sur un pont qui enjambe le Cher ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Chenonceau",
+        "B — Fontainebleau",
+        "C — Chambord",
+        "D — Amboise"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-renaissance-rois-et-arts-20261010-04",
+      "category": "Histoire de France — Renaissance — Rois et arts",
+      "prompt": "Quel musée parisien occupe l’ancien palais que François Ier fit transformer dans le style Renaissance ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le musée d’Orsay",
+        "B — Le Centre Pompidou",
+        "C — Le musée de l’Orangerie",
+        "D — Le Louvre"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "resize-20261012-marignan",
+      "kind": "multipleChoice",
+      "category": "Histoire de France — Renaissance — Rois et arts",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "prompt": "Quelle bataille François Ier remporte-t-il en 1515 ?",
+      "options": [
+        "A — Azincourt",
+        "B — Poitiers",
+        "C — Marignan",
+        "D — Crécy"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

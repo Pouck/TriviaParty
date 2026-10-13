@@ -1,0 +1,172 @@
+{
+  "category": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+  "subject": "Cinéma",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Chronologie"
+  ],
+  "questions": [
+    {
+      "id": "cinema-chronologie-sagas-20261011-01",
+      "category": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Indiana Jones — du plus ancien au plus récent :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Raiders of the Lost Ark"
+        },
+        {
+          "id": "item-1",
+          "text": "Indiana Jones and the Last Crusade"
+        },
+        {
+          "id": "item-2",
+          "text": "Indiana Jones and the Temple of Doom"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "id": "cinema-chronologie-sagas-20261011-02",
+      "category": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "James Bond — époque Daniel Craig — du plus ancien au plus récent :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Skyfall"
+        },
+        {
+          "id": "item-1",
+          "text": "Casino Royale"
+        },
+        {
+          "id": "item-2",
+          "text": "Spectre"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-0",
+        "item-2"
+      ]
+    },
+    {
+      "id": "cinema-chronologie-sagas-20261011-03",
+      "category": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Pixar — du plus ancien au plus récent :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Toy Story"
+        },
+        {
+          "id": "item-1",
+          "text": "Inside Out"
+        },
+        {
+          "id": "item-2",
+          "text": "Finding Nemo"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "id": "cinema-chronologie-sagas-20261011-04",
+      "category": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Harry Potter — du plus ancien au plus récent :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "Harry Potter et les Reliques de la Mort — Partie 2"
+        },
+        {
+          "id": "item-1",
+          "text": "Harry Potter à l’école des sorciers"
+        },
+        {
+          "id": "item-2",
+          "text": "Harry Potter et la Coupe de feu"
+        }
+      ],
+      "correctOrderIds": [
+        "item-1",
+        "item-2",
+        "item-0"
+      ]
+    },
+    {
+      "id": "cinema-chronologie-sagas-20261011-05",
+      "category": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Le Seigneur des anneaux — du plus ancien au plus récent :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "La Communauté de l’anneau"
+        },
+        {
+          "id": "item-1",
+          "text": "Le Retour du roi"
+        },
+        {
+          "id": "item-2",
+          "text": "Les Deux Tours"
+        }
+      ],
+      "correctOrderIds": [
+        "item-0",
+        "item-2",
+        "item-1"
+      ]
+    },
+    {
+      "id": "cinema-chronologie-sagas-20261011-06",
+      "category": "Cinéma — Sorties de films — Sagas et studios — Chronologie",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "ordering",
+      "prompt": "Star Wars — trilogie originale — du plus ancien au plus récent :",
+      "items": [
+        {
+          "id": "item-0",
+          "text": "The Empire Strikes Back"
+        },
+        {
+          "id": "item-1",
+          "text": "Return of the Jedi"
+        },
+        {
+          "id": "item-2",
+          "text": "A New Hope"
+        }
+      ],
+      "correctOrderIds": [
+        "item-2",
+        "item-0",
+        "item-1"
+      ]
+    }
+  ]
+}

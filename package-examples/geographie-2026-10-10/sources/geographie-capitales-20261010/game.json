@@ -1,0 +1,15 @@
+{
+  "id": "geographie-capitales-20261010",
+  "name": "Géographie - Capitales",
+  "description": "Capitales en rébus. Buzzez puis répondez à voix haute. 15 secondes par question ; 15, 10 puis 5 points.",
+  "categoryPackages": [
+    "geographie-capitales-20261010"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0.0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "question": 1,
+    "questionId": "architecture-qcm-asie-orient-20261011-01",
+    "originalPackage": "architecture-qcm-asie-orient-20261011",
+    "reference": {
+      "question": 1,
+      "site": "taj",
+      "verification": "https://whc.unesco.org/en/list/252/",
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg"
+    },
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "architecture-qcm-asie-orient-20261011-02",
+    "originalPackage": "architecture-qcm-asie-orient-20261011",
+    "reference": {
+      "question": 2,
+      "site": "petra",
+      "verification": "https://whc.unesco.org/en/list/326/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "architecture-qcm-asie-orient-20261011-03",
+    "originalPackage": "architecture-qcm-asie-orient-20261011",
+    "reference": {
+      "question": 3,
+      "site": "angkor",
+      "verification": "https://whc.unesco.org/en/list/668/",
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:Angkor_Wat.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "architecture-qcm-asie-orient-20261011-04",
+    "originalPackage": "architecture-qcm-asie-orient-20261011",
+    "reference": {
+      "question": 4,
+      "site": "borobudur",
+      "verification": "https://whc.unesco.org/en/list/592/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "architecture-qcm-asie-orient-20261011-05",
+    "originalPackage": "architecture-qcm-asie-orient-20261011",
+    "reference": {
+      "question": 5,
+      "site": "forbidden",
+      "verification": "https://whc.unesco.org/en/list/439/",
+      "note": "",
+      "photo": "https://commons.wikimedia.org/wiki/File:The_Forbidden_City_-_View_from_Coal_Hill.jpg"
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "architecture-qcm-asie-orient-20261011-06",
+    "originalPackage": "architecture-qcm-asie-orient-20261011",
+    "reference": {
+      "question": 6,
+      "site": "abusimbel",
+      "verification": "https://whc.unesco.org/en/list/88/",
+      "note": "",
+      "photo": null
+    },
+    "new": false
+  }
+]

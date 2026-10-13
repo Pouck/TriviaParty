@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "basketball",
+    "title": "Basketball",
+    "file": "basketball.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_(2751923597).jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg/1920px-USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "kris krüg from Vancouver, Canada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "credit": "USA vs. China Mens Basketball - Beijing 2008 Olympic Games\n\nUploaded by Flickrworker",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-inventions-canada-20261012"
+  },
+  {
+    "slug": "snowmobile",
+    "title": "Snowmobile",
+    "file": "snowmobile.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:SnowmobilesYellowstone.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/SnowmobilesYellowstone.jpg/1920px-SnowmobilesYellowstone.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "artist": "(NPS Photo), uploaded by en:User:Great Scott.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "http://en.wikipedia.org/wiki/Image:Snowmobiles.jpg",
+    "changes": "Aucune modification ; miniature Wikimedia.",
+    "originalPackage": "lib-qcm-inventions-canada-20261012"
+  }
+]

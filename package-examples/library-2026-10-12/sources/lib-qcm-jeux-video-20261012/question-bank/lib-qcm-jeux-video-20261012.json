@@ -1,0 +1,87 @@
+{
+  "category": "Jeux vidéo — Grands univers — QCM",
+  "subject": "Jeux vidéo",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-jeux-video-20261012-01",
+      "category": "Jeux vidéo — Grands univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel héros de Nintendo est un plombier à casquette rouge ?",
+      "options": [
+        "A — Kirby",
+        "B — Mario",
+        "C — Link",
+        "D — Samus"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-jeux-video-20261012-02",
+      "category": "Jeux vidéo — Grands univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel jeu construit son monde avec des blocs ?",
+      "options": [
+        "A — Tetris",
+        "B — Pac-Man",
+        "C — Minecraft",
+        "D — Portal"
+      ],
+      "correctOptionIndex": 2,
+      "imageUrl": "images/blocks.png"
+    },
+    {
+      "id": "lib-qcm-jeux-video-20261012-03",
+      "category": "Jeux vidéo — Grands univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel personnage est un hérisson bleu ?",
+      "options": [
+        "A — Sonic",
+        "B — Yoshi",
+        "C — Pikachu",
+        "D — Donkey Kong"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/hedgehog.jpg"
+    },
+    {
+      "id": "lib-qcm-jeux-video-20261012-04",
+      "category": "Jeux vidéo — Grands univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel héros contrôle-t-on souvent dans The Legend of Zelda ?",
+      "options": [
+        "A — Ganondorf",
+        "B — Link",
+        "C — Bowser",
+        "D — Zelda"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-jeux-video-20261012-05",
+      "category": "Jeux vidéo — Grands univers — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel jeu fait tomber des pièces de quatre carrés ?",
+      "options": [
+        "A — Minecraft",
+        "B — Mario Kart",
+        "C — Pokémon",
+        "D — Tetris"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

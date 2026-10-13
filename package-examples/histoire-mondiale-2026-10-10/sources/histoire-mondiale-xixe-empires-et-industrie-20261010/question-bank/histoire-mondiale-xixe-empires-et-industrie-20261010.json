@@ -1,0 +1,69 @@
+{
+  "category": "Histoire mondiale — XIXe siècle : empires et industrie",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-empires-et-industrie-01-20261010",
+      "category": "Histoire mondiale — XIXe siècle : empires et industrie",
+      "prompt": "Quel congrès réorganisa l’Europe en 1814–1815 après les guerres napoléoniennes ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La conférence de Berlin",
+        "B — Le congrès de Vienne",
+        "C — Le traité de Versailles",
+        "D — La paix de Westphalie"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-empires-et-industrie-02-20261010",
+      "category": "Histoire mondiale — XIXe siècle : empires et industrie",
+      "prompt": "Quel territoire passe de l’administration de la Compagnie des Indes orientales à celle de la Couronne britannique en 1858 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — L’Australie",
+        "B — L’Afrique du Sud",
+        "C — L’Inde",
+        "D — Le Canada"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-empires-et-industrie-03-20261010",
+      "category": "Histoire mondiale — XIXe siècle : empires et industrie",
+      "prompt": "Quel canal, ouvert en 1869, relie la mer Méditerranée à la mer Rouge ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le canal de Panama",
+        "B — Le canal Érié",
+        "C — Le canal de Kiel",
+        "D — Le canal de Suez"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "monde-xixe-empires-et-industrie-04-20261010",
+      "category": "Histoire mondiale — XIXe siècle : empires et industrie",
+      "prompt": "Quel enjeu était notamment au cœur de la conférence de Berlin de 1884–1885 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Fixer des règles entre puissances pour l’expansion coloniale en Afrique",
+        "B — Restreindre collectivement le commerce avec la Chine",
+        "C — Former une alliance militaire contre l’Empire ottoman",
+        "D — Créer une monnaie européenne commune"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

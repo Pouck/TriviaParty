@@ -1,0 +1,79 @@
+{
+  "category": "Histoire des États-Unis — Grands repères — Buzzer",
+  "subject": "Histoire",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Réponse orale"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-histoire-etats-unis-20261012-01",
+      "category": "Histoire des États-Unis — Grands repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel président américain est assassiné à Dallas en 1963 ?",
+      "acceptableAnswers": [
+        "John F. Kennedy",
+        "Kennedy",
+        "JFK"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-histoire-etats-unis-20261012-02",
+      "category": "Histoire des États-Unis — Grands repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel monument national sculpté représente quatre présidents dans une montagne ?",
+      "acceptableAnswers": [
+        "Le mont Rushmore",
+        "Mount Rushmore",
+        "Rushmore"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/rushmore.jpg"
+    },
+    {
+      "id": "lib-buzzer-histoire-etats-unis-20261012-03",
+      "category": "Histoire des États-Unis — Grands repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle crise économique suit le krach de 1929 ?",
+      "acceptableAnswers": [
+        "La Grande Dépression",
+        "Grande Dépression"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-histoire-etats-unis-20261012-04",
+      "category": "Histoire des États-Unis — Grands repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel astronaute américain marche le premier sur la Lune ?",
+      "acceptableAnswers": [
+        "Neil Armstrong",
+        "Armstrong"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/moon.jpg"
+    },
+    {
+      "id": "lib-buzzer-histoire-etats-unis-20261012-05",
+      "category": "Histoire des États-Unis — Grands repères — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quel militant américain est associé au discours I Have a Dream ?",
+      "acceptableAnswers": [
+        "Martin Luther King Jr.",
+        "Martin Luther King"
+      ],
+      "allowFuzzyMatch": true
+    }
+  ]
+}

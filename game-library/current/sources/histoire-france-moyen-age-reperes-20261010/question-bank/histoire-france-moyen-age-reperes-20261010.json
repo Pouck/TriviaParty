@@ -1,0 +1,100 @@
+{
+  "category": "Histoire de France — Moyen Âge — Repères",
+  "subject": "Histoire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "fr-moyen-age-reperes-20261010-01",
+      "category": "Histoire de France — Moyen Âge — Repères",
+      "prompt": "Quel nom les Romains donnaient-ils à un territoire comprenant une grande partie de la France actuelle ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Lusitanie",
+        "B — Bretagne romaine",
+        "C — Gaule",
+        "D — Helvétie"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-moyen-age-reperes-20261010-02",
+      "category": "Histoire de France — Moyen Âge — Repères",
+      "prompt": "Laquelle de ces villes a été assiégée en 1209 lors de la croisade contre les Albigeois ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Paris",
+        "B — Carcassonne",
+        "C — Bordeaux",
+        "D — Lyon"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-moyen-age-reperes-20261010-03",
+      "category": "Histoire de France — Moyen Âge — Repères",
+      "prompt": "Dans quel style architectural Notre-Dame de Paris, dont la construction commence en 1163, est-elle bâtie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Gothique",
+        "B — Roman",
+        "C — Baroque",
+        "D — Renaissance"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-moyen-age-reperes-20261010-04",
+      "category": "Histoire de France — Moyen Âge — Repères",
+      "prompt": "Quel collège de l’Université de Paris doit son nom à Robert de Sorbon ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Le Louvre",
+        "B — La Sorbonne",
+        "C — La Bastille",
+        "D — Versailles"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-moyen-age-reperes-20261010-05",
+      "category": "Histoire de France — Moyen Âge — Repères",
+      "prompt": "Qu’appelle-t-on une épée bâtarde, ou épée à une main et demie ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Une épée réservée aux cavaliers",
+        "B — Une arme de siège pour briser les portes",
+        "C — Une dague empoisonnée",
+        "D — Une épée pouvant être maniée à une ou deux mains"
+      ],
+      "correctOptionIndex": 3
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "fr-moyen-age-reperes-20261010-06",
+      "category": "Histoire de France — Moyen Âge — Repères",
+      "prompt": "Sur quel fleuve se trouve Orléans, dont Jeanne d’Arc contribua à lever le siège en 1429 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — La Loire",
+        "B — La Seine",
+        "C — Le Rhône",
+        "D — Le Rhin"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

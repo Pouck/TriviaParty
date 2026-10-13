@@ -1,0 +1,100 @@
+{
+  "category": "Géographie mondiale — Villes et monuments — Buzzer",
+  "subject": "Géographie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "id": "lib-buzzer-geographie-villes-20261012-01",
+      "category": "Géographie mondiale — Villes et monuments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Dans quelle ville se trouve cet opéra célèbre ?",
+      "acceptableAnswers": [
+        "Sydney"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-geographie-villes-20261012/sydney.jpg"
+    },
+    {
+      "id": "lib-buzzer-geographie-villes-20261012-02",
+      "category": "Géographie mondiale — Villes et monuments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle capitale italienne abrite le Colisée ?",
+      "acceptableAnswers": [
+        "Rome"
+      ],
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/lib-buzzer-geographie-villes-20261012/colosseum.jpg"
+    },
+    {
+      "id": "lib-buzzer-geographie-villes-20261012-03",
+      "category": "Géographie mondiale — Villes et monuments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle est la capitale du Portugal ?",
+      "acceptableAnswers": [
+        "Lisbonne"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-geographie-villes-20261012-04",
+      "category": "Géographie mondiale — Villes et monuments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle capitale anglaise est traversée par la Tamise ?",
+      "acceptableAnswers": [
+        "Londres"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "id": "lib-buzzer-geographie-villes-20261012-05",
+      "category": "Géographie mondiale — Villes et monuments — Buzzer",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "textAnswer",
+      "prompt": "Quelle est la capitale du Maroc ?",
+      "acceptableAnswers": [
+        "Rabat"
+      ],
+      "allowFuzzyMatch": true
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-08-v2",
+      "category": "Géographie mondiale — Villes et monuments — Buzzer",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/geographie-capitales-20261010-v2/port-au-prince.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Port-au-Prince",
+        "Port au Prince"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "geo-capitales-20261010-09-v2",
+      "category": "Géographie mondiale — Villes et monuments — Buzzer",
+      "prompt": "Quelle capitale ce rébus représente-t-il ?",
+      "imageUrl": "images/geographie-capitales-20261010-v2/saint-marin.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Saint-Marin",
+        "Saint Marin"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

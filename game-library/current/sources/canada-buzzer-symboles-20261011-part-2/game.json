@@ -1,0 +1,15 @@
+{
+  "id": "canada-buzzer-symboles-20261011-part-2",
+  "name": "Canada — Géographie et symboles — Buzzer — 2",
+  "description": "5 questions en français. 15 secondes ; 15 → 10 → 5 points. Réponse au buzzer : 10 secondes.",
+  "categoryPackages": [
+    "canada-buzzer-symboles-20261011-part-2"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 5,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

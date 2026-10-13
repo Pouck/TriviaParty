@@ -1,0 +1,66 @@
+{
+  "category": "Architecture — Merveilles antiques — Qui suis-je ?",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "architecture-qsj-antiquite-20261011-01",
+      "category": "Architecture — Merveilles antiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mon chantier commence sous Vespasien, puis Titus m’inaugure en 80 de notre ère.",
+        "Mon plan elliptique entoure une arène et des gradins.",
+        "Des gladiateurs et des animaux ont participé aux spectacles que j’accueillais.",
+        "Je suis le célèbre amphithéâtre antique de Rome."
+      ],
+      "acceptableAnswers": [
+        "Le Colisée",
+        "Colisée",
+        "L’amphithéâtre Flavien"
+      ]
+    },
+    {
+      "id": "architecture-qsj-antiquite-20261011-02",
+      "category": "Architecture — Merveilles antiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis construit au Ve siècle avant notre ère, à l’époque de Périclès.",
+        "Mes colonnes appartiennent principalement à l’ordre dorique.",
+        "J’étais consacré à Athéna et j’abritais une statue réalisée par Phidias.",
+        "Je suis le grand temple qui domine l’Acropole d’Athènes."
+      ],
+      "acceptableAnswers": [
+        "Le Parthénon",
+        "Parthénon"
+      ]
+    },
+    {
+      "id": "architecture-qsj-antiquite-20261011-03",
+      "category": "Architecture — Merveilles antiques — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis un monument funéraire de la IVe dynastie égyptienne.",
+        "Je suis la seule merveille de l’Antiquité encore largement conservée.",
+        "Deux autres grandes pyramides se dressent à mes côtés.",
+        "Je suis la plus imposante des trois pyramides du plateau de Gizeh."
+      ],
+      "acceptableAnswers": [
+        "La grande pyramide de Khéops",
+        "La pyramide de Khéops",
+        "Khéops",
+        "La grande pyramide de Gizeh"
+      ]
+    }
+  ]
+}

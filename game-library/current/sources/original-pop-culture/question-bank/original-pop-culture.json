@@ -1,0 +1,103 @@
+{
+  "category": "Culture populaire — QCM",
+  "subject": "Culture populaire",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "q13",
+      "category": "Culture populaire — QCM",
+      "prompt": "Quel film de James Cameron se déroule sur Pandora ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Avengers: Endgame",
+        "B — Avatar",
+        "C — Star Wars: Le Réveil de la Force",
+        "D — Titanic"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/original-pop-culture/forest.jpg"
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q14",
+      "category": "Culture populaire — QCM",
+      "prompt": "Quel groupe a enregistré Bohemian Rhapsody ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — The Rolling Stones",
+        "B — The Beatles",
+        "C — Led Zeppelin",
+        "D — Queen"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/original-pop-culture/guitar.jpg"
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q15",
+      "category": "Culture populaire — QCM",
+      "prompt": "Quel super-héros est Tony Stark ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Spider-Man",
+        "B — Thor",
+        "C — Iron Man",
+        "D — Captain America"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "q16",
+      "category": "Culture populaire — QCM",
+      "prompt": "Quel artiste chante Blinding Lights ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — The Weeknd",
+        "B — Usher",
+        "C — Justin Timberlake",
+        "D — Bruno Mars"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-jeux-video-20261012-01",
+      "category": "Culture populaire — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel héros de Nintendo est un plombier à casquette rouge ?",
+      "options": [
+        "A — Mario",
+        "B — Samus",
+        "C — Link",
+        "D — Kirby"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-jeux-video-20261012-02",
+      "category": "Culture populaire — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel jeu construit son monde avec des blocs ?",
+      "options": [
+        "A — Pac-Man",
+        "B — Minecraft",
+        "C — Portal",
+        "D — Tetris"
+      ],
+      "correctOptionIndex": 1,
+      "imageUrl": "images/lib-qcm-jeux-video-20261012/blocks.png"
+    }
+  ]
+}

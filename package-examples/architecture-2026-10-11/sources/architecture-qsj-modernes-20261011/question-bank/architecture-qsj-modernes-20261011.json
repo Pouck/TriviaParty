@@ -1,0 +1,66 @@
+{
+  "category": "Architecture — Icônes de l’époque moderne — Qui suis-je ?",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "architecture-qsj-modernes-20261011-01",
+      "category": "Architecture — Icônes de l’époque moderne — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes pièces de fer puddlé sont assemblées à l’aide de rivets.",
+        "Je suis construite pour l’Exposition universelle de 1889.",
+        "Je me dresse au Champ-de-Mars et porte le nom de l’entrepreneur qui m’a réalisée.",
+        "Je suis la célèbre tour métallique devenue un symbole de Paris."
+      ],
+      "acceptableAnswers": [
+        "La tour Eiffel",
+        "Tour Eiffel"
+      ]
+    },
+    {
+      "id": "architecture-qsj-modernes-20261011-02",
+      "category": "Architecture — Icônes de l’époque moderne — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Le projet de mon architecte danois remporte un concours international en 1957.",
+        "Je suis construit à Bennelong Point, au bord d’un port australien.",
+        "Mes grandes coques blanches abritent des salles de spectacle.",
+        "Mes toitures évoquent des voiles sur le port de Sydney, en Australie."
+      ],
+      "acceptableAnswers": [
+        "L’opéra de Sydney",
+        "Opéra de Sydney",
+        "Sydney Opera House"
+      ]
+    },
+    {
+      "id": "architecture-qsj-modernes-20261011-03",
+      "category": "Architecture — Icônes de l’époque moderne — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je suis une résidence de week-end commandée par la famille Kaufmann en Pennsylvanie.",
+        "Mes terrasses en porte-à-faux s’avancent au-dessus d’un ruisseau.",
+        "Frank Lloyd Wright m’intègre directement à une cascade.",
+        "Mon nom anglais évoque l’eau qui tombe sous mes terrasses."
+      ],
+      "acceptableAnswers": [
+        "Fallingwater",
+        "La Maison sur la cascade",
+        "Maison sur la cascade",
+        "La maison Kaufmann"
+      ]
+    }
+  ]
+}

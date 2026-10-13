@@ -1,0 +1,87 @@
+{
+  "category": "Musique — Pop et rock — Grands noms — QCM",
+  "subject": "Musique",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "id": "lib-qcm-pop-rock-20261012-01",
+      "category": "Musique — Pop et rock — Grands noms — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel groupe a enregistré Abbey Road ?",
+      "options": [
+        "A — Queen",
+        "B — The Who",
+        "C — Les Rolling Stones",
+        "D — Les Beatles"
+      ],
+      "correctOptionIndex": 3,
+      "imageUrl": "images/lib-qcm-pop-rock-20261012/crosswalk.png"
+    },
+    {
+      "id": "lib-qcm-pop-rock-20261012-02",
+      "category": "Musique — Pop et rock — Grands noms — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Qui est le chanteur de Queen associé à Bohemian Rhapsody ?",
+      "options": [
+        "A — David Bowie",
+        "B — Freddie Mercury",
+        "C — Mick Jagger",
+        "D — Bono"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "lib-qcm-pop-rock-20261012-03",
+      "category": "Musique — Pop et rock — Grands noms — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel artiste est associé à l’album Thriller ?",
+      "options": [
+        "A — Michael Jackson",
+        "B — Elton John",
+        "C — Prince",
+        "D — Stevie Wonder"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "lib-qcm-pop-rock-20261012-04",
+      "category": "Musique — Pop et rock — Grands noms — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel style musical est associé à Bob Marley ?",
+      "options": [
+        "A — Le reggae",
+        "B — Le metal",
+        "C — Le tango",
+        "D — Le flamenco"
+      ],
+      "correctOptionIndex": 0,
+      "imageUrl": "images/lib-qcm-pop-rock-20261012/guitar.jpg"
+    },
+    {
+      "id": "lib-qcm-pop-rock-20261012-05",
+      "category": "Musique — Pop et rock — Grands noms — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel chanteur est surnommé le King du rock ’n’ roll ?",
+      "options": [
+        "A — Chuck Berry",
+        "B — Little Richard",
+        "C — Elvis Presley",
+        "D — Buddy Holly"
+      ],
+      "correctOptionIndex": 2
+    }
+  ]
+}

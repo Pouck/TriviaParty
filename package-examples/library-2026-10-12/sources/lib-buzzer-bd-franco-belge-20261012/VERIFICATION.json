@@ -1,0 +1,62 @@
+[
+  {
+    "question": 1,
+    "sources": [
+      "https://www.tintin.com/fr/characters",
+      "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+      "https://www.luckyluke.com/",
+      "https://www.smurf.com/",
+      "https://www.dupuis.com/"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 2,
+    "sources": [
+      "https://www.tintin.com/fr/characters",
+      "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+      "https://www.luckyluke.com/",
+      "https://www.smurf.com/",
+      "https://www.dupuis.com/"
+    ],
+    "note": "",
+    "visual": "stone"
+  },
+  {
+    "question": 3,
+    "sources": [
+      "https://www.tintin.com/fr/characters",
+      "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+      "https://www.luckyluke.com/",
+      "https://www.smurf.com/",
+      "https://www.dupuis.com/"
+    ],
+    "note": "",
+    "visual": "bd-character-03"
+  },
+  {
+    "question": 4,
+    "sources": [
+      "https://www.tintin.com/fr/characters",
+      "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+      "https://www.luckyluke.com/",
+      "https://www.smurf.com/",
+      "https://www.dupuis.com/"
+    ],
+    "note": "",
+    "visual": null
+  },
+  {
+    "question": 5,
+    "sources": [
+      "https://www.tintin.com/fr/characters",
+      "https://www.parcasterix.fr/nos-conseils/personnages-village-asterix",
+      "https://www.luckyluke.com/",
+      "https://www.smurf.com/",
+      "https://www.dupuis.com/"
+    ],
+    "note": "",
+    "visual": null
+  }
+]

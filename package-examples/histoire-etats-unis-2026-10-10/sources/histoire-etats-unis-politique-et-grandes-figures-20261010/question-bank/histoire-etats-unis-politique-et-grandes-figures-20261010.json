@@ -1,0 +1,69 @@
+{
+  "category": "Histoire des États-Unis — Politique et grandes figures",
+  "answerMode": "SIMULTANEOUS",
+  "questionTypes": [
+    "Choix multiples"
+  ],
+  "questions": [
+    {
+      "kind": "multipleChoice",
+      "id": "us-politique-et-grandes-figures-20261010-01",
+      "category": "Histoire des États-Unis — Politique et grandes figures",
+      "prompt": "Qui fut le principal rédacteur de la Déclaration d’indépendance, puis le troisième président des États-Unis ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Benjamin Franklin",
+        "B — John Adams",
+        "C — Thomas Jefferson",
+        "D — Alexander Hamilton"
+      ],
+      "correctOptionIndex": 2
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-politique-et-grandes-figures-20261010-02",
+      "category": "Histoire des États-Unis — Politique et grandes figures",
+      "prompt": "Qui participa à l’expédition de Lewis et Clark en facilitant notamment les échanges avec les Shoshones ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Squanto",
+        "B — Sacagawea",
+        "C — Pocahontas",
+        "D — Geronimo"
+      ],
+      "correctOptionIndex": 1
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-politique-et-grandes-figures-20261010-03",
+      "category": "Histoire des États-Unis — Politique et grandes figures",
+      "prompt": "Après quelle bataille Lincoln annonça-t-il la proclamation préliminaire d’émancipation en septembre 1862 ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Antietam",
+        "B — Fredericksburg",
+        "C — Shiloh",
+        "D — Bull Run"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "kind": "multipleChoice",
+      "id": "us-politique-et-grandes-figures-20261010-04",
+      "category": "Histoire des États-Unis — Politique et grandes figures",
+      "prompt": "Quel arrêt de 1803 affirma le pouvoir de la Cour suprême de déclarer une loi fédérale contraire à la Constitution ?",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Dred Scott c. Sandford",
+        "B — McCulloch c. Maryland",
+        "C — Gibbons c. Ogden",
+        "D — Marbury c. Madison"
+      ],
+      "correctOptionIndex": 3
+    }
+  ]
+}

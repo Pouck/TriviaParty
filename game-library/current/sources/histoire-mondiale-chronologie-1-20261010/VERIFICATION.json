@@ -1,0 +1,64 @@
+[
+  {
+    "question": 1,
+    "questionId": "monde-chronologie-1-01-20261010",
+    "originalPackage": "histoire-mondiale-chronologie-1-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 2,
+    "questionId": "monde-chronologie-1-02-20261010",
+    "originalPackage": "histoire-mondiale-chronologie-1-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 3,
+    "questionId": "monde-chronologie-1-03-20261010",
+    "originalPackage": "histoire-mondiale-chronologie-1-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 4,
+    "questionId": "monde-chronologie-1-04-20261010",
+    "originalPackage": "histoire-mondiale-chronologie-1-20261010",
+    "reference": {},
+    "new": false
+  },
+  {
+    "question": 5,
+    "questionId": "lib-chronologie-explorateurs-reperes-20261012-01",
+    "originalPackage": "lib-chronologie-explorateurs-reperes-20261012",
+    "reference": {
+      "question": 1,
+      "sources": [
+        "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+        "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+        "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+        "https://www.britannica.com/biography/Roald-Amundsen"
+      ],
+      "note": "Colomb atteint les Caraïbes (1492) → Vasco de Gama atteint l’Inde (1498) → L’expédition de Magellan-Elcano achève le tour du monde (1522)",
+      "visual": null
+    },
+    "new": false
+  },
+  {
+    "question": 6,
+    "questionId": "lib-chronologie-explorateurs-reperes-20261012-02",
+    "originalPackage": "lib-chronologie-explorateurs-reperes-20261012",
+    "reference": {
+      "question": 2,
+      "sources": [
+        "https://www.rmg.co.uk/stories/topics/ferdinand-magellan",
+        "https://www.thecanadianencyclopedia.ca/fr/article/jacques-cartier",
+        "https://www.thecanadianencyclopedia.ca/fr/article/samuel-de-champlain",
+        "https://www.britannica.com/biography/Roald-Amundsen"
+      ],
+      "note": "Cabot atteint les côtes de l’Atlantique Nord (1497) → Premier voyage de Cartier (1534) → Champlain fonde Québec (1608)",
+      "visual": null
+    },
+    "new": false
+  }
+]

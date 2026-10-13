@@ -1,0 +1,96 @@
+{
+  "category": "DC — Héros et univers — Qui suis-je ?",
+  "subject": "Super-héros",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "lib-qsj-dc-20261012-01",
+      "category": "DC — Héros et univers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "J’ai été envoyé sur Terre alors que j’étais bébé.",
+        "Je travaille comme journaliste.",
+        "La kryptonite affaiblit mes pouvoirs.",
+        "Je suis Clark Kent, le héros à la cape rouge."
+      ],
+      "acceptableAnswers": [
+        "Superman"
+      ]
+    },
+    {
+      "id": "lib-qsj-dc-20261012-02",
+      "category": "DC — Héros et univers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je n’ai pas de super-pouvoirs.",
+        "Alfred m’aide dans ma double vie.",
+        "Je protège Gotham depuis la Batcave.",
+        "Je suis Bruce Wayne, le Chevalier noir."
+      ],
+      "acceptableAnswers": [
+        "Batman"
+      ]
+    },
+    {
+      "id": "lib-qsj-dc-20261012-03",
+      "category": "DC — Héros et univers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je viens de Themyscira.",
+        "Je suis une guerrière amazone.",
+        "Mes bracelets et mon lasso sont célèbres.",
+        "Je suis Diana, membre de la Ligue des justiciers."
+      ],
+      "acceptableAnswers": [
+        "Wonder Woman"
+      ]
+    },
+    {
+      "id": "lib-qsj-dc-20261012-04",
+      "category": "DC — Héros et univers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Je fais partie d’un corps de protecteurs de l’espace.",
+        "Mon pouvoir dépend de ma volonté.",
+        "Mon anneau crée des formes de lumière verte.",
+        "Mon nom signifie « lanterne verte »."
+      ],
+      "acceptableAnswers": [
+        "Green Lantern",
+        "La Lanterne verte"
+      ]
+    },
+    {
+      "id": "lib-qsj-dc-20261012-05",
+      "category": "DC — Héros et univers — Qui suis-je ?",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Qui suis-je ?",
+      "clues": [
+        "Mes aventures se déroulent souvent sous l’eau.",
+        "Je peux communiquer avec des créatures marines.",
+        "Je porte un trident et règne sur Atlantis.",
+        "Je suis Arthur Curry, le héros aquatique de DC."
+      ],
+      "acceptableAnswers": [
+        "Aquaman"
+      ]
+    }
+  ]
+}
