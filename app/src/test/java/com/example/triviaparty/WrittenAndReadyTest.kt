@@ -110,4 +110,35 @@ class WrittenAndReadyTest {
         }}finally{c.close();s.stop()}
     }
 
+    @Test fun reviewWaitsForFullDeadlineAndRewardsUseEachSubmissionTime() {
+        val s=GameServer();try {seed(s,3)
+            val q=Question.TextAnswer("timed-written","Test","Question",basePoints=15,acceptableAnswers=listOf("Yes"));start(s,q)
+            repeat(2){tick(s)};lock(s,"a","Yes")
+            assertEquals(GameState.QUESTION_ACTIVE,s.gameSession.value.state);assertNull(TvState.from(s.gameSession.value).submittedAnswer)
+            GameServer::class.java.getDeclaredMethod("handleHostRevealAnswer").apply {isAccessible=true}.invoke(s)
+            assertEquals(GameState.QUESTION_ACTIVE,s.gameSession.value.state)
+            repeat(5){tick(s)};lock(s,"b","Yes")
+            assertEquals(GameState.QUESTION_ACTIVE,s.gameSession.value.state);assertNull(TvState.from(s.gameSession.value).submittedAnswer)
+            repeat(8){tick(s)};assertEquals(GameState.ANSWER_REVIEW,s.gameSession.value.state)
+            repeat(10){tick(s)};judge(s,"a",true);judge(s,"b",true)
+            assertEquals(listOf(15,10,0),s.gameSession.value.teams.map {it.score})
+        }finally{s.stop()}
+    }
+    @Test fun skipRetiresEntireCategoryAndCancelsPendingAnswersAndWagers() {
+        val s=GameServer();try {
+            val categories=com.example.triviaparty.data.QuestionBankRepository.sampleCategories.take(2)
+            val first=com.example.triviaparty.data.QuestionBankRepository.getQuestionsForCategory(categories[0]).first()
+            val all=categories.flatMap {com.example.triviaparty.data.QuestionBankRepository.getQuestionsForCategory(it)}
+            seed(s,1);state(s).value=s.gameSession.value.copy(masterCategories=categories,totalRounds=all.size)
+            start(s,first);state(s).value=s.gameSession.value.copy(timerPaused=true,categoryWagerQuestionId=first.id,categoryWagers=mapOf("a" to 10))
+            call(s,"handleHostSkipCategory",GameEvent.HostSkipCategory("stale"));assertEquals(first.id,s.gameSession.value.currentQuestion!!.id)
+            call(s,"handleHostSkipCategory",GameEvent.HostSkipCategory(categories[0]))
+            assertTrue(categories[0] in s.gameSession.value.retiredCategories)
+            assertEquals(categories[1],s.gameSession.value.currentCategory);assertEquals(GameState.CATEGORY_INTRO,s.gameSession.value.state)
+            assertTrue(s.gameSession.value.submissions.isEmpty());assertTrue(s.gameSession.value.categoryWagers.isEmpty());assertFalse(s.gameSession.value.timerPaused)
+            assertEquals(0,s.gameSession.value.teams[0].score)
+            call(s,"handleHostSkipCategory",GameEvent.HostSkipCategory(categories[1]));assertEquals(GameState.GAME_ENDED,s.gameSession.value.state)
+        }finally{s.stop()}
+    }
+
 }

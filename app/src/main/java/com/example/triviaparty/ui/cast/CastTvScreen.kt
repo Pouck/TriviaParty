@@ -216,7 +216,7 @@ private fun ActiveQuestionTvView(session: GameSession) {
         Column(Modifier.fillMaxSize(),horizontalAlignment=Alignment.CenterHorizontally,verticalArrangement=Arrangement.Center) {
             Text(session.teams.find {it.id==selectedId}?.name.orEmpty(),fontSize=60.sp,fontWeight=FontWeight.Black,color=Color(0xFFFFD700),textAlign=TextAlign.Center)
             Spacer(Modifier.height(24.dp))
-            Text((reviewed?.answer as? AnswerValue.TextSelection)?.text ?: "${session.answerTimerRemainingSeconds ?: session.answerTimeSeconds} s",fontSize=40.sp,color=Color.White,textAlign=TextAlign.Center)
+            Text((reviewed?.answer as? AnswerValue.TextSelection)?.text?.let {"Réponse : $it"} ?: "${session.answerTimerRemainingSeconds ?: session.answerTimeSeconds} s",fontSize=40.sp,color=Color.White,textAlign=TextAlign.Center)
             reviewed?.isCorrect?.let {Text(if(it) "Réponse acceptée" else "Réponse refusée",fontSize=30.sp,color=if(it) Color.Green else Color.Red)}
         }
         return

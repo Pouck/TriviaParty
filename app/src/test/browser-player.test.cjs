@@ -347,3 +347,17 @@ test('map marker questions display letter choices and submit the selected coordi
  assert.ok(lock.answer.type.endsWith('.MapPinSelection'));
  assert.equal(lock.answer.xRatio,.5);assert.equal(lock.answer.yRatio,.6);
 });
+
+
+test('unfinished written draft and its input survive every hourglass flip', () => {
+  const h=harness();h.join();
+  h.update({state:'QUESTION_ACTIVE',currentCategoryAnswerMode:'WRITTEN',currentQuestion:{id:'draft-flips',type:'textAnswer'},currentFlipNumber:0,submissions:{}});
+  const original=h.all().find(e=>e['aria-label']==='Votre réponse écrite');original.value='Une réponse en cours';original.oninput();
+  for(const currentFlipNumber of [1,2,3]) {
+    h.update({currentFlipNumber});
+    const input=h.all().find(e=>e['aria-label']==='Votre réponse écrite');
+    assert.equal(input,original);assert.equal(input.value,'Une réponse en cours');
+  }
+  h.all().find(e=>e.tag==='button'&&e.textContent==='ENVOYER').click();
+  assert.equal(h.socket.sent.at(-1).answer.text,'Une réponse en cours');
+});

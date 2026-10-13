@@ -299,6 +299,7 @@ class GameServer(
             is GameEvent.SubmitSubjectVote -> if(clientSessions[session]==event.teamId) handleSubjectVote(event)
             is GameEvent.HostCloseSubjectVote -> if(!clientSessions.containsKey(session)) closeSubjectVote()
             is GameEvent.HostBreakSubjectTie -> if(!clientSessions.containsKey(session)) breakSubjectTie(event)
+            is GameEvent.HostSkipCategory -> if(!clientSessions.containsKey(session)) handleHostSkipCategory(event)
             is GameEvent.HostBeginCategorySelect -> if (!clientSessions.containsKey(session)) handleHostBeginCategorySelect()
             is GameEvent.HostSelectCategory -> handleHostSelectCategory(session, event)
             is GameEvent.HostNextQuestion -> if (!clientSessions.containsKey(session)) handleHostNextQuestion(event)
@@ -585,6 +586,19 @@ class GameServer(
         _gameSession.value=_gameSession.value.copy(state=GameState.LOBBY,subjectVoting=vote,
             masterCategories=categories,availableCategories=categories,totalRounds=combined.totalQuestions,categoryRules=combined.categoryRules)
         broadcastState()
+    }
+
+    @Synchronized private fun handleHostSkipCategory(event: GameEvent.HostSkipCategory) {
+        val current=_gameSession.value
+        if(current.currentCategory!=event.category || current.state !in setOf(GameState.CATEGORY_INTRO,GameState.WAGER_OPEN,GameState.QUESTION_ACTIVE,GameState.ANSWER_REVIEW,GameState.REVEAL_ANSWER,GameState.ROUND_SUMMARY,GameState.WAGER_RESULTS)) return
+        stopTimer();stopAnswerTimer();isTimerPaused=false
+        val remaining=QuestionBankRepository.getQuestionsForCategory(event.category).count {it.id !in current.playedQuestionIds}
+        _gameSession.value=current.copy(state=GameState.CATEGORY_SELECT,currentCategory=null,currentQuestion=null,
+            retiredCategories=(current.retiredCategories+event.category).distinct(),totalRounds=(current.totalRounds-remaining).coerceAtLeast(current.playedQuestionIds.size),
+            submissions=emptyMap(),validatedWrittenTeamId=null,questionReading=false,readyTeamIds=emptyList(),timerPaused=false,
+            answerTimerTeamId=null,answerTimerRemainingSeconds=null,answerTimerRunning=false,textBuzzedTeamIds=emptyList(),
+            categoryWagerQuestionId=null,categoryWagers=emptyMap(),categoryWagerLimits=emptyMap(),categoryWagerResults=emptyList(),categoryWagerSettled=false,categoryWagerResultsShown=false)
+        handleHostBeginCategorySelect()
     }
 
     @Synchronized private fun handleHostBeginCategorySelect() {
@@ -1008,7 +1022,7 @@ class GameServer(
         val session = _gameSession.value
         if (session.state != GameState.QUESTION_ACTIVE) return
         if (session.currentCategoryAnswerMode!=CategoryAnswerMode.WRITTEN && session.currentQuestion?.isOralBuzzerQuestion() == true && session.submissions.values.any { it.isLocked && it.isCorrect != false && it.isBuzz() }) return
-        if (session.questionReading) return
+        if (session.questionReading || session.currentCategoryAnswerMode==CategoryAnswerMode.WRITTEN) return
         stopTimer()
         evaluateQuestionScoresAndReveal()
     }

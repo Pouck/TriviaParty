@@ -29,3 +29,11 @@ La banque JSON utilise `answerMode: "WRITTEN"` et des questions `textAnswer` ou 
 Après une mise à jour, recharger les pages TV et joueur de débogage. Cliquer **Activer le son** sur la page TV.
 
 Pendant une prise de parole au buzzer, la question et son image sont masquées complètement. Elles retrouvent leur place lorsque le jeu reprend.
+
+## Brouillons et validation
+
+Une réponse en cours de saisie reste intacte quand le sablier se retourne. La validation et l’affichage public des textes commencent seulement quand toutes les équipes connectées ont envoyé leur réponse ou quand le délai est écoulé. La récompense utilise le numéro de tranche et le temps écoulé enregistrés à l’envoi. Le téléviseur affiche « Réponse : » devant le texte.
+
+## Passer une catégorie
+
+**PASSER CETTE CATÉGORIE** annule la question et les mises encore en attente, conserve les points déjà attribués, puis ouvre la prochaine catégorie sélectionnée. Toutes les questions restantes de la catégorie passée sont exclues de cette partie. Si aucune catégorie ne reste, la partie se termine.

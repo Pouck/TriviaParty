@@ -108,7 +108,7 @@ internal fun PrivateHostDashboard(game: GameSession, client: GameClient, hasMore
                         }
                     }
                 }
-                if(!game.questionReading) Action("RÉVÉLER LA RÉPONSE", event = GameEvent.HostRevealAnswer)
+                if(!game.questionReading && game.currentCategoryAnswerMode!=CategoryAnswerMode.WRITTEN) Action("RÉVÉLER LA RÉPONSE", event = GameEvent.HostRevealAnswer)
             } else when (game.state) {
                 GameState.ANSWER_REVIEW -> {
                     val pending=game.pendingWrittenAnswers();val validated=game.validatedWrittenTeamId?.let {game.submissions[it]};val next=validated ?: pending.firstOrNull()
@@ -159,6 +159,9 @@ internal fun PrivateHostDashboard(game: GameSession, client: GameClient, hasMore
                 }
                 GameState.GAME_ENDED -> Text("Partie terminée", color = gold)
                 else -> Unit
+            }
+            if(game.currentCategory!=null && game.state in setOf(GameState.CATEGORY_INTRO,GameState.WAGER_OPEN,GameState.QUESTION_ACTIVE,GameState.ANSWER_REVIEW,GameState.REVEAL_ANSWER,GameState.ROUND_SUMMARY,GameState.WAGER_RESULTS)) {
+                Action("PASSER CETTE CATÉGORIE",event=GameEvent.HostSkipCategory(game.currentCategory),color=Color(0xFF65434B))
             }
         }
     }

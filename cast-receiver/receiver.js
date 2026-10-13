@@ -326,7 +326,7 @@
       doc.getElementById("scene").style.visibility=answering || reviewing ? "hidden" : "";
       overlayGlass.style.display=answering?"":"none";
       overlayAnswer.style.display=reviewing?"":"none";
-      overlayAnswer.textContent=reviewing?state.submittedAnswer:"";
+      overlayAnswer.textContent=reviewing?"Réponse : "+state.submittedAnswer:"";
       overlayName.textContent=answering || reviewing ? state.answeringTeam || "" : "";
       overlay.className=reviewing && state.submittedAnswerResult!=null ? (state.submittedAnswerResult?"review-correct":"review-incorrect") : "";
       if(reviewing) text("answering",state.submittedAnswerResult===true?"Réponse acceptée":state.submittedAnswerResult===false?"Réponse refusée":"Validation de l’hôte");

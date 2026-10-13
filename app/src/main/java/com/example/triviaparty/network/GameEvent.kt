@@ -33,6 +33,8 @@ sealed class GameEvent {
         val voteSettings: com.example.triviaparty.model.VoteSettings? = null
     ) : GameEvent()
 
+    @Serializable data class HostSkipCategory(val category: String) : GameEvent()
+
     @Serializable object HostOpenSubjectVote : GameEvent()
     @Serializable object HostCloseSubjectVote : GameEvent()
     @Serializable data class SubmitSubjectVote(val teamId: String, val round: Int, val subjects: List<String>) : GameEvent()

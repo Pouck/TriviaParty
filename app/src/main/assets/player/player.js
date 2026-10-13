@@ -30,7 +30,7 @@
   let orderQuestionId = null, orderedIds = [];
   let wagerQuestionId = null, wagerDraft = 0;
   let voteRoundKey = null, voteDraft = [];
-  let writtenKey='',writtenDraft='';
+  let writtenKey='',writtenDraft='',writtenSubmitted=false;
   const roomFromLink = new URLSearchParams(location.search).get('room') || '';
   const storageKey = 'trivia-player:' + location.host;
   let identity = null;
@@ -248,8 +248,8 @@
       state.currentCategoryAnswerMode, state.currentQuestion?.options, state.currentQuestion?.items, orderedIds, selectedIndex,
       state.categoryWagerQuestionId, state.categoryWagerLimits?.[teamId], state.categoryWagers?.[teamId],
       state.state === 'GAME_ENDED' ? state.teams.map(team => [team.id, team.score]) : null,
-      state.subjectVoting, voteDraft,state.questionReading,state.readingQuestionId,state.currentFlipNumber,state.readyTeamIds,
-      state.submissions?.[teamId]?.isLocked,state.submissions?.[teamId]?.answer?.text]);
+      state.subjectVoting, voteDraft,state.questionReading,state.readingQuestionId,state.currentCategoryAnswerMode==='WRITTEN'?0:state.currentFlipNumber,state.readyTeamIds,
+      state.submissions?.[teamId]?.isLocked,state.submissions?.[teamId]?.isCorrect,state.submissions?.[teamId]?.answer?.text]);
     if (signature === lastView) return;
     lastView = signature;
     const labels = {
@@ -266,9 +266,11 @@
       return;
     }
     if(state.currentCategoryAnswerMode==='WRITTEN' && ['QUESTION_ACTIVE','ANSWER_REVIEW'].includes(state.state) && !state.questionReading) {
-      const key=questionId+':'+state.currentFlipNumber;
-      if(key!==writtenKey) {writtenKey=key;writtenDraft='';}
-      const own=state.submissions?.[teamId];const submitted=own?.isLocked||pendingLock;const locked=submitted||state.state==='ANSWER_REVIEW';
+      const key=state.roomId+':'+questionId;
+      if(key!==writtenKey) {writtenKey=key;writtenDraft='';writtenSubmitted=false;}
+      const own=state.submissions?.[teamId];
+      if(writtenSubmitted && !own?.isLocked && state.state==='QUESTION_ACTIVE') writtenDraft='';
+      writtenSubmitted=Boolean(own?.isLocked);const submitted=own?.isLocked||pendingLock;const locked=submitted||state.state==='ANSWER_REVIEW';
       scene.append(node('h2',own?.isCorrect===true?'Réponse acceptée':own?.isCorrect===false?'Réponse refusée':submitted?'Réponse envoyée':state.state==='ANSWER_REVIEW'?'Temps écoulé':'Votre réponse'));
       const input=node('input');input.type='text';input.maxLength=240;input.autocomplete='off';input.value=own?.answer?.text||writtenDraft;input.disabled=locked;input.setAttribute('aria-label','Votre réponse écrite');
       input.oninput=()=>{writtenDraft=input.value;submit.disabled=!writtenDraft.trim()||!online()||!joined;};
