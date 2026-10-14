@@ -527,3 +527,23 @@ test('audio bank version forces fresh recordings without changing the authorized
  global.Audio=class {constructor(url){src=url;}play(){return Promise.resolve();}pause(){}};
  try {const sound=currentReceiver.makeSoundPlayer(documentStub());sound.setOrigin('http://host:8080/play');sound.setVersion('human-bank-20261014');sound.play('good-50.wav');assert.match(src,/good-50\.wav\?v=human-bank-20261014$/);}finally{global.Audio=original;}
 });
+
+
+test('activating a second debug display silences the first including queued speech', async () => {
+  const previousAudio=global.Audio,previousChannel=global.BroadcastChannel,previousLocation=global.location;
+  const channels=[],played=[];
+  global.location={origin:'http://localhost:18080'};
+  global.BroadcastChannel=class {constructor(){channels.push(this);}postMessage(data){channels.filter(c=>c!==this).forEach(c=>c.onmessage({data}));}};
+  global.Audio=class {constructor(src){this.src=src;this.paused=true;}pause(){this.paused=true;}play(){this.paused=false;played.push(this.src);return Promise.resolve();}};
+  try {
+    const a=documentStub(),b=documentStub();
+    const first=currentReceiver.makeSoundPlayer(a,{localAudio:true}),second=currentReceiver.makeSoundPlayer(b,{localAudio:true});
+    a.getElementById('tv-audio-control').onclick();await Promise.resolve();
+    b.getElementById('tv-audio-control').onclick();await Promise.resolve();
+    const count=played.length;first.playSequence(['bad-ping.wav','bad-01.wav']);assert.equal(played.length,count);
+    assert.equal(first.enabled(),false);assert.equal(second.enabled(),true);
+    second.play('good-ping.wav');assert.equal(played.length,count+1);
+    a.getElementById('tv-audio-control').onclick();await Promise.resolve();
+    assert.equal(second.enabled(),false);assert.equal(first.enabled(),true);
+  } finally {global.Audio=previousAudio;global.BroadcastChannel=previousChannel;global.location=previousLocation;}
+});

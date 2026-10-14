@@ -28,6 +28,18 @@
   function makeSoundPlayer(doc, options) {
     options = options || {};
     var audioVersion=null;
+    // Only the most recently activated debug display may play audio. Cast is independent.
+    var debugOwner=true, channel=null, ownerId=String(Date.now())+'-'+Math.random();
+    if(options.localAudio && root.BroadcastChannel) {
+      channel=new root.BroadcastChannel('triviaparty-debug-audio');
+      if(channel.unref) channel.unref();
+      channel.onmessage=function(event) {
+        if(event.data && event.data.type==='claim' && event.data.owner!==ownerId) {
+          debugOwner=false; enabled=false; stop();
+          if(control) { control.style.display='block'; control.textContent='Activer le son ici'; }
+        }
+      };
+    }
     var queued=[],audio, origin = options.localAudio && root.location ? root.location.origin : null, control = doc.getElementById('tv-audio-control'), enabled = false, attempt = 0;
     function stop() { queued=[];++attempt; if (audio) { audio.onended = null; if (audio.pause) audio.pause(); } }
     function report(error) {
@@ -38,7 +50,7 @@
       control.textContent = error && error.name !== 'NotAllowedError' ? 'Son indisponible · Réessayer' : 'Activer le son';
     }
     function play(file, remaining, continuing) {
-      if (!root.Audio || !origin) return;
+      if (!root.Audio || !origin || !debugOwner) return;
       if(!continuing) stop();
       var url = origin + '/tv/sounds/' + file + (audioVersion?'?v='+encodeURIComponent(audioVersion):'');
       if (!audio) audio = new root.Audio(url); else audio.src = url;
@@ -61,7 +73,7 @@
       } catch (error) { report(error); }
     }
     if (control) {
-      control.onclick = function () { play('enabled.wav'); };
+      control.onclick = function () { debugOwner=true; if(channel) channel.postMessage({type:'claim',owner:ownerId}); play('enabled.wav'); };
       if (options.localAudio) { control.textContent = 'Activer le son'; control.style.display = 'block'; }
     }
     return {
@@ -70,7 +82,7 @@
         try { origin = options.localAudio && root.location ? root.location.origin : new URL(joinUrl).origin; } catch (_) {}
       },
       play: play, playSequence: function (files) {
-        if(!files.length) return;
+        if(!files.length || !debugOwner) return;
         if(audio && audio.paused===false && enabled) queued=queued.concat(files);
         else play(files[0],files.slice(1));
       }, stop: stop,

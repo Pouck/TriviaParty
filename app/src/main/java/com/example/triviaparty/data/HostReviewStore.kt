@@ -6,10 +6,11 @@ import kotlinx.serialization.json.Json
 
 @Serializable data class QuestionReview(val questionId: String, val category: String, val prompt: String,
     val comment: String = "", val difficulty: Int? = null, val updatedAt: Long = 0)
+@Serializable data class ResolvedQuestionReview(val review: QuestionReview, val resolvedAt: Long)
 @Serializable data class PackageUsage(val plays: Int = 0, val lastPlayed: Long = 0)
 @Serializable data class HostReviewData(val reviews: Map<String, QuestionReview> = emptyMap(),
     val usage: Map<String, PackageUsage> = emptyMap(), val countedSession: String = "",
-    val countedPackages: Set<String> = emptySet())
+    val countedPackages: Set<String> = emptySet(), val resolvedReviews: List<ResolvedQuestionReview> = emptyList())
 
 /** Independent of package imports: corrections and updates retain notes and usage by stable ID. */
 class HostReviewStore(private val file: File) {
@@ -30,6 +31,16 @@ class HostReviewStore(private val file: File) {
         require(review.difficulty == null || review.difficulty in 0..5)
         val data = read()
         write(data.copy(reviews = data.reviews + (review.questionId to review.copy(updatedAt = System.currentTimeMillis()))))
+    }
+    /** Clear addressed feedback only; guard against clearing a newer comment. */
+    fun resolveReview(questionId: String, expectedUpdatedAt: Long): Boolean {
+        val data = read()
+        val review = data.reviews[questionId] ?: return false
+        if (review.updatedAt != expectedUpdatedAt) return false
+        val retained = review.copy(comment = "", difficulty = review.difficulty?.takeIf { it > 0 }, updatedAt = System.currentTimeMillis())
+        val reviews = if (retained.difficulty == null) data.reviews - questionId else data.reviews + (questionId to retained)
+        write(data.copy(reviews = reviews, resolvedReviews = data.resolvedReviews + ResolvedQuestionReview(review, System.currentTimeMillis())))
+        return true
     }
     fun recordPackages(ids: List<String>, sessionId: String? = null) {
         val data = read(); val now = System.currentTimeMillis()

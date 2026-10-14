@@ -7,6 +7,22 @@ import java.nio.file.Files
 import kotlin.random.Random
 
 class HostReviewTest {
+    @Test fun resolvingArchivesCommentPreservesRatingAndRejectsStaleFeedback() {
+        val directory=Files.createTempDirectory("resolved-review").toFile()
+        try {
+            val store=HostReviewStore(java.io.File(directory,"review.json"))
+            store.saveReview(QuestionReview("q","Art","Question","Corriger image",3))
+            val review=store.read().reviews.getValue("q")
+            assertFalse(store.resolveReview("q",review.updatedAt-1))
+            assertTrue(store.resolveReview("q",review.updatedAt))
+            assertEquals("",store.read().reviews.getValue("q").comment)
+            assertEquals(3,store.read().reviews.getValue("q").difficulty)
+            assertEquals(review,store.read().resolvedReviews.single().review)
+            store.saveReview(QuestionReview("zero","Art","Question","Erreur",0))
+            assertTrue(store.resolveReview("zero",store.read().reviews.getValue("zero").updatedAt))
+            assertFalse(store.read().reviews.containsKey("zero"))
+        } finally { directory.deleteRecursively() }
+    }
     @Test fun zeroMeansNeedsRevisionAndSurvivesStatsReset() {
         val directory=Files.createTempDirectory("flagged-review").toFile()
         try {

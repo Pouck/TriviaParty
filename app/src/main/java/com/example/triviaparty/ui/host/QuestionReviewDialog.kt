@@ -22,6 +22,10 @@ import com.example.triviaparty.data.*
                 FilterChip(selected=difficulty==rating,onClick={ difficulty=if(difficulty==rating) null else rating },label={ Text("$rating") })
             } }
             OutlinedTextField(value=comment,onValueChange={ comment=it },label={ Text("Commentaire / correction à revoir") },modifier=Modifier.fillMaxWidth(),minLines=3)
+            if(review.comment.isNotBlank() || review.difficulty==0) TextButton(onClick={
+                runCatching { check(store.resolveReview(review.questionId,review.updatedAt)) { "La note a changé. Rouvrez-la avant de la résoudre." } }
+                    .onSuccess { close() }.onFailure { error=it.message }
+            }) { Text("Correction effectuée — archiver la note") }
             error?.let { Text(it) }
         }
     },confirmButton={ TextButton(onClick={
@@ -34,8 +38,9 @@ import com.example.triviaparty.data.*
     var revision by remember { mutableIntStateOf(0) }
     var onlyFlagged by remember { mutableStateOf(false) }
     val reviews = remember(revision) { store.read().reviews.values.sortedByDescending { it.updatedAt } }
-    val visible=if(onlyFlagged) reviews.filter { it.difficulty==0 } else reviews
-    AlertDialog(onDismissRequest=close,title={ Text("Questions à revoir (${reviews.size})") },text={
+    val active=reviews.filter { it.comment.isNotBlank() || it.difficulty==0 }
+    val visible=if(onlyFlagged) active.filter { it.difficulty==0 } else active
+    AlertDialog(onDismissRequest=close,title={ Text("Questions à revoir (${active.size})") },text={
         Column(Modifier.heightIn(max=450.dp).verticalScroll(rememberScrollState())) {
             FilterChip(selected=onlyFlagged,onClick={ onlyFlagged=!onlyFlagged },label={ Text("À réviser (${reviews.count { it.difficulty==0 }})") })
             if(visible.isEmpty()) Text(if(onlyFlagged) "Aucune question marquée à réviser." else "Aucun commentaire enregistré.")
