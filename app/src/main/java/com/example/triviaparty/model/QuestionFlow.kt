@@ -41,3 +41,15 @@ fun GameSession.rejectOralAnswer(teamId: String): GameSession {
         textBuzzedTeamIds = (textBuzzedTeamIds + teamId).distinct(),
         answerTimerTeamId=null,answerTimerRemainingSeconds=null,answerTimerRunning=false)
 }
+
+
+/** Derive public format labels from actual questions, including legacy banks without metadata. */
+fun Question.publicFormatLabel(mode: CategoryAnswerMode?): String = when {
+    isChronologyQuestion() -> "Chronologie"
+    this is Question.GuessWho -> if(mode==CategoryAnswerMode.WRITTEN) "Qui suis-je ? — réponse écrite" else "Qui suis-je ?"
+    this is Question.TextAnswer -> if(mode==CategoryAnswerMode.WRITTEN) "Réponse écrite" else "Buzzer"
+    this is Question.MapPin -> "Carte — choix multiples"
+    this is Question.Wager -> "Choix multiples avec mise"
+    this is Question.SpeedRace -> "Choix multiples — rapidité"
+    else -> "Choix multiples"
+}

@@ -1049,7 +1049,8 @@ class GameServer(
             currentCategory = category,
             currentCategoryAnswerMode = categoryPackage?.answerMode ?: CategoryAnswerMode.SIMULTANEOUS,
             currentCategoryAnswerTimeSeconds = answerSeconds,
-            currentCategoryQuestionTypes = categoryPackage?.questionTypes.orEmpty(),
+            currentCategoryQuestionTypes = QuestionBankRepository.getQuestionsForCategory(category)
+                .ifEmpty { listOf(question) }.map { it.publicFormatLabel(categoryPackage?.answerMode) }.distinct(),
             currentCategoryQuestionCount = questionCount,
             currentQuestion = question,
             currentFlipNumber = 0,

@@ -141,4 +141,15 @@ class WrittenAndReadyTest {
         }finally{s.stop()}
     }
 
+    @Test fun legacyCategoryIntroDerivesNonemptyQuestionTypes() {
+        val s=GameServer();try {
+            val category=com.example.triviaparty.data.QuestionBankRepository.sampleCategories.first()
+            val q=com.example.triviaparty.data.QuestionBankRepository.getQuestionsForCategory(category).first()
+            GameServer::class.java.getDeclaredMethod("introduceCategory",Question::class.java,String::class.java).apply {isAccessible=true}.invoke(s,q,category)
+            assertTrue(s.gameSession.value.currentCategoryQuestionTypes.isNotEmpty())
+            assertTrue(s.gameSession.value.currentCategoryQuestionTypes.all {it.isNotBlank()})
+            assertEquals("Qui suis-je ? — réponse écrite",Question.GuessWho("label","Test",clues=listOf("Clue"),acceptableAnswers=listOf("Answer")).publicFormatLabel(CategoryAnswerMode.WRITTEN))
+        }finally{s.stop()}
+    }
+
 }

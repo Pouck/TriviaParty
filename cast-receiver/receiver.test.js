@@ -512,3 +512,12 @@ test('validated response and large name remain visible across repeated result sn
   assert.doesNotMatch(doc.getElementById('answer-overlay').textContent,/Player One|Written answer/);
   assert.match(doc.getElementById('answer-overlay').textContent,/Player Two|Another answer/);
 });
+
+test('category intro always has a type and refreshes when category metadata changes',()=> {
+ const doc=documentStub(),render=currentReceiver.makeRenderer(doc);
+ render(state({phase:'CATEGORY_INTRO',category:'Legacy',categoryQuestionTypes:[],categoryAnswerMode:'BUZZER'}));
+ assert.match(doc.getElementById('scene').textContent,/Type : Buzzer/);
+ render(state({phase:'CATEGORY_INTRO',category:'Chronology',categoryQuestionTypes:['Chronologie'],categoryAnswerMode:'SIMULTANEOUS'}));
+ assert.match(doc.getElementById('scene').textContent,/Type : Chronologie/);
+ assert.doesNotMatch(doc.getElementById('scene').textContent,/Legacy/);
+});

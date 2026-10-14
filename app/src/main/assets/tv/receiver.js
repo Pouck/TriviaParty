@@ -377,7 +377,7 @@
         return;
       }
       var sceneKey = isQuestion ? JSON.stringify([state.roomId, qid, state.question.prompt, state.question.imageUrl]) :
-        JSON.stringify([state.roomId, state.phase, state.categories, state.subjectVote, state.picker, state.wagerResults, state.joinUrl, state.joinQrUrl, state.phase === "LOBBY" ? state.teams.length : null]);
+        JSON.stringify([state.roomId, state.phase, state.category, state.categoryQuestionTypes, state.categoryAnswerMode, state.categoryQuestionCount, state.categories, state.subjectVote, state.picker, state.wagerResults, state.joinUrl, state.joinQrUrl, state.phase === "LOBBY" ? state.teams.length : null]);
       if (sceneKey === lastScene) return;
       lastScene = sceneKey;
       var scene = doc.getElementById("scene");
@@ -436,7 +436,7 @@
         case "CATEGORY_INTRO":
           scene.appendChild(node("h1", state.category || "Nouvelle catégorie"));
           scene.appendChild(node("p", (state.categoryQuestionCount || 0) + " questions"));
-          scene.appendChild(node("p", "Types : " + (state.categoryQuestionTypes || []).join(" · ")));
+          scene.appendChild(node("p", "Type : " + ((state.categoryQuestionTypes || []).filter(function(t) { return typeof t==='string' && t.trim(); }).join(" · ") || (state.categoryAnswerMode==='WRITTEN'?'Réponse écrite':state.categoryAnswerMode==='BUZZER'?'Buzzer':'Choix multiples'))));
           scene.appendChild(node("p", "Mode : " + (state.categoryAnswerMode === "WRITTEN" ? "Réponses écrites" : state.categoryAnswerMode === "BUZZER" ? "Buzzer" : "Réponses simultanées")));
           break;
         case "QUESTION_ACTIVE":
