@@ -68,6 +68,7 @@ class GameServer(
     fun privateJudgeUrl(): String = "http://${NetworkUtils.getLocalIpAddress()}:$port/judge#$judgeToken"
     private val pendingPlayers = ConcurrentHashMap<WebSocketSession, GameEvent.JoinRoom>()
 
+    private var reactionPicker = AnswerReactionPicker()
     private val serverScope = CoroutineScope(Dispatchers.Default + SupervisorJob())
     private val clientMutationMutex = Mutex()
     private var broadcastJob: Job? = null
@@ -188,7 +189,12 @@ class GameServer(
                 get("/tv/hourglass.svg") {
                     call.respondText(readTvAsset?.invoke("hourglass.svg") ?: "", ContentType("image", "svg+xml"))
                 }
+                get("/tv/audio-credits") {
+                    call.respondText(readTvAsset?.invoke("audio-credits.html") ?: "Audio credits unavailable", ContentType.Text.Html)
+                }
+
                 get("/tv/sounds/{name}") {
+                    call.response.headers.append("Cache-Control", "no-store, max-age=0")
                     val name=call.parameters["name"]
                     val bytes=if(com.example.triviaparty.model.AnswerReactions.isAllowed(name)) readTvBinaryAsset?.invoke("sounds/$name") else null
                     if(bytes==null) call.respondText("Not found",status=io.ktor.http.HttpStatusCode.NotFound)
@@ -468,6 +474,7 @@ class GameServer(
     }
 
     private fun handleHostStartGame(event: GameEvent.HostStartGame) {
+        reactionPicker = AnswerReactionPicker()
         votePackages=if(event.voteSettings==null) emptyList() else GamePackageRepository.packages.filter { pack ->
             !pack.isTestPackage() && GamePackageRepository.categoryNamesFor(pack).any { it in event.categories }
         }
@@ -1235,7 +1242,7 @@ class GameServer(
             questionHasSound=true
             val outcome=if(changes.any { it==true }) "good" else "bad"
             _gameSession.value=soundState.copy(answerSoundId=soundState.answerSoundId+1,answerSound=outcome,
-                answerSoundClip=com.example.triviaparty.model.AnswerReactions.choose(outcome,soundState.answerSoundClip))
+                answerSoundClip=reactionPicker.choose(outcome,soundState.answerSoundClip))
         }
         soundedResults=results
         val current = _gameSession.value

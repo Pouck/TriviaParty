@@ -33,3 +33,9 @@ The debug TV is served at `/tv` and players at `/play` on the host's port 8080. 
 ## Backup scope
 
 This private repository preserves project sources, packaged media, current and historical question content, and the dated review backup. Downloaded images and other third-party material retain their source rights; source/verification records accompany the packages. Credentials and signing keys must not be committed.
+
+## Human voice reaction bank
+
+The bundled bank now contains 100 original-language human recordings: 50 per outcome, 70 French, 20 English, 5 Spanish and 5 German, with 57 speakers and 60 distinct language/outcome expressions. It contains 95 short pronunciation expressions and five acted English game reactions. See [audition page](audio-bank/index.html), [bank details](audio-bank/README.md), and [attribution](audio-bank/ATTRIBUTION.md). These are human recordings rather than a completed commercial-film dialogue bank; film candidates remain separately documented in [MOVIE-REACTIONS.md](MOVIE-REACTIONS.md).
+
+Audio credits are accessible at `/tv/audio-credits`. Per-game shuffle bags exhaust clips by outcome before repeating and prefer available speaker/phrase variety. Updated bank URLs carry a version to avoid stale cached speech.

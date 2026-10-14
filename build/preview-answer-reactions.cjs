@@ -50,7 +50,7 @@ server.listen(0,'127.0.0.1',async()=>{
     if(measured.scroll>measured.width||measured.details>measured.height+1||measured.scoreWidth>measured.scoreClient+1||measured.nameSize<30||measured.answeringSize<45||new Set(measured.colors).size<7)throw new Error(name+JSON.stringify(measured));
     const shot=await send('Page.captureScreenshot',{format:'png'},sessionId);fs.writeFileSync(path.join(out,name+'.png'),Buffer.from(shot.data,'base64'));
   }
-  console.log('TV layouts fit at 1920×1080 with larger colored player names, readiness, selected-team and written-review states; all 46 speech clips decode and retain their protected lead-ins.');
+  console.log('TV layouts fit at 1920×1080; all '+clips.length+' speech clips decode and retain their protected lead-ins.');
   await send('Browser.close');
  }catch(e){console.error(e);process.exitCode=1;}finally{ws?.close();chrome?.kill();server.close();}
 });

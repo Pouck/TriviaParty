@@ -27,6 +27,7 @@
 
   function makeSoundPlayer(doc, options) {
     options = options || {};
+    var audioVersion=null;
     var queued=[],audio, origin = options.localAudio && root.location ? root.location.origin : null, control = doc.getElementById('tv-audio-control'), enabled = false, attempt = 0;
     function stop() { queued=[];++attempt; if (audio) { audio.onended = null; if (audio.pause) audio.pause(); } }
     function report(error) {
@@ -39,7 +40,7 @@
     function play(file, remaining, continuing) {
       if (!root.Audio || !origin) return;
       if(!continuing) stop();
-      var url = origin + '/tv/sounds/' + file;
+      var url = origin + '/tv/sounds/' + file + (audioVersion?'?v='+encodeURIComponent(audioVersion):'');
       if (!audio) audio = new root.Audio(url); else audio.src = url;
       audio.volume = 1;
       audio.preload = 'auto';
@@ -64,6 +65,7 @@
       if (options.localAudio) { control.textContent = 'Activer le son'; control.style.display = 'block'; }
     }
     return {
+      setVersion: function(version) { audioVersion=typeof version==='string'?version:null; },
       setOrigin: function (joinUrl) {
         try { origin = options.localAudio && root.location ? root.location.origin : new URL(joinUrl).origin; } catch (_) {}
       },
@@ -249,6 +251,7 @@
     }
     return function render(state) {
       soundPlayer.setOrigin(state.joinUrl);
+      soundPlayer.setVersion(state.audioBankVersion);
       var feedback = doc.getElementById('answer-feedback');
       var feedbackKey = state.roomId + '/' + (state.question && state.question.id || state.round);
       if (lastSoundRoom !== state.roomId || feedbackQuestion !== feedbackKey || lastPhase !== state.phase && ['QUESTION_ACTIVE','ANSWER_REVIEW','REVEAL_ANSWER','ROUND_SUMMARY'].indexOf(state.phase)<0) {

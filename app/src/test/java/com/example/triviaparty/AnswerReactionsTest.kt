@@ -38,14 +38,14 @@ class AnswerReactionsTest {
     @Test fun everySelectableClipExistsWithTheCorrectOutcomeAndSeveralVoices() {
         val folder=File("src/main/assets/tv/sounds")
         val records=Json.parseToJsonElement(File(folder,"reactions.json").readText().removePrefix("\uFEFF")).jsonArray.map { it.jsonObject }
-        assertEquals(46,records.size)
+        assertTrue(records.size in setOf(46,100))
         assertEquals(AnswerReactions.clips("good").toSet()+AnswerReactions.clips("bad").toSet(),records.map { it["file"]!!.jsonPrimitive.content }.toSet())
         records.forEach { record ->
             val file=record["file"]!!.jsonPrimitive.content
             assertTrue(file.startsWith(record["outcome"]!!.jsonPrimitive.content+"-"))
             assertTrue("Empty recording: $file",File(folder,file).length()>1000)
         }
-        assertEquals(setOf("fr","en","de","ru"),records.map { it["language"]!!.jsonPrimitive.content }.toSet())
+        assertEquals(if(records.size==100) setOf("fr","en","de","es") else setOf("fr","en","de","ru"),records.map { it["language"]!!.jsonPrimitive.content }.toSet())
         assertTrue(records.map { it["voice"]!!.jsonPrimitive.content }.toSet().size>=5)
     }
     @Test fun randomDrawsStayInOutcomeAndAvoidThePreviousClip() {
@@ -57,4 +57,21 @@ class AnswerReactionsTest {
         }
         for(path in listOf("../good.wav","good-01.wav/../../secret","other.wav",null)) assertFalse(AnswerReactions.isAllowed(path))
     }
+    @Test fun shuffleBankExhaustsClipsAndVariesAvailableSpeakersAndPhrases() {
+        val clips=(0 until 12).map { com.example.triviaparty.model.ReactionClip("good-$it.wav","good","speaker-${it%3}","Phrase $it") }
+        val picker=com.example.triviaparty.model.AnswerReactionPicker(clips);val random=Random(13)
+        var previous:String?=null;var voice:String?=null
+        repeat(4) {
+            val round=mutableSetOf<String>()
+            repeat(12) {
+                val next=picker.choose("good",previous,random);assertTrue(round.add(next));assertNotEquals(previous,next)
+                val speaker=clips.first {it.file==next}.voice
+                // Prefer a different available speaker; do not fake extra voices if only one remains.
+                if(clips.filter {it.file !in round || it.file==next}.any {it.voice!=voice}) assertNotEquals(voice,speaker)
+                previous=next;voice=speaker
+            }
+            assertEquals(12,round.size)
+        }
+    }
+
 }

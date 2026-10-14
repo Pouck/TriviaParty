@@ -521,3 +521,9 @@ test('category intro always has a type and refreshes when category metadata chan
  assert.match(doc.getElementById('scene').textContent,/Type : Chronologie/);
  assert.doesNotMatch(doc.getElementById('scene').textContent,/Legacy/);
 });
+
+test('audio bank version forces fresh recordings without changing the authorized clip name',()=> {
+ const original=global.Audio;let src;
+ global.Audio=class {constructor(url){src=url;}play(){return Promise.resolve();}pause(){}};
+ try {const sound=currentReceiver.makeSoundPlayer(documentStub());sound.setOrigin('http://host:8080/play');sound.setVersion('human-bank-20261014');sound.play('good-50.wav');assert.match(src,/good-50\.wav\?v=human-bank-20261014$/);}finally{global.Audio=original;}
+});

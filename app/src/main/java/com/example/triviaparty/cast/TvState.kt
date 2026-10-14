@@ -55,6 +55,7 @@ data class TvState(
     val answerSoundId: Int = 0,
     val answerSound: String? = null,
     val answerSoundClip: String? = null,
+    val audioBankVersion: String = "human-bank-20261014",
     val buzzerSoundId: Int = 0,
     val pointsCountdown: Boolean = false,
     val readyCount: Int = 0,

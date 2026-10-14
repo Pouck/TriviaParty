@@ -1,6 +1,6 @@
 # Réactions vocales — pistes en langue originale
 
-L’objectif est de remplacer les voix de synthèse plates par de véritables interprétations. Un scénario permet de trouver les mots ; il ne contient pas la piste sonore des acteurs. Cette liste est une sélection de candidats, pas une banque audio installée. Les enregistrements actuels restent en place.
+L’objectif est de remplacer les voix de synthèse plates par de véritables interprétations. Un scénario permet de trouver les mots ; il ne contient pas la piste sonore des acteurs. Cette liste est une sélection de candidats, pas une banque audio installée. Une alternative de 100 enregistrements humains est maintenant préparée dans [audio-bank](audio-bank/README.md) et intégrée à l’app. Elle contient 95 expressions de prononciation et cinq réactions anglaises de jeu jouées par Tim Rockk ; elle ne constitue pas la banque de dialogues de films envisagée. Les candidats de films ci-dessous ne sont pas des fichiers audio installés.
 
 ## Mélange proposé
 
