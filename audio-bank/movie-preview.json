@@ -1,0 +1,62 @@
+[
+  {
+    "file": "good-62.wav",
+    "outcome": "good",
+    "language": "fr",
+    "film": "Le Dîner de cons",
+    "voice": "Thierry Lhermitte / Pierre Brochant",
+    "text": "Il a une belle tête de vainqueur",
+    "sourceUrl": "https://www.bleeps.wtf/bleep/LeDinerDeCons_UneBelleTeteDeVainqueur",
+    "durationSeconds": 2.0,
+    "sha256": "3acc2e35c93a27c16eb37a1d9b25d505176b044a35653150bc01419b37ebf88f",
+    "usage": "Private on-device audition; no redistribution permission asserted"
+  },
+  {
+    "file": "good-63.wav",
+    "outcome": "good",
+    "language": "fr",
+    "film": "Kaamelott",
+    "voice": "Guillaume Briat / Le Roi burgonde",
+    "text": "Arthour ! On est fort en pomme.",
+    "sourceUrl": "https://github.com/2ec0b4/kaamelott-soundboard/blob/master/sounds/fort_en_pomme_2.mp3",
+    "durationSeconds": 2.022,
+    "sha256": "4e0459d3a4829c6127d245c40f05ad6465f69093d34c41fca461dba3b41daab9",
+    "usage": "Private on-device audition; no redistribution permission asserted"
+  },
+  {
+    "file": "good-67.wav",
+    "outcome": "good",
+    "language": "fr",
+    "film": "Le Dîner de cons",
+    "voice": "Jacques Villeret / François Pignon",
+    "text": "Alors ça, c’est très tordu mais bougrement intelligent !",
+    "sourceUrl": "https://www.bleeps.wtf/bleep/LeDinerDeCons_TorduMaisBougrementIntelligent",
+    "durationSeconds": 4.676,
+    "sha256": "75a38751c878f83e8fc5c9ab8b2f361670a6b24ca8455ea67f4a5cc56e8e5ad1",
+    "usage": "Private on-device audition; no redistribution permission asserted"
+  },
+  {
+    "file": "bad-65.wav",
+    "outcome": "bad",
+    "language": "fr",
+    "film": "Le Dîner de cons",
+    "voice": "Daniel Prévost / Lucien Cheval",
+    "text": "Oh, le con !",
+    "sourceUrl": "https://www.bleeps.wtf/bleep/LeDinerDeCons_OhhhLeCon",
+    "durationSeconds": 5.779,
+    "sha256": "1ce8e09971fe661733caececf4f049965168138d4d7291aacfa867d9db026cdc",
+    "usage": "Private on-device audition; no redistribution permission asserted"
+  },
+  {
+    "file": "bad-66.wav",
+    "outcome": "bad",
+    "language": "fr",
+    "film": "Astérix et Obélix : Mission Cléopâtre",
+    "voice": "Jean Benguigui / Malococsis",
+    "text": "Je crois que vous n’avez pas très bien compris mon problème.",
+    "sourceUrl": "https://www.bleeps.wtf/bleep/AsterixFilm_2_JeCroisQueVousNavezPasBienComprisMonPb",
+    "durationSeconds": 2.523,
+    "sha256": "bbe04db78beb858366b7a25cf74347e4a0f6f916f4bbf7751dd615b18cc881bd",
+    "usage": "Private on-device audition; no redistribution permission asserted"
+  }
+]

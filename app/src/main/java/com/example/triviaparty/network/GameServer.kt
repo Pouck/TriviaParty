@@ -49,7 +49,8 @@ class GameServer(
     private val readTvAsset: ((String) -> String)? = null,
     private val importedPackagesDirectory: File? = null,
     private val readPlayerAsset: ((String) -> String)? = null,
-    private val readTvBinaryAsset: ((String) -> ByteArray)? = null
+    private val readTvBinaryAsset: ((String) -> ByteArray)? = null,
+    private val privateReactions: com.example.triviaparty.model.PrivateReactionBank? = null
 ) {
 
     private val json = Json { ignoreUnknownKeys = true; encodeDefaults = true }
@@ -68,7 +69,7 @@ class GameServer(
     fun privateJudgeUrl(): String = "http://${NetworkUtils.getLocalIpAddress()}:$port/judge#$judgeToken"
     private val pendingPlayers = ConcurrentHashMap<WebSocketSession, GameEvent.JoinRoom>()
 
-    private var reactionPicker = AnswerReactionPicker()
+    private var reactionPicker = AnswerReactionPicker(privateReactions?.clips ?: com.example.triviaparty.model.ReactionCatalogue.clips)
     private val serverScope = CoroutineScope(Dispatchers.Default + SupervisorJob())
     private val clientMutationMutex = Mutex()
     private var broadcastJob: Job? = null
@@ -190,13 +191,13 @@ class GameServer(
                     call.respondText(readTvAsset?.invoke("hourglass.svg") ?: "", ContentType("image", "svg+xml"))
                 }
                 get("/tv/audio-credits") {
-                    call.respondText(readTvAsset?.invoke("audio-credits.html") ?: "Audio credits unavailable", ContentType.Text.Html)
+                    call.respondText(privateReactions?.credits() ?: readTvAsset?.invoke("audio-credits.html") ?: "Audio credits unavailable", ContentType.Text.Html)
                 }
 
                 get("/tv/sounds/{name}") {
                     call.response.headers.append("Cache-Control", "no-store, max-age=0")
                     val name=call.parameters["name"]
-                    val bytes=if(com.example.triviaparty.model.AnswerReactions.isAllowed(name)) readTvBinaryAsset?.invoke("sounds/$name") else null
+                    val bytes=privateReactions?.audio("sounds/$name") ?: if(com.example.triviaparty.model.AnswerReactions.isAllowed(name)) readTvBinaryAsset?.invoke("sounds/$name") else null
                     if(bytes==null) call.respondText("Not found",status=io.ktor.http.HttpStatusCode.NotFound)
                     else call.respondBytes(bytes,ContentType("audio",if(name?.endsWith(".mp3")==true) "mpeg" else "wav"))
                 }
@@ -474,7 +475,7 @@ class GameServer(
     }
 
     private fun handleHostStartGame(event: GameEvent.HostStartGame) {
-        reactionPicker = AnswerReactionPicker()
+        reactionPicker = AnswerReactionPicker(privateReactions?.clips ?: com.example.triviaparty.model.ReactionCatalogue.clips)
         votePackages=if(event.voteSettings==null) emptyList() else GamePackageRepository.packages.filter { pack ->
             !pack.isTestPackage() && GamePackageRepository.categoryNamesFor(pack).any { it in event.categories }
         }

@@ -134,7 +134,8 @@ fun TriviaPartyApp() {
     val appContext = LocalContext.current.applicationContext
     val importedPackagesDirectory = remember(appContext) { File(appContext.filesDir, "game-packages") }
     val gameServer = remember(appContext) {
-        GameServer(readTvAsset = { assetName ->
+        val preview=com.example.triviaparty.model.PrivateReactionBank.load(File(appContext.filesDir,"reaction-preview"))
+        GameServer(privateReactions=preview,readTvAsset = { assetName ->
             appContext.assets.open("tv/$assetName").bufferedReader().use { it.readText() }
         }, importedPackagesDirectory = importedPackagesDirectory, readPlayerAsset = { assetName ->
             appContext.assets.open("player/$assetName").bufferedReader().use { it.readText() }

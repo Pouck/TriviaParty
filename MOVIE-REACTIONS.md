@@ -60,3 +60,19 @@ Depuis cette révision, activer le son sur un écran debug désactive les autres
 ### Notes résolues
 
 Le bouton « Correction effectuée — archiver la note » conserve une copie dans `resolvedReviews`, efface le commentaire actif et le 0 « À réviser », conserve les notes de difficulté 1–5 et refuse d’effacer une note modifiée depuis son ouverture. Les mises à jour de packages ne doivent pas résoudre aveuglément toutes les notes : uniquement celles dont la correction a été vérifiée.
+
+
+## Premier essai privé installé le 14 octobre
+
+La banque d’essai contient **5 extraits** : la tête de vainqueur (Le Dîner de cons), le Roi burgonde (Kaamelott), et trois alternatives françaises accessibles : la réponse tordue mais intelligente et le constat de Cheval (Le Dîner de cons), puis le problème mal compris de Malococsis (Mission Cléopâtre). Les deux premiers viennent de la sélection approuvée ; les trois suivants permettent d’essayer le ton humoristique en attendant les autres fichiers.
+
+Les autres dialogues de la sélection ne sont pas installés : les sites de téléchargement bloquent l’accès aux fichiers, y compris les sources anime trouvées. Le blocage n’a pas été contourné. Les Tontons flingueurs restent exclus de la sélection par défaut comme prévu.
+
+Les médias privés sont dans `build/movie-audition/` sur ce PC et dans `files/reaction-preview/` sur le Pixel. Ils ne sont pas commis dans GitHub ni incorporés à l’APK distribué. Les sources, acteurs et empreintes sont dans `audio-bank/movie-preview.json`. Les enregistrements CC de la banque précédente restent disponibles en secours ; pendant cet essai seuls les cinq extraits privés sont tirés.
+
+- Écouter directement sur PC : ouvrir `build/movie-audition/index.html`.
+- Écouter depuis le serveur de la partie : `/tv/audio-credits`.
+- Installer les fichiers déjà préparés : `python build/install-movie-audition.py --serial SERIAL`.
+- Revenir à la banque précédente : même commande avec `--remove`, puis relancer l’application.
+
+Le démarrage refuse une banque privée incomplète, sans les deux résultats, ou contenant des chemins non autorisés. Le déploiement vérifie les fichiers et active le manifeste en dernier. Les notes et packages sont conservés.
