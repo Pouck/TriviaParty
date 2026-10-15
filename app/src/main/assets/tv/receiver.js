@@ -290,7 +290,7 @@
       }
       parent.appendChild(wrapper);
     }
-    return function render(state) {
+    function render(state) {
       soundPlayer.setOrigin(state.joinUrl);
       soundPlayer.setVersion(state.audioBankVersion);
       var feedback = doc.getElementById('answer-feedback');
@@ -306,7 +306,7 @@
       if (sameSoundRoom && lastPhase && lastPhase !== 'GAME_ENDED' && state.phase === 'GAME_ENDED') soundPlayer.play('game-end.wav');
       lastPhase = state.phase;
       if ((state.buzzerSoundId || 0) > lastBuzzerId) soundPlayer.play('buzzer.wav');
-      lastBuzzerId = state.buzzerSoundId || 0;
+      lastBuzzerId = Math.max(lastBuzzerId || 0,state.buzzerSoundId || 0);
       if ((state.answerSoundId || 0) > lastSoundId && ["good","bad"].indexOf(state.answerSound) >= 0) {
         if (feedbackTimeout) root.clearTimeout(feedbackTimeout);
         feedback.textContent = state.answerSound === 'good' ? '\u2713' : '\u2715';
@@ -541,7 +541,13 @@
           scene.appendChild(podium);
           break;
       }
+    }
+    render.buzzerCue=function(cue) {
+      if(!cue || cue.type!=='buzzer' || cue.version!==1 || cue.roomId!==lastSoundRoom || lastPhase!=='QUESTION_ACTIVE' ||
+          !Number.isSafeInteger(cue.buzzerSoundId) || cue.buzzerSoundId<=lastBuzzerId) return false;
+      lastBuzzerId=cue.buzzerSoundId;soundPlayer.play('buzzer.wav');return true;
     };
+    return render;
   }
 
   function connectReceiver(context, framework, doc) {

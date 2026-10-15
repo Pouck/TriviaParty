@@ -24,4 +24,7 @@ Local browser display does not need a Cast Developer Console account, a register
 
 The player sends an oral buzz on pointer contact, with click retained for keyboard activation. The receiver predecodes `buzzer.wav` while the room is open and uses a low-latency Web Audio buffer when available; HTML audio remains the fallback. Refresh debug player/TV pages after updating the app, or reconnect the Cast session so the receiver reloads.
 
-Ten original sound candidates can be compared at `/tv/buzzer-sampler`; the standalone page and local preview instructions are in [BUZZERS.md](../audio-bank/BUZZERS.md). Auditioning does not change the live buzzer.
+Twenty original buzzer candidates and twenty correct-answer effects can be compared at `/tv/buzzer-sampler`; the standalone page and local preview instructions are in [BUZZERS.md](../audio-bank/BUZZERS.md). Auditioning does not change the live buzzer.
+
+
+The debug `/tv/ws` stream also carries a small public `buzzer` cue immediately after an accepted buzz, independently of queued full snapshots. The display deduplicates this cue against subsequent game states. Cast continues to use state snapshots; physical TV timing is unverified.

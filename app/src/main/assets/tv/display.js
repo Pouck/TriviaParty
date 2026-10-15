@@ -21,8 +21,10 @@
       status.textContent = "Connecté à la partie sur le réseau local";
     };
     socket.onmessage = function (event) {
-      if (!window.TriviaReceiver.parseState(event.data)) return;
-      render(JSON.parse(event.data));
+      var message;try { message=JSON.parse(event.data); } catch(_) { return; }
+      if(message && message.type==='buzzer') { render.buzzerCue(message);return; }
+      if (!window.TriviaReceiver.parseState(message)) return;
+      render(message);
       status.textContent = "Connecté à la partie sur le réseau local";
     };
     socket.onerror = function () {

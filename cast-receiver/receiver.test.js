@@ -581,3 +581,36 @@ test('a failed buzzer preload keeps HTML audio available', async () => {
     player.play('buzzer.wav');assert.equal(played.length,1);assert.match(played[0],/buzzer.wav/);
   } finally {Object.assign(global,previous);}
 });
+
+
+test('immediate accepted buzzer cue plays once even when an older full snapshot arrives afterwards', () => {
+  const old=global.Audio;const played=[];
+  global.Audio=class {constructor(url){this.src=url;}pause(){}play(){played.push(this.src);return Promise.resolve();}};
+  try {
+    for(const renderer of [receiver,currentReceiver]) {
+      const render=renderer.makeRenderer(documentStub());const base=state({joinUrl:'http://host:8080/play',buzzerSoundId:0});render(base);
+      const cue={type:'buzzer',version:1,roomId:base.roomId,buzzerSoundId:1};
+      assert.equal(render.buzzerCue({...cue,roomId:'other'}),false);
+      assert.equal(render.buzzerCue({...cue,buzzerSoundId:1.5}),false);
+      assert.equal(render.buzzerCue(cue),true);const count=played.length;
+      render({...base,buzzerSoundId:0});render({...base,buzzerSoundId:1});
+      assert.equal(render.buzzerCue(cue),false);assert.equal(played.length,count);
+      render({...base,phase:'CATEGORY_INTRO'});assert.equal(render.buzzerCue({...cue,buzzerSoundId:2}),false);
+    }
+  } finally {global.Audio=old;}
+});
+
+
+test('debug WebSocket dispatches the immediate cue without rebuilding the question', () => {
+  const vm=require('node:vm'),fs=require('node:fs');const rendered=[],cues=[];let socket;
+  const render=s=>rendered.push(s);render.buzzerCue=s=>cues.push(s);
+  const status={textContent:''};
+  const window={TriviaReceiver:{makeRenderer:()=>render,parseState:s=>s.type==='state'},location:{protocol:'http:',host:'localhost:8080'},addEventListener(){},setTimeout(){}};
+  class Socket {constructor(url){assert.equal(url,'ws://localhost:8080/tv/ws');socket=this;}close(){}}
+  vm.runInNewContext(fs.readFileSync('app/src/main/assets/tv/display.js','utf8'),{window,document:{getElementById:()=>status},WebSocket:Socket});
+  socket.onmessage({data:'invalid'});
+  socket.onmessage({data:JSON.stringify({type:'buzzer',version:1,roomId:'r',buzzerSoundId:1})});
+  assert.equal(cues.length,1);assert.equal(rendered.length,0);
+  socket.onmessage({data:JSON.stringify({type:'state',roomId:'r'})});
+  assert.equal(rendered.length,1);assert.equal(cues.length,1);
+});

@@ -2,9 +2,9 @@ const fs=require('node:fs'),http=require('node:http'),path=require('node:path'),
 const assets=path.resolve('app/src/main/assets/tv'),out=path.resolve('build/buzzer-browser-check');fs.mkdirSync(out,{recursive:true});
 const server=http.createServer((req,res)=>{
  const url=new URL(req.url,'http://localhost');
- if(url.pathname==='/sampler'){res.setHeader('Content-Type','text/html; charset=utf-8');return res.end(fs.readFileSync(path.join(assets,'buzzer-sampler.html')));}
+ if(url.pathname==='/sampler' || url.pathname==='/success-sampler.html'){res.setHeader('Content-Type','text/html; charset=utf-8');return res.end(fs.readFileSync(path.join(assets,url.pathname==='/sampler'?'buzzer-sampler.html':'success-sampler.html')));}
  if(url.pathname==='/tv/receiver.js'){res.setHeader('Content-Type','application/javascript');return res.end(fs.readFileSync(path.join(assets,'receiver.js')));}
- if(/^\/tv\/sounds\/buzzer(-\d{2})?\.wav$/.test(url.pathname)){res.setHeader('Content-Type','audio/wav');return res.end(fs.readFileSync(path.join(assets,'sounds',path.basename(url.pathname))));}
+ if(/^\/tv\/sounds\/(buzzer(-\d{2})?|success-\d{2})\.wav$/.test(url.pathname)){res.setHeader('Content-Type','audio/wav');return res.end(fs.readFileSync(path.join(assets,'sounds',path.basename(url.pathname))));}
  res.writeHead(404);res.end();
 });
 server.listen(0,'127.0.0.1',async()=>{
@@ -20,10 +20,10 @@ server.listen(0,'127.0.0.1',async()=>{
   const origin='http://127.0.0.1:'+server.address().port;await send('Page.navigate',{url:origin+'/sampler'},sessionId);await new Promise(r=>setTimeout(r,300));
   const evaluate=async expression=>{const r=await send('Runtime.evaluate',{expression,returnByValue:true,awaitPromise:true},sessionId);if(r.exceptionDetails)throw new Error(JSON.stringify(r.exceptionDetails));return r.result.value;};
   const checked=await evaluate(`(async()=>{
-    if(document.querySelectorAll('article').length!==10)throw Error('Expected ten choices');
+    if(document.querySelectorAll('article').length!==20)throw Error('Expected twenty choices');
     const ctx=new AudioContext();const result=[];
-    for(let n=1;n<=10;n++){
-      const name='buzzer-'+String(n).padStart(2,'0')+'.wav';const bytes=await (await fetch('/tv/sounds/'+name)).arrayBuffer();const decoded=await ctx.decodeAudioData(bytes);
+    for(const prefix of ['buzzer-','success-'])for(let n=1;n<=20;n++){
+      const name=prefix+String(n).padStart(2,'0')+'.wav';const bytes=await (await fetch('/tv/sounds/'+name)).arrayBuffer();const decoded=await ctx.decodeAudioData(bytes);
       const data=decoded.getChannelData(0);let onset=0;while(onset<data.length && Math.abs(data[onset])<.01)onset++;
       if(onset/decoded.sampleRate>.01)throw Error('Delayed attack: '+name);
       result.push({file:name,duration:decoded.duration,onsetMs:1000*onset/decoded.sampleRate});
@@ -44,8 +44,11 @@ server.listen(0,'127.0.0.1',async()=>{
     const player=TriviaReceiver.makeSoundPlayer(document);player.setOrigin(location.origin+'/play');player.setVersion('sampler');await decoded;await new Promise(r=>setTimeout(r,20));const press=performance.now();player.play('buzzer.wav');
     if(started===null || started-press>50)throw Error('Buzzer did not start from decoded memory');window.buzzerStartMs=started-press;player.stop();
   })()`);
-  console.log('Ten buzzer sounds decode, begin within 10 ms, play exclusively and fit a phone screen.');
+  console.log('Forty buzzer and success sounds decode, begin within 10 ms, play exclusively and fit a phone screen.');
   console.log('Preloaded Web Audio start scheduling: '+await evaluate('window.buzzerStartMs')+' ms after the playback call (network/TV output latency excluded).');
+  await send('Page.navigate',{url:origin+'/success-sampler.html'},sessionId);await new Promise(r=>setTimeout(r,300));
+  if(await evaluate('document.querySelectorAll(\"article\").length')!==20)throw Error('Missing success samples');
+  if(await evaluate('document.documentElement.scrollWidth>innerWidth'))throw Error('Success sampler overflows');
   const shot=await send('Page.captureScreenshot',{format:'png'},sessionId);fs.writeFileSync(path.join(out,'sampler-phone.png'),Buffer.from(shot.data,'base64'));
   await send('Browser.close');
  }catch(e){console.error(e);process.exitCode=1;}finally{ws?.close();chrome?.kill();server.close();}

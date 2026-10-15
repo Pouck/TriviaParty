@@ -190,8 +190,10 @@ class GameServer(
                 get("/tv/hourglass.svg") {
                     call.respondText(readTvAsset?.invoke("hourglass.svg") ?: "", ContentType("image", "svg+xml"))
                 }
-                get("/tv/buzzer-sampler") {
-                    call.respondText(readTvAsset?.invoke("buzzer-sampler.html") ?: "",ContentType.Text.Html)
+                listOf("buzzer","success").forEach { kind ->
+                    listOf("/tv/$kind-sampler","/tv/$kind-sampler.html").forEach { path ->
+                        get(path) { call.respondText(readTvAsset?.invoke("$kind-sampler.html") ?: "",ContentType.Text.Html) }
+                    }
                 }
                 get("/tv/audio-credits") {
                     call.respondText(privateReactions?.credits() ?: readTvAsset?.invoke("audio-credits.html") ?: "Audio credits unavailable", ContentType.Text.Html)
@@ -444,6 +446,7 @@ class GameServer(
                 answerTimerRemainingSeconds = null,
                 answerTimerRunning = false
             )
+            broadcastBuzzerCue(_gameSession.value)
             startTextAnswerTimer()
             broadcastState()
             return
@@ -1224,6 +1227,15 @@ class GameServer(
             sendToSession(request.key, GameEvent.JoinResponse(success = false, message = "L’hôte a refusé votre demande."))
         }
         broadcastState()
+    }
+
+    /** Accepted buzzes bypass queued full snapshots; only public cue identifiers leave the server. */
+    private fun broadcastBuzzerCue(state: GameSession) {
+        val cue=JsonObject(mapOf("type" to JsonPrimitive("buzzer"),"version" to JsonPrimitive(1),
+            "roomId" to JsonPrimitive(state.roomId),"buzzerSoundId" to JsonPrimitive(state.buzzerSoundId))).toString()
+        tvSubscribers.forEach { viewer ->
+            serverScope.launch { runCatching { withTimeout(1000) { viewer.send(Frame.Text(cue)) } } }
+        }
     }
 
     @Synchronized

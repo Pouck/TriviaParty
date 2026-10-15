@@ -17,6 +17,28 @@ import org.junit.Test
 import java.net.ServerSocket
 
 class QuestionFlowFeedbackTest {
+    @Test fun acceptedBuzzerCueBypassesBlockedSnapshotsWithoutLeakingAnswer() = runBlocking {
+        val port=ServerSocket(0).use {it.localPort};val server=GameServer(port)
+        val client=HttpClient(CIO) {install(WebSockets)};val blocked=kotlinx.coroutines.Job()
+        try { server.start();withTimeout(10000) {
+            val q=Question.TextAnswer("fast","Test","Question",acceptableAnswers=listOf("Secret answer"))
+            state(server).value=server.gameSession.value.copy(state=GameState.QUESTION_ACTIVE,currentQuestion=q,
+                currentCategoryAnswerMode=CategoryAnswerMode.BUZZER,teams=listOf(Team("a","Alpha",0,sessionToken="private-token")))
+            val tv=client.webSocketSession(host="127.0.0.1",port=port,path="/tv/ws")
+            tv.incoming.receive()
+            GameServer::class.java.getDeclaredField("broadcastJob").apply {isAccessible=true}.set(server,blocked)
+            buzz(server,q)
+            val cue=(tv.incoming.receive() as Frame.Text).readText()
+            val parsed=Json.parseToJsonElement(cue).jsonObject
+            assertEquals(JsonPrimitive("buzzer"),parsed["type"])
+            assertEquals(JsonPrimitive(1),parsed["buzzerSoundId"])
+            assertFalse(cue.contains("Secret answer"));assertFalse(cue.contains("private-token"))
+            assertFalse(blocked.isCompleted)
+            buzz(server,q);assertEquals(1,server.gameSession.value.buzzerSoundId)
+            tv.close()
+        } } finally {blocked.complete();client.close();server.stop()}
+    }
+
     private val json=Json { encodeDefaults=true }
     @Suppress("UNCHECKED_CAST")
     private fun state(server: GameServer)=GameServer::class.java.getDeclaredField("_gameSession").apply { isAccessible=true }.get(server) as MutableStateFlow<GameSession>

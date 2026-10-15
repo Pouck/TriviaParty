@@ -45,7 +45,7 @@ class AnswerReactionsTest {
         val server=GameServer(port,readTvAsset={path -> File("src/main/assets/tv",path).readText()},readTvBinaryAsset={ path -> File("src/main/assets/tv",path).readBytes() })
         try {
             server.start()
-            for(file in AnswerReactions.clips("good")+AnswerReactions.clips("bad")+listOf("buzzer.wav","enabled.wav","good-ping.wav","bad-ping.wav","game-end.wav")+(1..10).map {"buzzer-%02d.wav".format(it)}) {
+            for(file in AnswerReactions.clips("good")+AnswerReactions.clips("bad")+listOf("buzzer.wav","enabled.wav","good-ping.wav","bad-ping.wav","game-end.wav")+(1..20).flatMap {listOf("buzzer-%02d.wav".format(it),"success-%02d.wav".format(it))}) {
                 val connection=URL("http://127.0.0.1:$port/tv/sounds/$file").openConnection() as HttpURLConnection
                 try {
                     assertEquals(200,connection.responseCode)
@@ -54,6 +54,7 @@ class AnswerReactionsTest {
                 } finally {connection.disconnect()}
             }
             assertTrue(URL("http://127.0.0.1:$port/tv/buzzer-sampler").readText().contains("Mini boing"))
+            assertTrue(URL("http://127.0.0.1:$port/tv/success-sampler").readText().contains("Ding cristallin"))
             val denied=URL("http://127.0.0.1:$port/tv/sounds/reactions.json").openConnection() as HttpURLConnection
             try {assertEquals(404,denied.responseCode)} finally {denied.disconnect()}
         } finally {server.stop()}
