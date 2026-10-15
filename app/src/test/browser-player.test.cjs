@@ -361,3 +361,15 @@ test('unfinished written draft and its input survive every hourglass flip', () =
   h.all().find(e=>e.tag==='button'&&e.textContent==='ENVOYER').click();
   assert.equal(h.socket.sent.at(-1).answer.text,'Une réponse en cours');
 });
+
+
+test('buzzer sends at pointer contact, ignores secondary presses and never duplicates on release click', () => {
+  const h=harness();h.join();
+  h.update({state:'QUESTION_ACTIVE',currentCategoryAnswerMode:'BUZZER',currentQuestion:{id:'fast-buzz',type:'textAnswer'}});
+  const buzz=()=>h.all().find(e=>e.className?.startsWith('buzz'));
+  buzz().events.pointerdown({button:2,preventDefault(){throw Error('Secondary button must be ignored');}});
+  assert.equal(h.socket.sent.filter(e=>e.type.endsWith('.LockAnswer')).length,0);
+  let prevented=false;buzz().events.pointerdown({button:0,isPrimary:true,preventDefault(){prevented=true;}});
+  assert.equal(prevented,true);assert.equal(h.socket.sent.filter(e=>e.type.endsWith('.LockAnswer')).length,1);
+  buzz().click();assert.equal(h.socket.sent.filter(e=>e.type.endsWith('.LockAnswer')).length,1);
+});

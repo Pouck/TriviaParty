@@ -359,6 +359,11 @@
     }
     if (!awaitingQuestion(state) && usesBuzzer(state)) {
       const buzz = button('', lock, 'buzz ' + status, status !== 'ready');
+      // Send at first contact, not after the finger is released. Click remains for keyboard/accessibility.
+      buzz.addEventListener('pointerdown', event => {
+        if (buzz.disabled || event.isPrimary === false || (event.button != null && event.button !== 0)) return;
+        event.preventDefault();lock();
+      });
       buzz.setAttribute('aria-label', 'Buzzer — ' + labels[status]);
       buzz.append(node('strong', status === 'disconnected' ? 'Reconnexion…' : 'BUZZER'));
       scene.append(buzz);

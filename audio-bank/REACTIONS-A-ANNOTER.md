@@ -38,7 +38,7 @@ Après annotation : `python build/apply-reaction-audiences.py`, puis réinstalle
 | good-93.wav | Bonne | Les Bronzés font du ski | On sait jamais, sur un malentendu, ça peut marcher. | oui | allusion à la séduction |  |
 | good-94.wav | Bonne | Kad et Olivier | Alain a raison, vous êtes une vraie spécialiste des chiffres. | non |  |  |
 | good-95.wav | Bonne | Les Visiteurs | Il n’est pas très gracieux et accompagnable, mais il est futé et renifle bien les pistes. | non |  |  |
-| good-96.wav | Bonne | Ace Ventura: When Nature Calls | Damn, I’m good! Can you feel that? Huh? Can you feel it, Captain Compost? | oui | grossièreté légère |  |
+| good-96.wav | Bonne | Ace Ventura: When Nature Calls | Damn, I’m good! Can you feel that? Huh? Can you feel it, Captain Compost? | non | grossièreté légère |  |
 | good-97.wav | Bonne | Star Wars: A New Hope | You know, sometimes I amaze even myself. | non |  |  |
 | good-98.wav | Bonne | Star Wars: A New Hope | Don’t everybody thank me at once. | non |  |  |
 | good-99.wav | Bonne | One Piece | スーパー！ — Sūpā ! (Super !) | non |  |  |
@@ -64,7 +64,7 @@ Après annotation : `python build/apply-reaction-audiences.py`, puis réinstalle
 | bad-89.wav | Mauvaise | La Classe américaine | Excuse-moi de te dire ça, mon pauvre José, mais tu confonds un peu tout. Tu fais un amalgame entre la coquetterie et la classe. | non |  |  |
 | bad-90.wav | Mauvaise | La Classe américaine | Parce que t’es trop mauvais… C’est une bonne raison. | non |  |  |
 | bad-91.wav | Mauvaise | OSS 117: Le Caire, nid d'espions | C’est la piquette, Jack ! Tu sais pas jouer, Jack ! T’es mauvais ! | non |  |  |
-| bad-92.wav | Mauvaise | OSS 117 : Rio ne répond plus | Come on, cut the crap! | oui | grossièreté légère |  |
+| bad-92.wav | Mauvaise | OSS 117 : Rio ne répond plus | Come on, cut the crap! | non | grossièreté légère |  |
 | bad-93.wav | Mauvaise | Dikkenek | Tu sais quoi ? T’es vraiment trop nul. T’es archinul. Tu es viré de chez viré. | non |  |  |
 | bad-94.wav | Mauvaise | Dikkenek | Tu sais pas parce que tu connais pas ça, toi. C’est pas ton boulot. | non |  |  |
 | bad-95.wav | Mauvaise | Fantômas | Tu mens ! Tu mens ! Tu mens ! Il ment ! Il ment ! | non |  |  |

@@ -70,7 +70,10 @@ fun GameSetupScreen(
     var drawing by remember { mutableStateOf(false) }
     var drawError by remember { mutableStateOf<String?>(null) }
     var toolsOpen by remember { mutableStateOf(false) }
-    var modeOpen by remember { mutableStateOf(false) }
+    var editCounts by remember { mutableStateOf(false) }
+    var manualSubject by remember { mutableStateOf("Tous") }
+    var draftCount by remember { mutableStateOf("6") }
+    var draftSets by remember { mutableStateOf("1") }
     var showSelection by remember { mutableStateOf(false) }
     val accent = Color(0xFFFFD54F)
     val panel = Color(0xFF232333)
@@ -94,22 +97,23 @@ fun GameSetupScreen(
         if(drawing) return
         val mode=selectionMode
         val subjects=selectedSubjects.toSet()
-        val count=if(mode=="Sujets") subjects.size else randomCount.toIntOrNull()?.coerceAtLeast(1) ?: 6
+        val count=if(mode=="Sujets") subjects.size else randomCount.toIntOrNull()?.coerceIn(1,50) ?: 6
+        val sets=setsPerSubject.toIntOrNull()?.coerceIn(1,50) ?: 1
         val stats=usage
         drawing=true; drawError=null
         scope.launch {
         val result=runCatching { withContext(Dispatchers.Default) {
         val packs = eligiblePackages().filter { mode != "Sujets" || it.browseGroup() in subjects }
         val byId = packs.associateBy { it.id }
-        com.example.triviaparty.data.selectBalancedPackages(packs.map { it.id },count,
+        com.example.triviaparty.data.selectBalancedCategorySets(packs.map { it.id },count,sets,
             stats, { id ->
                 val pack=byId.getValue(id)
                 val formats=GamePackageRepository.categoryNamesFor(pack).map { com.example.triviaparty.data.categoryProfileFor(it).format }.distinct()
                 com.example.triviaparty.data.CategoryProfile(formats.singleOrNull() ?: com.example.triviaparty.data.CategoryFormat.MIXED,pack.browseGroup())
-            },onePerSubject=mode=="Sujets")
+            })
         } }
         result.onSuccess { ids ->
-            if(selectionMode==mode && selectedSubjects.toSet()==subjects) { selectedIds.clear(); selectedIds.addAll(ids) }
+            if(selectionMode==mode && selectedSubjects.toSet()==subjects && (setsPerSubject.toIntOrNull()?.coerceIn(1,50) ?: 1)==sets) { selectedIds.clear(); selectedIds.addAll(ids);if(ids.isEmpty()) drawError="Aucun sujet ne contient $sets forfaits disponibles. Réduisez le nombre de forfaits par catégorie." }
         }.onFailure { drawError=it.message ?: "Tirage impossible" }
         drawing=false
         }
@@ -183,6 +187,15 @@ fun GameSetupScreen(
     }
 
     MaterialTheme(colorScheme=setupColors) {
+    if(editCounts) AlertDialog(onDismissRequest={ editCounts=false },title={ Text("Format de la partie") },
+        text={ Column(verticalArrangement=Arrangement.spacedBy(12.dp)) {
+            if(selectionMode!="Sujets") OutlinedTextField(value=draftCount,onValueChange={ draftCount=it.filter(Char::isDigit).take(2) },label={ Text("Nombre de catégories") },singleLine=true)
+            OutlinedTextField(value=draftSets,onValueChange={ draftSets=it.filter(Char::isDigit).take(2) },label={ Text("Forfaits par catégorie") },singleLine=true)
+        } },
+        confirmButton={ TextButton(enabled=(selectionMode=="Sujets" || (draftCount.toIntOrNull() ?: 0) in 1..50) && (draftSets.toIntOrNull() ?: 0) in 1..50,onClick={
+            if(selectionMode=="Vote") voteCount=draftCount else if(selectionMode=="Aléatoire") randomCount=draftCount
+            setsPerSubject=draftSets;selectedIds.clear();editCounts=false
+        }) { Text("Appliquer") } },dismissButton={ TextButton(onClick={ editCounts=false }) { Text("Annuler") } })
     Column(
         modifier = modifier.fillMaxSize().background(Color(0xFF12121D)).padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
@@ -204,23 +217,18 @@ fun GameSetupScreen(
                 }
             }
         }
-        Box(Modifier.fillMaxWidth()) {
-            OutlinedButton(onClick={ modeOpen=true },enabled=!drawing,modifier=Modifier.fillMaxWidth(),
-                shape=RoundedCornerShape(12.dp),contentPadding=PaddingValues(14.dp)) {
-                Text(when(selectionMode) { "Vote"->"Vote des joueurs"; "Révision"->"Révision solo"; "Tout"->"Tous les forfaits"; "Aléatoire"->"Tirage aléatoire"; "Sujets"->"Choisir les sujets"; else->"Choix manuel" },
-                    modifier=Modifier.weight(1f),fontSize=17.sp)
-                Text("▾")
-            }
-            DropdownMenu(expanded=modeOpen,onDismissRequest={ modeOpen=false }) {
-                listOf("Aléatoire" to "Tirage aléatoire","Sujets" to "Choisir les sujets","Vote" to "Vote des joueurs","Tout" to "Tous les forfaits","Manuel" to "Choix manuel","Révision" to "Révision solo").forEach { (mode,label) ->
-                    DropdownMenuItem(text={ Text(label) },onClick={
-                        modeOpen=false; showSelection=false; drawError=null
-                        if(selectionMode!=mode) {
-                            selectionMode=mode; selectedIds.clear()
-                            if(mode=="Tout") selectedIds.addAll(eligiblePackages().map { it.id })
-                        }
-                    })
-                }
+        FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp),verticalArrangement=Arrangement.spacedBy(0.dp)) {
+            listOf("Aléatoire" to "Tirage", "Sujets" to "Sujets", "Vote" to "Vote", "Tout" to "Tout", "Manuel" to "Manuel", "Révision" to "Révision", "Tests" to "Tests").forEach { (mode,label) ->
+                FilterChip(selected=selectionMode==mode,enabled=!drawing,onClick={
+                    showSelection=false;drawError=null
+                    if(selectionMode!=mode) {
+                        selectionMode=mode;selectedIds.clear()
+                        if(mode=="Tout") selectedIds.addAll(eligiblePackages().map { it.id })
+                        if(mode=="Tests") selectedIds.addAll(GamePackageRepository.packages.filter { pack ->
+                            pack.isTestPackage() && GamePackageRepository.categoryNamesFor(pack).any { QuestionBankRepository.getQuestionsForCategory(it).isNotEmpty() }
+                        }.map { it.id })
+                    }
+                },label={ Text(label,fontSize=15.sp) })
             }
         }
         importMessage?.let { message ->
@@ -231,17 +239,19 @@ fun GameSetupScreen(
             verticalArrangement = Arrangement.spacedBy(12.dp)) {
             if(selectionMode=="Vote") {
                 Text("Les joueurs rejoignent le salon, puis votent sur leur téléphone. Les sujets sont affichés sur la TV.",color=MaterialTheme.colorScheme.onSurfaceVariant)
-                OutlinedTextField(value=voteCount,onValueChange={ voteCount=it.filter(Char::isDigit).take(2) },
-                    label={ Text("Nombre de catégories") },singleLine=true,modifier=Modifier.fillMaxWidth())
-                OutlinedTextField(value=setsPerSubject,onValueChange={ setsPerSubject=it.filter(Char::isDigit).take(2) },
-                    label={ Text("Forfaits par catégorie") },singleLine=true,modifier=Modifier.fillMaxWidth())
                 Text("$voteSubjects sujets disponibles pour $voteSets forfait${if(voteSets==1) "" else "s"} chacun. Les forfaits sont tirés après le vote, avec des formats variés.",color=MaterialTheme.colorScheme.onSurfaceVariant)
             }
             if(selectionMode=="Révision") Text("Choisissez les forfaits à revoir. Jouez seul, révélez la réponse, puis notez et commentez la question. Sans chrono.",color=MaterialTheme.colorScheme.onSurfaceVariant)
-            if(selectionMode=="Aléatoire") OutlinedTextField(value=randomCount,onValueChange={ randomCount=it.filter(Char::isDigit).take(3) },
-                label={ Text("Nombre de forfaits") },singleLine=true,enabled=!drawing,modifier=Modifier.fillMaxWidth())
+            if(selectionMode in listOf("Aléatoire","Sujets","Vote")) Surface(color=panel,shape=RoundedCornerShape(12.dp),modifier=Modifier.fillMaxWidth()) {
+                Row(Modifier.padding(horizontal=14.dp,vertical=4.dp),verticalAlignment=Alignment.CenterVertically) {
+                    val count=when(selectionMode) { "Vote" -> voteCount; "Sujets" -> selectedSubjects.size.toString(); else -> randomCount }
+                    Text("$count × $voteSets",fontSize=23.sp,fontWeight=FontWeight.Bold,color=Color.White)
+                    Text("  catégories × forfaits",modifier=Modifier.weight(1f),fontSize=13.sp,color=MaterialTheme.colorScheme.onSurfaceVariant)
+                    TextButton(enabled=!drawing,onClick={ draftCount=if(selectionMode=="Vote") voteCount else randomCount;draftSets=setsPerSubject;editCounts=true }) { Text("Modifier") }
+                }
+            }
             if(selectionMode=="Sujets") {
-                Text("Un forfait par sujet. Les formats sont mélangés.",color=MaterialTheme.colorScheme.onSurfaceVariant)
+                Text("Choisissez les sujets. Les formats sont mélangés.",color=MaterialTheme.colorScheme.onSurfaceVariant)
                 FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp),verticalArrangement=Arrangement.spacedBy(0.dp)) {
                 eligiblePackages().map { it.browseGroup() }.distinct().sorted().forEach { subject ->
                     FilterChip(selected=subject in selectedSubjects,enabled=!drawing,onClick={
@@ -251,8 +261,10 @@ fun GameSetupScreen(
                 }
                 }
             }
+            if(selectionMode=="Tests") Text("Tous les forfaits de test et démonstration sont sélectionnés.",color=MaterialTheme.colorScheme.onSurfaceVariant)
             if(selectionMode=="Tout") Text("Toute la bibliothèque, sauf les tests et démonstrations.",color=MaterialTheme.colorScheme.onSurfaceVariant)
             if(selectionMode in listOf("Aléatoire","Sujets")) Button(onClick={ drawPackages() },
+                colors=ButtonDefaults.buttonColors(containerColor=Color(0xFF75D7CB),contentColor=Color(0xFF102724)),
                 modifier=Modifier.fillMaxWidth(),shape=RoundedCornerShape(12.dp),
                 enabled=!drawing && (selectionMode!="Sujets" || selectedSubjects.isNotEmpty())) { Text(if(drawing) "Tirage en cours…" else if(selectedIds.isEmpty()) "Tirer les forfaits" else "Nouveau tirage") }
             if(drawing) LinearProgressIndicator(Modifier.fillMaxWidth())
@@ -271,16 +283,26 @@ fun GameSetupScreen(
             if(selectionMode in listOf("Manuel","Révision")) {
             OutlinedTextField(value=search,onValueChange={ search=it },singleLine=true,
                 label={ Text("Rechercher un forfait") },modifier=Modifier.fillMaxWidth())
-            GamePackageRepository.packages.filter {
-                searchablePackageText(it.name).contains(searchablePackageText(search.trim()))
-            }.groupBy { it.browseGroup() }.toSortedMap().forEach { (group,packs) ->
-                TextButton(onClick={ if (group in expandedGroups) expandedGroups.remove(group) else expandedGroups.add(group) },
-                    modifier=Modifier.fillMaxWidth(),contentPadding=PaddingValues(horizontal=8.dp,vertical=2.dp)) {
-                    Text("${if (group in expandedGroups || search.isNotBlank()) "▾" else "▸"} $group · ${packs.size} forfaits" +
-                        packs.count { it.id in selectedIds }.takeIf { it>0 }?.let { " · $it sélectionné(s)" }.orEmpty(),
-                        color=accent,modifier=Modifier.fillMaxWidth(),fontWeight=FontWeight.Bold)
+            FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp)) {
+                (listOf("Tous")+GamePackageRepository.packages.map { it.browseGroup() }.distinct().sorted()).forEach { subject ->
+                    FilterChip(selected=manualSubject==subject,onClick={ manualSubject=subject },label={ Text(subject) })
                 }
-                if (group in expandedGroups || search.isNotBlank()) packs.sortedBy { it.name }.forEach { gamePackage ->
+            }
+            GamePackageRepository.packages.filter {
+                (manualSubject=="Tous" || it.browseGroup()==manualSubject) && searchablePackageText(it.name).contains(searchablePackageText(search.trim()))
+            }.groupBy { it.browseGroup() }.toSortedMap().forEach { (group,packs) ->
+                val selectable=packs.filter { pack -> GamePackageRepository.categoryNamesFor(pack).any { QuestionBankRepository.getQuestionsForCategory(it).isNotEmpty() } }
+                val allSelected=selectable.isNotEmpty() && selectable.all { it.id in selectedIds }
+                Row(verticalAlignment=Alignment.CenterVertically,modifier=Modifier.fillMaxWidth()) {
+                    TextButton(onClick={ if(group in expandedGroups) expandedGroups.remove(group) else expandedGroups.add(group) },modifier=Modifier.weight(1f),contentPadding=PaddingValues(horizontal=0.dp,vertical=2.dp)) {
+                        Text("${if(group in expandedGroups || search.isNotBlank() || manualSubject!="Tous") "▾" else "▸"} $group · ${packs.size}",color=accent,modifier=Modifier.fillMaxWidth(),fontWeight=FontWeight.Bold)
+                    }
+                    TextButton(enabled=selectable.isNotEmpty(),onClick={
+                        if(allSelected) selectedIds.removeAll(selectable.map { it.id }.toSet())
+                        else selectable.forEach { if(it.id !in selectedIds) selectedIds.add(it.id) }
+                    }) { Text(if(allSelected) "Tout retirer" else "Tout sélectionner",fontSize=12.sp) }
+                }
+                if (group in expandedGroups || search.isNotBlank() || manualSubject!="Tous") packs.sortedBy { it.name }.forEach { gamePackage ->
                 val categories = GamePackageRepository.categoryNamesFor(gamePackage)
                 val count = categories.sumOf { QuestionBankRepository.getQuestionsForCategory(it).size }
                 Card(

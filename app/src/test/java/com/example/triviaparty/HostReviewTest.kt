@@ -7,6 +7,20 @@ import java.nio.file.Files
 import kotlin.random.Random
 
 class HostReviewTest {
+    @Test fun categorySetDrawHonorsBothCountsAndIgnoresIncompleteSubjects() {
+        val profiles=(0..23).associate { "p$it" to CategoryProfile(CategoryFormat.entries[it%4],"s${it/4}") } +
+            mapOf("incomplete" to CategoryProfile(CategoryFormat.MIXED,"small"))
+        val selected=selectBalancedCategorySets(profiles.keys.toList(),3,2,emptyMap(),profiles::getValue,Random(42))
+        assertEquals(6,selected.size)
+        assertEquals(listOf(2,2,2),selected.groupingBy {profiles.getValue(it).subject}.eachCount().values.sorted())
+        assertFalse("incomplete" in selected)
+        val used=selected.associateWith { PackageUsage(1,100) }
+        val next=selectBalancedCategorySets(profiles.keys.toList(),3,2,used,profiles::getValue,Random(42))
+        assertTrue(next.none {it in selected})
+        assertEquals(24,selectBalancedCategorySets(profiles.keys.toList(),50,4,emptyMap(),profiles::getValue).size)
+        assertTrue(selectBalancedCategorySets(profiles.keys.toList(),3,5,emptyMap(),profiles::getValue).isEmpty())
+    }
+
     @Test fun resolvingArchivesCommentPreservesRatingAndRejectsStaleFeedback() {
         val directory=Files.createTempDirectory("resolved-review").toFile()
         try {

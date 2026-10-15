@@ -476,7 +476,7 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 6.833,
     "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
-    "audience": "mature",
+    "audience": "all",
     "audienceTags": "grossièreté légère",
     "audienceNote": ""
   },
@@ -939,7 +939,7 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 1.467,
     "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
-    "audience": "mature",
+    "audience": "all",
     "audienceTags": "grossièreté légère",
     "audienceNote": ""
   },

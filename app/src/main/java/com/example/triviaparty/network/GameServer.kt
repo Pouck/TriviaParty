@@ -190,6 +190,9 @@ class GameServer(
                 get("/tv/hourglass.svg") {
                     call.respondText(readTvAsset?.invoke("hourglass.svg") ?: "", ContentType("image", "svg+xml"))
                 }
+                get("/tv/buzzer-sampler") {
+                    call.respondText(readTvAsset?.invoke("buzzer-sampler.html") ?: "",ContentType.Text.Html)
+                }
                 get("/tv/audio-credits") {
                     call.respondText(privateReactions?.credits() ?: readTvAsset?.invoke("audio-credits.html") ?: "Audio credits unavailable", ContentType.Text.Html)
                 }

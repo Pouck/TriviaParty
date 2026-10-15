@@ -42,10 +42,10 @@ class AnswerReactionsTest {
         assertEquals(2,state.buzzerSoundId)
         assertTrue(state.encode().contains("bad-04.mp3"))
         val port=ServerSocket(0).use { it.localPort }
-        val server=GameServer(port,readTvBinaryAsset={ path -> File("src/main/assets/tv",path).readBytes() })
+        val server=GameServer(port,readTvAsset={path -> File("src/main/assets/tv",path).readText()},readTvBinaryAsset={ path -> File("src/main/assets/tv",path).readBytes() })
         try {
             server.start()
-            for(file in AnswerReactions.clips("good")+AnswerReactions.clips("bad")+listOf("buzzer.wav","enabled.wav","good-ping.wav","bad-ping.wav","game-end.wav")) {
+            for(file in AnswerReactions.clips("good")+AnswerReactions.clips("bad")+listOf("buzzer.wav","enabled.wav","good-ping.wav","bad-ping.wav","game-end.wav")+(1..10).map {"buzzer-%02d.wav".format(it)}) {
                 val connection=URL("http://127.0.0.1:$port/tv/sounds/$file").openConnection() as HttpURLConnection
                 try {
                     assertEquals(200,connection.responseCode)
@@ -53,6 +53,7 @@ class AnswerReactionsTest {
                     assertArrayEquals(File("src/main/assets/tv/sounds",file).readBytes(),connection.inputStream.use { it.readBytes() })
                 } finally {connection.disconnect()}
             }
+            assertTrue(URL("http://127.0.0.1:$port/tv/buzzer-sampler").readText().contains("Mini boing"))
             val denied=URL("http://127.0.0.1:$port/tv/sounds/reactions.json").openConnection() as HttpURLConnection
             try {assertEquals(404,denied.responseCode)} finally {denied.disconnect()}
         } finally {server.stop()}

@@ -547,3 +547,37 @@ test('activating a second debug display silences the first including queued spee
     assert.equal(second.enabled(),false);assert.equal(first.enabled(),true);
   } finally {global.Audio=previousAudio;global.BroadcastChannel=previousChannel;global.location=previousLocation;}
 });
+
+
+test('buzzer is fetched and decoded before a press, starts from memory and honors debug ownership', async () => {
+  const previous={Audio:global.Audio,AudioContext:global.AudioContext,fetch:global.fetch};
+  const fetched=[],started=[],media=[];let stopped=0;
+  global.Audio=class {constructor(src){this.src=src;}pause(){}play(){media.push(this.src);return Promise.resolve();}};
+  global.AudioContext=class {
+    constructor(options){assert.equal(options.latencyHint,'interactive');this.state='running';this.destination={};}
+    resume(){return Promise.resolve();}
+    decodeAudioData(bytes){return Promise.resolve({decoded:bytes});}
+    createBufferSource(){return {connect(){},start(when){started.push({when,buffer:this.buffer});},stop(){stopped++;}};}
+  };
+  global.fetch=async url=>{fetched.push(url);return {ok:true,arrayBuffer:async()=>new ArrayBuffer(8)};};
+  try {
+    const player=currentReceiver.makeSoundPlayer(documentStub());player.setOrigin('http://host:8080/play');player.setVersion('bank1');
+    await new Promise(setImmediate);assert.equal(fetched.length,1);assert.match(fetched[0],/buzzer.wav\?v=bank1$/);
+    player.setVersion('bank1');assert.equal(fetched.length,1);
+    player.play('buzzer.wav');assert.equal(started.length,1);assert.equal(started[0].when,0);assert.ok(started[0].buffer);assert.equal(media.length,0);
+    player.play('buzzer.wav');assert.equal(started.length,2);assert.equal(stopped,1);assert.equal(fetched.length,1);
+    player.stop();assert.equal(stopped,2);
+    player.setVersion('bank2');await new Promise(setImmediate);assert.equal(fetched.length,2);
+  } finally {Object.assign(global,previous);}
+});
+
+test('a failed buzzer preload keeps HTML audio available', async () => {
+  const previous={Audio:global.Audio,AudioContext:global.AudioContext,fetch:global.fetch};const played=[];
+  global.Audio=class {constructor(src){this.src=src;}pause(){}play(){played.push(this.src);return Promise.resolve();}};
+  global.AudioContext=class {resume(){return Promise.resolve();}};
+  global.fetch=async()=>{throw new Error('offline preload');};
+  try {
+    const player=currentReceiver.makeSoundPlayer(documentStub());player.setOrigin('http://host:8080/play');player.setVersion('bank');await new Promise(setImmediate);
+    player.play('buzzer.wav');assert.equal(played.length,1);assert.match(played[0],/buzzer.wav/);
+  } finally {Object.assign(global,previous);}
+});

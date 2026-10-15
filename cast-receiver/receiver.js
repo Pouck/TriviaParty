@@ -28,6 +28,28 @@
   function makeSoundPlayer(doc, options) {
     options = options || {};
     var audioVersion=null;
+    var buzzerContext=null,buzzerBuffer=null,buzzerSource=null,buzzerKey=null;
+    function resumeBuzzer() {
+      if(buzzerContext && buzzerContext.resume) {
+        try { var resumed=buzzerContext.resume();if(resumed && resumed.catch) resumed.catch(function(){}); } catch(_) {}
+      }
+    }
+    // Decode the short cue while players are joining, rather than fetching it on a press.
+    function warmBuzzer() {
+      var Context=root.AudioContext || root.webkitAudioContext;
+      if(!origin || !Context || !root.fetch) return;
+      var key=origin+'/tv/sounds/buzzer.wav'+(audioVersion?'?v='+encodeURIComponent(audioVersion):'');
+      if(key===buzzerKey) return;
+      buzzerKey=key;buzzerBuffer=null;
+      try {
+        if(!buzzerContext) buzzerContext=new Context({latencyHint:'interactive'});
+        root.fetch(key).then(function(response){if(!response.ok)throw new Error('Buzzer unavailable');return response.arrayBuffer();})
+          .then(function(bytes){return buzzerContext.decodeAudioData(bytes);})
+          .then(function(buffer){if(buzzerKey===key)buzzerBuffer=buffer;})
+          .catch(function(){if(buzzerKey===key)buzzerKey=null;});
+        resumeBuzzer();
+      } catch(_) {buzzerKey=null;}
+    }
     // Only the most recently activated debug display may play audio. Cast is independent.
     var debugOwner=true, channel=null, ownerId=String(Date.now())+'-'+Math.random();
     if(options.localAudio && root.BroadcastChannel) {
@@ -41,7 +63,7 @@
       };
     }
     var queued=[],audio, origin = options.localAudio && root.location ? root.location.origin : null, control = doc.getElementById('tv-audio-control'), enabled = false, attempt = 0;
-    function stop() { queued=[];++attempt; if (audio) { audio.onended = null; if (audio.pause) audio.pause(); } }
+    function stop() { queued=[];++attempt; if(buzzerSource){try{buzzerSource.stop();}catch(_){}buzzerSource=null;} if (audio) { audio.onended = null; if (audio.pause) audio.pause(); } }
     function report(error) {
       enabled = false;
       queued=[];
@@ -52,6 +74,13 @@
     function play(file, remaining, continuing) {
       if (!root.Audio || !origin || !debugOwner) return;
       if(!continuing) stop();
+      if(file==='buzzer.wav' && buzzerBuffer && buzzerContext && buzzerContext.state==='running') {
+        try {
+          buzzerSource=buzzerContext.createBufferSource();buzzerSource.buffer=buzzerBuffer;
+          buzzerSource.connect(buzzerContext.destination);buzzerSource.start(0);
+          enabled=true;if(control)control.style.display='none';return;
+        } catch(_) {buzzerSource=null;}
+      }
       var url = origin + '/tv/sounds/' + file + (audioVersion?'?v='+encodeURIComponent(audioVersion):'');
       if (!audio) audio = new root.Audio(url); else audio.src = url;
       audio.volume = 1;
@@ -73,11 +102,11 @@
       } catch (error) { report(error); }
     }
     if (control) {
-      control.onclick = function () { debugOwner=true; if(channel) channel.postMessage({type:'claim',owner:ownerId}); play('enabled.wav'); };
+      control.onclick = function () { resumeBuzzer();debugOwner=true; if(channel) channel.postMessage({type:'claim',owner:ownerId}); play('enabled.wav'); };
       if (options.localAudio) { control.textContent = 'Activer le son'; control.style.display = 'block'; }
     }
     return {
-      setVersion: function(version) { audioVersion=typeof version==='string'?version:null; },
+      setVersion: function(version) { audioVersion=typeof version==='string'?version:null;warmBuzzer(); },
       setOrigin: function (joinUrl) {
         try { origin = options.localAudio && root.location ? root.location.origin : new URL(joinUrl).origin; } catch (_) {}
       },

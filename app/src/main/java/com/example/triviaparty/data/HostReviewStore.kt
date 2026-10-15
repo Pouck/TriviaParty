@@ -85,3 +85,16 @@ fun selectBalancedPackages(ids: List<String>, count: Int, usage: Map<String, Pac
     }
     return selected
 }
+
+
+/** Draw whole subject sets so “6 × 2” really yields six subjects with two packages each. */
+fun selectBalancedCategorySets(ids: List<String>, subjectCount: Int, setsPerSubject: Int,
+    usage: Map<String, PackageUsage>, profile: (String) -> CategoryProfile,
+    random: kotlin.random.Random = kotlin.random.Random.Default): List<String> {
+    val sets=setsPerSubject.coerceIn(1,50)
+    val profiles=ids.distinct().associateWith(profile)
+    val eligible=profiles.keys.groupBy { profiles.getValue(it).subject }.filterValues { it.size>=sets }.values.flatten()
+    val representatives=selectBalancedPackages(eligible,subjectCount.coerceIn(1,50),usage,profiles::getValue,onePerSubject=true,random=random)
+    val subjects=representatives.map { profiles.getValue(it).subject }.toSet()
+    return selectBalancedPackages(eligible.filter { profiles.getValue(it).subject in subjects },subjects.size*sets,usage,profiles::getValue,random=random,subjectLimit=sets)
+}

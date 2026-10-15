@@ -1,0 +1,736 @@
+{
+    "reviews": {
+        "monde-xixe-empires-et-industrie-04-20261010": {
+            "questionId": "monde-xixe-empires-et-industrie-04-20261010",
+            "category": "Histoire mondiale — XIXe siècle : empires et industrie",
+            "prompt": "Quel enjeu était notamment au cœur de la conférence de Berlin de 1884–1885 ?",
+            "comment": "this question needs more time. there is a lot of text to read",
+            "difficulty": 5,
+            "updatedAt": 1791811138213
+        },
+        "architecture-qcm-moderne-20261011-01": {
+            "questionId": "architecture-qcm-moderne-20261011-01",
+            "category": "Architecture — Architecture moderne — QCM",
+            "prompt": "Qui a conçu cet opéra ?",
+            "difficulty": 5,
+            "updatedAt": 1791828128901
+        },
+        "architecture-qcm-moderne-20261011-02": {
+            "questionId": "architecture-qcm-moderne-20261011-02",
+            "category": "Architecture — Architecture moderne — QCM",
+            "prompt": "Dans quelle ville canadienne se trouve la tour CN ?",
+            "difficulty": 2,
+            "updatedAt": 1791828140160
+        },
+        "architecture-qcm-moderne-20261011-03": {
+            "questionId": "architecture-qcm-moderne-20261011-03",
+            "category": "Architecture — Architecture moderne — QCM",
+            "prompt": "Qui a conçu ce musée new-yorkais ?",
+            "difficulty": 4,
+            "updatedAt": 1791828147116
+        },
+        "architecture-qcm-moderne-20261011-04": {
+            "questionId": "architecture-qcm-moderne-20261011-04",
+            "category": "Architecture — Architecture moderne — QCM",
+            "prompt": "Quelle particularité architecturale distingue le Centre Pompidou, à Paris ?",
+            "difficulty": 4,
+            "updatedAt": 1791828151024
+        },
+        "architecture-qcm-moderne-20261011-05": {
+            "questionId": "architecture-qcm-moderne-20261011-05",
+            "category": "Architecture — Architecture moderne — QCM",
+            "prompt": "Où est la maison par rapport à la cascade ?",
+            "comment": "trop facile",
+            "difficulty": 0,
+            "updatedAt": 1791828171193
+        },
+        "architecture-qcm-moderne-20261011-06": {
+            "questionId": "architecture-qcm-moderne-20261011-06",
+            "category": "Architecture — Architecture moderne — QCM",
+            "prompt": "Quel architecte a conçu plusieurs grands bâtiments publics de Brasília, dont le Congrès national ?",
+            "difficulty": 4,
+            "updatedAt": 1791828183361
+        },
+        "architecture-qcm-asie-orient-20261011-01": {
+            "questionId": "architecture-qcm-asie-orient-20261011-01",
+            "category": "Architecture — Asie et Proche-Orient — QCM",
+            "prompt": "Qui a commandé ce mausolée ?",
+            "difficulty": 5,
+            "updatedAt": 1791828191953
+        },
+        "architecture-qcm-asie-orient-20261011-02": {
+            "questionId": "architecture-qcm-asie-orient-20261011-02",
+            "category": "Architecture — Asie et Proche-Orient — QCM",
+            "prompt": "Quel peuple a fait de Pétra sa capitale et y a sculpté des façades dans la roche ?",
+            "difficulty": 4,
+            "updatedAt": 1791828198011
+        },
+        "architecture-qcm-asie-orient-20261011-03": {
+            "questionId": "architecture-qcm-asie-orient-20261011-03",
+            "category": "Architecture — Asie et Proche-Orient — QCM",
+            "prompt": "Dans quel pays est ce temple ?",
+            "difficulty": 3,
+            "updatedAt": 1791828203983
+        },
+        "architecture-qcm-asie-orient-20261011-04": {
+            "questionId": "architecture-qcm-asie-orient-20261011-04",
+            "category": "Architecture — Asie et Proche-Orient — QCM",
+            "prompt": "À quelle tradition religieuse le temple de Borobudur, sur l’île de Java, appartient-il ?",
+            "difficulty": 3,
+            "updatedAt": 1791828212909
+        },
+        "architecture-qcm-asie-orient-20261011-05": {
+            "questionId": "architecture-qcm-asie-orient-20261011-05",
+            "category": "Architecture — Asie et Proche-Orient — QCM",
+            "prompt": "Quelles dynasties ont habité ce palais ?",
+            "difficulty": 3,
+            "updatedAt": 1791828219675
+        },
+        "architecture-qcm-asie-orient-20261011-06": {
+            "questionId": "architecture-qcm-asie-orient-20261011-06",
+            "category": "Architecture — Asie et Proche-Orient — QCM",
+            "prompt": "Pourquoi les temples d’Abou Simbel ont-ils été déplacés dans les années 1960 ?",
+            "difficulty": 3,
+            "updatedAt": 1791828225812
+        },
+        "architecture-qsj-modernes-20261011-01": {
+            "questionId": "architecture-qsj-modernes-20261011-01",
+            "category": "Architecture — Monuments emblématiques — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nMes pièces de fer puddlé sont assemblées à l’aide de rivets.\nJe suis construite pour l’Exposition universelle de 1889.\nJe me dresse au Champ-de-Mars et porte le nom de l’entrepreneur qui m’a réalisée.\nJe suis la célèbre tour métallique devenue un symbole de Paris.",
+            "difficulty": 2,
+            "updatedAt": 1791828396897
+        },
+        "architecture-qsj-modernes-20261011-02": {
+            "questionId": "architecture-qsj-modernes-20261011-02",
+            "category": "Architecture — Monuments emblématiques — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nLe projet de mon architecte danois remporte un concours international en 1957.\nJe suis construit à Bennelong Point, au bord d’un port australien.\nMes grandes coques blanches abritent des salles de spectacle.\nMes toitures évoquent des voiles sur le port de Sydney, en Australie.",
+            "comment": "le dernier indice est la réponse. a reviser",
+            "difficulty": 3,
+            "updatedAt": 1791828417365
+        },
+        "architecture-qsj-modernes-20261011-03": {
+            "questionId": "architecture-qsj-modernes-20261011-03",
+            "category": "Architecture — Monuments emblématiques — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nJe suis une résidence de week-end commandée par la famille Kaufmann en Pennsylvanie.\nMes terrasses en porte-à-faux s’avancent au-dessus d’un ruisseau.\nFrank Lloyd Wright m’intègre directement à une cascade.\nMon nom anglais évoque l’eau qui tombe sous mes terrasses.",
+            "difficulty": 3,
+            "updatedAt": 1791828431174
+        },
+        "architecture-qsj-antiquite-20261011-01": {
+            "questionId": "architecture-qsj-antiquite-20261011-01",
+            "category": "Architecture — Merveilles historiques — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nMon chantier commence sous Vespasien, puis Titus m’inaugure en 80 de notre ère.\nMon plan elliptique entoure une arène et des gradins.\nDes gladiateurs et des animaux ont participé aux spectacles que j’accueillais.\nJe suis le célèbre amphithéâtre antique de Rome.",
+            "difficulty": 3,
+            "updatedAt": 1791828235501
+        },
+        "architecture-qsj-antiquite-20261011-02": {
+            "questionId": "architecture-qsj-antiquite-20261011-02",
+            "category": "Architecture — Merveilles historiques — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nJe suis construit au Ve siècle avant notre ère, à l’époque de Périclès.\nMes colonnes appartiennent principalement à l’ordre dorique.\nJ’étais consacré à Athéna et j’abritais une statue réalisée par Phidias.\nJe suis le grand temple qui domine l’Acropole d’Athènes.",
+            "difficulty": 3,
+            "updatedAt": 1791828242585
+        },
+        "architecture-qsj-antiquite-20261011-03": {
+            "questionId": "architecture-qsj-antiquite-20261011-03",
+            "category": "Architecture — Merveilles historiques — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nJe suis un monument funéraire de la IVe dynastie égyptienne.\nJe suis la seule merveille de l’Antiquité encore largement conservée.\nDeux autres grandes pyramides se dressent à mes côtés.\nJe suis la plus imposante des trois pyramides du plateau de Gizeh.",
+            "comment": "dernierinduce est la réponse. a reviser",
+            "difficulty": 3,
+            "updatedAt": 1791828264365
+        },
+        "lib-chronologie-architecture-reperes-20261012-01": {
+            "questionId": "lib-chronologie-architecture-reperes-20261012-01",
+            "category": "Architecture — Monuments dans le temps — Chronologie",
+            "prompt": "Classez les ouvertures et inaugurations",
+            "difficulty": 5,
+            "updatedAt": 1791828302604
+        },
+        "lib-chronologie-architecture-reperes-20261012-02": {
+            "questionId": "lib-chronologie-architecture-reperes-20261012-02",
+            "category": "Architecture — Monuments dans le temps — Chronologie",
+            "prompt": "Classez ces inaugurations",
+            "difficulty": 4,
+            "updatedAt": 1791828309986
+        },
+        "lib-chronologie-architecture-reperes-20261012-03": {
+            "questionId": "lib-chronologie-architecture-reperes-20261012-03",
+            "category": "Architecture — Monuments dans le temps — Chronologie",
+            "prompt": "Classez ces repères",
+            "difficulty": 4,
+            "updatedAt": 1791828319612
+        },
+        "lib-chronologie-architecture-reperes-20261012-04": {
+            "questionId": "lib-chronologie-architecture-reperes-20261012-04",
+            "category": "Architecture — Monuments dans le temps — Chronologie",
+            "prompt": "Classez ces repères",
+            "difficulty": 2,
+            "updatedAt": 1791828327646
+        },
+        "lib-chronologie-architecture-reperes-20261012-05": {
+            "questionId": "lib-chronologie-architecture-reperes-20261012-05",
+            "category": "Architecture — Monuments dans le temps — Chronologie",
+            "prompt": "Classez ces inaugurations",
+            "difficulty": 4,
+            "updatedAt": 1791828331267
+        },
+        "architecture-qcm-europe-20261011-01": {
+            "questionId": "architecture-qcm-europe-20261011-01",
+            "category": "Architecture — Monuments d’Europe — QCM",
+            "prompt": "Quelle était la fonction de cet édifice romain ?",
+            "difficulty": 2,
+            "updatedAt": 1791828376270
+        },
+        "architecture-qcm-europe-20261011-02": {
+            "questionId": "architecture-qcm-europe-20261011-02",
+            "category": "Architecture — Monuments d’Europe — QCM",
+            "prompt": "Quel élément caractéristique perce le sommet de la coupole du Panthéon de Rome ?",
+            "difficulty": 4,
+            "updatedAt": 1791828380812
+        },
+        "architecture-qcm-europe-20261011-03": {
+            "questionId": "architecture-qcm-europe-20261011-03",
+            "category": "Architecture — Monuments d’Europe — QCM",
+            "prompt": "À quoi servait cette tour ?",
+            "difficulty": 4,
+            "updatedAt": 1791828383744
+        },
+        "architecture-qcm-europe-20261011-04": {
+            "questionId": "architecture-qcm-europe-20261011-04",
+            "category": "Architecture — Monuments d’Europe — QCM",
+            "prompt": "Quelle rivière la galerie du château de Chenonceau enjambe-t-elle ?",
+            "difficulty": 4,
+            "updatedAt": 1791828386221
+        },
+        "architecture-qcm-europe-20261011-05": {
+            "questionId": "architecture-qcm-europe-20261011-05",
+            "category": "Architecture — Monuments d’Europe — QCM",
+            "prompt": "Dans quelle ville espagnole est ce site ?",
+            "difficulty": 4,
+            "updatedAt": 1791828389301
+        },
+        "architecture-qcm-europe-20261011-06": {
+            "questionId": "architecture-qcm-europe-20261011-06",
+            "category": "Architecture — Monuments d’Europe — QCM",
+            "prompt": "La cathédrale de Chartres est un chef-d’œuvre de quel style architectural ?",
+            "difficulty": 2,
+            "updatedAt": 1791828393469
+        },
+        "architecture-qsj-palais-20261011-01": {
+            "questionId": "architecture-qsj-palais-20261011-01",
+            "category": "Architecture — Palais et lieux d’exception — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nÀ l’origine, je suis un pavillon de chasse de Louis XIII.\nMes jardins sont étroitement associés au travail d’André Le Nôtre.\nMa galerie des Glaces est l’une de mes salles les plus célèbres.\nJe suis le palais près de Paris où Louis XIV installe sa cour.",
+            "difficulty": 3,
+            "updatedAt": 1791828455781
+        },
+        "architecture-qsj-palais-20261011-02": {
+            "questionId": "architecture-qsj-palais-20261011-02",
+            "category": "Architecture — Palais et lieux d’exception — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nFrançois Ier lance mon chantier en 1519.\nMa silhouette de la Renaissance rassemble tours, cheminées et terrasses.\nMon escalier à double révolution permet d’emprunter deux parcours distincts.\nJe suis le célèbre château de François Ier, près de Blois.",
+            "difficulty": 4,
+            "updatedAt": 1791828464122
+        },
+        "architecture-qsj-palais-20261011-03": {
+            "questionId": "architecture-qsj-palais-20261011-03",
+            "category": "Architecture — Palais et lieux d’exception — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nMes palais conservent un remarquable héritage de la dynastie nasride.\nMes décors associent calligraphie, motifs géométriques et stucs sculptés.\nMa cour des Lions comporte une célèbre fontaine portée par douze lions.\nJe suis l’ensemble palatial fortifié qui domine Grenade, en Espagne.",
+            "difficulty": 3,
+            "updatedAt": 1791828474066
+        },
+        "architecture-buzzer-europe-20261011-01": {
+            "questionId": "architecture-buzzer-europe-20261011-01",
+            "category": "Architecture — Reconnaissance — Europe — Buzzer",
+            "prompt": "Quel monument voyez-vous ?",
+            "difficulty": 2,
+            "updatedAt": 1791828496415
+        },
+        "architecture-buzzer-europe-20261011-02": {
+            "questionId": "architecture-buzzer-europe-20261011-02",
+            "category": "Architecture — Reconnaissance — Europe — Buzzer",
+            "prompt": "Quel site français est célèbre pour son abbaye perchée sur un îlot rocheux au milieu d’une baie ?",
+            "difficulty": 2,
+            "updatedAt": 1791828500820
+        },
+        "architecture-buzzer-europe-20261011-03": {
+            "questionId": "architecture-buzzer-europe-20261011-03",
+            "category": "Architecture — Reconnaissance — Europe — Buzzer",
+            "prompt": "Quel nom courant désigne cette célèbre tour de l’horloge londonienne ?",
+            "difficulty": 2,
+            "updatedAt": 1791828504188
+        },
+        "architecture-buzzer-europe-20261011-04": {
+            "questionId": "architecture-buzzer-europe-20261011-04",
+            "category": "Architecture — Reconnaissance — Europe — Buzzer",
+            "prompt": "Quel roi, surnommé le Roi-Soleil, a fait de Versailles le siège de sa cour ?",
+            "difficulty": 2,
+            "updatedAt": 1791828510472
+        },
+        "architecture-buzzer-europe-20261011-05": {
+            "questionId": "architecture-buzzer-europe-20261011-05",
+            "category": "Architecture — Reconnaissance — Europe — Buzzer",
+            "prompt": "Quel monument parisien voyez-vous ?",
+            "difficulty": 2,
+            "updatedAt": 1791828513420
+        },
+        "architecture-buzzer-europe-20261011-06": {
+            "questionId": "architecture-buzzer-europe-20261011-06",
+            "category": "Architecture — Reconnaissance — Europe — Buzzer",
+            "prompt": "Dans quelle ville espagnole se trouve la Sagrada Família ?",
+            "difficulty": 3,
+            "updatedAt": 1791828519386
+        },
+        "architecture-buzzer-moderne-20261011-01": {
+            "questionId": "architecture-buzzer-moderne-20261011-01",
+            "category": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+            "prompt": "Quel est le nom de ce gratte-ciel de Dubaï ?",
+            "difficulty": 4,
+            "updatedAt": 1791828527523
+        },
+        "architecture-buzzer-moderne-20261011-02": {
+            "questionId": "architecture-buzzer-moderne-20261011-02",
+            "category": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+            "prompt": "Dans quelle ville se trouve le palais de Buckingham ?",
+            "difficulty": 3,
+            "updatedAt": 1791828531964
+        },
+        "architecture-buzzer-moderne-20261011-03": {
+            "questionId": "architecture-buzzer-moderne-20261011-03",
+            "category": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+            "prompt": "Quelle ville américaine se trouve à l’extrémité sud de ce pont ?",
+            "difficulty": 3,
+            "updatedAt": 1791828535440
+        },
+        "architecture-buzzer-moderne-20261011-04": {
+            "questionId": "architecture-buzzer-moderne-20261011-04",
+            "category": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+            "prompt": "Dans quelle cité-État se trouve Marina Bay Sands, avec ses trois tours reliées par une terrasse ?",
+            "difficulty": 4,
+            "updatedAt": 1791828540777
+        },
+        "architecture-buzzer-moderne-20261011-05": {
+            "questionId": "architecture-buzzer-moderne-20261011-05",
+            "category": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+            "prompt": "Quel ensemble résidentiel montréalais, construit pour l’Expo 67, voyez-vous ?",
+            "difficulty": 3,
+            "updatedAt": 1791828544073
+        },
+        "architecture-buzzer-moderne-20261011-06": {
+            "questionId": "architecture-buzzer-moderne-20261011-06",
+            "category": "Architecture — Reconnaissance — Icônes modernes — Buzzer",
+            "prompt": "À quel style architectural associe-t-on le Chrysler Building de New York ?",
+            "difficulty": 4,
+            "updatedAt": 1791828547488
+        },
+        "architecture-buzzer-monde-20261011-01": {
+            "questionId": "architecture-buzzer-monde-20261011-01",
+            "category": "Architecture — Reconnaissance — Sites historiques — Buzzer",
+            "prompt": "Dans quel pays se trouve le site photographié, Machu Picchu ?",
+            "difficulty": 3,
+            "updatedAt": 1791828550961
+        },
+        "architecture-buzzer-monde-20261011-02": {
+            "questionId": "architecture-buzzer-monde-20261011-02",
+            "category": "Architecture — Reconnaissance — Sites historiques — Buzzer",
+            "prompt": "Dans quel pays se trouve la grande pyramide de Khéops ?",
+            "difficulty": 2,
+            "updatedAt": 1791828554900
+        },
+        "architecture-buzzer-monde-20261011-03": {
+            "questionId": "architecture-buzzer-monde-20261011-03",
+            "category": "Architecture — Reconnaissance — Sites historiques — Buzzer",
+            "prompt": "Dans quel pays se trouve cette célèbre muraille ?",
+            "difficulty": 2,
+            "updatedAt": 1791828558349
+        },
+        "architecture-buzzer-monde-20261011-04": {
+            "questionId": "architecture-buzzer-monde-20261011-04",
+            "category": "Architecture — Reconnaissance — Sites historiques — Buzzer",
+            "prompt": "Quel pays a offert la statue de la Liberté aux États-Unis ?",
+            "difficulty": 3,
+            "updatedAt": 1791828561673
+        },
+        "architecture-buzzer-monde-20261011-05": {
+            "questionId": "architecture-buzzer-monde-20261011-05",
+            "category": "Architecture — Reconnaissance — Sites historiques — Buzzer",
+            "prompt": "Sur quelle île se trouvent ces statues appelées moaï ?",
+            "difficulty": 3,
+            "updatedAt": 1791828564911
+        },
+        "architecture-buzzer-monde-20261011-06": {
+            "questionId": "architecture-buzzer-monde-20261011-06",
+            "category": "Architecture — Reconnaissance — Sites historiques — Buzzer",
+            "prompt": "Quelle ville grecque est dominée par l’Acropole et le Parthénon ?",
+            "difficulty": 3,
+            "updatedAt": 1791828569335
+        },
+        "architecture-qsj-civilisations-20261011-01": {
+            "questionId": "architecture-qsj-civilisations-20261011-01",
+            "category": "Architecture — Merveilles historiques — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nUn système de canalisations et de citernes permettait d’utiliser l’eau dans mon environnement aride.\nJe fus un important centre caravanier des Nabatéens.\nLe défilé du Siq conduit à ma façade appelée le Trésor.\nJe suis la célèbre cité aux façades taillées dans la roche rose, en Jordanie.",
+            "difficulty": 4,
+            "updatedAt": 1791828275526
+        },
+        "architecture-qsj-civilisations-20261011-02": {
+            "questionId": "architecture-qsj-civilisations-20261011-02",
+            "category": "Architecture — Palais et lieux d’exception — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nJe suis un mausolée moghol élevé au XVIIe siècle.\nMon ensemble associe un jardin symétrique, du marbre blanc et des incrustations de pierres.\nShah Jahan me fait construire en mémoire de Mumtaz Mahal.\nJe suis le célèbre monument de marbre blanc situé à Agra, en Inde.",
+            "difficulty": 4,
+            "updatedAt": 1791828484146
+        },
+        "architecture-qsj-civilisations-20261011-03": {
+            "questionId": "architecture-qsj-civilisations-20261011-03",
+            "category": "Architecture — Merveilles historiques — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nJe suis construit au XIIe siècle sous le roi Suryavarman II.\nÀ l’origine consacré à Vishnou, je deviens ensuite un lieu de culte bouddhiste.\nMes tours figurent sur le drapeau national du pays où je me trouve.\nJe suis le célèbre temple khmer près de Siem Reap, au Cambodge.",
+            "difficulty": 4,
+            "updatedAt": 1791828283818
+        },
+        "architecture-qsj-sacre-20261011-01": {
+            "questionId": "architecture-qsj-sacre-20261011-01",
+            "category": "Architecture — Monuments emblématiques — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nMes arcs-boutants soutiennent un édifice gothique commencé au XIIe siècle.\nTrois grandes roses de vitraux font partie de mes trésors.\nVictor Hugo m’a rendue célèbre dans un roman peuplé de Quasimodo et d’Esmeralda.\nJe suis la grande cathédrale de l’île de la Cité, à Paris.",
+            "difficulty": 3,
+            "updatedAt": 1791828438547
+        },
+        "architecture-qsj-sacre-20261011-02": {
+            "questionId": "architecture-qsj-sacre-20261011-02",
+            "category": "Architecture — Palais et lieux d’exception — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nL’empereur Justinien me fait reconstruire au VIe siècle.\nMa vaste coupole est un symbole de l’architecture byzantine.\nAu fil de mon histoire, j’ai servi d’église, de mosquée et de musée.\nMon nom signifie « Sagesse divine » ; je me trouve à Istanbul.",
+            "difficulty": 4,
+            "updatedAt": 1791828492349
+        },
+        "architecture-qsj-sacre-20261011-03": {
+            "questionId": "architecture-qsj-sacre-20261011-03",
+            "category": "Architecture — Monuments emblématiques — Qui suis-je ?",
+            "prompt": "Qui suis-je ?\nMon chantier débute en 1882 ; Antoni Gaudí en reprend la direction l’année suivante.\nMes colonnes ramifiées évoquent une forêt de pierre.\nMes façades racontent notamment la Nativité et la Passion du Christ.\nJe suis la basilique emblématique de Gaudí, à Barcelone.",
+            "difficulty": 3,
+            "updatedAt": 1791828446938
+        },
+        "lib-qcm-jazz-blues-20261012-04": {
+            "questionId": "lib-qcm-jazz-blues-20261012-04",
+            "category": "Jazz, blues et soul — Repères — QCM",
+            "prompt": "Quel instrument est représenté ici ?",
+            "comment": "image shows 8 wind instruments",
+            "difficulty": 0,
+            "updatedAt": 1791861846772
+        },
+        "charades-nun-ace": {
+            "questionId": "charades-nun-ace",
+            "category": "Logique et énigmes — Charades — Buzzer",
+            "prompt": "Mon premier est la carte la plus forte. Mon deuxième est « en ». Mon troisième est une fille ayant les mêmes parents que moi. Mon tout monte et descend dans un immeuble.",
+            "comment": "too easy. révolution de la terre+mêmes parents is enough+just goes up and down",
+            "difficulty": 0,
+            "updatedAt": 1791907939976
+        },
+        "arts-qcm-peintures-classiques-20261011-01": {
+            "questionId": "arts-qcm-peintures-classiques-20261011-01",
+            "category": "Arts — Peintures classiques — QCM",
+            "prompt": "Qui a peint ce portrait ?",
+            "comment": "image missing",
+            "difficulty": 0,
+            "updatedAt": 1791982926473
+        },
+        "arts-qcm-peintures-classiques-20261011-03": {
+            "questionId": "arts-qcm-peintures-classiques-20261011-03",
+            "category": "Arts — Peintures classiques — QCM",
+            "prompt": "Quel est le titre de cette œuvre de Botticelli ?",
+            "comment": "image missing",
+            "difficulty": 0,
+            "updatedAt": 1791982967615
+        }
+    },
+    "usage": {
+        "histoire-mondiale-xixe-empires-et-industrie-20261010": {
+            "plays": 1,
+            "lastPlayed": 1791811021642
+        },
+        "culture-qsj-mythologie-romaine-fondations-20261010": {
+            "plays": 1,
+            "lastPlayed": 1791811148656
+        },
+        "lib-qcm-devinettes-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791817308022
+        },
+        "lib-qsj-table-ronde-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791817420927
+        },
+        "lib-buzzer-classique-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791817574569
+        },
+        "lib-chronologie-bd-premieres-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791817687972
+        },
+        "lib-qsj-mythologie-romaine-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791817887982
+        },
+        "lib-qcm-marvel-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791818283858
+        },
+        "lib-qsj-histoire-mondiale-generale-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791818444040
+        },
+        "lib-qcm-cuisine-celebre-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791818584995
+        },
+        "lib-buzzer-insectes-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791818653128
+        },
+        "lib-qsj-contes-francais-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791818726098
+        },
+        "cinema-buzzer-titres-heros-20261011": {
+            "plays": 1,
+            "lastPlayed": 1791831792885
+        },
+        "histoire-chronologie-rome-antique-20261010": {
+            "plays": 1,
+            "lastPlayed": 1791832900393
+        },
+        "canada-geo-buzzer-sites-20261011": {
+            "plays": 1,
+            "lastPlayed": 1791833047857
+        },
+        "lib-qsj-cuisine-saveurs-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791833129388
+        },
+        "lib-qcm-pop-rock-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791833181322
+        },
+        "lib-buzzer-marvel-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791833366480
+        },
+        "arts-chronologie-peintures-dans-le-temps-20261011": {
+            "plays": 1,
+            "lastPlayed": 1791833377379
+        },
+        "lib-qcm-musique-quebec-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791834198566
+        },
+        "arts-buzzer-marbre-bronze-20261011": {
+            "plays": 1,
+            "lastPlayed": 1791834253528
+        },
+        "lib-chronologie-superheros-premieres-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791834264179
+        },
+        "culture-qsj-rome-monuments-et-crises-20261010": {
+            "plays": 1,
+            "lastPlayed": 1791834319286
+        },
+        "original-world-geography": {
+            "plays": 1,
+            "lastPlayed": 1791834329157
+        },
+        "architecture-buzzer-europe-20261011": {
+            "plays": 1,
+            "lastPlayed": 1791834336602
+        },
+        "lib-buzzer-jeux-video-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791844620123
+        },
+        "cinema-chronologie-sagas-20261011": {
+            "plays": 1,
+            "lastPlayed": 1791844700995
+        },
+        "arts-qcm-couleurs-mouvements-20261011": {
+            "plays": 1,
+            "lastPlayed": 1791844928837
+        },
+        "lib-qsj-manga-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791845063347
+        },
+        "lib-buzzer-histoire-mondiale-generale-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791845209658
+        },
+        "lib-qcm-contes-francais-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791846159827
+        },
+        "lib-buzzer-cuisine-celebre-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791846257883
+        },
+        "culture-qsj-litterature-francaise-oeuvres-20261010": {
+            "plays": 1,
+            "lastPlayed": 1791846333590
+        },
+        "lib-chronologie-odyssee-episodes-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791846674642
+        },
+        "geographie-amerique-du-sud-20261010": {
+            "plays": 1,
+            "lastPlayed": 1791846880754
+        },
+        "lib-qcm-ghibli-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791847176277
+        },
+        "lib-qsj-jeux-video-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791847275401
+        },
+        "lib-buzzer-science-generale-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791847354350
+        },
+        "cinema-chronologie-reperes-20261011": {
+            "plays": 1,
+            "lastPlayed": 1791847414918
+        },
+        "original-video-game-maps": {
+            "plays": 1,
+            "lastPlayed": 1791847646191
+        },
+        "lib-qsj-inventions-canada-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791847723452
+        },
+        "lib-buzzer-pop-rock-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791859725279
+        },
+        "lib-qsj-marvel-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791859807014
+        },
+        "arts-buzzer-regards-scenes-20261011": {
+            "plays": 1,
+            "lastPlayed": 1791860938286
+        },
+        "lib-qsj-insectes-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791861012254
+        },
+        "lib-qcm-jazz-blues-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791861766479
+        },
+        "cinema-buzzer-france-quebec-20261011": {
+            "plays": 1,
+            "lastPlayed": 1791861865661
+        },
+        "arts-chronologie-sculptures-reperes-20261011": {
+            "plays": 1,
+            "lastPlayed": 1791862038497
+        },
+        "lib-buzzer-explorateurs-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791862159013
+        },
+        "culture-qsj-mythologie-romaine-divinites-20261010": {
+            "plays": 1,
+            "lastPlayed": 1791862295150
+        },
+        "lib-qcm-table-ronde-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791862316649
+        },
+        "charades": {
+            "plays": 1,
+            "lastPlayed": 1791907600177
+        },
+        "lib-chronologie-romans-publications-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791908067617
+        },
+        "lib-buzzer-histoire-france-generale-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791908134907
+        },
+        "lib-qsj-ghibli-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791908466092
+        },
+        "lib-qcm-animaux-marins-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791908496084
+        },
+        "canada-buzzer-symboles-20261011": {
+            "plays": 1,
+            "lastPlayed": 1791908533167
+        },
+        "lib-qcm-litterature-quebec-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791950587199
+        },
+        "arts-qsj-sculptures-mysteres-20261011": {
+            "plays": 1,
+            "lastPlayed": 1791950653501
+        },
+        "histoire-france-renaissance-chronologie-20261010": {
+            "plays": 1,
+            "lastPlayed": 1791950727018
+        },
+        "lib-buzzer-geographie-monde-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791950738860
+        },
+        "original-science-tech": {
+            "plays": 1,
+            "lastPlayed": 1791950777905
+        },
+        "arts-qcm-peintures-classiques-20261011": {
+            "plays": 1,
+            "lastPlayed": 1791982887042
+        },
+        "lib-buzzer-table-ronde-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791983030537
+        },
+        "histoire-etats-unis-chronologie-20261010": {
+            "plays": 1,
+            "lastPlayed": 1791983180138
+        },
+        "lib-qsj-classique-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791983244188
+        },
+        "lib-buzzer-geographie-villes-20261012": {
+            "plays": 1,
+            "lastPlayed": 1791983309334
+        },
+        "test-qcm-20261012": {
+            "plays": 2,
+            "lastPlayed": 1792025258229
+        },
+        "test-rapidite-20261012": {
+            "plays": 2,
+            "lastPlayed": 1792025489876
+        },
+        "test-indices-20261012": {
+            "plays": 1,
+            "lastPlayed": 1792022551787
+        },
+        "test-buzzer-20261012": {
+            "plays": 1,
+            "lastPlayed": 1792025309133
+        },
+        "test-chronologie-20261012": {
+            "plays": 1,
+            "lastPlayed": 1792025412476
+        }
+    },
+    "countedSession": "9353",
+    "countedPackages": [
+        "test-qcm-20261012",
+        "test-buzzer-20261012",
+        "test-chronologie-20261012",
+        "test-rapidite-20261012"
+    ]
+}

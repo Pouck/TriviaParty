@@ -18,3 +18,10 @@ Trivia Party serves its TV display from the host phone over the same local Wi-Fi
 Android 17 requires Trivia Party's **Nearby devices** permission for local network connections. If the TV does not offer a web browser, a computer or tablet on the same network can open the page, or the computer can connect to the TV over HDMI.
 
 Local browser display does not need a Cast Developer Console account, a registered receiver application ID or public website hosting. The page and game-state connection work locally; question images supplied as external URLs still need their original source to be reachable. External-site deployment has not been performed.
+
+
+## Buzzer audition and response time
+
+The player sends an oral buzz on pointer contact, with click retained for keyboard activation. The receiver predecodes `buzzer.wav` while the room is open and uses a low-latency Web Audio buffer when available; HTML audio remains the fallback. Refresh debug player/TV pages after updating the app, or reconnect the Cast session so the receiver reloads.
+
+Ten original sound candidates can be compared at `/tv/buzzer-sampler`; the standalone page and local preview instructions are in [BUZZERS.md](../audio-bank/BUZZERS.md). Auditioning does not change the live buzzer.
