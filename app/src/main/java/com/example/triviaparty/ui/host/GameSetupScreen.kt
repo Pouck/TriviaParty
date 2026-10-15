@@ -280,7 +280,7 @@ fun GameSetupScreen(
             drawError?.let { Text(it,color=Color(0xFFFF8A80)) }
             if(selectionMode in listOf("Aléatoire","Sujets")) Text("Sujets et formats équilibrés · priorité aux moins joués",color=MaterialTheme.colorScheme.onSurfaceVariant,fontSize=13.sp)
             if(selectionMode !in listOf("Manuel","Révision","Vote") && selectedPackages.isNotEmpty()) {
-                FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ showSelection=!showSelection },contentPadding=PaddingValues(0.dp)) {
+                FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ showSelection=!showSelection },modifier=Modifier.fillMaxWidth(),contentPadding=PaddingValues(horizontal=20.dp,vertical=12.dp)) {
                     Text(if(showSelection) "Masquer la sélection ▴" else "Voir les ${selectedPackages.size} forfaits ▾")
                 }
                 if(showSelection) selectedPackages.forEach { pack ->
