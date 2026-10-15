@@ -15,6 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
@@ -80,12 +81,20 @@ fun GameSetupScreen(
     val setupColors = darkColorScheme(primary=accent,onPrimary=Color(0xFF19191F),
         surface=panel,onSurface=Color(0xFFF1F1F5),surfaceVariant=Color(0xFF303040),
         onSurfaceVariant=Color(0xFFBEBECF),background=Color(0xFF12121D),
-        secondaryContainer=Color(0xFF4A4229),onSecondaryContainer=accent)
+        secondaryContainer=Color(0xFF46566C),onSecondaryContainer=Color.White)
+    val modeColors=FilterChipDefaults.filterChipColors(
+        containerColor=Color(0xFF355C9E),labelColor=Color.White,
+        selectedContainerColor=Color(0xFF9DC6FF),selectedLabelColor=Color(0xFF102847),
+        disabledContainerColor=Color(0xFF46556B),disabledLabelColor=Color(0xFFD3DAE6))
+    val subjectColors=FilterChipDefaults.filterChipColors(
+        containerColor=Color(0xFF704D91),labelColor=Color.White,
+        selectedContainerColor=Color(0xFFD6B4F5),selectedLabelColor=Color(0xFF341849),
+        disabledContainerColor=Color(0xFF64546F),disabledLabelColor=Color(0xFFE3D7EB))
     if(showReviews) ReviewListDialog(reviewStore) { showReviews=false }
     if(resetStats) AlertDialog(onDismissRequest={ resetStats=false },title={ Text("Réinitialiser l’utilisation ?") },
         text={ Text("Les compteurs de parties et les dernières utilisations seront effacés. Les commentaires sont conservés.") },
-        confirmButton={ TextButton(onClick={ reviewStore.resetUsage(); usage=emptyMap(); resetStats=false }) { Text("Réinitialiser") } },
-        dismissButton={ TextButton(onClick={ resetStats=false }) { Text("Annuler") } })
+        confirmButton={ FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ reviewStore.resetUsage(); usage=emptyMap(); resetStats=false }) { Text("Réinitialiser") } },
+        dismissButton={ FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ resetStats=false }) { Text("Annuler") } })
     fun eligiblePackages() = GamePackageRepository.packages.filter { pack ->
         !pack.isTestPackage() && GamePackageRepository.categoryNamesFor(pack).any { QuestionBankRepository.getQuestionsForCategory(it).isNotEmpty() }
     }
@@ -166,7 +175,7 @@ fun GameSetupScreen(
             onDismissRequest = { packageToRemove = null },
             title = { Text("Supprimer ce forfait ?") },
             text = { Text(pack.name) },
-            confirmButton = { TextButton(onClick = {
+            confirmButton = { FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick = {
                 packageToRemove = null
                 scope.launch {
                     val result = runCatching {
@@ -182,7 +191,7 @@ fun GameSetupScreen(
                     importMessage = result.fold({ "Forfait supprimé." }, { it.message ?: "Suppression impossible." })
                 }
             }) { Text("Supprimer") } },
-            dismissButton = { TextButton(onClick = { packageToRemove = null }) { Text("Annuler") } }
+            dismissButton = { FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick = { packageToRemove = null }) { Text("Annuler") } }
         )
     }
 
@@ -192,10 +201,10 @@ fun GameSetupScreen(
             if(selectionMode!="Sujets") OutlinedTextField(value=draftCount,onValueChange={ draftCount=it.filter(Char::isDigit).take(2) },label={ Text("Nombre de catégories") },singleLine=true)
             OutlinedTextField(value=draftSets,onValueChange={ draftSets=it.filter(Char::isDigit).take(2) },label={ Text("Forfaits par catégorie") },singleLine=true)
         } },
-        confirmButton={ TextButton(enabled=(selectionMode=="Sujets" || (draftCount.toIntOrNull() ?: 0) in 1..50) && (draftSets.toIntOrNull() ?: 0) in 1..50,onClick={
+        confirmButton={ FilledTonalButton(shape=RoundedCornerShape(10.dp),enabled=(selectionMode=="Sujets" || (draftCount.toIntOrNull() ?: 0) in 1..50) && (draftSets.toIntOrNull() ?: 0) in 1..50,onClick={
             if(selectionMode=="Vote") voteCount=draftCount else if(selectionMode=="Aléatoire") randomCount=draftCount
             setsPerSubject=draftSets;selectedIds.clear();editCounts=false
-        }) { Text("Appliquer") } },dismissButton={ TextButton(onClick={ editCounts=false }) { Text("Annuler") } })
+        }) { Text("Appliquer") } },dismissButton={ FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ editCounts=false }) { Text("Annuler") } })
     Column(
         modifier = modifier.fillMaxSize().background(Color(0xFF12121D)).padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
@@ -204,7 +213,7 @@ fun GameSetupScreen(
         Row(Modifier.fillMaxWidth(),verticalAlignment=Alignment.CenterVertically,horizontalArrangement=Arrangement.SpaceBetween) {
             Text("Nouvelle partie", fontSize=26.sp,fontWeight=FontWeight.Bold,color=Color.White)
             Box {
-                TextButton(onClick={ toolsOpen=true }) { Text("Outils ⋮") }
+                FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ toolsOpen=true }) { Text("Outils ⋮") }
                 DropdownMenu(expanded=toolsOpen,onDismissRequest={ toolsOpen=false }) {
                     DropdownMenuItem(text={ Text("Importer un forfait") },onClick={
                         toolsOpen=false; packageToUpdate=null
@@ -219,7 +228,7 @@ fun GameSetupScreen(
         }
         FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp),verticalArrangement=Arrangement.spacedBy(0.dp)) {
             listOf("Aléatoire" to "Tirage", "Sujets" to "Sujets", "Vote" to "Vote", "Tout" to "Tout", "Manuel" to "Manuel", "Révision" to "Révision", "Tests" to "Tests").forEach { (mode,label) ->
-                FilterChip(selected=selectionMode==mode,enabled=!drawing,onClick={
+                FilterChip(colors=modeColors,selected=selectionMode==mode,enabled=!drawing,onClick={
                     showSelection=false;drawError=null
                     if(selectionMode!=mode) {
                         selectionMode=mode;selectedIds.clear()
@@ -228,7 +237,7 @@ fun GameSetupScreen(
                             pack.isTestPackage() && GamePackageRepository.categoryNamesFor(pack).any { QuestionBankRepository.getQuestionsForCategory(it).isNotEmpty() }
                         }.map { it.id })
                     }
-                },label={ Text(label,fontSize=15.sp) })
+                },label={ Text(label,fontSize=15.sp,textAlign=TextAlign.Center,modifier=Modifier.widthIn(min=72.dp)) })
             }
         }
         importMessage?.let { message ->
@@ -247,17 +256,17 @@ fun GameSetupScreen(
                     val count=when(selectionMode) { "Vote" -> voteCount; "Sujets" -> selectedSubjects.size.toString(); else -> randomCount }
                     Text("$count × $voteSets",fontSize=23.sp,fontWeight=FontWeight.Bold,color=Color.White)
                     Text("  catégories × forfaits",modifier=Modifier.weight(1f),fontSize=13.sp,color=MaterialTheme.colorScheme.onSurfaceVariant)
-                    TextButton(enabled=!drawing,onClick={ draftCount=if(selectionMode=="Vote") voteCount else randomCount;draftSets=setsPerSubject;editCounts=true }) { Text("Modifier") }
+                    FilledTonalButton(shape=RoundedCornerShape(10.dp),enabled=!drawing,onClick={ draftCount=if(selectionMode=="Vote") voteCount else randomCount;draftSets=setsPerSubject;editCounts=true }) { Text("Modifier") }
                 }
             }
             if(selectionMode=="Sujets") {
                 Text("Choisissez les sujets. Les formats sont mélangés.",color=MaterialTheme.colorScheme.onSurfaceVariant)
                 FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp),verticalArrangement=Arrangement.spacedBy(0.dp)) {
                 eligiblePackages().map { it.browseGroup() }.distinct().sorted().forEach { subject ->
-                    FilterChip(selected=subject in selectedSubjects,enabled=!drawing,onClick={
+                    FilterChip(colors=subjectColors,selected=subject in selectedSubjects,enabled=!drawing,onClick={
                         if(subject in selectedSubjects) selectedSubjects.remove(subject) else selectedSubjects.add(subject)
                         selectedIds.clear()
-                    },label={ Text(subject) })
+                    },label={ Text(subject,textAlign=TextAlign.Center,modifier=Modifier.widthIn(min=96.dp)) })
                 }
                 }
             }
@@ -271,11 +280,11 @@ fun GameSetupScreen(
             drawError?.let { Text(it,color=Color(0xFFFF8A80)) }
             if(selectionMode in listOf("Aléatoire","Sujets")) Text("Sujets et formats équilibrés · priorité aux moins joués",color=MaterialTheme.colorScheme.onSurfaceVariant,fontSize=13.sp)
             if(selectionMode !in listOf("Manuel","Révision","Vote") && selectedPackages.isNotEmpty()) {
-                TextButton(onClick={ showSelection=!showSelection },contentPadding=PaddingValues(0.dp)) {
+                FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ showSelection=!showSelection },contentPadding=PaddingValues(0.dp)) {
                     Text(if(showSelection) "Masquer la sélection ▴" else "Voir les ${selectedPackages.size} forfaits ▾")
                 }
                 if(showSelection) selectedPackages.forEach { pack ->
-                    Surface(color=panel,shape=RoundedCornerShape(10.dp),modifier=Modifier.fillMaxWidth()) {
+                    Surface(color=Color(0xFF285660),shape=RoundedCornerShape(10.dp),modifier=Modifier.fillMaxWidth()) {
                         Text(pack.name,modifier=Modifier.padding(12.dp),color=Color.White,fontSize=15.sp)
                     }
                 }
@@ -285,7 +294,7 @@ fun GameSetupScreen(
                 label={ Text("Rechercher un forfait") },modifier=Modifier.fillMaxWidth())
             FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp)) {
                 (listOf("Tous")+GamePackageRepository.packages.map { it.browseGroup() }.distinct().sorted()).forEach { subject ->
-                    FilterChip(selected=manualSubject==subject,onClick={ manualSubject=subject },label={ Text(subject) })
+                    FilterChip(colors=subjectColors,selected=manualSubject==subject,onClick={ manualSubject=subject },label={ Text(subject,textAlign=TextAlign.Center,modifier=Modifier.widthIn(min=96.dp)) })
                 }
             }
             GamePackageRepository.packages.filter {
@@ -293,11 +302,11 @@ fun GameSetupScreen(
             }.groupBy { it.browseGroup() }.toSortedMap().forEach { (group,packs) ->
                 val selectable=packs.filter { pack -> GamePackageRepository.categoryNamesFor(pack).any { QuestionBankRepository.getQuestionsForCategory(it).isNotEmpty() } }
                 val allSelected=selectable.isNotEmpty() && selectable.all { it.id in selectedIds }
-                Row(verticalAlignment=Alignment.CenterVertically,modifier=Modifier.fillMaxWidth()) {
-                    TextButton(onClick={ if(group in expandedGroups) expandedGroups.remove(group) else expandedGroups.add(group) },modifier=Modifier.weight(1f),contentPadding=PaddingValues(horizontal=0.dp,vertical=2.dp)) {
-                        Text("${if(group in expandedGroups || search.isNotBlank() || manualSubject!="Tous") "▾" else "▸"} $group · ${packs.size}",color=accent,modifier=Modifier.fillMaxWidth(),fontWeight=FontWeight.Bold)
+                Row(verticalAlignment=Alignment.CenterVertically,horizontalArrangement=Arrangement.spacedBy(8.dp),modifier=Modifier.fillMaxWidth()) {
+                    FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ if(group in expandedGroups) expandedGroups.remove(group) else expandedGroups.add(group) },modifier=Modifier.weight(1f),contentPadding=PaddingValues(horizontal=0.dp,vertical=2.dp)) {
+                        Text("${if(group in expandedGroups || search.isNotBlank() || manualSubject!="Tous") "▾" else "▸"} $group · ${packs.size}",color=Color.White,modifier=Modifier.fillMaxWidth(),textAlign=TextAlign.Center,fontWeight=FontWeight.Bold)
                     }
-                    TextButton(enabled=selectable.isNotEmpty(),onClick={
+                    FilledTonalButton(shape=RoundedCornerShape(10.dp),modifier=Modifier.widthIn(min=130.dp),enabled=selectable.isNotEmpty(),onClick={
                         if(allSelected) selectedIds.removeAll(selectable.map { it.id }.toSet())
                         else selectable.forEach { if(it.id !in selectedIds) selectedIds.add(it.id) }
                     }) { Text(if(allSelected) "Tout retirer" else "Tout sélectionner",fontSize=12.sp) }
@@ -308,10 +317,10 @@ fun GameSetupScreen(
                 Card(
                     onClick = { togglePackage(gamePackage.id) },
                     enabled = categories.isNotEmpty() && count > 0,
-                    border = if (gamePackage.id in selectedIds) BorderStroke(1.dp, accent) else null,
+                    border = if (gamePackage.id in selectedIds) BorderStroke(2.dp, Color(0xFFA3F4D9)) else null,
                     modifier = Modifier.fillMaxWidth(),
                     shape = RoundedCornerShape(8.dp),
-                    colors = CardDefaults.cardColors(containerColor = panel)
+                    colors = CardDefaults.cardColors(containerColor = if(gamePackage.id in selectedIds) Color(0xFF367E77) else Color(0xFF285660))
                 ) {
                     Column(
                         modifier = Modifier.fillMaxWidth().padding(horizontal = 8.dp),
@@ -346,7 +355,7 @@ fun GameSetupScreen(
                             if (gamePackage.id in importedIds) {
                                 var menuOpen by remember(gamePackage.id) { mutableStateOf(false) }
                                 Box {
-                                    TextButton(onClick = { menuOpen = true }, contentPadding = PaddingValues(0.dp),
+                                    FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick = { menuOpen = true }, contentPadding = PaddingValues(0.dp),
                                         modifier = Modifier.width(48.dp).semantics { contentDescription = "Gérer ${gamePackage.name}" }) {
                                         Text("⋮", color = Color.White, fontSize = 24.sp)
                                     }
