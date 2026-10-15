@@ -287,7 +287,7 @@
         feedbackTimeout = root.setTimeout(function () { feedback.style.display = 'none'; },2200);
         try {
           var file = /^(good|bad)-\d{2}\.(wav|mp3)$/.test(state.answerSoundClip || '') && state.answerSoundClip.indexOf(state.answerSound + '-') === 0 ? state.answerSoundClip : state.answerSound + '.wav';
-          soundPlayer.playSequence([state.answerSound + '-ping.wav',file]);
+          soundPlayer.playSequence(state.answerSoundClip === null ? [state.answerSound + '-ping.wav'] : [state.answerSound + '-ping.wav',file]);
         } catch (_) {}
       }
       lastSoundId = state.answerSoundId || 0;

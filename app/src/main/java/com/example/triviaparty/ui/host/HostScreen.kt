@@ -56,6 +56,7 @@ fun HostScreen(
     answerTimeSeconds: Int = 10,
     categoryRules: Map<String, CategoryGameRules> = emptyMap(),
     voteSettings: com.example.triviaparty.model.VoteSettings? = null,
+    allAudiencesOnly: Boolean = false,
     startNewGame: Boolean = true,
     onGameStarted: () -> Unit = {},
     onBackToMain: () -> Unit
@@ -94,7 +95,7 @@ fun HostScreen(
             delay(300)
             client.connect(hostIp = "127.0.0.1") {
                 if (shouldStartNewGame) {
-                    client.sendEvent(GameEvent.HostStartGame(selectedCategories, totalRounds, timingConfig, answerTimeSeconds, categoryRules,voteSettings))
+                    client.sendEvent(GameEvent.HostStartGame(selectedCategories, totalRounds, timingConfig, answerTimeSeconds, categoryRules,voteSettings,allAudiencesOnly))
                 }
             }
         }

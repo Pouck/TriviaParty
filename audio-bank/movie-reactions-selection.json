@@ -11,7 +11,10 @@
     "downloadUrl": "https://storage.googleapis.com/bleeps-a06a1.appspot.com/bleeps_sounds/LeDinerDeCons_UneBelleTeteDeVainqueur.opus",
     "sourceType": "original_film_dialogue",
     "sourceDurationSeconds": 1.93,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -25,7 +28,10 @@
     "file": "good-71.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 4.631,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -40,7 +46,10 @@
     "file": "good-72.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 0.851,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "mature",
+    "audienceTags": "grossièreté",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -55,7 +64,10 @@
     "file": "good-73.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 0.753,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -70,7 +82,10 @@
     "file": "good-74.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 2.778,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -86,7 +101,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDescription": "« Oh, j'ai une pêche ! J'ai une pêche, les gars ! Wouuuh ! » La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 2.558,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -101,7 +119,10 @@
     "file": "good-76.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 3.319,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -116,7 +137,10 @@
     "file": "good-77.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 2.316,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -132,7 +156,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDescription": "« Tu sais que tu me sidères Jean-Claude Ça fait deux jours que t'es là et t'es déjà sur un coup » La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 3.766,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "mature",
+    "audienceTags": "allusion à la séduction",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -147,7 +174,10 @@
     "file": "good-79.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 2.606,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -163,7 +193,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDescription": "« Hein ? Il est pas beau, celui-là ? Il a l'air assez exceptionnel, oui. » La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 2.705,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -178,7 +211,10 @@
     "file": "good-81.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 2.688,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -192,7 +228,10 @@
     "file": "good-82.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 2.372,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -207,7 +246,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 18.437,
     "trimEndSeconds": 3.6,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -221,7 +263,10 @@
     "file": "good-84.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 1.417,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -235,7 +280,10 @@
     "file": "good-85.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 4.982,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -249,7 +297,10 @@
     "file": "good-86.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 0.523,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -263,7 +314,10 @@
     "file": "good-87.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 5.0,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -278,7 +332,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 18.0,
     "trimEndSeconds": 5.45,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -292,7 +349,10 @@
     "file": "good-89.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 2.204,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -307,7 +367,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDescription": "« Je t'aime ! Je suis fier de ton réussissement ! » Les Visiteurs, voix de Christian Clavier. La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 3.065,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -322,7 +385,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDescription": "« Merci mon bonseigneur Merci Tu es trop bon Ah ah ah ah ah ah » Extrait de Les Visiteurs. La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 5.48,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -337,7 +403,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDescription": "« Quand je suis content, je vomis. Et là, je suis hyper content ! » Extrait de La Cité de la peur. La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 4.624,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -352,7 +421,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDescription": "« On ne sait jamais sur un malentendu ça peut marcher » Les Bronzés font du ski, voix de Michel Blanc. La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 2.029,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "mature",
+    "audienceTags": "allusion à la séduction",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -368,7 +440,10 @@
     "sourceDescription": "« Alain a raison, vous êtes une vraie spécialiste des chiffres. Oui, des chiffres, mais aussi des lettres… » La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 11.207,
     "trimEndSeconds": 3.42,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -383,7 +458,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDescription": "« Il n'est pas très gracieux et accompagnable mais il est futé et renifle bien les pistes » La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 4.168,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -397,7 +475,10 @@
     "file": "good-96.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 6.833,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "mature",
+    "audienceTags": "grossièreté légère",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -411,7 +492,10 @@
     "file": "good-97.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 2.769,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -425,7 +509,10 @@
     "file": "good-98.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 1.855,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "good",
@@ -439,7 +526,10 @@
     "file": "good-99.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 4.2,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -453,7 +543,10 @@
     "file": "bad-70.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 5.63,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "mature",
+    "audienceTags": "grossièreté",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -467,7 +560,10 @@
     "file": "bad-71.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 2.303,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -482,7 +578,10 @@
     "file": "bad-72.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 1.645,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -497,7 +596,10 @@
     "file": "bad-73.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 3.612,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -513,7 +615,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDescription": "« Mais qu'est-ce que vous fabriquez là ? Vous croyez que c'est malin de faire ça ? » Extrait de Kaamelott. La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 3.355,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -528,7 +633,10 @@
     "file": "bad-75.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 1.913,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -543,7 +651,10 @@
     "file": "bad-76.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 3.306,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -558,7 +669,10 @@
     "file": "bad-77.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 5.093,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -573,7 +687,10 @@
     "file": "bad-78.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 3.425,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -588,7 +705,10 @@
     "file": "bad-79.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 6.455,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -603,7 +723,10 @@
     "file": "bad-80.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 1.016,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -618,7 +741,10 @@
     "file": "bad-81.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 2.181,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -633,7 +759,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDescription": "« C'est pitoyable ! Oh la vache, mais c'est nul ! Mais là c'est affligeant, y'a rien ! » La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 5.875,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -649,7 +778,10 @@
     "sourceDescription": "« Visiblement cet homme est épuisé il ne peut plus suivre un raisonnement logique alors nous reprendons cet… » La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 5.512,
     "trimEndSeconds": 3.65,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -665,7 +797,10 @@
     "sourceDescription": "« Assez Assez C'est ignoble Y'a pas de mots pour dire ce que vous êtes Y'a plus de mots » La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 6.949,
     "trimEndSeconds": 6.1,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -680,7 +815,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDescription": "« Vous êtes viré. Vous m'entendez ? Viré. V-I-Y-2-0-T. Viré. » La Stratégie de l'échec, voix de Kad Merad. La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 4.481,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -695,7 +833,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDescription": "« Tu m'aides pas, là ? Non, pas là, non. » Les Bronzés font du ski, voix de Gérard Jugnot. La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 1.502,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -710,7 +851,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDescription": "« Et voilà Deux cinglées de plus dans la nature » Les Visiteurs, voix de Didier Bénureau. La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 2.961,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -726,7 +870,10 @@
     "sourceDescription": "« On peut tromper mille fois une personne, mais on ne peut pas tromper... Si. On peut tromper une fois… » La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 12.251,
     "trimEndSeconds": 8.6,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -740,7 +887,10 @@
     "file": "bad-89.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 6.178,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -754,7 +904,10 @@
     "file": "bad-90.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 3.989,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -768,7 +921,10 @@
     "file": "bad-91.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 5.544,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -782,7 +938,10 @@
     "file": "bad-92.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 1.467,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "mature",
+    "audienceTags": "grossièreté légère",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -797,7 +956,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 26.956,
     "trimEndSeconds": 6.72,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -811,7 +973,10 @@
     "file": "bad-94.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 2.666,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -826,7 +991,10 @@
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDescription": "« Tu mens Tu mens Tu mens Il ment Il ment » Fantômas, voix de Louis De Funès. La Soundboard, les répliques cultes en français.",
     "sourceDurationSeconds": 3.782,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -840,7 +1008,10 @@
     "file": "bad-96.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 2.403,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -854,7 +1025,10 @@
     "file": "bad-97.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 4.65,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -868,7 +1042,10 @@
     "file": "bad-98.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 3.579,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "all",
+    "audienceTags": "",
+    "audienceNote": ""
   },
   {
     "outcome": "bad",
@@ -882,6 +1059,215 @@
     "file": "bad-99.wav",
     "usage": "Private on-device audition; no redistribution permission asserted",
     "sourceDurationSeconds": 4.995,
-    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately."
+    "verification": "Public scene metadata cross-checked with offline speech recognition; short edits checked separately.",
+    "audience": "mature",
+    "audienceTags": "menace / humour noir",
+    "audienceNote": ""
+  },
+  {
+    "file": "good-60.wav",
+    "outcome": "good",
+    "language": "fr",
+    "film": "Les Bronzés font du ski",
+    "voice": "Christian Clavier <i\n                                    class=\"fas fa-external-link-alt\">",
+    "text": "La vache ! Cinq secondes de moins sur le même parcours qu’hier ! Et j’ai pas forcé, hein, je skiais pépère.",
+    "sourceUrl": "https://lasoundboard.fr/s/3c0ce42f-8668-49a9-a029-2f45035d67a5/",
+    "sourceType": "original_film_dialogue",
+    "usage": "Private on-device audition; no redistribution permission asserted",
+    "audience": "all",
+    "downloadUrl": "https://lasoundboard.fr/s/3c0ce42f-8668-49a9-a029-2f45035d67a5/audio/",
+    "sourceDurationSeconds": 4.229,
+    "verification": "Public source caption cross-checked with local speech recognition; trimmed excerpts retain complete phrases.",
+    "audienceTags": "",
+    "audienceNote": ""
+  },
+  {
+    "file": "good-61.wav",
+    "outcome": "good",
+    "language": "fr",
+    "film": "Les Bronzés font du ski",
+    "voice": "Michel Blanc <i\n                                    class=\"fas fa-external-link-alt\">",
+    "text": "Alors, si je peux me permettre de te donner un conseil : oublie que t’as aucune chance. Vas-y, fonce !",
+    "sourceUrl": "https://lasoundboard.fr/s/a4f74360-2590-47b2-9e2a-2aff0d6f3e25/",
+    "sourceType": "original_film_dialogue",
+    "usage": "Private on-device audition; no redistribution permission asserted",
+    "audience": "all",
+    "downloadUrl": "https://lasoundboard.fr/s/a4f74360-2590-47b2-9e2a-2aff0d6f3e25/audio/",
+    "sourceDurationSeconds": 3.903,
+    "verification": "Public source caption cross-checked with local speech recognition; trimmed excerpts retain complete phrases.",
+    "audienceTags": "",
+    "audienceNote": ""
+  },
+  {
+    "file": "good-62.wav",
+    "outcome": "good",
+    "language": "fr",
+    "film": "La Stratégie de l'échec",
+    "voice": "Maurice Barthélemy <i\n                                    class=\"fas fa-external-link-alt\">",
+    "text": "Oh ! Oh là ! Regardez ! Oh là là ! Je suis hypnotisé !",
+    "sourceUrl": "https://lasoundboard.fr/s/da10710e-0c4e-4354-8f3c-92bbabb8a108/",
+    "sourceType": "original_film_dialogue",
+    "usage": "Private on-device audition; no redistribution permission asserted",
+    "audience": "all",
+    "downloadUrl": "https://lasoundboard.fr/s/da10710e-0c4e-4354-8f3c-92bbabb8a108/audio/",
+    "sourceDurationSeconds": 7.999,
+    "verification": "Public source caption cross-checked with local speech recognition; trimmed excerpts retain complete phrases.",
+    "audienceTags": "",
+    "audienceNote": ""
+  },
+  {
+    "file": "good-63.wav",
+    "outcome": "good",
+    "language": "fr",
+    "film": "La Classe américaine",
+    "voice": "La Classe américaine",
+    "text": "Je veux pas dire, mais c’est un mec qui a vraiment plein de qualités. Ouais, moi je me demande quand même s’il est pas un peu con.",
+    "sourceUrl": "https://lasoundboard.fr/s/19237af2-815f-414f-84bd-64b09db35024/",
+    "sourceType": "original_film_dialogue",
+    "usage": "Private on-device audition; no redistribution permission asserted",
+    "audience": "mature",
+    "downloadUrl": "https://lasoundboard.fr/s/19237af2-815f-414f-84bd-64b09db35024/audio/",
+    "sourceDurationSeconds": 7.262,
+    "verification": "Public source caption cross-checked with local speech recognition; trimmed excerpts retain complete phrases.",
+    "audienceTags": "grossièreté",
+    "audienceNote": ""
+  },
+  {
+    "file": "good-64.wav",
+    "outcome": "good",
+    "language": "fr",
+    "film": "Le Dîner de cons",
+    "voice": "Jacques Villeret <i\n                                    class=\"fas fa-external-link-alt\">",
+    "text": "J’ai dû vous paraître stupide au téléphone. Oui. Non, non, non, vous étiez parfait.",
+    "sourceUrl": "https://lasoundboard.fr/s/655f7f4c-bf68-41b2-860e-c891ec15af3d/",
+    "sourceType": "original_film_dialogue",
+    "usage": "Private on-device audition; no redistribution permission asserted",
+    "audience": "all",
+    "downloadUrl": "https://lasoundboard.fr/s/655f7f4c-bf68-41b2-860e-c891ec15af3d/audio/",
+    "sourceDurationSeconds": 4.352,
+    "verification": "Public source caption cross-checked with local speech recognition; trimmed excerpts retain complete phrases.",
+    "audienceTags": "",
+    "audienceNote": ""
+  },
+  {
+    "file": "good-65.wav",
+    "outcome": "good",
+    "language": "fr",
+    "film": "Le Dîner de cons",
+    "voice": "Thierry Lhermitte <i\n                                    class=\"fas fa-external-link-alt\">",
+    "text": "Ça dépasse tout ce que j’ai pu imaginer. On a repoussé les limites, là.",
+    "sourceUrl": "https://lasoundboard.fr/s/bad84a15-8c71-4db8-a30c-df7572033139/",
+    "sourceType": "original_film_dialogue",
+    "usage": "Private on-device audition; no redistribution permission asserted",
+    "audience": "all",
+    "downloadUrl": "https://lasoundboard.fr/s/bad84a15-8c71-4db8-a30c-df7572033139/audio/",
+    "sourceDurationSeconds": 10.427,
+    "verification": "Public source caption cross-checked with local speech recognition; trimmed excerpts retain complete phrases.",
+    "trimEndSeconds": 4.2,
+    "audienceTags": "",
+    "audienceNote": ""
+  },
+  {
+    "file": "bad-60.wav",
+    "outcome": "bad",
+    "language": "fr",
+    "film": "La Cité de la peur",
+    "voice": "La Cité de la peur",
+    "text": "Tu bluffes, Martoni. Il bluffe. Pas sûr.",
+    "sourceUrl": "https://lasoundboard.fr/s/a24d43c5-9b38-4fed-bd6d-a36d4f958b63/",
+    "sourceType": "original_film_dialogue",
+    "usage": "Private on-device audition; no redistribution permission asserted",
+    "audience": "all",
+    "downloadUrl": "https://lasoundboard.fr/s/a24d43c5-9b38-4fed-bd6d-a36d4f958b63/audio/",
+    "sourceDurationSeconds": 15.595,
+    "verification": "Public source caption cross-checked with local speech recognition; trimmed excerpts retain complete phrases.",
+    "trimEndSeconds": 3.7,
+    "audienceTags": "",
+    "audienceNote": ""
+  },
+  {
+    "file": "bad-61.wav",
+    "outcome": "bad",
+    "language": "fr",
+    "film": "Les Bronzés font du ski",
+    "voice": "Thierry Lhermitte <i\n                                    class=\"fas fa-external-link-alt\">",
+    "text": "Bon, ben, ça va pas être possible, hein, à cause de l’argent. Je t’expliquerai.",
+    "sourceUrl": "https://lasoundboard.fr/s/077d91c9-8506-4a29-a713-d13898482441/",
+    "sourceType": "original_film_dialogue",
+    "usage": "Private on-device audition; no redistribution permission asserted",
+    "audience": "all",
+    "downloadUrl": "https://lasoundboard.fr/s/077d91c9-8506-4a29-a713-d13898482441/audio/",
+    "sourceDurationSeconds": 4.848,
+    "verification": "Public source caption cross-checked with local speech recognition; trimmed excerpts retain complete phrases.",
+    "audienceTags": "",
+    "audienceNote": ""
+  },
+  {
+    "file": "bad-62.wav",
+    "outcome": "bad",
+    "language": "fr",
+    "film": "La Classe américaine",
+    "voice": "La Classe américaine",
+    "text": "Rassurez-moi, vous seriez pas un peu en train de me prendre pour un con, des fois ? Si, complètement même.",
+    "sourceUrl": "https://lasoundboard.fr/s/0b40d8bd-8a3f-423f-baa4-fdf63cf41073/",
+    "sourceType": "original_film_dialogue",
+    "usage": "Private on-device audition; no redistribution permission asserted",
+    "audience": "mature",
+    "downloadUrl": "https://lasoundboard.fr/s/0b40d8bd-8a3f-423f-baa4-fdf63cf41073/audio/",
+    "sourceDurationSeconds": 5.016,
+    "verification": "Public source caption cross-checked with local speech recognition; trimmed excerpts retain complete phrases.",
+    "audienceTags": "grossièreté",
+    "audienceNote": ""
+  },
+  {
+    "file": "bad-63.wav",
+    "outcome": "bad",
+    "language": "fr",
+    "film": "Le Dîner de cons",
+    "voice": "Thierry Lhermitte <i\n                                    class=\"fas fa-external-link-alt\">",
+    "text": "C’est un abruti. Y a pas de mal à se moquer des abrutis, ils sont là pour ça, non ?",
+    "sourceUrl": "https://lasoundboard.fr/s/f63b6dba-032d-448e-8789-de3f7995103a/",
+    "sourceType": "original_film_dialogue",
+    "usage": "Private on-device audition; no redistribution permission asserted",
+    "audience": "all",
+    "downloadUrl": "https://lasoundboard.fr/s/f63b6dba-032d-448e-8789-de3f7995103a/audio/",
+    "sourceDurationSeconds": 3.059,
+    "verification": "Public source caption cross-checked with local speech recognition; trimmed excerpts retain complete phrases.",
+    "audienceTags": "",
+    "audienceNote": ""
+  },
+  {
+    "file": "bad-64.wav",
+    "outcome": "bad",
+    "language": "fr",
+    "film": "Le Dîner de cons",
+    "voice": "Thierry Lhermitte <i\n                                    class=\"fas fa-external-link-alt\">",
+    "text": "J’ai peur. Non, la stratégie est excellente. C’est pas la stratégie qui m’inquiète, c’est le stratège.",
+    "sourceUrl": "https://lasoundboard.fr/s/ec245386-a0dc-452b-ac75-fd3e5c5056c4/",
+    "sourceType": "original_film_dialogue",
+    "usage": "Private on-device audition; no redistribution permission asserted",
+    "audience": "all",
+    "downloadUrl": "https://lasoundboard.fr/s/ec245386-a0dc-452b-ac75-fd3e5c5056c4/audio/",
+    "sourceDurationSeconds": 4.133,
+    "verification": "Public source caption cross-checked with local speech recognition; trimmed excerpts retain complete phrases.",
+    "audienceTags": "",
+    "audienceNote": ""
+  },
+  {
+    "file": "bad-65.wav",
+    "outcome": "bad",
+    "language": "fr",
+    "film": "Le Dîner de cons",
+    "voice": "Jacques Villeret <i\n                                    class=\"fas fa-external-link-alt\">",
+    "text": "Ah ! Oh là là ! Oh là là ! Mais c’est fini, oui ?",
+    "sourceUrl": "https://lasoundboard.fr/s/29e1419a-cf8a-408f-b0f1-d18412913e31/",
+    "sourceType": "original_film_dialogue",
+    "usage": "Private on-device audition; no redistribution permission asserted",
+    "audience": "all",
+    "downloadUrl": "https://lasoundboard.fr/s/29e1419a-cf8a-408f-b0f1-d18412913e31/audio/",
+    "sourceDurationSeconds": 5.329,
+    "verification": "Public source caption cross-checked with local speech recognition; trimmed excerpts retain complete phrases.",
+    "audienceTags": "",
+    "audienceNote": ""
   }
 ]

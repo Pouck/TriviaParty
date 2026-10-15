@@ -89,3 +89,20 @@ Les scènes longues ont été découpées en gardant des phrases et des chutes r
 La préparation utilise les métadonnées des scènes, une reconnaissance vocale locale en deux passes pour repérer les écarts, et un contrôle séparé des coupes longues. Les transcriptions automatiques peuvent mal interpréter des accents, des cris ou des jeux de mots : elles servent au contrôle, pas à remplacer aveuglément les légendes. Les fichiers finaux ont été décodés dans Chrome et leurs amorces silencieuses vérifiées. La page d’écoute filtre par résultat, langue, œuvre et texte, et s’adapte au téléphone.
 
 Fichiers de référence : `audio-bank/movie-reactions-selection.json` et `audio-bank/movie-preview.json`. Les candidats initiaux encore indisponibles restent des pistes, pas des enregistrements prétendument installés. La banque actuelle utilise des alternatives effectivement accessibles, avec l’audio d’origine.
+
+
+## Banque privée et filtre du public — 15 octobre 2026
+
+La banque privée contient maintenant **72 extraits : 36 positifs et 36 négatifs**, de 22 œuvres (62 français, 8 anglais, 2 japonais). Douze nouvelles réactions de comédies françaises ont été ajoutées, notamment Les Bronzés font du ski, La Cité de la peur et Le Dîner de cons. Les médias restent privés, hors Git et hors APK.
+
+Le fichier [REACTIONS-A-ANNOTER.md](audio-bank/REACTIONS-A-ANNOTER.md) permet de marquer chaque extrait, avec étiquettes et commentaires. Les exclusions proposées sont modifiables. Au démarrage, l’option **Répliques tout public uniquement** exclut les lignes marquées « oui » ou « à vérifier ». Le choix est mémorisé. Sans extrait admissible pour un résultat, seul le signal sonore est joué. Le filtre ne concerne pas les questions.
+
+Après annotation, lancer `python build/apply-reaction-audiences.py`, puis réinstaller la banque privée et relancer l’application. Les annotations restent intactes lorsque de nouveaux extraits sont ajoutés ; les nouvelles entrées explicitement non vérifiées restent exclues avec le filtre.
+
+### Les Sous-doués — candidats supplémentaires, non installés
+
+- [Super, ta boîte à bac](https://zonesons.com/films-de-comedie/les-sous-doues/434055) : approbation ironique possible.
+- [Moi, à ta place, je ferais pareil](https://zonesons.com/films-de-comedie/les-sous-doues/433864) : approbation décalée possible.
+- [C’est fini, oui ?](https://zonesons.com/repliques-de-films-pour-ados/phrases-cultes-de-les-sous-doues/c-est-fini-oui-onx) : réaction d’agacement possible.
+
+Le catalogue est accessible, mais les téléchargements audio du fournisseur ont été bloqués. Ces candidats ne sont pas comptés dans les 72 extraits ; une autre source audio accessible reste à trouver.

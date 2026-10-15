@@ -122,6 +122,7 @@ fun TriviaPartyApp() {
     var hostCategoryRules by remember { mutableStateOf<Map<String, CategoryGameRules>>(emptyMap()) }
     var hostAnswerTimeSeconds by remember { mutableStateOf(10) }
     var hostSessionStarted by remember { mutableStateOf(false) }
+    var hostAllAudiencesOnly by remember { mutableStateOf(false) }
     var hostVoteSettings by remember { mutableStateOf<com.example.triviaparty.model.VoteSettings?>(null) }
     val activity = LocalContext.current as? ComponentActivity
     DisposableEffect(activity, currentRole) {
@@ -163,7 +164,7 @@ fun TriviaPartyApp() {
         Box(Modifier.fillMaxSize().padding(innerPadding)) {
             when (currentRole) {
                 AppRole.HOST_SETUP -> GameSetupScreen(
-                    onStartGame = { categories, rounds, timingConfig, answerTimeSeconds, categoryRules, voteSettings ->
+                    onStartGame = { categories, rounds, timingConfig, answerTimeSeconds, categoryRules, voteSettings, allAudiencesOnly ->
                         hostSelectedCategories = categories
                         hostTotalRounds = rounds
                         hostTimingConfig = timingConfig
@@ -171,6 +172,7 @@ fun TriviaPartyApp() {
                         hostCategoryRules = categoryRules
                         hostSessionStarted = false
                         hostVoteSettings=voteSettings
+                        hostAllAudiencesOnly=allAudiencesOnly
                         currentRole = AppRole.HOST_DASHBOARD
                     },
                     onSoloReview={ categories -> hostSelectedCategories=categories; currentRole=AppRole.SOLO_REVIEW }
@@ -185,6 +187,7 @@ fun TriviaPartyApp() {
                     answerTimeSeconds = hostAnswerTimeSeconds,
                     categoryRules = hostCategoryRules,
                     voteSettings=hostVoteSettings,
+                    allAudiencesOnly=hostAllAudiencesOnly,
                     startNewGame = !hostSessionStarted,
                     onGameStarted = { hostSessionStarted = true },
                     onBackToMain = {

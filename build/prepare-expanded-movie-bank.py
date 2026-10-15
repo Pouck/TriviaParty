@@ -37,8 +37,8 @@ for n,r in enumerate(plan):
   r['transcript']=txt.read_text(encoding='utf8').strip()
   r['status']='transcribed_pending_editorial_check'
   results.append(r)
-  print(f'{n+1}/60 {name} {r["sourceDurationSeconds"]}s {r["transcript"][:130]}',flush=True)
+  print(f'{n+1}/{len(plan)} {name} {r["sourceDurationSeconds"]}s {r["transcript"][:130]}',flush=True)
  except Exception as error:
-  r['status']='unavailable';r['error']=str(error);results.append(r);print(f'{n+1}/60 {r["file"]} FAILED {error}',flush=True)
+  r['status']='unavailable';r['error']=str(error);results.append(r);print(f'{n+1}/{len(plan)} {r["file"]} FAILED {error}',flush=True)
  (D/'expanded-audit.json').write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf8')
 print('Completed source and speech audit.',flush=True)

@@ -37,12 +37,14 @@ import java.io.File
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun GameSetupScreen(
-    onStartGame: (selectedCategories: List<String>, totalRounds: Int, timingConfig: HourglassConfig, answerTimeSeconds: Int, categoryRules: Map<String, CategoryGameRules>, voteSettings: com.example.triviaparty.model.VoteSettings?) -> Unit,
+    onStartGame: (selectedCategories: List<String>, totalRounds: Int, timingConfig: HourglassConfig, answerTimeSeconds: Int, categoryRules: Map<String, CategoryGameRules>, voteSettings: com.example.triviaparty.model.VoteSettings?, allAudiencesOnly: Boolean) -> Unit,
     onSoloReview: (List<String>) -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
+    val audioPreferences=remember { context.getSharedPreferences("host-audio",android.content.Context.MODE_PRIVATE) }
+    var allAudiencesOnly by remember { mutableStateOf(audioPreferences.getBoolean("all-audiences",false)) }
     val packagesDirectory = File(context.filesDir, "game-packages")
     val importedIds = GamePackageImportRepository.importedDirectories(packagesDirectory).map { it.name }.toSet()
     var packageToUpdate by remember { mutableStateOf<String?>(null) }
@@ -346,6 +348,10 @@ fun GameSetupScreen(
             }
             }
         }
+        if(selectionMode!="Révision") Row(verticalAlignment=Alignment.CenterVertically) {
+            Switch(checked=allAudiencesOnly,onCheckedChange={ allAudiencesOnly=it;audioPreferences.edit().putBoolean("all-audiences",it).apply() })
+            Text("Répliques tout public uniquement",color=Color.White,modifier=Modifier.padding(start=10.dp))
+        }
         if (combined.conflictingCategories.isNotEmpty()) {
             Text("Catégories communes : règles du premier forfait sélectionné pour " +
                 combined.conflictingCategories.joinToString(" · "), color = Color(0xFFFFD700), fontSize = 12.sp)
@@ -360,7 +366,7 @@ fun GameSetupScreen(
                     val setup=if(selectionMode=="Vote") combineGamePackages(packs,GamePackageRepository::categoryNamesFor) { QuestionBankRepository.getQuestionsForCategory(it).size } else combined
                     val first=packs.first()
                     onStartGame(setup.categories,setup.totalQuestions,first.timingConfig,first.answerTimeSeconds,setup.categoryRules,
-                        if(selectionMode=="Vote") com.example.triviaparty.model.VoteSettings(voteNumber,voteSets) else null)
+                        if(selectionMode=="Vote") com.example.triviaparty.model.VoteSettings(voteNumber,voteSets) else null,allAudiencesOnly)
                 }
             },
             enabled = !drawing && (if(selectionMode=="Vote") voteNumber>0 else selectedPackages.isNotEmpty() && combined.totalQuestions>0),

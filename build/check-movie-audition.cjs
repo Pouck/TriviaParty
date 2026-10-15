@@ -25,7 +25,7 @@ server.listen(0,'127.0.0.1',async()=>{
   console.log('All '+clips.length+' film clips decode in Chrome with protected speech lead-ins.');
   await send('Page.navigate',{url:origin+'/audition'},sessionId);await new Promise(r=>setTimeout(r,300));
   const count=await evaluate('document.querySelectorAll("article").length');if(count!==clips.length)throw Error('Incomplete audition page');
-  const good=await evaluate('document.getElementById("outcome").value="good";document.getElementById("outcome").dispatchEvent(new Event("input"));document.querySelectorAll("article:not([hidden])").length');if(good!==30)throw Error('Outcome filtering failed');
+  const good=await evaluate('document.getElementById("outcome").value="good";document.getElementById("outcome").dispatchEvent(new Event("input"));document.querySelectorAll("article:not([hidden])").length');if(good!==clips.filter(c=>c.outcome==='good').length)throw Error('Outcome filtering failed');
   const search=await evaluate('document.getElementById("search").value="magie";document.getElementById("search").dispatchEvent(new Event("input"));document.querySelectorAll("article:not([hidden])").length');if(search!==1)throw Error('Corrected Kaamelott clip not searchable');
   await send('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true},sessionId);
   const overflow=await evaluate('document.documentElement.scrollWidth>innerWidth');if(overflow)throw Error('Audition page overflows phone width');

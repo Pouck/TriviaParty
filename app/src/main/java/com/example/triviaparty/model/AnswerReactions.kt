@@ -2,18 +2,19 @@ package com.example.triviaparty.model
 
 import kotlin.random.Random
 
-data class ReactionClip(val file: String,val outcome: String,val voice: String,val text: String,val source: String = "")
+data class ReactionClip(val file: String,val outcome: String,val voice: String,val text: String,val source: String = "", val audience: String = "all")
 
 /** A per-game shuffle bag: exhaust an outcome before repeating a clip. */
-class AnswerReactionPicker(private val catalogue: List<ReactionClip> = ReactionCatalogue.clips) {
+class AnswerReactionPicker(private val catalogue: List<ReactionClip> = ReactionCatalogue.clips, private val allAudiencesOnly: Boolean = false) {
     private val remaining=mutableMapOf<String,MutableList<ReactionClip>>()
     private val recentPhrases=ArrayDeque<String>()
     private var lastVoice: String?=null
     private var lastSource: String?=null
-    @Synchronized fun choose(outcome:String,previous:String?,random:Random=Random.Default):String {
+    fun choose(outcome:String,previous:String?,random:Random=Random.Default):String = requireNotNull(chooseOrNull(outcome,previous,random))
+    @Synchronized fun chooseOrNull(outcome:String,previous:String?,random:Random=Random.Default):String? {
         val pool=remaining.getOrPut(outcome){mutableListOf()}
-        if(pool.isEmpty()) pool.addAll(catalogue.filter {it.outcome==outcome}.shuffled(random))
-        require(pool.isNotEmpty())
+        if(pool.isEmpty()) pool.addAll(catalogue.filter {it.outcome==outcome && (!allAudiencesOnly || it.audience=="all")}.shuffled(random))
+        if(pool.isEmpty()) return null
         fun phrase(clip:ReactionClip)=clip.text.lowercase().trim().trimEnd('!','?','.')
         val noRepeat=pool.filter {it.file!=previous}.ifEmpty {pool.toList()}
         val varied=noRepeat.filter {it.voice!=lastVoice && phrase(it) !in recentPhrases && (it.source.isBlank() || it.source!=lastSource)}

@@ -24,7 +24,7 @@ class PrivateReactionBankTest {
             File(dir,"reactions.json").writeText(manifest())
             File(dir,"credits.html").writeText("Private audition")
             val bank=PrivateReactionBank.load(dir)!!
-            assertEquals(2,bank.clips.size);assertNull(bank.audio("sounds/../reactions.json"));assertNull(bank.audio("good-62.wav"))
+            assertEquals(2,bank.clips.size);assertTrue(bank.clips.all {it.audience=="unreviewed"});assertNull(bank.audio("sounds/../reactions.json"));assertNull(bank.audio("good-62.wav"))
             val server=GameServer(port,privateReactions=bank)
             try {
                 server.start()

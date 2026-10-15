@@ -30,7 +30,8 @@ sealed class GameEvent {
         val timingConfig: HourglassConfig = HourglassConfig(),
         val answerTimeSeconds: Int = 10,
         val categoryRules: Map<String, CategoryGameRules> = emptyMap(),
-        val voteSettings: com.example.triviaparty.model.VoteSettings? = null
+        val voteSettings: com.example.triviaparty.model.VoteSettings? = null,
+        val allAudiencesOnly: Boolean = false
     ) : GameEvent()
 
     @Serializable data class HostSkipCategory(val category: String) : GameEvent()

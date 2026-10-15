@@ -14,6 +14,28 @@ import java.net.URL
 import java.net.HttpURLConnection
 
 class AnswerReactionsTest {
+    @Test fun audienceOptionRoundTripsAndLegacyGamesKeepFullBank() {
+        val json=kotlinx.serialization.json.Json { encodeDefaults=true }
+        val event=com.example.triviaparty.network.GameEvent.HostStartGame(listOf("Test"),allAudiencesOnly=true)
+        val encoded=json.encodeToString(com.example.triviaparty.network.GameEvent.HostStartGame.serializer(),event)
+        assertTrue(json.decodeFromString(com.example.triviaparty.network.GameEvent.HostStartGame.serializer(),encoded).allAudiencesOnly)
+        assertFalse(json.decodeFromString(com.example.triviaparty.network.GameEvent.HostStartGame.serializer(),"""{"categories":["Test"]}""").allAudiencesOnly)
+        assertTrue(TvState.from(GameSession(roomId="test")).encode().contains("\"answerSoundClip\":null"))
+    }
+
+    @Test fun audienceFilterExcludesRestrictedAndUnreviewedWithoutFallback() {
+        val clips=listOf(
+            com.example.triviaparty.model.ReactionClip("good-01.wav","good","A","Bravo",audience="all"),
+            com.example.triviaparty.model.ReactionClip("good-02.wav","good","B","Adult",audience="mature"),
+            com.example.triviaparty.model.ReactionClip("bad-01.wav","bad","C","Unknown",audience="unreviewed"))
+        val filtered=com.example.triviaparty.model.AnswerReactionPicker(clips,true)
+        repeat(20) { assertEquals("good-01.wav",filtered.chooseOrNull("good",null)) }
+        assertNull(filtered.chooseOrNull("bad",null))
+        val full=com.example.triviaparty.model.AnswerReactionPicker(clips,false)
+        assertEquals(setOf("good-01.wav","good-02.wav"),(1..2).map {full.choose("good",null)}.toSet())
+        assertEquals("bad-01.wav",full.choose("bad",null))
+    }
+
     @Test fun selectedClipReachesTvAndAllRecordingsAreServedWithTheirAudioType() {
         val state=TvState.from(GameSession(roomId="test",answerSoundId=3,answerSound="bad",answerSoundClip="bad-04.mp3",buzzerSoundId=2))
         assertEquals("bad-04.mp3",state.answerSoundClip)

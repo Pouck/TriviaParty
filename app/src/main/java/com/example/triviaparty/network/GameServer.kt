@@ -475,7 +475,7 @@ class GameServer(
     }
 
     private fun handleHostStartGame(event: GameEvent.HostStartGame) {
-        reactionPicker = AnswerReactionPicker(privateReactions?.clips ?: com.example.triviaparty.model.ReactionCatalogue.clips)
+        reactionPicker = AnswerReactionPicker(privateReactions?.clips ?: com.example.triviaparty.model.ReactionCatalogue.clips,event.allAudiencesOnly)
         votePackages=if(event.voteSettings==null) emptyList() else GamePackageRepository.packages.filter { pack ->
             !pack.isTestPackage() && GamePackageRepository.categoryNamesFor(pack).any { it in event.categories }
         }
@@ -1243,7 +1243,7 @@ class GameServer(
             questionHasSound=true
             val outcome=if(changes.any { it==true }) "good" else "bad"
             _gameSession.value=soundState.copy(answerSoundId=soundState.answerSoundId+1,answerSound=outcome,
-                answerSoundClip=reactionPicker.choose(outcome,soundState.answerSoundClip))
+                answerSoundClip=reactionPicker.chooseOrNull(outcome,soundState.answerSoundClip))
         }
         soundedResults=results
         val current = _gameSession.value

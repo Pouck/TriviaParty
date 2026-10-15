@@ -21,7 +21,7 @@ class PrivateReactionBank private constructor(private val directory: File, val c
                 val file=text("file");val outcome=text("outcome")
                 require(outcome in setOf("good","bad") && file.matches(Regex("$outcome-[0-9]{2}[.]wav")))
                 require(File(directory,file).let {it.isFile && it.length() in 1000..5_000_000})
-                ReactionClip(file,outcome,text("voice"),text("text"),row["film"]?.jsonPrimitive?.contentOrNull.orEmpty())
+                ReactionClip(file,outcome,text("voice"),text("text"),row["film"]?.jsonPrimitive?.contentOrNull.orEmpty(),row["audience"]?.jsonPrimitive?.contentOrNull ?: "unreviewed")
             }
             require(clips.map {it.file}.distinct().size==clips.size)
             require(clips.map {it.outcome}.toSet()==setOf("good","bad"))
