@@ -74,4 +74,18 @@ class AnswerReactionsTest {
         }
     }
 
+    @Test fun privateReactionsVaryFilmsAsWellAsVoicesWithoutRepeatingClips() {
+        val catalogue=(0..7).map { com.example.triviaparty.model.ReactionClip("good-$it.wav","good","actor-$it","Distinct line $it",if(it<4) "Film A" else "Film B") }
+        val picker=com.example.triviaparty.model.AnswerReactionPicker(catalogue)
+        var previous:String?=null;var lastFilm:String?=null
+        repeat(3) {
+            val drawn=mutableSetOf<String>()
+            repeat(8) {
+                val file=picker.choose("good",previous,Random(19+it));assertTrue(drawn.add(file))
+                val source=catalogue.first {it.file==file}.source
+                assertNotEquals(lastFilm,source);lastFilm=source;previous=file
+            }
+        }
+    }
+
 }

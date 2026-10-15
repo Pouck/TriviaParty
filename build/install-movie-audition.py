@@ -4,7 +4,7 @@ import argparse,subprocess,json,re,hashlib
 ROOT=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser();p.add_argument('--serial',required=True);p.add_argument('--remove',action='store_true');p.add_argument('--bank',type=Path,default=ROOT/'build/movie-audition');a=p.parse_args()
 adb=['H:/Android/Sdk/platform-tools/adb.exe','-s',a.serial]
-def run(*args):return subprocess.check_output(adb+list(args),timeout=30)
+def run(*args):return subprocess.check_output(adb+list(args),timeout=30,stderr=subprocess.PIPE)
 if a.remove:
  run('shell','run-as','com.example.triviaparty','rm','-f','files/reaction-preview/reactions.json')
  print('Preview disabled; restart TriviaParty to restore the standard bank.');raise SystemExit

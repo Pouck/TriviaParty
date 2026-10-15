@@ -76,3 +76,16 @@ Les médias privés sont dans `build/movie-audition/` sur ce PC et dans `files/r
 - Revenir à la banque précédente : même commande avec `--remove`, puis relancer l’application.
 
 Le démarrage refuse une banque privée incomplète, sans les deux résultats, ou contenant des chemins non autorisés. Le déploiement vérifie les fichiers et active le manifeste en dernier. Les notes et packages sont conservés.
+
+
+## Banque élargie — 60 extraits, mise à jour du 15 octobre
+
+La banque privée de cinq extraits est remplacée par **30 bonnes réponses et 30 mauvaises réponses**, provenant de **22 œuvres**. Répartition : **50 français, 8 anglais, 2 japonais**. Elle inclut notamment Les Visiteurs, Les Bronzés font du ski, La Cité de la peur, Le Dîner de cons, Kaamelott, OSS 117, Fantômas, Dikkenek, The Mask, Ace Ventura, Star Wars, One Piece et Hokuto no Ken.
+
+Le passage burgonde « fort en pommes » a été retiré de la sélection. Il est remplacé par une réplique plus claire de Kaamelott sur le caractère impressionnant de la magie. Le contrôle a également permis de reclasser l’extrait de The Mask : sa chute indique que l’autre restera toujours deuxième ; elle sert désormais aux mauvaises réponses, avec sa légende corrigée.
+
+Les scènes longues ont été découpées en gardant des phrases et des chutes reconnaissables. Le plus long fichier dure **8,819 secondes**. Quelques signatures très courtes (Habile, C’est pas faux, etc.) sont conservées comme exceptions reconnaissables ; elles ne forment pas l’essentiel de la banque. Les extraits commerciaux ne sont pas présentés comme libres de droits et leurs fichiers ne sont pas commis dans GitHub.
+
+La préparation utilise les métadonnées des scènes, une reconnaissance vocale locale en deux passes pour repérer les écarts, et un contrôle séparé des coupes longues. Les transcriptions automatiques peuvent mal interpréter des accents, des cris ou des jeux de mots : elles servent au contrôle, pas à remplacer aveuglément les légendes. Les fichiers finaux ont été décodés dans Chrome et leurs amorces silencieuses vérifiées. La page d’écoute filtre par résultat, langue, œuvre et texte, et s’adapte au téléphone.
+
+Fichiers de référence : `audio-bank/movie-reactions-selection.json` et `audio-bank/movie-preview.json`. Les candidats initiaux encore indisponibles restent des pistes, pas des enregistrements prétendument installés. La banque actuelle utilise des alternatives effectivement accessibles, avec l’audio d’origine.
