@@ -16,8 +16,7 @@
       "acceptableAnswers": [
         "Totoro"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-ghibli-20261012/forest.jpg"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-ghibli-20261012-02",
@@ -41,8 +40,7 @@
       "acceptableAnswers": [
         "Porco Rosso"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-ghibli-20261012/plane.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-ghibli-20261012-04",

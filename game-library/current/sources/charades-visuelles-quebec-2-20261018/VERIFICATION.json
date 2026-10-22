@@ -1,0 +1,81 @@
+[
+  {
+    "questionId": "cv-650a2a32f4811d40ebf4",
+    "sourceFilename": "sacrer son camps.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\sacrer son camps.png",
+    "sha256": "650a2a32f4811d40ebf484c392d2203f925a982afa7d92388f57ba93dc584b53",
+    "canonicalAnswer": "Sacrer son camp",
+    "acceptedVariants": [
+      "Sacrer son camp"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-4211dbb25a7ff5b359e9",
+    "sourceFilename": "se dorer la couenne au soleil.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\se dorer la couenne au soleil.png",
+    "sha256": "4211dbb25a7ff5b359e9fb246ad0765435198330c8f9734b942e95c769585b00",
+    "canonicalAnswer": "Se dorer la couenne au soleil",
+    "acceptedVariants": [
+      "Se dorer la couenne au soleil",
+      "Se dorer la couenne"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-76ca37af037c4822ac5b",
+    "sourceFilename": "se faire passer un sapin.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\se faire passer un sapin.png",
+    "sha256": "76ca37af037c4822ac5b80657eca3f8e624f6b5d4f36c5997fcc828fc1fa25ce",
+    "canonicalAnswer": "Se faire passer un sapin",
+    "acceptedVariants": [
+      "Se faire passer un sapin"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-2d8bffd0bad71d9b191f",
+    "sourceFilename": "tire-toi une buche.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\tire-toi une buche.png",
+    "sha256": "2d8bffd0bad71d9b191f9b4e57ee1394726fff43adf68a3f98c53909b0e37bb1",
+    "canonicalAnswer": "Tire-toi une bûche",
+    "acceptedVariants": [
+      "Tire-toi une bûche",
+      "Tire-toi une buche"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-aa15e034655620999e11",
+    "sourceFilename": "tomber des clous.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\tomber des clous.png",
+    "sha256": "aa15e034655620999e118be4f60dd01cf11a3d3372cc67cd80e32780a9197b54",
+    "canonicalAnswer": "Tomber des clous",
+    "acceptedVariants": [
+      "Tomber des clous"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-ba263630036e32f65101",
+    "sourceFilename": "être dans les patates.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\être dans les patates.png",
+    "sha256": "ba263630036e32f6510191f519aa56c33db788c432147835c707bb575144dd7b",
+    "canonicalAnswer": "Être dans les patates",
+    "acceptedVariants": [
+      "Être dans les patates"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-59cc60766000a9c190f2",
+    "sourceFilename": "être vite sur ses patins.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\être vite sur ses patins.png",
+    "sha256": "59cc60766000a9c190f2597fd1d593e7862ce78aff06f0b1478fc1c1cacb9872",
+    "canonicalAnswer": "Être vite sur ses patins",
+    "acceptedVariants": [
+      "Être vite sur ses patins"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

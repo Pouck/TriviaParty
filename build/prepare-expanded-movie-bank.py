@@ -1,4 +1,4 @@
-"""Fetch and locally transcribe the 60 private audition candidates; no source media committed."""
+"""Fetch and locally transcribe the private audition candidates; no source media committed."""
 from pathlib import Path
 import sys,json,urllib.request,subprocess,wave,hashlib,re,html,time
 sys.stdout.reconfigure(encoding='utf8')
@@ -11,6 +11,14 @@ plan=json.loads((selection if selection.exists() else D/'expanded-plan.json').re
 for n,r in enumerate(plan):
  try:
   name=r['file'];src=CACHE/(name+'.source')
+  if r.get('preparedAsset'):
+   prepared=(ROOT/r['preparedAsset']).resolve()
+   assert prepared.is_relative_to((ROOT/'audio-bank/clips').resolve())
+   assert hashlib.sha256(prepared.read_bytes()).hexdigest()==r['sha256']
+   r['status']='existing_licensed_recording_verified';results.append(r)
+   (D/'expanded-audit.json').write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf8')
+   print(f'{n+1}/{len(plan)} {name}: existing licensed recording verified',flush=True)
+   continue
   if r.get('needsFullCaption'):
    page=CACHE/(name+'.html')
    if not page.exists():page.write_bytes(urllib.request.urlopen(r['sourceUrl'],timeout=20).read())

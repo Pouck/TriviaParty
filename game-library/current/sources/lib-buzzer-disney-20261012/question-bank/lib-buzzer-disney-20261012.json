@@ -28,8 +28,7 @@
       "acceptableAnswers": [
         "Olaf"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-disney-20261012/snowman.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-disney-20261012-03",
@@ -53,8 +52,7 @@
       "acceptableAnswers": [
         "Pumbaa"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-disney-20261012/warthog.jpg"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-disney-20261012-05",

@@ -19,8 +19,7 @@
         "C — La tortue",
         "D — Le loup"
       ],
-      "correctOptionIndex": 2,
-      "imageUrl": "images/lib-qcm-recits-autochtones-20261012/turtle.jpg"
+      "correctOptionIndex": 2
     },
     {
       "id": "lib-qcm-recits-autochtones-20261012-02",
@@ -35,8 +34,7 @@
         "C — L’autruche",
         "D — Le flamant"
       ],
-      "correctOptionIndex": 1,
-      "imageUrl": "images/lib-qcm-recits-autochtones-20261012/raven.jpg"
+      "correctOptionIndex": 1
     },
     {
       "id": "lib-qcm-recits-autochtones-20261012-03",

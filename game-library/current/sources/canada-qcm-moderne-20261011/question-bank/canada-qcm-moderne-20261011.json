@@ -42,14 +42,14 @@
       "category": "Canada — Jalons sociaux et politiques modernes — QCM — 1",
       "basePoints": 15,
       "penaltyPoints": 0,
-      "prompt": "Quelle loi de 1969 décriminalise certains actes homosexuels privés entre adultes consentants d’au moins 21 ans ?",
+      "prompt": "En quelle année Agnes Macphail devient-elle la première femme élue à la Chambre des communes du Canada ?",
       "options": [
-        "A — La Loi canadienne sur les droits de la personne",
-        "B — La Loi constitutionnelle",
-        "C — La réforme de la Loi sur les mesures de guerre",
-        "D — La Loi de 1968-69 modifiant le droit pénal"
+        "A — 1921",
+        "B — 1917",
+        "C — 1929",
+        "D — 1935"
       ],
-      "correctOptionIndex": 3
+      "correctOptionIndex": 0
     },
     {
       "kind": "multipleChoice",

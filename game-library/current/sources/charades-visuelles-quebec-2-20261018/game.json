@@ -1,0 +1,15 @@
+{
+  "id": "charades-visuelles-quebec-2-20261018",
+  "name": "Charades visuelles — Expressions et mots du Québec — 2 — Réponses écrites",
+  "description": "7 charades visuelles. 45 secondes ; 15 → 10 → 5 points. Réponses écrites, validées individuellement par l’hôte.",
+  "categoryPackages": [
+    "charades-visuelles-quebec-2-20261018"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 15,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

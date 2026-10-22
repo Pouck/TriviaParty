@@ -1,5 +1,5 @@
 {
-  "category": "Devinettes — Objets familiers — QCM",
+  "category": "Logique et énigmes — Déduction — QCM",
   "subject": "Logique et énigmes",
   "answerMode": "SIMULTANEOUS",
   "questionTypes": [
@@ -8,80 +8,78 @@
   "questions": [
     {
       "id": "lib-qcm-devinettes-20261012-01",
-      "category": "Devinettes — Objets familiers — QCM",
+      "category": "Logique et énigmes — Déduction — QCM",
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "multipleChoice",
-      "prompt": "Je garde des dents dans vos cheveux, sans vous mordre. Qui suis-je ?",
+      "prompt": "Trois boîtes portent les étiquettes « pommes », « oranges » et « mélange ». Toutes les étiquettes sont fausses. Quelle boîte faut-il ouvrir pour pouvoir réétiqueter les trois en tirant un seul fruit ?",
       "options": [
-        "A — Un peigne",
-        "B — Une scie",
-        "C — Une fourchette",
-        "D — Une fermeture éclair"
+        "A — Celle étiquetée « pommes »",
+        "B — Celle étiquetée « oranges »",
+        "C — Celle étiquetée « mélange »",
+        "D — N’importe laquelle"
       ],
-      "correctOptionIndex": 0
+      "correctOptionIndex": 2
     },
     {
       "id": "lib-qcm-devinettes-20261012-02",
-      "category": "Devinettes — Objets familiers — QCM",
+      "category": "Logique et énigmes — Déduction — QCM",
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "multipleChoice",
-      "prompt": "Je donne l’heure avec des aiguilles, sans piquer. Qui suis-je ?",
+      "prompt": "Un pont doit être franchi de nuit avec une seule lampe. Quatre personnes mettent 1, 2, 7 et 10 minutes à traverser ; deux au plus peuvent avancer ensemble, à la vitesse de la plus lente. Quel est le temps minimal pour faire passer tout le monde ?",
       "options": [
-        "A — Une balance",
-        "B — Une boussole",
-        "C — Un thermomètre",
-        "D — Une horloge"
-      ],
-      "correctOptionIndex": 3,
-      "imageUrl": "images/lib-qcm-devinettes-20261012/clock.png"
-    },
-    {
-      "id": "lib-qcm-devinettes-20261012-03",
-      "category": "Devinettes — Objets familiers — QCM",
-      "basePoints": 15,
-      "penaltyPoints": 0,
-      "kind": "multipleChoice",
-      "prompt": "J’ai des pages et une couverture, sans être un lit. Qui suis-je ?",
-      "options": [
-        "A — Une valise",
-        "B — Un livre",
-        "C — Un tapis",
-        "D — Un oreiller"
+        "A — 15 minutes",
+        "B — 17 minutes",
+        "C — 19 minutes",
+        "D — 20 minutes"
       ],
       "correctOptionIndex": 1
     },
     {
-      "id": "lib-qcm-devinettes-20261012-04",
-      "category": "Devinettes — Objets familiers — QCM",
+      "id": "lib-qcm-devinettes-20261012-03",
+      "category": "Logique et énigmes — Déduction — QCM",
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "multipleChoice",
-      "prompt": "J’ouvre une serrure sans avoir de main. Qui suis-je ?",
+      "prompt": "Quel nombre complète la suite : 2, 6, 12, 20, 30, … ?",
       "options": [
-        "A — Une clé",
-        "B — Une cuillère",
-        "C — Une pièce",
-        "D — Un clou"
+        "A — 36",
+        "B — 40",
+        "C — 42",
+        "D — 44"
       ],
-      "correctOptionIndex": 0,
-      "imageUrl": "images/lib-qcm-devinettes-20261012/key.png"
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "lib-qcm-devinettes-20261012-04",
+      "category": "Logique et énigmes — Déduction — QCM",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "kind": "multipleChoice",
+      "prompt": "Quel nombre complète la suite de Fibonacci : 1, 1, 2, 3, 5, … ?",
+      "options": [
+        "A — 7",
+        "B — 8",
+        "C — 9",
+        "D — 10"
+      ],
+      "correctOptionIndex": 1
     },
     {
       "id": "lib-qcm-devinettes-20261012-05",
-      "category": "Devinettes — Objets familiers — QCM",
+      "category": "Logique et énigmes — Déduction — QCM",
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "multipleChoice",
-      "prompt": "Je sèche votre corps et deviens humide. Qui suis-je ?",
+      "prompt": "Une famille compte cinq garçons. Chaque garçon a la même sœur. Combien d’enfants y a-t-il dans la famille ?",
       "options": [
-        "A — Une éponge sèche",
-        "B — Un savon",
-        "C — Une serviette",
-        "D — Un miroir"
+        "A — 5",
+        "B — 6",
+        "C — 10",
+        "D — 11"
       ],
-      "correctOptionIndex": 2
+      "correctOptionIndex": 1
     }
   ]
 }

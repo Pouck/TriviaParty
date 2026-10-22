@@ -1,0 +1,57 @@
+[
+  {
+    "questionId": "cv-83ed365f35fe7401e164",
+    "sourceFilename": "assoupi.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Divers\\assoupi.png",
+    "sha256": "83ed365f35fe7401e1647c42e670e4f28ff575d996e0c777aac8620aad51beb7",
+    "canonicalAnswer": "Assoupi",
+    "acceptedVariants": [
+      "Assoupi"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-e8b6e7cfc7d21935195b",
+    "sourceFilename": "assurer.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\assurer.png",
+    "sha256": "e8b6e7cfc7d21935195bde4405614cf743903c8cae69fe57c416ceecf67bba86",
+    "canonicalAnswer": "Assurer",
+    "acceptedVariants": [
+      "Assurer"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-4ae62e66b0c5dc3b5498",
+    "sourceFilename": "démonter.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\démonter.png",
+    "sha256": "4ae62e66b0c5dc3b5498e9b9a6b45776232f90d2e30c802b67ebb4dee3a83159",
+    "canonicalAnswer": "Démonter",
+    "acceptedVariants": [
+      "Démonter"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-53ad602b4a1cf5064007",
+    "sourceFilename": "dérouter.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\dérouter.png",
+    "sha256": "53ad602b4a1cf506400721dc810ebbfec31fb23837bf8215ac4170660927690b",
+    "canonicalAnswer": "Dérouter",
+    "acceptedVariants": [
+      "Dérouter"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-dca5f0c50bbf4e61cc23",
+    "sourceFilename": "entrecouper.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\entrecouper.png",
+    "sha256": "dca5f0c50bbf4e61cc23da6a85c77e6bf12d38d9d2277b1a59dd49918f1b51fe",
+    "canonicalAnswer": "Entrecouper",
+    "acceptedVariants": [
+      "Entrecouper"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

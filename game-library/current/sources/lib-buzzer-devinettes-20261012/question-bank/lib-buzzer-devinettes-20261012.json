@@ -1,5 +1,5 @@
 {
-  "category": "Devinettes — Objets familiers — Buzzer",
+  "category": "Logique et énigmes — Déduction — Buzzer",
   "subject": "Logique et énigmes",
   "answerMode": "BUZZER",
   "questionTypes": [
@@ -8,70 +8,70 @@
   "questions": [
     {
       "id": "lib-buzzer-devinettes-20261012-01",
-      "category": "Devinettes — Objets familiers — Buzzer",
+      "category": "Logique et énigmes — Déduction — Buzzer",
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "textAnswer",
-      "prompt": "Que peut-on casser en ne tenant pas sa parole ?",
+      "prompt": "Dans une course, vous dépassez la personne en deuxième position. À quelle place êtes-vous maintenant ?",
       "acceptableAnswers": [
-        "Une promesse",
-        "Promesse"
+        "Deuxième",
+        "La deuxième place",
+        "2e"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": false
     },
     {
       "id": "lib-buzzer-devinettes-20261012-02",
-      "category": "Devinettes — Objets familiers — Buzzer",
+      "category": "Logique et énigmes — Déduction — Buzzer",
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "textAnswer",
-      "prompt": "Je protège de la pluie et m’ouvre au-dessus de votre tête. Qui suis-je ?",
+      "prompt": "Un fermier doit traverser une rivière avec un loup, une chèvre et un chou. Sa barque ne transporte que lui et un seul des trois. Que doit-il faire traverser en premier ?",
       "acceptableAnswers": [
-        "Un parapluie",
-        "Parapluie"
+        "La chèvre",
+        "Chèvre"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-devinettes-20261012/umbrella.png"
+      "allowFuzzyMatch": false
     },
     {
       "id": "lib-buzzer-devinettes-20261012-03",
-      "category": "Devinettes — Objets familiers — Buzzer",
+      "category": "Logique et énigmes — Déduction — Buzzer",
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "textAnswer",
-      "prompt": "J’ai un goulot et contiens des boissons. Qui suis-je ?",
+      "prompt": "Un homme regarde un portrait et dit : « Je n’ai ni frère ni sœur, mais le père de cet homme est le fils de mon père. » Qui est sur le portrait ?",
       "acceptableAnswers": [
-        "Une bouteille",
-        "Bouteille"
+        "Son fils",
+        "Le fils de l’homme",
+        "Son enfant"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": false
     },
     {
       "id": "lib-buzzer-devinettes-20261012-04",
-      "category": "Devinettes — Objets familiers — Buzzer",
+      "category": "Logique et énigmes — Déduction — Buzzer",
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "textAnswer",
-      "prompt": "Je porte votre reflet et suis accroché au mur. Qui suis-je ?",
+      "prompt": "Je pense à un nombre. Je le multiplie par 3, j’ajoute 6, puis je divise le résultat par 3. J’obtiens 8. Quel était le nombre ?",
       "acceptableAnswers": [
-        "Un miroir",
-        "Miroir"
+        "6"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-devinettes-20261012/mirror.png"
+      "allowFuzzyMatch": false
     },
     {
       "id": "lib-buzzer-devinettes-20261012-05",
-      "category": "Devinettes — Objets familiers — Buzzer",
+      "category": "Logique et énigmes — Déduction — Buzzer",
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "textAnswer",
-      "prompt": "Je suis la partie d’une chaussure qui touche le sol. Qui suis-je ?",
+      "prompt": "Un escargot grimpe 3 mètres le jour et glisse de 2 mètres la nuit. Combien de jours lui faut-il pour sortir d’un puits de 10 mètres ?",
       "acceptableAnswers": [
-        "La semelle",
-        "Semelle"
+        "8 jours",
+        "Huit jours",
+        "8"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": false
     }
   ]
 }

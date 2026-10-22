@@ -1,0 +1,35 @@
+from pathlib import Path
+import sys,json,subprocess,wave,hashlib,base64,html,zipfile,struct
+R=Path.cwd();D=R/'build/dialogue-extracts/X1PiR7WfuWs';O=D/'clips';sys.path.insert(0,str(R/'build/audio-tools'));import imageio_ffmpeg
+sys.stdout.reconfigure(encoding='utf8');rows=json.loads((D/'cut-audit.json').read_text(encoding='utf8'));source=json.loads((D/'source-metadata.json').read_text(encoding='utf8'))
+rows=[r for r in rows if not r['id'].startswith(('03-','04-'))]
+for r in rows:
+ start=r['startSeconds'];end=r['endSeconds'];duration=end-start
+ wav=O/(r['id']+'.wav');mp3=wav.with_suffix('.mp3')
+ filters=f'atrim=start={start}:end={end},asetpts=PTS-STARTPTS,loudnorm=I=-18:TP=-2:LRA=9,afade=t=in:d=0.005,afade=t=out:st={duration-.012}:d=0.012,adelay=220:all=1'
+ if r.get('reviewStatus')!='approved_by_user' or not wav.exists() or not mp3.exists():
+  subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(),'-hide_banner','-loglevel','error','-y','-i',str(D/'source.webm'),'-af',filters,'-ar','44100','-ac','1','-c:a','pcm_s16le',str(wav)],check=True,capture_output=True)
+  subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(),'-hide_banner','-loglevel','error','-y','-i',str(wav),'-c:a','libmp3lame','-b:a','128k',str(mp3)],check=True,capture_output=True)
+ r.update(text=r['requestedText'],film='La Chèvre',sourceUrl='https://www.youtube.com/watch?v=X1PiR7WfuWs',sourceTitle=source['title'],wavFile='clips/'+wav.name,mp3File='clips/'+mp3.name,sha256=hashlib.sha256(wav.read_bytes()).hexdigest(),mp3Sha256=hashlib.sha256(mp3.read_bytes()).hexdigest(),changes='Exact source excerpt, original voices and pauses retained, mono PCM 44.1 kHz, -18 LUFS target / -2 dBTP, 220 ms protected lead-in, 5 ms boundary fade-in / 12 ms fade-out; MP3 128 kbps copy.',status='extracted_for_review',usage='Private local extraction from user-provided source; no redistribution permission asserted')
+ with wave.open(str(wav)) as w:
+  r['durationSeconds']=round(w.getnframes()/w.getframerate(),3);samples=struct.unpack('<'+'h'*w.getnframes(),w.readframes(w.getnframes()));assert max(abs(x) for x in samples[:int(.18*44100)])<200;assert max(abs(x) for x in samples)>500
+ r['verificationNote']='Located against source captions and local speech recognition. Captions use the wording requested by the user; source dialogue has not been rewritten.'
+ if r['id'].startswith('03-'):r['verificationNote']='Very short, quiet reply. The exact wording could not be confirmed by automatic transcription; listen to this cut and the supplied context before using its caption.'
+ if r['id'].startswith('04-'):r['verificationNote']+=' Boundaries extended slightly after user listening feedback.'
+ print(r['id'],r['durationSeconds'],'s',flush=True)
+(D/'dialogues.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+css='''*{box-sizing:border-box}body{max-width:1040px;margin:28px auto;padding:0 20px;background:#101827;color:#edf4ff;font:18px/1.5 system-ui}h1{font-size:34px;line-height:1.2}.intro{color:#bccbdd;max-width:800px}article{background:#20314a;border:1px solid #3c506c;border-radius:14px;margin:18px 0;padding:20px}h2{font-size:23px;margin:0 0 14px;line-height:1.4}.meta{font-size:15px;color:#bbcadd}a{color:#9dd9ff}audio{width:100%;margin:12px 0}button{font:inherit;background:#e8bd69;color:#161b25;padding:12px 18px;border:0;border-radius:9px;cursor:pointer;margin:5px 8px 5px 0}.note{padding:10px 14px;background:#3a3540;border-radius:8px;font-size:16px}#status{color:#d6e2ef;min-height:27px}details{margin:12px 0}'''
+page='<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>La Chèvre — cinq dialogues</title><style>'+css+'</style><h1>La Chèvre — cinq dialogues</h1><p class="intro">Les cinq passages retenus, découpés séparément. Voix et pauses d’origine conservées, volume harmonisé. Écoutez les limites avant de les ajouter au jeu.</p><p><a href="https://www.youtube.com/watch?v=X1PiR7WfuWs">Extrait source</a> · <a href="./La-Chevre-cinq-dialogues.zip">Télécharger les cinq dialogues (WAV + MP3)</a></p><button id="all">Tout écouter</button><button id="stop">Arrêter</button><p id="status" role="status" aria-live="polite"></p>'
+for n,r in enumerate(rows,1):
+ data=base64.b64encode((D/r['mp3File']).read_bytes()).decode();page+=f'<article><h2>{r["id"][:2]} — {html.escape(r["text"])}</h2><p class="meta">Source : {r["startSeconds"]:.2f}–{r["endSeconds"]:.2f} s · durée du fichier : {r["durationSeconds"]} s</p><audio class="clip" data-number="{n}" controls preload="none" src="data:audio/mpeg;base64,{data}"></audio><p><a download href="./{r["wavFile"]}">WAV</a> · <a download href="./{r["mp3File"]}">MP3</a></p>'
+ page+='</article>'
+page+='''<p class="intro">Les extraits 3 et 4 ont été retirés. Les cinq extraits conservés sont approuvés et inchangés. La banque du jeu n’a pas été modifiée.</p><script>const clips=[...document.querySelectorAll('audio.clip')],all=[...document.querySelectorAll('audio')],status=document.querySelector('#status');let sequence=false;function stop(){sequence=false;all.forEach(a=>{a.pause();a.currentTime=0});status.textContent='Écoute arrêtée.'}all.forEach(a=>{a.addEventListener('play',()=>{all.forEach(b=>{if(a!==b)b.pause()});if(!a.classList.contains('clip'))sequence=false;status.textContent=a.dataset.number?'Dialogue '+a.dataset.number+' / '+clips.length:'Contexte du dialogue 3'});a.addEventListener('ended',()=>{if(!sequence)return;const i=clips.indexOf(a);if(i>=0&&i<clips.length-1){clips[i+1].currentTime=0;clips[i+1].play().catch(()=>{sequence=false;status.textContent='Cliquez sur le lecteur pour continuer.'})}else{sequence=false;status.textContent='Écoute terminée.'}})});document.querySelector('#stop').onclick=stop;document.querySelector('#all').onclick=()=>{stop();sequence=true;clips[0].play().catch(()=>{sequence=false;status.textContent='Cliquez sur le premier lecteur pour démarrer.'})};</script></html>'''
+(D/'index.html').write_text(page,encoding='utf8')
+readme='# La Chèvre — cinq dialogues extraits\n\nSource fournie par l’utilisateur : https://www.youtube.com/watch?v=X1PiR7WfuWs\n\nOuvrir index.html pour écouter. Les cinq extraits sont disponibles en WAV mono PCM 44,1 kHz et MP3 128 kb/s. Les phrases et échanges ne sont pas synthétisés ; seules les limites, le volume et de très courts fondus ont été traités. Une amorce de 220 ms protège le début des mots. La banque du jeu reste inchangée.\n\nLes extraits originaux 3 et 4 ont été retirés à votre demande. Les cinq autres fichiers sont conservés à l’identique.\n\n'
+for r in rows:readme+=f'- {r["id"]} : {r["startSeconds"]}–{r["endSeconds"]} s dans la source ; fichier de {r["durationSeconds"]} s.\n'
+(D/'README.md').write_text(readme,encoding='utf8')
+with zipfile.ZipFile(D/'La-Chevre-cinq-dialogues.zip','w',compression=zipfile.ZIP_DEFLATED) as z:
+ for r in rows:
+  for key in ['wavFile','mp3File']:z.write(D/r[key],r[key])
+ for name in ['index.html','README.md','dialogues.json']:z.write(D/name,name)
+print('Exported five WAV/MP3 pairs, offline audition page, source manifest and ZIP.',flush=True)

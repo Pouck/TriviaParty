@@ -2,7 +2,7 @@ package com.example.triviaparty.model
 
 enum class BuzzerStatus(val label: String) {
     WAITING("En attente"), READY("À vous de jouer"), PRESSED("Vous avez la parole"),
-    BLOCKED("Une autre équipe répond"), INCORRECT("Mauvaise réponse · désactivé"),
+    QUEUED("En file · attendez votre tour"), BLOCKED("Une autre équipe répond"), INCORRECT("Mauvaise réponse · désactivé"),
     CORRECT("Bonne réponse"), ENDED("Partie terminée"), DISCONNECTED("Reconnexion…")
 }
 
@@ -21,6 +21,6 @@ fun GameSession.buzzerStatus(teamId: String, connected: Boolean, pressed: Boolea
     if (own?.isCorrect == true) return BuzzerStatus.CORRECT
     if (state != GameState.QUESTION_ACTIVE || questionReading || currentQuestion == null) return BuzzerStatus.WAITING
     if (own?.isLocked == true || pressed) return BuzzerStatus.PRESSED
-    if (submissions.values.any { it.isLocked && it.isCorrect != false && it.isBuzz() }) return BuzzerStatus.BLOCKED
+    if (buzzQueue.any { it.teamId == teamId && it.questionId == currentQuestion.id }) return BuzzerStatus.QUEUED
     return BuzzerStatus.READY
 }

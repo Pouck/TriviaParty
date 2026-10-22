@@ -51,3 +51,9 @@ input[type="range"] { width: 100%; min-height: 64px; padding: 0; accent-color: #
 .order-text { flex: 1; min-width: 0; overflow-wrap: break-word; font-size: clamp(21px, 5.5vw, 25px); font-weight: 650; line-height: 1.35; }
 button.order-submit { margin-top: 18px; }
 #game:has(.ordering-list) { padding: 16px; }
+
+.buzz.queued { background:#434356; color:#eee; }
+
+.sound-controls { display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px;margin:0 0 10px; }
+.sound-controls button { width:auto;min-height:40px;padding:8px 14px;font-size:16px;background:#264866;color:white;border:1px solid #5eaade;border-radius:10px; }
+#sound-status { font-size:14px;color:#ddd;text-align:center; }

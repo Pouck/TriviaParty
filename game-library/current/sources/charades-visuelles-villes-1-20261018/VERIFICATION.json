@@ -1,0 +1,60 @@
+[
+  {
+    "questionId": "cv-ec113135139f48e7403e",
+    "sourceFilename": "délhi.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\délhi.png",
+    "sha256": "ec113135139f48e7403e8cd2094e5774c8943321ba49b4e2d89b876948fbee8d",
+    "canonicalAnswer": "Delhi",
+    "acceptedVariants": [
+      "Delhi"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-29e0a7d15931d08b5d72",
+    "sourceFilename": "ho chi minh city.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\ho chi minh city.png",
+    "sha256": "29e0a7d15931d08b5d725d56425686ea7d09c3bf05c8c7cb0e5e1a664510ca0e",
+    "canonicalAnswer": "Hô Chi Minh-Ville",
+    "acceptedVariants": [
+      "Hô Chi Minh-Ville",
+      "Ho Chi Minh-Ville",
+      "Hô-Chi-Minh-Ville",
+      "Saïgon"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-9d609ca2a3dfe4d1d1aa",
+    "sourceFilename": "istamboule.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\istamboule.png",
+    "sha256": "9d609ca2a3dfe4d1d1aa1162f51678aa75e4f2e85b449a470db121441a3e537e",
+    "canonicalAnswer": "Istanbul",
+    "acceptedVariants": [
+      "Istanbul"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-06e7a66b72e72adec36c",
+    "sourceFilename": "los angeles.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\los angeles.png",
+    "sha256": "06e7a66b72e72adec36c8ae738343da67fdfd06e9a3dc16e8d1894b1a865d04f",
+    "canonicalAnswer": "Los Angeles",
+    "acceptedVariants": [
+      "Los Angeles"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-5e756df6b09aafc18728",
+    "sourceFilename": "montréal.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\montréal.png",
+    "sha256": "5e756df6b09aafc187281d3c7d643c81b74980c7112480020a1228a96497b309",
+    "canonicalAnswer": "Montréal",
+    "acceptedVariants": [
+      "Montréal"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

@@ -10,12 +10,11 @@
       "kind": "textAnswer",
       "id": "charades-nun-ace",
       "category": "Logique et énigmes — Charades — Buzzer",
-      "prompt": "Mon premier est la carte la plus forte. Mon deuxième est « en ». Mon troisième est une fille ayant les mêmes parents que moi. Mon tout monte et descend dans un immeuble.",
+      "prompt": "Je suis un nombre de trois chiffres. Mon chiffre des centaines vaut trois fois celui des unités. Mon chiffre des dizaines vaut deux fois celui des unités. La somme de mes chiffres est 12. Quel nombre suis-je ?",
       "basePoints": 15,
       "penaltyPoints": 0,
       "acceptableAnswers": [
-        "Ascenseur",
-        "Un ascenseur"
+        "642"
       ],
       "allowFuzzyMatch": false
     },

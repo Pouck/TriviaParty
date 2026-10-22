@@ -1,0 +1,4 @@
+const fs=require('fs');const p='app/src/main/assets/player/player.js';let s=fs.readFileSync(p,'utf8').replace(/\r\n/g,'\n');s=s.replace('if (selected === id && loading) return loading;','if (selected === id && (loading || fallback || buffer)) return loading;');
+s=s.replace("    e.preventDefault();\n    const teamName", "    e.preventDefault();\n    phoneSound.unlock();\n    const teamName");
+s=s.replace("      pendingLock = true; lastView = ''; render();\n      setTimeout", "      phoneSound.play();\n      pendingLock = true; lastView = ''; render();\n      setTimeout");fs.writeFileSync(p,s);
+const preview='build/preview-cast-compatibility.cjs';let code=fs.readFileSync(preview,'utf8');code=code.replace("if (/^\\/tv\\/feedback", "if (url === '/tv/hourglass.svg') {res.setHeader('Content-Type','image/svg+xml');return res.end(fs.readFileSync(path.join(assets,'hourglass.svg')));}\n  if (/^\\/tv\\/feedback");fs.writeFileSync(preview,code);

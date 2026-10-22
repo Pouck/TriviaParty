@@ -1,0 +1,4 @@
+from pathlib import Path
+for f in ['build/winner-music/sampler.html','build/prepare-winner-music-sampler.py']:
+ p=Path(f);s=p.read_text(encoding='utf8').replace('La musique actuelle du jeu reste inchangée.','Les versions de 24 secondes sont retenues pour une rotation aléatoire entre les parties.');p.write_text(s,encoding='utf8')
+p=Path('audio-bank/WINNER-MUSIC-SAMPLER.md');s=p.read_text(encoding='utf8').replace('Les extraits sont proposés pour comparaison ; le son du jeu n’a pas été remplacé.','Les sept versions de 24 secondes sont intégrées au jeu : un morceau est choisi au début de chaque partie, tous les morceaux passent avant de recommencer et deux parties consécutives ne reprennent pas le même morceau. Crédits de la banque installée : `game-ending-sounds.json`.');p.write_text(s,encoding='utf8')

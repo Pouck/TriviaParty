@@ -1,0 +1,57 @@
+[
+  {
+    "questionId": "cv-c0bc5b4faa0b769d5c16",
+    "sourceFilename": "gambader.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\gambader.png",
+    "sha256": "c0bc5b4faa0b769d5c1611a01cd9f419ef0ba68b0c709458cfe30094807b3b31",
+    "canonicalAnswer": "Gambader",
+    "acceptedVariants": [
+      "Gambader"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-10541d08c648a3554906",
+    "sourceFilename": "grommeler.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\grommeler.png",
+    "sha256": "10541d08c648a3554906004f8221470d680cd1d2c3d2ac56570fcd66078c508b",
+    "canonicalAnswer": "Grommeler",
+    "acceptedVariants": [
+      "Grommeler"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-f57abd841d69f65d5743",
+    "sourceFilename": "raccourcir.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\raccourcir.png",
+    "sha256": "f57abd841d69f65d5743f86fdc3a3f226d80a089c5c8e21d8981deadbc66cbd9",
+    "canonicalAnswer": "Raccourcir",
+    "acceptedVariants": [
+      "Raccourcir"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-820fda2c40350f48ce74",
+    "sourceFilename": "souhaiter.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\souhaiter.png",
+    "sha256": "820fda2c40350f48ce74879af1db2c33c52ce258f195032a0eed195572974d20",
+    "canonicalAnswer": "Souhaiter",
+    "acceptedVariants": [
+      "Souhaiter"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-ae97ddb2b31126db24b6",
+    "sourceFilename": "épancher.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\épancher.png",
+    "sha256": "ae97ddb2b31126db24b60b523d5548a5ed4eaaa5b8b23d1f4547286a5c981370",
+    "canonicalAnswer": "Épancher",
+    "acceptedVariants": [
+      "Épancher"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

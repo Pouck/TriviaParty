@@ -1,0 +1,88 @@
+{
+  "category": "Charades visuelles — Objets et choses du quotidien — 2 — Buzzer",
+  "subject": "Logique et énigmes",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-a51c7e53848f2b37392a",
+      "category": "Charades visuelles — Objets et choses du quotidien — 2 — Buzzer",
+      "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Carnaval"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-d0a8971f60baab346e5b",
+      "category": "Charades visuelles — Objets et choses du quotidien — 2 — Buzzer",
+      "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Champignon"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-be6ab48ee73f9d362ab3",
+      "category": "Charades visuelles — Objets et choses du quotidien — 2 — Buzzer",
+      "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Gribouillis"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-0200c21610492646e02c",
+      "category": "Charades visuelles — Objets et choses du quotidien — 2 — Buzzer",
+      "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Immeuble"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-e82d85719d9b4c0d36d2",
+      "category": "Charades visuelles — Objets et choses du quotidien — 2 — Buzzer",
+      "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Parachute"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-2a22282e781b399ea4c5",
+      "category": "Charades visuelles — Objets et choses du quotidien — 2 — Buzzer",
+      "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-06.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Pierre"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

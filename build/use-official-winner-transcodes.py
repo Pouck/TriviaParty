@@ -1,0 +1,3 @@
+from pathlib import Path
+p=Path('build/collect-winner-music.py');s=p.read_text(encoding='utf8');s=s.replace("time.sleep(30)\nrows=[get(r) for r in rows]", "transcodes=json.loads((D/'official-transcodes.json').read_text(encoding='utf8'))\nfor r in rows:\n if r['id']=='pomp':\n  info=next(p for p in transcodes['query']['pages'].values() if p['title']==r['sourceTitle'])\n  r['downloadUrl']=next(d['src'] for d in info['videoinfo'][0]['derivatives'] if d.get('transcodekey')=='ogg')\nresults=[]\nfor r in rows:\n try:results.append(get(r))\n except Exception as e:print(r['id'],'unavailable:',str(e),flush=True)\nrows=results")
+p.write_text(s,encoding='utf8')

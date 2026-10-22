@@ -84,3 +84,31 @@ Après annotation : `python build/apply-reaction-audiences.py`, puis réinstalle
 | bad-63.wav | Mauvaise | Le Dîner de cons | C’est un abruti. Y a pas de mal à se moquer des abrutis, ils sont là pour ça, non ? | non |  |  |
 | bad-64.wav | Mauvaise | Le Dîner de cons | J’ai peur. Non, la stratégie est excellente. C’est pas la stratégie qui m’inquiète, c’est le stratège. | non |  |  |
 | bad-65.wav | Mauvaise | Le Dîner de cons | Ah ! Oh là là ! Oh là là ! Mais c’est fini, oui ? | non |  |  |
+| good-40.wav | Bonne | Astérix et Obélix: Mission Cléopâtre | Qu'on le couvre d'or! | à vérifier |  |  |
+| good-41.wav | Bonne | Astérix et Obélix: Mission Cléopâtre | Et ce carrelage là, il est pas magnifique? | à vérifier |  |  |
+| good-42.wav | Bonne | Astérix et Obélix: Mission Cléopâtre | Ca va être bien... bon bien sur faut imaginer! | à vérifier |  |  |
+| good-43.wav | Bonne | Le Dîner De Cons | Mais c'est épatant ça! | à vérifier |  |  |
+| good-44.wav | Bonne | La Classe Américaine | Absolument ! | à vérifier |  |  |
+| good-45.wav | Bonne | The Mask | Et bonjour la classe ! On va s’éclater ! Pourquoi ? Parce que j’ai une jeunesse de retard ! | à vérifier |  |  |
+| good-47.wav | Bonne | American Pie 2 | La force est toujours avec lui | à vérifier |  |  |
+| good-49.wav | Bonne | Minus et Cortex | La même chose que chaque nuit, Minus : tenter de conquérir le monde ! | à vérifier |  |  |
+| bad-41.wav | Mauvaise | Astérix et Obélix: Mission Cléopâtre | … Je vois pas en quoi c’est une bonne nouvelle, mais c’est ça. | à vérifier |  |  |
+| bad-42.wav | Mauvaise | Mais qui a tué Pamela Rose? | Attention, tu vas dire une connerie. | à vérifier |  |  |
+| bad-43.wav | Mauvaise | Mais qui a tué Pamela Rose? | J'ai l'impression que vous nous prenez pour des ploucs | à vérifier |  |  |
+| bad-44.wav | Mauvaise | La Classe Américaine | Ça ne va plus du tout… | à vérifier |  |  |
+| bad-46.wav | Mauvaise | American Pie 2 | Pourtant c'était bien parti | à vérifier |  |  |
+| bad-47.wav | Mauvaise | American Pie 2 | Ça va, mon grand ? — J’ai connu mieux. | à vérifier |  |  |
+| bad-48.wav | Mauvaise | Spiderman 1994 tv series | Tiens, y'a plus de gaz | à vérifier |  |  |
+| bad-49.wav | Mauvaise | Aladdin | Jafar, j'suis coincé! | à vérifier |  |  |
+| good-38.wav | Bonne | You Only Live Twice (1967) | Perfect. Cheers. — Cheers. | non |  |  |
+| good-39.wav | Bonne | The Man with the Golden Gun (1974) | Well done. Congratulations. | non |  |  |
+| good-11.wav | Bonne | Réactions courtes (voix humaines) | bravo | non |  |  |
+| good-04.wav | Bonne | Réactions courtes (voix humaines) | génial | non |  |  |
+| good-10.wav | Bonne | Réactions courtes (voix humaines) | super | non |  |  |
+| good-06.wav | Bonne | Réactions courtes (voix humaines) | exact | non |  |  |
+| bad-03.wav | Mauvaise | Réactions courtes (voix humaines) | faux | non |  |  |
+| bad-07.wav | Mauvaise | Réactions courtes (voix humaines) | raté | non |  |  |
+| bad-14.wav | Mauvaise | Réactions courtes (voix humaines) | dommage | non |  |  |
+| bad-09.wav | Mauvaise | Réactions courtes (voix humaines) | erreur | non |  |  |
+| bad-12.wav | Mauvaise | Réactions courtes (voix humaines) | non | non |  |  |
+| bad-11.wav | Mauvaise | Réactions courtes (voix humaines) | presque | non |  |  |

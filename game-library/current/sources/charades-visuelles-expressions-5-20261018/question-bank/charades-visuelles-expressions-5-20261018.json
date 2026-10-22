@@ -1,0 +1,89 @@
+{
+  "category": "Charades visuelles — Expressions françaises — 5 — Réponses écrites",
+  "subject": "Langue française",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-2aaa0498814f136c82ba",
+      "category": "Charades visuelles — Expressions françaises — 5 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Se mêler de ses oignons",
+        "Se mêler de ses ognons"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-38a71123621c32654b22",
+      "category": "Charades visuelles — Expressions françaises — 5 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Tiré à quatre épingles"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-0531502d8d08cf41b7d7",
+      "category": "Charades visuelles — Expressions françaises — 5 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Tomber dans les pommes"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-289a0cc9da01476f9ed8",
+      "category": "Charades visuelles — Expressions françaises — 5 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Tourner autour du pot"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-e4178502f717041ff02e",
+      "category": "Charades visuelles — Expressions françaises — 5 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Une faim de loup"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-98e3c04746731c950086",
+      "category": "Charades visuelles — Expressions françaises — 5 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-06.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Être haut comme trois pommes"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

@@ -154,5 +154,18 @@
     "credit": "Unknown sourceUnknown source",
     "changes": "Aucune modification ; miniature Wikimedia.",
     "originalPackage": "arts-buzzer-tableaux-celebres-20261011"
+  },
+  {
+    "slug": "starry-night",
+    "title": "The Starry Night",
+    "file": "starry-night.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Vincent_Van_Gogh_Starry_Night.jpg",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "artist": "Vincent van Gogh",
+    "license": "Public Domain Mark 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "credit": "Google Arts & Culture via Wikimedia Commons",
+    "changes": "Miniature Wikimedia de l’œuvre originale.",
+    "originalPackage": "arts-buzzer-selection-variee-20261012"
   }
 ]

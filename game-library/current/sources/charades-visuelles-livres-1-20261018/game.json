@@ -1,0 +1,15 @@
+{
+  "id": "charades-visuelles-livres-1-20261018",
+  "name": "Charades visuelles — Livres célèbres — 1 — Réponses écrites",
+  "description": "6 charades visuelles. 45 secondes ; 15 → 10 → 5 points. Réponses écrites, validées individuellement par l’hôte.",
+  "categoryPackages": [
+    "charades-visuelles-livres-1-20261018"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 15,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

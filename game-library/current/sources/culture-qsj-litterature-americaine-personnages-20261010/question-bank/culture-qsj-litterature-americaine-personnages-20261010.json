@@ -69,9 +69,10 @@
         "Je suis un récit d’Hemingway.",
         "Mon héros est un vieux pêcheur cubain.",
         "Il lutte contre un grand marlin.",
-        "Mon titre réunit le vieil homme et la mer."
+        "Ce roman publié en 1952 vaut à son auteur le prix Pulitzer en 1953."
       ],
       "acceptableAnswers": [
+        "Le Vieil Homme et la Mer (The Old Man and the Sea)",
         "The Old Man and the Sea",
         "Le Vieil Homme et la Mer"
       ]

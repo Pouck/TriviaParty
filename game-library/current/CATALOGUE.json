@@ -1791,7 +1791,7 @@
   },
   {
     "id": "lib-buzzer-devinettes-20261012",
-    "name": "Devinettes — Objets familiers — Buzzer",
+    "name": "Logique et énigmes — Déduction — Buzzer",
     "count": 5,
     "subject": "Logique et énigmes",
     "types": [
@@ -2559,7 +2559,7 @@
   },
   {
     "id": "lib-qcm-devinettes-20261012",
-    "name": "Devinettes — Objets familiers — QCM",
+    "name": "Logique et énigmes — Déduction — QCM",
     "count": 5,
     "subject": "Logique et énigmes",
     "types": [
@@ -3767,5 +3767,260 @@
       "test-08-speed-race"
     ],
     "seconds": 15
+  },
+  {
+    "id": "charades-visuelles-capitales-1-20261018",
+    "name": "Charades visuelles — Capitales — 1 — Buzzer",
+    "count": 7,
+    "subject": "Géographie",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 7,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-capitales-2-20261018",
+    "name": "Charades visuelles — Capitales — 2 — Réponses écrites",
+    "count": 7,
+    "subject": "Géographie",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 7,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-villes-1-20261018",
+    "name": "Charades visuelles — Grandes villes — Buzzer",
+    "count": 5,
+    "subject": "Géographie",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 5,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-objets-1-20261018",
+    "name": "Charades visuelles — Objets et choses du quotidien — 1 — Réponses écrites",
+    "count": 6,
+    "subject": "Logique et énigmes",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 6,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-objets-2-20261018",
+    "name": "Charades visuelles — Objets et choses du quotidien — 2 — Buzzer",
+    "count": 6,
+    "subject": "Logique et énigmes",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 6,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-expressions-1-20261018",
+    "name": "Charades visuelles — Expressions françaises — 1 — Réponses écrites",
+    "count": 7,
+    "subject": "Langue française",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 7,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-expressions-2-20261018",
+    "name": "Charades visuelles — Expressions françaises — 2 — Buzzer",
+    "count": 7,
+    "subject": "Langue française",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 7,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-expressions-3-20261018",
+    "name": "Charades visuelles — Expressions françaises — 3 — Réponses écrites",
+    "count": 7,
+    "subject": "Langue française",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 7,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-expressions-4-20261018",
+    "name": "Charades visuelles — Expressions françaises — 4 — Buzzer",
+    "count": 6,
+    "subject": "Langue française",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 6,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-expressions-5-20261018",
+    "name": "Charades visuelles — Expressions françaises — 5 — Réponses écrites",
+    "count": 6,
+    "subject": "Langue française",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 6,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-quebec-1-20261018",
+    "name": "Charades visuelles — Expressions et mots du Québec — 1 — Buzzer",
+    "count": 7,
+    "subject": "Langue française",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 7,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-quebec-2-20261018",
+    "name": "Charades visuelles — Expressions et mots du Québec — 2 — Réponses écrites",
+    "count": 7,
+    "subject": "Langue française",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 7,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-actions-1-20261018",
+    "name": "Charades visuelles — Actions et états — 1 — Buzzer",
+    "count": 5,
+    "subject": "Langue française",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 5,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-actions-2-20261018",
+    "name": "Charades visuelles — Actions et états — 2 — Réponses écrites",
+    "count": 5,
+    "subject": "Langue française",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 5,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-mots-1-20261018",
+    "name": "Charades visuelles — Mots et jeux de sons — Buzzer",
+    "count": 6,
+    "subject": "Logique et énigmes",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 6,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-livres-1-20261018",
+    "name": "Charades visuelles — Livres célèbres — 1 — Réponses écrites",
+    "count": 6,
+    "subject": "Littérature",
+    "types": [
+      "Réponses écrites"
+    ],
+    "test": false,
+    "images": 6,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
+  },
+  {
+    "id": "charades-visuelles-livres-2-20261018",
+    "name": "Charades visuelles — Livres célèbres — 2 — Buzzer",
+    "count": 5,
+    "subject": "Littérature",
+    "types": [
+      "Buzzer"
+    ],
+    "test": false,
+    "images": 5,
+    "sources": [
+      "visual-charades-20261018"
+    ],
+    "seconds": 45
   }
 ]

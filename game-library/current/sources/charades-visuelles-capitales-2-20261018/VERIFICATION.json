@@ -1,0 +1,79 @@
+[
+  {
+    "questionId": "cv-e449eb0ee7354fcb2d9c",
+    "sourceFilename": "oslo.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\oslo.png",
+    "sha256": "e449eb0ee7354fcb2d9cf1e9fa90dd1391e3e52bdcb954e7ba718f4d374f1f19",
+    "canonicalAnswer": "Oslo",
+    "acceptedVariants": [
+      "Oslo"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-43a038df00789764dc9e",
+    "sourceFilename": "riga.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\riga.png",
+    "sha256": "43a038df00789764dc9e57b67475e76d2d5c8d3f3a8c9e3354251c71375ad772",
+    "canonicalAnswer": "Riga",
+    "acceptedVariants": [
+      "Riga"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-72832d4d836bbf796a5b",
+    "sourceFilename": "san jose.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\san jose.png",
+    "sha256": "72832d4d836bbf796a5bb712f4b40019362c7371801216f358be6cd122bbdd21",
+    "canonicalAnswer": "San José",
+    "acceptedVariants": [
+      "San José"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-06c6e823c9aa112e23b9",
+    "sourceFilename": "singapore.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\singapore.png",
+    "sha256": "06c6e823c9aa112e23b93038f38e546edf5fa65f9b99a0df39aa4fed979b79f8",
+    "canonicalAnswer": "Singapour",
+    "acceptedVariants": [
+      "Singapour"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-55c8b932e2982da892a8",
+    "sourceFilename": "sucre.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\sucre.png",
+    "sha256": "55c8b932e2982da892a8c54b1553c78f8986a6608e43e52a7edf5ae5e0f39f01",
+    "canonicalAnswer": "Sucre",
+    "acceptedVariants": [
+      "Sucre"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-018df688ae482739d7bc",
+    "sourceFilename": "varsovie.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\varsovie.png",
+    "sha256": "018df688ae482739d7bccf07ad48ba073b3e7df47292176ecb524a921b984ebe",
+    "canonicalAnswer": "Varsovie",
+    "acceptedVariants": [
+      "Varsovie"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-354c48d6502bb8ccd12c",
+    "sourceFilename": "ottawa.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Capitales\\ottawa.png",
+    "sha256": "354c48d6502bb8ccd12c3585963c77bcc00d9adc8122711d28a980a6afad9ddd",
+    "canonicalAnswer": "Ottawa",
+    "acceptedVariants": [
+      "Ottawa"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

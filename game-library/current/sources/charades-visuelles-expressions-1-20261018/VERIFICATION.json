@@ -1,0 +1,79 @@
+[
+  {
+    "questionId": "cv-b8f2cd5cbe9598e7a50d",
+    "sourceFilename": "arrête ton char.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\arrête ton char.png",
+    "sha256": "b8f2cd5cbe9598e7a50da5b836e9d812ea219aca91356f9b5a69efe92fe7b0d4",
+    "canonicalAnswer": "Arrête ton char",
+    "acceptedVariants": [
+      "Arrête ton char"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-c8278757b3f2f229d373",
+    "sourceFilename": "avoir du coeur au ventre.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\avoir du coeur au ventre.png",
+    "sha256": "c8278757b3f2f229d3730e758959820060a4e49fe3bc6c4a5971c8fcc6c4b768",
+    "canonicalAnswer": "Avoir du cœur au ventre",
+    "acceptedVariants": [
+      "Avoir du cœur au ventre"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-a42ec85ee99dff5bddf9",
+    "sourceFilename": "avoir un chat dans la gorge.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\avoir un chat dans la gorge.png",
+    "sha256": "a42ec85ee99dff5bddf97f8e36b688b85b97e450832cc42227a686aeda44ec92",
+    "canonicalAnswer": "Avoir un chat dans la gorge",
+    "acceptedVariants": [
+      "Avoir un chat dans la gorge"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-1ad96fd52c7cff739ab3",
+    "sourceFilename": "bête comme ses pieds.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\bête comme ses pieds.png",
+    "sha256": "1ad96fd52c7cff739ab39011aaa73fc31ff3757a8600c366cb11c6e1d623db67",
+    "canonicalAnswer": "Bête comme ses pieds",
+    "acceptedVariants": [
+      "Bête comme ses pieds"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-faebce25259c5a549610",
+    "sourceFilename": "c'est pas la mer à boire.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\c'est pas la mer à boire.png",
+    "sha256": "faebce25259c5a549610fcb065cd0685caa7c827214e024de20a9c6f9ce86e62",
+    "canonicalAnswer": "C'est pas la mer à boire",
+    "acceptedVariants": [
+      "C'est pas la mer à boire"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-1e9af252692bd76186b0",
+    "sourceFilename": "couter les yeux de la tête.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\couter les yeux de la tête.png",
+    "sha256": "1e9af252692bd76186b0a69fcd9dbc4433225c84c129293fe6924cd6c9388a21",
+    "canonicalAnswer": "Coûter les yeux de la tête",
+    "acceptedVariants": [
+      "Coûter les yeux de la tête"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-ee734181403ffc795035",
+    "sourceFilename": "dévorer des yeux.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\dévorer des yeux.png",
+    "sha256": "ee734181403ffc7950350844158ac231e75a28ff5126920985a18e5150276181",
+    "canonicalAnswer": "Dévorer des yeux",
+    "acceptedVariants": [
+      "Dévorer des yeux"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

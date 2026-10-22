@@ -28,8 +28,7 @@
       "acceptableAnswers": [
         "Le loup"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-contes-francais-20261012/wolf.jpg"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-contes-francais-20261012-03",
@@ -43,8 +42,7 @@
         "Sa marraine",
         "La marraine"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-contes-francais-20261012/pumpkin.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-contes-francais-20261012-04",

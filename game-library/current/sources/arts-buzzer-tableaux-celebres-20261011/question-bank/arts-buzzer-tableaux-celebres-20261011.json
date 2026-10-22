@@ -32,7 +32,8 @@
         "Johannes Vermeer",
         "Vermeer"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/arts-buzzer-tableaux-celebres-20261011/girl-with-pearl.jpg"
     },
     {
       "id": "arts-buzzer-tableaux-celebres-20261011-03",
@@ -87,7 +88,8 @@
         "Velázquez",
         "Velazquez"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/arts-buzzer-tableaux-celebres-20261011/las-meninas.jpg"
     }
   ]
 }

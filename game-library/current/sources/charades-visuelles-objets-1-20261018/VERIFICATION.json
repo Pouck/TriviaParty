@@ -1,0 +1,69 @@
+[
+  {
+    "questionId": "cv-a36b60fd6c3412fe3e34",
+    "sourceFilename": "ordinateur.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\ordinateur.png",
+    "sha256": "a36b60fd6c3412fe3e34add698cfaab1a7b0d181830f5beafd41c2b6aa837eb2",
+    "canonicalAnswer": "Ordinateur",
+    "acceptedVariants": [
+      "Ordinateur"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-5c596e0d2df8e0f306a5",
+    "sourceFilename": "shampoing.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\shampoing.png",
+    "sha256": "5c596e0d2df8e0f306a58254d18d480e69ca66079429b8efda7099590f58b501",
+    "canonicalAnswer": "Shampoing",
+    "acceptedVariants": [
+      "Shampoing",
+      "Shampooing"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-8b60227f3c4fbbba16f9",
+    "sourceFilename": "arc-en-ciel.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\arc-en-ciel.png",
+    "sha256": "8b60227f3c4fbbba16f9acc80f7c2a355059251bc5ca9c4e2bac958543244742",
+    "canonicalAnswer": "Arc-en-ciel",
+    "acceptedVariants": [
+      "Arc-en-ciel"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-eafdd2b624636786db5a",
+    "sourceFilename": "ascenseur.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\ascenseur.png",
+    "sha256": "eafdd2b624636786db5af41196190358cfe5a3b74a3297d5866fb0413fe2021d",
+    "canonicalAnswer": "Ascenseur",
+    "acceptedVariants": [
+      "Ascenseur"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-9d132f4a1991a6237b7f",
+    "sourceFilename": "café au lait.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\café au lait.png",
+    "sha256": "9d132f4a1991a6237b7f928b5dde4903c7e0a0a814686dae10c624c47bfcddea",
+    "canonicalAnswer": "Café au lait",
+    "acceptedVariants": [
+      "Café au lait"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-43d27dba07626bdcaeac",
+    "sourceFilename": "caravane.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\caravane.png",
+    "sha256": "43d27dba07626bdcaeace165393e92dd0ae35d27411318a3e5591ef3eb46e4e3",
+    "canonicalAnswer": "Caravane",
+    "acceptedVariants": [
+      "Caravane"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

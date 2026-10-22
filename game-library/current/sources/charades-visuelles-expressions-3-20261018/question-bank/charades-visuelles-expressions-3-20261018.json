@@ -1,0 +1,103 @@
+{
+  "category": "Charades visuelles — Expressions françaises — 3 — Réponses écrites",
+  "subject": "Langue française",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-9ebc64eb1fb4204a1115",
+      "category": "Charades visuelles — Expressions françaises — 3 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Mettre les bouchées doubles"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-56bf9e66405630b3cf0b",
+      "category": "Charades visuelles — Expressions françaises — 3 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Mieux vaut rire que pleurer"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-df0760cc9755d49d600c",
+      "category": "Charades visuelles — Expressions françaises — 3 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Ne pas y aller par quatre chemins"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-cfd4ce48ec99c9d5376f",
+      "category": "Charades visuelles — Expressions françaises — 3 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Pas de quoi fouetter un chat"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-dec3f7d99aff21e05afd",
+      "category": "Charades visuelles — Expressions françaises — 3 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Avoir les yeux plus gros que le ventre",
+        "Les yeux plus gros que le ventre",
+        "Avoir de plus gros yeux que le ventre"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-a457200260d5f729c025",
+      "category": "Charades visuelles — Expressions françaises — 3 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-06.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Poser un lapin"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-9616bf96e1f809551a77",
+      "category": "Charades visuelles — Expressions françaises — 3 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-07.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Quand les poules auront des dents"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

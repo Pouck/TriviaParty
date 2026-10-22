@@ -28,8 +28,7 @@
       "acceptableAnswers": [
         "Obélix"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-bd-franco-belge-20261012/stone.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-bd-franco-belge-20261012-03",
@@ -41,8 +40,7 @@
       "acceptableAnswers": [
         "Jolly Jumper"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-bd-franco-belge-20261012/bd-character-03.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-bd-franco-belge-20261012-04",

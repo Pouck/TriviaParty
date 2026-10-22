@@ -3,6 +3,7 @@ package com.example.triviaparty.ui.host
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
+import androidx.compose.ui.Alignment
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
@@ -18,6 +19,10 @@ import coil.compose.AsyncImage
 import com.example.triviaparty.data.*
 import com.example.triviaparty.model.*
 import com.example.triviaparty.ui.player.components.OrderingView
+import com.example.triviaparty.cast.GoogleCastController
+import com.example.triviaparty.ui.cast.GoogleCastDeviceList
+import com.example.triviaparty.network.GameServer
+import com.example.triviaparty.util.NetworkUtils
 import java.io.File
 
 internal fun reviewAnswer(question: Question): String = when(question) {
@@ -30,7 +35,7 @@ internal fun reviewAnswer(question: Question): String = when(question) {
     is Question.SpeedRace -> reviewAnswer(question.subQuestion)
 }
 
-@Composable internal fun SoloReviewScreen(categories: List<String>, close: () -> Unit) {
+@Composable internal fun SoloReviewScreen(categories: List<String>, server: GameServer, googleCast: GoogleCastController, close: () -> Unit) {
     val context=LocalContext.current
     val store=remember { HostReviewStore(File(context.filesDir,"host-review.json")) }
     val questions=remember(categories) { categories.distinct().flatMap { QuestionBankRepository.getQuestionsForCategory(it) }
@@ -50,8 +55,22 @@ internal fun reviewAnswer(question: Question): String = when(question) {
     var error by remember { mutableStateOf<String?>(null) }
     val scroll=rememberScrollState()
     val tone=remember { android.media.ToneGenerator(android.media.AudioManager.STREAM_MUSIC,65) }
+    var showCastDialog by remember { mutableStateOf(false) }
+    val castStatus by googleCast.status.collectAsState()
     DisposableEffect(tone) { onDispose { tone.release() } }
+    DisposableEffect(googleCast) { onDispose { googleCast.clearReviewPreview() } }
+    LaunchedEffect(Unit) { server.start() }
     LaunchedEffect(question.id) { scroll.scrollTo(0) }
+    val reviewMode = QuestionBankRepository.getCategoryPackage(question.category)?.answerMode
+        ?: if(question is Question.GuessWho) CategoryAnswerMode.BUZZER else CategoryAnswerMode.SIMULTANEOUS
+    val preview = remember(question.id, clue, revealed, reviewMode, index) {
+        GameSession(roomId="review", hostIpAddress=NetworkUtils.getLocalIpAddress(), state=if(revealed) GameState.REVEAL_ANSWER else GameState.QUESTION_ACTIVE,
+            currentCategory=question.category, currentCategoryAnswerMode=reviewMode, currentCategoryQuestionTypes=listOf("Révision"),
+            currentCategoryQuestionCount=questions.size, availableCategories=listOf(question.category), currentQuestion=question,
+            currentFlipNumber=clue, roundNumber=index+1, totalRounds=questions.size,
+            timingConfig=HourglassConfig(secondsPerFlip=20, maxFlips=2, pointsDecayPerFlip=5))
+    }
+    LaunchedEffect(preview) { googleCast.showReviewPreview(preview) }
     fun judge(correct: Boolean) { result=correct; tone.startTone(if(correct) android.media.ToneGenerator.TONE_PROP_ACK else android.media.ToneGenerator.TONE_PROP_NACK,300) }
     fun save(): Boolean = runCatching {
         if(revealed && (comment.isNotBlank() || difficulty!=null || saved!=null)) store.saveReview(QuestionReview(question.id,question.category,
@@ -80,9 +99,12 @@ internal fun reviewAnswer(question: Question): String = when(question) {
     }
     MaterialTheme(colorScheme=darkColorScheme(primary=Color(0xFFFFD54F),onPrimary=Color(0xFF19191F),surface=Color(0xFF232333),onSurface=Color.White)) {
     Column(Modifier.fillMaxSize().background(Color(0xFF12121D)).padding(16.dp),verticalArrangement=Arrangement.spacedBy(12.dp)) {
-        Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween) {
+        Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween, verticalAlignment=Alignment.CenterVertically) {
             Text("Révision ${index+1}/${questions.size}",color=Color.White,fontSize=22.sp,fontWeight=FontWeight.Bold)
-            TextButton(onClick={ if(save()) close() }) { Text("Fermer") }
+            Row(verticalAlignment=Alignment.CenterVertically) {
+                TextButton(onClick={ showCastDialog=true }) { Text(if(castStatus.connected) "TV · Diffusion active" else "TV · Diffuser") }
+                TextButton(onClick={ if(save()) close() }) { Text("Fermer") }
+            }
         }
         Column(Modifier.weight(1f).verticalScroll(scroll),verticalArrangement=Arrangement.spacedBy(16.dp)) {
             Text(question.category,color=Color(0xFFFFD54F),fontSize=16.sp)
@@ -129,5 +151,16 @@ internal fun reviewAnswer(question: Question): String = when(question) {
             Text(if(index<questions.lastIndex) "Question suivante" else "Terminer la révision")
         }
     }
+    }
+    if (showCastDialog) {
+        DisposableEffect(googleCast) {
+            googleCast.startDiscovery()
+            onDispose { googleCast.stopDiscovery() }
+        }
+        AlertDialog(onDismissRequest={ showCastDialog=false }, title={ Text("Diffuser la révision") },
+            text={ Column(Modifier.heightIn(max=360.dp).verticalScroll(rememberScrollState())) {
+                Text("La question affichée sur le téléphone est envoyée au téléviseur. Révélez la réponse sur le téléphone quand vous êtes prêt.")
+                GoogleCastDeviceList(googleCast, scanning=true)
+            } }, confirmButton={ TextButton(onClick={ showCastDialog=false }) { Text("Fermer") } })
     }
 }

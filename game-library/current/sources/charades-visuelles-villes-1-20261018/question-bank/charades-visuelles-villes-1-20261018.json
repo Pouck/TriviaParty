@@ -1,0 +1,78 @@
+{
+  "category": "Charades visuelles — Grandes villes — Buzzer",
+  "subject": "Géographie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-ec113135139f48e7403e",
+      "category": "Charades visuelles — Grandes villes — Buzzer",
+      "prompt": "Quelle ville se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Delhi"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-29e0a7d15931d08b5d72",
+      "category": "Charades visuelles — Grandes villes — Buzzer",
+      "prompt": "Quelle ville se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Hô Chi Minh-Ville",
+        "Ho Chi Minh-Ville",
+        "Hô-Chi-Minh-Ville",
+        "Saïgon"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-9d609ca2a3dfe4d1d1aa",
+      "category": "Charades visuelles — Grandes villes — Buzzer",
+      "prompt": "Quelle ville se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Istanbul"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-06e7a66b72e72adec36c",
+      "category": "Charades visuelles — Grandes villes — Buzzer",
+      "prompt": "Quelle ville se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Los Angeles"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-5e756df6b09aafc18728",
+      "category": "Charades visuelles — Grandes villes — Buzzer",
+      "prompt": "Quelle ville se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Montréal"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

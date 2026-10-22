@@ -70,6 +70,7 @@ class GameServer(
     private val pendingPlayers = ConcurrentHashMap<WebSocketSession, GameEvent.JoinRoom>()
 
     private var reactionPicker = AnswerReactionPicker(privateReactions?.clips ?: com.example.triviaparty.model.ReactionCatalogue.clips)
+    private val endingSoundPicker = GameEndingSoundPicker()
     private val serverScope = CoroutineScope(Dispatchers.Default + SupervisorJob())
     private val clientMutationMutex = Mutex()
     private var broadcastJob: Job? = null
@@ -96,13 +97,25 @@ class GameServer(
             }
             routing {
                 get("/play") {
+                    call.response.headers.append("Cache-Control", "no-store, max-age=0")
                     call.respondText(readPlayerAsset?.invoke("index.html") ?: "Player page unavailable",
                         ContentType.Text.Html)
                 }
+                get("/play/sound-sampler") { call.respondText(readPlayerAsset?.invoke("sound-sampler.html") ?: "", ContentType.Text.Html) }
+                get("/play/sound-credits") { call.respondText(readPlayerAsset?.invoke("sound-credits.html") ?: "", ContentType.Text.Html) }
+                get("/play/sounds/{name}") {
+                    call.response.headers.append("Cache-Control", "no-store, max-age=0")
+                    val name = call.parameters["name"]?.removeSuffix(".mp3")
+                    val bytes = if (name in CategoryBuzzerSounds.ids) readTvBinaryAsset?.invoke("phone-sounds/$name.mp3") else null
+                    if (bytes == null) call.respondText("Not found", status = io.ktor.http.HttpStatusCode.NotFound)
+                    else call.respondBytes(bytes, ContentType("audio", "mpeg"))
+                }
                 get("/play/player.css") {
+                    call.response.headers.append("Cache-Control", "no-store, max-age=0")
                     call.respondText(readPlayerAsset?.invoke("player.css") ?: "", ContentType.Text.CSS)
                 }
                 get("/play/player.js") {
+                    call.response.headers.append("Cache-Control", "no-store, max-age=0")
                     call.respondText(readPlayerAsset?.invoke("player.js") ?: "", ContentType("application", "javascript"))
                 }
                 webSocket("/play/ws") {
@@ -187,6 +200,13 @@ class GameServer(
                     )
                 }
 
+                listOf("feedback-good.png", "feedback-bad.png", "feedback-red-stroke.png").forEach { name ->
+                    get("/tv/$name") {
+                        val bytes = readTvBinaryAsset?.invoke(name)
+                        if (bytes == null) call.respondText("Not found", status = io.ktor.http.HttpStatusCode.NotFound)
+                        else call.respondBytes(bytes, ContentType("image", "png"))
+                    }
+                }
                 get("/tv/hourglass.svg") {
                     call.respondText(readTvAsset?.invoke("hourglass.svg") ?: "", ContentType("image", "svg+xml"))
                 }
@@ -196,7 +216,12 @@ class GameServer(
                     }
                 }
                 get("/tv/audio-credits") {
-                    call.respondText(privateReactions?.credits() ?: readTvAsset?.invoke("audio-credits.html") ?: "Audio credits unavailable", ContentType.Text.Html)
+                    val credits = privateReactions?.credits() ?: readTvAsset?.invoke("audio-credits.html") ?: "Audio credits unavailable"
+                    call.respondText(credits.replace("</html>", "<p><a href=\"/tv/winner-music-credits\">Musiques de fin de partie</a></p></html>"), ContentType.Text.Html)
+                }
+
+                get("/tv/winner-music-credits") {
+                    call.respondText(readTvAsset?.invoke("winner-music-credits.html") ?: "",ContentType.Text.Html)
                 }
 
                 get("/tv/sounds/{name}") {
@@ -425,28 +450,10 @@ class GameServer(
             return
         }
         if (question.isOralBuzzerQuestion() || (event.answer as? AnswerValue.TextSelection)?.text == "BUZZ") {
-            if (event.teamId in currentSession.textBuzzedTeamIds) return
-            if (currentSession.submissions.values.any {
-                    it.isLocked && it.questionId == question.id && it.isCorrect != false && it.isBuzz()
-                }) return
-            val buzz = AnswerValue.TextSelection("BUZZ")
-            val newSub = AnswerSubmission(
-                teamId = event.teamId,
-                questionId = question.id,
-                answer = buzz,
-                isLocked = true,
-                timestamp = System.currentTimeMillis(),
-                flipNumberWhenLocked = currentSession.currentFlipNumber,
-                elapsedSecondsInFlipWhenLocked = currentSession.elapsedSecondsInFlip
-            )
-            _gameSession.value = currentSession.copy(
-                submissions = currentSession.submissions + (event.teamId to newSub),
-                buzzerSoundId = currentSession.buzzerSoundId + 1,
-                answerTimerTeamId = event.teamId,
-                answerTimerRemainingSeconds = null,
-                answerTimerRunning = false
-            )
-            broadcastBuzzerCue(_gameSession.value)
+            val updated = currentSession.recordBuzz(event.teamId, System.currentTimeMillis())
+            if (updated == currentSession) return
+            _gameSession.value = updated
+            if (updated.buzzerSoundId != currentSession.buzzerSoundId) broadcastBuzzerCue(updated)
             startTextAnswerTimer()
             broadcastState()
             return
@@ -521,6 +528,7 @@ class GameServer(
             roomId = freshRoomId,
             subjectVoting=voting,
             answerSoundId=0,answerSound=null,answerSoundClip=null,buzzerSoundId=0,
+            gameEndSoundClip=endingSoundPicker.choose(),
             state = GameState.LOBBY,
             categoryWagerQuestionId = null,
             categoryWagerLimits = emptyMap(),
@@ -544,7 +552,7 @@ class GameServer(
             currentFlipNumber = 0,
             elapsedSecondsInFlip = 0,
             submissions = emptyMap(),
-            textBuzzedTeamIds = emptyList(),
+            textBuzzedTeamIds = emptyList(), buzzQueue = emptyList(),
             answerTimerTeamId = null,
             answerTimerRemainingSeconds = null,
             answerTimerRunning = false,
@@ -610,7 +618,7 @@ class GameServer(
         _gameSession.value=current.copy(state=GameState.CATEGORY_SELECT,currentCategory=null,currentQuestion=null,
             retiredCategories=(current.retiredCategories+event.category).distinct(),totalRounds=(current.totalRounds-remaining).coerceAtLeast(current.playedQuestionIds.size),
             submissions=emptyMap(),validatedWrittenTeamId=null,questionReading=false,readyTeamIds=emptyList(),timerPaused=false,
-            answerTimerTeamId=null,answerTimerRemainingSeconds=null,answerTimerRunning=false,textBuzzedTeamIds=emptyList(),
+            answerTimerTeamId=null,answerTimerRemainingSeconds=null,answerTimerRunning=false,textBuzzedTeamIds=emptyList(),buzzQueue=emptyList(),
             categoryWagerQuestionId=null,categoryWagers=emptyMap(),categoryWagerLimits=emptyMap(),categoryWagerResults=emptyList(),categoryWagerSettled=false,categoryWagerResultsShown=false)
         handleHostBeginCategorySelect()
     }
@@ -757,7 +765,7 @@ class GameServer(
             currentFlipNumber = 0,
             elapsedSecondsInFlip = 0,
             submissions = emptyMap(),
-            textBuzzedTeamIds = emptyList(),
+            textBuzzedTeamIds = emptyList(), buzzQueue = emptyList(),
             answerTimerTeamId = null,
             answerTimerRemainingSeconds = null,
             answerTimerRunning = false,
@@ -808,7 +816,8 @@ class GameServer(
             questionReading = false,
             readyTeamIds = if(nextClue) emptyList() else session.readyTeamIds,
             submissions = if (nextClue) session.submissions.filterValues { it.isCorrect != false } else session.submissions,
-            textBuzzedTeamIds = if (nextClue) emptyList() else session.textBuzzedTeamIds)
+            textBuzzedTeamIds = if (nextClue) emptyList() else session.textBuzzedTeamIds,
+            buzzQueue = if (nextClue) emptyList() else session.buzzQueue)
         broadcastState()
         return true
     }
@@ -873,7 +882,7 @@ class GameServer(
         val correct=current.submissions.values.any { it.questionId==question.id && it.isCorrect==true }
         if(question is Question.GuessWho && !correct && current.currentFlipNumber<current.timingConfig.maxFlips) {
             _gameSession.value=current.copy(state=GameState.QUESTION_ACTIVE,currentFlipNumber=current.currentFlipNumber+1,
-                elapsedSecondsInFlip=0,questionReading=false,readyTeamIds=emptyList(),submissions=emptyMap(),textBuzzedTeamIds=emptyList())
+                elapsedSecondsInFlip=0,questionReading=false,readyTeamIds=emptyList(),submissions=emptyMap(),textBuzzedTeamIds=emptyList(),buzzQueue=emptyList())
             startTimer(current.timingConfig)
         } else _gameSession.value=current.copy(state=GameState.REVEAL_ANSWER).settleCategoryWagers()
         broadcastState()
@@ -916,9 +925,12 @@ class GameServer(
                         val submission = current.submissions[selected.teamId]
                             ?.takeIf { it.isLocked && it.questionId == question.id && it.isCorrect != false && it.isBuzz() }
                             ?: return@launch
-                        _gameSession.value = current.rejectOralAnswer(selected.teamId).copy(answerTimerRemainingSeconds=0)
+                        _gameSession.value = current.rejectOralAnswer(selected.teamId).advanceBuzzQueue().let {
+                            if (it.answerTimerTeamId == null) it.copy(answerTimerRemainingSeconds = 0) else it
+                        }
+                        startTextAnswerTimer()
                         broadcastState()
-                        if (hasPointsTimerExpired(_gameSession.value)) evaluateQuestionScoresAndReveal()
+                        if (!_gameSession.value.answerTimerRunning && hasPointsTimerExpired(_gameSession.value)) evaluateQuestionScoresAndReveal()
                         return@launch
                     }
                 }
@@ -1052,6 +1064,7 @@ class GameServer(
             .count { it.id !in currentSession.playedQuestionIds }
         _gameSession.value = currentSession.copy(
             state = GameState.CATEGORY_INTRO,
+            categoryBuzzerSound = CategoryBuzzerSounds.choose(currentSession.categoryBuzzerSound),
             categoryWagerQuestionId = null,
             categoryWagerLimits = emptyMap(),
             categoryWagers = emptyMap(),
@@ -1070,7 +1083,7 @@ class GameServer(
             currentFlipNumber = 0,
             elapsedSecondsInFlip = 0,
             submissions = emptyMap(),
-            textBuzzedTeamIds = emptyList(),
+            textBuzzedTeamIds = emptyList(), buzzQueue = emptyList(),
             answerTimerTeamId = null,
             answerTimerRemainingSeconds = null,
             answerTimerRunning = false
@@ -1124,6 +1137,7 @@ class GameServer(
         if(session.currentCategoryAnswerMode==CategoryAnswerMode.WRITTEN) return
         val question = session.currentQuestion ?: return
         if (session.state != GameState.QUESTION_ACTIVE) return
+        if (session.answerTimerTeamId != event.teamId) return
         val submission = session.submissions[event.teamId]?.takeIf { it.isLocked && it.questionId == question.id && it.isCorrect != false && it.isBuzz() } ?: return
 
         if (event.correct) {
@@ -1147,8 +1161,10 @@ class GameServer(
             ).settleCategoryWagers()
         } else {
             stopAnswerTimer()
-            val rejected = session.rejectOralAnswer(event.teamId)
+            val rejected = session.rejectOralAnswer(event.teamId).advanceBuzzQueue()
             _gameSession.value = rejected
+            startTextAnswerTimer()
+            if (rejected.answerTimerTeamId != null) { broadcastState(); return }
             if (hasPointsTimerExpired(rejected)) {
                 evaluateQuestionScoresAndReveal()
                 return

@@ -1,0 +1,79 @@
+[
+  {
+    "questionId": "cv-ad4a223ddabafb647924",
+    "sourceFilename": "filer à l'anglaise.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\filer à l'anglaise.png",
+    "sha256": "ad4a223ddabafb647924d3b93580328e4b1aa7eab5bd39f763f052de0072380f",
+    "canonicalAnswer": "Filer à l'anglaise",
+    "acceptedVariants": [
+      "Filer à l'anglaise"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-692ec6b38cc69020a765",
+    "sourceFilename": "jeter un oeil.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\jeter un oeil.png",
+    "sha256": "692ec6b38cc69020a7650edd081c08b91b9834628af1f18e7a94fb8975498bc6",
+    "canonicalAnswer": "Jeter un œil",
+    "acceptedVariants": [
+      "Jeter un œil"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-e5702cb32eaef875a38c",
+    "sourceFilename": "l'habit ne fait pas le moine.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\l'habit ne fait pas le moine.png",
+    "sha256": "e5702cb32eaef875a38cb3f9d80ae547211f51f219cb34d794e3b2930cfc8503",
+    "canonicalAnswer": "L'habit ne fait pas le moine",
+    "acceptedVariants": [
+      "L'habit ne fait pas le moine"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-05d4b732c5ceb009c7f1",
+    "sourceFilename": "la goutte qui fait déborder le vase.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\la goutte qui fait déborder le vase.png",
+    "sha256": "05d4b732c5ceb009c7f1888d4b7a2dcd549ab7ad622099a413b8c448984ffd89",
+    "canonicalAnswer": "La goutte qui fait déborder le vase",
+    "acceptedVariants": [
+      "La goutte qui fait déborder le vase"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-a1e24aa0ae8105d5d84e",
+    "sourceFilename": "laver son linge sale en famille.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\laver son linge sale en famille.png",
+    "sha256": "a1e24aa0ae8105d5d84edbdd69acb570761e40565eb8a0be915a9652f5c70655",
+    "canonicalAnswer": "Laver son linge sale en famille",
+    "acceptedVariants": [
+      "Laver son linge sale en famille"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-ceb85ea1076e6643be54",
+    "sourceFilename": "le jeu en vaut la chandelle.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\le jeu en vaut la chandelle.png",
+    "sha256": "ceb85ea1076e6643be5491afe6e302cb3dc85f4331f53c9ec24f4df5ede66d39",
+    "canonicalAnswer": "Le jeu en vaut la chandelle",
+    "acceptedVariants": [
+      "Le jeu en vaut la chandelle"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-53c96a7d2394c38cde58",
+    "sourceFilename": "le silence est d'or.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\le silence est d'or.png",
+    "sha256": "53c96a7d2394c38cde584c6b873be4fde1ea22db12da47f900c33d2801eef972",
+    "canonicalAnswer": "Le silence est d'or",
+    "acceptedVariants": [
+      "Le silence est d'or"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

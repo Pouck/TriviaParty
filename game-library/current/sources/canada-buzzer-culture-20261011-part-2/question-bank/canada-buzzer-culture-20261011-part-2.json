@@ -45,9 +45,11 @@
       "category": "Canada — Culture et institutions — Buzzer — 2",
       "basePoints": 15,
       "penaltyPoints": 0,
-      "prompt": "Quel ensemble d’édifices d’Ottawa abrite le Parlement fédéral ?",
+      "prompt": "Au Parlement fédéral du Canada, quelle institution constitue la chambre haute ?",
       "acceptableAnswers": [
-        "Les édifices du Parlement, sur la colline du Parlement"
+        "Le Sénat du Canada",
+        "Le Sénat",
+        "Sénat du Canada"
       ]
     },
     {

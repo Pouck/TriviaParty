@@ -1,0 +1,22 @@
+from pathlib import Path
+import json,shutil,unicodedata,re
+R=Path.cwd();root=R/'package-examples/visual-charades-2026-10-18';root.mkdir(exist_ok=True)
+rows=json.loads((R/'build/visual-charades-20261018/inventory.json').read_text(encoding='utf8'))
+fix={1:'Amsterdam',2:'Andorre-la-Vieille',3:'Beyrouth',4:'Bissau',5:'Bucarest',6:'Caracas',7:'Delhi',8:'Hô Chi Minh-Ville',9:'Istanbul',10:'Lisbonne',11:'Los Angeles',12:'Montréal',13:'Ordinateur',14:'Oslo',15:'Riga',16:'San José',17:'Shampoing',18:'Singapour',19:'Sucre',20:'Varsovie',23:'Grand Prix de Formule 1',24:'Mississippi',29:'Avoir du cœur au ventre',33:'Coûter les yeux de la tête',36:'Jeter un œil',46:'Avoir les yeux plus gros que le ventre',49:'Qui dort dîne',55:'Se mêler de ses oignons',68:'Sacrer son camp',71:'Tire-toi une bûche',90:'Ottawa',111:'David Copperfield',112:'L’Appel de la forêt',113:'L’Odyssée',114:'Le Décaméron',115:'Le Meilleur des mondes',116:'Les Mille et Une Nuits',117:'Les Misérables',118:'Les Quatre Filles du docteur March',119:'Orgueil et Préjugés',120:'Pour qui sonne le glas',121:'À la recherche du temps perdu'}
+variants={8:['Ho Chi Minh-Ville','Hô-Chi-Minh-Ville','Saïgon'],17:['Shampooing'],23:['Grand Prix de F1','Grand Prix de formule un'],46:['Les yeux plus gros que le ventre','Avoir de plus gros yeux que le ventre'],55:['Se mêler de ses ognons'],64:['Ne lâche pas la patate'],66:['Mouiller à seaux'],69:['Se dorer la couenne'],71:['Tire-toi une bûche','Tire-toi une buche'],116:['Mille et Une Nuits'],118:['Les Quatre Filles du Dr March']}
+groups=[('capitales','Capitales','Géographie',[1,2,3,4,5,6,10,14,15,16,18,19,20,90]),('villes','Grandes villes','Géographie',[7,8,9,11,12]),('objets','Objets et choses du quotidien','Logique et énigmes',[13,17,*range(101,111)]),('expressions','Expressions françaises','Langue française',list(range(28,61))),('quebec','Expressions et mots du Québec','Langue française',list(range(61,75))),('actions','Actions et états','Langue française',[21,*range(122,131)]),('mots','Mots et jeux de sons','Logique et énigmes',list(range(22,28))),('livres','Livres célèbres','Littérature',list(range(111,122)))]
+by={r['number']:r for r in rows};packages=[];used=set();global_index=0
+for slug,title,subject,nums in groups:
+ count=(len(nums)+6)//7;size,remainder=divmod(len(nums),count);offset=0
+ for i in range(count):
+  ids=nums[offset:offset+size+(i<remainder)];offset+=len(ids);assert 5<=len(ids)<=7
+  mode='BUZZER' if global_index%2==0 else 'WRITTEN';global_index+=1
+  pid=f'charades-visuelles-{slug}-{i+1}-20261018';name=f'Charades visuelles — {title}'+(f' — {i+1}' if count>1 else '')+' — '+('Buzzer' if mode=='BUZZER' else 'Réponses écrites');questions=[]
+  for num in ids:
+   r=by[num];assert not r['existing'] and num not in used;used.add(num)
+   answer=fix.get(num,r['name'][0].upper()+r['name'][1:]);dest=root/'assets'/f'{r["sha256"]}.png';dest.parent.mkdir(exist_ok=True);shutil.copyfile(r['path'],dest)
+   questions.append(dict(id='cv-'+r['sha256'][:20],answer=answer,acceptableAnswers=list(dict.fromkeys([answer,*variants.get(num,[])])),asset='assets/'+dest.name,originalPath=r['path'],originalFilename=Path(r['path']).name,sha256=r['sha256'],prompt={'capitales':'Quelle capitale se cache dans cette charade visuelle ?','villes':'Quelle ville se cache dans cette charade visuelle ?','objets':'Quel objet ou quelle chose se cache dans cette charade visuelle ?','expressions':'Quelle expression se cache dans cette image ?','quebec':'Quel mot ou quelle expression du Québec se cache dans cette image ?','actions':'Quel mot se cache dans cette charade visuelle ?','mots':'Quel mot ou groupe de mots se cache dans cette charade visuelle ?','livres':'Quel titre de livre se cache dans cette charade visuelle ?'}[slug]))
+  packages.append(dict(id=pid,name=name,subject=subject,answerMode=mode,questions=questions))
+assert len(used)==105 and used=={r['number'] for r in rows if not r['existing']}
+(root/'authoring.json').write_text(json.dumps(dict(packages=packages,skipped=[r for r in rows if r['existing']],spellingSources=['https://data.bnf.fr/fr/documents-by-rdt/13327791/a/page1','https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8975792/shampoing','https://www.dictionnaire-academie.fr/article/A8D1880','https://www.diplomatie.gouv.fr/IMG/pdf/espace_indopacifique_2025_web_cle81a118.pdf','https://www.larousse.fr/encyclopedie/riviere-lac/Mississippi/133409']),ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+print('Authored',len(packages),'packages',len(used),'questions')

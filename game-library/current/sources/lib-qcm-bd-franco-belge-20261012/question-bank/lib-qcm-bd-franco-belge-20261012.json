@@ -19,8 +19,7 @@
         "C — Lucky Luke",
         "D — Tintin"
       ],
-      "correctOptionIndex": 3,
-      "imageUrl": "images/lib-qcm-bd-franco-belge-20261012/moon.jpg"
+      "correctOptionIndex": 3
     },
     {
       "id": "lib-qcm-bd-franco-belge-20261012-02",
@@ -65,8 +64,7 @@
         "C — Les Schtroumpfs",
         "D — Les Barbapapa"
       ],
-      "correctOptionIndex": 2,
-      "imageUrl": "images/lib-qcm-bd-franco-belge-20261012/mushroom.jpg"
+      "correctOptionIndex": 2
     },
     {
       "id": "lib-qcm-bd-franco-belge-20261012-05",

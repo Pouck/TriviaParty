@@ -1,0 +1,103 @@
+{
+  "category": "Charades visuelles — Expressions et mots du Québec — 1 — Buzzer",
+  "subject": "Langue française",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-3b845dab1de18a77db0d",
+      "category": "Charades visuelles — Expressions et mots du Québec — 1 — Buzzer",
+      "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Avoir les deux pieds dans la même bottine"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-6da0d69d61d424d23b98",
+      "category": "Charades visuelles — Expressions et mots du Québec — 1 — Buzzer",
+      "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Capoté"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-82899bb9b05da9f96d50",
+      "category": "Charades visuelles — Expressions et mots du Québec — 1 — Buzzer",
+      "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Dispendieux"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-8c153458f93bd3fdcaaa",
+      "category": "Charades visuelles — Expressions et mots du Québec — 1 — Buzzer",
+      "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Lâche pas la patate",
+        "Ne lâche pas la patate"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-5c6801fc275d0939d9ab",
+      "category": "Charades visuelles — Expressions et mots du Québec — 1 — Buzzer",
+      "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Magané"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-4e680558a0613bbee073",
+      "category": "Charades visuelles — Expressions et mots du Québec — 1 — Buzzer",
+      "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?",
+      "imageUrl": "images/charade-06.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Mouiller à siaux",
+        "Mouiller à seaux"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-4e73309938eda293f6af",
+      "category": "Charades visuelles — Expressions et mots du Québec — 1 — Buzzer",
+      "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?",
+      "imageUrl": "images/charade-07.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Pas de chicanes dans la cabane"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

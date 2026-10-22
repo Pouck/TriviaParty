@@ -17,8 +17,7 @@
         "La Tarasque",
         "Tarasque"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-legendes-france-20261012/dragon.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-legendes-france-20261012-02",
@@ -30,8 +29,7 @@
       "acceptableAnswers": [
         "Ys"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-legendes-france-20261012/sea.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-legendes-france-20261012-03",
@@ -51,7 +49,7 @@
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "textAnswer",
-      "prompt": "Quelle bête terrorise le Gévaudan au XVIIIe siècle ?",
+      "prompt": "Quelle créature énigmatique aurait attaqué des habitants du Gévaudan entre 1764 et 1767 ?",
       "acceptableAnswers": [
         "La Bête du Gévaudan",
         "Bête du Gévaudan"

@@ -1,0 +1,101 @@
+{
+  "category": "Charades visuelles — Expressions françaises — 1 — Réponses écrites",
+  "subject": "Langue française",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-b8f2cd5cbe9598e7a50d",
+      "category": "Charades visuelles — Expressions françaises — 1 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Arrête ton char"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-c8278757b3f2f229d373",
+      "category": "Charades visuelles — Expressions françaises — 1 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Avoir du cœur au ventre"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-a42ec85ee99dff5bddf9",
+      "category": "Charades visuelles — Expressions françaises — 1 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Avoir un chat dans la gorge"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-1ad96fd52c7cff739ab3",
+      "category": "Charades visuelles — Expressions françaises — 1 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Bête comme ses pieds"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-faebce25259c5a549610",
+      "category": "Charades visuelles — Expressions françaises — 1 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "C'est pas la mer à boire"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-1e9af252692bd76186b0",
+      "category": "Charades visuelles — Expressions françaises — 1 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-06.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Coûter les yeux de la tête"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-ee734181403ffc795035",
+      "category": "Charades visuelles — Expressions françaises — 1 — Réponses écrites",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-07.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Dévorer des yeux"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

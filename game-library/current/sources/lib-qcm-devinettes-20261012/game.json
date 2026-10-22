@@ -1,6 +1,6 @@
 {
   "id": "lib-qcm-devinettes-20261012",
-  "name": "Devinettes — Objets familiers — QCM",
+  "name": "Logique et énigmes — Déduction — QCM",
   "description": "5 questions en français. 15 points au départ ; −1 point par seconde. Sablier unique de 15 secondes.",
   "categoryPackages": [
     "lib-qcm-devinettes-20261012"

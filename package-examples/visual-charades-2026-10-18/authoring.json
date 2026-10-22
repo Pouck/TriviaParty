@@ -1,0 +1,1624 @@
+{
+  "packages": [
+    {
+      "id": "charades-visuelles-capitales-1-20261018",
+      "name": "Charades visuelles — Capitales — 1 — Buzzer",
+      "subject": "Géographie",
+      "answerMode": "BUZZER",
+      "questions": [
+        {
+          "id": "cv-ada93756031c3d824af2",
+          "answer": "Amsterdam",
+          "acceptableAnswers": [
+            "Amsterdam"
+          ],
+          "asset": "assets/ada93756031c3d824af28e9b9086c617be0052ad128f8ef5aee9fbde955096b4.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\amsterdam.png",
+          "originalFilename": "amsterdam.png",
+          "sha256": "ada93756031c3d824af28e9b9086c617be0052ad128f8ef5aee9fbde955096b4",
+          "prompt": "Quelle capitale se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-2fe9503a13bf6db5a307",
+          "answer": "Andorre-la-Vieille",
+          "acceptableAnswers": [
+            "Andorre-la-Vieille"
+          ],
+          "asset": "assets/2fe9503a13bf6db5a307a6e5fdff52672cc3cccc62648febc616dc35bf130b48.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\andorre-la-vieille.png",
+          "originalFilename": "andorre-la-vieille.png",
+          "sha256": "2fe9503a13bf6db5a307a6e5fdff52672cc3cccc62648febc616dc35bf130b48",
+          "prompt": "Quelle capitale se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-01b64189910bb3994d8b",
+          "answer": "Beyrouth",
+          "acceptableAnswers": [
+            "Beyrouth"
+          ],
+          "asset": "assets/01b64189910bb3994d8ba646a364630a6a07a4da9cd3d1485ebbc0cb3d344d9b.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\beyrouth.png",
+          "originalFilename": "beyrouth.png",
+          "sha256": "01b64189910bb3994d8ba646a364630a6a07a4da9cd3d1485ebbc0cb3d344d9b",
+          "prompt": "Quelle capitale se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-ef650b1ee52e95ab26c1",
+          "answer": "Bissau",
+          "acceptableAnswers": [
+            "Bissau"
+          ],
+          "asset": "assets/ef650b1ee52e95ab26c19e207ddfc7971e0fce50aa111dd17906af963cbe398a.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\bissau.png",
+          "originalFilename": "bissau.png",
+          "sha256": "ef650b1ee52e95ab26c19e207ddfc7971e0fce50aa111dd17906af963cbe398a",
+          "prompt": "Quelle capitale se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-6281db1d7b06098e1670",
+          "answer": "Bucarest",
+          "acceptableAnswers": [
+            "Bucarest"
+          ],
+          "asset": "assets/6281db1d7b06098e1670018f06527656a804ee1106e949379955a104306cecce.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\bucarest.png",
+          "originalFilename": "bucarest.png",
+          "sha256": "6281db1d7b06098e1670018f06527656a804ee1106e949379955a104306cecce",
+          "prompt": "Quelle capitale se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-f1fdea3e105990e0bd60",
+          "answer": "Caracas",
+          "acceptableAnswers": [
+            "Caracas"
+          ],
+          "asset": "assets/f1fdea3e105990e0bd6014d74a32b7a3a5bc83569ca4ad15e3aa673a48cc7669.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\caracas.png",
+          "originalFilename": "caracas.png",
+          "sha256": "f1fdea3e105990e0bd6014d74a32b7a3a5bc83569ca4ad15e3aa673a48cc7669",
+          "prompt": "Quelle capitale se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-37aec070cf6f4251396f",
+          "answer": "Lisbonne",
+          "acceptableAnswers": [
+            "Lisbonne"
+          ],
+          "asset": "assets/37aec070cf6f4251396f3b12496a25b4de425359e587487a98c62efa29b091a4.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\lisbonne.png",
+          "originalFilename": "lisbonne.png",
+          "sha256": "37aec070cf6f4251396f3b12496a25b4de425359e587487a98c62efa29b091a4",
+          "prompt": "Quelle capitale se cache dans cette charade visuelle ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-capitales-2-20261018",
+      "name": "Charades visuelles — Capitales — 2 — Réponses écrites",
+      "subject": "Géographie",
+      "answerMode": "WRITTEN",
+      "questions": [
+        {
+          "id": "cv-e449eb0ee7354fcb2d9c",
+          "answer": "Oslo",
+          "acceptableAnswers": [
+            "Oslo"
+          ],
+          "asset": "assets/e449eb0ee7354fcb2d9cf1e9fa90dd1391e3e52bdcb954e7ba718f4d374f1f19.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\oslo.png",
+          "originalFilename": "oslo.png",
+          "sha256": "e449eb0ee7354fcb2d9cf1e9fa90dd1391e3e52bdcb954e7ba718f4d374f1f19",
+          "prompt": "Quelle capitale se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-43a038df00789764dc9e",
+          "answer": "Riga",
+          "acceptableAnswers": [
+            "Riga"
+          ],
+          "asset": "assets/43a038df00789764dc9e57b67475e76d2d5c8d3f3a8c9e3354251c71375ad772.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\riga.png",
+          "originalFilename": "riga.png",
+          "sha256": "43a038df00789764dc9e57b67475e76d2d5c8d3f3a8c9e3354251c71375ad772",
+          "prompt": "Quelle capitale se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-72832d4d836bbf796a5b",
+          "answer": "San José",
+          "acceptableAnswers": [
+            "San José"
+          ],
+          "asset": "assets/72832d4d836bbf796a5bb712f4b40019362c7371801216f358be6cd122bbdd21.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\san jose.png",
+          "originalFilename": "san jose.png",
+          "sha256": "72832d4d836bbf796a5bb712f4b40019362c7371801216f358be6cd122bbdd21",
+          "prompt": "Quelle capitale se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-06c6e823c9aa112e23b9",
+          "answer": "Singapour",
+          "acceptableAnswers": [
+            "Singapour"
+          ],
+          "asset": "assets/06c6e823c9aa112e23b93038f38e546edf5fa65f9b99a0df39aa4fed979b79f8.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\singapore.png",
+          "originalFilename": "singapore.png",
+          "sha256": "06c6e823c9aa112e23b93038f38e546edf5fa65f9b99a0df39aa4fed979b79f8",
+          "prompt": "Quelle capitale se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-55c8b932e2982da892a8",
+          "answer": "Sucre",
+          "acceptableAnswers": [
+            "Sucre"
+          ],
+          "asset": "assets/55c8b932e2982da892a8c54b1553c78f8986a6608e43e52a7edf5ae5e0f39f01.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\sucre.png",
+          "originalFilename": "sucre.png",
+          "sha256": "55c8b932e2982da892a8c54b1553c78f8986a6608e43e52a7edf5ae5e0f39f01",
+          "prompt": "Quelle capitale se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-018df688ae482739d7bc",
+          "answer": "Varsovie",
+          "acceptableAnswers": [
+            "Varsovie"
+          ],
+          "asset": "assets/018df688ae482739d7bccf07ad48ba073b3e7df47292176ecb524a921b984ebe.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\varsovie.png",
+          "originalFilename": "varsovie.png",
+          "sha256": "018df688ae482739d7bccf07ad48ba073b3e7df47292176ecb524a921b984ebe",
+          "prompt": "Quelle capitale se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-354c48d6502bb8ccd12c",
+          "answer": "Ottawa",
+          "acceptableAnswers": [
+            "Ottawa"
+          ],
+          "asset": "assets/354c48d6502bb8ccd12c3585963c77bcc00d9adc8122711d28a980a6afad9ddd.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Capitales\\ottawa.png",
+          "originalFilename": "ottawa.png",
+          "sha256": "354c48d6502bb8ccd12c3585963c77bcc00d9adc8122711d28a980a6afad9ddd",
+          "prompt": "Quelle capitale se cache dans cette charade visuelle ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-villes-1-20261018",
+      "name": "Charades visuelles — Grandes villes — Buzzer",
+      "subject": "Géographie",
+      "answerMode": "BUZZER",
+      "questions": [
+        {
+          "id": "cv-ec113135139f48e7403e",
+          "answer": "Delhi",
+          "acceptableAnswers": [
+            "Delhi"
+          ],
+          "asset": "assets/ec113135139f48e7403e8cd2094e5774c8943321ba49b4e2d89b876948fbee8d.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\délhi.png",
+          "originalFilename": "délhi.png",
+          "sha256": "ec113135139f48e7403e8cd2094e5774c8943321ba49b4e2d89b876948fbee8d",
+          "prompt": "Quelle ville se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-29e0a7d15931d08b5d72",
+          "answer": "Hô Chi Minh-Ville",
+          "acceptableAnswers": [
+            "Hô Chi Minh-Ville",
+            "Ho Chi Minh-Ville",
+            "Hô-Chi-Minh-Ville",
+            "Saïgon"
+          ],
+          "asset": "assets/29e0a7d15931d08b5d725d56425686ea7d09c3bf05c8c7cb0e5e1a664510ca0e.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\ho chi minh city.png",
+          "originalFilename": "ho chi minh city.png",
+          "sha256": "29e0a7d15931d08b5d725d56425686ea7d09c3bf05c8c7cb0e5e1a664510ca0e",
+          "prompt": "Quelle ville se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-9d609ca2a3dfe4d1d1aa",
+          "answer": "Istanbul",
+          "acceptableAnswers": [
+            "Istanbul"
+          ],
+          "asset": "assets/9d609ca2a3dfe4d1d1aa1162f51678aa75e4f2e85b449a470db121441a3e537e.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\istamboule.png",
+          "originalFilename": "istamboule.png",
+          "sha256": "9d609ca2a3dfe4d1d1aa1162f51678aa75e4f2e85b449a470db121441a3e537e",
+          "prompt": "Quelle ville se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-06e7a66b72e72adec36c",
+          "answer": "Los Angeles",
+          "acceptableAnswers": [
+            "Los Angeles"
+          ],
+          "asset": "assets/06e7a66b72e72adec36c8ae738343da67fdfd06e9a3dc16e8d1894b1a865d04f.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\los angeles.png",
+          "originalFilename": "los angeles.png",
+          "sha256": "06e7a66b72e72adec36c8ae738343da67fdfd06e9a3dc16e8d1894b1a865d04f",
+          "prompt": "Quelle ville se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-5e756df6b09aafc18728",
+          "answer": "Montréal",
+          "acceptableAnswers": [
+            "Montréal"
+          ],
+          "asset": "assets/5e756df6b09aafc187281d3c7d643c81b74980c7112480020a1228a96497b309.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\montréal.png",
+          "originalFilename": "montréal.png",
+          "sha256": "5e756df6b09aafc187281d3c7d643c81b74980c7112480020a1228a96497b309",
+          "prompt": "Quelle ville se cache dans cette charade visuelle ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-objets-1-20261018",
+      "name": "Charades visuelles — Objets et choses du quotidien — 1 — Réponses écrites",
+      "subject": "Logique et énigmes",
+      "answerMode": "WRITTEN",
+      "questions": [
+        {
+          "id": "cv-a36b60fd6c3412fe3e34",
+          "answer": "Ordinateur",
+          "acceptableAnswers": [
+            "Ordinateur"
+          ],
+          "asset": "assets/a36b60fd6c3412fe3e34add698cfaab1a7b0d181830f5beafd41c2b6aa837eb2.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\ordinateur.png",
+          "originalFilename": "ordinateur.png",
+          "sha256": "a36b60fd6c3412fe3e34add698cfaab1a7b0d181830f5beafd41c2b6aa837eb2",
+          "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-5c596e0d2df8e0f306a5",
+          "answer": "Shampoing",
+          "acceptableAnswers": [
+            "Shampoing",
+            "Shampooing"
+          ],
+          "asset": "assets/5c596e0d2df8e0f306a58254d18d480e69ca66079429b8efda7099590f58b501.png",
+          "originalPath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\shampoing.png",
+          "originalFilename": "shampoing.png",
+          "sha256": "5c596e0d2df8e0f306a58254d18d480e69ca66079429b8efda7099590f58b501",
+          "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-8b60227f3c4fbbba16f9",
+          "answer": "Arc-en-ciel",
+          "acceptableAnswers": [
+            "Arc-en-ciel"
+          ],
+          "asset": "assets/8b60227f3c4fbbba16f9acc80f7c2a355059251bc5ca9c4e2bac958543244742.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\arc-en-ciel.png",
+          "originalFilename": "arc-en-ciel.png",
+          "sha256": "8b60227f3c4fbbba16f9acc80f7c2a355059251bc5ca9c4e2bac958543244742",
+          "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-eafdd2b624636786db5a",
+          "answer": "Ascenseur",
+          "acceptableAnswers": [
+            "Ascenseur"
+          ],
+          "asset": "assets/eafdd2b624636786db5af41196190358cfe5a3b74a3297d5866fb0413fe2021d.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\ascenseur.png",
+          "originalFilename": "ascenseur.png",
+          "sha256": "eafdd2b624636786db5af41196190358cfe5a3b74a3297d5866fb0413fe2021d",
+          "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-9d132f4a1991a6237b7f",
+          "answer": "Café au lait",
+          "acceptableAnswers": [
+            "Café au lait"
+          ],
+          "asset": "assets/9d132f4a1991a6237b7f928b5dde4903c7e0a0a814686dae10c624c47bfcddea.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\café au lait.png",
+          "originalFilename": "café au lait.png",
+          "sha256": "9d132f4a1991a6237b7f928b5dde4903c7e0a0a814686dae10c624c47bfcddea",
+          "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-43d27dba07626bdcaeac",
+          "answer": "Caravane",
+          "acceptableAnswers": [
+            "Caravane"
+          ],
+          "asset": "assets/43d27dba07626bdcaeace165393e92dd0ae35d27411318a3e5591ef3eb46e4e3.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\caravane.png",
+          "originalFilename": "caravane.png",
+          "sha256": "43d27dba07626bdcaeace165393e92dd0ae35d27411318a3e5591ef3eb46e4e3",
+          "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-objets-2-20261018",
+      "name": "Charades visuelles — Objets et choses du quotidien — 2 — Buzzer",
+      "subject": "Logique et énigmes",
+      "answerMode": "BUZZER",
+      "questions": [
+        {
+          "id": "cv-a51c7e53848f2b37392a",
+          "answer": "Carnaval",
+          "acceptableAnswers": [
+            "Carnaval"
+          ],
+          "asset": "assets/a51c7e53848f2b37392a25b1a8f5b1dde5fef7015245189999d38f31a07b328d.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\carnaval.png",
+          "originalFilename": "carnaval.png",
+          "sha256": "a51c7e53848f2b37392a25b1a8f5b1dde5fef7015245189999d38f31a07b328d",
+          "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-d0a8971f60baab346e5b",
+          "answer": "Champignon",
+          "acceptableAnswers": [
+            "Champignon"
+          ],
+          "asset": "assets/d0a8971f60baab346e5b93add67487f34446dc0618fe5aef888148b3c1021c7d.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\champignon.png",
+          "originalFilename": "champignon.png",
+          "sha256": "d0a8971f60baab346e5b93add67487f34446dc0618fe5aef888148b3c1021c7d",
+          "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-be6ab48ee73f9d362ab3",
+          "answer": "Gribouillis",
+          "acceptableAnswers": [
+            "Gribouillis"
+          ],
+          "asset": "assets/be6ab48ee73f9d362ab35b97cd7b547795faeb692d52f17ddd45b060fba28248.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\gribouillis.png",
+          "originalFilename": "gribouillis.png",
+          "sha256": "be6ab48ee73f9d362ab35b97cd7b547795faeb692d52f17ddd45b060fba28248",
+          "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-0200c21610492646e02c",
+          "answer": "Immeuble",
+          "acceptableAnswers": [
+            "Immeuble"
+          ],
+          "asset": "assets/0200c21610492646e02c1a125548c8f1a3cf6f5e19ad85a65267e5ef62d2b023.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\immeuble.png",
+          "originalFilename": "immeuble.png",
+          "sha256": "0200c21610492646e02c1a125548c8f1a3cf6f5e19ad85a65267e5ef62d2b023",
+          "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-e82d85719d9b4c0d36d2",
+          "answer": "Parachute",
+          "acceptableAnswers": [
+            "Parachute"
+          ],
+          "asset": "assets/e82d85719d9b4c0d36d275c917a9b87b2b52886666ffe8df08b5223e64d7b457.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\parachute.png",
+          "originalFilename": "parachute.png",
+          "sha256": "e82d85719d9b4c0d36d275c917a9b87b2b52886666ffe8df08b5223e64d7b457",
+          "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-2a22282e781b399ea4c5",
+          "answer": "Pierre",
+          "acceptableAnswers": [
+            "Pierre"
+          ],
+          "asset": "assets/2a22282e781b399ea4c52726603fb1adbfcd265f57da450d2a687a178fa3551f.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\pierre.png",
+          "originalFilename": "pierre.png",
+          "sha256": "2a22282e781b399ea4c52726603fb1adbfcd265f57da450d2a687a178fa3551f",
+          "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-expressions-1-20261018",
+      "name": "Charades visuelles — Expressions françaises — 1 — Réponses écrites",
+      "subject": "Langue française",
+      "answerMode": "WRITTEN",
+      "questions": [
+        {
+          "id": "cv-b8f2cd5cbe9598e7a50d",
+          "answer": "Arrête ton char",
+          "acceptableAnswers": [
+            "Arrête ton char"
+          ],
+          "asset": "assets/b8f2cd5cbe9598e7a50da5b836e9d812ea219aca91356f9b5a69efe92fe7b0d4.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\arrête ton char.png",
+          "originalFilename": "arrête ton char.png",
+          "sha256": "b8f2cd5cbe9598e7a50da5b836e9d812ea219aca91356f9b5a69efe92fe7b0d4",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-c8278757b3f2f229d373",
+          "answer": "Avoir du cœur au ventre",
+          "acceptableAnswers": [
+            "Avoir du cœur au ventre"
+          ],
+          "asset": "assets/c8278757b3f2f229d3730e758959820060a4e49fe3bc6c4a5971c8fcc6c4b768.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\avoir du coeur au ventre.png",
+          "originalFilename": "avoir du coeur au ventre.png",
+          "sha256": "c8278757b3f2f229d3730e758959820060a4e49fe3bc6c4a5971c8fcc6c4b768",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-a42ec85ee99dff5bddf9",
+          "answer": "Avoir un chat dans la gorge",
+          "acceptableAnswers": [
+            "Avoir un chat dans la gorge"
+          ],
+          "asset": "assets/a42ec85ee99dff5bddf97f8e36b688b85b97e450832cc42227a686aeda44ec92.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\avoir un chat dans la gorge.png",
+          "originalFilename": "avoir un chat dans la gorge.png",
+          "sha256": "a42ec85ee99dff5bddf97f8e36b688b85b97e450832cc42227a686aeda44ec92",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-1ad96fd52c7cff739ab3",
+          "answer": "Bête comme ses pieds",
+          "acceptableAnswers": [
+            "Bête comme ses pieds"
+          ],
+          "asset": "assets/1ad96fd52c7cff739ab39011aaa73fc31ff3757a8600c366cb11c6e1d623db67.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\bête comme ses pieds.png",
+          "originalFilename": "bête comme ses pieds.png",
+          "sha256": "1ad96fd52c7cff739ab39011aaa73fc31ff3757a8600c366cb11c6e1d623db67",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-faebce25259c5a549610",
+          "answer": "C'est pas la mer à boire",
+          "acceptableAnswers": [
+            "C'est pas la mer à boire"
+          ],
+          "asset": "assets/faebce25259c5a549610fcb065cd0685caa7c827214e024de20a9c6f9ce86e62.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\c'est pas la mer à boire.png",
+          "originalFilename": "c'est pas la mer à boire.png",
+          "sha256": "faebce25259c5a549610fcb065cd0685caa7c827214e024de20a9c6f9ce86e62",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-1e9af252692bd76186b0",
+          "answer": "Coûter les yeux de la tête",
+          "acceptableAnswers": [
+            "Coûter les yeux de la tête"
+          ],
+          "asset": "assets/1e9af252692bd76186b0a69fcd9dbc4433225c84c129293fe6924cd6c9388a21.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\couter les yeux de la tête.png",
+          "originalFilename": "couter les yeux de la tête.png",
+          "sha256": "1e9af252692bd76186b0a69fcd9dbc4433225c84c129293fe6924cd6c9388a21",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-ee734181403ffc795035",
+          "answer": "Dévorer des yeux",
+          "acceptableAnswers": [
+            "Dévorer des yeux"
+          ],
+          "asset": "assets/ee734181403ffc7950350844158ac231e75a28ff5126920985a18e5150276181.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\dévorer des yeux.png",
+          "originalFilename": "dévorer des yeux.png",
+          "sha256": "ee734181403ffc7950350844158ac231e75a28ff5126920985a18e5150276181",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-expressions-2-20261018",
+      "name": "Charades visuelles — Expressions françaises — 2 — Buzzer",
+      "subject": "Langue française",
+      "answerMode": "BUZZER",
+      "questions": [
+        {
+          "id": "cv-ad4a223ddabafb647924",
+          "answer": "Filer à l'anglaise",
+          "acceptableAnswers": [
+            "Filer à l'anglaise"
+          ],
+          "asset": "assets/ad4a223ddabafb647924d3b93580328e4b1aa7eab5bd39f763f052de0072380f.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\filer à l'anglaise.png",
+          "originalFilename": "filer à l'anglaise.png",
+          "sha256": "ad4a223ddabafb647924d3b93580328e4b1aa7eab5bd39f763f052de0072380f",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-692ec6b38cc69020a765",
+          "answer": "Jeter un œil",
+          "acceptableAnswers": [
+            "Jeter un œil"
+          ],
+          "asset": "assets/692ec6b38cc69020a7650edd081c08b91b9834628af1f18e7a94fb8975498bc6.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\jeter un oeil.png",
+          "originalFilename": "jeter un oeil.png",
+          "sha256": "692ec6b38cc69020a7650edd081c08b91b9834628af1f18e7a94fb8975498bc6",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-e5702cb32eaef875a38c",
+          "answer": "L'habit ne fait pas le moine",
+          "acceptableAnswers": [
+            "L'habit ne fait pas le moine"
+          ],
+          "asset": "assets/e5702cb32eaef875a38cb3f9d80ae547211f51f219cb34d794e3b2930cfc8503.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\l'habit ne fait pas le moine.png",
+          "originalFilename": "l'habit ne fait pas le moine.png",
+          "sha256": "e5702cb32eaef875a38cb3f9d80ae547211f51f219cb34d794e3b2930cfc8503",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-05d4b732c5ceb009c7f1",
+          "answer": "La goutte qui fait déborder le vase",
+          "acceptableAnswers": [
+            "La goutte qui fait déborder le vase"
+          ],
+          "asset": "assets/05d4b732c5ceb009c7f1888d4b7a2dcd549ab7ad622099a413b8c448984ffd89.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\la goutte qui fait déborder le vase.png",
+          "originalFilename": "la goutte qui fait déborder le vase.png",
+          "sha256": "05d4b732c5ceb009c7f1888d4b7a2dcd549ab7ad622099a413b8c448984ffd89",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-a1e24aa0ae8105d5d84e",
+          "answer": "Laver son linge sale en famille",
+          "acceptableAnswers": [
+            "Laver son linge sale en famille"
+          ],
+          "asset": "assets/a1e24aa0ae8105d5d84edbdd69acb570761e40565eb8a0be915a9652f5c70655.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\laver son linge sale en famille.png",
+          "originalFilename": "laver son linge sale en famille.png",
+          "sha256": "a1e24aa0ae8105d5d84edbdd69acb570761e40565eb8a0be915a9652f5c70655",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-ceb85ea1076e6643be54",
+          "answer": "Le jeu en vaut la chandelle",
+          "acceptableAnswers": [
+            "Le jeu en vaut la chandelle"
+          ],
+          "asset": "assets/ceb85ea1076e6643be5491afe6e302cb3dc85f4331f53c9ec24f4df5ede66d39.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\le jeu en vaut la chandelle.png",
+          "originalFilename": "le jeu en vaut la chandelle.png",
+          "sha256": "ceb85ea1076e6643be5491afe6e302cb3dc85f4331f53c9ec24f4df5ede66d39",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-53c96a7d2394c38cde58",
+          "answer": "Le silence est d'or",
+          "acceptableAnswers": [
+            "Le silence est d'or"
+          ],
+          "asset": "assets/53c96a7d2394c38cde584c6b873be4fde1ea22db12da47f900c33d2801eef972.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\le silence est d'or.png",
+          "originalFilename": "le silence est d'or.png",
+          "sha256": "53c96a7d2394c38cde584c6b873be4fde1ea22db12da47f900c33d2801eef972",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-expressions-3-20261018",
+      "name": "Charades visuelles — Expressions françaises — 3 — Réponses écrites",
+      "subject": "Langue française",
+      "answerMode": "WRITTEN",
+      "questions": [
+        {
+          "id": "cv-9ebc64eb1fb4204a1115",
+          "answer": "Mettre les bouchées doubles",
+          "acceptableAnswers": [
+            "Mettre les bouchées doubles"
+          ],
+          "asset": "assets/9ebc64eb1fb4204a11158a5ff63d22c0558644490d12f2efd835d65d153ed81e.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\mettre les bouchées doubles.png",
+          "originalFilename": "mettre les bouchées doubles.png",
+          "sha256": "9ebc64eb1fb4204a11158a5ff63d22c0558644490d12f2efd835d65d153ed81e",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-56bf9e66405630b3cf0b",
+          "answer": "Mieux vaut rire que pleurer",
+          "acceptableAnswers": [
+            "Mieux vaut rire que pleurer"
+          ],
+          "asset": "assets/56bf9e66405630b3cf0b53aef33f67d525238ed2ed2e9e22db79f84348c6e008.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\mieux vaut rire que pleurer.png",
+          "originalFilename": "mieux vaut rire que pleurer.png",
+          "sha256": "56bf9e66405630b3cf0b53aef33f67d525238ed2ed2e9e22db79f84348c6e008",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-df0760cc9755d49d600c",
+          "answer": "Ne pas y aller par quatre chemins",
+          "acceptableAnswers": [
+            "Ne pas y aller par quatre chemins"
+          ],
+          "asset": "assets/df0760cc9755d49d600cc84e32f9f3511a53e276f209dc0642d01b040db8939e.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\ne pas y aller par quatre chemins.png",
+          "originalFilename": "ne pas y aller par quatre chemins.png",
+          "sha256": "df0760cc9755d49d600cc84e32f9f3511a53e276f209dc0642d01b040db8939e",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-cfd4ce48ec99c9d5376f",
+          "answer": "Pas de quoi fouetter un chat",
+          "acceptableAnswers": [
+            "Pas de quoi fouetter un chat"
+          ],
+          "asset": "assets/cfd4ce48ec99c9d5376f30ed5686cd3953c5f6484300f867070319c236faed2e.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\pas de quoi fouetter un chat.png",
+          "originalFilename": "pas de quoi fouetter un chat.png",
+          "sha256": "cfd4ce48ec99c9d5376f30ed5686cd3953c5f6484300f867070319c236faed2e",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-dec3f7d99aff21e05afd",
+          "answer": "Avoir les yeux plus gros que le ventre",
+          "acceptableAnswers": [
+            "Avoir les yeux plus gros que le ventre",
+            "Les yeux plus gros que le ventre",
+            "Avoir de plus gros yeux que le ventre"
+          ],
+          "asset": "assets/dec3f7d99aff21e05afd70ce6e94910f919e2795d25ab151211802fad9cde587.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\plus gros yeux que gros ventre.png",
+          "originalFilename": "plus gros yeux que gros ventre.png",
+          "sha256": "dec3f7d99aff21e05afd70ce6e94910f919e2795d25ab151211802fad9cde587",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-a457200260d5f729c025",
+          "answer": "Poser un lapin",
+          "acceptableAnswers": [
+            "Poser un lapin"
+          ],
+          "asset": "assets/a457200260d5f729c0257fb34aecb3e3296658a146bc4a8b01ffd8aecf5da73e.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\poser un lapin.png",
+          "originalFilename": "poser un lapin.png",
+          "sha256": "a457200260d5f729c0257fb34aecb3e3296658a146bc4a8b01ffd8aecf5da73e",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-9616bf96e1f809551a77",
+          "answer": "Quand les poules auront des dents",
+          "acceptableAnswers": [
+            "Quand les poules auront des dents"
+          ],
+          "asset": "assets/9616bf96e1f809551a776a8ad38114e0e379394462383abd793111d2990b804c.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\quand les poules auront des dents.png",
+          "originalFilename": "quand les poules auront des dents.png",
+          "sha256": "9616bf96e1f809551a776a8ad38114e0e379394462383abd793111d2990b804c",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-expressions-4-20261018",
+      "name": "Charades visuelles — Expressions françaises — 4 — Buzzer",
+      "subject": "Langue française",
+      "answerMode": "BUZZER",
+      "questions": [
+        {
+          "id": "cv-0aa6c8ac2d40b705b24f",
+          "answer": "Qui dort dîne",
+          "acceptableAnswers": [
+            "Qui dort dîne"
+          ],
+          "asset": "assets/0aa6c8ac2d40b705b24f8448c818d3c7989e2f6c34076d2e98dc1f328dd2c733.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\qui dort dinne.png",
+          "originalFilename": "qui dort dinne.png",
+          "sha256": "0aa6c8ac2d40b705b24f8448c818d3c7989e2f6c34076d2e98dc1f328dd2c733",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-e498f8b93b047b528a34",
+          "answer": "Qui va piano va sano",
+          "acceptableAnswers": [
+            "Qui va piano va sano"
+          ],
+          "asset": "assets/e498f8b93b047b528a3430e21f465405ddb02f979edb29b8ed50f6733a26a2c9.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\qui va piano va sano.png",
+          "originalFilename": "qui va piano va sano.png",
+          "sha256": "e498f8b93b047b528a3430e21f465405ddb02f979edb29b8ed50f6733a26a2c9",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-2a2ae7cf16f208a4aa76",
+          "answer": "Raconter des salades",
+          "acceptableAnswers": [
+            "Raconter des salades"
+          ],
+          "asset": "assets/2a2ae7cf16f208a4aa76d9bbb80f4ad971cbf94387913783460eadc48a74f9fb.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\raconter des salades.png",
+          "originalFilename": "raconter des salades.png",
+          "sha256": "2a2ae7cf16f208a4aa76d9bbb80f4ad971cbf94387913783460eadc48a74f9fb",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-99665980a56a8f53e457",
+          "answer": "Sans queue ni tête",
+          "acceptableAnswers": [
+            "Sans queue ni tête"
+          ],
+          "asset": "assets/99665980a56a8f53e45776c42fd5eec0d131f6b2dfc47bd4c55a0053d4fc8729.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\sans queue ni tête.png",
+          "originalFilename": "sans queue ni tête.png",
+          "sha256": "99665980a56a8f53e45776c42fd5eec0d131f6b2dfc47bd4c55a0053d4fc8729",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-904b2b00ea2e75215065",
+          "answer": "Sauter du coq à l'âne",
+          "acceptableAnswers": [
+            "Sauter du coq à l'âne"
+          ],
+          "asset": "assets/904b2b00ea2e75215065fba23ae303d27e3df288e91667266f33d36839bf5316.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\sauter du coq à l'âne.png",
+          "originalFilename": "sauter du coq à l'âne.png",
+          "sha256": "904b2b00ea2e75215065fba23ae303d27e3df288e91667266f33d36839bf5316",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-0dcf4eff505c21902e92",
+          "answer": "Se faire rouler dans la farine",
+          "acceptableAnswers": [
+            "Se faire rouler dans la farine"
+          ],
+          "asset": "assets/0dcf4eff505c21902e924d3a4f1395045756c7469735eca34e929099dacc730f.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\se faire rouler dans la farine.png",
+          "originalFilename": "se faire rouler dans la farine.png",
+          "sha256": "0dcf4eff505c21902e924d3a4f1395045756c7469735eca34e929099dacc730f",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-expressions-5-20261018",
+      "name": "Charades visuelles — Expressions françaises — 5 — Réponses écrites",
+      "subject": "Langue française",
+      "answerMode": "WRITTEN",
+      "questions": [
+        {
+          "id": "cv-2aaa0498814f136c82ba",
+          "answer": "Se mêler de ses oignons",
+          "acceptableAnswers": [
+            "Se mêler de ses oignons",
+            "Se mêler de ses ognons"
+          ],
+          "asset": "assets/2aaa0498814f136c82babb5d1f89be5db0961c684ac48b63b0118c85da8bcc60.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\se méler de ses ognions.png",
+          "originalFilename": "se méler de ses ognions.png",
+          "sha256": "2aaa0498814f136c82babb5d1f89be5db0961c684ac48b63b0118c85da8bcc60",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-38a71123621c32654b22",
+          "answer": "Tiré à quatre épingles",
+          "acceptableAnswers": [
+            "Tiré à quatre épingles"
+          ],
+          "asset": "assets/38a71123621c32654b22c01eb02996c76f031db969b089b7ce819c357204993e.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\tiré à quatre épingles.png",
+          "originalFilename": "tiré à quatre épingles.png",
+          "sha256": "38a71123621c32654b22c01eb02996c76f031db969b089b7ce819c357204993e",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-0531502d8d08cf41b7d7",
+          "answer": "Tomber dans les pommes",
+          "acceptableAnswers": [
+            "Tomber dans les pommes"
+          ],
+          "asset": "assets/0531502d8d08cf41b7d7e885f60998716546318694f54713bcd77dc7e2d18f1c.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\tomber dans les pommes.png",
+          "originalFilename": "tomber dans les pommes.png",
+          "sha256": "0531502d8d08cf41b7d7e885f60998716546318694f54713bcd77dc7e2d18f1c",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-289a0cc9da01476f9ed8",
+          "answer": "Tourner autour du pot",
+          "acceptableAnswers": [
+            "Tourner autour du pot"
+          ],
+          "asset": "assets/289a0cc9da01476f9ed863147451a3c7197c78b927b542239e861fad8c6d9d18.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\tourner autour du pot.png",
+          "originalFilename": "tourner autour du pot.png",
+          "sha256": "289a0cc9da01476f9ed863147451a3c7197c78b927b542239e861fad8c6d9d18",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-e4178502f717041ff02e",
+          "answer": "Une faim de loup",
+          "acceptableAnswers": [
+            "Une faim de loup"
+          ],
+          "asset": "assets/e4178502f717041ff02eb10251afd8a13b6c57c7fedfb60a8abf550616fb9602.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\une faim de loup.png",
+          "originalFilename": "une faim de loup.png",
+          "sha256": "e4178502f717041ff02eb10251afd8a13b6c57c7fedfb60a8abf550616fb9602",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        },
+        {
+          "id": "cv-98e3c04746731c950086",
+          "answer": "Être haut comme trois pommes",
+          "acceptableAnswers": [
+            "Être haut comme trois pommes"
+          ],
+          "asset": "assets/98e3c04746731c9500864418a38a473ac38f77c9f24eb5b4a90a98143b49874c.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\être haut comme trois pommes.png",
+          "originalFilename": "être haut comme trois pommes.png",
+          "sha256": "98e3c04746731c9500864418a38a473ac38f77c9f24eb5b4a90a98143b49874c",
+          "prompt": "Quelle expression se cache dans cette image ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-quebec-1-20261018",
+      "name": "Charades visuelles — Expressions et mots du Québec — 1 — Buzzer",
+      "subject": "Langue française",
+      "answerMode": "BUZZER",
+      "questions": [
+        {
+          "id": "cv-3b845dab1de18a77db0d",
+          "answer": "Avoir les deux pieds dans la même bottine",
+          "acceptableAnswers": [
+            "Avoir les deux pieds dans la même bottine"
+          ],
+          "asset": "assets/3b845dab1de18a77db0d9de501185ffc746480c0b88d8d6e9d674f3c008097e9.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\avoir les deux pieds dans la même bottine.png",
+          "originalFilename": "avoir les deux pieds dans la même bottine.png",
+          "sha256": "3b845dab1de18a77db0d9de501185ffc746480c0b88d8d6e9d674f3c008097e9",
+          "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?"
+        },
+        {
+          "id": "cv-6da0d69d61d424d23b98",
+          "answer": "Capoté",
+          "acceptableAnswers": [
+            "Capoté"
+          ],
+          "asset": "assets/6da0d69d61d424d23b98c97c438a903b70bd458fa79d1934785e408cb9974e42.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\capoté.png",
+          "originalFilename": "capoté.png",
+          "sha256": "6da0d69d61d424d23b98c97c438a903b70bd458fa79d1934785e408cb9974e42",
+          "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?"
+        },
+        {
+          "id": "cv-82899bb9b05da9f96d50",
+          "answer": "Dispendieux",
+          "acceptableAnswers": [
+            "Dispendieux"
+          ],
+          "asset": "assets/82899bb9b05da9f96d50987a5c50e958bce07b8b440f2057fa7cd811b86f0d0c.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\dispendieux.png",
+          "originalFilename": "dispendieux.png",
+          "sha256": "82899bb9b05da9f96d50987a5c50e958bce07b8b440f2057fa7cd811b86f0d0c",
+          "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?"
+        },
+        {
+          "id": "cv-8c153458f93bd3fdcaaa",
+          "answer": "Lâche pas la patate",
+          "acceptableAnswers": [
+            "Lâche pas la patate",
+            "Ne lâche pas la patate"
+          ],
+          "asset": "assets/8c153458f93bd3fdcaaabb82c1ad38dba76a09e1f56c8ea88f2dc748b1b1d227.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\lâche pas la patate.png",
+          "originalFilename": "lâche pas la patate.png",
+          "sha256": "8c153458f93bd3fdcaaabb82c1ad38dba76a09e1f56c8ea88f2dc748b1b1d227",
+          "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?"
+        },
+        {
+          "id": "cv-5c6801fc275d0939d9ab",
+          "answer": "Magané",
+          "acceptableAnswers": [
+            "Magané"
+          ],
+          "asset": "assets/5c6801fc275d0939d9ab00af05d4fe49b3446935058beb4f08c14edbe23b7f5d.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\magané.png",
+          "originalFilename": "magané.png",
+          "sha256": "5c6801fc275d0939d9ab00af05d4fe49b3446935058beb4f08c14edbe23b7f5d",
+          "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?"
+        },
+        {
+          "id": "cv-4e680558a0613bbee073",
+          "answer": "Mouiller à siaux",
+          "acceptableAnswers": [
+            "Mouiller à siaux",
+            "Mouiller à seaux"
+          ],
+          "asset": "assets/4e680558a0613bbee0730f1f003a774b94c9b7c50655ca0f5847922bdfa91d09.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\mouiller à siaux.png",
+          "originalFilename": "mouiller à siaux.png",
+          "sha256": "4e680558a0613bbee0730f1f003a774b94c9b7c50655ca0f5847922bdfa91d09",
+          "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?"
+        },
+        {
+          "id": "cv-4e73309938eda293f6af",
+          "answer": "Pas de chicanes dans la cabane",
+          "acceptableAnswers": [
+            "Pas de chicanes dans la cabane"
+          ],
+          "asset": "assets/4e73309938eda293f6afb81ae0f2e5160b71ee3d1143811facbc5fc70d2825a7.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\pas de chicanes dans la cabane.png",
+          "originalFilename": "pas de chicanes dans la cabane.png",
+          "sha256": "4e73309938eda293f6afb81ae0f2e5160b71ee3d1143811facbc5fc70d2825a7",
+          "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-quebec-2-20261018",
+      "name": "Charades visuelles — Expressions et mots du Québec — 2 — Réponses écrites",
+      "subject": "Langue française",
+      "answerMode": "WRITTEN",
+      "questions": [
+        {
+          "id": "cv-650a2a32f4811d40ebf4",
+          "answer": "Sacrer son camp",
+          "acceptableAnswers": [
+            "Sacrer son camp"
+          ],
+          "asset": "assets/650a2a32f4811d40ebf484c392d2203f925a982afa7d92388f57ba93dc584b53.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\sacrer son camps.png",
+          "originalFilename": "sacrer son camps.png",
+          "sha256": "650a2a32f4811d40ebf484c392d2203f925a982afa7d92388f57ba93dc584b53",
+          "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?"
+        },
+        {
+          "id": "cv-4211dbb25a7ff5b359e9",
+          "answer": "Se dorer la couenne au soleil",
+          "acceptableAnswers": [
+            "Se dorer la couenne au soleil",
+            "Se dorer la couenne"
+          ],
+          "asset": "assets/4211dbb25a7ff5b359e9fb246ad0765435198330c8f9734b942e95c769585b00.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\se dorer la couenne au soleil.png",
+          "originalFilename": "se dorer la couenne au soleil.png",
+          "sha256": "4211dbb25a7ff5b359e9fb246ad0765435198330c8f9734b942e95c769585b00",
+          "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?"
+        },
+        {
+          "id": "cv-76ca37af037c4822ac5b",
+          "answer": "Se faire passer un sapin",
+          "acceptableAnswers": [
+            "Se faire passer un sapin"
+          ],
+          "asset": "assets/76ca37af037c4822ac5b80657eca3f8e624f6b5d4f36c5997fcc828fc1fa25ce.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\se faire passer un sapin.png",
+          "originalFilename": "se faire passer un sapin.png",
+          "sha256": "76ca37af037c4822ac5b80657eca3f8e624f6b5d4f36c5997fcc828fc1fa25ce",
+          "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?"
+        },
+        {
+          "id": "cv-2d8bffd0bad71d9b191f",
+          "answer": "Tire-toi une bûche",
+          "acceptableAnswers": [
+            "Tire-toi une bûche",
+            "Tire-toi une buche"
+          ],
+          "asset": "assets/2d8bffd0bad71d9b191f9b4e57ee1394726fff43adf68a3f98c53909b0e37bb1.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\tire-toi une buche.png",
+          "originalFilename": "tire-toi une buche.png",
+          "sha256": "2d8bffd0bad71d9b191f9b4e57ee1394726fff43adf68a3f98c53909b0e37bb1",
+          "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?"
+        },
+        {
+          "id": "cv-aa15e034655620999e11",
+          "answer": "Tomber des clous",
+          "acceptableAnswers": [
+            "Tomber des clous"
+          ],
+          "asset": "assets/aa15e034655620999e118be4f60dd01cf11a3d3372cc67cd80e32780a9197b54.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\tomber des clous.png",
+          "originalFilename": "tomber des clous.png",
+          "sha256": "aa15e034655620999e118be4f60dd01cf11a3d3372cc67cd80e32780a9197b54",
+          "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?"
+        },
+        {
+          "id": "cv-ba263630036e32f65101",
+          "answer": "Être dans les patates",
+          "acceptableAnswers": [
+            "Être dans les patates"
+          ],
+          "asset": "assets/ba263630036e32f6510191f519aa56c33db788c432147835c707bb575144dd7b.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\être dans les patates.png",
+          "originalFilename": "être dans les patates.png",
+          "sha256": "ba263630036e32f6510191f519aa56c33db788c432147835c707bb575144dd7b",
+          "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?"
+        },
+        {
+          "id": "cv-59cc60766000a9c190f2",
+          "answer": "Être vite sur ses patins",
+          "acceptableAnswers": [
+            "Être vite sur ses patins"
+          ],
+          "asset": "assets/59cc60766000a9c190f2597fd1d593e7862ce78aff06f0b1478fc1c1cacb9872.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\être vite sur ses patins.png",
+          "originalFilename": "être vite sur ses patins.png",
+          "sha256": "59cc60766000a9c190f2597fd1d593e7862ce78aff06f0b1478fc1c1cacb9872",
+          "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-actions-1-20261018",
+      "name": "Charades visuelles — Actions et états — 1 — Buzzer",
+      "subject": "Langue française",
+      "answerMode": "BUZZER",
+      "questions": [
+        {
+          "id": "cv-83ed365f35fe7401e164",
+          "answer": "Assoupi",
+          "acceptableAnswers": [
+            "Assoupi"
+          ],
+          "asset": "assets/83ed365f35fe7401e1647c42e670e4f28ff575d996e0c777aac8620aad51beb7.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Divers\\assoupi.png",
+          "originalFilename": "assoupi.png",
+          "sha256": "83ed365f35fe7401e1647c42e670e4f28ff575d996e0c777aac8620aad51beb7",
+          "prompt": "Quel mot se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-e8b6e7cfc7d21935195b",
+          "answer": "Assurer",
+          "acceptableAnswers": [
+            "Assurer"
+          ],
+          "asset": "assets/e8b6e7cfc7d21935195bde4405614cf743903c8cae69fe57c416ceecf67bba86.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\assurer.png",
+          "originalFilename": "assurer.png",
+          "sha256": "e8b6e7cfc7d21935195bde4405614cf743903c8cae69fe57c416ceecf67bba86",
+          "prompt": "Quel mot se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-4ae62e66b0c5dc3b5498",
+          "answer": "Démonter",
+          "acceptableAnswers": [
+            "Démonter"
+          ],
+          "asset": "assets/4ae62e66b0c5dc3b5498e9b9a6b45776232f90d2e30c802b67ebb4dee3a83159.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\démonter.png",
+          "originalFilename": "démonter.png",
+          "sha256": "4ae62e66b0c5dc3b5498e9b9a6b45776232f90d2e30c802b67ebb4dee3a83159",
+          "prompt": "Quel mot se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-53ad602b4a1cf5064007",
+          "answer": "Dérouter",
+          "acceptableAnswers": [
+            "Dérouter"
+          ],
+          "asset": "assets/53ad602b4a1cf506400721dc810ebbfec31fb23837bf8215ac4170660927690b.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\dérouter.png",
+          "originalFilename": "dérouter.png",
+          "sha256": "53ad602b4a1cf506400721dc810ebbfec31fb23837bf8215ac4170660927690b",
+          "prompt": "Quel mot se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-dca5f0c50bbf4e61cc23",
+          "answer": "Entrecouper",
+          "acceptableAnswers": [
+            "Entrecouper"
+          ],
+          "asset": "assets/dca5f0c50bbf4e61cc23da6a85c77e6bf12d38d9d2277b1a59dd49918f1b51fe.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\entrecouper.png",
+          "originalFilename": "entrecouper.png",
+          "sha256": "dca5f0c50bbf4e61cc23da6a85c77e6bf12d38d9d2277b1a59dd49918f1b51fe",
+          "prompt": "Quel mot se cache dans cette charade visuelle ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-actions-2-20261018",
+      "name": "Charades visuelles — Actions et états — 2 — Réponses écrites",
+      "subject": "Langue française",
+      "answerMode": "WRITTEN",
+      "questions": [
+        {
+          "id": "cv-c0bc5b4faa0b769d5c16",
+          "answer": "Gambader",
+          "acceptableAnswers": [
+            "Gambader"
+          ],
+          "asset": "assets/c0bc5b4faa0b769d5c1611a01cd9f419ef0ba68b0c709458cfe30094807b3b31.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\gambader.png",
+          "originalFilename": "gambader.png",
+          "sha256": "c0bc5b4faa0b769d5c1611a01cd9f419ef0ba68b0c709458cfe30094807b3b31",
+          "prompt": "Quel mot se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-10541d08c648a3554906",
+          "answer": "Grommeler",
+          "acceptableAnswers": [
+            "Grommeler"
+          ],
+          "asset": "assets/10541d08c648a3554906004f8221470d680cd1d2c3d2ac56570fcd66078c508b.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\grommeler.png",
+          "originalFilename": "grommeler.png",
+          "sha256": "10541d08c648a3554906004f8221470d680cd1d2c3d2ac56570fcd66078c508b",
+          "prompt": "Quel mot se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-f57abd841d69f65d5743",
+          "answer": "Raccourcir",
+          "acceptableAnswers": [
+            "Raccourcir"
+          ],
+          "asset": "assets/f57abd841d69f65d5743f86fdc3a3f226d80a089c5c8e21d8981deadbc66cbd9.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\raccourcir.png",
+          "originalFilename": "raccourcir.png",
+          "sha256": "f57abd841d69f65d5743f86fdc3a3f226d80a089c5c8e21d8981deadbc66cbd9",
+          "prompt": "Quel mot se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-820fda2c40350f48ce74",
+          "answer": "Souhaiter",
+          "acceptableAnswers": [
+            "Souhaiter"
+          ],
+          "asset": "assets/820fda2c40350f48ce74879af1db2c33c52ce258f195032a0eed195572974d20.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\souhaiter.png",
+          "originalFilename": "souhaiter.png",
+          "sha256": "820fda2c40350f48ce74879af1db2c33c52ce258f195032a0eed195572974d20",
+          "prompt": "Quel mot se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-ae97ddb2b31126db24b6",
+          "answer": "Épancher",
+          "acceptableAnswers": [
+            "Épancher"
+          ],
+          "asset": "assets/ae97ddb2b31126db24b60b523d5548a5ed4eaaa5b8b23d1f4547286a5c981370.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Verbes\\épancher.png",
+          "originalFilename": "épancher.png",
+          "sha256": "ae97ddb2b31126db24b60b523d5548a5ed4eaaa5b8b23d1f4547286a5c981370",
+          "prompt": "Quel mot se cache dans cette charade visuelle ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-mots-1-20261018",
+      "name": "Charades visuelles — Mots et jeux de sons — Buzzer",
+      "subject": "Logique et énigmes",
+      "answerMode": "BUZZER",
+      "questions": [
+        {
+          "id": "cv-7070489fd266f032bb81",
+          "answer": "Cyclope",
+          "acceptableAnswers": [
+            "Cyclope"
+          ],
+          "asset": "assets/7070489fd266f032bb8196eb69a25323bc83973481e93ffa70e603079e34bd35.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Divers\\cyclope.png",
+          "originalFilename": "cyclope.png",
+          "sha256": "7070489fd266f032bb8196eb69a25323bc83973481e93ffa70e603079e34bd35",
+          "prompt": "Quel mot ou groupe de mots se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-83b84301c02e14b37a68",
+          "answer": "Grand Prix de Formule 1",
+          "acceptableAnswers": [
+            "Grand Prix de Formule 1",
+            "Grand Prix de F1",
+            "Grand Prix de formule un"
+          ],
+          "asset": "assets/83b84301c02e14b37a68203ca5d29184d8fa2c772115c00a39e1f7ca21756128.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Divers\\grand prix de formule 1.png",
+          "originalFilename": "grand prix de formule 1.png",
+          "sha256": "83b84301c02e14b37a68203ca5d29184d8fa2c772115c00a39e1f7ca21756128",
+          "prompt": "Quel mot ou groupe de mots se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-cc31e784daa7a5a63ef5",
+          "answer": "Mississippi",
+          "acceptableAnswers": [
+            "Mississippi"
+          ],
+          "asset": "assets/cc31e784daa7a5a63ef5a016fe1d68f8d7d0431ec1da4e9717d4a2d06b92e316.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Divers\\mississipi.png",
+          "originalFilename": "mississipi.png",
+          "sha256": "cc31e784daa7a5a63ef5a016fe1d68f8d7d0431ec1da4e9717d4a2d06b92e316",
+          "prompt": "Quel mot ou groupe de mots se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-54526cd051bc90f52658",
+          "answer": "Moufette",
+          "acceptableAnswers": [
+            "Moufette"
+          ],
+          "asset": "assets/54526cd051bc90f526580f1dcb82f1783a310f80503c1025a9daff2971d7648b.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Divers\\moufette.png",
+          "originalFilename": "moufette.png",
+          "sha256": "54526cd051bc90f526580f1dcb82f1783a310f80503c1025a9daff2971d7648b",
+          "prompt": "Quel mot ou groupe de mots se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-dc38c3ddbcec7508d6e1",
+          "answer": "Panthère",
+          "acceptableAnswers": [
+            "Panthère"
+          ],
+          "asset": "assets/dc38c3ddbcec7508d6e1fd9e199390bded42588f743b72f300be41fa37e757a4.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Divers\\panthère.png",
+          "originalFilename": "panthère.png",
+          "sha256": "dc38c3ddbcec7508d6e1fd9e199390bded42588f743b72f300be41fa37e757a4",
+          "prompt": "Quel mot ou groupe de mots se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-dd6d7e4d7c94af3bd989",
+          "answer": "Pharaon",
+          "acceptableAnswers": [
+            "Pharaon"
+          ],
+          "asset": "assets/dd6d7e4d7c94af3bd98999bfd748578f45cb4448556c5df86266c6c88bc6d298.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Divers\\pharaon.png",
+          "originalFilename": "pharaon.png",
+          "sha256": "dd6d7e4d7c94af3bd98999bfd748578f45cb4448556c5df86266c6c88bc6d298",
+          "prompt": "Quel mot ou groupe de mots se cache dans cette charade visuelle ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-livres-1-20261018",
+      "name": "Charades visuelles — Livres célèbres — 1 — Réponses écrites",
+      "subject": "Littérature",
+      "answerMode": "WRITTEN",
+      "questions": [
+        {
+          "id": "cv-818fb25508b71671d43f",
+          "answer": "David Copperfield",
+          "acceptableAnswers": [
+            "David Copperfield"
+          ],
+          "asset": "assets/818fb25508b71671d43f624796622f561dbb8715676f52b81ec0579d12039430.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\david copperfield.png",
+          "originalFilename": "david copperfield.png",
+          "sha256": "818fb25508b71671d43f624796622f561dbb8715676f52b81ec0579d12039430",
+          "prompt": "Quel titre de livre se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-4eb37dca191a97731095",
+          "answer": "L’Appel de la forêt",
+          "acceptableAnswers": [
+            "L’Appel de la forêt"
+          ],
+          "asset": "assets/4eb37dca191a97731095bca6cea9a619d98ce24a0ea8150ffcd0b74669a371ab.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\l'appel de la fôret.png",
+          "originalFilename": "l'appel de la fôret.png",
+          "sha256": "4eb37dca191a97731095bca6cea9a619d98ce24a0ea8150ffcd0b74669a371ab",
+          "prompt": "Quel titre de livre se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-05f0679e7ae55c81587b",
+          "answer": "L’Odyssée",
+          "acceptableAnswers": [
+            "L’Odyssée"
+          ],
+          "asset": "assets/05f0679e7ae55c81587b55894150f90165ed35f3e168f9dbe894bfbac7e7bd87.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\l'odyssée.png",
+          "originalFilename": "l'odyssée.png",
+          "sha256": "05f0679e7ae55c81587b55894150f90165ed35f3e168f9dbe894bfbac7e7bd87",
+          "prompt": "Quel titre de livre se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-9ed26fbea589fc977b78",
+          "answer": "Le Décaméron",
+          "acceptableAnswers": [
+            "Le Décaméron"
+          ],
+          "asset": "assets/9ed26fbea589fc977b78988aec882ae70e10e0fc7224c52a756b24d0487cccca.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\le décaméron.png",
+          "originalFilename": "le décaméron.png",
+          "sha256": "9ed26fbea589fc977b78988aec882ae70e10e0fc7224c52a756b24d0487cccca",
+          "prompt": "Quel titre de livre se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-e1416056e7fe05c4b333",
+          "answer": "Le Meilleur des mondes",
+          "acceptableAnswers": [
+            "Le Meilleur des mondes"
+          ],
+          "asset": "assets/e1416056e7fe05c4b333113bbcccada805f110e53c91321ebe7cc4d86bcea1c9.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\le meilleur des mondes.png",
+          "originalFilename": "le meilleur des mondes.png",
+          "sha256": "e1416056e7fe05c4b333113bbcccada805f110e53c91321ebe7cc4d86bcea1c9",
+          "prompt": "Quel titre de livre se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-86ad4e9890a606566d6a",
+          "answer": "Les Mille et Une Nuits",
+          "acceptableAnswers": [
+            "Les Mille et Une Nuits",
+            "Mille et Une Nuits"
+          ],
+          "asset": "assets/86ad4e9890a606566d6acfcd68f85f89fc655518c0f118a14c2375521cb62395.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\les milles et une nuits.png",
+          "originalFilename": "les milles et une nuits.png",
+          "sha256": "86ad4e9890a606566d6acfcd68f85f89fc655518c0f118a14c2375521cb62395",
+          "prompt": "Quel titre de livre se cache dans cette charade visuelle ?"
+        }
+      ]
+    },
+    {
+      "id": "charades-visuelles-livres-2-20261018",
+      "name": "Charades visuelles — Livres célèbres — 2 — Buzzer",
+      "subject": "Littérature",
+      "answerMode": "BUZZER",
+      "questions": [
+        {
+          "id": "cv-bb7744e0c8af2c8fb78d",
+          "answer": "Les Misérables",
+          "acceptableAnswers": [
+            "Les Misérables"
+          ],
+          "asset": "assets/bb7744e0c8af2c8fb78dda59869df2daf9b0fbec30671b6168dba36db798f1c2.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\les misérables.png",
+          "originalFilename": "les misérables.png",
+          "sha256": "bb7744e0c8af2c8fb78dda59869df2daf9b0fbec30671b6168dba36db798f1c2",
+          "prompt": "Quel titre de livre se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-384abb0d870de92ab20c",
+          "answer": "Les Quatre Filles du docteur March",
+          "acceptableAnswers": [
+            "Les Quatre Filles du docteur March",
+            "Les Quatre Filles du Dr March"
+          ],
+          "asset": "assets/384abb0d870de92ab20c88a5a726b3f850a4197cff57d5e50ee3f62b71b8d7ea.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\les quatres filles du docteur marche.png",
+          "originalFilename": "les quatres filles du docteur marche.png",
+          "sha256": "384abb0d870de92ab20c88a5a726b3f850a4197cff57d5e50ee3f62b71b8d7ea",
+          "prompt": "Quel titre de livre se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-772851924e95e4ef0d4c",
+          "answer": "Orgueil et Préjugés",
+          "acceptableAnswers": [
+            "Orgueil et Préjugés"
+          ],
+          "asset": "assets/772851924e95e4ef0d4cc209289f67e3fda8cbeca4231e1e80133d9076d6c62c.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\orgueuil et préjugés.png",
+          "originalFilename": "orgueuil et préjugés.png",
+          "sha256": "772851924e95e4ef0d4cc209289f67e3fda8cbeca4231e1e80133d9076d6c62c",
+          "prompt": "Quel titre de livre se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-d3cca3a4dbffa9e6c217",
+          "answer": "Pour qui sonne le glas",
+          "acceptableAnswers": [
+            "Pour qui sonne le glas"
+          ],
+          "asset": "assets/d3cca3a4dbffa9e6c217608ed66708b61d0d24eb3bbd5d5b988fd266dec433a2.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\pour qui sonne le glas.png",
+          "originalFilename": "pour qui sonne le glas.png",
+          "sha256": "d3cca3a4dbffa9e6c217608ed66708b61d0d24eb3bbd5d5b988fd266dec433a2",
+          "prompt": "Quel titre de livre se cache dans cette charade visuelle ?"
+        },
+        {
+          "id": "cv-8d4e246fa2db8aed7d07",
+          "answer": "À la recherche du temps perdu",
+          "acceptableAnswers": [
+            "À la recherche du temps perdu"
+          ],
+          "asset": "assets/8d4e246fa2db8aed7d07f38357b8d5cb4f74ba30e643a2e44d847acbbf20495d.png",
+          "originalPath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\à la recherche du temps perdu.png",
+          "originalFilename": "à la recherche du temps perdu.png",
+          "sha256": "8d4e246fa2db8aed7d07f38357b8d5cb4f74ba30e643a2e44d847acbbf20495d",
+          "prompt": "Quel titre de livre se cache dans cette charade visuelle ?"
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "number": 75,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Afrique\\01-afrique.png",
+      "name": "01-afrique",
+      "group": "Géographie - Afrique",
+      "sha256": "5615a39fbf5bc813e5c888c8dd24fa24b5e10dbdfdda5b0e733f3ee60618828e",
+      "existing": "game-library\\current\\sources\\geographie-afrique-20261010\\images\\geographie-afrique-20261010\\carte-01.png"
+    },
+    {
+      "number": 76,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Afrique\\02-afrique.png",
+      "name": "02-afrique",
+      "group": "Géographie - Afrique",
+      "sha256": "36501c6d5460ab41513a057f77f453d1026b3aa2619e6591489bd4bb6e118053",
+      "existing": "game-library\\current\\sources\\geographie-afrique-20261010\\images\\geographie-afrique-20261010\\carte-02.png"
+    },
+    {
+      "number": 77,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Afrique\\03-afrique.png",
+      "name": "03-afrique",
+      "group": "Géographie - Afrique",
+      "sha256": "df335567d2451bfd7b99d9ae055505a0093e0975135647b2366f738046afac74",
+      "existing": "game-library\\current\\sources\\geographie-afrique-20261010\\images\\geographie-afrique-20261010\\carte-03.png"
+    },
+    {
+      "number": 78,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Afrique\\afrique-abcd.png",
+      "name": "afrique-abcd",
+      "group": "Géographie - Afrique",
+      "sha256": "dde736b9e990662d4b198c68870a0727d5b387f85616abff8e620eb9272e125e",
+      "existing": "game-library\\current\\sources\\geographie-afrique-20261010\\images\\geographie-afrique-20261010\\carte-04.png"
+    },
+    {
+      "number": 79,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Amérique du Sud\\11-amerique-sud.png",
+      "name": "11-amerique-sud",
+      "group": "Géographie - Amérique du Sud",
+      "sha256": "28f32f4a775e8fce95e10cad4866a59c66481636e94a1751ca31aa460605581a",
+      "existing": "game-library\\current\\sources\\geographie-amerique-du-sud-20261010\\images\\geographie-amerique-du-sud-20261010\\carte-01.png"
+    },
+    {
+      "number": 80,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Amérique du Sud\\12-amerique-sud.png",
+      "name": "12-amerique-sud",
+      "group": "Géographie - Amérique du Sud",
+      "sha256": "fc5ebe20a5d7ae765a6d7650cd37c45ff0359350f4b4105786630bfbbc16a5d9",
+      "existing": "game-library\\current\\sources\\geographie-amerique-du-sud-20261010\\images\\geographie-amerique-du-sud-20261010\\carte-02.png"
+    },
+    {
+      "number": 81,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Asie\\04-asie.png",
+      "name": "04-asie",
+      "group": "Géographie - Asie",
+      "sha256": "3f12b777fa65dec848cabd6b8d86371243c320982f1afcc68b67f5cefaeb6a71",
+      "existing": "game-library\\current\\sources\\geographie-afrique-20261010\\images\\geographie-asie-20261010\\carte-01.png"
+    },
+    {
+      "number": 82,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Asie\\05-asie.png",
+      "name": "05-asie",
+      "group": "Géographie - Asie",
+      "sha256": "03894627cd81f6f337d717728d08e402706cb8f9bfc102aa9c05c40ea8baaced",
+      "existing": "game-library\\current\\sources\\geographie-afrique-20261010\\images\\geographie-asie-20261010\\carte-02.png"
+    },
+    {
+      "number": 83,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Asie\\06-asie.png",
+      "name": "06-asie",
+      "group": "Géographie - Asie",
+      "sha256": "bb132f63cf8b0a1a499e94fe1e8c7b95a7cf8c9bdf95c5a108983917026d169f",
+      "existing": "game-library\\current\\sources\\geographie-asie-20261010\\images\\geographie-asie-20261010\\carte-03.png"
+    },
+    {
+      "number": 84,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Asie\\07-asie.png",
+      "name": "07-asie",
+      "group": "Géographie - Asie",
+      "sha256": "b7d1b77c8276b78c15c45a397b2096f5cc0043fe2453f4502bf3ffdb98d1a185",
+      "existing": "game-library\\current\\sources\\geographie-asie-20261010\\images\\geographie-asie-20261010\\carte-04.png"
+    },
+    {
+      "number": 85,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Capitales\\abbis abéba.png",
+      "name": "abbis abéba",
+      "group": "Géographie - Capitales",
+      "sha256": "eed428553bf2400671b3c7f0ec8bd1fd2dd817eefd219395de6da1d862a64052",
+      "existing": "game-library\\current\\sources\\geographie-capitales-20261010-v2\\images\\geographie-capitales-20261010-v2\\addis-abeba.png"
+    },
+    {
+      "number": 86,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Capitales\\bangkok.png",
+      "name": "bangkok",
+      "group": "Géographie - Capitales",
+      "sha256": "8f02416d54bbbd0670d1b285a25a621602bd4c96bd2f34903dfa16e3a08ff042",
+      "existing": "game-library\\current\\sources\\geographie-capitales-20261010-v2\\images\\geographie-capitales-20261010-v2\\bangkok.png"
+    },
+    {
+      "number": 87,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Capitales\\kaboul.png",
+      "name": "kaboul",
+      "group": "Géographie - Capitales",
+      "sha256": "580b401add1467942dfb44abf9bb0804252ab583a3c3d960009e9c035301055c",
+      "existing": "game-library\\current\\sources\\geographie-capitales-20261010-v2\\images\\geographie-capitales-20261010-v2\\kaboul.png"
+    },
+    {
+      "number": 88,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Capitales\\lima.png",
+      "name": "lima",
+      "group": "Géographie - Capitales",
+      "sha256": "b38e8c6f97fdd4e1564a9c8bbc1c211a01e81d1f80420079ceb4ceae64db9e09",
+      "existing": "game-library\\current\\sources\\geographie-capitales-20261010-v2\\images\\geographie-capitales-20261010-v2\\lima.png"
+    },
+    {
+      "number": 89,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Capitales\\luxembourg.png",
+      "name": "luxembourg",
+      "group": "Géographie - Capitales",
+      "sha256": "d4f2054bf4c1e92f9cff55c4f9e62fb4a22667d220d7c616e5846ef5138a64f7",
+      "existing": "game-library\\current\\sources\\geographie-capitales-20261010-v2\\images\\geographie-capitales-20261010-v2\\luxembourg.png"
+    },
+    {
+      "number": 91,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Capitales\\paris.png",
+      "name": "paris",
+      "group": "Géographie - Capitales",
+      "sha256": "38c43ab07d82c9d8d43a1e10386b113dca8a104066829e4aa16d3b3309734eb8",
+      "existing": "game-library\\current\\sources\\geographie-capitales-20261010-v2\\images\\geographie-capitales-20261010-v2\\paris.png"
+    },
+    {
+      "number": 92,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Capitales\\port-au-prince.png",
+      "name": "port-au-prince",
+      "group": "Géographie - Capitales",
+      "sha256": "83284b8a238dadab3720808f76806f984d719fac6e9d8a163ffdd2926fb3e6f1",
+      "existing": "game-library\\current\\sources\\lib-buzzer-geographie-villes-20261012\\images\\geographie-capitales-20261010-v2\\port-au-prince.png"
+    },
+    {
+      "number": 93,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Capitales\\saint marin.png",
+      "name": "saint marin",
+      "group": "Géographie - Capitales",
+      "sha256": "f5c085aad6741e0cb03ef68407f60e11009c40b5b2dd9b307d98f9eab2af298c",
+      "existing": "game-library\\current\\sources\\lib-buzzer-geographie-villes-20261012\\images\\geographie-capitales-20261010-v2\\saint-marin.png"
+    },
+    {
+      "number": 94,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Europe\\europe-abcd.png",
+      "name": "europe-abcd",
+      "group": "Géographie - Europe",
+      "sha256": "407db54fd557397173e5a4f2322b8133d9ec8b32336eb8f46145593fc601d701",
+      "existing": "game-library\\current\\sources\\geographie-asie-20261010\\images\\geographie-europe-20261010\\carte-01.png"
+    },
+    {
+      "number": 95,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Europe\\europe-baltes-belarussie.png",
+      "name": "europe-baltes-belarussie",
+      "group": "Géographie - Europe",
+      "sha256": "6d3fb005e1f9567f18e32c65e54ecf56a39452c069511eb1eb0b9e559ec7c198",
+      "existing": "game-library\\current\\sources\\geographie-asie-20261010\\images\\geographie-europe-20261010\\carte-02.png"
+    },
+    {
+      "number": 96,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Europe\\europe-microetats-abcd.png",
+      "name": "europe-microetats-abcd",
+      "group": "Géographie - Europe",
+      "sha256": "5742f02981efa015079a6e25a0a6aed72f92a3c8aff68c727eff454da4a4e7e4",
+      "existing": "game-library\\current\\sources\\geographie-asie-20261010\\images\\geographie-europe-20261010\\carte-03.png"
+    },
+    {
+      "number": 97,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - Europe\\europe-tchequie-slovaquie-croatie-slovenie.png",
+      "name": "europe-tchequie-slovaquie-croatie-slovenie",
+      "group": "Géographie - Europe",
+      "sha256": "7ede0c4882ca8a051b19620860f3ec70531235a77c78a87d1e00ad9db784210e",
+      "existing": "game-library\\current\\sources\\geographie-asie-20261010\\images\\geographie-europe-20261010\\carte-04.png"
+    },
+    {
+      "number": 98,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - États-Unis\\08-etats-unis.png",
+      "name": "08-etats-unis",
+      "group": "Géographie - États-Unis",
+      "sha256": "c943bfa9961c0bfd99cdfed20c7a719e499092d8bfc721763fa59c008d90e652",
+      "existing": "game-library\\current\\sources\\geographie-amerique-du-sud-20261010\\images\\geographie-etats-unis-20261010\\carte-01.png"
+    },
+    {
+      "number": 99,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - États-Unis\\09-etats-unis.png",
+      "name": "09-etats-unis",
+      "group": "Géographie - États-Unis",
+      "sha256": "bca8a747d8cf68a6e2a8ee3f0f38b223a3588d451191bb7a5512554cf68289f9",
+      "existing": "game-library\\current\\sources\\geographie-amerique-du-sud-20261010\\images\\geographie-etats-unis-20261010\\carte-02.png"
+    },
+    {
+      "number": 100,
+      "path": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Géographie - États-Unis\\10-etats-unis.png",
+      "name": "10-etats-unis",
+      "group": "Géographie - États-Unis",
+      "sha256": "babb69f5aacb0210fb7b45f6b8a006f1b8af0c99bb897bcf6ca4b3a4026f6f1b",
+      "existing": "game-library\\current\\sources\\geographie-amerique-du-sud-20261010\\images\\geographie-etats-unis-20261010\\carte-03.png"
+    }
+  ],
+  "spellingSources": [
+    "https://data.bnf.fr/fr/documents-by-rdt/13327791/a/page1",
+    "https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8975792/shampoing",
+    "https://www.dictionnaire-academie.fr/article/A8D1880",
+    "https://www.diplomatie.gouv.fr/IMG/pdf/espace_indopacifique_2025_web_cle81a118.pdf",
+    "https://www.larousse.fr/encyclopedie/riviere-lac/Mississippi/133409"
+  ]
+}

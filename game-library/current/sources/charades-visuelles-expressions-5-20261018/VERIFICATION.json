@@ -1,0 +1,69 @@
+[
+  {
+    "questionId": "cv-2aaa0498814f136c82ba",
+    "sourceFilename": "se méler de ses ognions.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\se méler de ses ognions.png",
+    "sha256": "2aaa0498814f136c82babb5d1f89be5db0961c684ac48b63b0118c85da8bcc60",
+    "canonicalAnswer": "Se mêler de ses oignons",
+    "acceptedVariants": [
+      "Se mêler de ses oignons",
+      "Se mêler de ses ognons"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-38a71123621c32654b22",
+    "sourceFilename": "tiré à quatre épingles.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\tiré à quatre épingles.png",
+    "sha256": "38a71123621c32654b22c01eb02996c76f031db969b089b7ce819c357204993e",
+    "canonicalAnswer": "Tiré à quatre épingles",
+    "acceptedVariants": [
+      "Tiré à quatre épingles"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-0531502d8d08cf41b7d7",
+    "sourceFilename": "tomber dans les pommes.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\tomber dans les pommes.png",
+    "sha256": "0531502d8d08cf41b7d7e885f60998716546318694f54713bcd77dc7e2d18f1c",
+    "canonicalAnswer": "Tomber dans les pommes",
+    "acceptedVariants": [
+      "Tomber dans les pommes"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-289a0cc9da01476f9ed8",
+    "sourceFilename": "tourner autour du pot.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\tourner autour du pot.png",
+    "sha256": "289a0cc9da01476f9ed863147451a3c7197c78b927b542239e861fad8c6d9d18",
+    "canonicalAnswer": "Tourner autour du pot",
+    "acceptedVariants": [
+      "Tourner autour du pot"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-e4178502f717041ff02e",
+    "sourceFilename": "une faim de loup.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\une faim de loup.png",
+    "sha256": "e4178502f717041ff02eb10251afd8a13b6c57c7fedfb60a8abf550616fb9602",
+    "canonicalAnswer": "Une faim de loup",
+    "acceptedVariants": [
+      "Une faim de loup"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-98e3c04746731c950086",
+    "sourceFilename": "être haut comme trois pommes.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\être haut comme trois pommes.png",
+    "sha256": "98e3c04746731c9500864418a38a473ac38f77c9f24eb5b4a90a98143b49874c",
+    "canonicalAnswer": "Être haut comme trois pommes",
+    "acceptedVariants": [
+      "Être haut comme trois pommes"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

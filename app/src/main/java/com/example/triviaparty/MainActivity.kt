@@ -195,7 +195,7 @@ fun TriviaPartyApp() {
                         currentRole = AppRole.HOST_SETUP
                     }
                 )
-                AppRole.SOLO_REVIEW -> com.example.triviaparty.ui.host.SoloReviewScreen(hostSelectedCategories) { currentRole=AppRole.HOST_SETUP }
+                AppRole.SOLO_REVIEW -> com.example.triviaparty.ui.host.SoloReviewScreen(hostSelectedCategories, gameServer, googleCast) { currentRole=AppRole.HOST_SETUP }
             }
         }
     }

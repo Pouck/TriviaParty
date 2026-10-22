@@ -1,0 +1,2 @@
+const fs=require('fs');let s=fs.readFileSync('build/verify-vadrouille-extracts.cjs','utf8').replace('build/dialogue-extracts/grande-vadrouille','build/dialogue-extracts/oscar');fs.writeFileSync('build/verify-oscar-extracts.cjs',s);
+let p=fs.readFileSync('build/verify-vadrouille-package.py','utf8').replace('build/dialogue-extracts/grande-vadrouille','build/dialogue-extracts/oscar').replace('La-Grande-Vadrouille-deux-dialogues.zip','Oscar-deux-dialogues.zip');fs.writeFileSync('build/verify-oscar-package.py',p);

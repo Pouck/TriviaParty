@@ -1,0 +1,68 @@
+[
+  {
+    "questionId": "cv-0aa6c8ac2d40b705b24f",
+    "sourceFilename": "qui dort dinne.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\qui dort dinne.png",
+    "sha256": "0aa6c8ac2d40b705b24f8448c818d3c7989e2f6c34076d2e98dc1f328dd2c733",
+    "canonicalAnswer": "Qui dort dîne",
+    "acceptedVariants": [
+      "Qui dort dîne"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-e498f8b93b047b528a34",
+    "sourceFilename": "qui va piano va sano.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\qui va piano va sano.png",
+    "sha256": "e498f8b93b047b528a3430e21f465405ddb02f979edb29b8ed50f6733a26a2c9",
+    "canonicalAnswer": "Qui va piano va sano",
+    "acceptedVariants": [
+      "Qui va piano va sano"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-2a2ae7cf16f208a4aa76",
+    "sourceFilename": "raconter des salades.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\raconter des salades.png",
+    "sha256": "2a2ae7cf16f208a4aa76d9bbb80f4ad971cbf94387913783460eadc48a74f9fb",
+    "canonicalAnswer": "Raconter des salades",
+    "acceptedVariants": [
+      "Raconter des salades"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-99665980a56a8f53e457",
+    "sourceFilename": "sans queue ni tête.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\sans queue ni tête.png",
+    "sha256": "99665980a56a8f53e45776c42fd5eec0d131f6b2dfc47bd4c55a0053d4fc8729",
+    "canonicalAnswer": "Sans queue ni tête",
+    "acceptedVariants": [
+      "Sans queue ni tête"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-904b2b00ea2e75215065",
+    "sourceFilename": "sauter du coq à l'âne.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\sauter du coq à l'âne.png",
+    "sha256": "904b2b00ea2e75215065fba23ae303d27e3df288e91667266f33d36839bf5316",
+    "canonicalAnswer": "Sauter du coq à l'âne",
+    "acceptedVariants": [
+      "Sauter du coq à l'âne"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-0dcf4eff505c21902e92",
+    "sourceFilename": "se faire rouler dans la farine.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\se faire rouler dans la farine.png",
+    "sha256": "0dcf4eff505c21902e924d3a4f1395045756c7469735eca34e929099dacc730f",
+    "canonicalAnswer": "Se faire rouler dans la farine",
+    "acceptedVariants": [
+      "Se faire rouler dans la farine"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

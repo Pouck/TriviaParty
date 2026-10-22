@@ -1,0 +1,68 @@
+[
+  {
+    "questionId": "cv-a51c7e53848f2b37392a",
+    "sourceFilename": "carnaval.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\carnaval.png",
+    "sha256": "a51c7e53848f2b37392a25b1a8f5b1dde5fef7015245189999d38f31a07b328d",
+    "canonicalAnswer": "Carnaval",
+    "acceptedVariants": [
+      "Carnaval"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-d0a8971f60baab346e5b",
+    "sourceFilename": "champignon.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\champignon.png",
+    "sha256": "d0a8971f60baab346e5b93add67487f34446dc0618fe5aef888148b3c1021c7d",
+    "canonicalAnswer": "Champignon",
+    "acceptedVariants": [
+      "Champignon"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-be6ab48ee73f9d362ab3",
+    "sourceFilename": "gribouillis.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\gribouillis.png",
+    "sha256": "be6ab48ee73f9d362ab35b97cd7b547795faeb692d52f17ddd45b060fba28248",
+    "canonicalAnswer": "Gribouillis",
+    "acceptedVariants": [
+      "Gribouillis"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-0200c21610492646e02c",
+    "sourceFilename": "immeuble.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\immeuble.png",
+    "sha256": "0200c21610492646e02c1a125548c8f1a3cf6f5e19ad85a65267e5ef62d2b023",
+    "canonicalAnswer": "Immeuble",
+    "acceptedVariants": [
+      "Immeuble"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-e82d85719d9b4c0d36d2",
+    "sourceFilename": "parachute.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\parachute.png",
+    "sha256": "e82d85719d9b4c0d36d275c917a9b87b2b52886666ffe8df08b5223e64d7b457",
+    "canonicalAnswer": "Parachute",
+    "acceptedVariants": [
+      "Parachute"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-2a22282e781b399ea4c5",
+    "sourceFilename": "pierre.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Objets\\pierre.png",
+    "sha256": "2a22282e781b399ea4c52726603fb1adbfcd265f57da450d2a687a178fa3551f",
+    "canonicalAnswer": "Pierre",
+    "acceptedVariants": [
+      "Pierre"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

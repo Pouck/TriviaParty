@@ -1,0 +1,270 @@
+[
+  {
+    "id": "zarathustra",
+    "composer": "Richard Strauss",
+    "title": "Ainsi parlait Zarathoustra — lever du soleil",
+    "mood": "Monumental, théâtral ; une révélation du grand gagnant.",
+    "sourceTitle": "File:Also Sprach Zarathustra - Einleitung.ogg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Also_Sprach_Zarathustra_-_Einleitung.ogg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Also_Sprach_Zarathustra_-_Einleitung.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "credit": "Kevin MacLeod",
+    "description": "Introduction (sunrise) from Richard Strauss' symphonic poem  Also sprach Zarathustra",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceCreditHtml": "<a rel=\"nofollow\" class=\"external free\" href=\"http://incompetech.com/music/royalty-free/index.html?keywords=Zarathustra\">http://incompetech.com/music/royalty-free/index.html?keywords=Zarathustra</a>",
+    "sourceDurationSeconds": 86.06,
+    "variants": [
+      {
+        "kind": "short",
+        "file": "clips/zarathustra-short.mp3",
+        "wavFile": "clips/zarathustra-short.wav",
+        "startSeconds": 71,
+        "endSeconds": 83,
+        "durationSeconds": 12,
+        "sha256": "51c9e24ae8e90e5b16fd804bf60581d0f4d1969a26317cd84a7ff61aa5569fc7",
+        "changes": "Excerpt, stereo 44.1 kHz, loudness normalized to -18 LUFS / -2 dBTP, 40 ms fade-in and 800 ms fade-out; MP3 160 kbps."
+      },
+      {
+        "kind": "long",
+        "file": "clips/zarathustra-long.mp3",
+        "wavFile": "clips/zarathustra-long.wav",
+        "startSeconds": 59,
+        "endSeconds": 83,
+        "durationSeconds": 24,
+        "sha256": "12b8b8aec8d4352fbabce4f0c40ad7e8f5b4e6408c19da4f82893914ab848155",
+        "changes": "Excerpt, stereo 44.1 kHz, loudness normalized to -18 LUFS / -2 dBTP, 40 ms fade-in and 800 ms fade-out; MP3 160 kbps."
+      }
+    ],
+    "recordingNote": "Kevin MacLeod"
+  },
+  {
+    "id": "te-deum",
+    "composer": "Marc-Antoine Charpentier",
+    "title": "Te Deum — prélude",
+    "mood": "Cérémoniel et royal — version pour orgue.",
+    "sourceTitle": "File:Charpentier, Te Deum (Prelude).ogg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charpentier,_Te_Deum_(Prelude).ogg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Charpentier%2C_Te_Deum_%28Prelude%29.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "credit": "Ian Dollins",
+    "description": "Prelude  of the   Te Deum   by  Charpentier .",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceCreditHtml": "<table class=\"layouttemplate sourcetemplate\" style=\"width:100%; clear:both; text-align:center; margin:0.5em auto; box-sizing: border-box; padding: 0; border-spacing: 8px; background-color: var(--background-color-neutral-subtle, #f6f7f5); color: var(--color-base, #202122); border: var(--border-subtle, 1px solid #555555);\" dir=\"ltr\" lang=\"en\">\n<tbody><tr>\n<td align=\"left\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Musopen_logo.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Musopen_logo.svg/250px-Musopen_logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"150\" height=\"18\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Musopen_logo.svg/330px-Musopen_logo.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"185\" data-file-height=\"22\"></a></span>\n</td>\n<td>This work comes from the non profit U.S. organization <a href=\"https://en.wikipedia.org/wiki/Musopen\" class=\"extiw\" title=\"w:Musopen\">Musopen</a> where it is available at the following link:<br><small> <a rel=\"nofollow\" class=\"external free\" href=\"http://musopen.org/music/927/\">http://musopen.org/music/927/</a> </small><br>\n<p>The Musopen website requires all uploaders to \"represent and warrant that content uploaded to the site is in the public domain\" (see <a rel=\"nofollow\" class=\"external text\" href=\"https://musopen.org/faq/#id_entry_4\">FAQ #4</a>).\n</p><p><br>\nMusopen's own works (<small>\"Musopen Materials\" and \"Musopen Service\", not user content or public domain content</small>), <b>are fully copyrighted and may not be used freely</b> as stated in their <a rel=\"nofollow\" class=\"external text\" href=\"https://musopen.org/page/tos/\">Terms and Conditions of Use</a>.\n</p>\n</td></tr></tbody></table>",
+    "sourceDurationSeconds": 162.98,
+    "variants": [
+      {
+        "kind": "short",
+        "file": "clips/te-deum-short.mp3",
+        "wavFile": "clips/te-deum-short.wav",
+        "startSeconds": 0,
+        "endSeconds": 12,
+        "durationSeconds": 12,
+        "sha256": "ba6d36d8ea4445c49582d20295a9e0a7ed47441d9e251bcbf7e4f72a908d1da0",
+        "changes": "Excerpt, stereo 44.1 kHz, loudness normalized to -18 LUFS / -2 dBTP, 40 ms fade-in and 800 ms fade-out; MP3 160 kbps."
+      },
+      {
+        "kind": "long",
+        "file": "clips/te-deum-long.mp3",
+        "wavFile": "clips/te-deum-long.wav",
+        "startSeconds": 0,
+        "endSeconds": 24,
+        "durationSeconds": 24,
+        "sha256": "f30df9b937a9b8c3de03f2554e20f658a2b8f35fe7292cfbba08a358e3043a75",
+        "changes": "Excerpt, stereo 44.1 kHz, loudness normalized to -18 LUFS / -2 dBTP, 40 ms fade-in and 800 ms fade-out; MP3 160 kbps."
+      }
+    ],
+    "recordingNote": "Version pour orgue : Ian Dollins."
+  },
+  {
+    "id": "fireworks",
+    "composer": "Georg Friedrich Händel",
+    "title": "La Réjouissance — Musique pour les feux d’artifice royaux",
+    "mood": "Festif, élégant ; une victoire joyeuse.",
+    "sourceTitle": "File:George Frideric Handel - Music for the Royal Fireworks 4 (La Rejouissance).ogg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:George_Frideric_Handel_-_Music_for_the_Royal_Fireworks_4_(La_Rejouissance).ogg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/George_Frideric_Handel_-_Music_for_the_Royal_Fireworks_4_%28La_Rejouissance%29.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "credit": "St Matthew Concert Choir / Paul Ayres (recording metadata)",
+    "description": "George Frideric Handel - Music for the Royal Fireworks 4 (La Rejouissance)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceCreditHtml": "The open source audio collection 78 RPMs &amp; Cylinder Recordings",
+    "sourceDurationSeconds": 98.7,
+    "variants": [
+      {
+        "kind": "short",
+        "file": "clips/fireworks-short.mp3",
+        "wavFile": "clips/fireworks-short.wav",
+        "startSeconds": 0,
+        "endSeconds": 12,
+        "durationSeconds": 12,
+        "sha256": "b9ee4b820560a7ba906313e1feec467972bd79485e0ab00353b60b3f20f7911e",
+        "changes": "Excerpt, stereo 44.1 kHz, loudness normalized to -18 LUFS / -2 dBTP, 40 ms fade-in and 800 ms fade-out; MP3 160 kbps."
+      },
+      {
+        "kind": "long",
+        "file": "clips/fireworks-long.mp3",
+        "wavFile": "clips/fireworks-long.wav",
+        "startSeconds": 0,
+        "endSeconds": 24,
+        "durationSeconds": 24,
+        "sha256": "39fb1043302427e9180e8ed3ce6ef96ed8973887a61b0020698e62deb0c8480d",
+        "changes": "Excerpt, stereo 44.1 kHz, loudness normalized to -18 LUFS / -2 dBTP, 40 ms fade-in and 800 ms fade-out; MP3 160 kbps."
+      }
+    ],
+    "recordingNote": "Version indiquée dans les métadonnées : St Matthew Concert Choir / Paul Ayres."
+  },
+  {
+    "id": "aida",
+    "composer": "Giuseppe Verdi",
+    "title": "Aïda — marche triomphale",
+    "mood": "Cuivres éclatants ; une entrée de champion.",
+    "sourceTitle": "File:Aida-Trompeten.ogg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aida-Trompeten.ogg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Aida-Trompeten.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "credit": "Giuseppe Verdi, performed by the  United States Marine Corps Band , Timothy Foley, Director\n \nediting (extract): Christoph Waghubinger ( Lewenstein )",
+    "description": "Ausschnitt aus dem Triumphmarsch in Verdis Oper  Aida . Zu hören sind die  Aida-Trompeten .",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceCreditHtml": "This file has been <b>extracted</b> from another file",
+    "sourceDurationSeconds": 50.86,
+    "variants": [
+      {
+        "kind": "short",
+        "file": "clips/aida-short.mp3",
+        "wavFile": "clips/aida-short.wav",
+        "startSeconds": 0,
+        "endSeconds": 12,
+        "durationSeconds": 12,
+        "sha256": "adf9bbd8ec2f67b49b64d483413b9d483d4206c942513891fc76bc2e9a90ec3d",
+        "changes": "Excerpt, stereo 44.1 kHz, loudness normalized to -18 LUFS / -2 dBTP, 40 ms fade-in and 800 ms fade-out; MP3 160 kbps."
+      },
+      {
+        "kind": "long",
+        "file": "clips/aida-long.mp3",
+        "wavFile": "clips/aida-long.wav",
+        "startSeconds": 0,
+        "endSeconds": 24,
+        "durationSeconds": 24,
+        "sha256": "1fd0797425c45ec5cf044dd5c9de088e7f7612068fb4bb830c111376cfb59bb1",
+        "changes": "Excerpt, stereo 44.1 kHz, loudness normalized to -18 LUFS / -2 dBTP, 40 ms fade-in and 800 ms fade-out; MP3 160 kbps."
+      }
+    ],
+    "recordingNote": "Giuseppe Verdi, performed by the  United States Marine Corps Band , Timothy Foley, Director\n \nediting (extract): Christoph Waghubinger ( Lewenstein )"
+  },
+  {
+    "id": "pomp",
+    "composer": "Edward Elgar",
+    "title": "Pomp and Circumstance — marche nº 1",
+    "mood": "Solennel, majestueux ; une remise de trophée.",
+    "sourceTitle": "File:ELGAR Pomp and Circumstance in D, Opus 39, No. 1 - United States Marine Band.mp3",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ELGAR_Pomp_and_Circumstance_in_D,_Opus_39,_No._1_-_United_States_Marine_Band.mp3",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/28/ELGAR_Pomp_and_Circumstance_in_D%2C_Opus_39%2C_No._1_-_United_States_Marine_Band.mp3/ELGAR_Pomp_and_Circumstance_in_D%2C_Opus_39%2C_No._1_-_United_States_Marine_Band.mp3.ogg",
+    "credit": "United States Marine Band",
+    "description": "Edward Elgar's Pomp and Circumstance in D, Opus 39, No. 1 performed by the United States Marine Band",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceCreditHtml": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.marineband.marines.mil/Portals/175/Docs/Audio/Web_Exclusives/web_exclusives/pomp-and-circumstance1988.mp3?ver=2020-05-28-080627-740\">https://www.marineband.marines.mil/Portals/175/Docs/Audio/Web_Exclusives/web_exclusives/pomp-and-circumstance1988.mp3?ver=2020-05-28-080627-740</a>",
+    "sourceDurationSeconds": 345.97,
+    "variants": [
+      {
+        "kind": "short",
+        "file": "clips/pomp-short.mp3",
+        "wavFile": "clips/pomp-short.wav",
+        "startSeconds": 280,
+        "endSeconds": 292,
+        "durationSeconds": 12,
+        "sha256": "d71f5528dcfdd8213567f2005f7bb27e86d0143a04b87ee2ea5eda50d1fd4976",
+        "changes": "Excerpt, stereo 44.1 kHz, loudness normalized to -18 LUFS / -2 dBTP, 40 ms fade-in and 800 ms fade-out; MP3 160 kbps."
+      },
+      {
+        "kind": "long",
+        "file": "clips/pomp-long.mp3",
+        "wavFile": "clips/pomp-long.wav",
+        "startSeconds": 280,
+        "endSeconds": 304,
+        "durationSeconds": 24,
+        "sha256": "e89da3591eba3db4116f25cb3da657ed9e355bf7d32e3e3f092d1fcff8002c15",
+        "changes": "Excerpt, stereo 44.1 kHz, loudness normalized to -18 LUFS / -2 dBTP, 40 ms fade-in and 800 ms fade-out; MP3 160 kbps."
+      }
+    ],
+    "recordingNote": "United States Marine Band"
+  },
+  {
+    "id": "kiev",
+    "composer": "Modeste Moussorgski",
+    "title": "La Grande Porte de Kiev",
+    "mood": "Massif, noble ; une victoire épique.",
+    "sourceTitle": "File:Modest Mussorgsky - pictures at an exhibition - x. la grande porte de kiev - allegro alla breve. maestoso. con grandezza.ogg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Modest_Mussorgsky_-_pictures_at_an_exhibition_-_x._la_grande_porte_de_kiev_-_allegro_alla_breve._maestoso._con_grandezza.ogg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_x._la_grande_porte_de_kiev_-_allegro_alla_breve._maestoso._con_grandezza.ogg/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_x._la_grande_porte_de_kiev_-_allegro_alla_breve._maestoso._con_grandezza.ogg.mp3",
+    "credit": "Enregistrement diffusé par Musopen ; interprète non précisé dans la fiche source.",
+    "description": "Pictures at an Exhibition  - x. la grande porte de kiev - allegro alla breve. maestoso. con grandezza.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceCreditHtml": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.musopen.com\">http://www.musopen.com</a>",
+    "sourceDurationSeconds": 328.25,
+    "originalDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Modest_Mussorgsky_-_pictures_at_an_exhibition_-_x._la_grande_porte_de_kiev_-_allegro_alla_breve._maestoso._con_grandezza.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "variants": [
+      {
+        "kind": "short",
+        "file": "clips/kiev-short.mp3",
+        "wavFile": "clips/kiev-short.wav",
+        "startSeconds": 0,
+        "endSeconds": 12,
+        "durationSeconds": 12,
+        "sha256": "91f7d53ba8048bfc552268ae68663f475550edc6482d441f5ec166ed009a2a7f",
+        "changes": "Excerpt, stereo 44.1 kHz, loudness normalized to -18 LUFS / -2 dBTP, 40 ms fade-in and 800 ms fade-out; MP3 160 kbps."
+      },
+      {
+        "kind": "long",
+        "file": "clips/kiev-long.mp3",
+        "wavFile": "clips/kiev-long.wav",
+        "startSeconds": 0,
+        "endSeconds": 24,
+        "durationSeconds": 24,
+        "sha256": "64a1c9d8a1ec25e0515739637a1faf9b765e3f53b952a860563056ff0aa02922",
+        "changes": "Excerpt, stereo 44.1 kHz, loudness normalized to -18 LUFS / -2 dBTP, 40 ms fade-in and 800 ms fade-out; MP3 160 kbps."
+      }
+    ],
+    "recordingNote": "Enregistrement Musopen ; interprète non précisé dans la fiche source."
+  },
+  {
+    "id": "william-tell",
+    "composer": "Gioachino Rossini",
+    "title": "Guillaume Tell — finale",
+    "mood": "Vif, héroïque ; une arrivée victorieuse et enjouée.",
+    "sourceTitle": "File:Gioachino Rossini, William Tell Overture (military band version, 2000).ogg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gioachino_Rossini,_William_Tell_Overture_(military_band_version,_2000).ogg",
+    "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Gioachino_Rossini%2C_William_Tell_Overture_%28military_band_version%2C_2000%29.ogg/Gioachino_Rossini%2C_William_Tell_Overture_%28military_band_version%2C_2000%29.ogg.mp3",
+    "credit": "Gioachino Rossini, transcribed by Wenzel Sedlak; performed by the United States Marine Corps Band (director: Timothy Foley).",
+    "description": "Gioachino Rossini 's   William Tell Overture   (1829) on the  Grand Scenes  (2000) album performed by the  United States Marine Corps Band , recorded June 5–9, 2000, at the Center for the Arts,  George Mason University ,  Fairfax ,  Virginia .  Ranz des Vaches  begins at 5:14 and finale at 7:30.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "sourceCreditHtml": "<a rel=\"mw:ExtLink nofollow\" href=\"https://web.archive.org/web/1/www.marineband.usmc.mil/downloads/audio/overture_to_william_tell.mp3\" class=\"external free\">https://web.archive.org/web/1/www.marineband.usmc.mil/downloads/audio/overture_to_william_tell.mp3</a>.",
+    "sourceDurationSeconds": 662.07,
+    "originalDownloadUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Gioachino_Rossini%2C_William_Tell_Overture_%28military_band_version%2C_2000%29.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "variants": [
+      {
+        "kind": "short",
+        "file": "clips/william-tell-short.mp3",
+        "wavFile": "clips/william-tell-short.wav",
+        "startSeconds": 450,
+        "endSeconds": 462,
+        "durationSeconds": 12,
+        "sha256": "8115c277aa9d08af631afbb2c6f9edf4c99f1db7e234e8ce7ec01b00b7489bc7",
+        "changes": "Excerpt, stereo 44.1 kHz, loudness normalized to -18 LUFS / -2 dBTP, 40 ms fade-in and 800 ms fade-out; MP3 160 kbps."
+      },
+      {
+        "kind": "long",
+        "file": "clips/william-tell-long.mp3",
+        "wavFile": "clips/william-tell-long.wav",
+        "startSeconds": 450,
+        "endSeconds": 474,
+        "durationSeconds": 24,
+        "sha256": "17b0b712431e67a9c3f8c9c52de19b186a21cfec588befd970c4137b50b280c1",
+        "changes": "Excerpt, stereo 44.1 kHz, loudness normalized to -18 LUFS / -2 dBTP, 40 ms fade-in and 800 ms fade-out; MP3 160 kbps."
+      }
+    ],
+    "recordingNote": "Gioachino Rossini, transcribed by Wenzel Sedlak; performed by the United States Marine Corps Band (director: Timothy Foley)."
+  }
+]

@@ -28,7 +28,7 @@ class BuzzerStatusTest {
         val buzz = AnswerSubmission("a", "q", AnswerValue.TextSelection("BUZZ"), true, 0, 0)
         game = game.copy(submissions = mapOf("a" to buzz))
         assertEquals(BuzzerStatus.PRESSED, game.buzzerStatus("a", true))
-        assertEquals(BuzzerStatus.BLOCKED, game.buzzerStatus("b", true))
+        assertEquals(BuzzerStatus.READY, game.buzzerStatus("b", true))
         game = game.copy(submissions = mapOf("a" to buzz.copy(isCorrect = false)), textBuzzedTeamIds = listOf("a"))
         assertEquals(BuzzerStatus.INCORRECT, game.buzzerStatus("a", true))
         assertEquals(BuzzerStatus.READY, game.buzzerStatus("b", true))

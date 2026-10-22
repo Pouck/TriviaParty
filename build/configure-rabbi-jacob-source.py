@@ -1,0 +1,2 @@
+from pathlib import Path
+s=Path('build/extract-oscar-dialogues.py').read_text(encoding='utf8').replace("build/dialogue-extracts/oscar'","build/dialogue-extracts/rabbi-jacob'").replace('https://www.fufuworld.com/data/contents/common/sounds/oscar/oscar-02-augmentation.mp3','https://www.fufuworld.com/data/contents/common/sounds/rabbi-jacob/rabbi-jacob-04-jewish.mp3');Path('build/extract-rabbi-jacob-dialogue.py').write_text(s,encoding='utf8')

@@ -1,0 +1,76 @@
+{
+  "category": "Charades visuelles — Livres célèbres — 2 — Buzzer",
+  "subject": "Littérature",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-bb7744e0c8af2c8fb78d",
+      "category": "Charades visuelles — Livres célèbres — 2 — Buzzer",
+      "prompt": "Quel titre de livre se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Les Misérables"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-384abb0d870de92ab20c",
+      "category": "Charades visuelles — Livres célèbres — 2 — Buzzer",
+      "prompt": "Quel titre de livre se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Les Quatre Filles du docteur March",
+        "Les Quatre Filles du Dr March"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-772851924e95e4ef0d4c",
+      "category": "Charades visuelles — Livres célèbres — 2 — Buzzer",
+      "prompt": "Quel titre de livre se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Orgueil et Préjugés"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-d3cca3a4dbffa9e6c217",
+      "category": "Charades visuelles — Livres célèbres — 2 — Buzzer",
+      "prompt": "Quel titre de livre se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Pour qui sonne le glas"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-8d4e246fa2db8aed7d07",
+      "category": "Charades visuelles — Livres célèbres — 2 — Buzzer",
+      "prompt": "Quel titre de livre se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "À la recherche du temps perdu"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

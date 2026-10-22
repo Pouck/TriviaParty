@@ -23,6 +23,7 @@ data class CastTv(val id: String, val name: String)
 data class CastStatus(
     val message: String = "Choose a TV to start casting",
     val error: String? = null,
+    val audioStatus: String? = null,
     val connected: Boolean = false,
     val connecting: Boolean = false
 )
@@ -44,6 +45,7 @@ class GoogleCastController(context: Context, private val game: StateFlow<GameSes
     private var generation = 0
     private var sending = false
     private var pending: String? = null
+    private var reviewPreview: GameSession? = null
     private var latest = TvState.from(game.value).encode()
 
     private val routeCallback = object : MediaRouter.Callback() {
@@ -88,13 +90,26 @@ class GoogleCastController(context: Context, private val game: StateFlow<GameSes
             sdk.sessionManager.currentCastSession?.takeIf { it.isConnected }?.let(::attach)
             scope.launch {
                 game.collect {
-                    latest = TvState.from(it).encode()
+                    latest = TvState.from(reviewPreview ?: it).encode()
                     sendLatest()
                 }
             }
         } catch (e: Exception) {
             _status.value = CastStatus(error = "Google Cast could not start. Check Google Play services and retry.")
         }
+    }
+
+    /** Temporarily mirror the solo-review screen to the receiver without touching game state. */
+    fun showReviewPreview(preview: GameSession) {
+        reviewPreview = preview
+        latest = TvState.from(preview).encode()
+        sendLatest()
+    }
+
+    fun clearReviewPreview() {
+        reviewPreview = null
+        latest = TvState.from(game.value).encode()
+        sendLatest()
     }
 
     fun startDiscovery() {
@@ -159,9 +174,17 @@ class GoogleCastController(context: Context, private val game: StateFlow<GameSes
         )
         try {
             connectedSession.setMessageReceivedCallbacks(TRIVIA_CAST_NAMESPACE) { _, _, message ->
-                if (session === connectedSession && runCatching {
-                        JSONObject(message).optString("type") == "ready"
-                    }.getOrDefault(false)) sendLatest()
+                if (session === connectedSession) runCatching {
+                    val payload = JSONObject(message)
+                    when (payload.optString("type")) {
+                        "ready" -> sendLatest()
+                        "audio-status" -> _status.value = _status.value.copy(audioStatus = when (payload.optString("status")) {
+                            "playing" -> "Son TV en lecture · vérifiez le volume du téléviseur si vous ne l’entendez pas."
+                            "blocked" -> "Le téléviseur bloque le son. Reconnectez la diffusion puis réessayez."
+                            else -> "Le téléviseur ne peut pas charger le son. Réessayez ou reconnectez la diffusion."
+                        })
+                    }
+                }
             }
             sendLatest()
         } catch (e: Exception) {
@@ -199,6 +222,18 @@ class GoogleCastController(context: Context, private val game: StateFlow<GameSes
         } catch (e: Exception) {
             sending = false
             _status.value = _status.value.copy(error = "TV update failed. Tap Resend game or reconnect.")
+        }
+    }
+
+    fun testAudio() {
+        val active = session?.takeIf { it.isConnected } ?: return
+        _status.value = _status.value.copy(audioStatus = "Test du son TV…")
+        try {
+            active.sendMessage(TRIVIA_CAST_NAMESPACE, "{\"type\":\"audio-test\",\"version\":1}").setResultCallback { result ->
+                if (!result.isSuccess) _status.value = _status.value.copy(audioStatus = "Le test audio n’a pas atteint le téléviseur. Reconnectez la diffusion.")
+            }
+        } catch (_: Exception) {
+            _status.value = _status.value.copy(audioStatus = "Test audio impossible. Reconnectez la diffusion.")
         }
     }
 

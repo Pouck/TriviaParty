@@ -19,8 +19,7 @@
         "C — Dumbo",
         "D — Baloo"
       ],
-      "correctOptionIndex": 0,
-      "imageUrl": "images/lib-qcm-disney-20261012/lion.jpg"
+      "correctOptionIndex": 0
     },
     {
       "id": "lib-qcm-disney-20261012-02",
@@ -65,8 +64,7 @@
         "C — Mulan",
         "D — Pocahontas"
       ],
-      "correctOptionIndex": 1,
-      "imageUrl": "images/lib-qcm-disney-20261012/pumpkin.png"
+      "correctOptionIndex": 1
     },
     {
       "id": "lib-qcm-disney-20261012-05",

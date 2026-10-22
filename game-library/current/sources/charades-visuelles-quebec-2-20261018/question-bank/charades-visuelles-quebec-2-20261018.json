@@ -1,0 +1,103 @@
+{
+  "category": "Charades visuelles — Expressions et mots du Québec — 2 — Réponses écrites",
+  "subject": "Langue française",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-650a2a32f4811d40ebf4",
+      "category": "Charades visuelles — Expressions et mots du Québec — 2 — Réponses écrites",
+      "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Sacrer son camp"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-4211dbb25a7ff5b359e9",
+      "category": "Charades visuelles — Expressions et mots du Québec — 2 — Réponses écrites",
+      "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Se dorer la couenne au soleil",
+        "Se dorer la couenne"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-76ca37af037c4822ac5b",
+      "category": "Charades visuelles — Expressions et mots du Québec — 2 — Réponses écrites",
+      "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Se faire passer un sapin"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-2d8bffd0bad71d9b191f",
+      "category": "Charades visuelles — Expressions et mots du Québec — 2 — Réponses écrites",
+      "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Tire-toi une bûche",
+        "Tire-toi une buche"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-aa15e034655620999e11",
+      "category": "Charades visuelles — Expressions et mots du Québec — 2 — Réponses écrites",
+      "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Tomber des clous"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-ba263630036e32f65101",
+      "category": "Charades visuelles — Expressions et mots du Québec — 2 — Réponses écrites",
+      "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?",
+      "imageUrl": "images/charade-06.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Être dans les patates"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-59cc60766000a9c190f2",
+      "category": "Charades visuelles — Expressions et mots du Québec — 2 — Réponses écrites",
+      "prompt": "Quel mot ou quelle expression du Québec se cache dans cette image ?",
+      "imageUrl": "images/charade-07.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Être vite sur ses patins"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

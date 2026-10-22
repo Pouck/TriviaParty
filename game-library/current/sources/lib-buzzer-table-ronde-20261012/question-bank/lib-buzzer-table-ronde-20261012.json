@@ -16,8 +16,7 @@
       "acceptableAnswers": [
         "Excalibur"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-table-ronde-20261012/sword.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-table-ronde-20261012-02",
@@ -42,8 +41,7 @@
       "acceptableAnswers": [
         "Camelot"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-table-ronde-20261012/castle.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-table-ronde-20261012-04",

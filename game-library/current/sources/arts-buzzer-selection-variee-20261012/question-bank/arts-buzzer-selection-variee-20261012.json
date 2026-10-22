@@ -26,10 +26,11 @@
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "textAnswer",
-      "prompt": "Quel pays a offert la statue de la Liberté aux États-Unis ?",
+      "prompt": "Quel sculpteur français a conçu la statue de la Liberté ?",
       "acceptableAnswers": [
-        "La France",
-        "France"
+        "Frédéric Auguste Bartholdi",
+        "Auguste Bartholdi",
+        "Bartholdi"
       ],
       "allowFuzzyMatch": true
     },
@@ -59,7 +60,8 @@
         "Vincent van Gogh",
         "Van Gogh"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "imageUrl": "images/arts-buzzer-selection-variee-20261012/starry-night.jpg"
     },
     {
       "id": "arts-buzzer-tableaux-celebres-20261011-07",

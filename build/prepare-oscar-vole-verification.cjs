@@ -1,0 +1,3 @@
+const fs=require('fs');let s=fs.readFileSync('build/verify-oscar-extracts.cjs','utf8').replace("path.resolve('build/dialogue-extracts/oscar')","path.resolve('build/dialogue-extracts/oscar-vole')").replace('Expected two extracts','Expected three extracts').replace('both extracts decode','three extracts decode');
+fs.writeFileSync('build/verify-oscar-vole-extracts.cjs',s);
+let p=fs.readFileSync('build/verify-oscar-package.py','utf8').replace("Path('build/dialogue-extracts/oscar')","Path('build/dialogue-extracts/oscar-vole')").replace('assert len(rows)==2','assert len(rows)==3').replace('Oscar-deux-dialogues.zip','Oscar-vole-trois-dialogues.zip').replace('Both WAV/MP3 pairs','All three WAV/MP3 pairs');fs.writeFileSync('build/verify-oscar-vole-package.py',p);

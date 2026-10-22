@@ -19,8 +19,7 @@
         "C — Star Wars: Le Réveil de la Force",
         "D — Titanic"
       ],
-      "correctOptionIndex": 1,
-      "imageUrl": "images/original-pop-culture/forest.jpg"
+      "correctOptionIndex": 1
     },
     {
       "kind": "multipleChoice",
@@ -35,8 +34,7 @@
         "C — Led Zeppelin",
         "D — Queen"
       ],
-      "correctOptionIndex": 3,
-      "imageUrl": "images/original-pop-culture/guitar.jpg"
+      "correctOptionIndex": 3
     },
     {
       "kind": "multipleChoice",

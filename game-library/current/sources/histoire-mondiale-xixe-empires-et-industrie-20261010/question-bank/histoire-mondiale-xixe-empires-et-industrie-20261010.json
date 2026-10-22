@@ -55,16 +55,16 @@
       "kind": "multipleChoice",
       "id": "monde-xixe-empires-et-industrie-04-20261010",
       "category": "Histoire mondiale — Grands repères — QCM — 1",
-      "prompt": "Quel enjeu était notamment au cœur de la conférence de Berlin de 1884–1885 ?",
+      "prompt": "Quel principe la conférence de Berlin (1884–1885) fixa-t-elle pour revendiquer un territoire en Afrique ?",
       "basePoints": 15,
       "penaltyPoints": 0,
       "options": [
-        "A — Créer une monnaie européenne commune",
-        "B — Fixer des règles entre puissances pour l’expansion coloniale en Afrique",
-        "C — Former une alliance militaire contre l’Empire ottoman",
-        "D — Restreindre collectivement le commerce avec la Chine"
+        "A — Occuper effectivement le territoire",
+        "B — Le découvrir en premier",
+        "C — Obtenir l’accord de tous les royaumes voisins",
+        "D — Y ouvrir un comptoir commercial"
       ],
-      "correctOptionIndex": 1
+      "correctOptionIndex": 0
     },
     {
       "kind": "multipleChoice",

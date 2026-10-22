@@ -69,9 +69,10 @@
         "Je suis un récit de Lewis Carroll.",
         "Une petite fille tombe dans un terrier.",
         "Un chapelier et un chat étrange apparaissent.",
-        "Je suis le voyage d’Alice au pays des merveilles."
+        "John Tenniel illustre la première édition de ce récit, parue en 1865."
       ],
       "acceptableAnswers": [
+        "Alice au pays des merveilles (Alice’s Adventures in Wonderland)",
         "Alice’s Adventures in Wonderland",
         "Alice au pays des merveilles"
       ]

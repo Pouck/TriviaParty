@@ -1,0 +1,6 @@
+from pathlib import Path
+p=Path('build/install-movie-audition.py');s=p.read_text(encoding='utf8')
+s=s.replace("run('shell','run-as','com.example.triviaparty','mkdir','-p','files/reaction-preview')\nfor name", "run('shell','run-as','com.example.triviaparty','mkdir','-p','files/reaction-preview')\n# Read all installed hashes in one call; only transfer changed files, manifest last.\ninstalled={}\ntry:\n inventory=run('shell',\"run-as com.example.triviaparty sh -c 'cd files/reaction-preview && sha256sum *.wav credits.html reactions.json'\").decode()\n for line in inventory.splitlines():\n  parts=line.split()\n  if len(parts)==2 and re.fullmatch('[0-9a-f]{64}',parts[0]):installed[parts[1]]=parts[0]\nexcept subprocess.CalledProcessError:pass\nchanged=0\nfor name")
+s=s.replace(" remote='/data/local/tmp/trivia-reaction-'+name", " if installed.get(name)==hashlib.sha256((a.bank/name).read_bytes()).hexdigest():continue\n changed+=1\n remote='/data/local/tmp/trivia-reaction-'+name")
+s=s.replace("print(f'Installed and verified {len(records)} private dialogue clips. Restart TriviaParty to activate.')", "print(f'Installed and verified {len(records)} private reaction clips ({changed} files transferred). Restart TriviaParty to activate.')")
+p.write_text(s,encoding='utf8')

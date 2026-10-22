@@ -81,15 +81,15 @@ test('blocked debug audio offers activation and reuses the activated element for
   } finally {Object.assign(global,previous);}
 });
 
-test('new accepted buzzes play once and old buzzes do not replay when joining or reconnecting', () => {
+test('TV never echoes phone buzzer audio, including late connection and new buzzes', () => {
   const previous=global.Audio,played=[];global.Audio=class {constructor(src){this.src=src;}pause(){}play(){played.push(this.src);return Promise.resolve();}};
   try {
     const render=currentReceiver.makeRenderer(documentStub()),base=state({joinUrl:'http://host:8080/play',buzzerSoundId:4});
     render(base);assert.equal(played.length,0);
     render({...base,buzzerSoundId:5,answeringTeam:'First'});render({...base,buzzerSoundId:5,answeringTeam:'First',answerSecondsRemaining:7});
     render({...base,buzzerSoundId:6,answeringTeam:'Next'});
-    assert.deepEqual(played,['http://host:8080/tv/sounds/buzzer.wav','http://host:8080/tv/sounds/buzzer.wav']);
-    render({...base,roomId:'new',buzzerSoundId:0});assert.equal(played.length,2);
+    assert.deepEqual(played,[]);
+    render({...base,roomId:'new',buzzerSoundId:0});assert.equal(played.length,0);
   } finally {global.Audio=previous;}
 });
 
@@ -106,13 +106,13 @@ test('recorded reaction and result symbol appear once, expire, and clear on a ne
       render(base);const scene=doc.getElementById('scene').firstChild,feedback=doc.getElementById('answer-feedback');
       assert.equal(feedback.style.display,'none');
       const bad={...base,answerSoundId:1,answerSound:'bad',answerSoundClip:'bad-04.mp3'};
-      render(bad);assert.equal(feedback.textContent,'✕');assert.equal(feedback.className,'answer-feedback bad');assert.equal(feedback.style.display,'flex');
+      render(bad);assert.equal(feedback.firstChild.className,'brush-mark');assert.equal(feedback.className,'answer-feedback bad');assert.equal(feedback.style.display,'flex');
       assert.equal(played.at(-1),'http://192.168.1.5:8080/tv/sounds/bad-ping.wav');latest.onended();
       const count=played.length;render({...bad,secondsRemaining:3});assert.equal(played.length,count);assert.equal(doc.getElementById('scene').firstChild,scene);
       timers.get(sequence)();assert.equal(feedback.style.display,'none');
       render({...bad,answerSoundId:2,answerSound:'good',answerSoundClip:'good-03.wav'});
       assert.equal(played.at(-1),'http://192.168.1.5:8080/tv/sounds/good-ping.wav');latest.onended();
-      assert.equal(feedback.textContent,'✓');assert.equal(feedback.style.display,'flex');
+      assert.equal(feedback.firstChild.className,'brush-mark');assert.equal(feedback.style.display,'flex');
       render({...base,question:{...base.question,id:'next'},answerSoundId:2});assert.equal(feedback.style.display,'none');
       render({...base,question:{...base.question,id:'next'},answerSoundId:3,answerSound:'good',answerSoundClip:'../secret.wav'});
       latest.onended();
@@ -226,6 +226,7 @@ function documentStub() {
   const elements = {};
   return {
     createElement: tag => new Element(tag),
+      createElementNS: (namespace, tag) => new Element(tag),
     getElementById: id => elements[id] || (elements[id] = new Element('div'))
   };
 }
@@ -516,9 +517,9 @@ test('validated response and large name remain visible across repeated result sn
 test('category intro always has a type and refreshes when category metadata changes',()=> {
  const doc=documentStub(),render=currentReceiver.makeRenderer(doc);
  render(state({phase:'CATEGORY_INTRO',category:'Legacy',categoryQuestionTypes:[],categoryAnswerMode:'BUZZER'}));
- assert.match(doc.getElementById('scene').textContent,/Type : Buzzer/);
+ assert.match(doc.getElementById('scene').textContent,/Buzzer/);
  render(state({phase:'CATEGORY_INTRO',category:'Chronology',categoryQuestionTypes:['Chronologie'],categoryAnswerMode:'SIMULTANEOUS'}));
- assert.match(doc.getElementById('scene').textContent,/Type : Chronologie/);
+ assert.match(doc.getElementById('scene').textContent,/Chronologie/);
  assert.doesNotMatch(doc.getElementById('scene').textContent,/Legacy/);
 });
 
@@ -613,4 +614,78 @@ test('debug WebSocket dispatches the immediate cue without rebuilding the questi
   assert.equal(cues.length,1);assert.equal(rendered.length,0);
   socket.onmessage({data:JSON.stringify({type:'state',roomId:'r'})});
   assert.equal(rendered.length,1);assert.equal(cues.length,1);
+});
+
+test('category titles break at separators and keep repeated formats out of headings', () => {
+ for (const renderer of [receiver,currentReceiver]) {
+  const doc=documentStub(),render=renderer.makeRenderer(doc);
+  render(state({phase:'CATEGORY_INTRO',category:'Manga - Grands classiques - QCM',categoryQuestionTypes:['Choix multiples'],categoryAnswerMode:'SIMULTANEOUS'}));
+  const scene=doc.getElementById('scene');
+  assert.deepEqual(scene.firstChild.children.map(line=>line.textContent),['Manga','Grands classiques']);
+  assert.equal((scene.textContent.match(/Choix multiples/g)||[]).length,1);
+  assert.equal(doc.getElementById('category').textContent,'Manga · Grands classiques');
+  render(state({phase:'CATEGORY_INTRO',category:'Culture - Qui suis-je ? - Buzzer',categoryQuestionTypes:['Qui suis-je ?','Buzzer'],categoryAnswerMode:'BUZZER'}));
+  assert.equal(doc.getElementById('scene').firstChild.textContent,'Culture');
+  assert.equal((scene.textContent.match(/Buzzer/g)||[]).length,1);
+  assert.equal((scene.textContent.match(/Qui suis-je/g)||[]).length,1);
+  render(state({phase:'CATEGORY_INTRO',category:'Histoire — Chronologie',categoryQuestionTypes:['Chronologie'],categoryAnswerMode:'SIMULTANEOUS'}));
+  assert.equal(scene.firstChild.textContent,'Histoire');
+  assert.equal((scene.textContent.match(/Chronologie/g)||[]).length,1);
+ }
+});
+
+test('compound written and oral formats appear only in the last two category rows',()=> {
+ for (const renderer of [receiver,currentReceiver]) {
+  const doc=documentStub(),render=renderer.makeRenderer(doc);
+  for(const category of ['Légendes de France — Régions et créatures — Qui suis-je écrit','Légendes de France — Régions et créatures qui suis-je écrit','Légendes de France — Régions et créatures — Qui suis-je ? — réponse écrite']) {
+   render(state({phase:'CATEGORY_INTRO',category,categoryQuestionTypes:['Qui suis-je ? — réponse écrite'],categoryAnswerMode:'WRITTEN'}));
+   const scene=doc.getElementById('scene');
+   assert.deepEqual(scene.firstChild.children.map(line=>line.textContent),['Légendes de France','Régions et créatures']);
+   assert.equal(doc.getElementById('category').textContent,'Légendes de France · Régions et créatures');
+   assert.equal((scene.textContent.match(/Qui suis-je/g)||[]).length,1);
+   assert.equal((scene.textContent.match(/Réponses écrites/g)||[]).length,1);
+   assert.equal(scene.children.at(-2).textContent,'Qui suis-je ?');
+   assert.equal(scene.children.at(-1).textContent,'Réponses écrites');
+  }
+ }
+});
+
+test('Cast sound test reports blocked autoplay and successful retry to the host', async () => {
+ const old=global.Audio;let allowed=false,listener;const sent=[];
+ global.Audio=class {constructor(src){this.src=src;}pause(){}play(){return allowed?Promise.resolve():Promise.reject(Object.assign(Error('Activation required'),{name:'NotAllowedError'}));}};
+ try {
+  const doc=documentStub();const context={getSenders:()=>[{senderId:'host'}],sendCustomMessage:(ns,id,message)=>sent.push(message),addCustomMessageListener:(ns,callback)=>listener=callback,addEventListener(){},start(){}};
+  currentReceiver.connectReceiver(context,{system:{EventType:{READY:'ready',SENDER_CONNECTED:'connected',SENDER_DISCONNECTED:'disconnected'},MessageType:{JSON:'json'}}},doc);
+  listener({data:state({joinUrl:'http://host:8080/play'})});listener({data:{type:'audio-test',version:1}});
+  await Promise.resolve();await Promise.resolve();
+  assert.equal(sent.at(-1).type,'audio-status');assert.equal(sent.at(-1).status,'blocked');
+  allowed=true;listener({data:JSON.stringify({type:'audio-test',version:1})});await Promise.resolve();await Promise.resolve();
+  assert.equal(sent.at(-1).status,'playing');
+ } finally {global.Audio=old;}
+});
+
+
+test('numbered category editions stay on the preceding title line',()=>{
+ for(const renderer of [receiver,currentReceiver]) {
+  const doc=documentStub(),render=renderer.makeRenderer(doc);
+  for(const category of ['Culture - Grands classiques - 2 - QCM','Culture - Grands classiques 2 - QCM','Culture — Grands classiques — 12 — QCM']) {
+   render(state({phase:'CATEGORY_INTRO',category,categoryQuestionTypes:['Choix multiples'],categoryAnswerMode:'SIMULTANEOUS'}));
+   const lines=doc.getElementById('scene').firstChild.children.map(line=>line.textContent);
+   assert.deepEqual(lines,['Culture',category.includes('12')?'Grands classiques\u00a012':'Grands classiques\u00a02']);
+   assert.ok(!lines.some(line=>/^\d+$/.test(line)));
+  }
+ }
+});
+
+test('the host-selected ending plays once and unrecognized filenames fall back safely',()=>{
+ const old=global.Audio,played=[];global.Audio=class{constructor(src){this.src=src;}pause(){}play(){played.push(this.src);return Promise.resolve();}};
+ try {
+  for(const renderer of [receiver,currentReceiver]) {
+   for(const filename of ['game-end-aida.mp3','../arbitrary.mp3']) {
+    const render=renderer.makeRenderer(documentStub()),base=state({joinUrl:'http://host:8080/play',gameEndSoundClip:filename});
+    render(base);render({...base,phase:'GAME_ENDED'});render({...base,phase:'GAME_ENDED',teams:[{name:'A',score:20},{name:'B',score:20}]});
+   }
+  }
+  assert.deepEqual(played,['game-end-aida.mp3','game-end.wav','game-end-aida.mp3','game-end.wav'].map(file=>'http://host:8080/tv/sounds/'+file));
+ } finally {global.Audio=old;}
 });

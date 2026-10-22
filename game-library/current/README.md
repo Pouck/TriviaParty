@@ -1,8 +1,8 @@
 # Bibliothèque actuelle — 5 à 7 questions par forfait
 
-248 forfaits ; 1303 questions ; chaque forfait contient **5, 6 ou 7 questions**. Les six forfaits de diagnostic ont cinq questions chacun et restent exclus des tirages automatiques.
+265 forfaits ; 1408 questions ; chaque forfait contient **5, 6 ou 7 questions**. Les six forfaits de diagnostic ont cinq questions chacun et restent exclus des tirages automatiques.
 
-55 forfaits à réponses écrites coexistent avec les versions orales. Les choix multiples utilisent 15 points, puis −1 point par seconde dans un seul sablier. Les joueurs confirment la lecture avant chaque indice de Qui suis-je.
+63 forfaits à réponses écrites coexistent avec les versions orales. Les choix multiples utilisent 15 points, puis −1 point par seconde dans un seul sablier. Les joueurs confirment la lecture avant chaque indice de Qui suis-je.
 
 Cette bibliothèque remplace les anciennes archives courtes ou longues de `package-examples`. Utiliser les ZIP de ce dossier pour importer ou mettre à jour. Les anciennes archives sont conservées comme sources et références historiques ; elles ne représentent plus le catalogue proposé sur le Pixel.
 
@@ -146,7 +146,7 @@ Les JSON et images prêts à éditer sont dans `sources/<ID>/`. Les références
 | Cuisine | Cuisine — Plats célèbres — Réponses écrites | 5 | [lib-buzzer-cuisine-celebre-20261012.zip](lib-buzzer-cuisine-celebre-20261012.zip) |
 | Cuisine | Cuisine — Saveurs et desserts du monde — Buzzer | 5 | [lib-buzzer-cuisine-saveurs-20261012.zip](lib-buzzer-cuisine-saveurs-20261012.zip) |
 | Super-héros | DC — Héros et univers — Buzzer | 5 | [lib-buzzer-dc-20261012.zip](lib-buzzer-dc-20261012.zip) |
-| Logique et énigmes | Devinettes — Objets familiers — Buzzer | 5 | [lib-buzzer-devinettes-20261012.zip](lib-buzzer-devinettes-20261012.zip) |
+| Logique et énigmes | Logique et énigmes — Déduction — Buzzer | 5 | [lib-buzzer-devinettes-20261012.zip](lib-buzzer-devinettes-20261012.zip) |
 | Cinéma | Disney — Animation — Réponses écrites | 5 | [lib-buzzer-disney-20261012.zip](lib-buzzer-disney-20261012.zip) |
 | Histoire | Histoire — Explorateurs célèbres — Réponses écrites | 5 | [lib-buzzer-explorateurs-20261012.zip](lib-buzzer-explorateurs-20261012.zip) |
 | Géographie | Géographie mondiale — Reliefs et océans — Réponses écrites | 5 | [lib-buzzer-geographie-monde-20261012.zip](lib-buzzer-geographie-monde-20261012.zip) |
@@ -197,7 +197,7 @@ Les JSON et images prêts à éditer sont dans `sources/<ID>/`. Les références
 | Cuisine | Cuisine — Plats célèbres — QCM | 5 | [lib-qcm-cuisine-celebre-20261012.zip](lib-qcm-cuisine-celebre-20261012.zip) |
 | Cuisine | Cuisine — Saveurs et desserts du monde — QCM | 5 | [lib-qcm-cuisine-saveurs-20261012.zip](lib-qcm-cuisine-saveurs-20261012.zip) |
 | Super-héros | DC — Héros et univers — QCM | 5 | [lib-qcm-dc-20261012.zip](lib-qcm-dc-20261012.zip) |
-| Logique et énigmes | Devinettes — Objets familiers — QCM | 5 | [lib-qcm-devinettes-20261012.zip](lib-qcm-devinettes-20261012.zip) |
+| Logique et énigmes | Logique et énigmes — Déduction — QCM | 5 | [lib-qcm-devinettes-20261012.zip](lib-qcm-devinettes-20261012.zip) |
 | Cinéma | Disney — Animation — QCM | 5 | [lib-qcm-disney-20261012.zip](lib-qcm-disney-20261012.zip) |
 | Histoire | Histoire — Explorateurs célèbres — QCM | 5 | [lib-qcm-explorateurs-20261012.zip](lib-qcm-explorateurs-20261012.zip) |
 | Géographie | Géographie mondiale — Reliefs et océans — QCM | 5 | [lib-qcm-geographie-monde-20261012.zip](lib-qcm-geographie-monde-20261012.zip) |
@@ -277,3 +277,27 @@ Les JSON et images prêts à éditer sont dans `sources/<ID>/`. Les références
 | Tests | TEST — Qui suis-je ? | 5 | [test-indices-20261012.zip](test-indices-20261012.zip) |
 | Tests | TEST — QCM et images | 5 | [test-qcm-20261012.zip](test-qcm-20261012.zip) |
 | Tests | TEST — Rapidité | 5 | [test-rapidite-20261012.zip](test-rapidite-20261012.zip) |
+
+## Charades visuelles — 18 octobre 2026
+
+17 nouveaux forfaits de 5 à 7 questions : 9 au buzzer et 8 à réponses écrites. 105 images inédites ; 25 images déjà présentes écartées. Sources durables : `package-examples/visual-charades-2026-10-18/authoring.json` et `assets/`. Reconstruction : `python build/build-visual-charades.py` (aussi appelée par le constructeur principal).
+
+| Sujet | Forfait | Questions | Archive |
+|---|---|---:|---|
+| Géographie | Charades visuelles — Capitales — 1 — Buzzer | 7 | [charades-visuelles-capitales-1-20261018.zip](charades-visuelles-capitales-1-20261018.zip) |
+| Géographie | Charades visuelles — Capitales — 2 — Réponses écrites | 7 | [charades-visuelles-capitales-2-20261018.zip](charades-visuelles-capitales-2-20261018.zip) |
+| Géographie | Charades visuelles — Grandes villes — Buzzer | 5 | [charades-visuelles-villes-1-20261018.zip](charades-visuelles-villes-1-20261018.zip) |
+| Logique et énigmes | Charades visuelles — Objets et choses du quotidien — 1 — Réponses écrites | 6 | [charades-visuelles-objets-1-20261018.zip](charades-visuelles-objets-1-20261018.zip) |
+| Logique et énigmes | Charades visuelles — Objets et choses du quotidien — 2 — Buzzer | 6 | [charades-visuelles-objets-2-20261018.zip](charades-visuelles-objets-2-20261018.zip) |
+| Langue française | Charades visuelles — Expressions françaises — 1 — Réponses écrites | 7 | [charades-visuelles-expressions-1-20261018.zip](charades-visuelles-expressions-1-20261018.zip) |
+| Langue française | Charades visuelles — Expressions françaises — 2 — Buzzer | 7 | [charades-visuelles-expressions-2-20261018.zip](charades-visuelles-expressions-2-20261018.zip) |
+| Langue française | Charades visuelles — Expressions françaises — 3 — Réponses écrites | 7 | [charades-visuelles-expressions-3-20261018.zip](charades-visuelles-expressions-3-20261018.zip) |
+| Langue française | Charades visuelles — Expressions françaises — 4 — Buzzer | 6 | [charades-visuelles-expressions-4-20261018.zip](charades-visuelles-expressions-4-20261018.zip) |
+| Langue française | Charades visuelles — Expressions françaises — 5 — Réponses écrites | 6 | [charades-visuelles-expressions-5-20261018.zip](charades-visuelles-expressions-5-20261018.zip) |
+| Langue française | Charades visuelles — Expressions et mots du Québec — 1 — Buzzer | 7 | [charades-visuelles-quebec-1-20261018.zip](charades-visuelles-quebec-1-20261018.zip) |
+| Langue française | Charades visuelles — Expressions et mots du Québec — 2 — Réponses écrites | 7 | [charades-visuelles-quebec-2-20261018.zip](charades-visuelles-quebec-2-20261018.zip) |
+| Langue française | Charades visuelles — Actions et états — 1 — Buzzer | 5 | [charades-visuelles-actions-1-20261018.zip](charades-visuelles-actions-1-20261018.zip) |
+| Langue française | Charades visuelles — Actions et états — 2 — Réponses écrites | 5 | [charades-visuelles-actions-2-20261018.zip](charades-visuelles-actions-2-20261018.zip) |
+| Logique et énigmes | Charades visuelles — Mots et jeux de sons — Buzzer | 6 | [charades-visuelles-mots-1-20261018.zip](charades-visuelles-mots-1-20261018.zip) |
+| Littérature | Charades visuelles — Livres célèbres — 1 — Réponses écrites | 6 | [charades-visuelles-livres-1-20261018.zip](charades-visuelles-livres-1-20261018.zip) |
+| Littérature | Charades visuelles — Livres célèbres — 2 — Buzzer | 5 | [charades-visuelles-livres-2-20261018.zip](charades-visuelles-livres-2-20261018.zip) |

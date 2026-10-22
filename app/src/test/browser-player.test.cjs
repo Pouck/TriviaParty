@@ -150,7 +150,7 @@ class Element {
   setAttribute(name, value) { this[name] = value; }
   click() { if (!this.disabled) this.events.click?.({}); }
 }
-function harness(saved, search = '?room=1234') {
+function harness(saved, search = '?room=1234', audioEnvironment = {}) {
   const elements = {}, sockets = [], timers = [], storage = new Map();
   if (saved) storage.set('trivia-player:192.168.1.2:8080', JSON.stringify(saved));
   const all = () => Object.values(elements).flatMap(function walk(el) { return [el, ...el.children.flatMap(walk)]; });
@@ -167,7 +167,7 @@ function harness(saved, search = '?room=1234') {
     disconnect() { this.readyState = 3; this.onclose(); }
   }
   const context = { document, WebSocket: Socket, location: { protocol: 'http:', host: '192.168.1.2:8080', search },
-    URLSearchParams, Uint8Array, crypto: webcrypto, navigator: {},
+    URLSearchParams, Uint8Array, crypto: webcrypto, navigator: {}, ...audioEnvironment,
     sessionStorage: { getItem: key => storage.get(key), setItem: (key, value) => storage.set(key, value), removeItem: key => storage.delete(key) },
     setTimeout: fn => { timers.push(fn); return timers.length; }, clearTimeout() {} };
   context.window = context;
@@ -220,7 +220,11 @@ test('persistent buzzer has waiting, ready, pressed, blocked, incorrect and corr
   h.update({ submissions: { a: { isLocked: true, isCorrect: false } }, textBuzzedTeamIds: ['a'] });
   assert.equal(buzz().className, 'buzz incorrect'); assert.equal(buzz().disabled, true);
   h.update({ currentQuestion: { id: 'q2', type: 'textAnswer' }, submissions: {}, textBuzzedTeamIds: [], buzzActiveTeamId: 'b' });
-  assert.equal(buzz().className, 'buzz blocked');
+  assert.equal(buzz().className, 'buzz ready');
+  assert.equal(buzz().disabled, false);
+  h.update({buzzQueue:[{teamId:'b',questionId:'q2'},{teamId:'a',questionId:'q2'}]});
+  assert.equal(buzz().className,'buzz queued'); assert.equal(buzz().disabled,true);
+  h.update({buzzQueue:[]});
   h.update({ buzzActiveTeamId: null }); assert.equal(buzz().className, 'buzz ready');
   h.update({ state: 'REVEAL_ANSWER', submissions: { a: { isLocked: true, isCorrect: true } } });
   assert.equal(buzz().className, 'buzz correct');
@@ -372,4 +376,56 @@ test('buzzer sends at pointer contact, ignores secondary presses and never dupli
   let prevented=false;buzz().events.pointerdown({button:0,isPrimary:true,preventDefault(){prevented=true;}});
   assert.equal(prevented,true);assert.equal(h.socket.sent.filter(e=>e.type.endsWith('.LockAnswer')).length,1);
   buzz().click();assert.equal(h.socket.sent.filter(e=>e.type.endsWith('.LockAnswer')).length,1);
+});
+
+test('predecoded phone audio starts locally on every press and fetches once per category', async () => {
+  const {makePhoneSoundPlayer}=require('../main/assets/player/player.js');
+  let fetched=0,started=0;
+  class Context {
+    constructor(){this.state='running';this.destination={};}
+    decodeAudioData(){return Promise.resolve({decoded:true});}
+    createBufferSource(){return {connect(){},start(){started++;},stop(){}};}
+  }
+  const audio=makePhoneSoundPlayer({AudioContext:Context,fetch:async url=>{fetched++;assert.match(url,/\/play\/sounds\/(owl|dog)\.mp3/);return {ok:true,arrayBuffer:async()=>new ArrayBuffer(4)};}});
+  await audio.prepare('owl');audio.play();audio.play();
+  assert.equal(started,2);assert.equal(fetched,1);
+  await audio.prepare('owl');assert.equal(fetched,1);
+  await audio.prepare('dog');audio.play();assert.equal(started,3);assert.equal(fetched,2);
+});
+
+test('a later phone still sounds and queues its own buzz but promotion does not replay it',()=> {
+ let played=0;
+ class Audio {constructor(url){this.src=url;}load(){}play(){played++;return Promise.resolve();}}
+ const h=harness(null,'?room=1234',{Audio});h.join();
+ h.update({state:'QUESTION_ACTIVE',categoryBuzzerSound:'owl',currentQuestion:{id:'oral',type:'textAnswer'},submissions:{},buzzQueue:[],buzzActiveTeamId:'b'});
+ const buzz=()=>h.all().find(el=>el.className?.startsWith('buzz '));
+ assert.equal(buzz().disabled,false);buzz().click();
+ assert.equal(played,1);assert.ok(h.socket.sent.at(-1).type.endsWith('.LockAnswer'));
+ h.update({buzzQueue:[{teamId:'b',questionId:'oral'},{teamId:'a',questionId:'oral'}]});
+ assert.equal(buzz().className,'buzz queued');assert.equal(buzz().disabled,true);
+ h.update({buzzActiveTeamId:'a',submissions:{a:{isLocked:true}}});
+ assert.equal(buzz().className,'buzz pressed');assert.equal(played,1);
+});
+
+test('a suspended mobile context retries a queued buzz on activation exactly once', async () => {
+ const {makePhoneSoundPlayer}=require('../main/assets/player/player.js');
+ let context,started=0;const resumptions=[],statuses=[];
+ class Context {
+  constructor(){context=this;this.state='suspended';this.destination={};}
+  resume(){return new Promise(resolve=>resumptions.push(resolve));}
+  decodeAudioData(){return Promise.resolve({decoded:true});}
+  createBufferSource(){return {connect(){},start(){started++;},stop(){}};}
+ }
+ const audio=makePhoneSoundPlayer({AudioContext:Context,fetch:async()=>({ok:true,arrayBuffer:async()=>new ArrayBuffer(4)})},status=>statuses.push(status));
+ await audio.prepare('owl');audio.play();assert.equal(started,0);assert.ok(statuses.includes('blocked'));
+ context.state='running';audio.unlock();for(const resolve of resumptions)resolve();await Promise.resolve();
+ assert.equal(started,1);audio.unlock();assert.equal(started,1);
+});
+
+test('failed sound downloads report an error and the sound test retries the file', async () => {
+ const {makePhoneSoundPlayer}=require('../main/assets/player/player.js');let requests=0;const statuses=[];
+ class Context {constructor(){this.state='running';}decodeAudioData(){throw Error('Must not decode HTTP errors');}}
+ const audio=makePhoneSoundPlayer({AudioContext:Context,fetch:async()=>{requests++;return {ok:false,status:404};}},(status,message)=>statuses.push([status,message]));
+ await audio.prepare('dog');assert.ok(statuses.some(([s,m])=>s==='error'&&m.includes('404')));
+ audio.play();await Promise.resolve();await Promise.resolve();assert.equal(requests,2);
 });

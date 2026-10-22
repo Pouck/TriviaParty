@@ -1,0 +1,15 @@
+{
+  "id": "charades-visuelles-mots-1-20261018",
+  "name": "Charades visuelles — Mots et jeux de sons — Buzzer",
+  "description": "6 charades visuelles. 45 secondes ; 15 → 10 → 5 points. Réponse au buzzer : 10 secondes.",
+  "categoryPackages": [
+    "charades-visuelles-mots-1-20261018"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 15,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

@@ -1,0 +1,69 @@
+[
+  {
+    "questionId": "cv-818fb25508b71671d43f",
+    "sourceFilename": "david copperfield.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\david copperfield.png",
+    "sha256": "818fb25508b71671d43f624796622f561dbb8715676f52b81ec0579d12039430",
+    "canonicalAnswer": "David Copperfield",
+    "acceptedVariants": [
+      "David Copperfield"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-4eb37dca191a97731095",
+    "sourceFilename": "l'appel de la fôret.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\l'appel de la fôret.png",
+    "sha256": "4eb37dca191a97731095bca6cea9a619d98ce24a0ea8150ffcd0b74669a371ab",
+    "canonicalAnswer": "L’Appel de la forêt",
+    "acceptedVariants": [
+      "L’Appel de la forêt"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-05f0679e7ae55c81587b",
+    "sourceFilename": "l'odyssée.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\l'odyssée.png",
+    "sha256": "05f0679e7ae55c81587b55894150f90165ed35f3e168f9dbe894bfbac7e7bd87",
+    "canonicalAnswer": "L’Odyssée",
+    "acceptedVariants": [
+      "L’Odyssée"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-9ed26fbea589fc977b78",
+    "sourceFilename": "le décaméron.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\le décaméron.png",
+    "sha256": "9ed26fbea589fc977b78988aec882ae70e10e0fc7224c52a756b24d0487cccca",
+    "canonicalAnswer": "Le Décaméron",
+    "acceptedVariants": [
+      "Le Décaméron"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-e1416056e7fe05c4b333",
+    "sourceFilename": "le meilleur des mondes.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\le meilleur des mondes.png",
+    "sha256": "e1416056e7fe05c4b333113bbcccada805f110e53c91321ebe7cc4d86bcea1c9",
+    "canonicalAnswer": "Le Meilleur des mondes",
+    "acceptedVariants": [
+      "Le Meilleur des mondes"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-86ad4e9890a606566d6a",
+    "sourceFilename": "les milles et une nuits.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\les milles et une nuits.png",
+    "sha256": "86ad4e9890a606566d6acfcd68f85f89fc655518c0f118a14c2375521cb62395",
+    "canonicalAnswer": "Les Mille et Une Nuits",
+    "acceptedVariants": [
+      "Les Mille et Une Nuits",
+      "Mille et Une Nuits"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

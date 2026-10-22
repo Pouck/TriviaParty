@@ -19,8 +19,7 @@
         "C — Un chien",
         "D — Un cheval"
       ],
-      "correctOptionIndex": 1,
-      "imageUrl": "images/lib-qcm-contes-anglais-20261012/cow.jpg"
+      "correctOptionIndex": 1
     },
     {
       "id": "lib-qcm-contes-anglais-20261012-02",
@@ -50,8 +49,7 @@
         "C — Oliver Twist",
         "D — Sherlock Holmes"
       ],
-      "correctOptionIndex": 0,
-      "imageUrl": "images/lib-qcm-contes-anglais-20261012/forest.jpg"
+      "correctOptionIndex": 0
     },
     {
       "id": "lib-qcm-contes-anglais-20261012-04",

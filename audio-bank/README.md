@@ -1,17 +1,20 @@
-# Banque active : essai cinéma privé de 60 extraits
+# Banque cinéma privée : 100 extraits préparés
 
-Le Pixel utilise maintenant **30 réactions positives et 30 négatives**, tirées de 22 films, séries et sketches : 50 en français, 8 en anglais, 2 en japonais. Les voix et langues originales sont conservées. Le passage burgonde dont la légende était incertaine a été remplacé par une réplique de Kaamelott sur la magie.
+La sélection comporte **50 réactions positives et 50 négatives**, comprenant 90 répliques de 30 œuvres et 10 réactions humaines courtes : 88 extraits en français, 10 en anglais et 2 en japonais. L’expansion du 15 octobre 2026 ajoute 16 extraits sans modifier les 72 fichiers précédents ni leurs annotations. Deux répliques James Bond approuvées ont ensuite été intégrées : « Perfect. Cheers. » et « Well done. Congratulations. ». La sélection classique complète est approuvée ; 19 autres lignes attendent encore leur audio (voir `CLASSIC-REACTIONS.md`). Certaines additions sont des versions françaises de films ou séries étrangers ; les voix ne sont ni synthétisées ni imitées.
 
-- Écouter et filtrer : `build/movie-audition/index.html`, ou `/tv/audio-credits` pendant une partie.
-- Sélection éditoriale et découpes : `movie-reactions-selection.json`.
-- Manifeste des fichiers préparés, sources, crédits et empreintes : `movie-preview.json`.
-- Préparer : `python build/prepare-movie-audition.py` (outils audio et reconnaissance locale dans `build/`).
+- Écouter et filtrer : `../build/movie-audition/index.html`.
+- Sélection, sources et découpes : `movie-reactions-selection.json`.
+- Manifeste, durées et empreintes : `movie-preview.json`.
+- Annoter : `REACTIONS-A-ANNOTER.md`. Les 16 ajouts sont « à vérifier » et restent exclus du filtre tout public jusqu’à votre décision.
+- Préparer : `python build/prepare-movie-audition.py`.
 - Vérifier dans Chrome : `node build/check-movie-audition.cjs`.
-- Installer : `python build/install-movie-audition.py --serial SERIAL` ; retirer le manifeste privé avec `--remove` puis relancer l’app pour revenir à la banque de secours.
+- Installer : `python build/install-movie-audition.py --serial SERIAL`, puis relancer l’application. La préparation seule ne change pas la banque du téléphone.
 
-Les fichiers audio de films restent dans `build/movie-audition/` et dans le stockage privé du Pixel. Ils ne sont ni publiés dans GitHub ni incorporés à l’APK. Aucun droit de redistribution n’est affirmé. Une fois installés, ils se lisent depuis le téléphone sans utiliser les fichiers du PC.
+Les médias restent dans `build/movie-audition/` ; ils ne sont ni publiés dans GitHub ni incorporés à l’APK. Aucun droit de redistribution n’est affirmé. Après installation, la lecture utilise le stockage privé du téléphone.
 
-Le tirage épuise les 30 clips d’un résultat avant de répéter et privilégie une autre voix et une autre œuvre quand des alternatives restent disponibles. Les silences superflus sont retirés, le volume est normalisé et une amorce de 220 ms protège le début des mots ; aucune réverbération n’est ajoutée. Les coupes ont lieu avant l’ajout de cette amorce pour préserver la fin des phrases.
+Les réactions courtes (« bravo », « génial », « super », « exact », « faux », « raté », « dommage », « erreur », « non », « presque ») sont mêlées au tirage des répliques. Leurs enregistrements, licences et crédits sont conservés sans modification ; les crédits sont aussi affichés sur la page d’écoute.
+
+Le tirage épuise les clips d’un résultat avant de répéter et privilégie une autre voix et une autre œuvre. Le volume est normalisé et une amorce de 220 ms protège le début des mots. Les nouveaux extraits ont été décodés et confrontés aux légendes sources par reconnaissance vocale locale ; une écoute humaine reste à faire, notamment pour les dialogues bruités ou les échanges à plusieurs voix.
 
 ## Banque de secours incluse dans l’APK
 

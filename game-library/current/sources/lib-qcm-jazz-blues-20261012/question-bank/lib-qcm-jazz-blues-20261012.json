@@ -58,15 +58,14 @@
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "multipleChoice",
-      "prompt": "Quel instrument est représenté ici ?",
+      "prompt": "Quel instrument à anche simple Charlie Parker a-t-il rendu célèbre dans le bebop ?",
       "options": [
         "A — Une clarinette",
         "B — Un saxophone",
         "C — Un hautbois",
         "D — Un basson"
       ],
-      "correctOptionIndex": 1,
-      "imageUrl": "images/lib-qcm-jazz-blues-20261012/saxophone.png"
+      "correctOptionIndex": 1
     },
     {
       "id": "lib-qcm-jazz-blues-20261012-05",

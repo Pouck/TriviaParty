@@ -1,0 +1,89 @@
+{
+  "category": "Charades visuelles — Objets et choses du quotidien — 1 — Réponses écrites",
+  "subject": "Logique et énigmes",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-a36b60fd6c3412fe3e34",
+      "category": "Charades visuelles — Objets et choses du quotidien — 1 — Réponses écrites",
+      "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Ordinateur"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-5c596e0d2df8e0f306a5",
+      "category": "Charades visuelles — Objets et choses du quotidien — 1 — Réponses écrites",
+      "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Shampoing",
+        "Shampooing"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-8b60227f3c4fbbba16f9",
+      "category": "Charades visuelles — Objets et choses du quotidien — 1 — Réponses écrites",
+      "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Arc-en-ciel"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-eafdd2b624636786db5a",
+      "category": "Charades visuelles — Objets et choses du quotidien — 1 — Réponses écrites",
+      "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Ascenseur"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-9d132f4a1991a6237b7f",
+      "category": "Charades visuelles — Objets et choses du quotidien — 1 — Réponses écrites",
+      "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Café au lait"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-43d27dba07626bdcaeac",
+      "category": "Charades visuelles — Objets et choses du quotidien — 1 — Réponses écrites",
+      "prompt": "Quel objet ou quelle chose se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-06.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Caravane"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

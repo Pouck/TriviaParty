@@ -1,0 +1,58 @@
+[
+  {
+    "questionId": "cv-bb7744e0c8af2c8fb78d",
+    "sourceFilename": "les misérables.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\les misérables.png",
+    "sha256": "bb7744e0c8af2c8fb78dda59869df2daf9b0fbec30671b6168dba36db798f1c2",
+    "canonicalAnswer": "Les Misérables",
+    "acceptedVariants": [
+      "Les Misérables"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-384abb0d870de92ab20c",
+    "sourceFilename": "les quatres filles du docteur marche.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\les quatres filles du docteur marche.png",
+    "sha256": "384abb0d870de92ab20c88a5a726b3f850a4197cff57d5e50ee3f62b71b8d7ea",
+    "canonicalAnswer": "Les Quatre Filles du docteur March",
+    "acceptedVariants": [
+      "Les Quatre Filles du docteur March",
+      "Les Quatre Filles du Dr March"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-772851924e95e4ef0d4c",
+    "sourceFilename": "orgueuil et préjugés.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\orgueuil et préjugés.png",
+    "sha256": "772851924e95e4ef0d4cc209289f67e3fda8cbeca4231e1e80133d9076d6c62c",
+    "canonicalAnswer": "Orgueil et Préjugés",
+    "acceptedVariants": [
+      "Orgueil et Préjugés"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-d3cca3a4dbffa9e6c217",
+    "sourceFilename": "pour qui sonne le glas.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\pour qui sonne le glas.png",
+    "sha256": "d3cca3a4dbffa9e6c217608ed66708b61d0d24eb3bbd5d5b988fd266dec433a2",
+    "canonicalAnswer": "Pour qui sonne le glas",
+    "acceptedVariants": [
+      "Pour qui sonne le glas"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-8d4e246fa2db8aed7d07",
+    "sourceFilename": "à la recherche du temps perdu.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Romans Célèbres\\à la recherche du temps perdu.png",
+    "sha256": "8d4e246fa2db8aed7d07f38357b8d5cb4f74ba30e643a2e44d847acbbf20495d",
+    "canonicalAnswer": "À la recherche du temps perdu",
+    "acceptedVariants": [
+      "À la recherche du temps perdu"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

@@ -14,10 +14,10 @@
       "kind": "multipleChoice",
       "prompt": "Quel film utilise principalement l’animation image par image de marionnettes ?",
       "options": [
-        "A — Toy Story",
-        "B — Zootopia",
-        "C — Finding Nemo",
-        "D — L’Étrange Noël de monsieur Jack"
+        "A — L’Étrange Noël de monsieur Jack (The Nightmare Before Christmas)",
+        "B — Coraline",
+        "C — Kubo et l’Armure magique",
+        "D — Wallace et Gromit : Le Mystère du lapin-garou"
       ],
       "correctOptionIndex": 3
     },

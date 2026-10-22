@@ -1,0 +1,79 @@
+[
+  {
+    "questionId": "cv-ada93756031c3d824af2",
+    "sourceFilename": "amsterdam.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\amsterdam.png",
+    "sha256": "ada93756031c3d824af28e9b9086c617be0052ad128f8ef5aee9fbde955096b4",
+    "canonicalAnswer": "Amsterdam",
+    "acceptedVariants": [
+      "Amsterdam"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-2fe9503a13bf6db5a307",
+    "sourceFilename": "andorre-la-vieille.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\andorre-la-vieille.png",
+    "sha256": "2fe9503a13bf6db5a307a6e5fdff52672cc3cccc62648febc616dc35bf130b48",
+    "canonicalAnswer": "Andorre-la-Vieille",
+    "acceptedVariants": [
+      "Andorre-la-Vieille"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-01b64189910bb3994d8b",
+    "sourceFilename": "beyrouth.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\beyrouth.png",
+    "sha256": "01b64189910bb3994d8ba646a364630a6a07a4da9cd3d1485ebbc0cb3d344d9b",
+    "canonicalAnswer": "Beyrouth",
+    "acceptedVariants": [
+      "Beyrouth"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-ef650b1ee52e95ab26c1",
+    "sourceFilename": "bissau.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\bissau.png",
+    "sha256": "ef650b1ee52e95ab26c19e207ddfc7971e0fce50aa111dd17906af963cbe398a",
+    "canonicalAnswer": "Bissau",
+    "acceptedVariants": [
+      "Bissau"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-6281db1d7b06098e1670",
+    "sourceFilename": "bucarest.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\bucarest.png",
+    "sha256": "6281db1d7b06098e1670018f06527656a804ee1106e949379955a104306cecce",
+    "canonicalAnswer": "Bucarest",
+    "acceptedVariants": [
+      "Bucarest"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-f1fdea3e105990e0bd60",
+    "sourceFilename": "caracas.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\caracas.png",
+    "sha256": "f1fdea3e105990e0bd6014d74a32b7a3a5bc83569ca4ad15e3aa673a48cc7669",
+    "canonicalAnswer": "Caracas",
+    "acceptedVariants": [
+      "Caracas"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-37aec070cf6f4251396f",
+    "sourceFilename": "lisbonne.png",
+    "sourcePath": "C:\\Users\\pierr\\.codex\\generated_images\\01a14fb5-2e3e-7b51-8eda-4d8cd4840333\\lisbonne.png",
+    "sha256": "37aec070cf6f4251396f3b12496a25b4de425359e587487a98c62efa29b091a4",
+    "canonicalAnswer": "Lisbonne",
+    "acceptedVariants": [
+      "Lisbonne"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

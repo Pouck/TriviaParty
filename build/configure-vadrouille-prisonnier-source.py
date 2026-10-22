@@ -1,0 +1,2 @@
+from pathlib import Path
+s=Path('build/extract-oscar-dialogues.py').read_text(encoding='utf8').replace("build/dialogue-extracts/oscar'","build/dialogue-extracts/vadrouille-prisonnier'").replace('https://www.fufuworld.com/data/contents/common/sounds/oscar/oscar-02-augmentation.mp3','https://www.fufuworld.com/data/contents/common/sounds/vadrouille/grande-vadrouille-05-prisonnier.mp3');Path('build/extract-vadrouille-prisonnier.py').write_text(s,encoding='utf8')

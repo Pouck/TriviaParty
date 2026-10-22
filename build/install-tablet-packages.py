@@ -54,6 +54,7 @@ def main():
     parser.add_argument('--adb', default='H:/Android/Sdk/platform-tools/adb.exe')
     parser.add_argument('--validate-only', action='store_true')
     parser.add_argument('--package-dir', type=Path, help='Install only archives in this directory.')
+    parser.add_argument('--review-file', type=Path, help='Install an explicitly processed host-review snapshot.')
     args = parser.parse_args()
     def adb(*command):
         return subprocess.check_output([args.adb, '-s', args.serial, *command], text=True, encoding='utf-8').strip()
@@ -84,7 +85,9 @@ def main():
         adb('push', str(bundle), remote)
         adb('shell', 'am', 'force-stop', APP)
         review_data = None
-        if migration:
+        if args.review_file:
+            review_data = json.loads(args.review_file.read_text(encoding='utf-8'))
+        elif migration:
             existing_review = adb('shell','run-as',APP,'sh','-c',"'if [ -f files/host-review.json ]; then cat files/host-review.json; fi'")
             if existing_review:
                 review_data = json.loads(existing_review)

@@ -1,0 +1,101 @@
+{
+  "category": "Charades visuelles — Capitales — 1 — Buzzer",
+  "subject": "Géographie",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-ada93756031c3d824af2",
+      "category": "Charades visuelles — Capitales — 1 — Buzzer",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Amsterdam"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-2fe9503a13bf6db5a307",
+      "category": "Charades visuelles — Capitales — 1 — Buzzer",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Andorre-la-Vieille"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-01b64189910bb3994d8b",
+      "category": "Charades visuelles — Capitales — 1 — Buzzer",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Beyrouth"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-ef650b1ee52e95ab26c1",
+      "category": "Charades visuelles — Capitales — 1 — Buzzer",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Bissau"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-6281db1d7b06098e1670",
+      "category": "Charades visuelles — Capitales — 1 — Buzzer",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Bucarest"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-f1fdea3e105990e0bd60",
+      "category": "Charades visuelles — Capitales — 1 — Buzzer",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-06.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Caracas"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-37aec070cf6f4251396f",
+      "category": "Charades visuelles — Capitales — 1 — Buzzer",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-07.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Lisbonne"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

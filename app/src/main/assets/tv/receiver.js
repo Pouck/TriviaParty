@@ -25,6 +25,39 @@
     catch (_) { return null; }
   }
 
+  // Display format metadata once, separate from the subject and subtitle.
+  function categoryPresentation(state) {
+    function key(value) { return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[?!.]/g, '').replace(/\s+/g, ' ').trim(); }
+    var formats = [], titleParts = [];
+    // Imported names also append compound formats, e.g. "Qui suis-je écrit".
+    var formatSuffix = /(?:^|\s+(?:[-–—]\s*)?)(qui\s+suis[-–—\s]+je\s*\??(?:\s*(?:[-–—]\s*)?(?:[ée]crit(?:e|es|s)?|oral(?:e|es|s)?|au buzzer))?|qcm|choix multiples|buzzer|chronologie|r[ée]ponses? [ée]crites?|r[ée]ponses? simultan[ée]es)\s*$/i;
+    (state.category || '').split(/\s+[-–—]\s+/).filter(Boolean).forEach(function (part) {
+      var match;
+      while ((match = formatSuffix.exec(part))) {
+        var label = match[1];
+        formats.push(/^qui\s+suis/i.test(label) ? 'Qui suis-je ?' : key(label) === 'qcm' ? 'Choix multiples' : label.trim());
+        part = part.slice(0, match.index).trim();
+      }
+      if (part) {
+        // A numbered edition belongs to its preceding title, even across a dash.
+        if (/^\d+$/.test(part) && titleParts.length) titleParts[titleParts.length - 1] += '\u00a0' + part;
+        else titleParts.push(part.replace(/(\S)\s+(\d+)$/, '$1\u00a0$2'));
+      }
+    });
+    var mode = state.categoryAnswerMode === 'WRITTEN' ? 'Réponses écrites' : state.categoryAnswerMode === 'BUZZER' ? 'Buzzer' : 'Réponses simultanées';
+    var modeKeys = state.categoryAnswerMode === 'WRITTEN' ? ['reponse ecrite','reponses ecrites'] : [key(mode)];
+    var seen = [], types = [];
+    (state.categoryQuestionTypes || []).concat(formats).forEach(function (type) {
+      if (typeof type !== 'string' || !type.trim()) return;
+      type = type.replace(/\s+[–—-]\s+réponse écrite$/i, '').trim();
+      if (/^qui\s+suis[-–—\s]+je/i.test(type)) type = 'Qui suis-je ?';
+      var normalized = key(type);
+      if (modeKeys.indexOf(normalized) >= 0 || seen.indexOf(normalized) >= 0) return;
+      seen.push(normalized); types.push(type);
+    });
+    return { titleParts: titleParts.length ? titleParts : ['Nouvelle catégorie'], types: types, mode: mode };
+  }
+
   function makeSoundPlayer(doc, options) {
     options = options || {};
     var audioVersion=null;
@@ -66,13 +99,15 @@
     function stop() { queued=[];++attempt; if(buzzerSource){try{buzzerSource.stop();}catch(_){}buzzerSource=null;} if (audio) { audio.onended = null; if (audio.pause) audio.pause(); } }
     function report(error) {
       enabled = false;
+      if (options.onAudioStatus) options.onAudioStatus(error && error.name === "NotAllowedError" ? "blocked" : "error");
       queued=[];
       if (!control) return;
       control.style.display = 'block';
       control.textContent = error && error.name !== 'NotAllowedError' ? 'Son indisponible · Réessayer' : 'Activer le son';
     }
     function play(file, remaining, continuing) {
-      if (!root.Audio || !origin || !debugOwner) return;
+      if (!root.Audio || !origin) { report({name:"AudioUnavailable"}); return; }
+      if (!debugOwner) return;
       if(!continuing) stop();
       if(file==='buzzer.wav' && buzzerBuffer && buzzerContext && buzzerContext.state==='running') {
         try {
@@ -86,6 +121,7 @@
       audio.volume = 1;
       audio.preload = 'auto';
       var thisAttempt = ++attempt;
+      audio.onerror = function () { if (thisAttempt === attempt) report({name:"MediaError"}); };
       audio.onended = function () {
         if (thisAttempt !== attempt) return;
         var next=(remaining||[]).concat(queued);queued=[];
@@ -96,9 +132,10 @@
         if (playback && playback.then) playback.then(function () {
           if (thisAttempt !== attempt) return;
           enabled = true;
+          if (options.onAudioStatus) options.onAudioStatus("playing");
           if (control) control.style.display = 'none';
         }).catch(function (error) { if (thisAttempt === attempt) report(error); });
-        else { enabled = true; if (control) control.style.display = 'none'; }
+        else { enabled = true; if (options.onAudioStatus) options.onAudioStatus('playing'); if (control) control.style.display = 'none'; }
       } catch (error) { report(error); }
     }
     if (control) {
@@ -106,6 +143,7 @@
       if (options.localAudio) { control.textContent = 'Activer le son'; control.style.display = 'block'; }
     }
     return {
+      test: function () { debugOwner=true; resumeBuzzer(); play("enabled.wav"); },
       setVersion: function(version) { audioVersion=typeof version==='string'?version:null;warmBuzzer(); },
       setOrigin: function (joinUrl) {
         try { origin = options.localAudio && root.location ? root.location.origin : new URL(joinUrl).origin; } catch (_) {}
@@ -303,13 +341,52 @@
       }
       var sameSoundRoom = lastSoundRoom === state.roomId;
       if (!sameSoundRoom) { lastSoundRoom = state.roomId; lastSoundId = state.answerSoundId || 0; lastBuzzerId = state.buzzerSoundId || 0; }
-      if (sameSoundRoom && lastPhase && lastPhase !== 'GAME_ENDED' && state.phase === 'GAME_ENDED') soundPlayer.play('game-end.wav');
+      if (sameSoundRoom && lastPhase && lastPhase !== 'GAME_ENDED' && state.phase === 'GAME_ENDED') {
+        var ending = /^game-end-(zarathustra|te-deum|fireworks|aida|pomp|kiev|william-tell)\.mp3$/.test(state.gameEndSoundClip || '') ? state.gameEndSoundClip : 'game-end.wav';
+        soundPlayer.play(ending);
+      }
       lastPhase = state.phase;
-      if ((state.buzzerSoundId || 0) > lastBuzzerId) soundPlayer.play('buzzer.wav');
+      // Buzzer audio is local to the player who presses; televisions stay silent.
       lastBuzzerId = Math.max(lastBuzzerId || 0,state.buzzerSoundId || 0);
       if ((state.answerSoundId || 0) > lastSoundId && ["good","bad"].indexOf(state.answerSound) >= 0) {
         if (feedbackTimeout) root.clearTimeout(feedbackTimeout);
-        feedback.textContent = state.answerSound === 'good' ? '\u2713' : '\u2715';
+        clear(feedback);
+        var mark = node('span', null, 'brush-mark');
+        // Animated SVG masks reveal the original bitmap along each brush stroke.
+        var svgNamespace = 'http://www.w3.org/2000/svg';
+        function svgNode(tag, attributes) {
+          var element = doc.createElementNS(svgNamespace, tag);
+          Object.keys(attributes).forEach(function (name) { element.setAttribute(name, attributes[name]); });
+          return element;
+        }
+        var svg = svgNode('svg', {viewBox:'0 0 1 1', width:'100%', height:'100%', 'aria-hidden':'true'});
+        var defs = svgNode('defs', {}); svg.appendChild(defs);
+        var sourceScript = doc.querySelector && doc.querySelector('script[src$="receiver.js"]');
+        var imageBase = sourceScript ? sourceScript.src.replace(/[^/]*$/, '') : '/tv/';
+        function paintedImage(file, maskId, mirrored, clipId) {
+          var image = svgNode('image', {x:0, y:0, width:1, height:1, mask:'url(#' + maskId + ')', href:imageBase + file});
+          if (image.setAttributeNS) image.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', imageBase + file);
+          if (mirrored) image.setAttribute('transform', 'translate(1 0) scale(-1 1)');
+          if (clipId) image.setAttribute('clip-path', 'url(#' + clipId + ')');
+          svg.appendChild(image);
+        }
+        var paths = state.answerSound === 'good' ? ['M -.04 .37 L .44 .93', 'M .34 .94 L 1 -.02'] : ['M 0 0 L 1 1', 'M 0 0 L 1 1'];
+        paths.forEach(function (path, index) {
+          // A flat reveal front keeps the visible tip moving until each stroke ends.
+          var stroke = svgNode('path', {d:path, pathLength:1, fill:'none', stroke:'white', 'stroke-width':.32, 'stroke-linecap':'butt', 'class':'paint-stroke stroke-' + index});
+          var maskId = 'feedback-paint-mask-' + index;
+          var strokeMask = svgNode('mask', {id:maskId, maskUnits:'userSpaceOnUse', x:0, y:0, width:1, height:1});
+          strokeMask.appendChild(stroke); defs.appendChild(strokeMask);
+          if (state.answerSound === 'bad') paintedImage('feedback-red-stroke.png', maskId, index === 1);
+          else {
+            // Partition the checkmark at its bend so the short stroke cannot pre-reveal the long one.
+            var clipId = 'feedback-check-part-' + index;
+            var clip = svgNode('clipPath', {id:clipId, clipPathUnits:'userSpaceOnUse'});
+            clip.appendChild(svgNode('rect', {x:index === 0 ? 0 : .43, y:0, width:index === 0 ? .43 : .57, height:1}));
+            defs.appendChild(clip); paintedImage('feedback-good.png', maskId, false, clipId);
+          }
+        });
+        mark.appendChild(svg); feedback.appendChild(mark);
         feedback.className = 'answer-feedback ' + state.answerSound;
         feedback.setAttribute('aria-label',state.answerSound === 'good' ? 'Bonne réponse' : 'Mauvaise réponse');
         feedback.style.display = 'flex';
@@ -320,7 +397,8 @@
         } catch (_) {}
       }
       lastSoundId = state.answerSoundId || 0;
-      text("category", state.phase === "SUBJECT_VOTING" ? "Choix des catégories" : state.category || "Salon");
+      var categoryInfo = categoryPresentation(state);
+      text("category", state.phase === "SUBJECT_VOTING" ? "Choix des catégories" : state.category ? categoryInfo.titleParts.join(" · ") : "Salon");
       text("round", state.phase === "LOBBY" ? "" : state.phase === "SUBJECT_VOTING" ?
         state.subjectVote && state.subjectVote.hostTieBreak ? "Décision de l’hôte" : "Vote " + (state.subjectVote && state.subjectVote.round || 1) :
         "Question " + state.round + " sur " + state.totalRounds);
@@ -426,11 +504,19 @@
       lastScene = sceneKey;
       var scene = doc.getElementById("scene");
       clear(scene);
-      scene.className = state.phase === "WAGER_RESULTS" ? "wager-results-scene" : "";
+      scene.className = state.phase === "WAGER_RESULTS" ? "wager-results-scene" : state.phase === "CATEGORY_INTRO" ? "category-intro-scene" : state.phase === "WAGER_OPEN" ? "wager-open-scene" : "";
+      var categoryHash = Array.from(state.category || '').reduce(function (hash, character) { return (hash * 31 + character.charCodeAt(0)) | 0; }, 0);
+      var categoryHue = ((categoryHash % 360) + 360) % 360;
+      scene.style.background = ['CATEGORY_INTRO','WAGER_OPEN'].indexOf(state.phase) >= 0 ? 'linear-gradient(135deg,hsl(' + categoryHue + ',52%,25%),hsl(' + ((categoryHue + 35) % 360) + ',45%,13%))' : '';
       if (layoutObserver) layoutObserver.disconnect();
       displayedQuestionId = null; questionOptions = []; answerSlot = null; answerText = null;
       questionLayout = null; questionDetails = null; fitKey = '';
       chronologyLines = []; chronologyRevealed = false;
+      function categoryHeading() {
+        var heading = node('h1', null, 'category-heading');
+        categoryInfo.titleParts.forEach(function (part) { heading.appendChild(node('span', part, 'category-title-line')); });
+        scene.appendChild(heading);
+      }
       switch (state.phase) {
         case "SUBJECT_VOTING":
           var vote = state.subjectVote;
@@ -448,8 +534,8 @@
           }
           break;
         case "WAGER_OPEN":
-          scene.appendChild(node("h1", state.category || "Nouvelle catégorie"));
-          scene.appendChild(node("p", "Choisissez votre mise sur votre téléphone · Première question uniquement"));
+          categoryHeading();
+          scene.appendChild(node("p", "Choisissez votre mise sur votre téléphone\nPremière question uniquement", "wager-instructions"));
           break;
         case "WAGER_RESULTS":
           scene.appendChild(node("h1", "Résultats des mises"));
@@ -478,10 +564,10 @@
           choices(scene, state.categories);
           break;
         case "CATEGORY_INTRO":
-          scene.appendChild(node("h1", state.category || "Nouvelle catégorie"));
-          scene.appendChild(node("p", (state.categoryQuestionCount || 0) + " questions"));
-          scene.appendChild(node("p", "Type : " + ((state.categoryQuestionTypes || []).filter(function(t) { return typeof t==='string' && t.trim(); }).join(" · ") || (state.categoryAnswerMode==='WRITTEN'?'Réponse écrite':state.categoryAnswerMode==='BUZZER'?'Buzzer':'Choix multiples'))));
-          scene.appendChild(node("p", "Mode : " + (state.categoryAnswerMode === "WRITTEN" ? "Réponses écrites" : state.categoryAnswerMode === "BUZZER" ? "Buzzer" : "Réponses simultanées")));
+          categoryHeading();
+          scene.appendChild(node("p", (state.categoryQuestionCount || 0) + " questions", "category-count"));
+          if (categoryInfo.types.length) scene.appendChild(node("p", categoryInfo.types.join(" · "), "category-types"));
+          scene.appendChild(node("p", categoryInfo.mode, "category-mode"));
           break;
         case "QUESTION_ACTIVE":
         case "ANSWER_REVIEW":
@@ -542,18 +628,26 @@
           break;
       }
     }
+    render.testAudio = function () { soundPlayer.test(); };
     render.buzzerCue=function(cue) {
       if(!cue || cue.type!=='buzzer' || cue.version!==1 || cue.roomId!==lastSoundRoom || lastPhase!=='QUESTION_ACTIVE' ||
           !Number.isSafeInteger(cue.buzzerSoundId) || cue.buzzerSoundId<=lastBuzzerId) return false;
-      lastBuzzerId=cue.buzzerSoundId;soundPlayer.play('buzzer.wav');return true;
+      lastBuzzerId=cue.buzzerSoundId;return true;
     };
     return render;
   }
 
   function connectReceiver(context, framework, doc) {
-    var render = makeRenderer(doc);
+    var render = makeRenderer(doc, {onAudioStatus:function (status) {
+      context.getSenders().forEach(function(sender) {
+        context.sendCustomMessage(namespace, sender.senderId, {type:'audio-status', version:1, status:status});
+      });
+    }});
     function ready(senderId) { context.sendCustomMessage(namespace, senderId, { type: "ready", version: 1 }); }
     context.addCustomMessageListener(namespace, function (event) {
+      var command = event.data;
+      if (typeof command === 'string') { try { command = JSON.parse(command); } catch (_) {} }
+      if (command && command.type === 'audio-test' && command.version === 1) { render.testAudio(); return; }
       var state = parseState(event.data);
       if (!state) return;
       render(state);

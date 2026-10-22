@@ -1,0 +1,90 @@
+{
+  "category": "Charades visuelles — Mots et jeux de sons — Buzzer",
+  "subject": "Logique et énigmes",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-7070489fd266f032bb81",
+      "category": "Charades visuelles — Mots et jeux de sons — Buzzer",
+      "prompt": "Quel mot ou groupe de mots se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Cyclope"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-83b84301c02e14b37a68",
+      "category": "Charades visuelles — Mots et jeux de sons — Buzzer",
+      "prompt": "Quel mot ou groupe de mots se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Grand Prix de Formule 1",
+        "Grand Prix de F1",
+        "Grand Prix de formule un"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-cc31e784daa7a5a63ef5",
+      "category": "Charades visuelles — Mots et jeux de sons — Buzzer",
+      "prompt": "Quel mot ou groupe de mots se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Mississippi"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-54526cd051bc90f52658",
+      "category": "Charades visuelles — Mots et jeux de sons — Buzzer",
+      "prompt": "Quel mot ou groupe de mots se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Moufette"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-dc38c3ddbcec7508d6e1",
+      "category": "Charades visuelles — Mots et jeux de sons — Buzzer",
+      "prompt": "Quel mot ou groupe de mots se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Panthère"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-dd6d7e4d7c94af3bd989",
+      "category": "Charades visuelles — Mots et jeux de sons — Buzzer",
+      "prompt": "Quel mot ou groupe de mots se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-06.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Pharaon"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

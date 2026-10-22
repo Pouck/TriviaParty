@@ -1,0 +1,752 @@
+[
+  {
+    "original": "amsterdam.png",
+    "answer": "Amsterdam",
+    "variants": [
+      "Amsterdam"
+    ]
+  },
+  {
+    "original": "andorre-la-vieille.png",
+    "answer": "Andorre-la-Vieille",
+    "variants": [
+      "Andorre-la-Vieille"
+    ]
+  },
+  {
+    "original": "beyrouth.png",
+    "answer": "Beyrouth",
+    "variants": [
+      "Beyrouth"
+    ]
+  },
+  {
+    "original": "bissau.png",
+    "answer": "Bissau",
+    "variants": [
+      "Bissau"
+    ]
+  },
+  {
+    "original": "bucarest.png",
+    "answer": "Bucarest",
+    "variants": [
+      "Bucarest"
+    ]
+  },
+  {
+    "original": "caracas.png",
+    "answer": "Caracas",
+    "variants": [
+      "Caracas"
+    ]
+  },
+  {
+    "original": "lisbonne.png",
+    "answer": "Lisbonne",
+    "variants": [
+      "Lisbonne"
+    ]
+  },
+  {
+    "original": "oslo.png",
+    "answer": "Oslo",
+    "variants": [
+      "Oslo"
+    ]
+  },
+  {
+    "original": "riga.png",
+    "answer": "Riga",
+    "variants": [
+      "Riga"
+    ]
+  },
+  {
+    "original": "san jose.png",
+    "answer": "San José",
+    "variants": [
+      "San José"
+    ]
+  },
+  {
+    "original": "singapore.png",
+    "answer": "Singapour",
+    "variants": [
+      "Singapour"
+    ]
+  },
+  {
+    "original": "sucre.png",
+    "answer": "Sucre",
+    "variants": [
+      "Sucre"
+    ]
+  },
+  {
+    "original": "varsovie.png",
+    "answer": "Varsovie",
+    "variants": [
+      "Varsovie"
+    ]
+  },
+  {
+    "original": "ottawa.png",
+    "answer": "Ottawa",
+    "variants": [
+      "Ottawa"
+    ]
+  },
+  {
+    "original": "délhi.png",
+    "answer": "Delhi",
+    "variants": [
+      "Delhi"
+    ]
+  },
+  {
+    "original": "ho chi minh city.png",
+    "answer": "Hô Chi Minh-Ville",
+    "variants": [
+      "Hô Chi Minh-Ville",
+      "Ho Chi Minh-Ville",
+      "Hô-Chi-Minh-Ville",
+      "Saïgon"
+    ]
+  },
+  {
+    "original": "istamboule.png",
+    "answer": "Istanbul",
+    "variants": [
+      "Istanbul"
+    ]
+  },
+  {
+    "original": "los angeles.png",
+    "answer": "Los Angeles",
+    "variants": [
+      "Los Angeles"
+    ]
+  },
+  {
+    "original": "montréal.png",
+    "answer": "Montréal",
+    "variants": [
+      "Montréal"
+    ]
+  },
+  {
+    "original": "ordinateur.png",
+    "answer": "Ordinateur",
+    "variants": [
+      "Ordinateur"
+    ]
+  },
+  {
+    "original": "shampoing.png",
+    "answer": "Shampoing",
+    "variants": [
+      "Shampoing",
+      "Shampooing"
+    ]
+  },
+  {
+    "original": "arc-en-ciel.png",
+    "answer": "Arc-en-ciel",
+    "variants": [
+      "Arc-en-ciel"
+    ]
+  },
+  {
+    "original": "ascenseur.png",
+    "answer": "Ascenseur",
+    "variants": [
+      "Ascenseur"
+    ]
+  },
+  {
+    "original": "café au lait.png",
+    "answer": "Café au lait",
+    "variants": [
+      "Café au lait"
+    ]
+  },
+  {
+    "original": "caravane.png",
+    "answer": "Caravane",
+    "variants": [
+      "Caravane"
+    ]
+  },
+  {
+    "original": "carnaval.png",
+    "answer": "Carnaval",
+    "variants": [
+      "Carnaval"
+    ]
+  },
+  {
+    "original": "champignon.png",
+    "answer": "Champignon",
+    "variants": [
+      "Champignon"
+    ]
+  },
+  {
+    "original": "gribouillis.png",
+    "answer": "Gribouillis",
+    "variants": [
+      "Gribouillis"
+    ]
+  },
+  {
+    "original": "immeuble.png",
+    "answer": "Immeuble",
+    "variants": [
+      "Immeuble"
+    ]
+  },
+  {
+    "original": "parachute.png",
+    "answer": "Parachute",
+    "variants": [
+      "Parachute"
+    ]
+  },
+  {
+    "original": "pierre.png",
+    "answer": "Pierre",
+    "variants": [
+      "Pierre"
+    ]
+  },
+  {
+    "original": "arrête ton char.png",
+    "answer": "Arrête ton char",
+    "variants": [
+      "Arrête ton char"
+    ]
+  },
+  {
+    "original": "avoir du coeur au ventre.png",
+    "answer": "Avoir du cœur au ventre",
+    "variants": [
+      "Avoir du cœur au ventre"
+    ]
+  },
+  {
+    "original": "avoir un chat dans la gorge.png",
+    "answer": "Avoir un chat dans la gorge",
+    "variants": [
+      "Avoir un chat dans la gorge"
+    ]
+  },
+  {
+    "original": "bête comme ses pieds.png",
+    "answer": "Bête comme ses pieds",
+    "variants": [
+      "Bête comme ses pieds"
+    ]
+  },
+  {
+    "original": "c'est pas la mer à boire.png",
+    "answer": "C'est pas la mer à boire",
+    "variants": [
+      "C'est pas la mer à boire"
+    ]
+  },
+  {
+    "original": "couter les yeux de la tête.png",
+    "answer": "Coûter les yeux de la tête",
+    "variants": [
+      "Coûter les yeux de la tête"
+    ]
+  },
+  {
+    "original": "dévorer des yeux.png",
+    "answer": "Dévorer des yeux",
+    "variants": [
+      "Dévorer des yeux"
+    ]
+  },
+  {
+    "original": "filer à l'anglaise.png",
+    "answer": "Filer à l'anglaise",
+    "variants": [
+      "Filer à l'anglaise"
+    ]
+  },
+  {
+    "original": "jeter un oeil.png",
+    "answer": "Jeter un œil",
+    "variants": [
+      "Jeter un œil"
+    ]
+  },
+  {
+    "original": "l'habit ne fait pas le moine.png",
+    "answer": "L'habit ne fait pas le moine",
+    "variants": [
+      "L'habit ne fait pas le moine"
+    ]
+  },
+  {
+    "original": "la goutte qui fait déborder le vase.png",
+    "answer": "La goutte qui fait déborder le vase",
+    "variants": [
+      "La goutte qui fait déborder le vase"
+    ]
+  },
+  {
+    "original": "laver son linge sale en famille.png",
+    "answer": "Laver son linge sale en famille",
+    "variants": [
+      "Laver son linge sale en famille"
+    ]
+  },
+  {
+    "original": "le jeu en vaut la chandelle.png",
+    "answer": "Le jeu en vaut la chandelle",
+    "variants": [
+      "Le jeu en vaut la chandelle"
+    ]
+  },
+  {
+    "original": "le silence est d'or.png",
+    "answer": "Le silence est d'or",
+    "variants": [
+      "Le silence est d'or"
+    ]
+  },
+  {
+    "original": "mettre les bouchées doubles.png",
+    "answer": "Mettre les bouchées doubles",
+    "variants": [
+      "Mettre les bouchées doubles"
+    ]
+  },
+  {
+    "original": "mieux vaut rire que pleurer.png",
+    "answer": "Mieux vaut rire que pleurer",
+    "variants": [
+      "Mieux vaut rire que pleurer"
+    ]
+  },
+  {
+    "original": "ne pas y aller par quatre chemins.png",
+    "answer": "Ne pas y aller par quatre chemins",
+    "variants": [
+      "Ne pas y aller par quatre chemins"
+    ]
+  },
+  {
+    "original": "pas de quoi fouetter un chat.png",
+    "answer": "Pas de quoi fouetter un chat",
+    "variants": [
+      "Pas de quoi fouetter un chat"
+    ]
+  },
+  {
+    "original": "plus gros yeux que gros ventre.png",
+    "answer": "Avoir les yeux plus gros que le ventre",
+    "variants": [
+      "Avoir les yeux plus gros que le ventre",
+      "Les yeux plus gros que le ventre",
+      "Avoir de plus gros yeux que le ventre"
+    ]
+  },
+  {
+    "original": "poser un lapin.png",
+    "answer": "Poser un lapin",
+    "variants": [
+      "Poser un lapin"
+    ]
+  },
+  {
+    "original": "quand les poules auront des dents.png",
+    "answer": "Quand les poules auront des dents",
+    "variants": [
+      "Quand les poules auront des dents"
+    ]
+  },
+  {
+    "original": "qui dort dinne.png",
+    "answer": "Qui dort dîne",
+    "variants": [
+      "Qui dort dîne"
+    ]
+  },
+  {
+    "original": "qui va piano va sano.png",
+    "answer": "Qui va piano va sano",
+    "variants": [
+      "Qui va piano va sano"
+    ]
+  },
+  {
+    "original": "raconter des salades.png",
+    "answer": "Raconter des salades",
+    "variants": [
+      "Raconter des salades"
+    ]
+  },
+  {
+    "original": "sans queue ni tête.png",
+    "answer": "Sans queue ni tête",
+    "variants": [
+      "Sans queue ni tête"
+    ]
+  },
+  {
+    "original": "sauter du coq à l'âne.png",
+    "answer": "Sauter du coq à l'âne",
+    "variants": [
+      "Sauter du coq à l'âne"
+    ]
+  },
+  {
+    "original": "se faire rouler dans la farine.png",
+    "answer": "Se faire rouler dans la farine",
+    "variants": [
+      "Se faire rouler dans la farine"
+    ]
+  },
+  {
+    "original": "se méler de ses ognions.png",
+    "answer": "Se mêler de ses oignons",
+    "variants": [
+      "Se mêler de ses oignons",
+      "Se mêler de ses ognons"
+    ]
+  },
+  {
+    "original": "tiré à quatre épingles.png",
+    "answer": "Tiré à quatre épingles",
+    "variants": [
+      "Tiré à quatre épingles"
+    ]
+  },
+  {
+    "original": "tomber dans les pommes.png",
+    "answer": "Tomber dans les pommes",
+    "variants": [
+      "Tomber dans les pommes"
+    ]
+  },
+  {
+    "original": "tourner autour du pot.png",
+    "answer": "Tourner autour du pot",
+    "variants": [
+      "Tourner autour du pot"
+    ]
+  },
+  {
+    "original": "une faim de loup.png",
+    "answer": "Une faim de loup",
+    "variants": [
+      "Une faim de loup"
+    ]
+  },
+  {
+    "original": "être haut comme trois pommes.png",
+    "answer": "Être haut comme trois pommes",
+    "variants": [
+      "Être haut comme trois pommes"
+    ]
+  },
+  {
+    "original": "avoir les deux pieds dans la même bottine.png",
+    "answer": "Avoir les deux pieds dans la même bottine",
+    "variants": [
+      "Avoir les deux pieds dans la même bottine"
+    ]
+  },
+  {
+    "original": "capoté.png",
+    "answer": "Capoté",
+    "variants": [
+      "Capoté"
+    ]
+  },
+  {
+    "original": "dispendieux.png",
+    "answer": "Dispendieux",
+    "variants": [
+      "Dispendieux"
+    ]
+  },
+  {
+    "original": "lâche pas la patate.png",
+    "answer": "Lâche pas la patate",
+    "variants": [
+      "Lâche pas la patate",
+      "Ne lâche pas la patate"
+    ]
+  },
+  {
+    "original": "magané.png",
+    "answer": "Magané",
+    "variants": [
+      "Magané"
+    ]
+  },
+  {
+    "original": "mouiller à siaux.png",
+    "answer": "Mouiller à siaux",
+    "variants": [
+      "Mouiller à siaux",
+      "Mouiller à seaux"
+    ]
+  },
+  {
+    "original": "pas de chicanes dans la cabane.png",
+    "answer": "Pas de chicanes dans la cabane",
+    "variants": [
+      "Pas de chicanes dans la cabane"
+    ]
+  },
+  {
+    "original": "sacrer son camps.png",
+    "answer": "Sacrer son camp",
+    "variants": [
+      "Sacrer son camp"
+    ]
+  },
+  {
+    "original": "se dorer la couenne au soleil.png",
+    "answer": "Se dorer la couenne au soleil",
+    "variants": [
+      "Se dorer la couenne au soleil",
+      "Se dorer la couenne"
+    ]
+  },
+  {
+    "original": "se faire passer un sapin.png",
+    "answer": "Se faire passer un sapin",
+    "variants": [
+      "Se faire passer un sapin"
+    ]
+  },
+  {
+    "original": "tire-toi une buche.png",
+    "answer": "Tire-toi une bûche",
+    "variants": [
+      "Tire-toi une bûche",
+      "Tire-toi une buche"
+    ]
+  },
+  {
+    "original": "tomber des clous.png",
+    "answer": "Tomber des clous",
+    "variants": [
+      "Tomber des clous"
+    ]
+  },
+  {
+    "original": "être dans les patates.png",
+    "answer": "Être dans les patates",
+    "variants": [
+      "Être dans les patates"
+    ]
+  },
+  {
+    "original": "être vite sur ses patins.png",
+    "answer": "Être vite sur ses patins",
+    "variants": [
+      "Être vite sur ses patins"
+    ]
+  },
+  {
+    "original": "assoupi.png",
+    "answer": "Assoupi",
+    "variants": [
+      "Assoupi"
+    ]
+  },
+  {
+    "original": "assurer.png",
+    "answer": "Assurer",
+    "variants": [
+      "Assurer"
+    ]
+  },
+  {
+    "original": "démonter.png",
+    "answer": "Démonter",
+    "variants": [
+      "Démonter"
+    ]
+  },
+  {
+    "original": "dérouter.png",
+    "answer": "Dérouter",
+    "variants": [
+      "Dérouter"
+    ]
+  },
+  {
+    "original": "entrecouper.png",
+    "answer": "Entrecouper",
+    "variants": [
+      "Entrecouper"
+    ]
+  },
+  {
+    "original": "gambader.png",
+    "answer": "Gambader",
+    "variants": [
+      "Gambader"
+    ]
+  },
+  {
+    "original": "grommeler.png",
+    "answer": "Grommeler",
+    "variants": [
+      "Grommeler"
+    ]
+  },
+  {
+    "original": "raccourcir.png",
+    "answer": "Raccourcir",
+    "variants": [
+      "Raccourcir"
+    ]
+  },
+  {
+    "original": "souhaiter.png",
+    "answer": "Souhaiter",
+    "variants": [
+      "Souhaiter"
+    ]
+  },
+  {
+    "original": "épancher.png",
+    "answer": "Épancher",
+    "variants": [
+      "Épancher"
+    ]
+  },
+  {
+    "original": "cyclope.png",
+    "answer": "Cyclope",
+    "variants": [
+      "Cyclope"
+    ]
+  },
+  {
+    "original": "grand prix de formule 1.png",
+    "answer": "Grand Prix de Formule 1",
+    "variants": [
+      "Grand Prix de Formule 1",
+      "Grand Prix de F1",
+      "Grand Prix de formule un"
+    ]
+  },
+  {
+    "original": "mississipi.png",
+    "answer": "Mississippi",
+    "variants": [
+      "Mississippi"
+    ]
+  },
+  {
+    "original": "moufette.png",
+    "answer": "Moufette",
+    "variants": [
+      "Moufette"
+    ]
+  },
+  {
+    "original": "panthère.png",
+    "answer": "Panthère",
+    "variants": [
+      "Panthère"
+    ]
+  },
+  {
+    "original": "pharaon.png",
+    "answer": "Pharaon",
+    "variants": [
+      "Pharaon"
+    ]
+  },
+  {
+    "original": "david copperfield.png",
+    "answer": "David Copperfield",
+    "variants": [
+      "David Copperfield"
+    ]
+  },
+  {
+    "original": "l'appel de la fôret.png",
+    "answer": "L’Appel de la forêt",
+    "variants": [
+      "L’Appel de la forêt"
+    ]
+  },
+  {
+    "original": "l'odyssée.png",
+    "answer": "L’Odyssée",
+    "variants": [
+      "L’Odyssée"
+    ]
+  },
+  {
+    "original": "le décaméron.png",
+    "answer": "Le Décaméron",
+    "variants": [
+      "Le Décaméron"
+    ]
+  },
+  {
+    "original": "le meilleur des mondes.png",
+    "answer": "Le Meilleur des mondes",
+    "variants": [
+      "Le Meilleur des mondes"
+    ]
+  },
+  {
+    "original": "les milles et une nuits.png",
+    "answer": "Les Mille et Une Nuits",
+    "variants": [
+      "Les Mille et Une Nuits",
+      "Mille et Une Nuits"
+    ]
+  },
+  {
+    "original": "les misérables.png",
+    "answer": "Les Misérables",
+    "variants": [
+      "Les Misérables"
+    ]
+  },
+  {
+    "original": "les quatres filles du docteur marche.png",
+    "answer": "Les Quatre Filles du docteur March",
+    "variants": [
+      "Les Quatre Filles du docteur March",
+      "Les Quatre Filles du Dr March"
+    ]
+  },
+  {
+    "original": "orgueuil et préjugés.png",
+    "answer": "Orgueil et Préjugés",
+    "variants": [
+      "Orgueil et Préjugés"
+    ]
+  },
+  {
+    "original": "pour qui sonne le glas.png",
+    "answer": "Pour qui sonne le glas",
+    "variants": [
+      "Pour qui sonne le glas"
+    ]
+  },
+  {
+    "original": "à la recherche du temps perdu.png",
+    "answer": "À la recherche du temps perdu",
+    "variants": [
+      "À la recherche du temps perdu"
+    ]
+  }
+]

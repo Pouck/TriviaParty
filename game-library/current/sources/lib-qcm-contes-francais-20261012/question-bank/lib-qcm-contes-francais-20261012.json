@@ -34,8 +34,7 @@
         "C — Les Fées",
         "D — Riquet à la houppe"
       ],
-      "correctOptionIndex": 0,
-      "imageUrl": "images/lib-qcm-contes-francais-20261012/slipper.png"
+      "correctOptionIndex": 0
     },
     {
       "id": "lib-qcm-contes-francais-20261012-03",
@@ -65,8 +64,7 @@
         "C — Une souris",
         "D — Un serpent"
       ],
-      "correctOptionIndex": 2,
-      "imageUrl": "images/lib-qcm-contes-francais-20261012/mouse.png"
+      "correctOptionIndex": 2
     },
     {
       "id": "lib-qcm-contes-francais-20261012-05",

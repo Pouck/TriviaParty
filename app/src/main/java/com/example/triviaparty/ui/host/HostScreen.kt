@@ -196,6 +196,10 @@ fun HostScreen(
             text = { Column(Modifier.heightIn(max = 360.dp).verticalScroll(rememberScrollState())) {
                 Text("Le téléviseur reçoit une page indépendante. Les commandes restent sur le Pixel.")
                 GoogleCastDeviceList(googleCast, scanning = true)
+                if (castStatus.connected) {
+                    Button(onClick = { googleCast.testAudio() }) { Text("Tester le son TV") }
+                    castStatus.audioStatus?.let { Text(it, fontSize = 14.sp) }
+                }
             } },
             confirmButton = { TextButton(onClick = { showCastDialog = false }) { Text("Fermer") } })
     }
@@ -433,6 +437,11 @@ private fun QuestionControls(
                 color = HostGold, fontWeight = FontWeight.Black,
                 fontSize = if (compact) 18.sp else 22.sp,
                 modifier = Modifier.fillMaxWidth().background(HostBackground, RoundedCornerShape(8.dp)).padding(8.dp))
+        }
+        if (buzzer && game.buzzQueue.isNotEmpty()) {
+            Text("Ordre des buzz : " + game.buzzQueue.mapIndexed { index, press ->
+                "${index + 1}. " + (game.teams.find { it.id == press.teamId }?.name ?: press.teamId)
+            }.joinToString(" · "), color = Color.LightGray, fontSize = 14.sp)
         }
         val hasPublicChoices = question.spectatorOptions().isNotEmpty()
         if (!compact && hasPublicChoices) {

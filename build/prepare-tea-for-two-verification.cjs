@@ -1,0 +1,2 @@
+const fs=require('fs');let s=fs.readFileSync('build/verify-vadrouille-extracts.cjs','utf8').replace('build/dialogue-extracts/grande-vadrouille','build/dialogue-extracts/vadrouille-tea-for-two');fs.writeFileSync('build/verify-tea-for-two-extracts.cjs',s);
+let p=fs.readFileSync('build/verify-vadrouille-package.py','utf8').replace('build/dialogue-extracts/grande-vadrouille','build/dialogue-extracts/vadrouille-tea-for-two').replace('La-Grande-Vadrouille-deux-dialogues.zip','Vadrouille-Tea-for-Two-deux-dialogues.zip');fs.writeFileSync('build/verify-tea-for-two-package.py',p);

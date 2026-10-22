@@ -1,0 +1,14 @@
+Generated with the built-in image_gen tool, transparent_background=true.
+
+Saved assets (also mirrored in cast-receiver):
+- app/src/main/assets/tv/feedback-bad.png
+- app/src/main/assets/tv/feedback-good.png
+
+X prompt:
+Create one production UI bitmap asset, square canvas 1024 x 1024, truly transparent background. One large vivid red X centered with generous clear margin, made by exactly two actual expressive hand-painted dry-brush strokes crossing diagonally. Natural bristle streaks, irregular feathered edges, tapering ends and small transparent gaps through pigment. Bold red saturated enough for a dark TV quiz interface. Flat front-facing pigment only, no paper, no backdrop, no border, no typography, no other symbols, no shadows, no 3D. The X should occupy 80% of the canvas. This must look like real painted brushwork, not a polygon, geometric icon or font glyph.
+
+Checkmark prompt:
+Create one production UI bitmap asset, square canvas 1024 x 1024, truly transparent background. One large vivid emerald green validation checkmark centered with generous clear margin, made by expressive actual hand-painted dry-brush strokes, short descending left stroke meeting a long sweeping rising right stroke. Natural bristle streaks, irregular feathered edges, tapered ends and small transparent gaps through pigment. Bold bright green saturated enough for a dark TV quiz interface. Flat front-facing pigment only, no paper, no backdrop, no border, no typography, no other symbols, no shadows, no 3D. The checkmark should occupy 80% of the canvas. This must look like real painted brushwork, not a polygon, geometric icon or font glyph.
+
+Single X stroke, built-in image_gen, transparent background. Saved as feedback-red-stroke.png in the TV and cast-receiver directories.
+Prompt: Production transparent UI asset. Square canvas. Exactly ONE vivid saturated red hand-painted dry brush stroke running diagonally down from top left (about 10%,10%) to bottom right (about 90%,90%). One straight broad sweeping stroke only, NOT an X, NOT a checkmark. Natural visible bristle streaks, pigment texture, feathered irregular edges and tapered ends, transparent gaps through paint. Width around 15% of canvas perpendicular to the diagonal. Flat front-facing real paint appearance, no paper, background fully transparent, no shadows, no other marks, no text. This will be layered with a mirrored copy to animate an X, so absolutely no trace of a crossing stroke.

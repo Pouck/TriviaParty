@@ -17,8 +17,7 @@
         "Trois",
         "3"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-contes-anglais-20261012/three-houses.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-contes-anglais-20261012-02",
@@ -43,8 +42,7 @@
       "acceptableAnswers": [
         "Jack"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-contes-anglais-20261012/beanstalk.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-contes-anglais-20261012-04",
@@ -52,7 +50,7 @@
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "textAnswer",
-      "prompt": "Quel compagnon géant de Robin des Bois porte le nom Petit Jean ?",
+      "prompt": "Quel compagnon de Robin des Bois est réputé pour sa grande taille et sa force ?",
       "acceptableAnswers": [
         "Petit Jean",
         "Little John"
@@ -65,7 +63,7 @@
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "textAnswer",
-      "prompt": "Quel héros minuscule du folklore anglais est appelé Tom Pouce ?",
+      "prompt": "Quel personnage minuscule des contes anglais tire son nom d’une mesure équivalant à la largeur d’un pouce ?",
       "acceptableAnswers": [
         "Tom Pouce",
         "Tom Thumb"

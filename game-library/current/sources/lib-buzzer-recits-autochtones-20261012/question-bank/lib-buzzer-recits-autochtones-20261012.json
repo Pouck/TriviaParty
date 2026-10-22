@@ -44,8 +44,7 @@
         "Le corbeau",
         "Corbeau"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-recits-autochtones-20261012/raven.jpg"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-recits-autochtones-20261012-04",
@@ -53,7 +52,7 @@
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "textAnswer",
-      "prompt": "Quel animal plongeur rapporte de la terre dans le récit oneida présenté ici ?",
+      "prompt": "Dans un récit de création oneida, quel animal plonge au fond de l’eau et en rapporte un peu de terre ?",
       "acceptableAnswers": [
         "Le rat musqué",
         "Rat musqué"

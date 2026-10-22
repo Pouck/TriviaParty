@@ -1,0 +1,101 @@
+{
+  "category": "Charades visuelles — Capitales — 2 — Réponses écrites",
+  "subject": "Géographie",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-e449eb0ee7354fcb2d9c",
+      "category": "Charades visuelles — Capitales — 2 — Réponses écrites",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Oslo"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-43a038df00789764dc9e",
+      "category": "Charades visuelles — Capitales — 2 — Réponses écrites",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Riga"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-72832d4d836bbf796a5b",
+      "category": "Charades visuelles — Capitales — 2 — Réponses écrites",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "San José"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-06c6e823c9aa112e23b9",
+      "category": "Charades visuelles — Capitales — 2 — Réponses écrites",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Singapour"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-55c8b932e2982da892a8",
+      "category": "Charades visuelles — Capitales — 2 — Réponses écrites",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Sucre"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-018df688ae482739d7bc",
+      "category": "Charades visuelles — Capitales — 2 — Réponses écrites",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-06.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Varsovie"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-354c48d6502bb8ccd12c",
+      "category": "Charades visuelles — Capitales — 2 — Réponses écrites",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-07.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Ottawa"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

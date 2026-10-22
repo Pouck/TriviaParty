@@ -1,0 +1,81 @@
+[
+  {
+    "questionId": "cv-9ebc64eb1fb4204a1115",
+    "sourceFilename": "mettre les bouchées doubles.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\mettre les bouchées doubles.png",
+    "sha256": "9ebc64eb1fb4204a11158a5ff63d22c0558644490d12f2efd835d65d153ed81e",
+    "canonicalAnswer": "Mettre les bouchées doubles",
+    "acceptedVariants": [
+      "Mettre les bouchées doubles"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-56bf9e66405630b3cf0b",
+    "sourceFilename": "mieux vaut rire que pleurer.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\mieux vaut rire que pleurer.png",
+    "sha256": "56bf9e66405630b3cf0b53aef33f67d525238ed2ed2e9e22db79f84348c6e008",
+    "canonicalAnswer": "Mieux vaut rire que pleurer",
+    "acceptedVariants": [
+      "Mieux vaut rire que pleurer"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-df0760cc9755d49d600c",
+    "sourceFilename": "ne pas y aller par quatre chemins.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\ne pas y aller par quatre chemins.png",
+    "sha256": "df0760cc9755d49d600cc84e32f9f3511a53e276f209dc0642d01b040db8939e",
+    "canonicalAnswer": "Ne pas y aller par quatre chemins",
+    "acceptedVariants": [
+      "Ne pas y aller par quatre chemins"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-cfd4ce48ec99c9d5376f",
+    "sourceFilename": "pas de quoi fouetter un chat.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\pas de quoi fouetter un chat.png",
+    "sha256": "cfd4ce48ec99c9d5376f30ed5686cd3953c5f6484300f867070319c236faed2e",
+    "canonicalAnswer": "Pas de quoi fouetter un chat",
+    "acceptedVariants": [
+      "Pas de quoi fouetter un chat"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-dec3f7d99aff21e05afd",
+    "sourceFilename": "plus gros yeux que gros ventre.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\plus gros yeux que gros ventre.png",
+    "sha256": "dec3f7d99aff21e05afd70ce6e94910f919e2795d25ab151211802fad9cde587",
+    "canonicalAnswer": "Avoir les yeux plus gros que le ventre",
+    "acceptedVariants": [
+      "Avoir les yeux plus gros que le ventre",
+      "Les yeux plus gros que le ventre",
+      "Avoir de plus gros yeux que le ventre"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-a457200260d5f729c025",
+    "sourceFilename": "poser un lapin.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\poser un lapin.png",
+    "sha256": "a457200260d5f729c0257fb34aecb3e3296658a146bc4a8b01ffd8aecf5da73e",
+    "canonicalAnswer": "Poser un lapin",
+    "acceptedVariants": [
+      "Poser un lapin"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-9616bf96e1f809551a77",
+    "sourceFilename": "quand les poules auront des dents.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions\\quand les poules auront des dents.png",
+    "sha256": "9616bf96e1f809551a776a8ad38114e0e379394462383abd793111d2990b804c",
+    "canonicalAnswer": "Quand les poules auront des dents",
+    "acceptedVariants": [
+      "Quand les poules auront des dents"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

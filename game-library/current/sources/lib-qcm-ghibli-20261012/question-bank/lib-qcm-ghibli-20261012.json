@@ -34,8 +34,7 @@
         "C — Un renard-avion",
         "D — Un lapin-bateau"
       ],
-      "correctOptionIndex": 0,
-      "imageUrl": "images/lib-qcm-ghibli-20261012/bus.png"
+      "correctOptionIndex": 0
     },
     {
       "id": "lib-qcm-ghibli-20261012-03",
@@ -65,8 +64,7 @@
         "C — Porco Rosso",
         "D — Le Vent se lève"
       ],
-      "correctOptionIndex": 0,
-      "imageUrl": "images/lib-qcm-ghibli-20261012/broom.png"
+      "correctOptionIndex": 0
     },
     {
       "id": "lib-qcm-ghibli-20261012-05",

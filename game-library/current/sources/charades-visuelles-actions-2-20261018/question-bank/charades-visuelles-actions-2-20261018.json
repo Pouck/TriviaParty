@@ -1,0 +1,75 @@
+{
+  "category": "Charades visuelles — Actions et états — 2 — Réponses écrites",
+  "subject": "Langue française",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-c0bc5b4faa0b769d5c16",
+      "category": "Charades visuelles — Actions et états — 2 — Réponses écrites",
+      "prompt": "Quel mot se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Gambader"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-10541d08c648a3554906",
+      "category": "Charades visuelles — Actions et états — 2 — Réponses écrites",
+      "prompt": "Quel mot se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Grommeler"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-f57abd841d69f65d5743",
+      "category": "Charades visuelles — Actions et états — 2 — Réponses écrites",
+      "prompt": "Quel mot se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Raccourcir"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-820fda2c40350f48ce74",
+      "category": "Charades visuelles — Actions et états — 2 — Réponses écrites",
+      "prompt": "Quel mot se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Souhaiter"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-ae97ddb2b31126db24b6",
+      "category": "Charades visuelles — Actions et états — 2 — Réponses écrites",
+      "prompt": "Quel mot se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Épancher"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

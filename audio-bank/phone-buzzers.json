@@ -1,0 +1,98 @@
+[
+  {
+    "id": "wolf",
+    "label": "Loup",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/8/87/Wolf_howls.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wolf_howls.ogg",
+    "author": "US Fish and Wildlife Service",
+    "license": "Public domain",
+    "license_url": "https://www.fws.gov/",
+    "processing": "Mono MP3; onset trimmed at 0.017s; up to 2.4s excerpt; gain adjusted and 40ms tail fade",
+    "sha256": "f0a90f6341188543802d2988de75721c42354b3bb605ecdb1b5e06e869d71f79",
+    "bytes": 29823
+  },
+  {
+    "id": "owl",
+    "label": "Hibou",
+    "source": "https://sfxmint.com/dl/animal-owl-01.mp3",
+    "page": "https://sfxmint.com/sounds/animal-owl-01",
+    "author": "SFXMint",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "processing": "Mono MP3; onset trimmed at 0.105s; up to 1.4s excerpt; gain adjusted and 40ms tail fade",
+    "sha256": "a45fb1c438d045fbf3d58cc1c8bc8362164684bbcf1ab73b89d4e957940aca04",
+    "bytes": 17598
+  },
+  {
+    "id": "rooster",
+    "label": "Coq",
+    "source": "https://sfxmint.com/dl/rooster-crow-02.mp3",
+    "page": "https://sfxmint.com/sounds/rooster-crow-02",
+    "author": "SFXMint",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "processing": "Mono MP3; onset trimmed at 0.224s; up to 2.4s excerpt; gain adjusted and 40ms tail fade",
+    "sha256": "cf5022a07d027c47e47119eed1bdf3046d023e157a098276d77ee6a1913b2d5a",
+    "bytes": 29510
+  },
+  {
+    "id": "dog",
+    "label": "Chien",
+    "source": "https://sfxmint.com/dl/animal-dog-bark-25.mp3",
+    "page": "https://sfxmint.com/sounds/animal-dog-bark-25",
+    "author": "SFXMint",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "processing": "Mono MP3; onset trimmed at 0.578s; up to 1.0s excerpt; gain adjusted and 40ms tail fade",
+    "sha256": "8b51fc1da6be82ec83c32e9739317b1008eb938ebcfb0334d5a04250e5c51fd8",
+    "bytes": 12896
+  },
+  {
+    "id": "bells",
+    "label": "Cloches",
+    "source": "https://sfxmint.com/dl/instrument-bell-36.mp3",
+    "page": "https://sfxmint.com/sounds/instrument-bell-36",
+    "author": "SFXMint",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "processing": "Mono MP3; onset trimmed at 0.015s; up to 1.8s excerpt; gain adjusted and 40ms tail fade",
+    "sha256": "5f490b662d5e535b4ac8890a372272d7ceb73f547a945ba5afa61a32a042f6b5",
+    "bytes": 22300
+  },
+  {
+    "id": "coyote",
+    "label": "Coyote",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/6/67/Pack_of_coyotes_howling.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pack_of_coyotes_howling.ogg",
+    "author": "Rybkovich",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "processing": "Mono MP3; onset trimmed at 0.000s; up to 2.1s excerpt; gain adjusted and 40ms tail fade",
+    "sha256": "3befb6061e660e3a96e48be12288faf1c8bae104da9a5776336e46010c8a0f83",
+    "bytes": 26062
+  },
+  {
+    "id": "boat",
+    "label": "Bateau",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/b/b4/WWS_Steamwhistle.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:WWS_Steamwhistle.ogg",
+    "author": "Work With Sounds / Konrad Gutkowski",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "processing": "Mono MP3; onset trimmed at 1.504s; up to 1.8s excerpt; gain adjusted and 40ms tail fade",
+    "sha256": "4faa221a846b589900607c2e7f99e639fa129aba0c0a30e6d0749f78e366afc6",
+    "bytes": 22300
+  },
+  {
+    "id": "train",
+    "label": "Train à vapeur",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/5/51/WWS_SteamWhistle.ogg",
+    "page": "https://commons.wikimedia.org/wiki/File:WWS_SteamWhistle.ogg",
+    "author": "Work With Sounds / Konrad Gutkowski",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "processing": "Mono MP3; onset trimmed at 0.719s; up to 1.8s excerpt; gain adjusted and 40ms tail fade",
+    "sha256": "1f306926fc72544b89e64ba125b52e32e521903b7e047942a319fc55ab1aba4a",
+    "bytes": 22300
+  }
+]

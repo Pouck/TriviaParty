@@ -1,0 +1,75 @@
+{
+  "category": "Charades visuelles — Actions et états — 1 — Buzzer",
+  "subject": "Langue française",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-83ed365f35fe7401e164",
+      "category": "Charades visuelles — Actions et états — 1 — Buzzer",
+      "prompt": "Quel mot se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Assoupi"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-e8b6e7cfc7d21935195b",
+      "category": "Charades visuelles — Actions et états — 1 — Buzzer",
+      "prompt": "Quel mot se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Assurer"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-4ae62e66b0c5dc3b5498",
+      "category": "Charades visuelles — Actions et états — 1 — Buzzer",
+      "prompt": "Quel mot se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Démonter"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-53ad602b4a1cf5064007",
+      "category": "Charades visuelles — Actions et états — 1 — Buzzer",
+      "prompt": "Quel mot se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Dérouter"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-dca5f0c50bbf4e61cc23",
+      "category": "Charades visuelles — Actions et états — 1 — Buzzer",
+      "prompt": "Quel mot se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Entrecouper"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

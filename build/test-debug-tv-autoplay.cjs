@@ -49,9 +49,9 @@ server.listen(0,'127.0.0.1',async()=>{
   await inFrame('renderAudio('+JSON.stringify({...submitted,phase:'GAME_ENDED',question:null})+')');await new Promise(r=>setTimeout(r,300));
   await inFrame('renderAudio('+JSON.stringify({...submitted,phase:'GAME_ENDED',question:null})+')');
   const result=await inFrame('({played:playingClips,errors:audioErrors,activated:navigator.userActivation.hasBeenActive})');
-  if(JSON.stringify(result.played)!==JSON.stringify(['enabled.wav','buzzer.wav','bad-ping.wav','bad-04.wav','good-ping.wav','good-03.wav','game-end.wav'])||result.errors.length)throw new Error('Playback failed '+JSON.stringify(result));
+  if(JSON.stringify(result.played)!==JSON.stringify(['enabled.wav','bad-ping.wav','bad-04.wav','good-ping.wav','good-03.wav','game-end.wav'])||result.errors.length)throw new Error('Playback failed '+JSON.stringify(result));
   fs.writeFileSync(path.join(out,'result.json'),JSON.stringify({blocked,result,colors},null,2));
-  console.log('Normal autoplay restrictions: activation, buzzer, negative ping then voice, positive ping then voice, and one end fanfare all play; submitted cards turn green/red immediately at TV resolution.');
+  console.log('Normal autoplay restrictions: activation, negative ping then voice, positive ping then voice, and one end fanfare all play; buzzer audio stays on player devices.');
   await send('Browser.close');
  }catch(e){console.error(e);process.exitCode=1;}finally{ws?.close();chrome?.kill();server.close();}
 });

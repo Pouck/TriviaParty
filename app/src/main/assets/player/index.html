@@ -10,6 +10,7 @@
 <body>
   <header><strong>TRIVIA PARTY</strong><span id="score"></span></header>
   <p id="connection" role="status">Connexion à l’hôte…</p>
+  <div class="sound-controls"><button id="sound-button" type="button">Activer / tester le son</button><span id="sound-status" role="status" aria-live="polite"></span></div>
   <main>
     <section id="join" class="panel">
       <h1>À vous de jouer</h1>
@@ -28,6 +29,7 @@
       <p id="feedback" role="status"></p>
     </section>
   </main>
-  <script src="/play/player.js"></script>
+  <a href="/play/sound-credits" target="_blank" rel="noopener" style="font-size:11px;color:#aaa">Crédits des sons</a>
+  <script src="/play/player.js?v=audio2"></script>
 </body>
 </html>

@@ -1,0 +1,2 @@
+const fs=require('fs');let s=fs.readFileSync('build/verify-oscar-extracts.cjs','utf8').replace("path.resolve('build/dialogue-extracts/oscar')","path.resolve('build/dialogue-extracts/oscar-amant')");fs.writeFileSync('build/verify-oscar-amant-extracts.cjs',s);
+let p=fs.readFileSync('build/verify-oscar-package.py','utf8').replace("Path('build/dialogue-extracts/oscar')","Path('build/dialogue-extracts/oscar-amant')").replace('Oscar-deux-dialogues.zip','Oscar-amant-deux-dialogues.zip');fs.writeFileSync('build/verify-oscar-amant-package.py',p);

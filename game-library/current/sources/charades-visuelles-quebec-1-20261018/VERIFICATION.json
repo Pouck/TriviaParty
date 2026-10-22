@@ -1,0 +1,81 @@
+[
+  {
+    "questionId": "cv-3b845dab1de18a77db0d",
+    "sourceFilename": "avoir les deux pieds dans la même bottine.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\avoir les deux pieds dans la même bottine.png",
+    "sha256": "3b845dab1de18a77db0d9de501185ffc746480c0b88d8d6e9d674f3c008097e9",
+    "canonicalAnswer": "Avoir les deux pieds dans la même bottine",
+    "acceptedVariants": [
+      "Avoir les deux pieds dans la même bottine"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-6da0d69d61d424d23b98",
+    "sourceFilename": "capoté.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\capoté.png",
+    "sha256": "6da0d69d61d424d23b98c97c438a903b70bd458fa79d1934785e408cb9974e42",
+    "canonicalAnswer": "Capoté",
+    "acceptedVariants": [
+      "Capoté"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-82899bb9b05da9f96d50",
+    "sourceFilename": "dispendieux.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\dispendieux.png",
+    "sha256": "82899bb9b05da9f96d50987a5c50e958bce07b8b440f2057fa7cd811b86f0d0c",
+    "canonicalAnswer": "Dispendieux",
+    "acceptedVariants": [
+      "Dispendieux"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-8c153458f93bd3fdcaaa",
+    "sourceFilename": "lâche pas la patate.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\lâche pas la patate.png",
+    "sha256": "8c153458f93bd3fdcaaabb82c1ad38dba76a09e1f56c8ea88f2dc748b1b1d227",
+    "canonicalAnswer": "Lâche pas la patate",
+    "acceptedVariants": [
+      "Lâche pas la patate",
+      "Ne lâche pas la patate"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-5c6801fc275d0939d9ab",
+    "sourceFilename": "magané.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\magané.png",
+    "sha256": "5c6801fc275d0939d9ab00af05d4fe49b3446935058beb4f08c14edbe23b7f5d",
+    "canonicalAnswer": "Magané",
+    "acceptedVariants": [
+      "Magané"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-4e680558a0613bbee073",
+    "sourceFilename": "mouiller à siaux.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\mouiller à siaux.png",
+    "sha256": "4e680558a0613bbee0730f1f003a774b94c9b7c50655ca0f5847922bdfa91d09",
+    "canonicalAnswer": "Mouiller à siaux",
+    "acceptedVariants": [
+      "Mouiller à siaux",
+      "Mouiller à seaux"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-4e73309938eda293f6af",
+    "sourceFilename": "pas de chicanes dans la cabane.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Expressions d'ici\\pas de chicanes dans la cabane.png",
+    "sha256": "4e73309938eda293f6afb81ae0f2e5160b71ee3d1143811facbc5fc70d2825a7",
+    "canonicalAnswer": "Pas de chicanes dans la cabane",
+    "acceptedVariants": [
+      "Pas de chicanes dans la cabane"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]

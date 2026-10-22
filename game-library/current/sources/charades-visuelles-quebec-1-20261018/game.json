@@ -1,0 +1,15 @@
+{
+  "id": "charades-visuelles-quebec-1-20261018",
+  "name": "Charades visuelles — Expressions et mots du Québec — 1 — Buzzer",
+  "description": "7 charades visuelles. 45 secondes ; 15 → 10 → 5 points. Réponse au buzzer : 10 secondes.",
+  "categoryPackages": [
+    "charades-visuelles-quebec-1-20261018"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 15,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

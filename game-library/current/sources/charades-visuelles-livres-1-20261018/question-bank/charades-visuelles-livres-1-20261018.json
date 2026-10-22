@@ -1,0 +1,89 @@
+{
+  "category": "Charades visuelles — Livres célèbres — 1 — Réponses écrites",
+  "subject": "Littérature",
+  "answerMode": "WRITTEN",
+  "questionTypes": [
+    "Réponses écrites"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-818fb25508b71671d43f",
+      "category": "Charades visuelles — Livres célèbres — 1 — Réponses écrites",
+      "prompt": "Quel titre de livre se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "David Copperfield"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-4eb37dca191a97731095",
+      "category": "Charades visuelles — Livres célèbres — 1 — Réponses écrites",
+      "prompt": "Quel titre de livre se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "L’Appel de la forêt"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-05f0679e7ae55c81587b",
+      "category": "Charades visuelles — Livres célèbres — 1 — Réponses écrites",
+      "prompt": "Quel titre de livre se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "L’Odyssée"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-9ed26fbea589fc977b78",
+      "category": "Charades visuelles — Livres célèbres — 1 — Réponses écrites",
+      "prompt": "Quel titre de livre se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Le Décaméron"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-e1416056e7fe05c4b333",
+      "category": "Charades visuelles — Livres célèbres — 1 — Réponses écrites",
+      "prompt": "Quel titre de livre se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Le Meilleur des mondes"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-86ad4e9890a606566d6a",
+      "category": "Charades visuelles — Livres célèbres — 1 — Réponses écrites",
+      "prompt": "Quel titre de livre se cache dans cette charade visuelle ?",
+      "imageUrl": "images/charade-06.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Les Mille et Une Nuits",
+        "Mille et Une Nuits"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

@@ -40,6 +40,10 @@ def canonical(q):
     return q['acceptableAnswers'][0]
 
 for path in sorted(ROOT.rglob('*.zip')):
+    # Some authoring drops are aggregate archives intended for humans, not importable packages.
+    with zipfile.ZipFile(path) as archive:
+        if 'game.json' not in archive.namelist():
+            continue
     with zipfile.ZipFile(path) as z:
         game=json.loads(z.read('game.json')); pid=game['id'];assert pid not in inputs,pid
         banks=[json.loads(z.read(name)) for name in z.namelist() if name.startswith('question-bank/') and name.endswith('.json')]
@@ -344,7 +348,7 @@ with (OUT/'CHANGEMENTS.csv').open('w',encoding='utf-8-sig',newline='') as file:
 distribution=Counter(c['count'] for c in catalog)
 assert set(distribution)<=set(range(5,8))
 for stale in OUT.glob('*.zip'):
-    if stale.stem not in output:
+    if stale.stem not in output and not stale.stem.startswith('charades-visuelles-'):
         history=Path('game-library/history/2026-10-12');history.mkdir(parents=True,exist_ok=True)
         target=history/stale.name
         assert stale.resolve().parent==OUT.resolve() and target.resolve().is_relative_to(Path.cwd().resolve())
@@ -354,7 +358,7 @@ for stale in OUT.glob('*.zip'):
             destination=history/'sources'/stale.stem;destination.parent.mkdir(parents=True,exist_ok=True)
             assert old_source.resolve().is_relative_to(OUT.resolve()) and destination.resolve().is_relative_to(Path.cwd().resolve())
             old_source.rename(destination)
-assert len(catalog)==len(list(OUT.glob('*.zip'))),'Stale ZIPs in current catalogue'
+assert len(catalog)==len([p for p in OUT.glob('*.zip') if not p.stem.startswith('charades-visuelles-')]),'Stale ZIPs in current catalogue'
 (OUT/'README.md').write_text('# Bibliothèque actuelle — 5 à 7 questions par forfait\n\n'
     +f'{len(catalog)} forfaits ; {len(rows)} questions ; chaque forfait contient **5, 6 ou 7 questions**. '
     +'Les six forfaits de diagnostic ont cinq questions chacun et restent exclus des tirages automatiques.\n\n'
@@ -373,3 +377,9 @@ assert len(catalog)==len(list(OUT.glob('*.zip'))),'Stale ZIPs in current catalog
     +'## Forfaits\n\n| Sujet | Forfait | Questions | Archive |\n|---|---|---:|---|\n'
     +'\n'.join(f"| {c['subject']} | {c['name']} | {c['count']} | [{c['id']}.zip]({c['id']}.zip) |" for c in catalog)+'\n',encoding='utf-8')
 print(f'{len(catalog)} packages; {len(rows)} questions; sizes {dict(sorted(distribution.items()))}; {len(retired)} old package IDs retired; {len(EXTRA)} playable questions and {diagnostic_added} diagnostic examples added; every old question ID preserved.')
+
+# Preserve and register the separately authored visual charades on every rebuild.
+runpy.run_path('build/build-visual-charades.py')
+
+# Keep reviewed question fixes durable when rebuilding the playable catalog.
+runpy.run_path('build/apply-question-review-revisions.py')

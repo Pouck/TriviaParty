@@ -1,0 +1,88 @@
+{
+  "category": "Charades visuelles — Expressions françaises — 4 — Buzzer",
+  "subject": "Langue française",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Buzzer"
+  ],
+  "questions": [
+    {
+      "kind": "textAnswer",
+      "id": "cv-0aa6c8ac2d40b705b24f",
+      "category": "Charades visuelles — Expressions françaises — 4 — Buzzer",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-01.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Qui dort dîne"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-e498f8b93b047b528a34",
+      "category": "Charades visuelles — Expressions françaises — 4 — Buzzer",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-02.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Qui va piano va sano"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-2a2ae7cf16f208a4aa76",
+      "category": "Charades visuelles — Expressions françaises — 4 — Buzzer",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-03.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Raconter des salades"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-99665980a56a8f53e457",
+      "category": "Charades visuelles — Expressions françaises — 4 — Buzzer",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-04.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Sans queue ni tête"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-904b2b00ea2e75215065",
+      "category": "Charades visuelles — Expressions françaises — 4 — Buzzer",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-05.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Sauter du coq à l'âne"
+      ],
+      "allowFuzzyMatch": false
+    },
+    {
+      "kind": "textAnswer",
+      "id": "cv-0dcf4eff505c21902e92",
+      "category": "Charades visuelles — Expressions françaises — 4 — Buzzer",
+      "prompt": "Quelle expression se cache dans cette image ?",
+      "imageUrl": "images/charade-06.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "acceptableAnswers": [
+        "Se faire rouler dans la farine"
+      ],
+      "allowFuzzyMatch": false
+    }
+  ]
+}

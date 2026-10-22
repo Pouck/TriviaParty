@@ -1,0 +1,15 @@
+{
+  "id": "charades-visuelles-expressions-3-20261018",
+  "name": "Charades visuelles — Expressions françaises — 3 — Réponses écrites",
+  "description": "7 charades visuelles. 45 secondes ; 15 → 10 → 5 points. Réponses écrites, validées individuellement par l’hôte.",
+  "categoryPackages": [
+    "charades-visuelles-expressions-3-20261018"
+  ],
+  "timingConfig": {
+    "secondsPerFlip": 15,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 2,
+    "pointsDecayPerFlip": 5
+  },
+  "answerTimeSeconds": 10
+}

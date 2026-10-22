@@ -50,5 +50,18 @@
     "credit": "Google Art & Culture",
     "changes": "Aucune modification ; miniature Wikimedia.",
     "originalPackage": "arts-buzzer-regards-scenes-20261011"
+  },
+  {
+    "slug": "nighthawks",
+    "title": "Nighthawks",
+    "file": "nighthawks.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Nighthawks_by_Edward_Hopper_1942.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nighthawks_by_Edward_Hopper_1942.jpg/1024px-Nighthawks_by_Edward_Hopper_1942.jpg",
+    "artist": "Edward Hopper",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Reuse_of_PD-Art_photographs",
+    "credit": "Wikimedia Commons",
+    "changes": "Miniature Wikimedia de l’œuvre originale.",
+    "originalPackage": "arts-buzzer-regards-scenes-20261011"
   }
 ]

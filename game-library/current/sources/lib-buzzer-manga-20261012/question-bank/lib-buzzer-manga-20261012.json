@@ -16,8 +16,7 @@
       "acceptableAnswers": [
         "One Piece"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-manga-20261012/ship.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-manga-20261012-02",
@@ -42,8 +41,7 @@
       "acceptableAnswers": [
         "Sailor Moon"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-manga-20261012/moon.jpg"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-manga-20261012-04",

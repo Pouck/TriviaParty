@@ -1,0 +1,5 @@
+from pathlib import Path
+p=Path('build/collect-winner-music.py');s=p.read_text(encoding='utf8').replace('concurrent.futures,sys,subprocess','concurrent.futures,sys,subprocess,time,urllib.error')
+s=s.replace("  with urllib.request.urlopen(urllib.request.Request(r['downloadUrl'],headers={'User-Agent':'TriviaPartySampler/1.0'}),timeout=60) as res:p.write_bytes(res.read())", "  for attempt in range(3):\n   try:\n    with urllib.request.urlopen(urllib.request.Request(r['downloadUrl'],headers={'User-Agent':'TriviaPartySampler/1.0'}),timeout=45) as res:p.write_bytes(res.read())\n    time.sleep(2);break\n   except urllib.error.HTTPError as error:\n    if error.code!=429 or attempt==2:raise\n    delay=max(30,int(error.headers.get('Retry-After','30')))\n    if delay>60:raise\n    print(r['id'],'rate limited; waiting',delay,'seconds',flush=True);time.sleep(delay)")
+s=s.replace("with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:rows=list(pool.map(get,rows))", "time.sleep(30)\nrows=[get(r) for r in rows]")
+p.write_text(s,encoding='utf8')

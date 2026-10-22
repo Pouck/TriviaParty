@@ -1,0 +1,70 @@
+[
+  {
+    "questionId": "cv-7070489fd266f032bb81",
+    "sourceFilename": "cyclope.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Divers\\cyclope.png",
+    "sha256": "7070489fd266f032bb8196eb69a25323bc83973481e93ffa70e603079e34bd35",
+    "canonicalAnswer": "Cyclope",
+    "acceptedVariants": [
+      "Cyclope"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-83b84301c02e14b37a68",
+    "sourceFilename": "grand prix de formule 1.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Divers\\grand prix de formule 1.png",
+    "sha256": "83b84301c02e14b37a68203ca5d29184d8fa2c772115c00a39e1f7ca21756128",
+    "canonicalAnswer": "Grand Prix de Formule 1",
+    "acceptedVariants": [
+      "Grand Prix de Formule 1",
+      "Grand Prix de F1",
+      "Grand Prix de formule un"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-cc31e784daa7a5a63ef5",
+    "sourceFilename": "mississipi.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Divers\\mississipi.png",
+    "sha256": "cc31e784daa7a5a63ef5a016fe1d68f8d7d0431ec1da4e9717d4a2d06b92e316",
+    "canonicalAnswer": "Mississippi",
+    "acceptedVariants": [
+      "Mississippi"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-54526cd051bc90f52658",
+    "sourceFilename": "moufette.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Divers\\moufette.png",
+    "sha256": "54526cd051bc90f526580f1dcb82f1783a310f80503c1025a9daff2971d7648b",
+    "canonicalAnswer": "Moufette",
+    "acceptedVariants": [
+      "Moufette"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-dc38c3ddbcec7508d6e1",
+    "sourceFilename": "panthère.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Divers\\panthère.png",
+    "sha256": "dc38c3ddbcec7508d6e1fd9e199390bded42588f743b72f300be41fa37e757a4",
+    "canonicalAnswer": "Panthère",
+    "acceptedVariants": [
+      "Panthère"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  },
+  {
+    "questionId": "cv-dd6d7e4d7c94af3bd989",
+    "sourceFilename": "pharaon.png",
+    "sourcePath": "C:\\Users\\pierr\\Documents\\Codex\\2026-10-05\\i\\outputs\\Divers\\pharaon.png",
+    "sha256": "dd6d7e4d7c94af3bd98999bfd748578f45cb4448556c5df86266c6c88bc6d298",
+    "canonicalAnswer": "Pharaon",
+    "acceptedVariants": [
+      "Pharaon"
+    ],
+    "note": "Réponse fournie par le nom du fichier ; orthographe et typographie françaises corrigées. Image originale conservée."
+  }
+]
