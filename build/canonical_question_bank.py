@@ -106,13 +106,13 @@ def sampler_questions():
                 selected['label'] = 'Qui suis-je ? écrit' if mode == 'WRITTEN' else 'Qui suis-je ?'
             unique.append(selected)
         output.append(dict(unique[0], id=entry['id'], category=' · '.join(entry['topics']),
-            topics=entry['topics'], legacyIds=entry['legacyIds'], presentations=unique,
+            topics=entry['topics'], subjectIds=entry.get('subjectIds', []), legacyIds=entry['legacyIds'], presentations=unique,
             legacyReviews=entry.get('legacyReviews', []), packageId='', packageName=''))
     return output
 
 
 def validate(bank):
-    assert bank['schemaVersion'] == 2
+    assert bank['schemaVersion'] in (2, 3)
     entries = bank['questions']
     ids, aliases = set(), set()
     for entry in entries:
@@ -123,7 +123,7 @@ def validate(bank):
         for alias in entry['legacyIds']:
             assert alias not in aliases, alias
             aliases.add(alias)
-        assert {p['id'] for p in entry['presentations']} == set(entry['legacyIds'])
+        assert {p['id'] for p in entry['presentations']} <= set(entry['legacyIds'])
         for presentation in entry['presentations']:
             q = materialize(entry, presentation)
             assert q['kind'] and q['prompt']
@@ -131,6 +131,16 @@ def validate(bank):
             if image:
                 assert not Path(image).is_absolute() and '..' not in Path(image).parts
                 assert (BANK / image).is_file(), image
+    if bank['schemaVersion'] >= 3:
+        subjects = bank['subjects']
+        subject_ids = {subject['id'] for subject in subjects}
+        assert len(subject_ids) == len(subjects) and subject_ids
+        tags = {tag['id'] for tag in bank['taxonomy']}
+        assert len(tags) == len(bank['taxonomy'])
+        assert all(entry.get('subjectIds') and set(entry['subjectIds']) <= subject_ids for entry in entries)
+        assert all(set(subject.get('tagIds', [])) <= tags for subject in subjects)
+        assert all(relation['targetId'] in subject_ids for subject in subjects for relation in subject.get('relations', []))
+        assert all(tag.get('parentId') is None or tag['parentId'] in tags for tag in bank['taxonomy'])
     return bank
 
 

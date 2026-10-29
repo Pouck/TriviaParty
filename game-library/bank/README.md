@@ -1,11 +1,22 @@
 # Question bank
 
-`questions.json` is the authoritative question database. It contains one entry per
-question, independent of game packages. Do not rebuild it from package ZIPs.
+`questions.json` is the authoritative question bank (schema version 3). It
+separates canonical subjects from authored questions, independent of game
+packages. Do not rebuild it from package ZIPs.
 
-Each entry owns:
+The root `subjects` collection stores reusable subject identities: works,
+characters, people, places, events, concepts, and chronology items. Each subject
+can have aliases, hierarchical `tagIds`, typed relationships, verified facts,
+chronology evidence, and source/provenance links. `taxonomy` defines the tag
+hierarchy and labels.
 
-- A stable `id`, all historical `legacyIds`, and one or more topic tags.
+Each authored question owns:
+
+- A stable `id` and all historical `legacyIds`.
+- `subjectIds`, linking the question to one or more canonical subjects. The old
+  `topics` strings remain as migration provenance and compatibility metadata. Questions
+  about the same subject from different angles can share a subject ID while
+  retaining their distinct authored wording and reviews.
 - Shared prompt, accepted answers, explanation and common content fields.
 - `presentations`: authored play variants, such as multiple choice, direct answer,
   picture identification or progressive clues. Presentation content contains only
@@ -23,21 +34,33 @@ Progressive image-identification presentations authored from the existing photo
 collections are listed in `IMAGE-QSJ-MEDIA-CREDITS.json`; their present coverage
 and remaining image needs are tracked in `IMAGE-QSJ-COVERAGE.md`.
 
-Image-identification entries may also include `imageFacts`: a reusable subject
-type, subject/work title, optional franchise, source-linked facts, and source
-URLs. Facts use explicit roles such as `painter`, `sculptor`, `architect`,
+Image-identification questions retain their source `imageFacts`; the subject
+registry also stores those facts for cross-format selection. Facts use explicit
+roles such as `painter`, `sculptor`, `architect`,
 `depicted_person`, `actor`, `location`, or `media_creator`. A media creator is the credited maker of
 the image file and must not be assumed to be the creator of the depicted work.
-Only verified facts are stored; unknown architect, actor, country, and date
-fields are left absent for later enrichment. The Android model retains these
-facts for future question-angle generation. A question's `explanation` can
-provide verified supplementary information on the answer reveal.
+Only verified facts are copied into the subject registry; unknown architect,
+actor, country, and date fields are left absent for later enrichment. A media
+creator remains distinct from the creator of the depicted work. `identityStatus`
+marks question-local anchors and unresolved chronology labels so they are not
+mistaken for verified subject identities.
+
+Legacy chronology questions are still retained for compatibility. Their
+`subjectIds` reference reusable chronology subjects, and each subject retains
+`chronologyEvidence` from the authored ordering lists. Ambiguous title matches
+remain unresolved with candidate IDs. The data does not yet invent absolute
+dates or combine incompatible comparison contexts; chronology pools can grow
+once subjects have verified sortable facts such as creation, publication, or
+event dates.
 
 ## Authoring and review
 
-Edit an existing entry or add a presentation under it when the same question can
-be played with different amounts of information. Add a new entry only for a new
-question. Equal answers alone do not imply equal questions.
+When adding content, identify the canonical subject first. Attach an authored
+question to that subject using `subjectIds`; preserve multiple question angles
+as separate question records where their wording or answer differs. Do not
+merge subjects by answer/title text alone. Distinct works with the same title
+remain separate when their creators or identities differ. Use chronology facts
+only with an explicit comparison context and a verified source.
 
 Run `python build/prepare-question-review-sampler.py` from the project root. The
 sampler reads only this bank and shows one review card per entry, with a play

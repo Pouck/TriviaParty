@@ -13,6 +13,12 @@ object QuestionBankRepository {
     @Volatile private var generatedMetadata: Map<String, CategoryQuestionFile> = emptyMap()
     @Volatile private var generatedQuestions: List<Question>? = null
     @Volatile private var canonicalBank: CanonicalQuestionBank? = null
+    val canonicalSubjects: List<BankSubject>
+        get() = canonicalBank?.subjects.orEmpty()
+    val subjectTaxonomy: List<BankTaxonomyTag>
+        get() = canonicalBank?.taxonomy.orEmpty()
+
+    fun subjectById(id: String): BankSubject? = canonicalBank?.subjects?.firstOrNull { it.id == id }
     val sampleCategories: List<String>
         get() = if (generatedQuestions != null) sampleQuestions.map { it.category }.distinct().sorted()
             else categoryMetadata.values.map { it.category }.ifEmpty { builtInQuestions.map { it.category } }.distinct().sorted()

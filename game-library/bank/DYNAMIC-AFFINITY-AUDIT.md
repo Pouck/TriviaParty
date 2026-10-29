@@ -1,15 +1,15 @@
 # Dynamic affinity audit
 
 Generated from `questions.json` by `build/audit-question-bank-affinities.py`.
-Exact normalized answer matches are candidates only; they do not authorize a merge.
+Exact normalized answer matches are title collisions only. They do not establish shared subject identity or authorize a merge.
 
 ## Bank totals
 
 - Canonical entries: 1580
 - Ordering presentations: 124
 - Distinct normalized ordering item labels: 357
-- Labels matching another entry's accepted answer: 88 (97 item occurrences)
-- Candidate target entries: 101
+- Item labels colliding with another entry's accepted answer text: 88 (97 item occurrences)
+- Potential target question entries pending subject-identity resolution: 101
 - Ordering source pools: 23
 
 ## Existing ordering pools
@@ -43,6 +43,8 @@ Combination counts are mathematical upper bounds from item counts and authored s
 | test-chronologie-20261012 | 5 | 15 | 3–3 | C(15, 3) = 455 |
 
 ## Item labels that match existing entries
+
+A title can identify distinct subjects. For example, `La Naissance de Vénus` is used for separate paintings by Botticelli, Bouguereau, and Cabanel. Use the subject facts and relationships below to resolve each row; never merge based on this table alone.
 
 | Ordering item | Candidate entry IDs and tags |
 |---|---|
@@ -137,7 +139,7 @@ Combination counts are mathematical upper bounds from item counts and authored s
 
 ## Ambiguous exact-answer matches
 
-These labels have multiple target entries and need entity-level resolution before migration.
+These labels have multiple target entries and need canonical subject-identity resolution before migration.
 
 | Item label | Candidate entry IDs |
 |---|---|

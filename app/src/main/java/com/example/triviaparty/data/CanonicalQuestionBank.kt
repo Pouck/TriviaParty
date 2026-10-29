@@ -9,12 +9,27 @@ import kotlinx.serialization.json.*
 
 /** Authoring storage is question-first. Category files below are transient game views. */
 @Serializable
-data class CanonicalQuestionBank(val schemaVersion: Int, val questions: List<BankQuestion>) {
+data class CanonicalQuestionBank(
+    val schemaVersion: Int,
+    val questions: List<BankQuestion>,
+    val subjects: List<BankSubject> = emptyList(),
+    val taxonomy: List<BankTaxonomyTag> = emptyList()
+) {
     init {
-        require(schemaVersion == 2)
+        require(schemaVersion in 2..3)
         require(questions.map { it.id }.distinct().size == questions.size)
         val aliases = questions.flatMap { it.legacyIds }
         require(aliases.distinct().size == aliases.size)
+        if (schemaVersion >= 3) {
+            val subjectIds = subjects.map { it.id }.toSet()
+            val tagIds = taxonomy.map { it.id }.toSet()
+            require(subjectIds.size == subjects.size && subjectIds.isNotEmpty())
+            require(tagIds.size == taxonomy.size)
+            require(questions.all { question -> question.subjectIds.isNotEmpty() && question.subjectIds.all(subjectIds::contains) })
+            require(subjects.flatMap { it.relations }.all { it.targetId in subjectIds })
+            require(subjects.flatMap { it.tagIds }.all(tagIds::contains))
+            require(taxonomy.all { it.parentId == null || it.parentId in tagIds })
+        }
     }
 
     fun categoryViews(): List<CategoryQuestionFile> {
@@ -58,6 +73,7 @@ data class CanonicalQuestionBank(val schemaVersion: Int, val questions: List<Ban
 data class BankQuestion(val id: String, val legacyIds: List<String>, val topics: List<String>,
     val prompt: String, val answers: List<String> = emptyList(), val content: JsonObject = JsonObject(emptyMap()),
     val explanation: String? = null, val presentations: List<BankPresentation>,
+    val subjectIds: List<String> = emptyList(),
     val legacyReviews: List<BankLegacyReview> = emptyList(),
     val review: BankLegacyReview? = null,
     val imageFacts: ImageQuestionFacts? = null) {
@@ -71,6 +87,45 @@ data class BankQuestion(val id: String, val legacyIds: List<String>, val topics:
 
 @Serializable
 data class BankLegacyReview(val questionId: String, val rating: Int? = null)
+
+@Serializable
+data class BankSubject(
+    val id: String,
+    val type: String,
+    val label: String,
+    val aliases: List<String> = emptyList(),
+    val tagIds: List<String> = emptyList(),
+    val relations: List<BankSubjectRelation> = emptyList(),
+    val facts: List<BankSubjectFact> = emptyList(),
+    val chronologyEvidence: List<BankChronologyEvidence> = emptyList(),
+    val sourceQuestionIds: List<String> = emptyList(),
+    val identityStatus: String,
+    val sources: List<String> = emptyList(),
+    val candidateSubjectIds: List<String> = emptyList()
+)
+
+@Serializable
+data class BankSubjectRelation(val type: String, val targetId: String, val role: String? = null)
+
+@Serializable
+data class BankSubjectFact(
+    val kind: String,
+    val value: String,
+    val role: String? = null,
+    val sourceUrl: String? = null
+)
+
+@Serializable
+data class BankChronologyEvidence(
+    val sourceQuestionId: String,
+    val sourceSetId: String,
+    val sourcePrompt: String,
+    val position: Int? = null,
+    val itemId: String? = null
+)
+
+@Serializable
+data class BankTaxonomyTag(val id: String, val label: String, val parentId: String? = null)
 
 @Serializable
 data class BankPresentation(val id: String, val label: String, val answerMode: CategoryAnswerMode,
