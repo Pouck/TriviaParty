@@ -3,6 +3,28 @@ const assert = require('node:assert/strict');
 const receiver = require('./receiver.js');
 const currentReceiver = require('../app/src/main/assets/tv/receiver.js');
 
+test('reviewed clip numbers above 99 play their selected recording',()=>{
+ const previous=global.Audio,played=[];let latest;
+ global.Audio=class{constructor(url){this.src=url;latest=this;}play(){played.push(this.src);return Promise.resolve();}pause(){}};
+ try {for(const renderer of [receiver,currentReceiver]) {
+  const render=renderer.makeRenderer(documentStub());
+  const base=state({joinUrl:'http://host:8080/play',audioBankVersion:'private-reviewed',answerSoundId:0});
+  render(base);render({...base,answerSoundId:1,answerSound:'bad',answerSoundClip:'bad-207.wav'});latest.onended();
+ }
+ assert.equal(played.filter(url=>url.endsWith('bad-207.wav?v=private-reviewed')).length,2);
+ } finally{global.Audio=previous;}
+});
+
+test('progressive questions announce the total clue count without revealing future clues', () => {
+ for (const renderer of [receiver,currentReceiver]) {
+  const doc=documentStub(),render=renderer.makeRenderer(doc);
+  render(state({phase:'CATEGORY_INTRO',clueCount:4,question:null}));
+  assert.equal(descendants(doc.getElementById('scene')).find(e=>e.className==='clue-count').textContent,'4 indices pour cette question');
+  render(state({phase:'QUESTION_ACTIVE',clueCount:4,question:{id:'clue-count',prompt:'Qui suis-je ?\n\n1. Premier indice',options:[],answer:null}}));
+  assert.equal(descendants(doc.getElementById('scene')).find(e=>e.className==='clue-count').textContent,'4 indices au total');
+ }
+});
+
 test('point countdown uses one fixed glass and readiness and written review preserve the public question', () => {
   const doc=documentStub(),render=currentReceiver.makeRenderer(doc);
   const q={id:'points',prompt:'Question',options:['A','B'],answer:null};

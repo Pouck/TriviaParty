@@ -9,7 +9,9 @@ data class HourglassConfig(
     val maxFlips: Int = 5,
     /** Optional fixed points removed at each completed interval, instead of percentage decay. */
     val pointsDecayPerFlip: Int? = null,
-    val pointsDecayPerSecond: Int? = null
+    val pointsDecayPerSecond: Int? = null,
+    /** Linear score decay spread over this many seconds, for longer fixed-duration questions. */
+    val pointsDecayOverSeconds: Int? = null
 ) {
     /**
      * Calculates score awarded based on base points and current flip count.
@@ -17,6 +19,14 @@ data class HourglassConfig(
      */
     fun calculateScore(basePoints: Int, flipNumber: Int, elapsedSecondsInFlip: Int = 0): Int {
         val clampedFlip = flipNumber.coerceIn(0, maxFlips)
+        pointsDecayOverSeconds?.let { duration ->
+            val elapsed = clampedFlip * secondsPerFlip + elapsedSecondsInFlip.coerceAtLeast(0)
+            val remaining = (duration.coerceAtLeast(1) - elapsed).coerceAtLeast(0)
+            val points=basePoints.coerceAtLeast(0)
+            if(points==0 || remaining==0)return 0
+            // Integer division can otherwise round low-value questions to zero early.
+            return (points * remaining / duration.coerceAtLeast(1)).coerceAtLeast(1)
+        }
         pointsDecayPerSecond?.let { drop ->
             return (basePoints-(clampedFlip*secondsPerFlip+elapsedSecondsInFlip.coerceAtLeast(0))*drop.coerceAtLeast(0)).coerceAtLeast(0)
         }

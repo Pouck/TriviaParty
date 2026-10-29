@@ -40,8 +40,7 @@
       "acceptableAnswers": [
         "Moby-Dick"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-litterature-americaine-20261012/whale.jpg"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-litterature-americaine-20261012-04",
@@ -54,7 +53,8 @@
         "Walden"
       ],
       "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-litterature-americaine-20261012/lake.jpg"
+      "imageUrl": "images/lib-buzzer-litterature-americaine-20261012/lake.jpg",
+      "conceptId": "culture-qcm-americaine-oeuvres-20261010-07"
     },
     {
       "id": "lib-buzzer-litterature-americaine-20261012-05",

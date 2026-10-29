@@ -42,7 +42,8 @@
       "acceptableAnswers": [
         "Krypton"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "cinema-buzzer-univers-20261011-03"
     },
     {
       "id": "cinema-buzzer-univers-20261011-04",

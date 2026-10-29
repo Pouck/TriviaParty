@@ -1,0 +1,369 @@
+{
+  "lib-buzzer-inventions-canada-20261012-04": {
+    "_removeImage": true,
+    "conceptId": "canada-inventions-quotidien-20261011-01"
+  },
+  "lib-buzzer-jazz-blues-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-buzzer-jeux-video-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-buzzer-jeux-video-20261012-02": {
+    "_removeImage": true
+  },
+  "lib-buzzer-litterature-americaine-20261012-03": {
+    "_removeImage": true
+  },
+  "lib-buzzer-litterature-anglaise-20261012-02": {
+    "_removeImage": true,
+    "conceptId": "culture-qcm-anglophone-personnages-20261010-10"
+  },
+  "lib-buzzer-litterature-anglaise-20261012-04": {
+    "_removeImage": true,
+    "conceptId": "culture-qcm-anglophone-personnages-20261010-05"
+  },
+  "lib-buzzer-litterature-france-20261012-02": {
+    "_removeImage": true
+  },
+  "lib-buzzer-litterature-france-20261012-04": {
+    "_removeImage": true
+  },
+  "lib-buzzer-litterature-quebec-20261012-03": {
+    "_removeImage": true,
+    "conceptId": "lib-buzzer-litterature-quebec-20261012-03"
+  },
+  "lib-buzzer-litterature-quebec-20261012-04": {
+    "_removeImage": true
+  },
+  "lib-buzzer-marvel-20261012-02": {
+    "_removeImage": true
+  },
+  "lib-buzzer-marvel-20261012-04": {
+    "_removeImage": true
+  },
+  "lib-buzzer-musique-ecran-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-buzzer-musique-ecran-20261012-03": {
+    "_removeImage": true
+  },
+  "lib-buzzer-musique-quebec-20261012-01": {
+    "_removeImage": true,
+    "conceptId": "lib-buzzer-musique-quebec-20261012-01"
+  },
+  "lib-buzzer-musique-quebec-20261012-03": {
+    "_removeImage": true
+  },
+  "lib-buzzer-mythologie-grecque-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-buzzer-mythologie-grecque-20261012-04": {
+    "_removeImage": true
+  },
+  "lib-buzzer-mythologie-romaine-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-buzzer-mythologie-romaine-20261012-03": {
+    "_removeImage": true
+  },
+  "lib-buzzer-odyssee-20261012-02": {
+    "_removeImage": true
+  },
+  "lib-buzzer-odyssee-20261012-04": {
+    "_removeImage": true
+  },
+  "lib-buzzer-oiseaux-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-buzzer-pop-rock-20261012-03": {
+    "_removeImage": true
+  },
+  "lib-buzzer-science-generale-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-buzzer-science-generale-20261012-02": {
+    "_removeImage": true
+  },
+  "lib-qcm-animaux-marins-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-qcm-animaux-terrestres-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-qcm-chanson-francophone-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-qcm-chanson-francophone-20261012-04": {
+    "_removeImage": true
+  },
+  "lib-qcm-classique-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-qcm-classique-20261012-03": {
+    "_removeImage": true
+  },
+  "lib-qcm-cuisine-saveurs-20261012-03": {
+    "_removeImage": true
+  },
+  "lib-qcm-cuisine-saveurs-20261012-04": {
+    "_removeImage": true
+  },
+  "lib-qcm-dc-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-qcm-dc-20261012-04": {
+    "_removeImage": true
+  },
+  "lib-qcm-geographie-monde-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-qcm-histoire-france-generale-20261012-01": {
+    "_removeImage": true,
+    "conceptId": "architecture-buzzer-europe-20261011-04"
+  },
+  "lib-qcm-inventions-canada-20261012-01": {
+    "_removeImage": true,
+    "conceptId": "canada-inventions-quotidien-20261011-01"
+  },
+  "lib-qcm-jazz-blues-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-qcm-legendes-france-20261012-01": {
+    "_removeImage": true,
+    "conceptId": "lib-buzzer-legendes-france-20261012-01"
+  },
+  "lib-qcm-litterature-americaine-20261012-02": {
+    "_removeImage": true
+  },
+  "lib-qcm-litterature-americaine-20261012-04": {
+    "_removeImage": true
+  },
+  "lib-qcm-litterature-anglaise-20261012-02": {
+    "_removeImage": true
+  },
+  "lib-qcm-litterature-anglaise-20261012-04": {
+    "_removeImage": true
+  },
+  "lib-qcm-litterature-france-20261012-02": {
+    "_removeImage": true
+  },
+  "lib-qcm-litterature-quebec-20261012-04": {
+    "_removeImage": true,
+    "conceptId": "lib-buzzer-litterature-quebec-20261012-03"
+  },
+  "lib-qcm-marvel-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-qcm-marvel-20261012-04": {
+    "_removeImage": true
+  },
+  "lib-qcm-musique-ecran-20261012-01": {
+    "_removeImage": true,
+    "conceptId": "cinema-qcm-coulisses-20261011-01"
+  },
+  "lib-qcm-musique-ecran-20261012-04": {
+    "_removeImage": true
+  },
+  "lib-qcm-musique-quebec-20261012-01": {
+    "_removeImage": true
+  },
+  "lib-qcm-musique-quebec-20261012-02": {
+    "_removeImage": true
+  },
+  "lib-buzzer-jeux-video-20261012-03": {
+    "prompt": "Comment s’appelle le frère de Mario ?"
+  },
+  "lib-buzzer-jeux-video-20261012-05": {
+    "prompt": "Dans quelle série de jeux de course peut-on lancer des carapaces et des peaux de banane sur ses adversaires ?"
+  },
+  "lib-buzzer-legendes-france-20261012-04": {
+    "prompt": "Quel nom donne-t-on à l’animal mystérieux tenu pour responsable d’attaques meurtrières dans le sud de la France entre 1764 et 1767 ?"
+  },
+  "lib-buzzer-recits-autochtones-20261012-01": {
+    "prompt": "Dans le récit oneida, d’où tombe la femme que des oiseaux portent jusqu’à une tortue ?"
+  },
+  "lib-qcm-explorateurs-20261012-05": {
+    "prompt": "Quel navigateur lance l’expédition qui accomplit le premier tour du monde, achevé par Elcano en 1522 ?",
+    "options": [
+      "A — Jacques Cartier",
+      "B — Fernand de Magellan",
+      "C — James Cook",
+      "D — John Franklin"
+    ],
+    "correctOptionIndex": 1
+  },
+  "lib-qcm-geographie-monde-20261012-04": {
+    "prompt": "Quel pays abrite le mont Fuji ?"
+  },
+  "lib-qcm-devinettes-20261012-01": {
+    "prompt": "Trois boîtes contiennent respectivement uniquement des pommes, uniquement des oranges, et un mélange des deux. Leurs étiquettes « pommes », « oranges » et « mélange » sont toutes fausses. Dans quelle boîte faut-il tirer un seul fruit, sans regarder à l’intérieur, pour identifier le contenu des trois boîtes ?",
+    "explanation": "La boîte étiquetée « mélange » contient un seul type de fruit, puisque son étiquette est fausse. Le fruit tiré révèle ce type. Les deux autres contenus se déduisent alors en gardant leurs étiquettes fausses."
+  },
+  "lib-qcm-devinettes-20261012-03": {
+    "explanation": "Les écarts sont +4, +6, +8, +10, puis +12 : 30 + 12 = 42. Chaque terme est le produit de deux entiers consécutifs : 1×2, 2×3, …, 6×7."
+  },
+  "lib-qcm-devinettes-20261012-05": {
+    "prompt": "Dans une famille, cinq garçons ont chacun une sœur. Il n’y a qu’une seule fille. Combien d’enfants compte cette famille ?",
+    "explanation": "Les cinq garçons ont tous pour sœur l’unique fille de la famille : 5 + 1 = 6 enfants."
+  },
+  "architecture-buzzer-europe-20261011-04": {
+    "conceptId": "architecture-buzzer-europe-20261011-04"
+  },
+  "test-20261012-buzzer-complement-4": {
+    "conceptId": "architecture-buzzer-europe-20261011-04"
+  },
+  "architecture-buzzer-monde-20261011-03": {
+    "conceptId": "architecture-buzzer-monde-20261011-03"
+  },
+  "lib-qcm-histoire-mondiale-generale-20261012-03": {
+    "conceptId": "architecture-buzzer-monde-20261011-03"
+  },
+  "canada-buzzer-premieres-20261011-08": {
+    "conceptId": "canada-buzzer-premieres-20261011-08"
+  },
+  "canada-inventions-medical-20261011-01": {
+    "conceptId": "canada-buzzer-premieres-20261011-08"
+  },
+  "lib-qcm-inventions-canada-20261012-02": {
+    "conceptId": "canada-buzzer-premieres-20261011-08"
+  },
+  "canada-inventions-quotidien-20261011-01": {
+    "conceptId": "canada-inventions-quotidien-20261011-01"
+  },
+  "canada-inventions-quotidien-20261011-04": {
+    "conceptId": "canada-inventions-quotidien-20261011-04"
+  },
+  "lib-buzzer-inventions-canada-20261012-02": {
+    "conceptId": "canada-inventions-quotidien-20261011-04"
+  },
+  "canada-inventions-quotidien-20261011-05": {
+    "conceptId": "canada-inventions-quotidien-20261011-05"
+  },
+  "lib-buzzer-inventions-canada-20261012-01": {
+    "conceptId": "canada-inventions-quotidien-20261011-05"
+  },
+  "canada-inventions-technologie-20261011-04": {
+    "conceptId": "canada-inventions-technologie-20261011-04"
+  },
+  "lib-buzzer-inventions-canada-20261012-03": {
+    "conceptId": "canada-inventions-technologie-20261011-04"
+  },
+  "cinema-buzzer-titres-heros-20261011-07": {
+    "conceptId": "cinema-buzzer-titres-heros-20261011-07"
+  },
+  "q15": {
+    "conceptId": "cinema-buzzer-titres-heros-20261011-07"
+  },
+  "cinema-buzzer-univers-20261011-03": {
+    "conceptId": "cinema-buzzer-univers-20261011-03"
+  },
+  "lib-buzzer-dc-20261012-01": {
+    "conceptId": "cinema-buzzer-univers-20261011-03"
+  },
+  "cinema-qcm-coulisses-20261011-01": {
+    "conceptId": "cinema-qcm-coulisses-20261011-01"
+  },
+  "culture-qcm-americaine-oeuvres-20261010-07": {
+    "conceptId": "culture-qcm-americaine-oeuvres-20261010-07"
+  },
+  "lib-buzzer-litterature-americaine-20261012-04": {
+    "conceptId": "culture-qcm-americaine-oeuvres-20261010-07"
+  },
+  "culture-qcm-anglophone-personnages-20261010-01": {
+    "conceptId": "culture-qcm-anglophone-personnages-20261010-01"
+  },
+  "lib-buzzer-litterature-anglaise-20261012-03": {
+    "conceptId": "culture-qcm-anglophone-personnages-20261010-01"
+  },
+  "culture-qcm-anglophone-personnages-20261010-03": {
+    "conceptId": "culture-qcm-anglophone-personnages-20261010-03"
+  },
+  "lib-buzzer-litterature-anglaise-20261012-01": {
+    "conceptId": "culture-qcm-anglophone-personnages-20261010-03"
+  },
+  "culture-qcm-anglophone-personnages-20261010-05": {
+    "conceptId": "culture-qcm-anglophone-personnages-20261010-05"
+  },
+  "culture-qcm-anglophone-personnages-20261010-10": {
+    "conceptId": "culture-qcm-anglophone-personnages-20261010-10"
+  },
+  "culture-qcm-francaise-personnages-20261010-01": {
+    "conceptId": "culture-qcm-francaise-personnages-20261010-01"
+  },
+  "lib-buzzer-litterature-france-20261012-03": {
+    "conceptId": "culture-qcm-francaise-personnages-20261010-01"
+  },
+  "us-societe-crises-et-culture-20261010-04": {
+    "conceptId": "us-societe-crises-et-culture-20261010-04"
+  },
+  "lib-buzzer-histoire-etats-unis-20261012-03": {
+    "conceptId": "us-societe-crises-et-culture-20261010-04"
+  },
+  "lib-buzzer-explorateurs-20261012-03": {
+    "conceptId": "lib-buzzer-explorateurs-20261012-03"
+  },
+  "lib-qcm-explorateurs-20261012-01": {
+    "conceptId": "lib-buzzer-explorateurs-20261012-03"
+  },
+  "lib-buzzer-explorateurs-20261012-04": {
+    "conceptId": "lib-buzzer-explorateurs-20261012-04"
+  },
+  "lib-qcm-explorateurs-20261012-02": {
+    "conceptId": "lib-buzzer-explorateurs-20261012-04"
+  },
+  "lib-buzzer-histoire-etats-unis-20261012-04": {
+    "conceptId": "lib-buzzer-histoire-etats-unis-20261012-04"
+  },
+  "lib-buzzer-histoire-mondiale-generale-20261012-03": {
+    "conceptId": "lib-buzzer-histoire-etats-unis-20261012-04"
+  },
+  "lib-buzzer-histoire-france-generale-20261012-04": {
+    "conceptId": "lib-buzzer-histoire-france-generale-20261012-04"
+  },
+  "lib-qcm-histoire-france-generale-20261012-03": {
+    "conceptId": "lib-buzzer-histoire-france-generale-20261012-04"
+  },
+  "lib-buzzer-inventions-canada-20261012-05": {
+    "conceptId": "lib-buzzer-inventions-canada-20261012-05"
+  },
+  "lib-qcm-inventions-canada-20261012-05": {
+    "conceptId": "lib-buzzer-inventions-canada-20261012-05"
+  },
+  "lib-buzzer-legendes-france-20261012-01": {
+    "conceptId": "lib-buzzer-legendes-france-20261012-01"
+  },
+  "lib-buzzer-litterature-quebec-20261012-01": {
+    "conceptId": "lib-buzzer-litterature-quebec-20261012-01"
+  },
+  "lib-qcm-litterature-quebec-20261012-01": {
+    "conceptId": "lib-buzzer-litterature-quebec-20261012-01"
+  },
+  "lib-qcm-musique-ecran-20261012-02": {
+    "conceptId": "lib-buzzer-musique-quebec-20261012-01"
+  },
+  "lib-buzzer-recits-autochtones-20261012-03": {
+    "conceptId": "lib-buzzer-recits-autochtones-20261012-03"
+  },
+  "lib-qcm-recits-autochtones-20261012-02": {
+    "conceptId": "lib-buzzer-recits-autochtones-20261012-03"
+  },
+  "lib-buzzer-devinettes-20261012-01": {
+    "conceptId": "lib-buzzer-devinettes-20261012-01"
+  },
+  "lib-buzzer-logique-20261012-03": {
+    "conceptId": "lib-buzzer-devinettes-20261012-01"
+  },
+  "lib-qcm-jeux-video-20261012-02": {
+    "conceptId": "lib-qcm-jeux-video-20261012-02"
+  },
+  "q21": {
+    "conceptId": "lib-qcm-jeux-video-20261012-02"
+  },
+  "q6": {
+    "conceptId": "q6"
+  },
+  "lib-qcm-jeux-video-20261012-05": {
+    "conceptId": "q6"
+  }
+}

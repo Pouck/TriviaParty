@@ -30,8 +30,7 @@
         "Vasco de Gama",
         "Vasco da Gama"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-explorateurs-20261012/ship.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-explorateurs-20261012-03",
@@ -44,7 +43,8 @@
         "Samuel de Champlain",
         "Champlain"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "lib-buzzer-explorateurs-20261012-03"
     },
     {
       "id": "lib-buzzer-explorateurs-20261012-04",
@@ -58,7 +58,8 @@
         "Cartier"
       ],
       "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-explorateurs-20261012/river.jpg"
+      "imageUrl": "images/lib-buzzer-explorateurs-20261012/river.jpg",
+      "conceptId": "lib-buzzer-explorateurs-20261012-04"
     },
     {
       "id": "lib-buzzer-explorateurs-20261012-05",

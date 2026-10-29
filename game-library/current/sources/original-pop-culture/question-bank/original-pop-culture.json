@@ -49,7 +49,8 @@
         "C — Iron Man",
         "D — Captain America"
       ],
-      "correctOptionIndex": 2
+      "correctOptionIndex": 2,
+      "conceptId": "cinema-buzzer-titres-heros-20261011-07"
     },
     {
       "kind": "multipleChoice",
@@ -95,7 +96,8 @@
         "D — Tetris"
       ],
       "correctOptionIndex": 1,
-      "imageUrl": "images/lib-qcm-jeux-video-20261012/blocks.png"
+      "imageUrl": "images/lib-qcm-jeux-video-20261012/blocks.png",
+      "conceptId": "lib-qcm-jeux-video-20261012-02"
     }
   ]
 }

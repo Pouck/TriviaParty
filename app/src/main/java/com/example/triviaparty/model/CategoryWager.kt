@@ -6,6 +6,22 @@ import kotlinx.serialization.Serializable
 data class CategoryWagerResult(val teamId: String, val teamName: String, val amount: Int,
     val correct: Boolean, val delta: Int)
 
+@Serializable enum class CategoryWagerStatus { PENDING, ACCEPTED, REJECTED }
+
+@Serializable
+data class CategoryWagerProposal(
+    val id:String,
+    val amount:Int,
+    val proposerPlayerId:String,
+    /** Connected teammates captured when this proposal was made. */
+    val eligiblePlayerIds:List<String>,
+    val approvedPlayerIds:List<String> = emptyList(),
+    val rejectedPlayerIds:List<String> = emptyList(),
+    val status:CategoryWagerStatus = CategoryWagerStatus.PENDING
+) {
+    val approvalThreshold:Int get()=eligiblePlayerIds.size/2+1
+}
+
 fun categoryWagerLimit(score: Int, maximumReward: Int): Int =
     maxOf(score, maximumReward, 0)
 

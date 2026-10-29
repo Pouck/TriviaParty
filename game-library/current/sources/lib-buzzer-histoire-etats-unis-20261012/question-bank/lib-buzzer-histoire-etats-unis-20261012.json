@@ -46,7 +46,8 @@
         "La Grande Dépression",
         "Grande Dépression"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "us-societe-crises-et-culture-20261010-04"
     },
     {
       "id": "lib-buzzer-histoire-etats-unis-20261012-04",
@@ -60,7 +61,8 @@
         "Armstrong"
       ],
       "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-histoire-etats-unis-20261012/moon.jpg"
+      "imageUrl": "images/lib-buzzer-histoire-etats-unis-20261012/moon.jpg",
+      "conceptId": "lib-buzzer-histoire-etats-unis-20261012-04"
     },
     {
       "id": "lib-buzzer-histoire-etats-unis-20261012-05",

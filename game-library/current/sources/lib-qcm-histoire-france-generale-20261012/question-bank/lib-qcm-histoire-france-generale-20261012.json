@@ -20,7 +20,7 @@
         "D — Louis XIV"
       ],
       "correctOptionIndex": 3,
-      "imageUrl": "images/lib-qcm-histoire-france-generale-20261012/sunrise.png"
+      "conceptId": "architecture-buzzer-europe-20261011-04"
     },
     {
       "id": "lib-qcm-histoire-france-generale-20261012-02",
@@ -51,7 +51,8 @@
         "D — Vincennes"
       ],
       "correctOptionIndex": 2,
-      "imageUrl": "images/lib-qcm-histoire-france-generale-20261012/versailles.jpg"
+      "imageUrl": "images/lib-qcm-histoire-france-generale-20261012/versailles.jpg",
+      "conceptId": "lib-buzzer-histoire-france-generale-20261012-04"
     },
     {
       "id": "lib-qcm-histoire-france-generale-20261012-04",

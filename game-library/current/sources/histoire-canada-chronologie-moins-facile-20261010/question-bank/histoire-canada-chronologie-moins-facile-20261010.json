@@ -10,7 +10,7 @@
       "kind": "ordering",
       "id": "canada-moins-facile-20261010-01",
       "category": "Histoire du Canada - Chronologie moins facile",
-      "prompt": "Quel ordre va du plus ancien au plus récent pour le début du XXe siècle ?",
+      "prompt": "Classez ces trois repères canadiens du plus ancien au plus récent.",
       "basePoints": 15,
       "penaltyPoints": 0,
       "items": [
@@ -20,11 +20,11 @@
         },
         {
           "id": "item-1",
-          "text": "Alberta et Saskatchewan"
+          "text": "Création des provinces de l’Alberta et de la Saskatchewan"
         },
         {
           "id": "item-2",
-          "text": "Empress of Ireland"
+          "text": "Naufrage de l’Empress of Ireland"
         }
       ],
       "correctOrderIds": [
@@ -37,21 +37,21 @@
       "kind": "ordering",
       "id": "canada-moins-facile-20261010-02",
       "category": "Histoire du Canada - Chronologie moins facile",
-      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "prompt": "Classez ces batailles où des Canadiens ont combattu, du plus ancien au plus récent.",
       "basePoints": 15,
       "penaltyPoints": 0,
       "items": [
         {
           "id": "item-0",
-          "text": "Dieppe"
+          "text": "Débarquement de Dieppe"
         },
         {
           "id": "item-1",
-          "text": "Hong Kong"
+          "text": "Défense de Hong Kong pendant la Seconde Guerre mondiale"
         },
         {
           "id": "item-2",
-          "text": "Juno Beach"
+          "text": "Débarquement sur Juno Beach en Normandie"
         }
       ],
       "correctOrderIds": [
@@ -64,21 +64,21 @@
       "kind": "ordering",
       "id": "canada-moins-facile-20261010-03",
       "category": "Histoire du Canada - Chronologie moins facile",
-      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "prompt": "Classez ces repères de l’histoire du Canada du plus ancien au plus récent.",
       "basePoints": 15,
       "penaltyPoints": 0,
       "items": [
         {
           "id": "item-0",
-          "text": "Voie maritime"
+          "text": "Ouverture de la Voie maritime du Saint-Laurent"
         },
         {
           "id": "item-1",
-          "text": "Expo 67"
+          "text": "Exposition universelle de Montréal (Expo 67)"
         },
         {
           "id": "item-2",
-          "text": "Terre-Neuve"
+          "text": "Entrée de Terre-Neuve dans la Confédération canadienne"
         }
       ],
       "correctOrderIds": [

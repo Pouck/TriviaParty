@@ -19,8 +19,7 @@
         "C — Beethoven",
         "D — Antonio Vivaldi"
       ],
-      "correctOptionIndex": 3,
-      "imageUrl": "images/lib-qcm-classique-20261012/four-seasons.png"
+      "correctOptionIndex": 3
     },
     {
       "id": "lib-qcm-classique-20261012-02",
@@ -50,8 +49,7 @@
         "C — Le piano",
         "D — Le tuba"
       ],
-      "correctOptionIndex": 2,
-      "imageUrl": "images/lib-qcm-classique-20261012/piano.jpg"
+      "correctOptionIndex": 2
     },
     {
       "id": "lib-qcm-classique-20261012-04",

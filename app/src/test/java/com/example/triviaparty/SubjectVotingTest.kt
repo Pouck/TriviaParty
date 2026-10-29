@@ -40,7 +40,7 @@ class SubjectVotingTest {
     }
     @Test fun browserVotingPreservesJoinedPlayersAndSelectsRequestedSetsAfterHostTieBreak()=runBlocking {
         val directory=Files.createTempDirectory("vote-packages").toFile()
-        val snapshots=listOf(QuestionBankRepository to listOf("fileQuestions","categoryMetadata"),GamePackageRepository to listOf("loadedPackages","categoryNames"))
+        val snapshots=listOf(QuestionBankRepository to listOf("fileQuestions","categoryMetadata","generatedMetadata","generatedQuestions"),GamePackageRepository to listOf("loadedPackages","categoryNames"))
             .flatMap { (repo,names) -> names.map { name -> val field=repo.javaClass.getDeclaredField(name).apply { isAccessible=true }; Triple(repo,field,field.get(repo)) } }
         val port=ServerSocket(0).use { it.localPort }
         val server=GameServer(port,importedPackagesDirectory=directory)

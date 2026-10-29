@@ -18,7 +18,7 @@
         "Souffleuse"
       ],
       "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-inventions-canada-20261012/snow.png"
+      "conceptId": "canada-inventions-quotidien-20261011-05"
     },
     {
       "id": "lib-buzzer-inventions-canada-20261012-02",
@@ -30,7 +30,8 @@
       "acceptableAnswers": [
         "Trivial Pursuit"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "canada-inventions-quotidien-20261011-04"
     },
     {
       "id": "lib-buzzer-inventions-canada-20261012-03",
@@ -43,7 +44,8 @@
         "Le BlackBerry",
         "BlackBerry"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "canada-inventions-technologie-20261011-04"
     },
     {
       "id": "lib-buzzer-inventions-canada-20261012-04",
@@ -58,7 +60,7 @@
         "Basketball"
       ],
       "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-inventions-canada-20261012/basketball.jpg"
+      "conceptId": "canada-inventions-quotidien-20261011-01"
     },
     {
       "id": "lib-buzzer-inventions-canada-20261012-05",
@@ -71,7 +73,8 @@
         "Le Canadarm",
         "Canadarm"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "lib-buzzer-inventions-canada-20261012-05"
     }
   ]
 }

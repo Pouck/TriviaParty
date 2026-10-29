@@ -46,7 +46,8 @@
         "Chine"
       ],
       "allowFuzzyMatch": true,
-      "imageUrl": "images/architecture-buzzer-monde-20261011/wall.jpg"
+      "imageUrl": "images/architecture-buzzer-monde-20261011/wall.jpg",
+      "conceptId": "architecture-buzzer-monde-20261011-03"
     },
     {
       "id": "architecture-buzzer-monde-20261011-04",

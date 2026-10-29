@@ -181,6 +181,9 @@ class GoogleCastController(context: Context, private val game: StateFlow<GameSes
                         "audio-status" -> _status.value = _status.value.copy(audioStatus = when (payload.optString("status")) {
                             "playing" -> "Son TV en lecture · vérifiez le volume du téléviseur si vous ne l’entendez pas."
                             "blocked" -> "Le téléviseur bloque le son. Reconnectez la diffusion puis réessayez."
+                            "network-error" -> "Le téléviseur ne peut pas joindre le fichier audio sur le téléphone. Vérifiez le Wi-Fi et réessayez."
+                            "unsupported" -> "Le téléviseur ne prend pas en charge ce format audio."
+                            "decode-error" -> "Le téléviseur a reçu le son mais n’a pas pu le décoder."
                             else -> "Le téléviseur ne peut pas charger le son. Réessayez ou reconnectez la diffusion."
                         })
                     }

@@ -19,7 +19,8 @@
         "C — Wajdi Mouawad",
         "D — Marcel Dubé"
       ],
-      "correctOptionIndex": 0
+      "correctOptionIndex": 0,
+      "conceptId": "lib-buzzer-litterature-quebec-20261012-01"
     },
     {
       "id": "lib-qcm-litterature-quebec-20261012-02",
@@ -66,7 +67,7 @@
         "D — Émile Nelligan"
       ],
       "correctOptionIndex": 3,
-      "imageUrl": "images/lib-qcm-litterature-quebec-20261012/ship.png"
+      "conceptId": "lib-buzzer-litterature-quebec-20261012-03"
     },
     {
       "id": "lib-qcm-litterature-quebec-20261012-05",

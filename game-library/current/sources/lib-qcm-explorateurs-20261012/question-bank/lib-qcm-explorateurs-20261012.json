@@ -19,7 +19,8 @@
         "C — Jacques Cartier",
         "D — Samuel de Champlain"
       ],
-      "correctOptionIndex": 3
+      "correctOptionIndex": 3,
+      "conceptId": "lib-buzzer-explorateurs-20261012-03"
     },
     {
       "id": "lib-qcm-explorateurs-20261012-02",
@@ -35,7 +36,8 @@
         "D — Vasco de Gama"
       ],
       "correctOptionIndex": 2,
-      "imageUrl": "images/lib-qcm-explorateurs-20261012/river.jpg"
+      "imageUrl": "images/lib-qcm-explorateurs-20261012/river.jpg",
+      "conceptId": "lib-buzzer-explorateurs-20261012-04"
     },
     {
       "id": "lib-qcm-explorateurs-20261012-03",
@@ -74,12 +76,12 @@
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "multipleChoice",
-      "prompt": "Quelle expédition réalise le premier tour du monde, terminé par Elcano ?",
+      "prompt": "Quel navigateur lance l’expédition qui accomplit le premier tour du monde, achevé par Elcano en 1522 ?",
       "options": [
-        "A — L’expédition de Cartier",
-        "B — L’expédition de Magellan",
-        "C — L’expédition de Cook",
-        "D — L’expédition de Franklin"
+        "A — Jacques Cartier",
+        "B — Fernand de Magellan",
+        "C — James Cook",
+        "D — John Franklin"
       ],
       "correctOptionIndex": 1
     }

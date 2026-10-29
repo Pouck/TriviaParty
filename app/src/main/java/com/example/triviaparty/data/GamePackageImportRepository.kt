@@ -94,7 +94,7 @@ object GamePackageImportRepository {
                 }
                 category.questions.forEach { question ->
                     if (question is Question.GuessWho) {
-                        require(question.clues.size.toLong() == gamePackage.timingConfig.maxFlips.toLong() + 1) {
+                        require(question.imageRevealMode != com.example.triviaparty.model.ImageRevealMode.NONE || question.clues.size.toLong() == gamePackage.timingConfig.maxFlips.toLong() + 1) {
                             "Qui suis-je ? : prévoir un indice par palier de points (${gamePackage.timingConfig.maxFlips + 1})."
                         }
                     }

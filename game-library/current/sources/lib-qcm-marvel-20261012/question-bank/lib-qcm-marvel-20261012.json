@@ -19,8 +19,7 @@
         "C — Doctor Strange",
         "D — Captain America"
       ],
-      "correctOptionIndex": 3,
-      "imageUrl": "images/lib-qcm-marvel-20261012/shield.png"
+      "correctOptionIndex": 3
     },
     {
       "id": "lib-qcm-marvel-20261012-02",
@@ -65,8 +64,7 @@
         "C — Loki",
         "D — Heimdall"
       ],
-      "correctOptionIndex": 0,
-      "imageUrl": "images/lib-qcm-marvel-20261012/hammer.png"
+      "correctOptionIndex": 0
     },
     {
       "id": "lib-qcm-marvel-20261012-05",

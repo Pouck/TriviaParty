@@ -50,7 +50,8 @@
         "C — Pokémon Rouge et Bleu",
         "D — Donkey Kong"
       ],
-      "correctOptionIndex": 0
+      "correctOptionIndex": 0,
+      "conceptId": "q6"
     },
     {
       "kind": "multipleChoice",

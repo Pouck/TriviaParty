@@ -29,7 +29,8 @@ fun Question.withChronologyCards(): Question {
 
 /** A rejected clue costs one equal share of the initial reward. */
 fun Question.GuessWho.wrongAnswerPenalty(): Int =
-    if (penaltyPoints > 0) penaltyPoints else (basePoints / clues.size).coerceAtLeast(1)
+    if (penaltyPoints > 0) penaltyPoints else
+        (basePoints / if (imageRevealMode == ImageRevealMode.NONE) clues.size else imageRevealSteps).coerceAtLeast(1)
 
 fun GameSession.rejectOralAnswer(teamId: String): GameSession {
     val submission = submissions[teamId] ?: return this

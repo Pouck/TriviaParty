@@ -15,7 +15,7 @@
       "penaltyPoints": 0,
       "options": [
         "A — L’Express abolitionniste",
-        "B — Le Chemin de fer clandestin",
+        "B — Le Chemin de fer clandestin (Underground Railroad)",
         "C — Le Freedom Trail",
         "D — La Ligne de la liberté"
       ],
@@ -64,7 +64,8 @@
         "C — La crise de la stagflation",
         "D — La panique de 1893"
       ],
-      "correctOptionIndex": 0
+      "correctOptionIndex": 0,
+      "conceptId": "us-societe-crises-et-culture-20261010-04"
     },
     {
       "id": "lib-qcm-histoire-etats-unis-20261012-03",

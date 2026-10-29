@@ -1,0 +1,1541 @@
+{
+  "legacyQuestionCount": 1408,
+  "questionCount": 1189,
+  "mergedEntries": 219,
+  "groups": [
+    {
+      "id": "architecture-buzzer-europe-20261011-01",
+      "legacyIds": [
+        "architecture-buzzer-europe-20261011-01",
+        "test-20261012-buzzer-complement-1"
+      ]
+    },
+    {
+      "id": "architecture-buzzer-europe-20261011-02",
+      "legacyIds": [
+        "architecture-buzzer-europe-20261011-02",
+        "test-20261012-buzzer-complement-2"
+      ]
+    },
+    {
+      "id": "architecture-buzzer-europe-20261011-03",
+      "legacyIds": [
+        "architecture-buzzer-europe-20261011-03",
+        "test-20261012-buzzer-complement-3"
+      ]
+    },
+    {
+      "id": "architecture-buzzer-europe-20261011-04",
+      "legacyIds": [
+        "architecture-buzzer-europe-20261011-04",
+        "lib-qcm-histoire-france-generale-20261012-01",
+        "test-20261012-buzzer-complement-4"
+      ]
+    },
+    {
+      "id": "architecture-buzzer-monde-20261011-03",
+      "legacyIds": [
+        "architecture-buzzer-monde-20261011-03",
+        "lib-qcm-histoire-mondiale-generale-20261012-03"
+      ]
+    },
+    {
+      "id": "architecture-qcm-asie-orient-20261011-01",
+      "legacyIds": [
+        "architecture-qcm-asie-orient-20261011-01",
+        "test-20261012-qcm-complement-1"
+      ]
+    },
+    {
+      "id": "architecture-qcm-asie-orient-20261011-02",
+      "legacyIds": [
+        "architecture-qcm-asie-orient-20261011-02",
+        "test-20261012-qcm-complement-2"
+      ]
+    },
+    {
+      "id": "architecture-qsj-antiquite-20261011-01",
+      "legacyIds": [
+        "architecture-qsj-antiquite-20261011-01",
+        "test-20261012-indices-complement-1"
+      ]
+    },
+    {
+      "id": "architecture-qsj-antiquite-20261011-02",
+      "legacyIds": [
+        "architecture-qsj-antiquite-20261011-02",
+        "test-20261012-indices-complement-2"
+      ]
+    },
+    {
+      "id": "canada-buzzer-premieres-20261011-08",
+      "legacyIds": [
+        "canada-buzzer-premieres-20261011-08",
+        "canada-inventions-medical-20261011-01",
+        "lib-qcm-inventions-canada-20261012-02"
+      ]
+    },
+    {
+      "id": "canada-inventions-quotidien-20261011-01",
+      "legacyIds": [
+        "canada-inventions-quotidien-20261011-01",
+        "lib-buzzer-inventions-canada-20261012-04",
+        "lib-qcm-inventions-canada-20261012-01"
+      ]
+    },
+    {
+      "id": "canada-inventions-quotidien-20261011-04",
+      "legacyIds": [
+        "canada-inventions-quotidien-20261011-04",
+        "lib-buzzer-inventions-canada-20261012-02"
+      ]
+    },
+    {
+      "id": "canada-inventions-quotidien-20261011-05",
+      "legacyIds": [
+        "canada-inventions-quotidien-20261011-05",
+        "lib-buzzer-inventions-canada-20261012-01"
+      ]
+    },
+    {
+      "id": "canada-inventions-technologie-20261011-04",
+      "legacyIds": [
+        "canada-inventions-technologie-20261011-04",
+        "lib-buzzer-inventions-canada-20261012-03"
+      ]
+    },
+    {
+      "id": "cinema-buzzer-titres-heros-20261011-07",
+      "legacyIds": [
+        "cinema-buzzer-titres-heros-20261011-07",
+        "q15"
+      ]
+    },
+    {
+      "id": "cinema-buzzer-univers-20261011-03",
+      "legacyIds": [
+        "cinema-buzzer-univers-20261011-03",
+        "lib-buzzer-dc-20261012-01"
+      ]
+    },
+    {
+      "id": "cinema-qcm-coulisses-20261011-01",
+      "legacyIds": [
+        "cinema-qcm-coulisses-20261011-01",
+        "lib-qcm-musique-ecran-20261012-01"
+      ]
+    },
+    {
+      "id": "culture-qcm-americaine-oeuvres-20261010-07",
+      "legacyIds": [
+        "culture-qcm-americaine-oeuvres-20261010-07",
+        "lib-buzzer-litterature-americaine-20261012-04"
+      ]
+    },
+    {
+      "id": "culture-qcm-anglophone-personnages-20261010-01",
+      "legacyIds": [
+        "culture-qcm-anglophone-personnages-20261010-01",
+        "lib-buzzer-litterature-anglaise-20261012-03"
+      ]
+    },
+    {
+      "id": "culture-qcm-anglophone-personnages-20261010-03",
+      "legacyIds": [
+        "culture-qcm-anglophone-personnages-20261010-03",
+        "lib-buzzer-litterature-anglaise-20261012-01"
+      ]
+    },
+    {
+      "id": "culture-qcm-anglophone-personnages-20261010-05",
+      "legacyIds": [
+        "culture-qcm-anglophone-personnages-20261010-05",
+        "lib-buzzer-litterature-anglaise-20261012-04"
+      ]
+    },
+    {
+      "id": "culture-qcm-anglophone-personnages-20261010-10",
+      "legacyIds": [
+        "culture-qcm-anglophone-personnages-20261010-10",
+        "lib-buzzer-litterature-anglaise-20261012-02"
+      ]
+    },
+    {
+      "id": "culture-qcm-francaise-personnages-20261010-01",
+      "legacyIds": [
+        "culture-qcm-francaise-personnages-20261010-01",
+        "lib-buzzer-litterature-france-20261012-03"
+      ]
+    },
+    {
+      "id": "geo-afrique-20261010-01",
+      "legacyIds": [
+        "geo-afrique-20261010-01",
+        "test-09-carte-qcm-q1"
+      ]
+    },
+    {
+      "id": "us-societe-crises-et-culture-20261010-04",
+      "legacyIds": [
+        "us-societe-crises-et-culture-20261010-04",
+        "lib-buzzer-histoire-etats-unis-20261012-03"
+      ]
+    },
+    {
+      "id": "lib-buzzer-devinettes-20261012-01",
+      "legacyIds": [
+        "lib-buzzer-devinettes-20261012-01",
+        "lib-buzzer-logique-20261012-03"
+      ]
+    },
+    {
+      "id": "lib-buzzer-explorateurs-20261012-03",
+      "legacyIds": [
+        "lib-buzzer-explorateurs-20261012-03",
+        "lib-qcm-explorateurs-20261012-01"
+      ]
+    },
+    {
+      "id": "lib-buzzer-explorateurs-20261012-04",
+      "legacyIds": [
+        "lib-buzzer-explorateurs-20261012-04",
+        "lib-qcm-explorateurs-20261012-02"
+      ]
+    },
+    {
+      "id": "lib-buzzer-histoire-etats-unis-20261012-04",
+      "legacyIds": [
+        "lib-buzzer-histoire-etats-unis-20261012-04",
+        "lib-buzzer-histoire-mondiale-generale-20261012-03"
+      ]
+    },
+    {
+      "id": "lib-buzzer-histoire-france-generale-20261012-04",
+      "legacyIds": [
+        "lib-buzzer-histoire-france-generale-20261012-04",
+        "lib-qcm-histoire-france-generale-20261012-03"
+      ]
+    },
+    {
+      "id": "lib-buzzer-inventions-canada-20261012-05",
+      "legacyIds": [
+        "lib-buzzer-inventions-canada-20261012-05",
+        "lib-qcm-inventions-canada-20261012-05"
+      ]
+    },
+    {
+      "id": "lib-buzzer-legendes-france-20261012-01",
+      "legacyIds": [
+        "lib-buzzer-legendes-france-20261012-01",
+        "lib-qcm-legendes-france-20261012-01"
+      ]
+    },
+    {
+      "id": "lib-buzzer-litterature-quebec-20261012-01",
+      "legacyIds": [
+        "lib-buzzer-litterature-quebec-20261012-01",
+        "lib-qcm-litterature-quebec-20261012-01"
+      ]
+    },
+    {
+      "id": "lib-buzzer-litterature-quebec-20261012-03",
+      "legacyIds": [
+        "lib-buzzer-litterature-quebec-20261012-03",
+        "lib-qcm-litterature-quebec-20261012-04"
+      ]
+    },
+    {
+      "id": "lib-buzzer-musique-quebec-20261012-01",
+      "legacyIds": [
+        "lib-buzzer-musique-quebec-20261012-01",
+        "lib-qcm-musique-ecran-20261012-02"
+      ]
+    },
+    {
+      "id": "lib-buzzer-recits-autochtones-20261012-03",
+      "legacyIds": [
+        "lib-buzzer-recits-autochtones-20261012-03",
+        "lib-qcm-recits-autochtones-20261012-02"
+      ]
+    },
+    {
+      "id": "lib-qcm-science-generale-20261012-01",
+      "legacyIds": [
+        "lib-qcm-science-generale-20261012-01",
+        "test-01-qcm-q1",
+        "test-07-wager-q1"
+      ]
+    },
+    {
+      "id": "q6",
+      "legacyIds": [
+        "q6",
+        "lib-qcm-jeux-video-20261012-05"
+      ]
+    },
+    {
+      "id": "lib-qcm-jeux-video-20261012-02",
+      "legacyIds": [
+        "lib-qcm-jeux-video-20261012-02",
+        "q21"
+      ]
+    }
+  ],
+  "reviewedIdentificationMerges": [
+    {
+      "target": "tour eiffel",
+      "id": "architecture-buzzer-europe-20261011-01",
+      "mergedIds": [
+        "architecture-buzzer-europe-20261011-01",
+        "architecture-qsj-modernes-20261011-01"
+      ]
+    },
+    {
+      "target": "louis xiv",
+      "id": "architecture-buzzer-europe-20261011-04",
+      "mergedIds": [
+        "architecture-buzzer-europe-20261011-04",
+        "lib-qsj-histoire-france-generale-20261012-01"
+      ]
+    },
+    {
+      "target": "colisee",
+      "id": "architecture-qsj-antiquite-20261011-01",
+      "mergedIds": [
+        "architecture-qsj-antiquite-20261011-01",
+        "lib-buzzer-histoire-mondiale-generale-20261012-01"
+      ]
+    },
+    {
+      "target": "grande pyramide de kheops",
+      "id": "architecture-qsj-antiquite-20261011-03",
+      "mergedIds": [
+        "architecture-qsj-antiquite-20261011-03",
+        "test-20261012-indices-complement-3"
+      ]
+    },
+    {
+      "target": "versailles",
+      "id": "architecture-qsj-palais-20261011-01",
+      "mergedIds": [
+        "architecture-qsj-palais-20261011-01",
+        "lib-buzzer-histoire-france-generale-20261012-04"
+      ]
+    },
+    {
+      "target": "guernica",
+      "id": "arts-buzzer-tableaux-celebres-20261011-08",
+      "mergedIds": [
+        "arts-buzzer-tableaux-celebres-20261011-08",
+        "arts-qsj-peintures-mysteres-20261011-01"
+      ]
+    },
+    {
+      "target": "statue de la liberte",
+      "id": "arts-qsj-sculptures-mysteres-20261011-01",
+      "mergedIds": [
+        "arts-qsj-sculptures-mysteres-20261011-01",
+        "lib-qcm-histoire-etats-unis-20261012-02"
+      ]
+    },
+    {
+      "target": "insuline",
+      "id": "canada-buzzer-premieres-20261011-08",
+      "mergedIds": [
+        "canada-buzzer-premieres-20261011-08",
+        "lib-qsj-inventions-canada-20261012-03"
+      ]
+    },
+    {
+      "target": "imax",
+      "id": "canada-inventions-quotidien-20261011-02",
+      "mergedIds": [
+        "canada-inventions-quotidien-20261011-02",
+        "lib-qcm-inventions-canada-20261012-04",
+        "lib-qsj-inventions-canada-20261012-05"
+      ]
+    },
+    {
+      "target": "samuel de champlain",
+      "id": "canada-qsj-batisseurs-20261011-03",
+      "mergedIds": [
+        "canada-qsj-batisseurs-20261011-03",
+        "lib-buzzer-explorateurs-20261012-03",
+        "lib-qsj-explorateurs-20261012-03"
+      ]
+    },
+    {
+      "target": "miserables",
+      "id": "cv-bb7744e0c8af2c8fb78d",
+      "mergedIds": [
+        "culture-qsj-litterature-francaise-oeuvres-20261010-01",
+        "cv-bb7744e0c8af2c8fb78d",
+        "lib-qsj-litterature-france-20261012-01"
+      ]
+    },
+    {
+      "target": "orgueil et prejuges",
+      "id": "cv-772851924e95e4ef0d4c",
+      "mergedIds": [
+        "cv-772851924e95e4ef0d4c",
+        "lib-qsj-litterature-anglaise-20261012-02"
+      ]
+    },
+    {
+      "target": "istanbul",
+      "id": "cv-9d609ca2a3dfe4d1d1aa",
+      "mergedIds": [
+        "cv-9d609ca2a3dfe4d1d1aa",
+        "lib-qsj-geographie-villes-20261012-05"
+      ]
+    },
+    {
+      "target": "iron man",
+      "id": "cinema-buzzer-titres-heros-20261011-07",
+      "mergedIds": [
+        "cinema-buzzer-titres-heros-20261011-07",
+        "lib-qsj-marvel-20261012-01"
+      ]
+    },
+    {
+      "target": "elsa",
+      "id": "cinema-buzzer-univers-20261011-06",
+      "mergedIds": [
+        "cinema-buzzer-univers-20261011-06",
+        "lib-qsj-disney-20261012-01"
+      ]
+    },
+    {
+      "target": "john williams",
+      "id": "cinema-qcm-coulisses-20261011-01",
+      "mergedIds": [
+        "cinema-qcm-coulisses-20261011-01",
+        "lib-qsj-musique-ecran-20261012-01"
+      ]
+    },
+    {
+      "target": "hamlet",
+      "id": "culture-qcm-anglophone-personnages-20261010-03",
+      "mergedIds": [
+        "culture-qcm-anglophone-personnages-20261010-03",
+        "resize-20261012-hamlet"
+      ]
+    },
+    {
+      "target": "candide",
+      "id": "culture-qcm-francaise-oeuvres-20261010-08",
+      "mergedIds": [
+        "culture-qcm-francaise-oeuvres-20261010-08",
+        "lib-qsj-litterature-france-20261012-05"
+      ]
+    },
+    {
+      "target": "alexandre le grand",
+      "id": "culture-qsj-grece-figures-et-lieux-20261010-03",
+      "mergedIds": [
+        "culture-qsj-grece-figures-et-lieux-20261010-03",
+        "lib-qcm-histoire-mondiale-generale-20261012-02"
+      ]
+    },
+    {
+      "target": "moby dick",
+      "id": "culture-qsj-litterature-americaine-oeuvres-20261010-01",
+      "mergedIds": [
+        "culture-qsj-litterature-americaine-oeuvres-20261010-01",
+        "lib-buzzer-litterature-americaine-20261012-03",
+        "lib-qsj-litterature-americaine-20261012-01"
+      ]
+    },
+    {
+      "target": "the great gatsby",
+      "id": "culture-qsj-litterature-americaine-oeuvres-20261010-02",
+      "mergedIds": [
+        "culture-qsj-litterature-americaine-oeuvres-20261010-02",
+        "lib-qsj-litterature-americaine-20261012-02"
+      ]
+    },
+    {
+      "target": "atticus finch",
+      "id": "culture-qsj-litterature-americaine-personnages-20261010-01",
+      "mergedIds": [
+        "culture-qsj-litterature-americaine-personnages-20261010-01",
+        "lib-buzzer-litterature-americaine-20261012-01"
+      ]
+    },
+    {
+      "target": "frankenstein",
+      "id": "culture-qsj-litterature-anglophone-oeuvres-20261010-01",
+      "mergedIds": [
+        "culture-qsj-litterature-anglophone-oeuvres-20261010-01",
+        "lib-qsj-litterature-anglaise-20261012-01"
+      ]
+    },
+    {
+      "target": "animal farm",
+      "id": "culture-qsj-litterature-anglophone-oeuvres-20261010-02",
+      "mergedIds": [
+        "culture-qsj-litterature-anglophone-oeuvres-20261010-02",
+        "lib-qsj-litterature-anglaise-20261012-03"
+      ]
+    },
+    {
+      "target": "dracula",
+      "id": "lib-qsj-litterature-anglaise-20261012-04",
+      "mergedIds": [
+        "lib-buzzer-litterature-anglaise-20261012-05",
+        "lib-qsj-litterature-anglaise-20261012-04"
+      ]
+    },
+    {
+      "target": "petit prince",
+      "id": "culture-qsj-litterature-francaise-oeuvres-20261010-02",
+      "mergedIds": [
+        "culture-qsj-litterature-francaise-oeuvres-20261010-02",
+        "lib-buzzer-litterature-france-20261012-04",
+        "lib-qsj-litterature-france-20261012-02"
+      ]
+    },
+    {
+      "target": "comte de monte cristo",
+      "id": "lib-qsj-litterature-france-20261012-04",
+      "mergedIds": [
+        "lib-buzzer-litterature-france-20261012-05",
+        "lib-qsj-litterature-france-20261012-04"
+      ]
+    },
+    {
+      "target": "victor hugo",
+      "id": "resize-20261012-hugo",
+      "mergedIds": [
+        "lib-qcm-litterature-france-20261012-01",
+        "resize-20261012-hugo"
+      ]
+    },
+    {
+      "target": "dionysos",
+      "id": "culture-qsj-mythologie-grecque-dieux-et-mortels-20261010-01",
+      "mergedIds": [
+        "culture-qsj-mythologie-grecque-dieux-et-mortels-20261010-01",
+        "lib-qsj-mythologie-grecque-20261012-03"
+      ]
+    },
+    {
+      "target": "athena",
+      "id": "resize-20261012-athena",
+      "mergedIds": [
+        "lib-qcm-mythologie-grecque-20261012-02",
+        "lib-qcm-odyssee-20261012-05",
+        "resize-20261012-athena"
+      ]
+    },
+    {
+      "target": "meduse",
+      "id": "culture-qsj-mythologie-grecque-monstres-et-objets-20261010-01",
+      "mergedIds": [
+        "culture-qsj-mythologie-grecque-monstres-et-objets-20261010-01",
+        "lib-buzzer-mythologie-grecque-20261012-01"
+      ]
+    },
+    {
+      "target": "janus",
+      "id": "culture-qsj-mythologie-romaine-divinites-20261010-01",
+      "mergedIds": [
+        "culture-qsj-mythologie-romaine-divinites-20261010-01",
+        "lib-qcm-mythologie-romaine-20261012-05"
+      ]
+    },
+    {
+      "target": "enee",
+      "id": "culture-qsj-mythologie-romaine-fondations-20261010-01",
+      "mergedIds": [
+        "culture-qsj-mythologie-romaine-fondations-20261010-01",
+        "lib-buzzer-mythologie-romaine-20261012-04"
+      ]
+    },
+    {
+      "target": "neptune",
+      "id": "resize-20261012-neptune",
+      "mergedIds": [
+        "lib-buzzer-mythologie-romaine-20261012-01",
+        "resize-20261012-neptune"
+      ]
+    },
+    {
+      "target": "andes",
+      "id": "geo-chaines-de-montagnes-20261010-05",
+      "mergedIds": [
+        "geo-chaines-de-montagnes-20261010-05",
+        "lib-qcm-geographie-monde-20261012-05",
+        "lib-qsj-geographie-monde-20261012-02"
+      ]
+    },
+    {
+      "target": "george washington",
+      "id": "lib-qcm-histoire-etats-unis-20261012-01",
+      "mergedIds": [
+        "lib-qcm-histoire-etats-unis-20261012-01",
+        "lib-qsj-histoire-etats-unis-20261012-01"
+      ]
+    },
+    {
+      "target": "abraham lincoln",
+      "id": "lib-qcm-histoire-etats-unis-20261012-04",
+      "mergedIds": [
+        "lib-qcm-histoire-etats-unis-20261012-04",
+        "lib-qsj-histoire-etats-unis-20261012-02"
+      ]
+    },
+    {
+      "target": "tortue marine",
+      "id": "lib-buzzer-animaux-marins-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-animaux-marins-20261012-02",
+        "lib-qsj-animaux-marins-20261012-04"
+      ]
+    },
+    {
+      "target": "edith piaf",
+      "id": "lib-buzzer-chanson-francophone-20261012-03",
+      "mergedIds": [
+        "lib-buzzer-chanson-francophone-20261012-03",
+        "lib-qcm-chanson-francophone-20261012-01",
+        "lib-qsj-chanson-francophone-20261012-01"
+      ]
+    },
+    {
+      "target": "tchaikovski",
+      "id": "lib-buzzer-classique-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-classique-20261012-01",
+        "lib-qsj-classique-20261012-05"
+      ]
+    },
+    {
+      "target": "ludwig van beethoven",
+      "id": "lib-buzzer-classique-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-classique-20261012-02",
+        "lib-qsj-classique-20261012-02"
+      ]
+    },
+    {
+      "target": "boucle d or",
+      "id": "lib-buzzer-contes-anglais-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-contes-anglais-20261012-02",
+        "lib-qsj-contes-anglais-20261012-02"
+      ]
+    },
+    {
+      "target": "jack",
+      "id": "lib-buzzer-contes-anglais-20261012-03",
+      "mergedIds": [
+        "lib-buzzer-contes-anglais-20261012-03",
+        "lib-qsj-contes-anglais-20261012-03"
+      ]
+    },
+    {
+      "target": "petit poucet",
+      "id": "lib-buzzer-contes-francais-20261012-04",
+      "mergedIds": [
+        "lib-buzzer-contes-francais-20261012-04",
+        "lib-qsj-contes-francais-20261012-05"
+      ]
+    },
+    {
+      "target": "tiramisu",
+      "id": "lib-buzzer-cuisine-celebre-20261012-03",
+      "mergedIds": [
+        "lib-buzzer-cuisine-celebre-20261012-03",
+        "lib-buzzer-cuisine-saveurs-20261012-03",
+        "lib-qsj-cuisine-celebre-20261012-05"
+      ]
+    },
+    {
+      "target": "couscous",
+      "id": "lib-buzzer-cuisine-celebre-20261012-05",
+      "mergedIds": [
+        "lib-buzzer-cuisine-celebre-20261012-05",
+        "lib-qsj-cuisine-celebre-20261012-04"
+      ]
+    },
+    {
+      "target": "macaron",
+      "id": "lib-buzzer-cuisine-saveurs-20261012-04",
+      "mergedIds": [
+        "lib-buzzer-cuisine-saveurs-20261012-04",
+        "lib-qsj-cuisine-saveurs-20261012-04"
+      ]
+    },
+    {
+      "target": "mochi",
+      "id": "lib-buzzer-cuisine-saveurs-20261012-05",
+      "mergedIds": [
+        "lib-buzzer-cuisine-saveurs-20261012-05",
+        "lib-qsj-cuisine-saveurs-20261012-05"
+      ]
+    },
+    {
+      "target": "aquaman",
+      "id": "lib-buzzer-dc-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-dc-20261012-02",
+        "lib-qsj-dc-20261012-05"
+      ]
+    },
+    {
+      "target": "wonder woman",
+      "id": "lib-buzzer-dc-20261012-05",
+      "mergedIds": [
+        "lib-buzzer-dc-20261012-05",
+        "lib-qcm-dc-20261012-03",
+        "lib-qsj-dc-20261012-03"
+      ]
+    },
+    {
+      "target": "cendrillon",
+      "id": "lib-buzzer-disney-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-disney-20261012-01",
+        "lib-qcm-contes-francais-20261012-02",
+        "lib-qcm-disney-20261012-04",
+        "lib-qsj-contes-francais-20261012-04"
+      ]
+    },
+    {
+      "target": "vasco de gama",
+      "id": "lib-buzzer-explorateurs-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-explorateurs-20261012-02",
+        "lib-qsj-explorateurs-20261012-05"
+      ]
+    },
+    {
+      "target": "jacques cartier",
+      "id": "lib-buzzer-explorateurs-20261012-04",
+      "mergedIds": [
+        "lib-buzzer-explorateurs-20261012-04",
+        "lib-qsj-explorateurs-20261012-02"
+      ]
+    },
+    {
+      "target": "antarctique",
+      "id": "lib-buzzer-geographie-monde-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-geographie-monde-20261012-02",
+        "lib-qsj-geographie-monde-20261012-05"
+      ]
+    },
+    {
+      "target": "rome",
+      "id": "lib-buzzer-geographie-villes-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-geographie-villes-20261012-02",
+        "lib-qsj-geographie-villes-20261012-02"
+      ]
+    },
+    {
+      "target": "totoro",
+      "id": "lib-buzzer-ghibli-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-ghibli-20261012-01",
+        "lib-qsj-ghibli-20261012-02"
+      ]
+    },
+    {
+      "target": "kiki",
+      "id": "lib-buzzer-ghibli-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-ghibli-20261012-02",
+        "lib-qsj-ghibli-20261012-03"
+      ]
+    },
+    {
+      "target": "neil armstrong",
+      "id": "lib-buzzer-histoire-etats-unis-20261012-04",
+      "mergedIds": [
+        "lib-buzzer-histoire-etats-unis-20261012-04",
+        "lib-qsj-histoire-etats-unis-20261012-05"
+      ]
+    },
+    {
+      "target": "martin luther king jr",
+      "id": "lib-buzzer-histoire-etats-unis-20261012-05",
+      "mergedIds": [
+        "lib-buzzer-histoire-etats-unis-20261012-05",
+        "lib-qsj-histoire-etats-unis-20261012-03"
+      ]
+    },
+    {
+      "target": "marie antoinette",
+      "id": "lib-buzzer-histoire-france-generale-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-histoire-france-generale-20261012-01",
+        "lib-qsj-histoire-france-generale-20261012-04"
+      ]
+    },
+    {
+      "target": "napoleon bonaparte",
+      "id": "lib-buzzer-histoire-france-generale-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-histoire-france-generale-20261012-02",
+        "lib-qsj-histoire-mondiale-generale-20261012-02"
+      ]
+    },
+    {
+      "target": "charles de gaulle",
+      "id": "lib-buzzer-histoire-france-generale-20261012-05",
+      "mergedIds": [
+        "lib-buzzer-histoire-france-generale-20261012-05",
+        "lib-qsj-histoire-france-generale-20261012-05"
+      ]
+    },
+    {
+      "target": "nelson mandela",
+      "id": "lib-buzzer-histoire-mondiale-generale-20261012-05",
+      "mergedIds": [
+        "lib-buzzer-histoire-mondiale-generale-20261012-05",
+        "lib-qsj-histoire-mondiale-generale-20261012-04"
+      ]
+    },
+    {
+      "target": "phasme",
+      "id": "lib-buzzer-insectes-20261012-04",
+      "mergedIds": [
+        "lib-buzzer-insectes-20261012-04",
+        "lib-qsj-insectes-20261012-04"
+      ]
+    },
+    {
+      "target": "accordeon",
+      "id": "lib-buzzer-instruments-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-instruments-20261012-01",
+        "lib-qcm-chanson-francophone-20261012-04",
+        "lib-qsj-instruments-20261012-04"
+      ]
+    },
+    {
+      "target": "canadarm",
+      "id": "lib-buzzer-inventions-canada-20261012-05",
+      "mergedIds": [
+        "lib-buzzer-inventions-canada-20261012-05",
+        "lib-qsj-inventions-canada-20261012-04"
+      ]
+    },
+    {
+      "target": "louis armstrong",
+      "id": "lib-buzzer-jazz-blues-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-jazz-blues-20261012-01",
+        "lib-qsj-jazz-blues-20261012-01"
+      ]
+    },
+    {
+      "target": "duke ellington",
+      "id": "lib-buzzer-jazz-blues-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-jazz-blues-20261012-02",
+        "lib-qsj-jazz-blues-20261012-04"
+      ]
+    },
+    {
+      "target": "b king",
+      "id": "lib-buzzer-jazz-blues-20261012-03",
+      "mergedIds": [
+        "lib-buzzer-jazz-blues-20261012-03",
+        "lib-qsj-jazz-blues-20261012-05"
+      ]
+    },
+    {
+      "target": "pikachu",
+      "id": "lib-buzzer-jeux-video-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-jeux-video-20261012-01",
+        "lib-qsj-jeux-video-20261012-03"
+      ]
+    },
+    {
+      "target": "pac man",
+      "id": "lib-buzzer-jeux-video-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-jeux-video-20261012-02",
+        "lib-qsj-jeux-video-20261012-05"
+      ]
+    },
+    {
+      "target": "tarasque",
+      "id": "lib-buzzer-legendes-france-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-legendes-france-20261012-01",
+        "lib-qsj-legendes-france-20261012-01"
+      ]
+    },
+    {
+      "target": "melusine",
+      "id": "lib-buzzer-legendes-france-20261012-03",
+      "mergedIds": [
+        "lib-buzzer-legendes-france-20261012-03",
+        "lib-qcm-legendes-france-20261012-03",
+        "lib-qsj-legendes-france-20261012-02"
+      ]
+    },
+    {
+      "target": "bete du gevaudan",
+      "id": "lib-buzzer-legendes-france-20261012-04",
+      "mergedIds": [
+        "lib-buzzer-legendes-france-20261012-04",
+        "lib-qsj-legendes-france-20261012-05"
+      ]
+    },
+    {
+      "target": "korrigans",
+      "id": "lib-buzzer-legendes-france-20261012-05",
+      "mergedIds": [
+        "lib-buzzer-legendes-france-20261012-05",
+        "lib-qsj-legendes-france-20261012-04"
+      ]
+    },
+    {
+      "target": "michel tremblay",
+      "id": "lib-buzzer-litterature-quebec-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-litterature-quebec-20261012-01",
+        "lib-qsj-litterature-quebec-20261012-01"
+      ]
+    },
+    {
+      "target": "gabrielle roy",
+      "id": "lib-buzzer-litterature-quebec-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-litterature-quebec-20261012-02",
+        "lib-qsj-litterature-quebec-20261012-02"
+      ]
+    },
+    {
+      "target": "emile nelligan",
+      "id": "lib-buzzer-litterature-quebec-20261012-03",
+      "mergedIds": [
+        "lib-buzzer-litterature-quebec-20261012-03",
+        "lib-qsj-litterature-quebec-20261012-04"
+      ]
+    },
+    {
+      "target": "felix leclerc",
+      "id": "lib-buzzer-litterature-quebec-20261012-04",
+      "mergedIds": [
+        "lib-buzzer-litterature-quebec-20261012-04",
+        "lib-qsj-litterature-quebec-20261012-05",
+        "lib-qsj-musique-quebec-20261012-02"
+      ]
+    },
+    {
+      "target": "son goku",
+      "id": "lib-buzzer-manga-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-manga-20261012-02",
+        "lib-qsj-manga-20261012-03"
+      ]
+    },
+    {
+      "target": "sailor moon",
+      "id": "lib-buzzer-manga-20261012-03",
+      "mergedIds": [
+        "lib-buzzer-manga-20261012-03",
+        "lib-qsj-manga-20261012-04"
+      ]
+    },
+    {
+      "target": "naruto",
+      "id": "lib-buzzer-manga-20261012-04",
+      "mergedIds": [
+        "lib-buzzer-manga-20261012-04",
+        "lib-qcm-manga-20261012-01",
+        "lib-qsj-manga-20261012-01"
+      ]
+    },
+    {
+      "target": "ennio morricone",
+      "id": "lib-buzzer-musique-ecran-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-musique-ecran-20261012-02",
+        "lib-qsj-musique-ecran-20261012-03"
+      ]
+    },
+    {
+      "target": "celine dion",
+      "id": "lib-buzzer-musique-quebec-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-musique-quebec-20261012-01",
+        "lib-qsj-musique-quebec-20261012-01"
+      ]
+    },
+    {
+      "target": "gilles vigneault",
+      "id": "lib-buzzer-musique-quebec-20261012-04",
+      "mergedIds": [
+        "lib-buzzer-musique-quebec-20261012-04",
+        "lib-qcm-musique-quebec-20261012-01",
+        "lib-qsj-musique-quebec-20261012-03"
+      ]
+    },
+    {
+      "target": "penelope",
+      "id": "lib-buzzer-odyssee-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-odyssee-20261012-01",
+        "lib-qsj-odyssee-20261012-02"
+      ]
+    },
+    {
+      "target": "polypheme",
+      "id": "lib-buzzer-odyssee-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-odyssee-20261012-02",
+        "lib-qsj-odyssee-20261012-03"
+      ]
+    },
+    {
+      "target": "circe",
+      "id": "lib-buzzer-odyssee-20261012-04",
+      "mergedIds": [
+        "lib-buzzer-odyssee-20261012-04",
+        "lib-qsj-odyssee-20261012-04"
+      ]
+    },
+    {
+      "target": "autruche",
+      "id": "lib-buzzer-oiseaux-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-oiseaux-20261012-01",
+        "lib-qsj-oiseaux-20261012-05"
+      ]
+    },
+    {
+      "target": "beatles",
+      "id": "lib-buzzer-pop-rock-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-pop-rock-20261012-01",
+        "lib-qcm-pop-rock-20261012-01",
+        "lib-qsj-pop-rock-20261012-05"
+      ]
+    },
+    {
+      "target": "michael jackson",
+      "id": "lib-buzzer-pop-rock-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-pop-rock-20261012-02",
+        "lib-qcm-pop-rock-20261012-03",
+        "lib-qsj-pop-rock-20261012-02"
+      ]
+    },
+    {
+      "target": "bob marley",
+      "id": "lib-buzzer-pop-rock-20261012-05",
+      "mergedIds": [
+        "lib-buzzer-pop-rock-20261012-05",
+        "lib-qsj-pop-rock-20261012-04"
+      ]
+    },
+    {
+      "target": "corbeau",
+      "id": "lib-buzzer-recits-autochtones-20261012-03",
+      "mergedIds": [
+        "lib-buzzer-recits-autochtones-20261012-03",
+        "lib-qsj-recits-autochtones-20261012-02"
+      ]
+    },
+    {
+      "target": "lune",
+      "id": "lib-buzzer-science-generale-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-science-generale-20261012-01",
+        "lib-qsj-science-generale-20261012-01"
+      ]
+    },
+    {
+      "target": "albert einstein",
+      "id": "lib-buzzer-science-generale-20261012-05",
+      "mergedIds": [
+        "lib-buzzer-science-generale-20261012-05",
+        "lib-qsj-science-generale-20261012-05"
+      ]
+    },
+    {
+      "target": "excalibur",
+      "id": "lib-buzzer-table-ronde-20261012-01",
+      "mergedIds": [
+        "lib-buzzer-table-ronde-20261012-01",
+        "lib-qsj-table-ronde-20261012-05"
+      ]
+    },
+    {
+      "target": "pieuvre",
+      "id": "lib-qcm-animaux-marins-20261012-01",
+      "mergedIds": [
+        "lib-qcm-animaux-marins-20261012-01",
+        "lib-qsj-animaux-marins-20261012-01"
+      ]
+    },
+    {
+      "target": "baleine bleue",
+      "id": "lib-qcm-animaux-marins-20261012-02",
+      "mergedIds": [
+        "lib-qcm-animaux-marins-20261012-02",
+        "lib-qsj-animaux-marins-20261012-02"
+      ]
+    },
+    {
+      "target": "hippocampe",
+      "id": "lib-qcm-animaux-marins-20261012-04",
+      "mergedIds": [
+        "lib-qcm-animaux-marins-20261012-04",
+        "lib-qsj-animaux-marins-20261012-03"
+      ]
+    },
+    {
+      "target": "kangourou",
+      "id": "lib-qcm-animaux-terrestres-20261012-02",
+      "mergedIds": [
+        "lib-qcm-animaux-terrestres-20261012-02",
+        "lib-qsj-animaux-terrestres-20261012-02"
+      ]
+    },
+    {
+      "target": "ornithorynque",
+      "id": "lib-qcm-animaux-terrestres-20261012-04",
+      "mergedIds": [
+        "lib-qcm-animaux-terrestres-20261012-04",
+        "lib-qsj-animaux-terrestres-20261012-03"
+      ]
+    },
+    {
+      "target": "jacques brel",
+      "id": "lib-qcm-chanson-francophone-20261012-02",
+      "mergedIds": [
+        "lib-qcm-chanson-francophone-20261012-02",
+        "lib-qsj-chanson-francophone-20261012-02"
+      ]
+    },
+    {
+      "target": "georges brassens",
+      "id": "lib-qcm-chanson-francophone-20261012-03",
+      "mergedIds": [
+        "lib-qcm-chanson-francophone-20261012-03",
+        "lib-qsj-chanson-francophone-20261012-03"
+      ]
+    },
+    {
+      "target": "charles aznavour",
+      "id": "lib-qcm-chanson-francophone-20261012-05",
+      "mergedIds": [
+        "lib-qcm-chanson-francophone-20261012-05",
+        "lib-qsj-chanson-francophone-20261012-04"
+      ]
+    },
+    {
+      "target": "antonio vivaldi",
+      "id": "lib-qcm-classique-20261012-01",
+      "mergedIds": [
+        "lib-qcm-classique-20261012-01",
+        "lib-qsj-classique-20261012-03"
+      ]
+    },
+    {
+      "target": "mozart",
+      "id": "lib-qcm-classique-20261012-02",
+      "mergedIds": [
+        "lib-qcm-classique-20261012-02",
+        "lib-qsj-classique-20261012-01"
+      ]
+    },
+    {
+      "target": "robin des bois",
+      "id": "lib-qcm-contes-anglais-20261012-03",
+      "mergedIds": [
+        "lib-qcm-contes-anglais-20261012-03",
+        "lib-qsj-contes-anglais-20261012-01"
+      ]
+    },
+    {
+      "target": "humpty dumpty",
+      "id": "lib-qcm-contes-anglais-20261012-05",
+      "mergedIds": [
+        "lib-qcm-contes-anglais-20261012-05",
+        "lib-qsj-contes-anglais-20261012-04"
+      ]
+    },
+    {
+      "target": "barbe bleue",
+      "id": "lib-qcm-contes-francais-20261012-03",
+      "mergedIds": [
+        "lib-qcm-contes-francais-20261012-03",
+        "lib-qsj-contes-francais-20261012-03"
+      ]
+    },
+    {
+      "target": "pizza",
+      "id": "lib-qcm-cuisine-celebre-20261012-01",
+      "mergedIds": [
+        "lib-qcm-cuisine-celebre-20261012-01",
+        "lib-qsj-cuisine-celebre-20261012-03"
+      ]
+    },
+    {
+      "target": "poutine",
+      "id": "lib-qcm-cuisine-celebre-20261012-03",
+      "mergedIds": [
+        "lib-qcm-cuisine-celebre-20261012-03",
+        "lib-qsj-cuisine-celebre-20261012-01"
+      ]
+    },
+    {
+      "target": "sushi",
+      "id": "lib-qcm-cuisine-celebre-20261012-04",
+      "mergedIds": [
+        "lib-qcm-cuisine-celebre-20261012-04",
+        "lib-qsj-cuisine-celebre-20261012-02"
+      ]
+    },
+    {
+      "target": "croissant",
+      "id": "lib-qcm-cuisine-saveurs-20261012-03",
+      "mergedIds": [
+        "lib-qcm-cuisine-saveurs-20261012-03",
+        "lib-qsj-cuisine-saveurs-20261012-02"
+      ]
+    },
+    {
+      "target": "taco",
+      "id": "lib-qcm-cuisine-saveurs-20261012-04",
+      "mergedIds": [
+        "lib-qcm-cuisine-saveurs-20261012-04",
+        "lib-qsj-cuisine-saveurs-20261012-03"
+      ]
+    },
+    {
+      "target": "marco polo",
+      "id": "lib-qcm-explorateurs-20261012-03",
+      "mergedIds": [
+        "lib-qcm-explorateurs-20261012-03",
+        "lib-qsj-explorateurs-20261012-01"
+      ]
+    },
+    {
+      "target": "roald amundsen",
+      "id": "lib-qcm-explorateurs-20261012-04",
+      "mergedIds": [
+        "lib-qcm-explorateurs-20261012-04",
+        "lib-qsj-explorateurs-20261012-04"
+      ]
+    },
+    {
+      "target": "sahara",
+      "id": "lib-qcm-geographie-monde-20261012-02",
+      "mergedIds": [
+        "lib-qcm-geographie-monde-20261012-02",
+        "lib-qsj-geographie-monde-20261012-01"
+      ]
+    },
+    {
+      "target": "japon",
+      "id": "lib-qcm-geographie-monde-20261012-04",
+      "mergedIds": [
+        "lib-qcm-geographie-monde-20261012-04",
+        "lib-qsj-geographie-monde-20261012-03"
+      ]
+    },
+    {
+      "target": "tokyo",
+      "id": "lib-qcm-geographie-villes-20261012-04",
+      "mergedIds": [
+        "lib-qcm-geographie-villes-20261012-04",
+        "lib-qsj-geographie-villes-20261012-04"
+      ]
+    },
+    {
+      "target": "jeanne d arc",
+      "id": "lib-qcm-histoire-france-generale-20261012-02",
+      "mergedIds": [
+        "lib-qcm-histoire-france-generale-20261012-02",
+        "lib-qsj-histoire-france-generale-20261012-02",
+        "lib-qsj-histoire-mondiale-generale-20261012-05"
+      ]
+    },
+    {
+      "target": "francois ier",
+      "id": "lib-qcm-histoire-france-generale-20261012-04",
+      "mergedIds": [
+        "lib-qcm-histoire-france-generale-20261012-04",
+        "lib-qsj-histoire-france-generale-20261012-03"
+      ]
+    },
+    {
+      "target": "coccinelle",
+      "id": "lib-qcm-insectes-20261012-02",
+      "mergedIds": [
+        "lib-qcm-insectes-20261012-02",
+        "lib-qsj-insectes-20261012-01"
+      ]
+    },
+    {
+      "target": "abeille",
+      "id": "lib-qcm-insectes-20261012-04",
+      "mergedIds": [
+        "lib-qcm-insectes-20261012-04",
+        "lib-qsj-insectes-20261012-02"
+      ]
+    },
+    {
+      "target": "violon",
+      "id": "lib-qcm-instruments-20261012-01",
+      "mergedIds": [
+        "lib-qcm-instruments-20261012-01",
+        "lib-qsj-instruments-20261012-02"
+      ]
+    },
+    {
+      "target": "harpe",
+      "id": "lib-qcm-instruments-20261012-03",
+      "mergedIds": [
+        "lib-qcm-instruments-20261012-03",
+        "lib-qsj-instruments-20261012-05"
+      ]
+    },
+    {
+      "target": "joseph armand bombardier",
+      "id": "lib-qcm-inventions-canada-20261012-03",
+      "mergedIds": [
+        "lib-qcm-inventions-canada-20261012-03",
+        "lib-qsj-inventions-canada-20261012-02"
+      ]
+    },
+    {
+      "target": "miles davis",
+      "id": "lib-qcm-jazz-blues-20261012-02",
+      "mergedIds": [
+        "lib-qcm-jazz-blues-20261012-02",
+        "lib-qsj-jazz-blues-20261012-03"
+      ]
+    },
+    {
+      "target": "ella fitzgerald",
+      "id": "lib-qcm-jazz-blues-20261012-05",
+      "mergedIds": [
+        "lib-qcm-jazz-blues-20261012-05",
+        "lib-qsj-jazz-blues-20261012-02"
+      ]
+    },
+    {
+      "target": "anne hebert",
+      "id": "lib-qcm-litterature-quebec-20261012-03",
+      "mergedIds": [
+        "lib-qcm-litterature-quebec-20261012-03",
+        "lib-qsj-litterature-quebec-20261012-03"
+      ]
+    },
+    {
+      "target": "monkey d luffy",
+      "id": "lib-qcm-manga-20261012-02",
+      "mergedIds": [
+        "lib-qcm-manga-20261012-02",
+        "lib-qsj-manga-20261012-02"
+      ]
+    },
+    {
+      "target": "hulk",
+      "id": "lib-qcm-marvel-20261012-03",
+      "mergedIds": [
+        "lib-qcm-marvel-20261012-03",
+        "lib-qsj-marvel-20261012-03"
+      ]
+    },
+    {
+      "target": "joe hisaishi",
+      "id": "lib-qcm-musique-ecran-20261012-03",
+      "mergedIds": [
+        "lib-qcm-musique-ecran-20261012-03",
+        "lib-qsj-musique-ecran-20261012-02"
+      ]
+    },
+    {
+      "target": "leonard cohen",
+      "id": "lib-qcm-musique-quebec-20261012-03",
+      "mergedIds": [
+        "lib-qcm-musique-quebec-20261012-03",
+        "lib-qsj-musique-quebec-20261012-04"
+      ]
+    },
+    {
+      "target": "robert charlebois",
+      "id": "lib-qcm-musique-quebec-20261012-05",
+      "mergedIds": [
+        "lib-qcm-musique-quebec-20261012-05",
+        "lib-qsj-musique-quebec-20261012-05"
+      ]
+    },
+    {
+      "target": "colibri",
+      "id": "lib-qcm-oiseaux-20261012-02",
+      "mergedIds": [
+        "lib-qcm-oiseaux-20261012-02",
+        "lib-qsj-oiseaux-20261012-01"
+      ]
+    },
+    {
+      "target": "paon",
+      "id": "lib-qcm-oiseaux-20261012-03",
+      "mergedIds": [
+        "lib-qcm-oiseaux-20261012-03",
+        "lib-qsj-oiseaux-20261012-03"
+      ]
+    },
+    {
+      "target": "manchot",
+      "id": "lib-qcm-oiseaux-20261012-04",
+      "mergedIds": [
+        "lib-qcm-oiseaux-20261012-04",
+        "lib-qsj-oiseaux-20261012-02"
+      ]
+    },
+    {
+      "target": "pic",
+      "id": "lib-qcm-oiseaux-20261012-05",
+      "mergedIds": [
+        "lib-qcm-oiseaux-20261012-05",
+        "lib-qsj-oiseaux-20261012-04"
+      ]
+    },
+    {
+      "target": "freddie mercury",
+      "id": "lib-qcm-pop-rock-20261012-02",
+      "mergedIds": [
+        "lib-qcm-pop-rock-20261012-02",
+        "lib-qsj-pop-rock-20261012-01"
+      ]
+    },
+    {
+      "target": "elvis presley",
+      "id": "lib-qcm-pop-rock-20261012-05",
+      "mergedIds": [
+        "lib-qcm-pop-rock-20261012-05",
+        "lib-qsj-pop-rock-20261012-03"
+      ]
+    },
+    {
+      "target": "glooscap",
+      "id": "lib-qcm-recits-autochtones-20261012-05",
+      "mergedIds": [
+        "lib-qcm-recits-autochtones-20261012-05",
+        "lib-qsj-recits-autochtones-20261012-04"
+      ]
+    },
+    {
+      "target": "microscope",
+      "id": "lib-qcm-science-generale-20261012-05",
+      "mergedIds": [
+        "lib-qcm-science-generale-20261012-05",
+        "lib-qsj-science-generale-20261012-04"
+      ]
+    },
+    {
+      "target": "arthur",
+      "id": "lib-qcm-table-ronde-20261012-01",
+      "mergedIds": [
+        "lib-qcm-table-ronde-20261012-01",
+        "lib-qsj-table-ronde-20261012-04"
+      ]
+    },
+    {
+      "target": "merlin",
+      "id": "lib-qcm-table-ronde-20261012-03",
+      "mergedIds": [
+        "lib-qcm-table-ronde-20261012-03",
+        "lib-qsj-table-ronde-20261012-01"
+      ]
+    },
+    {
+      "target": "graal",
+      "id": "lib-qcm-table-ronde-20261012-04",
+      "mergedIds": [
+        "lib-qcm-table-ronde-20261012-04",
+        "lib-qsj-table-ronde-20261012-03"
+      ]
+    },
+    {
+      "target": "lancelot",
+      "id": "lib-qcm-table-ronde-20261012-05",
+      "mergedIds": [
+        "lib-qcm-table-ronde-20261012-05",
+        "lib-qsj-table-ronde-20261012-02"
+      ]
+    },
+    {
+      "target": "mario",
+      "id": "lib-qsj-jeux-video-20261012-01",
+      "mergedIds": [
+        "lib-qcm-jeux-video-20261012-01",
+        "lib-qsj-jeux-video-20261012-01"
+      ]
+    },
+    {
+      "target": "sonic",
+      "id": "lib-qsj-jeux-video-20261012-02",
+      "mergedIds": [
+        "lib-qcm-jeux-video-20261012-03",
+        "lib-qsj-jeux-video-20261012-02"
+      ]
+    },
+    {
+      "target": "minecraft",
+      "id": "lib-qsj-jeux-video-20261012-04",
+      "mergedIds": [
+        "lib-qcm-jeux-video-20261012-02",
+        "lib-qsj-jeux-video-20261012-04"
+      ]
+    },
+    {
+      "id": "lib-buzzer-instruments-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-instruments-20261012-02",
+        "lib-qsj-instruments-20261012-03"
+      ]
+    },
+    {
+      "id": "lib-qcm-instruments-20261012-02",
+      "mergedIds": [
+        "lib-qcm-instruments-20261012-02",
+        "lib-qsj-instruments-20261012-01"
+      ]
+    },
+    {
+      "id": "lib-buzzer-animaux-terrestres-20261012-02",
+      "mergedIds": [
+        "lib-buzzer-animaux-terrestres-20261012-02",
+        "lib-qsj-animaux-terrestres-20261012-05"
+      ]
+    },
+    {
+      "id": "lib-buzzer-animaux-terrestres-20261012-04",
+      "mergedIds": [
+        "lib-buzzer-animaux-terrestres-20261012-04",
+        "lib-qsj-animaux-terrestres-20261012-01"
+      ]
+    },
+    {
+      "id": "lib-qcm-science-generale-20261012-01",
+      "mergedIds": [
+        "lib-qcm-science-generale-20261012-01",
+        "lib-qsj-science-generale-20261012-03",
+        "test-03-qui-suis-je-q1"
+      ]
+    },
+    {
+      "id": "culture-qsj-mythologie-romaine-divinites-20261010-02",
+      "mergedIds": [
+        "culture-qsj-mythologie-romaine-divinites-20261010-02",
+        "lib-qcm-mythologie-romaine-20261012-03"
+      ]
+    }
+  ]
+}

@@ -16,7 +16,8 @@
       "acceptableAnswers": [
         "Krypton"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "cinema-buzzer-univers-20261011-03"
     },
     {
       "id": "lib-buzzer-dc-20261012-02",
@@ -28,8 +29,7 @@
       "acceptableAnswers": [
         "Aquaman"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-dc-20261012/sea.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-dc-20261012-03",
@@ -66,8 +66,7 @@
       "acceptableAnswers": [
         "Wonder Woman"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-dc-20261012/rope.png"
+      "allowFuzzyMatch": true
     }
   ]
 }

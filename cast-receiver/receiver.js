@@ -14,12 +14,12 @@
     } catch (_) { return null; }
   }
 
-  function safeImageUrl(value, pageLocation) {
+  function safeImageUrl(value, pageLocation, allowedOrigin) {
     if (typeof value !== "string") return null;
     try {
       var url = new URL(value);
       var currentLocation = pageLocation || root.location;
-      var sameOriginHttp = url.protocol === "http:" && currentLocation && url.host === currentLocation.host;
+      var sameOriginHttp = url.protocol === "http:" && (currentLocation && url.host === currentLocation.host || allowedOrigin && url.origin === allowedOrigin);
       return url.protocol === "https:" || sameOriginHttp ? url.href : null;
     }
     catch (_) { return null; }
@@ -56,6 +56,153 @@
       seen.push(normalized); types.push(type);
     });
     return { titleParts: titleParts.length ? titleParts : ['Nouvelle catégorie'], types: types, mode: mode };
+  }
+
+  function stopImageReveal(canvas) {
+    if (!canvas) return;
+    canvas._stopped = true;
+    if (canvas._animationFrame) root.cancelAnimationFrame(canvas._animationFrame);
+    canvas._animationFrame = 0;
+  }
+
+  function applyImageReveal(wrapper, image, question, answerRevealed, latestState) {
+    var mode = question.imageRevealMode;
+    // The host may publish the question and its image mode in adjacent state
+    // updates. The music mode is already authoritative for image QSJ, so mask
+    // the source image on the first render instead of flashing it unpixelated.
+    if ((!mode || mode === "NONE") && latestState && latestState.inRoundMusicMode === "IMAGE_GUESS_WHO") mode = "PIXELATE";
+    if ((mode !== "PIXELATE" && mode !== "BLUR" && mode !== "SHUFFLE" && mode !== "UNCOVER") || answerRevealed) return;
+    // A later state tick may arrive before a slow image request finishes.
+    // Never create/hide behind a zero-sized canvas; let image.onload start it.
+    if (!image || !image.complete || !image.naturalWidth || !image.naturalHeight) return;
+    var steps = Math.max(2, Number(question.imageRevealSteps) || 5);
+    var state = latestState || { question: question, flip: Number(question.imageRevealStep) || 0, secondsRemaining: 32, secondsPerFlip: 32 };
+    var canvas = wrapper.querySelector("canvas.progressive-image");
+    if (canvas) {
+      if (canvas._revealMode !== mode) {
+        stopImageReveal(canvas);
+        canvas.remove(); canvas = null;
+      }
+    }
+    if (canvas) {
+      canvas._latestState = state;
+      canvas._stateUpdatedAt = root.performance ? root.performance.now() : Date.now();
+      // Reuse the renderer closure created with this canvas. A fresh call to
+      // applyImageReveal has no access to that closure's canvas/context state.
+      if (!canvas._animationFrame && canvas._draw) canvas._animationFrame = root.requestAnimationFrame(canvas._draw);
+      return;
+    }
+    canvas = document.createElement("canvas");
+    var context = canvas.getContext("2d");
+    if (!context) return;
+    canvas.className = "progressive-image";
+    canvas.setAttribute("aria-label", "Image partiellement r\u00e9v\u00e9l\u00e9e");
+    canvas._latestState = state;
+    canvas._revealMode = mode;
+    canvas._stateUpdatedAt = root.performance ? root.performance.now() : Date.now();
+    canvas.width = Math.min(1440, image.naturalWidth || 1440);
+    canvas.height = Math.max(1, Math.round(canvas.width * image.naturalHeight / image.naturalWidth));
+    image.hidden = true;
+    wrapper.insertBefore(canvas, image);
+
+    function seeded(seed) {
+      var value = seed >>> 0;
+      return function () { value = (value * 1664525 + 1013904223) >>> 0; return value / 4294967296; };
+    }
+    function permutation(count, seed) {
+      var random = seeded(seed), values = Array.from({ length: count }, function (_, index) { return index; });
+      for (var i = values.length - 1; i > 0; i--) {
+        var j = Math.floor(random() * (i + 1)), temp = values[i]; values[i] = values[j]; values[j] = temp;
+      }
+      return values;
+    }
+    var imageSeed = String(question.id || "image").split("").reduce(function (value, character) {
+      return (value * 31 + character.charCodeAt(0)) >>> 0;
+    }, 7);
+    var tileCols = mode === "SHUFFLE" ? 20 : 32, tileRows = mode === "SHUFFLE" ? 15 : 24;
+    var totalTiles = tileCols * tileRows;
+    var initialShuffle = mode === "SHUFFLE" ? permutation(totalTiles, imageSeed) : null;
+    var fixOrder = mode === "SHUFFLE" ? permutation(totalTiles, imageSeed ^ 0x9e3779b9) : null;
+    var fixSwaps = [];
+    if (mode === "SHUFFLE") {
+      var probe = initialShuffle.slice();
+      for (var fixedIndex = 0; fixedIndex < totalTiles; fixedIndex++) {
+        var place = fixOrder[fixedIndex], found = probe.indexOf(place);
+        fixSwaps.push([place, found]);
+        if (found !== place) { var swap = probe[place]; probe[place] = probe[found]; probe[found] = swap; }
+      }
+    }
+    var revealOrder = mode === "UNCOVER" ? permutation(totalTiles, imageSeed ^ 0x517cc1b7) : null;
+    function draw() {
+      canvas._animationFrame = 0;
+      if (canvas._stopped) return;
+      var current = canvas._latestState || state;
+      var currentFlip = Math.max(0, Number(current.question && current.question.imageRevealStep) || 0);
+      var hasCurrentRemaining = current.secondsRemaining !== null && current.secondsRemaining !== undefined && Number.isFinite(Number(current.secondsRemaining));
+      var duration = Math.max(1, Number(current.secondsPerFlip) || 32);
+      var currentRemaining = hasCurrentRemaining ? Math.max(0, Math.min(duration, Number(current.secondsRemaining))) : duration;
+      var now = root.performance ? root.performance.now() : Date.now();
+      var elapsedInFlip = Math.min(duration, Math.max(0, duration - currentRemaining) + (current.timerPaused ? 0 : Math.max(0, now - canvas._stateUpdatedAt) / 1000));
+      var currentRevealDuration = Math.max(0, Number(current.imageRevealDurationSeconds) || 0);
+      var progress = currentRevealDuration > 0 ? Math.min(1, elapsedInFlip / currentRevealDuration) : Math.min(1, (currentFlip + elapsedInFlip / duration) / steps);
+      if (current.phase === "QUESTION_ACTIVE" || current.phase === "ANSWER_REVIEW") progress = Math.min(.999, progress);
+      if (progress >= 1) progress = 0.999;
+      context.clearRect(0, 0, canvas.width, canvas.height);
+      if (mode === "PIXELATE") {
+        var pixelLimit = Math.min(60, canvas.width), limitProgress = 0.65;
+        // Fewer source samples make the opening mosaic blocks visibly larger.
+        var pixelStart = Math.min(10, pixelLimit);
+        var pixelSpan = Math.max(1, canvas.width - pixelStart);
+        var revealTail = Math.max(0, (progress - limitProgress) / (1 - limitProgress));
+        var resolution = progress <= limitProgress
+          ? ((pixelLimit - pixelStart) * progress / limitProgress) / pixelSpan
+          : (pixelLimit - pixelStart + (canvas.width - pixelLimit) * (0.1 * revealTail + 0.9 * Math.pow(revealTail, 2.5))) / pixelSpan;
+        var pixelWidth = Math.max(pixelStart, Math.min(canvas.width, Math.round(pixelStart + pixelSpan * resolution)));
+        // TV compositors can flash black when a large canvas is reallocated at
+        // display refresh rate. Resize the sample buffer in coarse increments.
+        pixelWidth = progress >= 1 ? canvas.width : Math.max(pixelStart, Math.floor(pixelWidth / 16) * 16);
+        // Reuse the tiny source buffer: allocating a canvas on every animation
+        // frame can exhaust older TV browser compositors and produce black tiles.
+        var small = canvas._pixelBuffer || (canvas._pixelBuffer = document.createElement("canvas"));
+        if (small.width !== pixelWidth) small.width = pixelWidth;
+        var smallHeight = Math.max(1, Math.round(pixelWidth * canvas.height / canvas.width));
+        if (small.height !== smallHeight) small.height = smallHeight;
+        var smallContext = small.getContext("2d");
+        if (!smallContext) return;
+        smallContext.imageSmoothingEnabled = true; smallContext.clearRect(0, 0, small.width, small.height);
+        smallContext.drawImage(image, 0, 0, small.width, small.height);
+        context.imageSmoothingEnabled = false; context.drawImage(small, 0, 0, canvas.width, canvas.height); context.imageSmoothingEnabled = true;
+      } else if (mode === "BLUR") {
+        context.filter = "blur(" + (Math.pow(1 - progress, 2.2) * 88 * canvas.width / 720) + "px)";
+        context.drawImage(image, 0, 0, canvas.width, canvas.height); context.filter = "none";
+      } else if (mode === "SHUFFLE") {
+        var mapping = initialShuffle.slice(), fixedCount = Math.floor(totalTiles * progress);
+        for (var j = 0; j < fixedCount; j++) {
+          var pair = fixSwaps[j], left = pair[0], right = pair[1];
+          if (left !== right) { var temp = mapping[left]; mapping[left] = mapping[right]; mapping[right] = temp; }
+        }
+        var sourceWidth = image.naturalWidth / tileCols, sourceHeight = image.naturalHeight / tileRows;
+        for (var cell = 0; cell < totalTiles; cell++) {
+          var source = mapping[cell];
+          context.drawImage(image, (source % tileCols) * sourceWidth, Math.floor(source / tileCols) * sourceHeight, sourceWidth + 1, sourceHeight + 1,
+            (cell % tileCols) * canvas.width / tileCols, Math.floor(cell / tileCols) * canvas.height / tileRows, canvas.width / tileCols + 0.5, canvas.height / tileRows + 0.5);
+        }
+      } else {
+        context.fillStyle = "#11111d"; context.fillRect(0, 0, canvas.width, canvas.height);
+        var count = Math.floor(totalTiles * progress);
+        for (var k = 0; k < count; k++) {
+          var tile = revealOrder[k], col = tile % tileCols, row = Math.floor(tile / tileCols);
+          var sx = Math.floor(col * image.naturalWidth / tileCols), sy = Math.floor(row * image.naturalHeight / tileRows);
+          context.drawImage(image, sx, sy, Math.ceil(image.naturalWidth / tileCols), Math.ceil(image.naturalHeight / tileRows),
+            Math.floor(col * canvas.width / tileCols), Math.floor(row * canvas.height / tileRows), Math.ceil(canvas.width / tileCols), Math.ceil(canvas.height / tileRows));
+        }
+      }
+      if (!canvas._stopped && !current.timerPaused && current.phase === "QUESTION_ACTIVE") canvas._animationFrame = root.requestAnimationFrame(draw);
+    }
+    canvas._draw = draw;
+    // Paint the initial obscured frame synchronously so the source image never
+    // flashes and the display never briefly shows a blank/black canvas.
+    draw();
   }
 
   function makeSoundPlayer(doc, options) {
@@ -95,15 +242,85 @@
         }
       };
     }
-    var queued=[],audio, origin = options.localAudio && root.location ? root.location.origin : null, control = doc.getElementById('tv-audio-control'), enabled = false, attempt = 0;
-    function stop() { queued=[];++attempt; if(buzzerSource){try{buzzerSource.stop();}catch(_){}buzzerSource=null;} if (audio) { audio.onended = null; if (audio.pause) audio.pause(); } }
+    var queued=[],audio, origin = options.localAudio && root.location ? root.location.origin : null, control = doc.getElementById('tv-audio-control'), enabled = !options.localAudio, attempt = 0, controlTimeout=null;
+    var anitraMusicUrl='/tv/music/anitra-dance.mp3';
+    var catMusicUrl='/tv/music/cat-theme.mp3';
+    var desiredMusic=null, activeMusicKey=null, musicCue=null, musicBed=null, musicToken=0, musicTimer=null, musicPaused=false;
+    var warmedAnitra=null;
+    if(root.Audio)try{warmedAnitra=new root.Audio(anitraMusicUrl);warmedAnitra.preload='auto';warmedAnitra.load();}catch(_){}
+    function fadeMusic(player,target,milliseconds,token,done) {
+      if(!player)return; var start=player.volume,begin=Date.now(),duration=Math.max(100,milliseconds);
+      function step(){if(token!==musicToken)return;var t=Math.min(1,(Date.now()-begin)/duration);player.volume=Math.max(0,Math.min(1,start+(target-start)*t));
+        if(t<1)root.requestAnimationFrame(step);else if(done)done();}
+      root.requestAnimationFrame(step);
+    }
+    function playMusicMedia(player,token){
+      try {
+        var playback=player.play();
+        if(playback&&playback.then)playback.then(function(){if(token!==musicToken)return;if(options.onAudioStatus)options.onAudioStatus('playing');if(controlTimeout){root.clearTimeout(controlTimeout);controlTimeout=null;}if(control)control.style.display='none';})
+          .catch(function(error){if(token===musicToken)report(error);});
+      } catch(error) { if(token===musicToken)report(error); }
+    }
+    function pauseMusic(){if(musicTimer){root.clearTimeout(musicTimer);musicTimer=null;}musicPaused=true;[musicCue,musicBed].forEach(function(player){if(player)player.pause();});}
+    function stopMusic(fadeMs){
+      var token=++musicToken;if(musicTimer){root.clearTimeout(musicTimer);musicTimer=null;}activeMusicKey=null;musicPaused=false;
+      [musicCue,musicBed].forEach(function(player){if(!player)return;if(fadeMs)fadeMusic(player,0,fadeMs,token,function(){player.pause();player.currentTime=0;if(musicCue===player)musicCue=null;if(musicBed===player)musicBed=null;});else{player.pause();player.currentTime=0;player.volume=0;if(musicCue===player)musicCue=null;if(musicBed===player)musicBed=null;}});
+    }
+    function startMusicBed(token){
+      if(token!==musicToken||!desiredMusic||desiredMusic.mode!=='GUESS_WHO')return;
+      var oldBed=musicBed,base=origin||(root.location&&root.location.origin)||'';musicBed=new root.Audio(base+catMusicUrl);musicBed.preload='auto';musicBed.volume=0;
+      musicBed.onerror=function(){if(token===musicToken)report({name:'MediaError',code:musicBed.error&&musicBed.error.code});};
+      playMusicMedia(musicBed,token);
+      fadeMusic(musicBed,.18,800,token);fadeMusic(musicCue,0,800,token,function(){if(musicCue){musicCue.pause();musicCue.currentTime=0;}});
+      if(oldBed&&oldBed!==musicBed)fadeMusic(oldBed,0,400,token,function(){oldBed.pause();oldBed.currentTime=0;});
+    }
+    function startMusic(request){
+      var token=++musicToken,oldCue=musicCue,oldBed=musicBed;if(musicTimer){root.clearTimeout(musicTimer);musicTimer=null;}
+      activeMusicKey=request.key;musicPaused=false;
+      if(request.mode==='IMAGE_GUESS_WHO'){
+        musicBed=null;musicCue=warmedAnitra||new root.Audio(anitraMusicUrl);warmedAnitra=null;musicCue.preload='auto';musicCue.currentTime=0;musicCue.volume=0;
+        musicCue.onerror=function(){if(token===musicToken)report({name:'MediaError',code:musicCue.error&&musicCue.error.code});};
+        playMusicMedia(musicCue,token);fadeMusic(musicCue,.26,650,token);
+        [oldCue,oldBed].forEach(function(player){if(player&&player!==musicCue)fadeMusic(player,0,650,token,function(){player.pause();player.currentTime=0;player.playbackRate=1;});});
+        musicTimer=root.setTimeout(function(){if(token===musicToken)fadeMusic(musicCue,0,850,token,function(){musicCue.pause();musicCue.currentTime=0;});},Math.max(0,(Math.max(.85,Number(request.duration)||32)-.85)*1000));
+        return;
+      }
+      musicCue=warmedAnitra||new root.Audio(anitraMusicUrl);warmedAnitra=null;musicCue.preload='auto';musicCue.volume=0;
+      musicCue.onerror=function(){if(token===musicToken)report({name:'MediaError',code:musicCue.error&&musicCue.error.code});};
+      playMusicMedia(musicCue,token);fadeMusic(musicCue,.26,650,token);
+      [oldCue,oldBed].forEach(function(player){if(player){if(request.speedUp)player.playbackRate=1.8;fadeMusic(player,0,request.speedUp?1000:650,token,function(){player.pause();player.currentTime=0;player.playbackRate=1;});}});
+      if(request.mode==='GUESS_WHO')musicTimer=root.setTimeout(function(){startMusicBed(token);},4125);
+      else musicTimer=root.setTimeout(function(){if(token===musicToken)fadeMusic(musicCue,0,850,token,function(){musicCue.pause();musicCue.currentTime=0;});},Math.max(500,(request.duration-.5)*1000));
+    }
+    function syncMusic(request){
+      desiredMusic=request;
+      if(!enabled)return;
+      if(!request||!request.mode){if(activeMusicKey)stopMusic(200);return;}
+      if(request.paused){if(!musicPaused)pauseMusic();return;}
+      if(activeMusicKey!==request.key){startMusic(request);return;}
+      if(musicPaused){musicPaused=false;[musicCue,musicBed].forEach(function(player){if(player&&!player.ended)playMusicMedia(player,musicToken);});
+        if(request.mode==='GUESS_WHO'&&!musicBed&&musicCue)musicTimer=root.setTimeout(function(){startMusicBed(musicToken);},Math.max(0,(4.125-musicCue.currentTime)*1000));
+        else if(request.mode==='IMAGE_GUESS_WHO'&&musicCue)musicTimer=root.setTimeout(function(){fadeMusic(musicCue,0,850,musicToken,function(){musicCue.pause();musicCue.currentTime=0;});},Math.max(0,(request.duration-musicCue.currentTime-.85)*1000));
+        else if(request.mode!=='GUESS_WHO'&&musicCue)musicTimer=root.setTimeout(function(){fadeMusic(musicCue,0,850,musicToken,function(){musicCue.pause();musicCue.currentTime=0;});},Math.max(500,(request.duration-musicCue.currentTime-.5)*1000));}
+    }
+    function stop() { queued=[];++attempt; if(buzzerSource){try{buzzerSource.stop();}catch(_){}buzzerSource=null;} if (audio) { audio.onended = null; if (audio.pause) audio.pause(); } stopMusic(350); }
     function report(error) {
-      enabled = false;
-      if (options.onAudioStatus) options.onAudioStatus(error && error.name === "NotAllowedError" ? "blocked" : "error");
+      var blocked = error && error.name === "NotAllowedError";
+      // A missing/temporarily unreachable file should not permanently disable
+      // all later music and answer cues. Only an autoplay block needs an
+      // explicit activation before playback can be retried.
+      if (blocked) enabled = false;
+      var mediaCode = error && Number(error.code);
+      var status = blocked ? "blocked" :
+        error && error.name === "NotSupportedError" || mediaCode === 4 ? "unsupported" :
+        mediaCode === 2 ? "network-error" : mediaCode === 3 ? "decode-error" : "error";
+      if (options.onAudioStatus) options.onAudioStatus(status);
       queued=[];
       if (!control) return;
       control.style.display = 'block';
       control.textContent = error && error.name !== 'NotAllowedError' ? 'Son indisponible · Réessayer' : 'Activer le son';
+      if(controlTimeout)root.clearTimeout(controlTimeout);
+      controlTimeout=blocked?null:root.setTimeout(function(){control.style.display='none';controlTimeout=null;},7000);
     }
     function play(file, remaining, continuing) {
       if (!root.Audio || !origin) { report({name:"AudioUnavailable"}); return; }
@@ -121,7 +338,7 @@
       audio.volume = 1;
       audio.preload = 'auto';
       var thisAttempt = ++attempt;
-      audio.onerror = function () { if (thisAttempt === attempt) report({name:"MediaError"}); };
+      audio.onerror = function () { if (thisAttempt === attempt) report({name:"MediaError",code:audio.error&&audio.error.code}); };
       audio.onended = function () {
         if (thisAttempt !== attempt) return;
         var next=(remaining||[]).concat(queued);queued=[];
@@ -133,9 +350,11 @@
           if (thisAttempt !== attempt) return;
           enabled = true;
           if (options.onAudioStatus) options.onAudioStatus("playing");
+          if(controlTimeout){root.clearTimeout(controlTimeout);controlTimeout=null;}
           if (control) control.style.display = 'none';
+          syncMusic(desiredMusic);
         }).catch(function (error) { if (thisAttempt === attempt) report(error); });
-        else { enabled = true; if (options.onAudioStatus) options.onAudioStatus('playing'); if (control) control.style.display = 'none'; }
+        else { enabled = true; if (options.onAudioStatus) options.onAudioStatus('playing'); if(controlTimeout){root.clearTimeout(controlTimeout);controlTimeout=null;} if (control) control.style.display = 'none'; syncMusic(desiredMusic); }
       } catch (error) { report(error); }
     }
     if (control) {
@@ -148,7 +367,7 @@
       setOrigin: function (joinUrl) {
         try { origin = options.localAudio && root.location ? root.location.origin : new URL(joinUrl).origin; } catch (_) {}
       },
-      play: play, playSequence: function (files) {
+      play: play, setMusic: syncMusic, playSequence: function (files) {
         if(!files.length || !debugOwner) return;
         if(audio && audio.paused===false && enabled) queued=queued.concat(files);
         else play(files[0],files.slice(1));
@@ -162,15 +381,17 @@
     var lastSoundRoom = null, lastSoundId = null;
     var lastBuzzerId = null, soundPlayer = makeSoundPlayer(doc,options);
     var lastPhase = null;
+    var allowedMediaOrigin = null;
     var feedbackTimeout, feedbackQuestion = null;
     var lastScene = "";
     var hourglass, topSand, bottomSand, sandStream, timerLabel;
     var lastTimerFlip = -1;
     var overlayGlass, overlayTop, overlayBottom, overlayStream, overlayLabel, overlayAnswer, overlayName;
-    var displayedQuestionId = null, questionOptions = [], answerSlot, answerText, promptNode, questionLayout, questionDetails;
+    var displayedQuestionId = null, displayedImageRevealStep = -1, displayedProgressiveImage = false, questionOptions = [], answerSlot, answerText, promptNode, questionLayout, questionDetails;
     var fitKey = '', layoutObserver;
     var scoreKey = '';
     var chronologyLines = [], chronologyPrompt = '', chronologyRevealed = false;
+    var progressiveClueList=null, pendingMusicKey=null, pendingMusicState=null, pendingMusicTimer=null, revealedMusicKey=null;
     function node(tag, text, className) {
       var element = doc.createElement(tag);
       if (text != null) element.textContent = String(text);
@@ -204,6 +425,21 @@
         element.appendChild(node('span', questionText(clue.replace(/^\d+\.\s*/, '')), 'clue-text'));
       });
     }
+    function updateProgressiveClues(details,prompt,count) {
+      var parts=(prompt||'').split(/\n+(?=\d+\.\s)/);
+      if(!promptNode)return;
+      promptNode.sourcePrompt=prompt;
+      promptNode.textContent=questionText(parts.shift()||'');
+      if(!progressiveClueList){
+        details.appendChild(node('p',count+" indices au total",'clue-count'));
+        progressiveClueList=node('div',null,'clue-list');details.appendChild(progressiveClueList);
+      } else {
+        var countNode=details.querySelector('.clue-count');
+        if(countNode)countNode.textContent=count+" indices au total";
+      }
+      clear(progressiveClueList);
+      parts.forEach(function(clue){progressiveClueList.appendChild(node('span',questionText(clue.replace(/^\d+\.\s*/,'')),'clue-text'));});
+    }
     // Older TV browsers may not support text-wrap: balance. Find the narrowest
     // text measure that retains the line count, leaving the surrounding panel fixed.
     function balanceLegacy(element) {
@@ -224,7 +460,10 @@
       var key = JSON.stringify([promptNode.sourcePrompt, answerText.textContent, questionLayout.clientWidth, questionLayout.clientHeight]);
       if (key === fitKey) return;
       fitKey = key;
-      var elements = Array.prototype.slice.call(questionDetails.querySelectorAll('h1, .clue-title, .clue-text, .options li, .chronology-line'));
+        var elements = Array.prototype.slice.call(questionDetails.querySelectorAll('h1, .clue-title, .clue-text, .options li, .chronology-line'));
+        // Image buzzer prompts are short and have a reserved row. Scaling them
+        // to fit answer text makes the prompt unexpectedly tiny.
+        if (questionLayout.classList.contains('image-buzzer')) elements = elements.filter(function (element) { return element !== promptNode; });
       elements.forEach(function (element) { element.style.fontSize = ''; element.style.width = ''; });
       var sizes = elements.map(function (element) { return parseFloat(root.getComputedStyle(element).fontSize); });
       function apply(scale) { elements.forEach(function (element, i) { element.style.fontSize = sizes[i] * scale + 'px'; }); }
@@ -288,8 +527,8 @@
       });
       return true;
     }
-    function visual(parent, question, reveal) {
-      var url = safeImageUrl(question.imageUrl);
+    function visual(parent, question, reveal, state) {
+      var url = safeImageUrl(question.imageUrl,root.location,allowedMediaOrigin);
       if (!url) {
         if (!Array.isArray(question.mapOptions) || !question.mapOptions.length) return;
         var offlineMap = node("div", null, "visual map-fallback");
@@ -306,10 +545,14 @@
       }
       var wrapper = node("div", null, "visual");
       var image = node("img");
+      var progressiveImage = ["PIXELATE", "BLUR", "SHUFFLE", "UNCOVER"].indexOf(question.imageRevealMode) >= 0 || state.inRoundMusicMode === "IMAGE_GUESS_WHO";
+      if (!reveal && progressiveImage) image.hidden = true;
       image.src = url;
       image.alt = "Question illustration";
       image.onerror = function () { wrapper.textContent = "Image unavailable"; };
+      image.onload = function () { applyImageReveal(wrapper, image, question, reveal, state); };
       wrapper.appendChild(image);
+      if (image.complete && image.naturalWidth) applyImageReveal(wrapper, image, question, reveal, state);
       var t = reveal && question.mapTarget;
       if (t) {
         var circle = t.type && t.type.indexOf("CenterRadius") >= 0;
@@ -330,7 +573,26 @@
     }
     function render(state) {
       soundPlayer.setOrigin(state.joinUrl);
+      var imageQuestion = state.question && (['PIXELATE','BLUR','SHUFFLE','UNCOVER'].indexOf(state.question.imageRevealMode) >= 0 || state.inRoundMusicMode === 'IMAGE_GUESS_WHO');
+      var mainPanel = doc.querySelector ? doc.querySelector('main') : null;
+      if (mainPanel) mainPanel.classList.toggle('image-question', !!imageQuestion);
+      try { allowedMediaOrigin = state.joinUrl ? new URL(state.joinUrl).origin : null; } catch (_) { allowedMediaOrigin = null; }
       soundPlayer.setVersion(state.audioBankVersion);
+      var musicMode=state.inRoundMusicMode||null;
+      if(state.answerSecondsRemaining!=null)musicMode=null;
+      var musicKey=musicMode==='GUESS_WHO'
+        ? state.roomId+'/'+(state.question&&state.question.id||state.round)+'/clue/'+state.flip
+        : musicMode==='IMAGE_GUESS_WHO' ? state.roomId+'/'+(state.question&&state.question.id||state.round)+'/image-theme'
+        : musicMode ? state.roomId+'/'+(state.question&&state.question.id||state.round)+'/thinking' : null;
+      soundPlayer.setMusic(musicMode?{mode:musicMode,key:musicKey,paused:!!state.timerPaused,duration:state.secondsPerFlip||32,speedUp:!!state.speedUpMusicForClueTransition}:null);
+      if(musicKey && pendingMusicKey===musicKey && pendingMusicTimer){pendingMusicState=state;return;}
+      if(musicKey && musicKey!==revealedMusicKey){
+        pendingMusicKey=musicKey;pendingMusicState=state;
+        if(pendingMusicTimer)root.clearTimeout(pendingMusicTimer);
+        pendingMusicTimer=root.setTimeout(function(){var latest=pendingMusicState,key=pendingMusicKey;pendingMusicTimer=null;pendingMusicState=null;pendingMusicKey=null;revealedMusicKey=key;if(latest)render(latest);},420);
+        return;
+      }
+      if(!musicKey){if(pendingMusicTimer)root.clearTimeout(pendingMusicTimer);pendingMusicTimer=null;pendingMusicKey=null;pendingMusicState=null;revealedMusicKey=null;}
       var feedback = doc.getElementById('answer-feedback');
       var feedbackKey = state.roomId + '/' + (state.question && state.question.id || state.round);
       if (lastSoundRoom !== state.roomId || feedbackQuestion !== feedbackKey || lastPhase !== state.phase && ['QUESTION_ACTIVE','ANSWER_REVIEW','REVEAL_ANSWER','ROUND_SUMMARY'].indexOf(state.phase)<0) {
@@ -391,10 +653,14 @@
         feedback.setAttribute('aria-label',state.answerSound === 'good' ? 'Bonne réponse' : 'Mauvaise réponse');
         feedback.style.display = 'flex';
         feedbackTimeout = root.setTimeout(function () { feedback.style.display = 'none'; },2200);
-        try {
-          var file = /^(good|bad)-\d{2}\.(wav|mp3)$/.test(state.answerSoundClip || '') && state.answerSoundClip.indexOf(state.answerSound + '-') === 0 ? state.answerSoundClip : state.answerSound + '.wav';
-          soundPlayer.playSequence(state.answerSoundClip === null ? [state.answerSound + '-ping.wav'] : [state.answerSound + '-ping.wav',file]);
-        } catch (_) {}
+        try { if(state.answerSoundPlaybackEnabled!==false) {
+          var classicalClip=state.answerSound==='good'?'aria-correct.wav':'variation15-incorrect.wav';
+          if(state.answerSoundClip===classicalClip) soundPlayer.playSequence([classicalClip]);
+          else {
+            var file = /^(good|bad)-\d{2,4}\.(wav|mp3)$/.test(state.answerSoundClip || '') && state.answerSoundClip.indexOf(state.answerSound + '-') === 0 ? state.answerSoundClip : state.answerSound + '.wav';
+            soundPlayer.playSequence(state.answerSoundClip === null ? [state.answerSound + '-ping.wav'] : [state.answerSound + '-ping.wav',file]);
+          }
+        }} catch (_) {}
       }
       lastSoundId = state.answerSoundId || 0;
       var categoryInfo = categoryPresentation(state);
@@ -482,6 +748,14 @@
       var qid = state.question && (state.question.id || state.question.imageUrl || "legacy-question");
       var reveal = ["REVEAL_ANSWER","ROUND_SUMMARY"].indexOf(state.phase)>=0;
       if (reveal && displayedQuestionId === qid && answerSlot) {
+        if (displayedProgressiveImage || state.question.imageRevealMode) {
+          var originalImage = questionLayout && questionLayout.querySelector(".visual img");
+          var imageMask = questionLayout && questionLayout.querySelector("canvas.progressive-image");
+          stopImageReveal(imageMask);
+          if (imageMask) imageMask.remove();
+          if (originalImage) originalImage.hidden = false;
+          displayedImageRevealStep = Math.max(0, Number(state.question.imageRevealSteps) - 1);
+        }
         var correct = state.question.answer;
         if (revealChronology(correct)) { fitLayout(); return; }
         if (questionOptions.length && (Number.isInteger(state.question.correctOptionIndex) || questionOptions.some(function (option) { return option.textContent === correct; }))) {
@@ -493,8 +767,19 @@
         fitLayout();
         return;
       }
+      if (displayedQuestionId === qid && questionLayout && (state.question.imageRevealMode || displayedProgressiveImage)) {
+        var revealImage = questionLayout.querySelector(".visual img");
+        if (revealImage) {
+          var revealState = state.phase === "QUESTION_ACTIVE" ? state : Object.assign({}, state, { timerPaused: true });
+          applyImageReveal(revealImage.parentNode, revealImage, state.question, false, revealState);
+          displayedImageRevealStep = state.question.imageRevealStep;
+        }
+      }
       if (active && displayedQuestionId === qid && promptNode) {
-        if (!chronologyLines.length && promptNode.sourcePrompt !== state.question.prompt) setPrompt(promptNode, state.question.prompt);
+        if (!chronologyLines.length && promptNode.sourcePrompt !== state.question.prompt) {
+          if(progressiveClueList)updateProgressiveClues(questionDetails,state.question.prompt,state.clueCount||0);
+          else setPrompt(promptNode, state.question.prompt);
+        }
         fitLayout();
         return;
       }
@@ -503,14 +788,16 @@
       if (sceneKey === lastScene) return;
       lastScene = sceneKey;
       var scene = doc.getElementById("scene");
+      Array.prototype.forEach.call(scene.querySelectorAll("canvas.progressive-image"), stopImageReveal);
       clear(scene);
       scene.className = state.phase === "WAGER_RESULTS" ? "wager-results-scene" : state.phase === "CATEGORY_INTRO" ? "category-intro-scene" : state.phase === "WAGER_OPEN" ? "wager-open-scene" : "";
       var categoryHash = Array.from(state.category || '').reduce(function (hash, character) { return (hash * 31 + character.charCodeAt(0)) | 0; }, 0);
       var categoryHue = ((categoryHash % 360) + 360) % 360;
       scene.style.background = ['CATEGORY_INTRO','WAGER_OPEN'].indexOf(state.phase) >= 0 ? 'linear-gradient(135deg,hsl(' + categoryHue + ',52%,25%),hsl(' + ((categoryHue + 35) % 360) + ',45%,13%))' : '';
       if (layoutObserver) layoutObserver.disconnect();
-      displayedQuestionId = null; questionOptions = []; answerSlot = null; answerText = null;
+      displayedQuestionId = null; displayedImageRevealStep = -1; displayedProgressiveImage = false; questionOptions = []; answerSlot = null; answerText = null;
       questionLayout = null; questionDetails = null; fitKey = '';
+      progressiveClueList=null;
       chronologyLines = []; chronologyRevealed = false;
       function categoryHeading() {
         var heading = node('h1', null, 'category-heading');
@@ -568,6 +855,7 @@
           scene.appendChild(node("p", (state.categoryQuestionCount || 0) + " questions", "category-count"));
           if (categoryInfo.types.length) scene.appendChild(node("p", categoryInfo.types.join(" · "), "category-types"));
           scene.appendChild(node("p", categoryInfo.mode, "category-mode"));
+          if (state.clueCount > 0) scene.appendChild(node("p", state.clueCount + " indices pour cette question", "clue-count"));
           break;
         case "QUESTION_ACTIVE":
         case "ANSWER_REVIEW":
@@ -576,14 +864,19 @@
           var question = state.question;
           if (question) {
             displayedQuestionId = qid;
-            var hasVisual = safeImageUrl(question.imageUrl) || question.mapOptions && question.mapOptions.length;
-            var imageBuzzer = hasVisual && (['BUZZER','WRITTEN'].indexOf(question.answerMode)>=0 || ['BUZZER','WRITTEN'].indexOf(state.categoryAnswerMode)>=0);
+            displayedImageRevealStep = question.imageRevealStep == null ? -1 : question.imageRevealStep;
+            displayedProgressiveImage = !!question.imageRevealMode || state.inRoundMusicMode === "IMAGE_GUESS_WHO";
+            var hasVisual = safeImageUrl(question.imageUrl,root.location,allowedMediaOrigin) || question.mapOptions && question.mapOptions.length;
+            var imageBuzzer = hasVisual && (question.imageRevealMode || ['BUZZER','WRITTEN'].indexOf(question.answerMode)>=0 || ['BUZZER','WRITTEN'].indexOf(state.categoryAnswerMode)>=0);
             var layout = node("div", null, hasVisual ? imageBuzzer ? "question-layout image-buzzer" : "question-layout with-visual" : "question-layout");
             var progressiveClues = /\n\n1\.\s/.test(question.prompt || "");
             var details = node("div", null, progressiveClues ? "question-details progressive-clues" : "question-details");
             var events = (question.prompt || '').split('\n').filter(function (line) { return /^\s*•/.test(line); });
             var chronology = events.length >= 2 && !question.options.length;
-            promptNode = node("h1"); setPrompt(promptNode, chronology ? question.prompt.split('\n')[0] : question.prompt); details.appendChild(promptNode);
+            promptNode = node("h1");
+            if(progressiveClues && state.clueCount>0) {
+              details.appendChild(promptNode);updateProgressiveClues(details,question.prompt,state.clueCount);
+            } else { setPrompt(promptNode, chronology ? question.prompt.split('\n')[0] : question.prompt); details.appendChild(promptNode); }
             if (chronology) {
               details.className += ' chronology-details';
               var eventList = node('div', null, 'chronology-events');
@@ -594,7 +887,7 @@
               details.appendChild(eventList);
             }
             if (hasVisual) {
-              var imagePanel = node("div", null, "image-panel"); visual(imagePanel, question, reveal); layout.appendChild(imagePanel);
+              var imagePanel = node("div", null, "image-panel"); visual(imagePanel, question, reveal, state); layout.appendChild(imagePanel);
             }
             if (question.options.length) {
               var list = choices(details, question.options);

@@ -1,6 +1,7 @@
 # Local configuration and IDE caches
 *.iml
 .gradle/
+/.gradle-task/
 .kotlin/
 .idea/
 /local.properties
@@ -29,4 +30,5 @@ __pycache__/
 !/build/*.ps1
 !/build/answer-reactions.json
 !/build/library-image-keys.json
+!/build/question-review-revisions-2026-10-24.json
 !/build/PLAYTEST-*.md

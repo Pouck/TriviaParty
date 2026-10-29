@@ -28,8 +28,7 @@
       "acceptableAnswers": [
         "Jules Verne"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-litterature-france-20261012/submarine.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-litterature-france-20261012-03",
@@ -41,7 +40,8 @@
       "acceptableAnswers": [
         "d’Artagnan"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "culture-qcm-francaise-personnages-20261010-01"
     },
     {
       "id": "lib-buzzer-litterature-france-20261012-04",
@@ -53,8 +53,7 @@
       "acceptableAnswers": [
         "Le Petit Prince"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-litterature-france-20261012/space.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-litterature-france-20261012-05",

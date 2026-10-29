@@ -18,7 +18,8 @@
         "La deuxième place",
         "2e"
       ],
-      "allowFuzzyMatch": false
+      "allowFuzzyMatch": false,
+      "conceptId": "lib-buzzer-devinettes-20261012-01"
     },
     {
       "id": "lib-buzzer-devinettes-20261012-02",

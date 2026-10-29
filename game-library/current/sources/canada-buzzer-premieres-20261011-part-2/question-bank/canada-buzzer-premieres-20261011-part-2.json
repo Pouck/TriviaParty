@@ -37,7 +37,8 @@
       "prompt": "Quelle hormone les travaux de Banting, Best, Macleod et Collip à Toronto permettent-ils d’utiliser contre le diabète ?",
       "acceptableAnswers": [
         "L’insuline"
-      ]
+      ],
+      "conceptId": "canada-buzzer-premieres-20261011-08"
     },
     {
       "kind": "textAnswer",

@@ -6,7 +6,8 @@
   const answer = (name, fields) => ({ type: answerPrefix + name, ...fields });
   const awaitingQuestion = state => ['LOBBY', 'SUBJECT_VOTING', 'CATEGORY_SELECT', 'CATEGORY_INTRO', 'WAGER_OPEN', 'WAGER_RESULTS'].includes(state.state);
   const hasChoices = state => ['multipleChoice', 'speedRace', 'mapChoice'].includes(state.currentQuestion?.type);
-  const usesBuzzer = state => state.currentCategoryAnswerMode!=='WRITTEN' && Boolean(state.currentQuestion) && state.currentQuestion.type !== 'ordering' && !hasChoices(state) &&
+  const isImageRevealQuestion = state => state.currentQuestion?.type === 'guessWho' && Boolean(state.currentQuestion.imageRevealMode) && state.currentQuestion.imageRevealMode !== 'NONE';
+  const usesBuzzer = state => isImageRevealQuestion(state) || state.currentCategoryAnswerMode!=='WRITTEN' && Boolean(state.currentQuestion) && state.currentQuestion.type !== 'ordering' && !hasChoices(state) &&
     (['textAnswer', 'guessWho'].includes(state.currentQuestion.type) || state.currentCategoryAnswerMode === 'BUZZER');
   function buzzerState(state, teamId, connected = true, pending = false) {
     if (!connected) return 'disconnected';
@@ -97,14 +98,27 @@
   const soundStatus = $('sound-status');
   const phoneSound = makePhoneSoundPlayer(global, (status, detail) => {
     soundButton.textContent = status === 'playing' ? 'Tester le son' : status === 'error' ? 'Réessayer le son' : 'Activer / tester le son';
-    soundStatus.textContent = status === 'playing' ? 'Son activé sur cet appareil' : status === 'error' ? 'Son indisponible — touchez Réessayer le son.' : status === 'blocked' ? 'Touchez le bouton pour autoriser le son.' : '';
+    soundStatus.textContent = status === 'error' ? 'Son indisponible — touchez Réessayer le son.' : status === 'blocked' ? 'Touchez le bouton pour autoriser le son.' : '';
     soundStatus.title = detail || '';
   });
-  soundButton.addEventListener('click', () => { phoneSound.prepare(state?.categoryBuzzerSound); phoneSound.play(); });
+  let activationChime;
+  soundButton.addEventListener('click', () => {
+    phoneSound.prepare(state?.categoryBuzzerSound);
+    phoneSound.unlock();
+    try {
+      if (!activationChime) { activationChime = new global.Audio('/tv/sounds/aria-correct.wav'); activationChime.preload = 'auto'; }
+      activationChime.volume = .42;
+      activationChime.currentTime = 0;
+      const playback = activationChime.play();
+      if (playback?.then) playback.then(() => { soundButton.textContent = 'Tester le son'; soundStatus.textContent = ''; })
+        .catch(() => { soundStatus.textContent = 'Touchez de nouveau pour activer le son.'; });
+      else { soundButton.textContent = 'Tester le son'; soundStatus.textContent = ''; }
+    } catch (_) { soundStatus.textContent = 'Touchez de nouveau pour activer le son.'; }
+  });
   document.addEventListener('pointerup', () => phoneSound.unlock(), true);
   document.addEventListener('touchend', () => phoneSound.unlock(), true);
   let socket, reconnectTimer, state, teamId = null, questionId = null, joined = false;
-  let joinRequested = false, waitingApproval = false, pendingLock = false, lastView = '';
+  let joinRequested = false, waitingApproval = false, pendingLock = false, lastView = '', playerId=null;
   let wakeLock;
   let orderQuestionId = null, orderedIds = [];
   let wagerQuestionId = null, wagerDraft = 0;
@@ -116,6 +130,8 @@
   try { identity = JSON.parse(sessionStorage.getItem(storageKey)); } catch (_) {}
   if (identity && roomFromLink && identity.roomId !== roomFromLink) identity = null;
   $('name').value = identity?.teamName || '';
+  $('player-name').value = identity?.playerName || '';
+  playerId=identity?.playerId||null;
   function persist() {
     try {
       if (identity) sessionStorage.setItem(storageKey, JSON.stringify(identity));
@@ -128,6 +144,10 @@
     return Array.from(bytes, value => value.toString(16).padStart(2, '0')).join('');
   }
   function online() { return socket?.readyState === 1; }
+  function updateJoinButton() {
+    $('join-button').disabled=!online()||!state||waitingApproval||!$('name').value.trim()||Boolean(state.teamMode&&!$('player-name').value.trim());
+  }
+  $('name').addEventListener('input',updateJoinButton);$('player-name').addEventListener('input',updateJoinButton);
   function send(message) {
     if (!online()) return false;
     socket.send(JSON.stringify(message));
@@ -166,16 +186,17 @@
         phoneSound.prepare(state.categoryBuzzerSound);
         if (identity && identity.roomId !== state.roomId) {
           identity = null; teamId = null; joined = false; waitingApproval = false; persist();
+          playerId=null;$('name').value='';$('player-name').value='';
           $('join-message').textContent = 'Une nouvelle partie a commencé. Rejoignez-la avec votre équipe.';
         }
-        if (identity && !joined && !waitingApproval) join();
+        if (identity && !joined && !waitingApproval && (!state.teamMode || identity.playerName)) join();
         if (state.currentQuestion?.id !== questionId || state.submissions?.[teamId]?.isLocked ||
             (state.buzzQueue || []).some(press => press.teamId === teamId) || state.state !== 'QUESTION_ACTIVE') pendingLock = false;
         render();
       } else if (data.type === eventPrefix + 'JoinResponse') {
         $('join-message').textContent = data.message;
         if (data.success) {
-          teamId = data.teamId; joined = true; waitingApproval = false; persist(); keepAwake();
+          teamId = data.teamId;playerId=data.playerId||null;if(identity)identity.playerId=playerId;joined = true; waitingApproval = false; persist(); keepAwake();
         } else {
           teamId = null;
           waitingApproval = Boolean(data.requiresHostApproval);
@@ -204,9 +225,9 @@
   $('join-form').addEventListener('submit', e => {
     e.preventDefault();
     phoneSound.unlock();
-    const teamName = $('name').value.trim(), roomId = state?.roomId;
-    if (!teamName || !roomId || !online()) return;
-    identity = { teamName, roomId, sessionToken: identity?.sessionToken || token() };
+    const teamName = $('name').value.trim(), playerName=$('player-name').value.trim(), roomId = state?.roomId;
+    if (!teamName || state?.teamMode && !playerName || !roomId || !online()) return;
+    identity = { teamName, playerName:state.teamMode?playerName:'', roomId, sessionToken: identity?.sessionToken || token() };
     persist(); waitingApproval = false; joinRequested = false;
     $('join-message').textContent = 'Connexion de votre équipe…';
     join();
@@ -226,7 +247,7 @@
   function lock() {
     if (!joined || !usesBuzzer(state) || pendingLock || buzzerState(state, teamId, online()) !== 'ready') return;
     if (send(event('LockAnswer', { teamId, questionId, answer: answer('TextSelection', { text: 'BUZZ' }) }))) {
-      phoneSound.play();
+      if (state.buzzerSoundsEnabled !== false) phoneSound.play();
       pendingLock = true; lastView = ''; render();
       setTimeout(() => { pendingLock = false; lastView = ''; render(); }, 1200);
     }
@@ -309,10 +330,12 @@
   function render() {
     $('join').hidden = Boolean(teamId);
     $('game').hidden = !teamId;
-    $('join-button').disabled = !online() || !state || waitingApproval;
+    $('player-name-field').hidden = !state?.teamMode;
+    $('player-name').required=Boolean(state?.teamMode);
+    updateJoinButton();
     if (!teamId || !state) return;
     const me = state.teams.find(team => team.id === teamId);
-    $('team').textContent = me?.name || identity?.teamName || '';
+    $('team').textContent = state.teamMode && identity?.playerName ? identity.playerName+' · '+(me?.name||identity.teamName) : me?.name || identity?.teamName || '';
     $('score').textContent = (me?.score || 0) + ' pts';
     questionId = state.currentQuestion?.id;
     if (state.currentQuestion?.type === 'ordering' && orderQuestionId !== questionId) {
@@ -323,23 +346,28 @@
         saved.every(id => items.some(item => item.id === id));
       orderedIds = valid ? saved.slice() : items.map(item => item.id);
     }
-    const status = buzzerState(state, teamId, online() && joined, pendingLock);
+    const claimOwner=state.answeringPlayerIds?.[teamId];
+    const status = state.teamMode && claimOwner && claimOwner!==playerId ? 'teammate' : buzzerState(state, teamId, online() && joined, pendingLock);
     const choiceMode = !awaitingQuestion(state) && hasChoices(state);
     const selectedIndex = state.submissions?.[teamId]?.answer?.optionIndex;
     const signature = JSON.stringify([status, questionId, state.state, state.currentQuestion?.type,
       state.currentCategoryAnswerMode, state.buzzActiveTeamId, state.buzzQueue, state.currentQuestion?.options, state.currentQuestion?.items, orderedIds, selectedIndex,
-      state.categoryWagerQuestionId, state.categoryWagerLimits?.[teamId], state.categoryWagers?.[teamId],
+      state.categoryWagerQuestionId, state.categoryWagerLimits?.[teamId], state.categoryWagers?.[teamId],state.categoryWagerProposals?.[teamId],
       state.state === 'GAME_ENDED' ? state.teams.map(team => [team.id, team.score]) : null,
       state.subjectVoting, voteDraft,state.questionReading,state.readingQuestionId,state.currentCategoryAnswerMode==='WRITTEN'?0:state.currentFlipNumber,state.readyTeamIds,
-      state.submissions?.[teamId]?.isLocked,state.submissions?.[teamId]?.isCorrect,state.submissions?.[teamId]?.answer?.text]);
+      state.submissions?.[teamId]?.isLocked,state.submissions?.[teamId]?.isCorrect,state.submissions?.[teamId]?.answer?.text,
+      state.teamMode&&claimOwner!==playerId?claimOwner:null]);
     if (signature === lastView) return;
     lastView = signature;
     const labels = {
+      teammate:'Un co\u00e9quipier r\u00e9pond d\u00e9j\u00e0',
       waiting: 'En attente', ready: 'À vous de jouer', pressed: 'Vous avez la parole',
       queued: 'Buzz enregistré · attendez votre tour', blocked: 'Une autre équipe répond', incorrect: 'Mauvaise réponse · désactivé',
       correct: 'Bonne réponse', ended: 'Partie terminée', disconnected: 'Reconnexion…'
     };
     const scene = $('scene'); scene.replaceChildren(); $('feedback').textContent = '';
+    if(status==='teammate'&&state.state==='QUESTION_ACTIVE'&&!state.questionReading)
+      scene.append(node('p','Un co\u00e9quipier r\u00e9pond d\u00e9j\u00e0 pour votre \u00e9quipe.','waiting-message'));
     if(state.questionReading && state.readingQuestionId) {
       const ready=(state.readyTeamIds||[]).includes(teamId);
       scene.append(node('h2','Lisez la question sur le téléviseur'));
@@ -352,7 +380,7 @@
       if(key!==writtenKey) {writtenKey=key;writtenDraft='';writtenSubmitted=false;}
       const own=state.submissions?.[teamId];
       if(writtenSubmitted && !own?.isLocked && state.state==='QUESTION_ACTIVE') writtenDraft='';
-      writtenSubmitted=Boolean(own?.isLocked);const submitted=own?.isLocked||pendingLock;const locked=submitted||state.state==='ANSWER_REVIEW';
+      writtenSubmitted=Boolean(own?.isLocked);const submitted=own?.isLocked||pendingLock;const locked=submitted||state.state==='ANSWER_REVIEW'||status==='teammate';
       scene.append(node('h2',own?.isCorrect===true?'Réponse acceptée':own?.isCorrect===false?'Réponse refusée':submitted?'Réponse envoyée':state.state==='ANSWER_REVIEW'?'Temps écoulé':'Votre réponse'));
       const input=node('input');input.type='text';input.maxLength=240;input.autocomplete='off';input.value=own?.answer?.text||writtenDraft;input.disabled=locked;input.setAttribute('aria-label','Votre réponse écrite');
       input.oninput=()=>{writtenDraft=input.value;submit.disabled=!writtenDraft.trim()||!online()||!joined;};
@@ -392,6 +420,28 @@
         return;
       }
       const locked = state.categoryWagers?.[teamId] != null;
+      const proposal=state.categoryWagerProposals?.[teamId];
+      if(state.teamMode&&locked) {
+        scene.append(node('h2','Mise approuv\u00e9e'));
+        scene.append(node('p',state.categoryWagers[teamId]+' pts · la majorit\u00e9 de votre \u00e9quipe a accept\u00e9 cette mise.','waiting-message'));
+        return;
+      }
+      if(state.teamMode&&proposal?.status==='PENDING') {
+        const eligible=proposal.eligiblePlayerIds||[],approved=proposal.approvedPlayerIds||[],rejected=proposal.rejectedPlayerIds||[];
+        const threshold=Math.floor(eligible.length/2)+1,voted=approved.includes(playerId)||rejected.includes(playerId);
+        scene.append(node('h2','Approbation de mise'));
+        scene.append(node('p','Proposition : '+proposal.amount+' pts. '+approved.length+'/'+threshold+' approbations requises.','wager-amount'));
+        if(proposal.proposerPlayerId===playerId)scene.append(node('p','En attente des votes de vos co\u00e9quipiers. Refus : '+rejected.length+'/'+eligible.length+'.','muted'));
+        else if(eligible.includes(playerId)) {
+          if(voted)scene.append(node('p','Votre vote est enregistr\u00e9. En attente des autres co\u00e9quipiers.','muted'));
+          else {
+            scene.append(button('APPROUVER',()=>send(event('VoteCategoryWager',{teamId,questionId:state.categoryWagerQuestionId,proposalId:proposal.id,approve:true})),'selected'));
+            scene.append(button('REFUSER',()=>send(event('VoteCategoryWager',{teamId,questionId:state.categoryWagerQuestionId,proposalId:proposal.id,approve:false})),'option'));
+          }
+        } else scene.append(node('p','Seuls les co\u00e9quipiers connect\u00e9s lors de la proposition peuvent voter.','muted'));
+        return;
+      }
+      if(state.teamMode&&proposal?.status==='REJECTED')scene.append(node('p','La proposition a \u00e9t\u00e9 refus\u00e9e. Vous pouvez en proposer une autre.','muted'));
       if (wagerQuestionId !== state.categoryWagerQuestionId) {
         wagerQuestionId = state.categoryWagerQuestionId; wagerDraft = 0;
       }
@@ -409,7 +459,7 @@
           amount: Number(slider.value) }))) { slider.disabled = true; lockButton.disabled = true; }
       };
       scene.append(output, slider, node('p', '0 — ' + limit + ' pts'));
-      const lockButton = button(locked ? 'MISE VERROUILLÉE' : 'VERROUILLER LA MISE', submit);
+      const lockButton = button(locked ? 'MISE VERROUILLÉE' : (state.teamMode ? 'PROPOSER LA MISE' : 'VERROUILLER LA MISE'), submit);
       lockButton.disabled = locked || !online() || !joined;
       scene.append(lockButton);
       scene.append(node('p', locked ? 'Mise confirmée' : 'Choisissez le montant, puis verrouillez votre mise.', 'muted'));

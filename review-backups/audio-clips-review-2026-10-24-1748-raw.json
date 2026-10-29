@@ -1,0 +1,4790 @@
+{
+  "sampler": "downloaded-clips-review-20261018",
+  "exportedAt": "2026-10-24T17:48:48.565Z",
+  "clips": [
+    {
+      "id": "downloaded-clips-20261016-001",
+      "number": 1,
+      "batch": "downloaded-clips-20261016",
+      "name": "12-ans-d-age-mental-et-encore-mon-petit-frere-a-9-ans-il-est-plus-evolue.wav",
+      "text": "12 ans d age mental et encore mon petit frere a 9 ans il est plus evolue",
+      "src": "../downloaded-clips-20261016/originals/001.wav",
+      "durationSeconds": 3.515,
+      "sha256": "c43d8aa18b689be0cce230f37d0bd2ee35ca80a73e02f54c22b8cff9de52335e",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-002",
+      "number": 2,
+      "batch": "downloaded-clips-20261016",
+      "name": "ah-bon-eh-bien-bravo-fyd.wav",
+      "text": "ah bon eh bien bravo fyd",
+      "src": "../downloaded-clips-20261016/originals/002.wav",
+      "durationSeconds": 2.417,
+      "sha256": "7e8b59cf772b64254e2311fd082758598c5aa5c1fbd40aea7a771be711bbaaec",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-003",
+      "number": 3,
+      "batch": "downloaded-clips-20261016",
+      "name": "ah-enfin-eh-ben-tu-en-as-mis-du-temps-hein.wav",
+      "text": "ah enfin eh ben tu en as mis du temps hein",
+      "src": "../downloaded-clips-20261016/originals/003.wav",
+      "durationSeconds": 5.395,
+      "sha256": "004685d3c3b2b5358698cb2b808be338d00c3a8afa2115837e39c974300c2249",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-004",
+      "number": 4,
+      "batch": "downloaded-clips-20261016",
+      "name": "ah-oui-ah-oui-ah-la-tu-es-fort.wav",
+      "text": "ah oui ah oui ah la tu es fort",
+      "src": "../downloaded-clips-20261016/originals/004.wav",
+      "durationSeconds": 3.201,
+      "sha256": "97c9110e72455fdd06cdd42f0eb67dfd444675458b83f531038aee5fb7c8f932",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-005",
+      "number": 5,
+      "batch": "downloaded-clips-20261016",
+      "name": "ah-que-ces-gens-sont-donc-assommants.wav",
+      "text": "ah que ces gens sont donc assommants",
+      "src": "../downloaded-clips-20261016/originals/005.wav",
+      "durationSeconds": 2.235,
+      "sha256": "b2e802db07df3f536169a735d16a23e7c87181824e6e6c9d38313d9c60df1870",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-006",
+      "number": 6,
+      "batch": "downloaded-clips-20261016",
+      "name": "alors-la-il-m'epate-il-m'epate-il-m'epate!.wav",
+      "text": "alors la il m'epate il m'epate il m'epate!",
+      "src": "../downloaded-clips-20261016/originals/006.wav",
+      "durationSeconds": 4.011,
+      "sha256": "1032d64583ed670f923cbcd3b10fd533230ea9c184b6dcd417d4341a54378d16",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-007",
+      "number": 7,
+      "batch": "downloaded-clips-20261016",
+      "name": "arretez-de-hocher-la-tete-ca-fait-deux-jours-que-vous-hochez-la-tete-ca-aussi-c-est-horripilant.wav",
+      "text": "arretez de hocher la tete ca fait deux jours que vous hochez la tete ca aussi c est horripilant",
+      "src": "../downloaded-clips-20261016/originals/007.wav",
+      "durationSeconds": 4.873,
+      "sha256": "577e50d60323db07fb9fc913ab9729e9055c7f143eacf82730c112b8c503de77",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-008",
+      "number": 8,
+      "batch": "downloaded-clips-20261016",
+      "name": "aucun-interet-tout-ca-non-mais-arrete-de-lire.wav",
+      "text": "aucun interet tout ca non mais arrete de lire",
+      "src": "../downloaded-clips-20261016/originals/008.wav",
+      "durationSeconds": 2.679,
+      "sha256": "577499cd3dad2f652a5c19b277ce96beac799ccc799736fa0b2321fcfadf1b1a",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-009",
+      "number": 9,
+      "batch": "downloaded-clips-20261016",
+      "name": "autrement-dit-professeur-vous-plaidez-les-circonstances-attenuantes.wav",
+      "text": "autrement dit professeur vous plaidez les circonstances attenuantes",
+      "src": "../downloaded-clips-20261016/originals/009.wav",
+      "durationSeconds": 4.324,
+      "sha256": "94f8982940001d2e444c4e3abb77e5a09ebce59291d954dd08d127900638ff38",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-010",
+      "number": 10,
+      "batch": "downloaded-clips-20261016",
+      "name": "azur-nos-betes-sont-bondees-d-un-cri-je-m-eveille-songeant-aux-fruits-noirs-de-l-anib-dans-un-cupule-verruqueuse-et-tronquee-saint-john-perse.wav",
+      "text": "azur nos betes sont bondees d un cri je m eveille songeant aux fruits noirs de l anib dans un cupule verruqueuse et tronquee saint john perse",
+      "src": "../downloaded-clips-20261016/originals/010.wav",
+      "durationSeconds": 10.672,
+      "sha256": "d893f003bb2617d246d8e2dfb84196092075f60ae8bf01dd6743d182cc98d2e2",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-011",
+      "number": 11,
+      "batch": "downloaded-clips-20261016",
+      "name": "bon-c-est-pas-un-monstre-non-plus-non-mais-plutot-quelque-chose-d-informe.wav",
+      "text": "bon c est pas un monstre non plus non mais plutot quelque chose d informe",
+      "src": "../downloaded-clips-20261016/originals/011.wav",
+      "durationSeconds": 4.429,
+      "sha256": "bf777caf3afc26e52597439d1d2c221737a105ee1c4b56c6cd88c4613166fa92",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-012",
+      "number": 12,
+      "batch": "downloaded-clips-20261016",
+      "name": "bon-et-ben-voila-c-est-pas-bien-mechant-tout-ca.wav",
+      "text": "bon et ben voila c est pas bien mechant tout ca",
+      "src": "../downloaded-clips-20261016/originals/012.wav",
+      "durationSeconds": 5.578,
+      "sha256": "dcb5a6d2aa0c7e29d83018892edec07ae382e6a2b355f1bc23aa11213cfa7642",
+      "review": {
+        "usage": "both",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-013",
+      "number": 13,
+      "batch": "downloaded-clips-20261016",
+      "name": "bon-on-reprend-a-zero-gz1.wav",
+      "text": "bon on reprend a zero gz1",
+      "src": "../downloaded-clips-20261016/originals/013.wav",
+      "durationSeconds": 2.417,
+      "sha256": "6012e95624311f1639531c1251e1841718bb50e51c92e6a2be36ff3516074b16",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-014",
+      "number": 14,
+      "batch": "downloaded-clips-20261016",
+      "name": "bravo-c-est-formidable-d-avoir-reussi-ca-non-il-suffit-d-avoir-une-petite-tronche-et-des-gros-bras.wav",
+      "text": "bravo c est formidable d avoir reussi ca non il suffit d avoir une petite tronche et des gros bras",
+      "src": "../downloaded-clips-20261016/originals/014.wav",
+      "durationSeconds": 7.929,
+      "sha256": "3d5555cbd1255471f2b3dc54fe7338cac649a3a8167c46f1f2cdbdb04215876a",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-015",
+      "number": 15,
+      "batch": "downloaded-clips-20261016",
+      "name": "bravo-mes-enfants!-pensez!-pensez!.wav",
+      "text": "bravo mes enfants! pensez! pensez!",
+      "src": "../downloaded-clips-20261016/originals/015.wav",
+      "durationSeconds": 5.996,
+      "sha256": "8cbf5704ffbf2121b0f64dead87978457e3e27eb0c6a324a2cbeac2e19f27fd1",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "bravo mes enfants pensez pensez"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-016",
+      "number": 16,
+      "batch": "downloaded-clips-20261016",
+      "name": "c'est-une-catastrophe-regardez-moi-ca!.wav",
+      "text": "c'est une catastrophe regardez moi ca!",
+      "src": "../downloaded-clips-20261016/originals/016.wav",
+      "durationSeconds": 5.97,
+      "sha256": "b80a34c8eff5f868803f64a4f28a9bdb6596a312185dea957741856b00b26ba9",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-017",
+      "number": 17,
+      "batch": "downloaded-clips-20261016",
+      "name": "c-est-a-dire-ix2.wav",
+      "text": "c est a dire ix2",
+      "src": "../downloaded-clips-20261016/originals/017.wav",
+      "durationSeconds": 1.581,
+      "sha256": "ff216d0b1eb09184ea785d9b2e387ae574879be38b613ec028ced2183ef63e36",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-018",
+      "number": 18,
+      "batch": "downloaded-clips-20261016",
+      "name": "c-est-bon-de-se-detendre-apres-l-effort.wav",
+      "text": "c est bon de se detendre apres l effort",
+      "src": "../downloaded-clips-20261016/originals/018.wav",
+      "durationSeconds": 2.156,
+      "sha256": "7d0da652d02ecf1114578a8070340decc68e81db717ce0faa24a18a9b8943d1e",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-019",
+      "number": 19,
+      "batch": "downloaded-clips-20261016",
+      "name": "c-est-pas-ce-qu-on-vous-demande-mon-toto.wav",
+      "text": "c est pas ce qu on vous demande mon toto",
+      "src": "../downloaded-clips-20261016/originals/019.wav",
+      "durationSeconds": 2.261,
+      "sha256": "0b7e696180f71a2d542c5a8f09e65845999c5a444b5c8c832ebfa54c4955bc47",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-020",
+      "number": 20,
+      "batch": "downloaded-clips-20261016",
+      "name": "c-est-pas-vrai-il-est-revenu.wav",
+      "text": "c est pas vrai il est revenu",
+      "src": "../downloaded-clips-20261016/originals/020.wav",
+      "durationSeconds": 3.462,
+      "sha256": "300a49005e9b0888f3c6e5dce1c2878ba73ef757704d6fed226a54924fb03cec",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-021",
+      "number": 21,
+      "batch": "downloaded-clips-20261016",
+      "name": "c-est-plus-simple-de-le-traiter-de-fou-n-est-ce-pas-ca-permet-de-fermer-les-yeux-sur-soi-meme-de-continuer-sa-petite-vie-sans-remords.wav",
+      "text": "c est plus simple de le traiter de fou n est ce pas ca permet de fermer les yeux sur soi meme de continuer sa petite vie sans remords",
+      "src": "../downloaded-clips-20261016/originals/021.wav",
+      "durationSeconds": 7.355,
+      "sha256": "dbb8fe4069314f87c78e4a523431e67d540996425b8cccbf512432833773c7b1",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-022",
+      "number": 22,
+      "batch": "downloaded-clips-20261016",
+      "name": "c-est-vrai-je-trouve-qu-il-y-a-un-vrai-bon-feeling-entre-nous-non.wav",
+      "text": "c est vrai je trouve qu il y a un vrai bon feeling entre nous non",
+      "src": "../downloaded-clips-20261016/originals/022.wav",
+      "durationSeconds": 2.652,
+      "sha256": "5ce4c2f886dfcc0c7c97c83f260a69b25eaef9ae062c06df18458ee096f443a4",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-023",
+      "number": 23,
+      "batch": "downloaded-clips-20261016",
+      "name": "ca-ne-veut-peut-etre-rien-dire.wav",
+      "text": "ca ne veut peut etre rien dire",
+      "src": "../downloaded-clips-20261016/originals/023.wav",
+      "durationSeconds": 2.522,
+      "sha256": "41e442d1e99ccec7f7c7da01a253ad09626c95e11b6c5c5317a930bc351c3a1d",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-024",
+      "number": 24,
+      "batch": "downloaded-clips-20261016",
+      "name": "ca-va-ca-va-ca-va-5b7.wav",
+      "text": "ca va ca va ca va 5b7",
+      "src": "../downloaded-clips-20261016/originals/024.wav",
+      "durationSeconds": 2.652,
+      "sha256": "0df092a03075b75487a8aba0bbb9c64a30e4cf1ea5d0ac70cdbdcafe8828b3a9",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-025",
+      "number": 25,
+      "batch": "downloaded-clips-20261016",
+      "name": "ca-va-pas-non-o17.wav",
+      "text": "ca va pas non o17",
+      "src": "../downloaded-clips-20261016/originals/025.wav",
+      "durationSeconds": 1.764,
+      "sha256": "fbffb2dee1e870c475fa8a596a1b717c9a4a75b385093ff989e13c6b6fe9810c",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-026",
+      "number": 26,
+      "batch": "downloaded-clips-20261016",
+      "name": "ca-vole-haut-avec-toi-rrw.wav",
+      "text": "ca vole haut avec toi rrw",
+      "src": "../downloaded-clips-20261016/originals/026.wav",
+      "durationSeconds": 1.999,
+      "sha256": "b1a17a6caebfed62c231541a1a3f99461546026d4a81a286a35a4b50215b9b6a",
+      "review": {
+        "usage": "both",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-027",
+      "number": 27,
+      "batch": "downloaded-clips-20261016",
+      "name": "comment-2-11c.wav",
+      "text": "comment 2 11c",
+      "src": "../downloaded-clips-20261016/originals/027.wav",
+      "durationSeconds": 1.164,
+      "sha256": "dca365eabf398c63c677a0014c58c5ed1ba59bfb918200733863c68317eabfa1",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-028",
+      "number": 28,
+      "batch": "downloaded-clips-20261016",
+      "name": "comment-yw1.wav",
+      "text": "comment yw1",
+      "src": "../downloaded-clips-20261016/originals/028.wav",
+      "durationSeconds": 1.164,
+      "sha256": "146924ec8fbfbbe0e4f6731a37de6c9f3b0bd786b2d470de8afdf265c48c3bac",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-029",
+      "number": 29,
+      "batch": "downloaded-clips-20261016",
+      "name": "dis-donc-c-est-incomprehensible-ce-truc-la-ouais-c-est-pas-facile-a-lire-si-l-autre-dingue-a-ete-jusqu-au-bout-ca-vaut-une-remise-de-peine.wav",
+      "text": "dis donc c est incomprehensible ce truc la ouais c est pas facile a lire si l autre dingue a ete jusqu au bout ca vaut une remise de peine",
+      "src": "../downloaded-clips-20261016/originals/029.wav",
+      "durationSeconds": 10.332,
+      "sha256": "b6ab7422c4ac2b06fe3998c9864e5163a9f2c8c9a7185f3f105b462670a0b641",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "dis donc c'est incompréhensible ce truc la"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-030",
+      "number": 30,
+      "batch": "downloaded-clips-20261016",
+      "name": "dis-donc-pendant-qu-on-y-est-dis-moi-comme-ca-tres-vite-qui-te-fournissait-la-drogue.wav",
+      "text": "dis donc pendant qu on y est dis moi comme ca tres vite qui te fournissait la drogue",
+      "src": "../downloaded-clips-20261016/originals/030.wav",
+      "durationSeconds": 6.336,
+      "sha256": "a255615b1fbe9f4933a1331bc73ca01d8520bfbf7965eea8916af4fae32a6cc5",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-031",
+      "number": 31,
+      "batch": "downloaded-clips-20261016",
+      "name": "dis-donc-toi!-a-partir-de-maintenant-tu-vas-arreter-l'alcool-hein!-compris (1).wav",
+      "text": "dis donc toi! a partir de maintenant tu vas arreter l'alcool hein! compris (1)",
+      "src": "../downloaded-clips-20261016/originals/031.wav",
+      "durationSeconds": 7.981,
+      "sha256": "0b0aa2c409ffd75e6cdf9b7458d1abc99bc1201ef0e003f422148c8cff6a5d1a",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "dis donc toi! a partir de maintenant tu vas arreter l'alcool hein! compris"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-032",
+      "number": 32,
+      "batch": "downloaded-clips-20261016",
+      "name": "disons-pour-un-moniteur-a-la-faculte-des-sciences-il-a-un-vocabulaire-plutot-limite.wav",
+      "text": "disons pour un moniteur a la faculte des sciences il a un vocabulaire plutot limite",
+      "src": "../downloaded-clips-20261016/originals/032.wav",
+      "durationSeconds": 5.709,
+      "sha256": "b2cfeec90068425f321039edb42423efa1e107d942430dee92eac017de33adf4",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "disons pour un moniteur a la faculte des sciences il a un vocabulaire plutot limite"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-033",
+      "number": 33,
+      "batch": "downloaded-clips-20261016",
+      "name": "ecoutez-je-vous-arrete-tout-de-suite-on-m-a-deja-fait-le-coup-a-l-armee.wav",
+      "text": "ecoutez je vous arrete tout de suite on m a deja fait le coup a l armee",
+      "src": "../downloaded-clips-20261016/originals/033.wav",
+      "durationSeconds": 3.097,
+      "sha256": "fa1877f17248218433436257f4a1ad20a73bfc3e1e0c2180764fe50f232bb552",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-034",
+      "number": 34,
+      "batch": "downloaded-clips-20261016",
+      "name": "eh-ben-tu-vois-on-te-doit-des-excuses-tu-avais-raison.wav",
+      "text": "eh ben tu vois on te doit des excuses tu avais raison",
+      "src": "../downloaded-clips-20261016/originals/034.wav",
+      "durationSeconds": 4.481,
+      "sha256": "c73c541e39d42bda0ea689df15e8eb67213b9ff0555b036de41fe7580fee2665",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-035",
+      "number": 35,
+      "batch": "downloaded-clips-20261016",
+      "name": "enfin-lui-il-a-rien-a-comprendre-c-est-un-pauvre-fou.wav",
+      "text": "enfin lui il a rien a comprendre c est un pauvre fou",
+      "src": "../downloaded-clips-20261016/originals/035.wav",
+      "durationSeconds": 3.462,
+      "sha256": "23e5187c5d44f8b45c349f4cdbd6cd465e1e40fd457b4f6ae2320bf051d7efaf",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-036",
+      "number": 36,
+      "batch": "downloaded-clips-20261016",
+      "name": "entre-deux-crises-nous-avons-affaire-a-un-individu-parfaitement-normal-un-homme-dans-la-foule.wav",
+      "text": "entre deux crises nous avons affaire a un individu parfaitement normal un homme dans la foule",
+      "src": "../downloaded-clips-20261016/originals/036.wav",
+      "durationSeconds": 6.205,
+      "sha256": "4dc361bf782833099f38c2fe5a7678e585f34a01afd8e17159ee4cd4b58cb35b",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-037",
+      "number": 37,
+      "batch": "downloaded-clips-20261016",
+      "name": "et-ben-voila-u3z.wav",
+      "text": "et ben voila u3z",
+      "src": "../downloaded-clips-20261016/originals/037.wav",
+      "durationSeconds": 2.208,
+      "sha256": "9151de11f8bc7711a684a956860f5d986501fd887c3e06da77ed6420ffdeb3ad",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-038",
+      "number": 38,
+      "batch": "downloaded-clips-20261016",
+      "name": "et-c-est-a-ce-moment-la-qu-on-dresse-devant-lui-une-barricade-de-notions-telles-que-l-indecence-la-honte-la-censure-le-peche-l-enfer-la-punition-la-reprobation-morale-etc-etc.wav",
+      "text": "et c est a ce moment la qu on dresse devant lui une barricade de notions telles que l indecence la honte la censure le peche l enfer la punition la reprobation morale etc etc",
+      "src": "../downloaded-clips-20261016/originals/038.wav",
+      "durationSeconds": 16.55,
+      "sha256": "4dcf2ba2613d0708ad3ca65afd5d0c41816ab89bbb6fed5d7d776fadad5313be",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-039",
+      "number": 39,
+      "batch": "downloaded-clips-20261016",
+      "name": "et-dans-la-nuit-epaisse-qui-tombe-maintenant-sur-cette-tour-ces-deux-lumieres-c-est-encore-un-espoir-de-vie.wav",
+      "text": "et dans la nuit epaisse qui tombe maintenant sur cette tour ces deux lumieres c est encore un espoir de vie",
+      "src": "../downloaded-clips-20261016/originals/039.wav",
+      "durationSeconds": 6.284,
+      "sha256": "4c2edd140dd322776bfea6b018412929887c80511a44899140a174dd8d44770c",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-040",
+      "number": 40,
+      "batch": "downloaded-clips-20261016",
+      "name": "et-qu-est-ce-que-c-est-que-ca.wav",
+      "text": "et qu est ce que c est que ca",
+      "src": "../downloaded-clips-20261016/originals/040.wav",
+      "durationSeconds": 2.47,
+      "sha256": "4fb1a2b1a80d5a061e85a32949f7c1c00ecfaaee3d05704ebf976761377ee1fa",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-041",
+      "number": 41,
+      "batch": "downloaded-clips-20261016",
+      "name": "et-vous-autres-pas-d-initiative-compris-personne-ne-bouge-sans-mon-ordre.wav",
+      "text": "et vous autres pas d initiative compris personne ne bouge sans mon ordre",
+      "src": "../downloaded-clips-20261016/originals/041.wav",
+      "durationSeconds": 3.593,
+      "sha256": "e55a7fba98577287262065368cb86afe03a597010eb499ad13becd9bbb16c308",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-042",
+      "number": 42,
+      "batch": "downloaded-clips-20261016",
+      "name": "excusez-moi-mais-je-trouve-ca-completement-debile.wav",
+      "text": "excusez moi mais je trouve ca completement debile",
+      "src": "../downloaded-clips-20261016/originals/042.wav",
+      "durationSeconds": 2.783,
+      "sha256": "43681d749c0ee55c105845693e3628854586a549859e814e31208f0f11a6f561",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-043",
+      "number": 43,
+      "batch": "downloaded-clips-20261016",
+      "name": "Habile-1 (1).mp3",
+      "text": "Habile 1 (1)",
+      "src": "../downloaded-clips-20261016/originals/043.mp3",
+      "durationSeconds": null,
+      "sha256": "cdb18b64755db20acc2e0489fa45c16f65acfd41014474ea8d4502b63c630c22",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-044",
+      "number": 44,
+      "batch": "downloaded-clips-20261016",
+      "name": "Habile-1.wav",
+      "text": "Habile 1",
+      "src": "../downloaded-clips-20261016/originals/044.wav",
+      "durationSeconds": 3.056,
+      "sha256": "8f8e03334f79c3722a66d76625c31efa5293a4de2efe53b302e86c1129537cb2",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-045",
+      "number": 45,
+      "batch": "downloaded-clips-20261016",
+      "name": "il-est-bien-difficile-de-prevoir-le-comportement-d-un-homme-au-cerveau-use-par-le-delire.wav",
+      "text": "il est bien difficile de prevoir le comportement d un homme au cerveau use par le delire",
+      "src": "../downloaded-clips-20261016/originals/045.wav",
+      "durationSeconds": 6.44,
+      "sha256": "b09a49e28b5fc59d5bb6677367409a2cd2f8d7d0226fb7760e8d16abe909c7fb",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-046",
+      "number": 46,
+      "batch": "downloaded-clips-20261016",
+      "name": "il-est-tres-limite-comme-type-c-est-un-gros-balourd-avec-un-petit-pois-dans-la-tete.wav",
+      "text": "il est tres limite comme type c est un gros balourd avec un petit pois dans la tete",
+      "src": "../downloaded-clips-20261016/originals/046.wav",
+      "durationSeconds": 3.436,
+      "sha256": "0da3bfaab38584b900b8e2eef0fdf33f954a0d4a885b2d093f6a3322e6580fe6",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-047",
+      "number": 47,
+      "batch": "downloaded-clips-20261016",
+      "name": "il-ne-l-a-pas-fait-expres-patron-d-accord.wav",
+      "text": "il ne l a pas fait expres patron d accord",
+      "src": "../downloaded-clips-20261016/originals/047.wav",
+      "durationSeconds": 4.403,
+      "sha256": "d2686d4737d10e78110f48b209ae7038269e9f510dbff10e3a4b0a24f73bffc0",
+      "review": {
+        "usage": "both",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-048",
+      "number": 48,
+      "batch": "downloaded-clips-20261016",
+      "name": "il-y-a-quelque-chose-qu-il-a-mal-digere-ou-quoi.wav",
+      "text": "il y a quelque chose qu il a mal digere ou quoi",
+      "src": "../downloaded-clips-20261016/originals/048.wav",
+      "durationSeconds": 3.175,
+      "sha256": "cc29df10487fa5ce887ce2c356ba5b135dbf56a6c33b9bb53c5941c5966ef0dc",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-049",
+      "number": 49,
+      "batch": "downloaded-clips-20261016",
+      "name": "j-avoue-que-je-ne-vous-suis-pas-du-tout.wav",
+      "text": "j avoue que je ne vous suis pas du tout",
+      "src": "../downloaded-clips-20261016/originals/049.wav",
+      "durationSeconds": 3.097,
+      "sha256": "31b7e7af76753630e6ee62c714b4afcc7c85aa116eb830a47f9cbc98853592fe",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-050",
+      "number": 50,
+      "batch": "downloaded-clips-20261016",
+      "name": "je-dis-heureusement-que-vous-n-avez-jamais-raconte-ca-a-personne-pourquoi-parce-que-c-est-consternant.wav",
+      "text": "je dis heureusement que vous n avez jamais raconte ca a personne pourquoi parce que c est consternant",
+      "src": "../downloaded-clips-20261016/originals/050.wav",
+      "durationSeconds": 7.929,
+      "sha256": "53838852fd46b084f8e102314a8be2f3dbdc16d8cdec726bba7caa2ccb6d923a",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-051",
+      "number": 51,
+      "batch": "downloaded-clips-20261016",
+      "name": "je-fais-de-la-reeducation-a-l-hopital-vous-en-avez-serieusement-besoin-venez-vous-allonger-ici.wav",
+      "text": "je fais de la reeducation a l hopital vous en avez serieusement besoin venez vous allonger ici",
+      "src": "../downloaded-clips-20261016/originals/051.wav",
+      "durationSeconds": 5.239,
+      "sha256": "63c3fb3110ea59e336221de558485db8abfdae1daeb1d2c6895b716be9d0d853",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "je fais de la reeducation a l hopital vous en avez serieusement besoin"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-052",
+      "number": 52,
+      "batch": "downloaded-clips-20261016",
+      "name": "je-m-attendais-a-tomber-sur-un-demeure-mais-a-ce-point-la.wav",
+      "text": "je m attendais a tomber sur un demeure mais a ce point la",
+      "src": "../downloaded-clips-20261016/originals/052.wav",
+      "durationSeconds": 5.421,
+      "sha256": "b66ed735fa9708b1db745f6833ece2d015e5714293f7b534abafeec77e119857",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-053",
+      "number": 53,
+      "batch": "downloaded-clips-20261016",
+      "name": "je-ne-comprends-pas-ce-qui-a-pu-se-passer-je-ne-comprends-pas.wav",
+      "text": "je ne comprends pas ce qui a pu se passer je ne comprends pas",
+      "src": "../downloaded-clips-20261016/originals/053.wav",
+      "durationSeconds": 9.079,
+      "sha256": "542b7419b385bd5df87395cd80877771383207ff3d7bb6492cd1e51b75fea45b",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-054",
+      "number": 54,
+      "batch": "downloaded-clips-20261016",
+      "name": "je-ne-comprends-pas-je-suis-bouleversee-il-etait-un-enfant-tres-doux-tres-gentil-il-ne-nous-a-donne-que-des-satisfactions-nous-avons-fait-bien-attention-a-ce-qu-il-n-ait-ni-mauvaise-frequentation-ni-mauvaise-lectur.wav",
+      "text": "je ne comprends pas je suis bouleversee il etait un enfant tres doux tres gentil il ne nous a donne que des satisfactions nous avons fait bien attention a ce qu il n ait ni mauvaise frequentation ni mauvaise lectur",
+      "src": "../downloaded-clips-20261016/originals/054.wav",
+      "durationSeconds": 17.464,
+      "sha256": "6afa1b6f2d5c90a4e20f661e2d7bcbdb6d67d0d5cd8d309006e9b0acbb6915a2",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-055",
+      "number": 55,
+      "batch": "downloaded-clips-20261016",
+      "name": "je-suis-fatigue-uxs.wav",
+      "text": "je suis fatigue uxs",
+      "src": "../downloaded-clips-20261016/originals/055.wav",
+      "durationSeconds": 2.208,
+      "sha256": "256a9a2dc75390248cb4cc6adcf8923ed52ce84105180fa4ac37e12f0d8c72b4",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-056",
+      "number": 56,
+      "batch": "downloaded-clips-20261016",
+      "name": "je-suis-fatiguee-moi-0x9.wav",
+      "text": "je suis fatiguee moi 0x9",
+      "src": "../downloaded-clips-20261016/originals/056.wav",
+      "durationSeconds": 2.47,
+      "sha256": "95ce459e6a9456cb1560e9a7a6ac16ff27a75243a069b0ca62121e7addf654a1",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-057",
+      "number": 57,
+      "batch": "downloaded-clips-20261016",
+      "name": "je-vais-en-reflechir-reflechis-c-est-ca.wav",
+      "text": "je vais en reflechir reflechis c est ca",
+      "src": "../downloaded-clips-20261016/originals/057.wav",
+      "durationSeconds": 5.056,
+      "sha256": "4ad8b23f6b658eede9486ac95ea1e51072d8963649b7bcc4ea8a499d925e8088",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-058",
+      "number": 58,
+      "batch": "downloaded-clips-20261016",
+      "name": "je-vais-te-souffler-pour-t-aider-un-peu.wav",
+      "text": "je vais te souffler pour t aider un peu",
+      "src": "../downloaded-clips-20261016/originals/058.wav",
+      "durationSeconds": 2.888,
+      "sha256": "8541ee3b9f23b03e2beea047259733c26ac1f9d3510f884aeacc686db9fccc41",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-059",
+      "number": 59,
+      "batch": "downloaded-clips-20261016",
+      "name": "je-vous-demande-de-retarder-l-execution-de-votre-plan.wav",
+      "text": "je vous demande de retarder l execution de votre plan",
+      "src": "../downloaded-clips-20261016/originals/059.wav",
+      "durationSeconds": 3.097,
+      "sha256": "99e54bc1f634b0cf14955a56a897f5d88adc55f2ef9ca7446339260ffb89cce1",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-060",
+      "number": 60,
+      "batch": "downloaded-clips-20261016",
+      "name": "je-vous-rappelle-que-vous-etes-sur-ecoute-et-que-nous-verifions-toutes-les-communications.wav",
+      "text": "je vous rappelle que vous etes sur ecoute et que nous verifions toutes les communications",
+      "src": "../downloaded-clips-20261016/originals/060.wav",
+      "durationSeconds": 4.037,
+      "sha256": "760de4a48c91e88621468ce43baa51dad56aef9ad8190c6ef6433bc9baee65ce",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-061",
+      "number": 61,
+      "batch": "downloaded-clips-20261016",
+      "name": "le-hold-up-de-la-banque-a-asnieres-ca-te-dit-quelque-chose.wav",
+      "text": "le hold up de la banque a asnieres ca te dit quelque chose",
+      "src": "../downloaded-clips-20261016/originals/061.wav",
+      "durationSeconds": 4.742,
+      "sha256": "5065e46e1a3fbbeaa00b50f8f2575de9bec790a8c9a4c2a9a6a5872387b2b357",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-062",
+      "number": 62,
+      "batch": "downloaded-clips-20261016",
+      "name": "mais-c-est-une-reponse-idiote.wav",
+      "text": "mais c est une reponse idiote",
+      "src": "../downloaded-clips-20261016/originals/062.wav",
+      "durationSeconds": 1.712,
+      "sha256": "f6f107e0918beaa36c631c78d7ba1001866e1285d6c0816de0749c3b271c792a",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-063",
+      "number": 63,
+      "batch": "downloaded-clips-20261016",
+      "name": "mais-ca-t-inquiete-pas-ce-type-c-est-un-foldingue-il-fait-joujou-et-j-ai-pas-de-temps-a-perdre-moi.wav",
+      "text": "mais ca t inquiete pas ce type c est un foldingue il fait joujou et j ai pas de temps a perdre moi",
+      "src": "../downloaded-clips-20261016/originals/063.wav",
+      "durationSeconds": 6.492,
+      "sha256": "04da9f9c366b7843ea72c2227a6be74240ee75eba966858ccb5139a266883515",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-064",
+      "number": 64,
+      "batch": "downloaded-clips-20261016",
+      "name": "mais-il-me-rend-la-vie-tellement-impossible-que-moi-j-ai-du-mal-a-lui-trouver-des-excuses.wav",
+      "text": "mais il me rend la vie tellement impossible que moi j ai du mal a lui trouver des excuses",
+      "src": "../downloaded-clips-20261016/originals/064.wav",
+      "durationSeconds": 3.462,
+      "sha256": "51c3a73fed47b00c57ad27def871dbc38ab94403119649067901c7b98abbdff5",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-065",
+      "number": 65,
+      "batch": "downloaded-clips-20261016",
+      "name": "merci-oui-merci-9wa.wav",
+      "text": "merci oui merci 9wa",
+      "src": "../downloaded-clips-20261016/originals/065.wav",
+      "durationSeconds": 3.671,
+      "sha256": "6d9d397160cba7b967c6eb9a475e5b7218c034242e75fb5bae0d20adfb610ce6",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-066",
+      "number": 66,
+      "batch": "downloaded-clips-20261016",
+      "name": "mon-dieu-vous-etes-malade-vous-devriez-vous-faire-soigner-vous-savez.wav",
+      "text": "mon dieu vous etes malade vous devriez vous faire soigner vous savez",
+      "src": "../downloaded-clips-20261016/originals/066.wav",
+      "durationSeconds": 5.291,
+      "sha256": "57ba279f569bf757b5e68048667dfa8b1566336b2faf5fdf62cbc46c200efc59",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-067",
+      "number": 67,
+      "batch": "downloaded-clips-20261016",
+      "name": "ne-m-interrompez-pas-je-vais-vous-expliquer-dans-le-detail-le-deroulement-des-operations.wav",
+      "text": "ne m interrompez pas je vais vous expliquer dans le detail le deroulement des operations",
+      "src": "../downloaded-clips-20261016/originals/067.wav",
+      "durationSeconds": 5.16,
+      "sha256": "00640cfa8e24cf9df8cc94b5dc808f56ccfa232a6aeb81dd5d06eed5f6259a37",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-068",
+      "number": 68,
+      "batch": "downloaded-clips-20261016",
+      "name": "ne-vous-en-faites-pas-vous-serez-rembourse.wav",
+      "text": "ne vous en faites pas vous serez rembourse",
+      "src": "../downloaded-clips-20261016/originals/068.wav",
+      "durationSeconds": 2.705,
+      "sha256": "7092b8fc11aea824d2c7f9e397f4dab03cf70ae65e676451db1a99764c64c1a9",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-069",
+      "number": 69,
+      "batch": "downloaded-clips-20261016",
+      "name": "ne-vous-inquietez-pas-madame-nous-avons-l-habitude-de-ce-genre-d-appels-ce-sont-des-detraques-ils-s-excitent-de-la-frayeur-qu-ils-provoquent.wav",
+      "text": "ne vous inquietez pas madame nous avons l habitude de ce genre d appels ce sont des detraques ils s excitent de la frayeur qu ils provoquent",
+      "src": "../downloaded-clips-20261016/originals/069.wav",
+      "durationSeconds": 7.981,
+      "sha256": "2e2ed517c0ff1a704b0e6cd7a6eed2e79c67ad2a836b7bced32d3486850f87d8",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-070",
+      "number": 70,
+      "batch": "downloaded-clips-20261016",
+      "name": "non-mais-la-vous-debloquez-completement-exactement-c-est-un-dement.wav",
+      "text": "non mais la vous debloquez completement exactement c est un dement",
+      "src": "../downloaded-clips-20261016/originals/070.wav",
+      "durationSeconds": 3.645,
+      "sha256": "d7aaaffc967d4aa60c0849ad2f7d8423518fe2ff23aab956b5ae4079d1215bc0",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-071",
+      "number": 71,
+      "batch": "downloaded-clips-20261016",
+      "name": "nous-avons-tout-verifie-oui.wav",
+      "text": "nous avons tout verifie oui",
+      "src": "../downloaded-clips-20261016/originals/071.wav",
+      "durationSeconds": 2.13,
+      "sha256": "ad34e24bc199026fc377b3a6e97673767bdb89fa75bb451cdedaf6db40b294b8",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-072",
+      "number": 72,
+      "batch": "downloaded-clips-20261016",
+      "name": "oh-triple-imbecile-oh-triple-alors-la.wav",
+      "text": "oh triple imbecile oh triple alors la",
+      "src": "../downloaded-clips-20261016/originals/072.wav",
+      "durationSeconds": 3.462,
+      "sha256": "aae5ae9174bb051e641cc9f996aed515adcde41f3f9a0aa37612cea5f5b5743a",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-073",
+      "number": 73,
+      "batch": "downloaded-clips-20261016",
+      "name": "oh-tu-ronronnes-mais-oui-tu-es-content-hein-ah-oui-tu-fais-surement-ronron.wav",
+      "text": "oh tu ronronnes mais oui tu es content hein ah oui tu fais surement ronron",
+      "src": "../downloaded-clips-20261016/originals/073.wav",
+      "durationSeconds": 7.642,
+      "sha256": "df2b8a6f232155ee200ce4519bbe478722377c915358496eb88f8c87f7f0b599",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-074",
+      "number": 74,
+      "batch": "downloaded-clips-20261016",
+      "name": "on-vous-derange-pas-j-espere.wav",
+      "text": "on vous derange pas j espere",
+      "src": "../downloaded-clips-20261016/originals/074.wav",
+      "durationSeconds": 2.391,
+      "sha256": "6ed407a91c888a3f5d7b62bfbdfba7ceda87edaacbe43b606fe66c292677ade4",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-075",
+      "number": 75,
+      "batch": "downloaded-clips-20261016",
+      "name": "oui-oui-merci-a-tout-a-l-heure.wav",
+      "text": "oui oui merci a tout a l heure",
+      "src": "../downloaded-clips-20261016/originals/075.wav",
+      "durationSeconds": 3.123,
+      "sha256": "44b84928b85ee143ac71f16e43474833b2b164e6c3eba2f2b392ca84f6000e16",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-076",
+      "number": 76,
+      "batch": "downloaded-clips-20261016",
+      "name": "pour-la-clarte-de-notre-propos-professeur-je-vous-propose-un-document.wav",
+      "text": "pour la clarte de notre propos professeur je vous propose un document",
+      "src": "../downloaded-clips-20261016/originals/076.wav",
+      "durationSeconds": 4.115,
+      "sha256": "4a5bda6e9e2251fad5f57a12585187e0373ec4986493f1c9e4fe4fde24c91109",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-077",
+      "number": 77,
+      "batch": "downloaded-clips-20261016",
+      "name": "pourquoi-un-malade-ah-ben-parce-que-ben-il-est-pas-normal-ce-type-c-est-evident.wav",
+      "text": "pourquoi un malade ah ben parce que ben il est pas normal ce type c est evident",
+      "src": "../downloaded-clips-20261016/originals/077.wav",
+      "durationSeconds": 7.276,
+      "sha256": "ac58e5ea272765d3c47677903bd07a250e60ce5655ca22d16d8b554b5520a179",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-078",
+      "number": 78,
+      "batch": "downloaded-clips-20261016",
+      "name": "qu-est-ce-que-c-est-que-cette-connerie.wav",
+      "text": "qu est ce que c est que cette connerie",
+      "src": "../downloaded-clips-20261016/originals/078.wav",
+      "durationSeconds": 1.921,
+      "sha256": "425eda22f111d679c8b8ba2e751e754caa0b19cb0aeb5c4c649137d8e83f588b",
+      "review": {
+        "usage": "incorrect",
+        "audience": "no",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-079",
+      "number": 79,
+      "batch": "downloaded-clips-20261016",
+      "name": "qu-est-ce-que-ca-veut-dire-ca.wav",
+      "text": "qu est ce que ca veut dire ca",
+      "src": "../downloaded-clips-20261016/originals/079.wav",
+      "durationSeconds": 1.895,
+      "sha256": "a85e14cfd2fc546fe440efe471efdc897857bbade0049affe128f83ae86f8830",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-080",
+      "number": 80,
+      "batch": "downloaded-clips-20261016",
+      "name": "quand-vous-aurez-corrige-votre-erreur-je-vous-dirai-mes-conditions.wav",
+      "text": "quand vous aurez corrige votre erreur je vous dirai mes conditions",
+      "src": "../downloaded-clips-20261016/originals/080.wav",
+      "durationSeconds": 4.507,
+      "sha256": "3c38b79c496a707d505eda0b03deee595db9a940ca2d7066e81bfe9c8a470752",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-081",
+      "number": 81,
+      "batch": "downloaded-clips-20261016",
+      "name": "qui-vous-dit-qu-il-a-une-destination.wav",
+      "text": "qui vous dit qu il a une destination",
+      "src": "../downloaded-clips-20261016/originals/081.wav",
+      "durationSeconds": 2.104,
+      "sha256": "d1aa0992c1b46bedd38832264da1d99fb444040477c4faf33985e01b00d60f43",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-082",
+      "number": 82,
+      "batch": "downloaded-clips-20261016",
+      "name": "t-es-sur-qu-ils-s-y-connait-ton-mec-bien-sur-ils-s-y-connait-empiriquement-mais-ils-s-y-connait.wav",
+      "text": "t es sur qu ils s y connait ton mec bien sur ils s y connait empiriquement mais ils s y connait",
+      "src": "../downloaded-clips-20261016/originals/082.wav",
+      "durationSeconds": 5.343,
+      "sha256": "28d6f65aa6c41f8e8e3ff4e11c5f4d0c19c6215883daca6bb774fa0cb3865598",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-083",
+      "number": 83,
+      "batch": "downloaded-clips-20261016",
+      "name": "tres-bien-bav.wav",
+      "text": "tres bien bav",
+      "src": "../downloaded-clips-20261016/originals/083.wav",
+      "durationSeconds": 1.242,
+      "sha256": "052ce4371810d7556f58eba329d3bd2ae250c1e7e9664fc060409c441ff34123",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-084",
+      "number": 84,
+      "batch": "downloaded-clips-20261016",
+      "name": "vous-avez-pu-lui-parler-oui-alors-qu-est-ce-qu-il-veut-exactement-il-dit-qu-il-a-besoin-de-reflechir.wav",
+      "text": "vous avez pu lui parler oui alors qu est ce qu il veut exactement il dit qu il a besoin de reflechir",
+      "src": "../downloaded-clips-20261016/originals/084.wav",
+      "durationSeconds": 6.832,
+      "sha256": "a015ec8f378006275ce0f4f4e891d2c574565a2175f0bab096669ee72c4a6972",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-085",
+      "number": 85,
+      "batch": "downloaded-clips-20261016",
+      "name": "vous-debutez-dans-le-metier-c'est-pas-possible!.wav",
+      "text": "vous debutez dans le metier c'est pas possible!",
+      "src": "../downloaded-clips-20261016/originals/085.wav",
+      "durationSeconds": 4.977,
+      "sha256": "1ee502ac28203176c7420716fcc1d52cef690d756464f197af94225d6743ed02",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-086",
+      "number": 86,
+      "batch": "downloaded-clips-20261016",
+      "name": "vous-etes-content-gjw.wav",
+      "text": "vous etes content gjw",
+      "src": "../downloaded-clips-20261016/originals/086.wav",
+      "durationSeconds": 1.79,
+      "sha256": "f2067c048eccc6a1a4cf77c6ce2e292b673dae4e74cf1602a9eb922909df7478",
+      "review": {
+        "usage": "both",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-087",
+      "number": 87,
+      "batch": "downloaded-clips-20261016",
+      "name": "vous-etes-des-echappes-de-l-asile-vous-avez-etrangle-les-medecins-qui-vous-soignaient-et-vous-avez-pris-leur-places.wav",
+      "text": "vous etes des echappes de l asile vous avez etrangle les medecins qui vous soignaient et vous avez pris leur places",
+      "src": "../downloaded-clips-20261016/originals/087.wav",
+      "durationSeconds": 5.056,
+      "sha256": "6d498e6c032c5540940b65db6cb2e3abfcfb62d9c504a4df539c91909476a5aa",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-088",
+      "number": 88,
+      "batch": "downloaded-clips-20261016",
+      "name": "vous-etes-pas-tres-evoluee-mais-vous-c-est-pas-mal-non-plus.wav",
+      "text": "vous etes pas tres evoluee mais vous c est pas mal non plus",
+      "src": "../downloaded-clips-20261016/originals/088.wav",
+      "durationSeconds": 2.861,
+      "sha256": "51e7e5d339dff566c413dc5e0ca183632faf836cbec31bbfd9b9ec21bb3ac3d7",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-089",
+      "number": 89,
+      "batch": "downloaded-clips-20261016",
+      "name": "vous-etes-sur-ca-fait-deux-jours-et-une-nuit-qu-on-est-la-dessus-y-a-pas-l-hombre-d-un-doute-merci.wav",
+      "text": "vous etes sur ca fait deux jours et une nuit qu on est la dessus y a pas l hombre d un doute merci",
+      "src": "../downloaded-clips-20261016/originals/089.wav",
+      "durationSeconds": 6.649,
+      "sha256": "5ed2f907969fa6972f6653e9610d413c0755e3863d799ae6d9a0df8f287f837d",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-090",
+      "number": 90,
+      "batch": "downloaded-clips-20261016",
+      "name": "vous-ne-trouvez-pas-que-vous-en-faites-un-peu-trop-dans-le-style-petite-tronche-et-gros-bras-rien-dans-la-tete-tout-dans-les-muscles.wav",
+      "text": "vous ne trouvez pas que vous en faites un peu trop dans le style petite tronche et gros bras rien dans la tete tout dans les muscles",
+      "src": "../downloaded-clips-20261016/originals/090.wav",
+      "durationSeconds": 6.571,
+      "sha256": "d80da9e01024718053c796b1a9364bb052d195795886d06bd01aa2568e74af20",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-091",
+      "number": 91,
+      "batch": "downloaded-clips-20261016",
+      "name": "y-a-un-truc-qui-m-avait-frappe-une-image.wav",
+      "text": "y a un truc qui m avait frappe une image",
+      "src": "../downloaded-clips-20261016/originals/091.wav",
+      "durationSeconds": 3.724,
+      "sha256": "14fa8fca1982cce9d75311831b70e0dd25462b2ca13aa85effb31a702ed15e5a",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-001",
+      "number": 92,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "admirable-sa-voix-est-limpide-comme-du-cristal-elle-a-brise-mes-flutes.wav",
+      "text": "admirable sa voix est limpide comme du cristal elle a brise mes flutes",
+      "src": "../downloaded-clips-20261016-batch2/originals/001.wav",
+      "durationSeconds": 8.008,
+      "sha256": "fcbfea6e1050599e549a54b44edcddabfccc527a3245c25d6829b9de1ecd2751",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-002",
+      "number": 93,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ah-ben-alors!-il-tire-en-biais-c'pistolet!-pfou!.wav",
+      "text": "ah ben alors! il tire en biais c'pistolet! pfou!",
+      "src": "../downloaded-clips-20261016-batch2/originals/002.wav",
+      "durationSeconds": 5.996,
+      "sha256": "58c6cb66c3328f927b320c85fab951c7611192c80704f03c716f4b230a06e1f4",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-003",
+      "number": 94,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ah-chico-le-petit-heros-qui-ne-boit-pas-qui-ne-fume-pas-un-vrai-petit-heros-quoi.wav",
+      "text": "ah chico le petit heros qui ne boit pas qui ne fume pas un vrai petit heros quoi",
+      "src": "../downloaded-clips-20261016-batch2/originals/003.wav",
+      "durationSeconds": 15.479,
+      "sha256": "827cada0165a0372e57efe1cff918c91dbbc95805272e1fe786c85186195006a",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-004",
+      "number": 95,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ah-l'ecole!-sans-cette-noble-institution-que-deviendrait-ce-monde-plein-d'ignorance.wav",
+      "text": "ah l'ecole! sans cette noble institution que deviendrait ce monde plein d'ignorance",
+      "src": "../downloaded-clips-20261016-batch2/originals/004.wav",
+      "durationSeconds": 9,
+      "sha256": "d283451a4498cb992145246fc24125a69c3de5802a0be77dd208a579bc590222",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-005",
+      "number": 96,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ah-ma-tante-je-meurs-de-honte-je-meurs-je-vais-me-sauver-je-me-sauve-recois-les-a-ma-place-adieu-messieurs-adieu.wav",
+      "text": "ah ma tante je meurs de honte je meurs je vais me sauver je me sauve recois les a ma place adieu messieurs adieu",
+      "src": "../downloaded-clips-20261016-batch2/originals/005.wav",
+      "durationSeconds": 13.937,
+      "sha256": "72b497cdcb00111815638c99eba05faa64ddb402592d4c3bfce5a3f34b7edc25",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-006",
+      "number": 97,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ah-meditez-cet-exemple-messieurs-il-faut-savoir-tenter-l-impossible-pour-aller-loin (1).wav",
+      "text": "ah meditez cet exemple messieurs il faut savoir tenter l impossible pour aller loin (1)",
+      "src": "../downloaded-clips-20261016-batch2/originals/006.wav",
+      "durationSeconds": 9.314,
+      "sha256": "7d30ffae9ec390f3b23204a99d1e34f7d95ccfe495b7abe29bb92835ab6a8a70",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-007",
+      "number": 98,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ah-mon-ami-ah-mon-ami-je-te-suis-reconnaissant-je-mesure-actuellement-le-service-que-tu-m-as-rendu-un-pere-n-aurait-pas-mieux-agi-et-je-sais-que-c-est-par-pure-amitie.wav",
+      "text": "ah mon ami ah mon ami je te suis reconnaissant je mesure actuellement le service que tu m as rendu un pere n aurait pas mieux agi et je sais que c est par pure amitie",
+      "src": "../downloaded-clips-20261016-batch2/originals/007.wav",
+      "durationSeconds": 10.515,
+      "sha256": "b9afe26b1a46b4469ea220b4397e5581eb03d1c48ac808e2068203eabafe5d45",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-008",
+      "number": 99,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ah-oui-ca-c-est-terrible-de-travailler-trop-moi-je-travaille-tres-peu-justement-a-cause-de-ca.wav",
+      "text": "ah oui ca c est terrible de travailler trop moi je travaille tres peu justement a cause de ca",
+      "src": "../downloaded-clips-20261016-batch2/originals/008.wav",
+      "durationSeconds": 4.559,
+      "sha256": "94dce676e2574683ea49866ecc032c3c324287d44c084587c091bb91f4dcb73a",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-009",
+      "number": 100,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "allez-allez-a-la-guillotine!-allez-allez!-pas-de-rouspetance!.wav",
+      "text": "allez allez a la guillotine! allez allez! pas de rouspetance!",
+      "src": "../downloaded-clips-20261016-batch2/originals/009.wav",
+      "durationSeconds": 5.004,
+      "sha256": "333595f4fdd7922710f93fdda3d1dc8b3fb09d3b89b59943b93e512070df61e1",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-010",
+      "number": 101,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "allez-depeche-toi-de-nous-dire-ce-qu-il-y-a-dans-ce-livre-desolee-je-n-y-comprends-rien-du-tout.wav",
+      "text": "allez depeche toi de nous dire ce qu il y a dans ce livre desolee je n y comprends rien du tout",
+      "src": "../downloaded-clips-20261016-batch2/originals/010.wav",
+      "durationSeconds": 9.314,
+      "sha256": "48798cc70ac0ab8bd217db3feef58b704599cedd4f82d0dfda6f8fc0a2bf81c9",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "desolee je n y comprends rien du tout"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-011",
+      "number": 102,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "allez-savoir-s-il-n-a-pas-pris-des-anabolisants-hein.wav",
+      "text": "allez savoir s il n a pas pris des anabolisants hein",
+      "src": "../downloaded-clips-20261016-batch2/originals/011.wav",
+      "durationSeconds": 4.586,
+      "sha256": "c6be2f63001202fdc6860d5a49d48866af8f7452f26395865259b6e4d43d0de2",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-012",
+      "number": 103,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "alors-justement-pour-reussir-nous-aurons-bien-besoin-d-un-miracle-allez-hop.wav",
+      "text": "alors justement pour reussir nous aurons bien besoin d un miracle allez hop",
+      "src": "../downloaded-clips-20261016-batch2/originals/012.wav",
+      "durationSeconds": 3.932,
+      "sha256": "ebce393d584530c1231f88f4cd0b6573cb9f91a53da0968c215dcbb3cf35bde0",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-013",
+      "number": 104,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "Alors-mon-ptit-pote-Questce-tu-veux-faire-pour-ton-avenir-Hein-Medecin-Tes-malade.wav",
+      "text": "Alors mon ptit pote Questce tu veux faire pour ton avenir Hein Medecin Tes malade",
+      "src": "../downloaded-clips-20261016-batch2/originals/013.wav",
+      "durationSeconds": 12.356,
+      "sha256": "a71e130958d849bf89fa35d27ad9c580171b5a249217c73946ebb05dcc11d4b0",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-014",
+      "number": 105,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "alors-notre-specialite-toujours-d-apres-moi-ca-serait-d-etre-les-specialistes-de-la-clarte-dans-la-confusion.wav",
+      "text": "alors notre specialite toujours d apres moi ca serait d etre les specialistes de la clarte dans la confusion",
+      "src": "../downloaded-clips-20261016-batch2/originals/014.wav",
+      "durationSeconds": 8.608,
+      "sha256": "b3812cf1dad2c7234d4d9e66718347e600a032a081a8dff4eaae607d838aaffb",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-015",
+      "number": 106,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "alors-taisez-vous-bande-d'incapables!.wav",
+      "text": "alors taisez vous bande d'incapables!",
+      "src": "../downloaded-clips-20261016-batch2/originals/015.wav",
+      "durationSeconds": 5.004,
+      "sha256": "fbdefa902bba9c4c031157ec75c44f864f040feff7731fa5ba8a81e1d0224664",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-016",
+      "number": 107,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "amigo-c-etait-la-seule-reponse-que-tu-pouvais-donner.wav",
+      "text": "amigo c etait la seule reponse que tu pouvais donner",
+      "src": "../downloaded-clips-20261016-batch2/originals/016.wav",
+      "durationSeconds": 6.127,
+      "sha256": "f8058011fe7047ecc6415ff6566b11915455ddf3ea1956116680aa7847dae572",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-017",
+      "number": 108,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "arretez-de-parler-ca-va-vous-fatiguer-merci.wav",
+      "text": "arretez de parler ca va vous fatiguer merci",
+      "src": "../downloaded-clips-20261016-batch2/originals/017.wav",
+      "durationSeconds": 3.671,
+      "sha256": "84de41ff774bdde46cd9e1187f2a33374bc31cf00a67f2d77edfe4963c535a93",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "arretez de parler ca va vous fatiguer"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-018",
+      "number": 109,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "assieds-toi-ma-cherie-et-ne-parle-pas-tout-le-temps.wav",
+      "text": "assieds toi ma cherie et ne parle pas tout le temps",
+      "src": "../downloaded-clips-20261016-batch2/originals/018.wav",
+      "durationSeconds": 2.731,
+      "sha256": "d25dd937d0dda15a5d51ed26a149105d2f98393cf8b315181621738ed53776db",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-019",
+      "number": 110,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "au-canot-de-sauvetage-mille-sabords-nous-avons-heurte-un-recif.wav",
+      "text": "au canot de sauvetage mille sabords nous avons heurte un recif",
+      "src": "../downloaded-clips-20261016-batch2/originals/019.wav",
+      "durationSeconds": 4.037,
+      "sha256": "38c919f86980bb86f027efb4f7877746a0a529319a8e8f58125bbab87bfdf9b0",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-020",
+      "number": 111,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "au-fond-qu'est-ce-que-ca-peut-faire-qu'on-travaille-pas!-nous-representons-une-goutte-de-paresse-dans-un-ocean-de-labeur.wav",
+      "text": "au fond qu'est ce que ca peut faire qu'on travaille pas! nous representons une goutte de paresse dans un ocean de labeur",
+      "src": "../downloaded-clips-20261016-batch2/originals/020.wav",
+      "durationSeconds": 8.974,
+      "sha256": "451b9113a448716da957d1c6ff9c7e5a459eaa6f05a8ccbbb59365e26b83e3f1",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-021",
+      "number": 112,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "au-joug-depuis-longtemps-ils-se-sont-faconnes-ils-adorent-la-main-qui-les-tient-enchaines.wav",
+      "text": "au joug depuis longtemps ils se sont faconnes ils adorent la main qui les tient enchaines",
+      "src": "../downloaded-clips-20261016-batch2/originals/021.wav",
+      "durationSeconds": 9.627,
+      "sha256": "b71b3a5e939f8e0f0d6e0bdc57dd234821ee628f717cb016175d93366d8852c7",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-022",
+      "number": 113,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "au-secours-je-dirais-meme-plus-au-secours-au-secours-au-secours.wav",
+      "text": "au secours je dirais meme plus au secours au secours au secours",
+      "src": "../downloaded-clips-20261016-batch2/originals/022.wav",
+      "durationSeconds": 7.929,
+      "sha256": "8fe59de5ae8fa8cc75ec2f418601a91b70a461bd667aff118ecdfd00c03fca02",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-023",
+      "number": 114,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "Au-travail-!.wav",
+      "text": "Au travail !",
+      "src": "../downloaded-clips-20261016-batch2/originals/023.wav",
+      "durationSeconds": 5.486,
+      "sha256": "c8353182e84312895cb0da3fbc2720113e197bf1dbbeb57916261b5d3ee915b7",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-024",
+      "number": 115,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "aussi-je-vais-m-instituer-ton-professeur.wav",
+      "text": "aussi je vais m instituer ton professeur",
+      "src": "../downloaded-clips-20261016-batch2/originals/024.wav",
+      "durationSeconds": 3.645,
+      "sha256": "f81fc7df1fc88e1e70392dfec7b1df11c1559498ddab34eac236071b40fa1fe0",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-025",
+      "number": 116,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "bon-allez-assez-ne-melez-pas-toujours-tout-versez-moi-un-scotch.wav",
+      "text": "bon allez assez ne melez pas toujours tout versez moi un scotch",
+      "src": "../downloaded-clips-20261016-batch2/originals/025.wav",
+      "durationSeconds": 3.279,
+      "sha256": "29c94c234a6a0f431b788b3b4b1fcd5fe55c5dd9ca8e9923e73ab11db982acf6",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-026",
+      "number": 117,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "bon-alors-rentrez-chez-vous-prenez-vos-bouquins-et-potassez-les-a-fond-c'est-le-meilleur-moyen-pour-avoir-une-bonne-note.wav",
+      "text": "bon alors rentrez chez vous prenez vos bouquins et potassez les a fond c'est le meilleur moyen pour avoir une bonne note",
+      "src": "../downloaded-clips-20261016-batch2/originals/026.wav",
+      "durationSeconds": 15.975,
+      "sha256": "02cabc1462ab185122e9ade768f359b9a802096890b3651f400c54fb1289f275",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "alors rentrez chez vous prenez vos bouquins et potassez les a fond c'est le meilleur moyen pour avoir une bonne note"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-027",
+      "number": 118,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "bon-ecoutez-messieurs-maintenant-c-est-termine-nous-n-avons-pas-de-temps-quelles-sont-vos-intentions-allez.wav",
+      "text": "bon ecoutez messieurs maintenant c est termine nous n avons pas de temps quelles sont vos intentions allez",
+      "src": "../downloaded-clips-20261016-batch2/originals/027.wav",
+      "durationSeconds": 4.194,
+      "sha256": "49b1f4364b7822d3c481490f0a6a45f890321445698668c5586780f44ae312d7",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-028",
+      "number": 119,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "bon-et-d-abord-mon-petit-mettez-vous-bien-une-chose-en-tete-fini-les-vacances-ici-vous-allez-apprendre-a-travailler-vous-me-comprenez-j-espere.wav",
+      "text": "bon et d abord mon petit mettez vous bien une chose en tete fini les vacances ici vous allez apprendre a travailler vous me comprenez j espere",
+      "src": "../downloaded-clips-20261016-batch2/originals/028.wav",
+      "durationSeconds": 9.653,
+      "sha256": "60a85decc2da7629d628bc341da2dd31cf5ed0cef98557ec7c066e37bb6c750c",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-029",
+      "number": 120,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c'est-l'evidence-le-repos-de-quelques-uns-met-en-relief-le-travail-de-tous.wav",
+      "text": "c'est l'evidence le repos de quelques uns met en relief le travail de tous",
+      "src": "../downloaded-clips-20261016-batch2/originals/029.wav",
+      "durationSeconds": 7.981,
+      "sha256": "e1d1a252274b42de0e0ca325015c98fe0c7c498f41f170f2d7e0974c201a40b9",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-030",
+      "number": 121,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c'est-nul!-zero!.wav",
+      "text": "c'est nul! zero!",
+      "src": "../downloaded-clips-20261016-batch2/originals/030.wav",
+      "durationSeconds": 3.985,
+      "sha256": "817c8c0f412329a0d689b9f7f84345449b093cb749f50207ae5a022e0361670c",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "c'est nul! zero!"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-031",
+      "number": 122,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c'est-pas-terrible-c'est-nul-nul-archi-nul-vous-etes-des-zeros.wav",
+      "text": "c'est pas terrible c'est nul nul archi nul vous etes des zeros",
+      "src": "../downloaded-clips-20261016-batch2/originals/031.wav",
+      "durationSeconds": 3.985,
+      "sha256": "2ee5c2ab11e9d30adb3d1132ad429d83eb4e54ce94e2c70fac762d88a2e87eda",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-032",
+      "number": 123,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c-est-bien-lui-il-essaye-de-revenir-a-la-vie.wav",
+      "text": "c est bien lui il essaye de revenir a la vie",
+      "src": "../downloaded-clips-20261016-batch2/originals/032.wav",
+      "durationSeconds": 6.989,
+      "sha256": "51bb7fb4ddee41799f423c68396ec0753b108980be0c4637ceecfd437a575907",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-033",
+      "number": 124,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c-est-ca-qui-est-grave-dans-le-monde-d-aujourd-hui-personne-ne-reflechit-ne-pense-ne-prevoit-du-muscle-mais-pas-de-cerveau.wav",
+      "text": "c est ca qui est grave dans le monde d aujourd hui personne ne reflechit ne pense ne prevoit du muscle mais pas de cerveau",
+      "src": "../downloaded-clips-20261016-batch2/originals/033.wav",
+      "durationSeconds": 8.608,
+      "sha256": "a53948cf945614e6897563158675f03087e6fbcd7031ddd2e8f5af2122672431",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-034",
+      "number": 125,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c-est-la-fin-du-monde-c-est-surtout-la-fin-pour-lui.wav",
+      "text": "c est la fin du monde c est surtout la fin pour lui",
+      "src": "../downloaded-clips-20261016-batch2/originals/034.wav",
+      "durationSeconds": 4.873,
+      "sha256": "503a41d77fc92ce3bcf83ee36e8d134ba686c1be7409036b58d156e29c9c3675",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-035",
+      "number": 126,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c-est-la-premiere-fois-qu-il-s-endort-en-faisant-ses-devoirs-ce-petit-va-mal-tourner-j-en-suis-certaine-je-suis-sa-mere-et-une-femme-sent-ces-choses-la-c-est-affreux-j-aurais-tellement-voulu-qu-il-devienne-quelqu-u.wav",
+      "text": "c est la premiere fois qu il s endort en faisant ses devoirs ce petit va mal tourner j en suis certaine je suis sa mere et une femme sent ces choses la c est affreux j aurais tellement voulu qu il devienne quelqu u",
+      "src": "../downloaded-clips-20261016-batch2/originals/035.wav",
+      "durationSeconds": 11.142,
+      "sha256": "9e8aa2cd118b40bbb479c122c8ce3864a5c887ed7f3135d1846d124abf4d87f8",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "ce petit va mal tourner j en suis certaine"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-036",
+      "number": 127,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c-est-merveilleux-incurable-je-suis-incurable-c-est-merveilleux.wav",
+      "text": "c est merveilleux incurable je suis incurable c est merveilleux",
+      "src": "../downloaded-clips-20261016-batch2/originals/036.wav",
+      "durationSeconds": 7.564,
+      "sha256": "f8ac23a1edf4f266ba2a7f24ea8cc1170d3078844a3eef716650db42231b466a",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-037",
+      "number": 128,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c-est-naturel-ce-petit-est-plein-de-feu-il-est-energique-et-se-donne-corps-et-ame-a-tout-ce-qu-il-entreprend-c-est-une-disposition-qui-le-menera-loin-si-on-le-dirige-dans-la-bonne-direction.wav",
+      "text": "c est naturel ce petit est plein de feu il est energique et se donne corps et ame a tout ce qu il entreprend c est une disposition qui le menera loin si on le dirige dans la bonne direction",
+      "src": "../downloaded-clips-20261016-batch2/originals/037.wav",
+      "durationSeconds": 12.945,
+      "sha256": "66b8bca1b236460249c14e03b612673f6d3ebe7ef51224f2d1a4b75df736add4",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-038",
+      "number": 129,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c-est-quand-meme-fou-le-nombre-d-humains-qui-ne-travaillent-pas-dans-la-journee.wav",
+      "text": "c est quand meme fou le nombre d humains qui ne travaillent pas dans la journee",
+      "src": "../downloaded-clips-20261016-batch2/originals/038.wav",
+      "durationSeconds": 3.541,
+      "sha256": "6d061543364a843dea21448da03f50a0f7eb6b0dc2b3af8415bceaa252225408",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-039",
+      "number": 130,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c-est-tout-a-fait-un-travail-pour-moi-qu-est-ce-que-c-est-que-ce-travail-au-fait (1).wav",
+      "text": "c est tout a fait un travail pour moi qu est ce que c est que ce travail au fait (1)",
+      "src": "../downloaded-clips-20261016-batch2/originals/039.wav",
+      "durationSeconds": 3.279,
+      "sha256": "ca73f5132c9667929fa855fe6214b5846305f3fb712f086fd242a01848c98a68",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-040",
+      "number": 131,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c-est-tout-de-meme-une-chose-eblouissante-de-pouvoir-je-comprends-cesar.wav",
+      "text": "c est tout de meme une chose eblouissante de pouvoir je comprends cesar",
+      "src": "../downloaded-clips-20261016-batch2/originals/040.wav",
+      "durationSeconds": 6.728,
+      "sha256": "2c842d309c72c7fd79163942fc10ec01a76eb326b8c300e0c4a9283620598f23",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-041",
+      "number": 132,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c-est-un-mensonge-tu-esperes-me-desarconner-avec-tes-balivernes.wav",
+      "text": "c est un mensonge tu esperes me desarconner avec tes balivernes",
+      "src": "../downloaded-clips-20261016-batch2/originals/041.wav",
+      "durationSeconds": 3.776,
+      "sha256": "a6c02758185f07889ee13313430e5821d1a0a9822e6dc92e0bdbd257bf5e1598",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-042",
+      "number": 133,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c-est-une-idee-a-creuser-2t5.wav",
+      "text": "c est une idee a creuser 2t5",
+      "src": "../downloaded-clips-20261016-batch2/originals/042.wav",
+      "durationSeconds": 8.426,
+      "sha256": "1be40e27e1e8bbc1f65a446393110868180751116e4bff1cbd79544bf4b3c95a",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-043",
+      "number": 134,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "c-est-vrai-tu-te-trompes-jamais-toi-c-est-pas-fatigant-d-etre-toujours-mieux-que-les-autres.wav",
+      "text": "c est vrai tu te trompes jamais toi c est pas fatigant d etre toujours mieux que les autres",
+      "src": "../downloaded-clips-20261016-batch2/originals/043.wav",
+      "durationSeconds": 7.668,
+      "sha256": "2e5d4317301a1577cd54e6cac54ab555655db2feb5a811ecb22cc98c7fe43e91",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-044",
+      "number": 135,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ca-c-est-typiquement-poisson-ah-ils-aiment-tout-le-monde-les-poissons.wav",
+      "text": "ca c est typiquement poisson ah ils aiment tout le monde les poissons",
+      "src": "../downloaded-clips-20261016-batch2/originals/044.wav",
+      "durationSeconds": 4.899,
+      "sha256": "51a84de240829786174c0e2f2fdd2595477eb9a1e84cdc13e75b297b762395ec",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-045",
+      "number": 136,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ca-ca-ca-ca-c-est-precis-et-bien-ca-ca-ne-s-egare-pas.wav",
+      "text": "ca ca ca ca c est precis et bien ca ca ne s egare pas",
+      "src": "../downloaded-clips-20261016-batch2/originals/045.wav",
+      "durationSeconds": 4.481,
+      "sha256": "3587a22f8dd390a9ef0f4bca5655300d7fd2baa9aeb317f8c3eb8d1a3aec725b",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-046",
+      "number": 137,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ce-que-je-vous-dois-est-au-dela-de-toute-evaluation.wav",
+      "text": "ce que je vous dois est au dela de toute evaluation",
+      "src": "../downloaded-clips-20261016-batch2/originals/046.wav",
+      "durationSeconds": 4.429,
+      "sha256": "1b220dc8af89d23134d7baa5144ecbcfa862a4b87789ac803887e09f205a746d",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-047",
+      "number": 138,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ce-qui-nous-ferait-plaisir-ce-serait-que-tu-travailles-que-tu-menes-la-vie-normale-d'un-garcon-de-ton-age!.wav",
+      "text": "ce qui nous ferait plaisir ce serait que tu travailles que tu menes la vie normale d'un garcon de ton age!",
+      "src": "../downloaded-clips-20261016-batch2/originals/047.wav",
+      "durationSeconds": 5.996,
+      "sha256": "21904ec0d180377f5577d8e15f4f1777d329cb347b342bd6ba2152a401ea8eb3",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "ce qui nous ferait plaisir ce serait que tu travailles que tu menes la vie normale d'un garcon de ton age!"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-048",
+      "number": 139,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ce-sera-votre-premiere-victoire-votre-dernier-echec.wav",
+      "text": "ce sera votre premiere victoire votre dernier echec",
+      "src": "../downloaded-clips-20261016-batch2/originals/048.wav",
+      "durationSeconds": 4.063,
+      "sha256": "7d7bed4f037d13c1ef62bf36488cb9f70e44ffdedb2f1427698180c2a7023d87",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-049",
+      "number": 140,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "cela-etant-regardez-bien-c-est-un-naruto-completement-different-qui-se-tient-a-present-devant-vous.wav",
+      "text": "cela etant regardez bien c est un naruto completement different qui se tient a present devant vous",
+      "src": "../downloaded-clips-20261016-batch2/originals/049.wav",
+      "durationSeconds": 11.639,
+      "sha256": "3c3c9a216bbafb6b481bebd964812f3f65da1edf33c958788271a09c62bfdf85",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-050",
+      "number": 141,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "charles-vous-avez-du-genie-et-je-double-votre-mois-c-est-deja-fait-monsieur-je-redouble-votre-mois.wav",
+      "text": "charles vous avez du genie et je double votre mois c est deja fait monsieur je redouble votre mois",
+      "src": "../downloaded-clips-20261016-batch2/originals/050.wav",
+      "durationSeconds": 5.212,
+      "sha256": "30260bd891b0c3394d12b4ab3d8d1a017c0a0eea2120f8cd30f4533c665b56e8",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-051",
+      "number": 142,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "d'ailleurs-entre-gens-qui-inventent-des-histoires-quoi-de-plus-naturel-n'est-ce-pas.wav",
+      "text": "d'ailleurs entre gens qui inventent des histoires quoi de plus naturel n'est ce pas",
+      "src": "../downloaded-clips-20261016-batch2/originals/051.wav",
+      "durationSeconds": 5.97,
+      "sha256": "15580fca744a6ac407625087cccf379afff7b13155aa6e8519c0cf7c0cfe53cc",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-052",
+      "number": 143,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "des-experts-pourquoi-pas-un-sourcier.wav",
+      "text": "des experts pourquoi pas un sourcier",
+      "src": "../downloaded-clips-20261016-batch2/originals/052.wav",
+      "durationSeconds": 2.652,
+      "sha256": "e6c18f7a0373107830797ccd9711a24ec050e133f95ba9e1c624be1e8b2f8f05",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-053",
+      "number": 144,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "des-votre-enfance-vous-avez-su-meriter-l'estime-de-tous!-vous-avez-droit-aujourd'hui-a-notre-reconnaissance!.wav",
+      "text": "des votre enfance vous avez su meriter l'estime de tous! vous avez droit aujourd'hui a notre reconnaissance!",
+      "src": "../downloaded-clips-20261016-batch2/originals/053.wav",
+      "durationSeconds": 9.993,
+      "sha256": "564b7f5e5fb4e93d9bc15628a975cfd5d6e142afe81f88843c305842be44b3ac",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-054",
+      "number": 145,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "developpe-ton-cerveau-le-savoir-conduit-a-la-puissance-des-etudes-poussees-voila-ce-qu-il-faut (1).wav",
+      "text": "developpe ton cerveau le savoir conduit a la puissance des etudes poussees voila ce qu il faut (1)",
+      "src": "../downloaded-clips-20261016-batch2/originals/054.wav",
+      "durationSeconds": 7.067,
+      "sha256": "d85fef479148bc98316cf8cec00b34f7ae1ff8e5a17e8b2a7b65c9c0714d083e",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-055",
+      "number": 146,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "dominer-le-monde-toujours-le-meme-vieux-reve-nos-asiles-sont-pleins-de-pauvres-types-qui-croient-etre-napoleon-ou-dieu.wav",
+      "text": "dominer le monde toujours le meme vieux reve nos asiles sont pleins de pauvres types qui croient etre napoleon ou dieu",
+      "src": "../downloaded-clips-20261016-batch2/originals/055.wav",
+      "durationSeconds": 10.986,
+      "sha256": "9c3a37a7c75527f603dc739dff9b4c892862c4fc361a6ab23ff5453914892267",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-056",
+      "number": 147,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ecoute-moi-miss-je-sais-tout-je-suis-malin-tu-es-bete-je-suis-grand-tu-es-petit-j-ai-raison-tu-as-tort-et-c-est-comme-ca-et-t-y-peux-rien.wav",
+      "text": "ecoute moi miss je sais tout je suis malin tu es bete je suis grand tu es petit j ai raison tu as tort et c est comme ca et t y peux rien",
+      "src": "../downloaded-clips-20261016-batch2/originals/056.wav",
+      "durationSeconds": 7.877,
+      "sha256": "335b608b042567c8ddd3dc2ee23a1075b0ca150ddb62ca8bbf39a3388ad44252",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-057",
+      "number": 148,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "education-intensive-volonte-informee-et-voila-le-resultat-ohhh!.wav",
+      "text": "education intensive volonte informee et voila le resultat ohhh!",
+      "src": "../downloaded-clips-20261016-batch2/originals/057.wav",
+      "durationSeconds": 7.981,
+      "sha256": "c518bda9e0d6c906b69ac57620198420be52b9aeeb2c2ccfeca238136d5f8dc8",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "education intensive volonte informee et voila le resultat ohhh!"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-058",
+      "number": 149,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "eleve-votre-derniere-note-fut-un-zero-essayez-de-l'ameliorer.wav",
+      "text": "eleve votre derniere note fut un zero essayez de l'ameliorer",
+      "src": "../downloaded-clips-20261016-batch2/originals/058.wav",
+      "durationSeconds": 6.989,
+      "sha256": "1563ad1f24b40f76f90bee2042763585382a74c2e6d0cfbc25000a703bf56ea4",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "votre derniere note fut un zero essayez de l'ameliorer"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-059",
+      "number": 150,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "enfin-j-espere-que-vous-n-avez-rien-compris-alors-tu-veux-dire-que-tu-esperes-que-nous-avons-bien-compris-parfait-il-n-a-rien-compris.wav",
+      "text": "enfin j espere que vous n avez rien compris alors tu veux dire que tu esperes que nous avons bien compris parfait il n a rien compris",
+      "src": "../downloaded-clips-20261016-batch2/originals/059.wav",
+      "durationSeconds": 6.231,
+      "sha256": "29804e238503be6579ce75bba73a5499ae3dc90f57d7868206c5b57bdeaa21ef",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-060",
+      "number": 151,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "es-verdad-es-verdad-es-verdad-lo-que-ella-dice-mais-tout-ce-qu-il-y-a-de-plus-verdad-qu-est-ce-que-je-risque.wav",
+      "text": "es verdad es verdad es verdad lo que ella dice mais tout ce qu il y a de plus verdad qu est ce que je risque",
+      "src": "../downloaded-clips-20261016-batch2/originals/060.wav",
+      "durationSeconds": 6.832,
+      "sha256": "c48a35f0ffa7ed79bbfeda112ed06ae4c6bed32f1651f00dac94e1d23a8d2e31",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-061",
+      "number": 152,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "est-ce-que-mon-heure-a-sonne-vais-je-mourir-aujourd-hui-ai-je-echoue-ai-je-failli-a-ma-mission.wav",
+      "text": "est ce que mon heure a sonne vais je mourir aujourd hui ai je echoue ai je failli a ma mission",
+      "src": "../downloaded-clips-20261016-batch2/originals/061.wav",
+      "durationSeconds": 8.713,
+      "sha256": "62802964142dbf9d2b8bdec07c19dfc0d68ff9cae516b5596d3684be82660a18",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-062",
+      "number": 153,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "et-j'admire-votre-chance-monsieur-bond-james-bond.wav",
+      "text": "et j'admire votre chance monsieur bond james bond",
+      "src": "../downloaded-clips-20261016-batch2/originals/062.wav",
+      "durationSeconds": 9,
+      "sha256": "c96a37e38f5ba96e893aab52e3eb1e09bcf6721a46251c2b6d7f54628050149d",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "j'admire votre chance monsieur bond james bond"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-063",
+      "number": 154,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "et-l-on-finit-par-recolter-toutes-les-sottises-que-l-on-seme.wav",
+      "text": "et l on finit par recolter toutes les sottises que l on seme",
+      "src": "../downloaded-clips-20261016-batch2/originals/063.wav",
+      "durationSeconds": 9.915,
+      "sha256": "068689d91a9ac5f9d787e2a7300fed6486117e8ad541646fba114f3a5452d150",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-064",
+      "number": 155,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "et-plus-que-les-autres-il-y-a-soi-meme-sur-qui-on-ne-peut-guere-compter.wav",
+      "text": "et plus que les autres il y a soi meme sur qui on ne peut guere compter",
+      "src": "../downloaded-clips-20261016-batch2/originals/064.wav",
+      "durationSeconds": 9.497,
+      "sha256": "1d429d1f56ee169b0d6fd852528ee4347a9f4b9ab6d6fa949a512cea4ae9f0c7",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-065",
+      "number": 156,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "et-tu-te-rends-compte-que-tu-es-fini-tu-es-un-materiel-perime-qui-ne-vaut-meme-pas-la-peine-d-etre-revise.wav",
+      "text": "et tu te rends compte que tu es fini tu es un materiel perime qui ne vaut meme pas la peine d etre revise",
+      "src": "../downloaded-clips-20261016-batch2/originals/065.wav",
+      "durationSeconds": 5.892,
+      "sha256": "56d1d97c1765d4d25a56f05b436e3544d823b5d50c787408fad16b437dafd038",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-066",
+      "number": 157,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "et-vous-pourriez-reflechir-avant-de-parler-vous-eussiez-ainsi-evite-un-zero-qui-porte-a-votre-moyenne-un-coup-sensible.wav",
+      "text": "et vous pourriez reflechir avant de parler vous eussiez ainsi evite un zero qui porte a votre moyenne un coup sensible",
+      "src": "../downloaded-clips-20261016-batch2/originals/066.wav",
+      "durationSeconds": 10.986,
+      "sha256": "04f14bc37dc069471da43f86d4c5ad6415c7408cfdcd44f3a7aba340a871ce2b",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "vous pourriez reflechir avant de parler vous eussiez ainsi evite un zero qui porte a votre moyenne un coup sensible"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-067",
+      "number": 158,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "exact-je-ne-voudrais-pas-jouer-les-rabat-joies-mais-vous-oubliez-un-detail.wav",
+      "text": "exact je ne voudrais pas jouer les rabat joies mais vous oubliez un detail",
+      "src": "../downloaded-clips-20261016-batch2/originals/067.wav",
+      "durationSeconds": 3.358,
+      "sha256": "2b667ad7d9faf249d97bc5f0962a30634328eef12e7d435992af0a924c0c629d",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-068",
+      "number": 159,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "fermez-la-ce-soir-vous-aurez-tous-trois-a-cinq-heures-de-colle-vous-recopierez-le-dictionnaire.wav",
+      "text": "fermez la ce soir vous aurez tous trois a cinq heures de colle vous recopierez le dictionnaire",
+      "src": "../downloaded-clips-20261016-batch2/originals/068.wav",
+      "durationSeconds": 6.623,
+      "sha256": "b4a6533120cd540d6082493b0cb8a6986404444ab8b2e6fb5ca454ef09420975",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-069",
+      "number": 160,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "grands-dieux-vit-on-jamais-insolence-semblable-ce-n-est-pas-un-neveu-monsieur-mais-c-est-un-diable.wav",
+      "text": "grands dieux vit on jamais insolence semblable ce n est pas un neveu monsieur mais c est un diable",
+      "src": "../downloaded-clips-20261016-batch2/originals/069.wav",
+      "durationSeconds": 6.022,
+      "sha256": "447daea42865639e85bfafb5c6b6bcf4cab5f1c18a5759f610c7fab774463b70",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-070",
+      "number": 161,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "he-il-se-prend-pour-qui-celui-la-lui-eh-bien-il-croit-qu-il-est-le-meilleur-du-circuit-je-crois-qu-il-a-raison-essayez-de-ne-pas-le-foutre-en-colere-hein.wav",
+      "text": "he il se prend pour qui celui la lui eh bien il croit qu il est le meilleur du circuit je crois qu il a raison essayez de ne pas le foutre en colere hein",
+      "src": "../downloaded-clips-20261016-batch2/originals/070.wav",
+      "durationSeconds": 11.247,
+      "sha256": "533b7e2a8e3bad479150863500a104d0b8ea4b38fb6ffe3a0fbf51a50b107882",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-071",
+      "number": 162,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "hein-ah-c-est-vrai-ah-tiens-ah-oui-maintenant-que-vous-me-le-faites-remarquer-je.wav",
+      "text": "hein ah c est vrai ah tiens ah oui maintenant que vous me le faites remarquer je",
+      "src": "../downloaded-clips-20261016-batch2/originals/071.wav",
+      "durationSeconds": 6.989,
+      "sha256": "6eb64b5600394583e9eea6b1581d8512f84d5dacc7331d3cb3ebe7d259938eee",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-072",
+      "number": 163,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "hemingway-a-t-il-exerce-une-influence-sur-vous-ah-non-personne-m'a-aide-tout-est-de-moi-j'ai-ecrit-tout-tout-seul.wav",
+      "text": "hemingway a t il exerce une influence sur vous ah non personne m'a aide tout est de moi j'ai ecrit tout tout seul",
+      "src": "../downloaded-clips-20261016-batch2/originals/072.wav",
+      "durationSeconds": 14.982,
+      "sha256": "42937d6a67b1e5bdd478c576b5a593f5bd9ca4ae58d9a87bb39225f32094c9b3",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "ah non personne m'a aide tout est de moi j'ai ecrit tout tout seul"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-073",
+      "number": 164,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "heureusement-j-ai-la-sante-et-des-vaches-c-est-plus-sur.wav",
+      "text": "heureusement j ai la sante et des vaches c est plus sur",
+      "src": "../downloaded-clips-20261016-batch2/originals/073.wav",
+      "durationSeconds": 5.291,
+      "sha256": "7ed9e712004b3fe62841216bbd09a6423f55dc772acbbd5ecc6567d72a6115be",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-074",
+      "number": 165,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "il-a-choisi-bien-mal-22h.wav",
+      "text": "il a choisi bien mal 22h",
+      "src": "../downloaded-clips-20261016-batch2/originals/074.wav",
+      "durationSeconds": 4.22,
+      "sha256": "c587edfdf92afe7d4d49aff6d7cc38bf4203ba0e9a3c13d4190d2856ab0c6ead",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-075",
+      "number": 166,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "il-est-beau-mais-quand-on-lui-parle-il-comprend-pas-tous-les-verbes.wav",
+      "text": "il est beau mais quand on lui parle il comprend pas tous les verbes",
+      "src": "../downloaded-clips-20261016-batch2/originals/075.wav",
+      "durationSeconds": 2.078,
+      "sha256": "25c9cc57199ee203ec45353960da98296e27a4453bfba0b5b34c9dc91fe2571d",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-076",
+      "number": 167,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "il-est-toujours-comme-ca-avant-il-etait-pas-toujours-comme-ca.wav",
+      "text": "il est toujours comme ca avant il etait pas toujours comme ca",
+      "src": "../downloaded-clips-20261016-batch2/originals/076.wav",
+      "durationSeconds": 5.996,
+      "sha256": "1782903c0262572040377743ed8165761f908b895712148d25ce09f472100f87",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-077",
+      "number": 168,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "il-etait-doue-pour-tout-tu-ne-peux-pas-savoir-surtout-pour-les-conneries.wav",
+      "text": "il etait doue pour tout tu ne peux pas savoir surtout pour les conneries",
+      "src": "../downloaded-clips-20261016-batch2/originals/077.wav",
+      "durationSeconds": 5.578,
+      "sha256": "18df36f461cb7739514bdce8c71c107ab45ef1368149008f3e642c34063dc9b4",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-078",
+      "number": 169,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "il-faut-premierement-que-vous-ayez-le-fouet-pour-avoir-menti-puis-apres-nous-verrons-au-reste.wav",
+      "text": "il faut premierement que vous ayez le fouet pour avoir menti puis apres nous verrons au reste",
+      "src": "../downloaded-clips-20261016-batch2/originals/078.wav",
+      "durationSeconds": 5.421,
+      "sha256": "ce8e2025ac7a3eec294964038e282284c4bd6fc61e5e194d136284630125398c",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-079",
+      "number": 170,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "il-faut-que-tu-te-serves-de-ton-cerveau-une-fois-n-est-pas-coutume.wav",
+      "text": "il faut que tu te serves de ton cerveau une fois n est pas coutume",
+      "src": "../downloaded-clips-20261016-batch2/originals/079.wav",
+      "durationSeconds": 4.533,
+      "sha256": "2503237e0360cc3268fce83aab345a971d4e8087aa979c0ece18860863759e69",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-080",
+      "number": 171,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "il-n-a-aucun-pouvoir-c-est-une-illusion-les-illusions-ont-parfois-un-grand-pouvoir-surtout-lorsqu-elles-prennent-cette-forme.wav",
+      "text": "il n a aucun pouvoir c est une illusion les illusions ont parfois un grand pouvoir surtout lorsqu elles prennent cette forme",
+      "src": "../downloaded-clips-20261016-batch2/originals/080.wav",
+      "durationSeconds": 10.228,
+      "sha256": "96b0d3e04d2a37887266580ae6e38f3789080a3f852ac2c9e8ac4bbc0b808337",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-081",
+      "number": 172,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "il-ne-s-agit-pas-de-comprendre-il-s-agit-de-croire.wav",
+      "text": "il ne s agit pas de comprendre il s agit de croire",
+      "src": "../downloaded-clips-20261016-batch2/originals/081.wav",
+      "durationSeconds": 5.735,
+      "sha256": "22356b27aeeac1d63198cce4e323c767bc04bad86412fd3d2b70d2c242421003",
+      "review": {
+        "usage": "both",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-082",
+      "number": 173,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ils-ont-tout-de-meme-fini-par-comprendre-ces-troglodytes-de-malheur.wav",
+      "text": "ils ont tout de meme fini par comprendre ces troglodytes de malheur",
+      "src": "../downloaded-clips-20261016-batch2/originals/082.wav",
+      "durationSeconds": 4.847,
+      "sha256": "d3cf645cf9428d3a7684f2c524d3e5fe7f7f342167fd19dc7255a6cba3cb9f79",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-083",
+      "number": 174,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "j'espere-que-je-n'oblige-pas-un-ingrat-et-qu'un-zele-redouble-de-votre-part-me-temoignera-votre-reconnaissance.wav",
+      "text": "j'espere que je n'oblige pas un ingrat et qu'un zele redouble de votre part me temoignera votre reconnaissance",
+      "src": "../downloaded-clips-20261016-batch2/originals/083.wav",
+      "durationSeconds": 11.012,
+      "sha256": "127160e430a3b97cc78cfb96012c15f71fbc5494b172c7e1ca78fbcbc59d307e",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-084",
+      "number": 175,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "j'suis-un-sentimental-moi!-surtout-quand-j'ai-bu-m-he-he-he!-je-s'rais-meme-plutot-un-peu-ose-he-he.wav",
+      "text": "j'suis un sentimental moi! surtout quand j'ai bu m he he he! je s'rais meme plutot un peu ose he he",
+      "src": "../downloaded-clips-20261016-batch2/originals/084.wav",
+      "durationSeconds": 10.986,
+      "sha256": "7d85f31a4b87e06728458f80cfed3941ec901fd13ec2b9245d5f57d9906461d5",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-085",
+      "number": 176,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "j-attends-un-ingenieur-etranger-les-notres-ne-valent-plus-rien-cela-leur-est-egal-d-ailleurs-nous-n-en-avons-pas.wav",
+      "text": "j attends un ingenieur etranger les notres ne valent plus rien cela leur est egal d ailleurs nous n en avons pas",
+      "src": "../downloaded-clips-20261016-batch2/originals/085.wav",
+      "durationSeconds": 9.288,
+      "sha256": "290dd5e1d2bfe1b4337e1b528ec9cb923233181472e086e15e1c0665ad8fe111",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-086",
+      "number": 177,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "j-ignore-quelles-techniques-tu-as-apprises-mais-ce-n-est-pas-avec-ce-genre-de-gesticulation-que-tu-m-atteindras.wav",
+      "text": "j ignore quelles techniques tu as apprises mais ce n est pas avec ce genre de gesticulation que tu m atteindras",
+      "src": "../downloaded-clips-20261016-batch2/originals/086.wav",
+      "durationSeconds": 6.179,
+      "sha256": "306bd8b1b1e195f0bc95132dc5b70977ec81792caf3be768e194cdd22e7bf2c1",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-087",
+      "number": 178,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "j-ordonne-que-cent-vingt-et-un-coups-de-canon-se-fassent-entendre-en-mon-honneur.wav",
+      "text": "j ordonne que cent vingt et un coups de canon se fassent entendre en mon honneur",
+      "src": "../downloaded-clips-20261016-batch2/originals/087.wav",
+      "durationSeconds": 5.578,
+      "sha256": "77a5cd1e6650eb1defb38c1e26e33fd77be221f6cc2415a763f81b2f8a4ada17",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-088",
+      "number": 179,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-crois-que-j-avais-compare-ton-intelligence-a-celle-d-une-bete-auparavant-je-retire-ce-que-j-ai-dit-je-connais-un-tas-d-animaux-plus-intelligents-que-toi.wav",
+      "text": "je crois que j avais compare ton intelligence a celle d une bete auparavant je retire ce que j ai dit je connais un tas d animaux plus intelligents que toi",
+      "src": "../downloaded-clips-20261016-batch2/originals/088.wav",
+      "durationSeconds": 7.642,
+      "sha256": "3ac79cbfd124aa4c625c919dab8c11dc24a4d09ce2331a00b7c9f07299e91ebb",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-089",
+      "number": 180,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-les-ai-proteges-je-les-ai-entraines-je-leur-ai-appris-a-controler-leurs-pouvoirs-et-a-former-d'autres-mutants-a-leur-tour.wav",
+      "text": "je les ai proteges je les ai entraines je leur ai appris a controler leurs pouvoirs et a former d'autres mutants a leur tour",
+      "src": "../downloaded-clips-20261016-batch2/originals/089.wav",
+      "durationSeconds": 8.974,
+      "sha256": "ad05fca2c082a70d37ecd384e7e0eb00913f0be989a913118eb20b15024ecde4",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-090",
+      "number": 181,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-n-ai-meme-plus-de-reve-a-rever.wav",
+      "text": "je n ai meme plus de reve a rever",
+      "src": "../downloaded-clips-20261016-batch2/originals/090.wav",
+      "durationSeconds": 2.966,
+      "sha256": "6e2d183dd57855361719bcf146de871f09b138c9122303e94ca5570c4d35b64c",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-091",
+      "number": 182,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-n-ai-pas-le-temps-je-suis-occupe-tu-n-as-qu-a-demander-a-papa-de-t-apprendre.wav",
+      "text": "je n ai pas le temps je suis occupe tu n as qu a demander a papa de t apprendre",
+      "src": "../downloaded-clips-20261016-batch2/originals/091.wav",
+      "durationSeconds": 4.429,
+      "sha256": "9b90cf469be3e51251bf40f05839ac24bb7e7f1a09bb161b1934a635a7c1f24b",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-092",
+      "number": 183,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-ne-cherche-qu'un-peu-d'espoir.wav",
+      "text": "je ne cherche qu'un peu d'espoir",
+      "src": "../downloaded-clips-20261016-batch2/originals/092.wav",
+      "durationSeconds": 3.985,
+      "sha256": "c59b00ff7ebc3f874e2a88c05e2e30bf361c8885e8e4161fec366cf4ba62ca41",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-093",
+      "number": 184,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "Je-ne-lui-predit-pas-un-grand-avenir.wav",
+      "text": "Je ne lui predit pas un grand avenir",
+      "src": "../downloaded-clips-20261016-batch2/originals/093.wav",
+      "durationSeconds": 3.709,
+      "sha256": "5e9a42752219137bca739ae2ce5e19ec77d8254140ac1a0f6d569520d15f2597",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-094",
+      "number": 185,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-ne-peux-malheureusement-pas-t-apporter-des-preuves-tu-es-donc-libre-de-me-croire-ou-pas-mais-je-te-demanderai-d-ecouter-mon-recit-jusqu-au-bout.wav",
+      "text": "je ne peux malheureusement pas t apporter des preuves tu es donc libre de me croire ou pas mais je te demanderai d ecouter mon recit jusqu au bout",
+      "src": "../downloaded-clips-20261016-batch2/originals/094.wav",
+      "durationSeconds": 9.627,
+      "sha256": "982ec7c278be7d32dd929768be046807d7d977bbad30b3874f54bd203bcd13ae",
+      "review": {
+        "usage": "",
+        "audience": "",
+        "decision": "reject",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-095",
+      "number": 186,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-ne-sais-pas-moi-je-ne-sais-pas-moi-un-heros-doit-tout-savoir-mon-petit-chico.wav",
+      "text": "je ne sais pas moi je ne sais pas moi un heros doit tout savoir mon petit chico",
+      "src": "../downloaded-clips-20261016-batch2/originals/095.wav",
+      "durationSeconds": 5.787,
+      "sha256": "30e4fd163d22413cddec51fbd5014ba863ecab863d8d64004680ba518c765c8b",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-096",
+      "number": 187,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-ne-veux-pas-de-vos-paroles-elles-me-font-peur-je-ne-veux-plus-entendre-parler.wav",
+      "text": "je ne veux pas de vos paroles elles me font peur je ne veux plus entendre parler",
+      "src": "../downloaded-clips-20261016-batch2/originals/096.wav",
+      "durationSeconds": 5.474,
+      "sha256": "49132e9893aa57ce8ba60e8d82fb49c4d5f49ba8fc595c82f76bd28baf6437b1",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-097",
+      "number": 188,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-passerai-mes-examens-je-lirai-proust-je-te-parlerai-a-la-troisieme-personne.wav",
+      "text": "je passerai mes examens je lirai proust je te parlerai a la troisieme personne",
+      "src": "../downloaded-clips-20261016-batch2/originals/097.wav",
+      "durationSeconds": 5.108,
+      "sha256": "243ad7e01a2f187808a66a6de092a31ccce8f3186413d58f4cb084290380d6b2",
+      "review": {
+        "usage": "both",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-098",
+      "number": 189,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-prie-de-tout-coeur-pour-que-tu-deviennes-une-fleur-d-espoir-qui-s-epanouira-et-ne-fanera-jamais.wav",
+      "text": "je prie de tout coeur pour que tu deviennes une fleur d espoir qui s epanouira et ne fanera jamais",
+      "src": "../downloaded-clips-20261016-batch2/originals/098.wav",
+      "durationSeconds": 5.918,
+      "sha256": "4f28a4e9d2a1ec719298b4def6da7b26339241d7feff24fbf15f8a2da1a3546c",
+      "review": {
+        "usage": "both",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-099",
+      "number": 190,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-sais-ca-pourrait-etre-pire-il-y-a-des-gens-qui-naissent-avec-un-seul-oeil-et-puis-qui-rient-tout-le-temps.wav",
+      "text": "je sais ca pourrait etre pire il y a des gens qui naissent avec un seul oeil et puis qui rient tout le temps",
+      "src": "../downloaded-clips-20261016-batch2/originals/099.wav",
+      "durationSeconds": 3.932,
+      "sha256": "0ecdfb3cc7210629c9efc2092c32cce418cc82fdf3d697c61c9d90cae04ec5cc",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-100",
+      "number": 191,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-suis-plein-mais-de-trous-on-me-ronge-les-trous-s-elargissent-ils-n-ont-pas-de-fond.wav",
+      "text": "je suis plein mais de trous on me ronge les trous s elargissent ils n ont pas de fond",
+      "src": "../downloaded-clips-20261016-batch2/originals/100.wav",
+      "durationSeconds": 9.627,
+      "sha256": "d9e409a7eaef0a673ead218b2ead49d05ca200e53f865474dadce5b4c60070f7",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-101",
+      "number": 192,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-suis-un-enchanteur-et-un-devin-je-possede-le-pouvoir-de-connaitre-le-futur-je-vois-l-avenir-des-siecles-a-l-avance-mon-cher.wav",
+      "text": "je suis un enchanteur et un devin je possede le pouvoir de connaitre le futur je vois l avenir des siecles a l avance mon cher",
+      "src": "../downloaded-clips-20261016-batch2/originals/101.wav",
+      "durationSeconds": 10.62,
+      "sha256": "3f4c61a86558d602bc0c00d47508bf66d576a875f77527a3ef99300a3f688985",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-102",
+      "number": 193,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-t-ai-amene-ici-parce-que-j-ai-des-revelations-a-te-faire.wav",
+      "text": "je t ai amene ici parce que j ai des revelations a te faire",
+      "src": "../downloaded-clips-20261016-batch2/originals/102.wav",
+      "durationSeconds": 4.403,
+      "sha256": "b8e381e5c133765590d59cf3bd3c918c9ef81200187a610db6406d34419210f1",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-103",
+      "number": 194,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-vais-vous-mettre-dans-les-mains-du-plus-feroces-des-entraineurs.wav",
+      "text": "je vais vous mettre dans les mains du plus feroces des entraineurs",
+      "src": "../downloaded-clips-20261016-batch2/originals/103.wav",
+      "durationSeconds": 9,
+      "sha256": "16364df844544f2dc2979f985693d6624ae4e623e61e618271543a342a2a2674",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-104",
+      "number": 195,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-veux-m-amuser-je-veux-briller-c-est-plus-fort-que-moi-il-faudrait-me-couper-les-jambes-pour-m-empecher-de-danser.wav",
+      "text": "je veux m amuser je veux briller c est plus fort que moi il faudrait me couper les jambes pour m empecher de danser",
+      "src": "../downloaded-clips-20261016-batch2/originals/104.wav",
+      "durationSeconds": 6.362,
+      "sha256": "ee0d1c639adf6b8f2ceac397fcf7dcaa89bc2507185e7eb0b0d05623405bac6d",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-105",
+      "number": 196,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "je-voulais-avancer-moi-je-j-aurais-voulu-creer-des-choses-etre-utile-je-ne-sais-pas-moi-participer-a-une-action-humanitaire-sauver-des-gens.wav",
+      "text": "je voulais avancer moi je j aurais voulu creer des choses etre utile je ne sais pas moi participer a une action humanitaire sauver des gens",
+      "src": "../downloaded-clips-20261016-batch2/originals/105.wav",
+      "durationSeconds": 14.904,
+      "sha256": "3c9e15fccb143f935a4c5aa8606ed2513a4bf996a358de432195144ff63d2b19",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-106",
+      "number": 197,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "Jespere-que-nous-ferons-du-bon-travail-ensemble.wav",
+      "text": "Jespere que nous ferons du bon travail ensemble",
+      "src": "../downloaded-clips-20261016-batch2/originals/106.wav",
+      "durationSeconds": 6.322,
+      "sha256": "a7be867df6e78a1f1f57f074263858e4d19eb6f7ebbd7b6c3be8662a11b87e98",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": " Jespere que nous ferons du bon travail ensemble"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-107",
+      "number": 198,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "l-impossibilite-de-repondre-est-la-reponse-meme-elle-est-ton-etre-meme-qui-eclate-qui-se-repand (1).wav",
+      "text": "l impossibilite de repondre est la reponse meme elle est ton etre meme qui eclate qui se repand (1)",
+      "src": "../downloaded-clips-20261016-batch2/originals/107.wav",
+      "durationSeconds": 7.694,
+      "sha256": "7c4b7d63e01d51174df104774ebfef59e74cdde57b3fa0d70114d6ba78a62c07",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-108",
+      "number": 199,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "la-terre-est-ronde-eh-oui-c-est-exact-et-j-ajoute-que-la-terre-tourne.wav",
+      "text": "la terre est ronde eh oui c est exact et j ajoute que la terre tourne",
+      "src": "../downloaded-clips-20261016-batch2/originals/108.wav",
+      "durationSeconds": 6.858,
+      "sha256": "c7a8ee6dc795183a42c84b971976e32a02b648391ad20f6ea8ea6e5ecedff949",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-109",
+      "number": 200,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "le-travail-ne-fatigue-personne-ce-qui-fatigue-c'est-l'oisivete-mere-de-tous-les-vices.wav",
+      "text": "le travail ne fatigue personne ce qui fatigue c'est l'oisivete mere de tous les vices",
+      "src": "../downloaded-clips-20261016-batch2/originals/109.wav",
+      "durationSeconds": 6.989,
+      "sha256": "3b964aa1207929576d3f08f9fe01b39fe19279be2295363dced2692cbf0d1005",
+      "review": {
+        "usage": "both",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-110",
+      "number": 201,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "leur-puissance-est-extraordinaire-une-chose-est-sure-ce-sont-des-extraterrestres.wav",
+      "text": "leur puissance est extraordinaire une chose est sure ce sont des extraterrestres",
+      "src": "../downloaded-clips-20261016-batch2/originals/110.wav",
+      "durationSeconds": 5.291,
+      "sha256": "65b0b9c84392176e1a0c1d23f422c780506bb9c98c852e9137fae95ba4b2809b",
+      "review": {
+        "usage": "both",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-111",
+      "number": 202,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "maintenant-ferme-la-nous-ruinons-l-oxygene.wav",
+      "text": "maintenant ferme la nous ruinons l oxygene",
+      "src": "../downloaded-clips-20261016-batch2/originals/111.wav",
+      "durationSeconds": 3.358,
+      "sha256": "9724b49afddacaaf678c54f1cad5ed76881e0ab00325f4706d7bae5c47639831",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-112",
+      "number": 203,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "mais-bravo-mais-un-jeune-homme-doit-avoir-des-projets-meme-contraries-mais-les-projets-c-est-l-avenir-c-est-le-point-sur-i-du-verbe-entreprendre-j-espere-qu-ils-sont-ambitieux-ces-projets-ils-le-sont-monsieur-le-di.wav",
+      "text": "mais bravo mais un jeune homme doit avoir des projets meme contraries mais les projets c est l avenir c est le point sur i du verbe entreprendre j espere qu ils sont ambitieux ces projets ils le sont monsieur le di",
+      "src": "../downloaded-clips-20261016-batch2/originals/112.wav",
+      "durationSeconds": 12.109,
+      "sha256": "38d60e1adeae95a86dee07fa29cc60db422fb08a83d98e049b1560f3eaab639d",
+      "review": {
+        "usage": "both",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-113",
+      "number": 204,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "mais-c'est-ecrit-quoi!-y-a-qu'a-lire-c'est-pas-complique.wav",
+      "text": "mais c'est ecrit quoi! y a qu'a lire c'est pas complique",
+      "src": "../downloaded-clips-20261016-batch2/originals/113.wav",
+      "durationSeconds": 5.996,
+      "sha256": "110feb81c310979245cb87e27cced01f86377362ce6beb2e5a906e4e22406057",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "mais c'est ecrit quoi! y a qu'a lire c'est pas complique"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-114",
+      "number": 205,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "mais-c-est-une-catastrophe-oui-tu-peux-le-dire-si-nous-ne-reagissons-pas-tres-vite-les-forets-les-plaines-la-riviere-les-fleurs-tout-ca-disparaitra-la-surface-de-la-terre-et-ses-habitants-seront-condamnes.wav",
+      "text": "mais c est une catastrophe oui tu peux le dire si nous ne reagissons pas tres vite les forets les plaines la riviere les fleurs tout ca disparaitra la surface de la terre et ses habitants seront condamnes",
+      "src": "../downloaded-clips-20261016-batch2/originals/114.wav",
+      "durationSeconds": 13.859,
+      "sha256": "5a1af41ca440aada72dc64633db162afa7955a81afbe2feb77ee81a6dd60801c",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-115",
+      "number": 206,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "mais-en-tout-cas-ne-pense-pas-que-tout-s-arrange-avec-la-magie-et-qu-elle-resout-tous-les-problemes-parce-que-c-est-faux.wav",
+      "text": "mais en tout cas ne pense pas que tout s arrange avec la magie et qu elle resout tous les problemes parce que c est faux",
+      "src": "../downloaded-clips-20261016-batch2/originals/115.wav",
+      "durationSeconds": 8.06,
+      "sha256": "11ac0d6eca660c168a3d88c179b45b82f8c4f13c081969a39a0ce15cd676e810",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-116",
+      "number": 207,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "mais-je-vais-tout-de-meme-vous-en-lire-un-petit-bout-juste-pour-que-vous-vous-rendiez-compte-hein-tenez.wav",
+      "text": "mais je vais tout de meme vous en lire un petit bout juste pour que vous vous rendiez compte hein tenez",
+      "src": "../downloaded-clips-20261016-batch2/originals/116.wav",
+      "durationSeconds": 10.986,
+      "sha256": "6ee4d8cb6e1d44d3bdeaa013dfe85176e26a227706d959cb92c554d4619e01cf",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-117",
+      "number": 208,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "mais-qu-est-ce-que-je-vais-faire-pour-expliquer-ton-depart-avec-l-absenteisme-qui-regne-ici-ca-passera-parfaitement-inapercu.wav",
+      "text": "mais qu est ce que je vais faire pour expliquer ton depart avec l absenteisme qui regne ici ca passera parfaitement inapercu",
+      "src": "../downloaded-clips-20261016-batch2/originals/117.wav",
+      "durationSeconds": 7.015,
+      "sha256": "1e9594b083f3b8736d7249b04d7abbea8270e2326a748cc3bd4bc4fe661d45fe",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-118",
+      "number": 209,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "mais-qu-est-ce-qui-se-passe-qu-est-ce-que-c-est-que-ce-cirque.wav",
+      "text": "mais qu est ce qui se passe qu est ce que c est que ce cirque",
+      "src": "../downloaded-clips-20261016-batch2/originals/118.wav",
+      "durationSeconds": 3.175,
+      "sha256": "13f4134cb71d1f48713f2cedb9d59c31c2bd537791622c2251132cf0d77639e2",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-119",
+      "number": 210,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "mais-sans-vouloir-te-decourager-le-boulot-c'est-un-truc-qu'il-vaut-mieux-commencer-jeune.wav",
+      "text": "mais sans vouloir te decourager le boulot c'est un truc qu'il vaut mieux commencer jeune",
+      "src": "../downloaded-clips-20261016-batch2/originals/119.wav",
+      "durationSeconds": 6.989,
+      "sha256": "480406585a484670a9798f727c066dee7e06e7ca3325381adbd1fd36d0082615",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-120",
+      "number": 211,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "mais-si-je-suis-incapable-de-travailler-serieusement-c'est-bien-parce-que-j'ai-ete-cree-ainsi-a-chacun-ses-responsabilites.wav",
+      "text": "mais si je suis incapable de travailler serieusement c'est bien parce que j'ai ete cree ainsi a chacun ses responsabilites",
+      "src": "../downloaded-clips-20261016-batch2/originals/120.wav",
+      "durationSeconds": 12.004,
+      "sha256": "94aa54bebb783a7a3b7c04f92f7b604d12de145f2addc1c5b85004a60c6e96fa",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-121",
+      "number": 212,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "mais-tous-les-deux-ou-trois-cent-mille-ans-l'evolution-fait-un-bond-en-avant.wav",
+      "text": "mais tous les deux ou trois cent mille ans l'evolution fait un bond en avant",
+      "src": "../downloaded-clips-20261016-batch2/originals/121.wav",
+      "durationSeconds": 5.996,
+      "sha256": "bfcd0b74aec6b4c8b7aa6c4ea64b5d856f05e6b7efa7987c9c7d4f50bcc12d63",
+      "review": {
+        "usage": "both",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-122",
+      "number": 213,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "meme-si-je-ne-suis-pas-le-premier-informe-j-ai-suffisamment-d-yeux-et-d-oreilles-pour-tout-savoir.wav",
+      "text": "meme si je ne suis pas le premier informe j ai suffisamment d yeux et d oreilles pour tout savoir",
+      "src": "../downloaded-clips-20261016-batch2/originals/122.wav",
+      "durationSeconds": 6.78,
+      "sha256": "fe28e0e2d318aadb5514a66cb7bcf1d39fd656da7e9804e94be1524a00bb7239",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-123",
+      "number": 214,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "mes-enfants-la-recreation-est-terminee.wav",
+      "text": "mes enfants la recreation est terminee",
+      "src": "../downloaded-clips-20261016-batch2/originals/123.wav",
+      "durationSeconds": 2.6,
+      "sha256": "73e39b2ab96ffa3cd751c50212eeb76211d71686ef2fb3610db5ecab972f024e",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-124",
+      "number": 215,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "Moi-jetais-fort-en-rien-du-tout-Le-travail-ca-me-donne-la-migraine.wav",
+      "text": "Moi jetais fort en rien du tout Le travail ca me donne la migraine",
+      "src": "../downloaded-clips-20261016-batch2/originals/124.wav",
+      "durationSeconds": 7.314,
+      "sha256": "d1de4e44a6cc6ecb69f60aca22391a07be2b4189800968a8d1cbd0249a3a1e7a",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-125",
+      "number": 216,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "mon-coeur-se-gonfle-d'admiration-de-joie-de-reconnaissance.wav",
+      "text": "mon coeur se gonfle d'admiration de joie de reconnaissance",
+      "src": "../downloaded-clips-20261016-batch2/originals/125.wav",
+      "durationSeconds": 5.97,
+      "sha256": "4d57d92c1f62cad843c1092cf59356afd86686ed58734591208efc229a79c592",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-126",
+      "number": 217,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ne-me-parlez-jamais-de-ca-rochefort-je-veux-savoir-la-verite-mais-je-ne-veux-pas-savoir-comment-on-me-l-a-fait-savoir.wav",
+      "text": "ne me parlez jamais de ca rochefort je veux savoir la verite mais je ne veux pas savoir comment on me l a fait savoir",
+      "src": "../downloaded-clips-20261016-batch2/originals/126.wav",
+      "durationSeconds": 7.485,
+      "sha256": "4d7dfed82cd60bd202cec24b4f5b40a887ccdbb102f694329ad82b2a0dfc5e46",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-127",
+      "number": 218,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "Ne-pas-connaitre-son-talent-cest-faciliter-la-reussite-des-mediocres.wav",
+      "text": "Ne pas connaitre son talent cest faciliter la reussite des mediocres",
+      "src": "../downloaded-clips-20261016-batch2/originals/127.wav",
+      "durationSeconds": 8.673,
+      "sha256": "fa316e58d3ca0f2d07e569f2061e19e90377748479781618d8e677d8ac170dd9",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-128",
+      "number": 219,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ne-t'inquiete-pas-je-te-poserais-pas-trop-de-questions-je-n'ai-pas-envie-que-tu-me-mentes.wav",
+      "text": "ne t'inquiete pas je te poserais pas trop de questions je n'ai pas envie que tu me mentes",
+      "src": "../downloaded-clips-20261016-batch2/originals/128.wav",
+      "durationSeconds": 6.989,
+      "sha256": "49d6d85becf7565f81cc527085c2ff11a82631a60a8a6fcd888aa0afbc4f853b",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "ne t'inquiete pas je te poserais pas trop de questions"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-129",
+      "number": 220,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ne-te-tourmente-plus-exister-c-est-un-mot-mourir-est-un-mot-des-formules-des-idees-que-l-on-se-fait-si-tu-comprends-cela-rien-ne-pourra-t-entamer.wav",
+      "text": "ne te tourmente plus exister c est un mot mourir est un mot des formules des idees que l on se fait si tu comprends cela rien ne pourra t entamer",
+      "src": "../downloaded-clips-20261016-batch2/originals/129.wav",
+      "durationSeconds": 10.855,
+      "sha256": "e0d2feec94e23bd35f39269dcd144bf930b300013520d31175fa2e0d23269a65",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-130",
+      "number": 221,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "non-attends-une-minute-toi-tu-as-besoin-de-mon-aide-tout-de-suite-alors-tu-l-as.wav",
+      "text": "non attends une minute toi tu as besoin de mon aide tout de suite alors tu l as",
+      "src": "../downloaded-clips-20261016-batch2/originals/130.wav",
+      "durationSeconds": 6.44,
+      "sha256": "16ea9959f29048a8be3e045320c751e050aefeb90ccbe8ae50903a37ed5e77a6",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-131",
+      "number": 222,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "non-je-n-y-crois-pas-c-est-une-blague-tu-crois-serieusement-que-ce-genre-d-attaque-peut-m-aneantir.wav",
+      "text": "non je n y crois pas c est une blague tu crois serieusement que ce genre d attaque peut m aneantir",
+      "src": "../downloaded-clips-20261016-batch2/originals/131.wav",
+      "durationSeconds": 5.212,
+      "sha256": "6062fafc44097d7e246ec8eac95eba29505794be09feae50fec8f3f1cbe202d3",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-132",
+      "number": 223,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "non-ma-chere-amie-ma-competence-s-arrete-la-ou-les-imponderables-commencent (1).wav",
+      "text": "non ma chere amie ma competence s arrete la ou les imponderables commencent (1)",
+      "src": "../downloaded-clips-20261016-batch2/originals/132.wav",
+      "durationSeconds": 5.265,
+      "sha256": "4026177b0bafd4042fd95f30668fa8bcd615bbf58d1fc5be9138f5afa0c95753",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-133",
+      "number": 224,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "nous-connaissons-toutes-les-phases-c-est-toujours-ainsi-lorsqu-un-univers-s-aneantit.wav",
+      "text": "nous connaissons toutes les phases c est toujours ainsi lorsqu un univers s aneantit",
+      "src": "../downloaded-clips-20261016-batch2/originals/133.wav",
+      "durationSeconds": 5.108,
+      "sha256": "8d4c2ddf5f584183557a1713c4a2831b68783838b604513e6f9c56ff58b3b627",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-134",
+      "number": 225,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "Nous-ferons-du-bon-travail-ensemble-Mes-experiences-sont-tres-avancees.wav",
+      "text": "Nous ferons du bon travail ensemble Mes experiences sont tres avancees",
+      "src": "../downloaded-clips-20261016-batch2/originals/134.wav",
+      "durationSeconds": 10.344,
+      "sha256": "2b4b175f2ba0516ee2ec7e8d78777d0e8c0a4a320230d18fd6178190b545c654",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "Nous ferons du bon travail ensemble Mes experiences sont tres avancees"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-135",
+      "number": 226,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "oh-comme-tu-es-dans-le-noir.wav",
+      "text": "oh comme tu es dans le noir",
+      "src": "../downloaded-clips-20261016-batch2/originals/135.wav",
+      "durationSeconds": 2.992,
+      "sha256": "5b54bdbeadde10c2c7ef9f89210e6771a23a62d929cd1a101ac9394bb685d187",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-136",
+      "number": 227,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "oh-je-vous-assire-sure-il-est-sorit-per-ica-vous-etes-sire-certain-je-l-ai-vu.wav",
+      "text": "oh je vous assire sure il est sorit per ica vous etes sire certain je l ai vu",
+      "src": "../downloaded-clips-20261016-batch2/originals/136.wav",
+      "durationSeconds": 5.448,
+      "sha256": "fe191ead75c9ba79f5355020f87c7128dbd881516a9a75dc8d13495ff7964878",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-137",
+      "number": 228,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "oh-la-la-c-est-vachement-esquinte-hein-ce-n-est-pas-grave-il-me-reste-un-phare.wav",
+      "text": "oh la la c est vachement esquinte hein ce n est pas grave il me reste un phare",
+      "src": "../downloaded-clips-20261016-batch2/originals/137.wav",
+      "durationSeconds": 4.246,
+      "sha256": "b26195ba50df19d76c93cd919476eefde22e02585c49932b18bed920d7f84c89",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-138",
+      "number": 229,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "oh-la-la-il-t-en-manque-un-sacre-bout-hein-un-sacre-bout-de-quoi-ben-un-bout-d-os-je-suppose.wav",
+      "text": "oh la la il t en manque un sacre bout hein un sacre bout de quoi ben un bout d os je suppose",
+      "src": "../downloaded-clips-20261016-batch2/originals/138.wav",
+      "durationSeconds": 9.314,
+      "sha256": "7426dc625a54ca705c6e2ef1da04fdf63f957869da43edd04e6578858448ea1e",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "oh la la il t en manque un sacre bout hein "
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-139",
+      "number": 230,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "oh-ma-soeur-tu-ne-dis-pas-la-vraie-verite-je-crois-je-suis-meme-sure-allez-fais-moi-un-petit-sourire.wav",
+      "text": "oh ma soeur tu ne dis pas la vraie verite je crois je suis meme sure allez fais moi un petit sourire",
+      "src": "../downloaded-clips-20261016-batch2/originals/139.wav",
+      "durationSeconds": 10.332,
+      "sha256": "e7252559b9e2fb861892553fb1aea703527d5ff73506503555b9d273c52cfb64",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-140",
+      "number": 231,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "oh-mais-si-mais-si-je-t-en-veux-pas-moi-aussi-j-ai-eu-ton-age-je-sais-ce-que-c-est-la-spontaneite-l-enthousiasme-on-tuerait-pere-et-mere-seulement-au-mien-on-a-des-scrupules.wav",
+      "text": "oh mais si mais si je t en veux pas moi aussi j ai eu ton age je sais ce que c est la spontaneite l enthousiasme on tuerait pere et mere seulement au mien on a des scrupules",
+      "src": "../downloaded-clips-20261016-batch2/originals/140.wav",
+      "durationSeconds": 9.366,
+      "sha256": "278cce9ac9c749cf4db91bf5ff0f055bebd1286c96003325fb460501ebfcc508",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-141",
+      "number": 232,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "on-doit-toujours-croire-qu-un-jour-nos-reves-se-realiseront-qu-au-bout-de-l-arc-en-ciel-un-ami-nous-tend-la-main-il-faut-croire-tres-fort-que-ce-jour-n-est-pas-tres-loin.wav",
+      "text": "on doit toujours croire qu un jour nos reves se realiseront qu au bout de l arc en ciel un ami nous tend la main il faut croire tres fort que ce jour n est pas tres loin",
+      "src": "../downloaded-clips-20261016-batch2/originals/141.wav",
+      "durationSeconds": 11.351,
+      "sha256": "d8cd4a1708f95330bd2310b9ab2403b6dfeb6eb3b5164a9a94e55c0394440ee8",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-142",
+      "number": 233,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "on-eut-toutes-les-peines-du-monde-a-lui-apprendre-a-lire-et-il-avait-neuf-ans-qu-il-ne-connaissait-pas-encore-ses-lettres.wav",
+      "text": "on eut toutes les peines du monde a lui apprendre a lire et il avait neuf ans qu il ne connaissait pas encore ses lettres",
+      "src": "../downloaded-clips-20261016-batch2/originals/142.wav",
+      "durationSeconds": 8.948,
+      "sha256": "2cfb8743f0d83e16b6c4e21b2579469afe9327807e2a93bbd89b49f38f40b564",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-143",
+      "number": 234,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "on-la-boucle-hwu.wav",
+      "text": "on la boucle hwu",
+      "src": "../downloaded-clips-20261016-batch2/originals/143.wav",
+      "durationSeconds": 1.79,
+      "sha256": "651238e14209ecdf005c4c4431c5fcfef2a0d38f8a40de359be36f12e1a73594",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-144",
+      "number": 235,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "on-s'excite-on-s'emballe-on-croit-que-ca-va-etre-une-belle-affaire-et-ca-finit-comme-d'habitude-en-pipi-de-chat!.wav",
+      "text": "on s'excite on s'emballe on croit que ca va etre une belle affaire et ca finit comme d'habitude en pipi de chat!",
+      "src": "../downloaded-clips-20261016-batch2/originals/144.wav",
+      "durationSeconds": 7.981,
+      "sha256": "75be6c46b0661f95c619441875a02144f17cce7776331085345be848c132e7c7",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-145",
+      "number": 236,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "on-vous-a-dit-qu-on-vient-de-nous-debloquer-alors-vous-allez-pas-nous-bloquer-alors-qu-on-nous-a-debloques-quoi.wav",
+      "text": "on vous a dit qu on vient de nous debloquer alors vous allez pas nous bloquer alors qu on nous a debloques quoi",
+      "src": "../downloaded-clips-20261016-batch2/originals/145.wav",
+      "durationSeconds": 6.414,
+      "sha256": "c6200642e7e247a390076c1a944af146ce3842c960187a5bf5efc7ce3bda957b",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-146",
+      "number": 237,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "ooh-mais-tu-travailles-trop!.wav",
+      "text": "ooh mais tu travailles trop!",
+      "src": "../downloaded-clips-20261016-batch2/originals/146.wav",
+      "durationSeconds": 4.011,
+      "sha256": "b99f9454015184ff7d877c90b2ee54b8337ffd20ff5e18e47d19e36a46e61454",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-147",
+      "number": 238,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "oui-en-verite-dans-tout-savoir-tout-ce-que-nous-savons-est-deja-su-car-ceux-qui-ne-savent-rien-en-savent-toujours-autant-que-ceux-qui-n-en-savent-pas-plus-qu-eux.wav",
+      "text": "oui en verite dans tout savoir tout ce que nous savons est deja su car ceux qui ne savent rien en savent toujours autant que ceux qui n en savent pas plus qu eux",
+      "src": "../downloaded-clips-20261016-batch2/originals/147.wav",
+      "durationSeconds": 8.896,
+      "sha256": "1003f73571c520e62bb6cf89d3d58005c1f12f6bb35444e17781adf0772395c2",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-148",
+      "number": 239,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "parfait-les-choses-serieuses-vont-commencer.wav",
+      "text": "parfait les choses serieuses vont commencer",
+      "src": "../downloaded-clips-20261016-batch2/originals/148.wav",
+      "durationSeconds": 3.149,
+      "sha256": "db949539e3a7f370110d045cce5091fd83e060a8a1d7f9e39067e2bedcd90f18",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-149",
+      "number": 240,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "plus-qu-il-y-a-de-la-confusion-c-est-une-catastrophe.wav",
+      "text": "plus qu il y a de la confusion c est une catastrophe",
+      "src": "../downloaded-clips-20261016-batch2/originals/149.wav",
+      "durationSeconds": 2.861,
+      "sha256": "34c0a52c706bf638b875648131e02e032fc775ca0aa9fde6a3d22957b22c74ba",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-150",
+      "number": 241,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "pour-feter-ca-je-propose-que-nous-allions-feter-ca.wav",
+      "text": "pour feter ca je propose que nous allions feter ca",
+      "src": "../downloaded-clips-20261016-batch2/originals/150.wav",
+      "durationSeconds": 6.989,
+      "sha256": "44436a49c20f709e524c943ed2346fac5bd9398701a23c4793706c2b631287de",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-151",
+      "number": 242,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "pour-qui-il-se-prend-ce-mec-y-en-a-que-pour-lui-ma-parole.wav",
+      "text": "pour qui il se prend ce mec y en a que pour lui ma parole",
+      "src": "../downloaded-clips-20261016-batch2/originals/151.wav",
+      "durationSeconds": 4.377,
+      "sha256": "b85ec74bcf4e2b0b06fc8dcea3a338f3cf95c5fb879915f9c1287136a2568e00",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-152",
+      "number": 243,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "pour-vous-aider-tous-a-comprendre-je-vais-maintenant-vous-raconter-une-tres-belle-parabole.wav",
+      "text": "pour vous aider tous a comprendre je vais maintenant vous raconter une tres belle parabole",
+      "src": "../downloaded-clips-20261016-batch2/originals/152.wav",
+      "durationSeconds": 9.366,
+      "sha256": "7ed2c4a4db0faf0208297f180935a06ad80d7f79bda2e3d534d265108f12d22c",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-153",
+      "number": 244,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "prenons-ce-monde-sans-pitie-a-la-gorge-et-obligeons-le-a-nous-donner-ce-que-nous-desirons.wav",
+      "text": "prenons ce monde sans pitie a la gorge et obligeons le a nous donner ce que nous desirons",
+      "src": "../downloaded-clips-20261016-batch2/originals/153.wav",
+      "durationSeconds": 3.932,
+      "sha256": "a0f365d0a81882fdaf427aa2e82aef471b5791c4824a0926e695ad88919f3111",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-154",
+      "number": 245,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "professeur-tournesol-ou-donc-etiez-vous-passe-non-non-pas-du-tout-pas-du-tout-c-est-parce-que-j-ai-rate-mon-train.wav",
+      "text": "professeur tournesol ou donc etiez vous passe non non pas du tout pas du tout c est parce que j ai rate mon train",
+      "src": "../downloaded-clips-20261016-batch2/originals/154.wav",
+      "durationSeconds": 6.022,
+      "sha256": "f99e7d6af578f37efbe4713a318a0743afca1a41a17043efd42f9054c07666a1",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-155",
+      "number": 246,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "quatre-vingt-dix-pour-cent-du-succes-c-est-le-look-les-gens-achetent-pas-une-bagnole-ils-m-achetent-moi-et-si-je-mets-un-point-d-honneur-a-soigner-mon-look-c-est-pour-ca-cheveux-gomines-rases-de-pres-costumes-class.wav",
+      "text": "quatre vingt dix pour cent du succes c est le look les gens achetent pas une bagnole ils m achetent moi et si je mets un point d honneur a soigner mon look c est pour ca cheveux gomines rases de pres costumes class",
+      "src": "../downloaded-clips-20261016-batch2/originals/155.wav",
+      "durationSeconds": 11.404,
+      "sha256": "8f95f33b7f5427c509b94863b7be0638da690fc74b6e0f7ff868039e2f2b4c58",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-156",
+      "number": 247,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "quel-heureux-hasard-je-dirais-meme-plus-quel-heureux-hasard.wav",
+      "text": "quel heureux hasard je dirais meme plus quel heureux hasard",
+      "src": "../downloaded-clips-20261016-batch2/originals/156.wav",
+      "durationSeconds": 3.619,
+      "sha256": "52f64bcbd4d1f79ca41ccc3339c8aac6778d6e181a0303cabfb9f9571b184bd7",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-157",
+      "number": 248,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "quoi-c-est-une-de-ses-illusions-ou-la-technique-du-camouflage-dans-la-brume.wav",
+      "text": "quoi c est une de ses illusions ou la technique du camouflage dans la brume",
+      "src": "../downloaded-clips-20261016-batch2/originals/157.wav",
+      "durationSeconds": 5.866,
+      "sha256": "e2a1fb3bff070f51af43a89c098f7b031195722d579dd8b4a7f95178cffb7521",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-158",
+      "number": 249,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "rate-comment-ca-rate-qu-est-ce-que-ca-veut-dire-ca-veut-dire-rate-ni-plus-ni-moins-tete-de-mule.wav",
+      "text": "rate comment ca rate qu est ce que ca veut dire ca veut dire rate ni plus ni moins tete de mule",
+      "src": "../downloaded-clips-20261016-batch2/originals/158.wav",
+      "durationSeconds": 6.388,
+      "sha256": "79499833c6d473c6a98cb3e6e51444e642bd9f9ae9f7b3d883ca32cfc887e187",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-159",
+      "number": 250,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "regardez-nous-vous-et-moi-vous-avez-choisi-la-culture-et-j-ai-choisi-l-allure.wav",
+      "text": "regardez nous vous et moi vous avez choisi la culture et j ai choisi l allure",
+      "src": "../downloaded-clips-20261016-batch2/originals/159.wav",
+      "durationSeconds": 5.134,
+      "sha256": "88f5a1034cd72f714ec142d46325e1f71f425c3fea917f7a32309563f8bb3793",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-160",
+      "number": 251,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "rien-qu-on-ne-me-demande-rien.wav",
+      "text": "rien qu on ne me demande rien",
+      "src": "../downloaded-clips-20261016-batch2/originals/160.wav",
+      "durationSeconds": 2.757,
+      "sha256": "8edf6ed03df171a952d99792a5a31e1131d0ec904c6cda363c11be626e13acb5",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-161",
+      "number": 252,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "sherif-vous-feriez-mieux-d'alerter-l'armee-vous-avez-besoin-d'aide-ici.wav",
+      "text": "sherif vous feriez mieux d'alerter l'armee vous avez besoin d'aide ici",
+      "src": "../downloaded-clips-20261016-batch2/originals/161.wav",
+      "durationSeconds": 6.989,
+      "sha256": "00124433927cfce042ffe9ceceae4ccb8f6ebfd3a22b59eae277948c8790d428",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-162",
+      "number": 253,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "shut-up-you-idiot-you-speak-nothing-but-english-today.wav",
+      "text": "shut up you idiot you speak nothing but english today",
+      "src": "../downloaded-clips-20261016-batch2/originals/162.wav",
+      "durationSeconds": 3.959,
+      "sha256": "26a4b276751ae2d83ad5972a1fd5c3af71dba0f280fa88501d3794ba343658c1",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-163",
+      "number": 254,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "si-j-avais-su-que-cette-jeune-fille-manquait-a-ce-point-d-education-je-suis-sur-que-je-ne-me-serais-jamais-presente-dans-cette-maison.wav",
+      "text": "si j avais su que cette jeune fille manquait a ce point d education je suis sur que je ne me serais jamais presente dans cette maison",
+      "src": "../downloaded-clips-20261016-batch2/originals/163.wav",
+      "durationSeconds": 7.146,
+      "sha256": "64502ee379d8cc1a9efd44811d434197b4fe1f7b0876897113312117ab5d3e36",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-164",
+      "number": 255,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "si-je-dis-que-vous-allez-nous-aider-ce-serait-une-invention.wav",
+      "text": "si je dis que vous allez nous aider ce serait une invention",
+      "src": "../downloaded-clips-20261016-batch2/originals/164.wav",
+      "durationSeconds": 4.977,
+      "sha256": "eb6e67044a0a6c379d37a5a0ed17ea263da6b1d9146312a5a387abbb5865b8fe",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-165",
+      "number": 256,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "si-jeune-et-deja-si-plein-d-arrogance-pourquoi-tu-es-si-excite-est-ce-que-c-est-deja-l-heure-du-gouter.wav",
+      "text": "si jeune et deja si plein d arrogance pourquoi tu es si excite est ce que c est deja l heure du gouter",
+      "src": "../downloaded-clips-20261016-batch2/originals/165.wav",
+      "durationSeconds": 6.127,
+      "sha256": "700e2c8b69d0b0fdffc1d7c51604fc90d682d7fe2d7ec1338beed2fa89acbf0d",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-166",
+      "number": 257,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "si-vous-voulez-m-impressionner-mon-joli-faites-votre-putain-de-job.wav",
+      "text": "si vous voulez m impressionner mon joli faites votre putain de job",
+      "src": "../downloaded-clips-20261016-batch2/originals/166.wav",
+      "durationSeconds": 3.227,
+      "sha256": "15e707a93350988185bdb36de03064fc8c98cd2c9abc256b629ba13d11094307",
+      "review": {
+        "usage": "incorrect",
+        "audience": "no",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-167",
+      "number": 258,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "silence-les-canards-ou-je-vous-tords-le-cou.wav",
+      "text": "silence les canards ou je vous tords le cou",
+      "src": "../downloaded-clips-20261016-batch2/originals/167.wav",
+      "durationSeconds": 2.914,
+      "sha256": "c18fb1b18a145bb7c9dd4518478afbd2cffb9b98c8885e931511434e6c6a0562",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-168",
+      "number": 259,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "silence-moustique-sy7.wav",
+      "text": "silence moustique sy7",
+      "src": "../downloaded-clips-20261016-batch2/originals/168.wav",
+      "durationSeconds": 2.444,
+      "sha256": "0af6a3a1877d480b3ba105f7da9579546168b722b35fece466fb71dd495cb3fe",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-169",
+      "number": 260,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "t'as-compris-moi-j'ai-compris-mm-mh!.wav",
+      "text": "t'as compris moi j'ai compris mm mh!",
+      "src": "../downloaded-clips-20261016-batch2/originals/169.wav",
+      "durationSeconds": 5.004,
+      "sha256": "0bed28e04fc3cdab5344900509060b14714af11ad6ba51509c5591f9021400a0",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-170",
+      "number": 261,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "t'as-gagne-profites-en-mon-petit!.wav",
+      "text": "t'as gagne profites en mon petit!",
+      "src": "../downloaded-clips-20261016-batch2/originals/170.wav",
+      "durationSeconds": 3.985,
+      "sha256": "e344b722aec86e110624373afa8d61550ba77e46f06805f98bdab533ad37f28d",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-171",
+      "number": 262,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "tais-toi-insolente!-4c6.wav",
+      "text": "tais toi insolente! 4c6",
+      "src": "../downloaded-clips-20261016-batch2/originals/171.wav",
+      "durationSeconds": 3.985,
+      "sha256": "7a109aa0c1e985157b8c459d566cf40b639c6e6d8bb353200507fd3d8acc215e",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-172",
+      "number": 263,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "taisez-vous-scolopendres-epargnez-votre-salive-et-votre-oxygene.wav",
+      "text": "taisez vous scolopendres epargnez votre salive et votre oxygene",
+      "src": "../downloaded-clips-20261016-batch2/originals/172.wav",
+      "durationSeconds": 3.671,
+      "sha256": "21877349e64db27803cbea5a2a011d3f4e6f55dc6c58291d43af5adf702e5f0b",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-173",
+      "number": 264,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "Tas-aucune-chance-Alors-saisisla!.wav",
+      "text": "Tas aucune chance Alors saisisla!",
+      "src": "../downloaded-clips-20261016-batch2/originals/173.wav",
+      "durationSeconds": 4.937,
+      "sha256": "62030f3933b79d009fc9258c70e5994ea4c7cb4287033016ce28d9d81980eaa4",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "trim",
+        "trimText": "Tas aucune chance"
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-174",
+      "number": 265,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "toi-avec-tes-idees-fixes-oui-si-on-peut-appeler-ca-des-idees.wav",
+      "text": "toi avec tes idees fixes oui si on peut appeler ca des idees",
+      "src": "../downloaded-clips-20261016-batch2/originals/174.wav",
+      "durationSeconds": 6.989,
+      "sha256": "566d3b05959b5a83d50c1fe7debd87307c395c574e1e9d39cfec54174aabf66d",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-175",
+      "number": 266,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "toi-si-j-ai-un-petit-conseil-a-te-donner-c-est-de-continuer-a-la-boucler.wav",
+      "text": "toi si j ai un petit conseil a te donner c est de continuer a la boucler",
+      "src": "../downloaded-clips-20261016-batch2/originals/175.wav",
+      "durationSeconds": 3.175,
+      "sha256": "27afacce5045ce130f43581ffd0fb2a665169a5d15ee4621defc56487c68fce9",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-176",
+      "number": 267,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "toi-tais-toi-et-pas-de-whisky-je-te-l-ai-deja-dit.wav",
+      "text": "toi tais toi et pas de whisky je te l ai deja dit",
+      "src": "../downloaded-clips-20261016-batch2/originals/176.wav",
+      "durationSeconds": 2.339,
+      "sha256": "8c5f8b7042c63b3dd64dea6189eb08bb6f30b59ca09fed050bd7537c98d99100",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-177",
+      "number": 268,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "tout-ce-que-je-connais-de-l-electricite-c-est-qu-il-y-a-des-fils.wav",
+      "text": "tout ce que je connais de l electricite c est qu il y a des fils",
+      "src": "../downloaded-clips-20261016-batch2/originals/177.wav",
+      "durationSeconds": 3.279,
+      "sha256": "0f10db4841de1e28c119b2a34aa8ee0ff317f18ca8dfaea485d2c9aefa32bba9",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-178",
+      "number": 269,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "tout-cela-est-desolant-on-dirait-que-ton-intelligence-est-bien-loin-d-egaler-ta-force-physique-ca-n-a-rien-d-etonnant-de-la-part-d-une-bete.wav",
+      "text": "tout cela est desolant on dirait que ton intelligence est bien loin d egaler ta force physique ca n a rien d etonnant de la part d une bete",
+      "src": "../downloaded-clips-20261016-batch2/originals/178.wav",
+      "durationSeconds": 8.086,
+      "sha256": "5eb853f28ae3d8870d047211b9f00ca93eb3bafc886a4cc2c7ec6ef285c7a614",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-179",
+      "number": 270,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "tu-commences-a-entrevoir-le-debut-de-la-terrible-verite.wav",
+      "text": "tu commences a entrevoir le debut de la terrible verite",
+      "src": "../downloaded-clips-20261016-batch2/originals/179.wav",
+      "durationSeconds": 3.619,
+      "sha256": "18ea18c4816c1b8b1f36e4db21fa24023b328b7f3c3340d02c1d64441fea46f1",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-180",
+      "number": 271,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "tu-es-vraiment-le-roi-des-inconscients-espece-d-idiot.wav",
+      "text": "tu es vraiment le roi des inconscients espece d idiot",
+      "src": "../downloaded-clips-20261016-batch2/originals/180.wav",
+      "durationSeconds": 3.149,
+      "sha256": "e022ebfe81353c413246406ce2d6debf85488207f56604187affe727389d6ca5",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-181",
+      "number": 272,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "tu-ferais-mieux-de-la-fermer-au-lieu-de-parler-tu-ferais-mieux-de-regarder.wav",
+      "text": "tu ferais mieux de la fermer au lieu de parler tu ferais mieux de regarder",
+      "src": "../downloaded-clips-20261016-batch2/originals/181.wav",
+      "durationSeconds": 4.977,
+      "sha256": "3112d461704bc3a32d95d8458b0e0ca8a1f53df3db2d4eda28b0f2c44ae7fdfb",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-182",
+      "number": 273,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "tu-t-es-encore-foutu-de-moi-madre-de-dios.wav",
+      "text": "tu t es encore foutu de moi madre de dios",
+      "src": "../downloaded-clips-20261016-batch2/originals/182.wav",
+      "durationSeconds": 3.07,
+      "sha256": "89b5d39e89b98dca069b5e7f6c030ba7209d582a9c9f535a5e732a62dc511d74",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-183",
+      "number": 274,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "tu-viendras-quand-meme-il-n-y-a-que-le-desert-pour-toi.wav",
+      "text": "tu viendras quand meme il n y a que le desert pour toi",
+      "src": "../downloaded-clips-20261016-batch2/originals/183.wav",
+      "durationSeconds": 4.768,
+      "sha256": "f7f7c0aa4c1bd5c1ccd559f663617cd547f51e4ffb7e5d527569e21c0b8c7d80",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-184",
+      "number": 275,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "un-enfant-brillant-oui-elle-sait-multiplier-de-grands-nombres-de-tete-les-calculatrices-aussi.wav",
+      "text": "un enfant brillant oui elle sait multiplier de grands nombres de tete les calculatrices aussi",
+      "src": "../downloaded-clips-20261016-batch2/originals/184.wav",
+      "durationSeconds": 6.075,
+      "sha256": "b0b43b94cdcf12b96717d33b874c2ca28334b94cd1ddc97740ccb508d4b5b44a",
+      "review": {
+        "usage": "both",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-185",
+      "number": 276,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "un-vrai-petit-heros-ca-mange-que-des-medailles-et-des-baguettes-au-tambour-pas-vrai-chico-hmm.wav",
+      "text": "un vrai petit heros ca mange que des medailles et des baguettes au tambour pas vrai chico hmm",
+      "src": "../downloaded-clips-20261016-batch2/originals/185.wav",
+      "durationSeconds": 8.844,
+      "sha256": "229b6c3d1d5c8f8a63793f93149dc92682b656f1957b7e6ae7fca9d5a9ec1b3f",
+      "review": {
+        "usage": "both",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-186",
+      "number": 277,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "un-vrai-scorpion-c-est-a-dire-oh-mais-c-est-le-pire-des-signes-moi-je-viens-encore-de-lire-un-enorme-chapitre-la-dessus-c-est-un-signe-epouvantable.wav",
+      "text": "un vrai scorpion c est a dire oh mais c est le pire des signes moi je viens encore de lire un enorme chapitre la dessus c est un signe epouvantable",
+      "src": "../downloaded-clips-20261016-batch2/originals/186.wav",
+      "durationSeconds": 8.452,
+      "sha256": "a84771af1887297379310f240cc2d90cd1c220856c2ecf409a50861eaadf401b",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-187",
+      "number": 278,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "une-autre-sagesse-remplace-l-ancienne-une-plus-grande-folie-une-plus-grande-ignorance-tout-a-fait-differente-et-tout-a-fait-pareille-que-cela-te-console-que-cela-te-rejouisse.wav",
+      "text": "une autre sagesse remplace l ancienne une plus grande folie une plus grande ignorance tout a fait differente et tout a fait pareille que cela te console que cela te rejouisse",
+      "src": "../downloaded-clips-20261016-batch2/originals/187.wav",
+      "durationSeconds": 11.586,
+      "sha256": "21a2513b91a4d04e4b7ed4b0138b8e6f330fb9182a34f8185d92110e1b3b2ad1",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-188",
+      "number": 279,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "vivent-les-colleges-d-ou-l-on-sort-si-habile-homme.wav",
+      "text": "vivent les colleges d ou l on sort si habile homme",
+      "src": "../downloaded-clips-20261016-batch2/originals/188.wav",
+      "durationSeconds": 3.279,
+      "sha256": "5c7f2949c85d09522fe0338ee08dc6c68299702bedd50c6eac489de1360af3e7",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-189",
+      "number": 280,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "vous-avez-bien-fait-de-suivre-mes-conseils.wav",
+      "text": "vous avez bien fait de suivre mes conseils",
+      "src": "../downloaded-clips-20261016-batch2/originals/189.wav",
+      "durationSeconds": 2.861,
+      "sha256": "3cc178667f5eaa5bf5297be5279efe7c6ec05c6eb9abce7cd8999639f6e018c3",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-190",
+      "number": 281,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "vous-avez-ete-furieusement-authentique.wav",
+      "text": "vous avez ete furieusement authentique",
+      "src": "../downloaded-clips-20261016-batch2/originals/190.wav",
+      "durationSeconds": 5.004,
+      "sha256": "fa88377c7104822c3c65d0679c05c0f9ac5ef2f9a18fd2ede8b6e40ab20acb74",
+      "review": {
+        "usage": "both",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-191",
+      "number": 282,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "vous-avez-presume-de-vos-capacites-sans-meme-connaitre-les-miennes-c-est-pour-cette-raison-que-maintenant-vous-vous-retrouvez-a-ramper-sur-le-sol.wav",
+      "text": "vous avez presume de vos capacites sans meme connaitre les miennes c est pour cette raison que maintenant vous vous retrouvez a ramper sur le sol",
+      "src": "../downloaded-clips-20261016-batch2/originals/191.wav",
+      "durationSeconds": 8.086,
+      "sha256": "ca6ddabcd3f1b7fa37fc2634e4f7d0b9f0a934740abe91f953c24e1f91c97c30",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-192",
+      "number": 283,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "vous-etes-dans-mon-ecole-pour-surdoues-pour-mutants.wav",
+      "text": "vous etes dans mon ecole pour surdoues pour mutants",
+      "src": "../downloaded-clips-20261016-batch2/originals/192.wav",
+      "durationSeconds": 3.985,
+      "sha256": "c86cdc73dd7547383e9e5e2023bf80705b256afdf52ad0ef1bd286bb72457e7a",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-193",
+      "number": 284,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "vous-etes-fantastique-sensei-tout-ce-que-vous-dites-est-si-beau-et-si-vrai-vous-permettez-que-je-prenne-des-notes.wav",
+      "text": "vous etes fantastique sensei tout ce que vous dites est si beau et si vrai vous permettez que je prenne des notes",
+      "src": "../downloaded-clips-20261016-batch2/originals/193.wav",
+      "durationSeconds": 5.866,
+      "sha256": "0d0b12d96621c478bf0b4658846e8a973bb0c211e3c6eef538d8fc03d1261192",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-194",
+      "number": 285,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "vous-etes-l-homme-le-plus-extraordinaire-que-j-ai-jamais-connu.wav",
+      "text": "vous etes l homme le plus extraordinaire que j ai jamais connu",
+      "src": "../downloaded-clips-20261016-batch2/originals/194.wav",
+      "durationSeconds": 3.123,
+      "sha256": "286f0b254ac8d35561dbacdf92ed21d00590874b1976d18ebabcbd3f62d98d18",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-195",
+      "number": 286,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "vous-etes-un-zero-3c9.wav",
+      "text": "vous etes un zero 3c9",
+      "src": "../downloaded-clips-20261016-batch2/originals/195.wav",
+      "durationSeconds": 1.66,
+      "sha256": "1c09b9b5e41b180ffbd2048b47a9d4033244d5a816c13e1e30e09c49a57f018e",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-196",
+      "number": 287,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "vous-savez-lire-un-peu-les-grosses-lettres.wav",
+      "text": "vous savez lire un peu les grosses lettres",
+      "src": "../downloaded-clips-20261016-batch2/originals/196.wav",
+      "durationSeconds": 7.981,
+      "sha256": "d9dcfc0eafa74bf8a0b4da366b0d7827f270b05ed537859b209fdc54f6de409f",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-197",
+      "number": 288,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "vous-savez-mozart-je-l-ai-bien-connu-j-ai-joue-au-golfe-avec-lui-a-dien-bien-phu.wav",
+      "text": "vous savez mozart je l ai bien connu j ai joue au golfe avec lui a dien bien phu",
+      "src": "../downloaded-clips-20261016-batch2/originals/197.wav",
+      "durationSeconds": 6.623,
+      "sha256": "28fa63d50d885926c6b5981e515e6edc7b5d582f6d40a5a540d38d60012ad9ec",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-198",
+      "number": 289,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "voyons-en-premier-lieu-il-faut-te-sortir-de-la-tete-toutes-ces-idees-moyenageuses-faire-de-la-place-pour-de-nouvelles-idees.wav",
+      "text": "voyons en premier lieu il faut te sortir de la tete toutes ces idees moyenageuses faire de la place pour de nouvelles idees",
+      "src": "../downloaded-clips-20261016-batch2/originals/198.wav",
+      "durationSeconds": 9.418,
+      "sha256": "123aace950a9c7515c191284270680bf9fe59f59866a1af722ac763f45ad0cd1",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261016-batch2-199",
+      "number": 290,
+      "batch": "downloaded-clips-20261016-batch2",
+      "name": "zero-multiplie-par-zero-voila-ce-que-je-pense-de-vous-et-de-vos-pareils.wav",
+      "text": "zero multiplie par zero voila ce que je pense de vous et de vos pareils",
+      "src": "../downloaded-clips-20261016-batch2/originals/199.wav",
+      "durationSeconds": 3.018,
+      "sha256": "514af02685fe116be4e2d18e994c786d16dd118da4b5b50d8f23b40b3e2916bf",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261018-001",
+      "number": 291,
+      "batch": "downloaded-clips-20261018",
+      "name": "alors-arrete-de-me-faire-rire-parce-que-j'en-ai-marre! (1).wav",
+      "text": "alors arrete de me faire rire parce que j'en ai marre! (1)",
+      "src": "../downloaded-clips-20261018/originals/001.wav",
+      "durationSeconds": 5.996,
+      "sha256": "91ff12641810df9e2e85a603b8cfb63d246b94dc94d58d6e23cbc7623d4032d9",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261018-002",
+      "number": 292,
+      "batch": "downloaded-clips-20261018",
+      "name": "alors-la-mon-petit-vieux-vous-m'avez-cueilli-et-je-peux-vous-dire-que-ca-n'est-pas-facile.wav",
+      "text": "alors la mon petit vieux vous m'avez cueilli et je peux vous dire que ca n'est pas facile",
+      "src": "../downloaded-clips-20261018/originals/002.wav",
+      "durationSeconds": 9,
+      "sha256": "b5f12b00e0ddc539aeb0d242af95e35bfc9e461d199049a4d94d3e441e203684",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261018-003",
+      "number": 293,
+      "batch": "downloaded-clips-20261018",
+      "name": "bond-congratulations.wav",
+      "text": "bond congratulations",
+      "src": "../downloaded-clips-20261018/originals/003.wav",
+      "durationSeconds": 2.92,
+      "sha256": "22d4ecf5eed8de7befd9f578528273697c58effe98f3301a105258b4be7fb94e",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261018-004",
+      "number": 294,
+      "batch": "downloaded-clips-20261018",
+      "name": "bond-perfect.wav",
+      "text": "bond perfect",
+      "src": "../downloaded-clips-20261018/originals/004.wav",
+      "durationSeconds": 3.82,
+      "sha256": "71979f5e8f892e00d46c4d754cd7f3296e8388bfa885c49e79724369869fe786",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261018-005",
+      "number": 295,
+      "batch": "downloaded-clips-20261018",
+      "name": "ca-prouve-que-t'es-completement-idiote-et-que-tu-ne-sais-meme-pas-ce-que-tu-dis.wav",
+      "text": "ca prouve que t'es completement idiote et que tu ne sais meme pas ce que tu dis",
+      "src": "../downloaded-clips-20261018/originals/005.wav",
+      "durationSeconds": 5.996,
+      "sha256": "38cabda0465e2e9dd34706fe36a91fa102852ddacde3aae8e9f75c1e7d63d316",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261018-006",
+      "number": 296,
+      "batch": "downloaded-clips-20261018",
+      "name": "ca-va-pas-fort-dans-le-batiment-hein.wav",
+      "text": "ca va pas fort dans le batiment hein",
+      "src": "../downloaded-clips-20261018/originals/006.wav",
+      "durationSeconds": 5.97,
+      "sha256": "8d8d0d70d0e26fcfb34fc73ee7a44344527e8f8f404f6968383b45a327420056",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261018-007",
+      "number": 297,
+      "batch": "downloaded-clips-20261018",
+      "name": "oui-mais-moi-j'en-sais-plus-que-tout-le-monde!.wav",
+      "text": "oui mais moi j'en sais plus que tout le monde!",
+      "src": "../downloaded-clips-20261018/originals/007.wav",
+      "durationSeconds": 3.985,
+      "sha256": "7422daee7432f437796a1dca222aaadf5cc1df88f39021c1f3bb26bca01f1399",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261018-008",
+      "number": 298,
+      "batch": "downloaded-clips-20261018",
+      "name": "tout-le-monde-fait-une-idiotie-dans-sa-vie-je-voudrais-pas-te-faire-la-morale.wav",
+      "text": "tout le monde fait une idiotie dans sa vie je voudrais pas te faire la morale",
+      "src": "../downloaded-clips-20261018/originals/008.wav",
+      "durationSeconds": 5.996,
+      "sha256": "c7848f165f45c9f119a351156b23c4b7b20cc746b50916b41cd01213314a25f2",
+      "review": {
+        "usage": "incorrect",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    },
+    {
+      "id": "downloaded-clips-20261018-009",
+      "number": 299,
+      "batch": "downloaded-clips-20261018",
+      "name": "verdure-camping-papillon-formidable-vous-etes-formidable-nous-sommes-formidables-je-suis-formidable.wav",
+      "text": "verdure camping papillon formidable vous etes formidable nous sommes formidables je suis formidable",
+      "src": "../downloaded-clips-20261018/originals/009.wav",
+      "durationSeconds": 10.28,
+      "sha256": "a9e3a0710ac5ba21d6c6463d0398b2215571e08a1527c94d5425be6e941a9782",
+      "review": {
+        "usage": "correct",
+        "audience": "yes",
+        "decision": "keep",
+        "trimText": ""
+      }
+    }
+  ]
+}

@@ -54,9 +54,14 @@ fun HostScreen(
     totalRounds: Int = 5,
     timingConfig: HourglassConfig = HourglassConfig(),
     answerTimeSeconds: Int = 10,
+    questionsPerPackage: Int = 6,
+    limitQuestionsPerCategory: Boolean = false,
     categoryRules: Map<String, CategoryGameRules> = emptyMap(),
     voteSettings: com.example.triviaparty.model.VoteSettings? = null,
     allAudiencesOnly: Boolean = false,
+    answerSoundsEnabled: Boolean = true,
+    buzzerSoundsEnabled: Boolean = true,
+    teamMode: Boolean = false,
     startNewGame: Boolean = true,
     onGameStarted: () -> Unit = {},
     onBackToMain: () -> Unit
@@ -95,7 +100,7 @@ fun HostScreen(
             delay(300)
             client.connect(hostIp = "127.0.0.1") {
                 if (shouldStartNewGame) {
-                    client.sendEvent(GameEvent.HostStartGame(selectedCategories, totalRounds, timingConfig, answerTimeSeconds, categoryRules,voteSettings,allAudiencesOnly))
+                    client.sendEvent(GameEvent.HostStartGame(selectedCategories, totalRounds, timingConfig, answerTimeSeconds, categoryRules,voteSettings,allAudiencesOnly,questionsPerPackage,answerSoundsEnabled,teamMode,buzzerSoundsEnabled,limitQuestionsPerCategory))
                 }
             }
         }
@@ -141,8 +146,7 @@ fun HostScreen(
                 Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
                     Column(horizontalAlignment = Alignment.CenterHorizontally,
                         verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                        if (startupTimedOut || connectionState == ClientConnectionState.ERROR ||
-                            connectionState == ClientConnectionState.DISCONNECTED) {
+                        if (startupTimedOut || connectionState == ClientConnectionState.ERROR) {
                             Text("Connexion à la partie interrompue.", color = Color.White)
                             Button(onClick = { connectionAttempt++ }) { Text("Réessayer") }
                             TextButton(onClick = onBackToMain) { Text("Retour aux packages") }
@@ -300,6 +304,10 @@ private fun LobbyPanel(game: GameSession, client: GameClient, port: Int) {
         if (game.teams.isEmpty()) Text("Les équipes apparaîtront ici lorsqu’elles rejoindront la partie.", color = Color.White)
         else game.teams.forEach { Text("• ${it.name}", color = Color.White, fontSize = 20.sp) }
 
+        if(game.teamMode) game.teams.forEach { team ->
+            val names=game.players.filter { it.teamId==team.id }.joinToString(", "){it.name}
+            Text("${team.name}: $names",color=Color.LightGray,fontSize=14.sp)
+        }
         if (game.pendingJoinRequests.isNotEmpty()) {
             Text("Demandes en attente", color = HostGold, fontWeight = FontWeight.Bold)
             game.pendingJoinRequests.forEach { name ->
@@ -533,12 +541,12 @@ private fun AnswerTimerControls(game: GameSession, compact: Boolean) {
 private fun RevealPanel(game: GameSession, categoryQuestionIndex: Int, hasMore: Boolean, isLastQuestion: Boolean, onNext: () -> Unit) {
     val question = game.currentQuestion
     val answer = when (question) {
-        is Question.MultipleChoice -> question.options.getOrNull(question.correctOptionIndex).orEmpty()
+        is Question.MultipleChoice -> listOfNotNull(question.options.getOrNull(question.correctOptionIndex), question.explanation).joinToString("\n\n")
         is Question.Ordering -> question.correctOrderIds.mapIndexedNotNull { index, id ->
             question.items.find { it.id == id }?.text?.let { "${index + 1}. $it" }
         }.joinToString("\n")
-        is Question.TextAnswer -> question.acceptableAnswers.firstOrNull().orEmpty()
-        is Question.GuessWho -> question.acceptableAnswers.firstOrNull().orEmpty()
+        is Question.TextAnswer -> listOfNotNull(question.acceptableAnswers.firstOrNull(), question.explanation).joinToString("\n\n")
+        is Question.GuessWho -> listOfNotNull(question.acceptableAnswers.firstOrNull(), question.explanation).joinToString("\n\n")
         is Question.MapPin -> question.options.getOrNull(question.correctOptionIndex)?.label.orEmpty()
         is Question.Wager -> question.subQuestion.options.getOrNull(question.subQuestion.correctOptionIndex).orEmpty()
         is Question.SpeedRace -> question.subQuestion.options.getOrNull(question.subQuestion.correctOptionIndex).orEmpty()

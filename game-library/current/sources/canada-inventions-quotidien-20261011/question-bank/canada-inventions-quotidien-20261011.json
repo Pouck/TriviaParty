@@ -19,7 +19,8 @@
         "C — Le hockey sur glace",
         "D — La crosse"
       ],
-      "correctOptionIndex": 0
+      "correctOptionIndex": 0,
+      "conceptId": "canada-inventions-quotidien-20261011-01"
     },
     {
       "kind": "multipleChoice",
@@ -64,7 +65,8 @@
         "C — Trivial Pursuit",
         "D — Operation"
       ],
-      "correctOptionIndex": 2
+      "correctOptionIndex": 2,
+      "conceptId": "canada-inventions-quotidien-20261011-04"
     },
     {
       "kind": "multipleChoice",
@@ -79,7 +81,8 @@
         "C — La balayeuse de rue",
         "D — La finisseuse d’asphalte"
       ],
-      "correctOptionIndex": 1
+      "correctOptionIndex": 1,
+      "conceptId": "canada-inventions-quotidien-20261011-05"
     },
     {
       "kind": "multipleChoice",

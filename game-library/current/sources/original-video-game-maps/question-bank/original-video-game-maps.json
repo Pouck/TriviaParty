@@ -20,7 +20,8 @@
         "D — Portal"
       ],
       "correctOptionIndex": 0,
-      "imageUrl": "images/original-video-game-maps/blocks.png"
+      "imageUrl": "images/original-video-game-maps/blocks.png",
+      "conceptId": "lib-qcm-jeux-video-20261012-02"
     },
     {
       "kind": "multipleChoice",
@@ -112,7 +113,8 @@
         "C — Tetris",
         "D — Mario Kart"
       ],
-      "correctOptionIndex": 2
+      "correctOptionIndex": 2,
+      "conceptId": "q6"
     }
   ]
 }

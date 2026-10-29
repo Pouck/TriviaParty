@@ -19,7 +19,8 @@
         "C — Ebenezer Scrooge",
         "D — John Watson"
       ],
-      "correctOptionIndex": 1
+      "correctOptionIndex": 1,
+      "conceptId": "culture-qcm-anglophone-personnages-20261010-01"
     },
     {
       "kind": "multipleChoice",
@@ -49,7 +50,8 @@
         "C — Hamlet",
         "D — Othello"
       ],
-      "correctOptionIndex": 2
+      "correctOptionIndex": 2,
+      "conceptId": "culture-qcm-anglophone-personnages-20261010-03"
     },
     {
       "kind": "multipleChoice",
@@ -79,7 +81,8 @@
         "C — Pip",
         "D — Uriah Heep"
       ],
-      "correctOptionIndex": 0
+      "correctOptionIndex": 0,
+      "conceptId": "culture-qcm-anglophone-personnages-20261010-05"
     }
   ]
 }

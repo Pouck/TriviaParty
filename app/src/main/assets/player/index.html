@@ -16,7 +16,11 @@
       <h1>À vous de jouer</h1>
       <p>Un téléphone, une équipe. Aucun téléchargement.</p>
       <form id="join-form">
-        <label for="name">Nom de votre équipe</label>
+        <div id="player-name-field" hidden>
+          <label for="player-name">Votre nom</label>
+          <input id="player-name" maxlength="60" autocomplete="given-name">
+        </div>
+        <label id="team-name-label" for="name">Nom de votre équipe</label>
         <input id="name" required maxlength="60" autocomplete="nickname">
         <button id="join-button" type="submit" disabled>REJOINDRE</button>
       </form>
@@ -30,6 +34,6 @@
     </section>
   </main>
   <a href="/play/sound-credits" target="_blank" rel="noopener" style="font-size:11px;color:#aaa">Crédits des sons</a>
-  <script src="/play/player.js?v=audio2"></script>
+  <script src="/play/player.js?v=audio3"></script>
 </body>
 </html>

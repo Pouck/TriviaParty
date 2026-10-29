@@ -60,6 +60,7 @@ class GameServer(
     val gameSession: StateFlow<GameSession> = _gameSession.asStateFlow()
 
     private val clientSessions = ConcurrentHashMap<WebSocketSession, String>() // WebSocketSession -> TeamId/Host
+    private val clientPlayerIds = ConcurrentHashMap<WebSocketSession, String>() // WebSocketSession -> PlayerId in team mode
     // Hosts and TV viewers subscribe without joining as a player.
     private val subscribers = ConcurrentHashMap.newKeySet<WebSocketSession>()
     private val tvSubscribers = ConcurrentHashMap.newKeySet<WebSocketSession>()
@@ -79,15 +80,18 @@ class GameServer(
     private var isTimerPaused = false
     private var gameTimingConfig: HourglassConfig? = null
     private var votePackages: List<GamePackage> = emptyList()
+    private var questionsPerGeneratedPackage: Int = 6
     private var soundQuestionId: String? = null
     private var soundedResults: Map<String, Boolean?> = emptyMap()
     private var questionHasSound = false
     private var revealedSoundQuestionId: String? = null
+    private var pendingForcedAnswerSoundOutcome: String? = null
 
     fun start() {
         if (serverEngine != null) return
         val localIp = NetworkUtils.getLocalIpAddress()
-        _gameSession.value = _gameSession.value.copy(hostIpAddress = localIp)
+        _gameSession.value = _gameSession.value.copy(hostIpAddress = localIp,
+            audioBankVersion = privateReactions?.version ?: _gameSession.value.audioBankVersion)
 
 
         serverEngine = embeddedServer(CIO, port = port, host = "0.0.0.0") {
@@ -130,9 +134,7 @@ class GameServer(
                         browserPlayers.remove(this)
                         subscribers.remove(this)
                         pendingPlayers.remove(this)
-                        clientSessions.remove(this)?.let { teamId ->
-                            if (!clientSessions.containsValue(teamId)) markTeamDisconnected(teamId)
-                        }
+                        disconnectPlayer(this)
                     }
                 }
                 get("/judge") {
@@ -217,7 +219,25 @@ class GameServer(
                 }
                 get("/tv/audio-credits") {
                     val credits = privateReactions?.credits() ?: readTvAsset?.invoke("audio-credits.html") ?: "Audio credits unavailable"
-                    call.respondText(credits.replace("</html>", "<p><a href=\"/tv/winner-music-credits\">Musiques de fin de partie</a></p></html>"), ContentType.Text.Html)
+                    call.respondText(credits.replace("</html>", "<p><a href=\"/tv/winner-music-credits\">Musiques de fin de partie</a> · <a href=\"/tv/in-round-music-credits\">Musiques de réflexion</a></p></html>"), ContentType.Text.Html)
+                }
+
+                get("/tv/music/cat-theme.mp3") {
+                    call.response.headers.append("Cache-Control", "public, max-age=31536000, immutable")
+                    val bytes=readTvBinaryAsset?.invoke("music/cat-theme.mp3")
+                    if(bytes==null) call.respondText("Not found",status=io.ktor.http.HttpStatusCode.NotFound)
+                    else call.respondBytes(bytes,ContentType("audio","mpeg"))
+                }
+
+                get("/tv/music/anitra-dance.mp3") {
+                    call.response.headers.append("Cache-Control", "public, max-age=31536000, immutable")
+                    val bytes=readTvBinaryAsset?.invoke("music/anitra-dance.mp3")
+                    if(bytes==null) call.respondText("Not found",status=io.ktor.http.HttpStatusCode.NotFound)
+                    else call.respondBytes(bytes,ContentType("audio","mpeg"))
+                }
+
+                get("/tv/in-round-music-credits") {
+                    call.respondText(readTvAsset?.invoke("in-round-music-credits.html") ?: "", ContentType.Text.Html)
                 }
 
                 get("/tv/winner-music-credits") {
@@ -227,9 +247,20 @@ class GameServer(
                 get("/tv/sounds/{name}") {
                     call.response.headers.append("Cache-Control", "no-store, max-age=0")
                     val name=call.parameters["name"]
-                    val bytes=privateReactions?.audio("sounds/$name") ?: if(com.example.triviaparty.model.AnswerReactions.isAllowed(name)) readTvBinaryAsset?.invoke("sounds/$name") else null
+                    val allowed=com.example.triviaparty.model.AnswerReactions.isAllowed(name)
+                    val privateBytes=privateReactions?.audio("sounds/$name")
+                    var servedName=name
+                    var bytes=privateBytes
+                    if(bytes==null && allowed && name?.endsWith(".wav")==true) {
+                        val mp3Name=name.removeSuffix(".wav")+".mp3"
+                        if(com.example.triviaparty.model.AnswerReactions.isAllowed(mp3Name)) {
+                            bytes=readTvBinaryAsset?.invoke("sounds/$mp3Name")
+                            if(bytes!=null) servedName=mp3Name
+                        }
+                    }
+                    if(bytes==null && allowed) bytes=readTvBinaryAsset?.invoke("sounds/$name")
                     if(bytes==null) call.respondText("Not found",status=io.ktor.http.HttpStatusCode.NotFound)
-                    else call.respondBytes(bytes,ContentType("audio",if(name?.endsWith(".mp3")==true) "mpeg" else "wav"))
+                    else call.respondBytes(bytes,ContentType("audio",if(servedName?.endsWith(".mp3")==true) "mpeg" else "wav"))
                 }
 
                 get("/media/{packageId}/{assetPath...}") {
@@ -287,9 +318,7 @@ class GameServer(
                     } finally {
                         subscribers.remove(this)
                         pendingPlayers.remove(this)
-                        clientSessions.remove(this)?.let { teamId ->
-                            if (!clientSessions.containsValue(teamId)) markTeamDisconnected(teamId)
-                        }
+                        disconnectPlayer(this)
                     }
                 }
             }
@@ -304,6 +333,7 @@ class GameServer(
         subscribers.clear()
         tvSubscribers.clear()
         clientSessions.clear()
+        clientPlayerIds.clear()
         browserPlayers.clear()
         judges.clear()
         pendingPlayers.clear()
@@ -318,14 +348,15 @@ class GameServer(
 
         // Browser connections are always players, including before they join.
         if (session in browserPlayers && event !is GameEvent.JoinRoom &&
-            event !is GameEvent.UpdateDraftAnswer && event !is GameEvent.LockAnswer && event !is GameEvent.SubmitCategoryWager && event !is GameEvent.SubmitSubjectVote && event !is GameEvent.PlayerReady) return
+            event !is GameEvent.UpdateDraftAnswer && event !is GameEvent.LockAnswer && event !is GameEvent.SubmitCategoryWager && event !is GameEvent.VoteCategoryWager && event !is GameEvent.SubmitSubjectVote && event !is GameEvent.PlayerReady) return
 
         clientMutationMutex.withLock { when (event) {
             is GameEvent.JoinRoom -> handleJoinRoom(session, event)
-            is GameEvent.SubmitCategoryWager -> if (clientSessions[session] == event.teamId) handleCategoryWager(event)
+            is GameEvent.SubmitCategoryWager -> if (clientSessions[session] == event.teamId) handleCategoryWager(session,event)
+            is GameEvent.VoteCategoryWager -> if(clientSessions[session]==event.teamId)handleVoteCategoryWager(session,event)
             is GameEvent.HostOfferCategoryWager -> if (!clientSessions.containsKey(session)) offerCategoryWager()
-            is GameEvent.UpdateDraftAnswer -> if (clientSessions[session] == event.teamId) handleUpdateDraftAnswer(event)
-            is GameEvent.LockAnswer -> if (clientSessions[session] == event.teamId) handleLockAnswer(event)
+            is GameEvent.UpdateDraftAnswer -> if (clientSessions[session] == event.teamId) handleUpdateDraftAnswer(session,event)
+            is GameEvent.LockAnswer -> if (clientSessions[session] == event.teamId) handleLockAnswer(session,event)
             is GameEvent.HostStartGame -> if (!clientSessions.containsKey(session)) handleHostStartGame(event)
             is GameEvent.HostOpenSubjectVote -> if (!clientSessions.containsKey(session)) {
                 val current=_gameSession.value
@@ -353,6 +384,7 @@ class GameServer(
             is GameEvent.HostStartQuestionTimer -> if (!clientSessions.containsKey(session)) {
                 handleHostStartQuestionTimer()
             }
+            is GameEvent.HostAdvanceClue -> if (!clientSessions.containsKey(session)) handleHostAdvanceClue()
             is GameEvent.HostRevealAnswer -> if (!clientSessions.containsKey(session)) handleHostRevealAnswer()
             is GameEvent.PlayerReady -> if(clientSessions[session]==event.teamId) handlePlayerReady(event)
             is GameEvent.HostContinueWrittenReview -> if(!clientSessions.containsKey(session)) handleContinueWrittenReview(event)
@@ -371,11 +403,34 @@ class GameServer(
     private suspend fun handleJoinRoom(session: WebSocketSession, event: GameEvent.JoinRoom) {
         val currentSession = _gameSession.value
         if (event.roomId != currentSession.roomId || event.teamName.isBlank() ||
-            event.teamName.length > 60 || event.sessionToken.isBlank()) {
+            event.teamName.length > 60 || event.sessionToken.isBlank() ||
+            currentSession.teamMode && (event.playerName.isBlank() || event.playerName.length > 60)) {
             sendToSession(session, GameEvent.JoinResponse(false, "Code de partie ou nom d’équipe invalide."))
             return
         }
         if (clientSessions.containsKey(session)) return
+        if(currentSession.teamMode) {
+            val player=currentSession.players.firstOrNull { it.sessionToken==event.sessionToken }
+            if(player!=null) {
+                val team=currentSession.teams.firstOrNull { it.id==player.teamId }
+                if(team==null || !team.name.equals(event.teamName,ignoreCase=true)) {
+                    sendToSession(session,GameEvent.JoinResponse(false,"This player is registered to a different team."));return
+                }
+                _gameSession.value=currentSession.copy(players=currentSession.players.map { if(it.id==player.id)it.copy(isConnected=true)else it },
+                    teams=currentSession.teams.map { if(it.id==team.id)it.copy(isConnected=true)else it })
+                clientSessions[session]=team.id;clientPlayerIds[session]=player.id
+                sendToSession(session,GameEvent.JoinResponse(true,"Connection restored",team.id,playerId=player.id))
+                broadcastState();return
+            }
+            if(currentSession.requireHostValidation) {
+                val label="${event.playerName.trim()} — ${event.teamName.trim()}"
+                pendingPlayers[session]=event
+                _gameSession.value=currentSession.copy(pendingJoinRequests=currentSession.pendingJoinRequests+label)
+                sendToSession(session,GameEvent.JoinResponse(false,"Host approval required.",requiresHostApproval=true))
+                broadcastState();return
+            }
+            addTeamPlayer(session,event);return
+        }
         val existingTeam = currentSession.teams.find { it.name.equals(event.teamName, ignoreCase = true) }
 
         if (existingTeam != null) {
@@ -412,12 +467,51 @@ class GameServer(
         }
     }
 
-    private fun handleUpdateDraftAnswer(event: GameEvent.UpdateDraftAnswer) {
+    private suspend fun addTeamPlayer(session:WebSocketSession,event:GameEvent.JoinRoom) {
+        val current=_gameSession.value
+        val existing=current.teams.firstOrNull { it.name.equals(event.teamName,ignoreCase=true) }
+        val teamId=existing?.id ?: UUID.randomUUID().toString()
+        val playerId=UUID.randomUUID().toString()
+        val teams=if(existing==null)current.teams+Team(teamId,event.teamName.trim(),sessionToken=UUID.randomUUID().toString())
+            else current.teams.map { if(it.id==teamId)it.copy(isConnected=true)else it }
+        val player=Player(playerId,event.playerName.trim(),teamId,event.sessionToken)
+        _gameSession.value=current.copy(teams=teams,players=current.players+player)
+        clientSessions[session]=teamId;clientPlayerIds[session]=playerId
+        sendToSession(session,GameEvent.JoinResponse(true,"You joined ${event.teamName.trim()}.",teamId,playerId=playerId))
+        broadcastState()
+    }
+
+    private fun claimTeamAnswer(session:WebSocketSession,teamId:String):Boolean {
+        val current=_gameSession.value
+        if(!current.teamMode)return true
+        val playerId=clientPlayerIds[session] ?: return false
+        val owner=current.answeringPlayerIds[teamId]
+        if(owner!=null)return owner==playerId
+        _gameSession.value=current.copy(answeringPlayerIds=current.answeringPlayerIds+(teamId to playerId))
+        return true
+    }
+
+    private fun disconnectPlayer(session:WebSocketSession) {
+        val teamId=clientSessions.remove(session) ?: return
+        val playerId=clientPlayerIds.remove(session)
+        if(playerId==null || !_gameSession.value.teamMode) {
+            if(!clientSessions.containsValue(teamId))markTeamDisconnected(teamId)
+            return
+        }
+        val current=_gameSession.value
+        val players=current.players.map { if(it.id==playerId)it.copy(isConnected=clientPlayerIds.containsValue(playerId))else it }
+        val teamConnected=players.any { it.teamId==teamId && it.isConnected }
+        _gameSession.value=current.copy(players=players,teams=current.teams.map { if(it.id==teamId)it.copy(isConnected=teamConnected)else it })
+        broadcastState()
+    }
+
+    private fun handleUpdateDraftAnswer(session:WebSocketSession,event: GameEvent.UpdateDraftAnswer) {
         val currentSession = _gameSession.value
         if (currentSession.state != GameState.QUESTION_ACTIVE || currentSession.questionReading || currentSession.currentQuestion?.id != event.questionId) return
-
         val existingSub = currentSession.submissions[event.teamId]
         if (existingSub?.isLocked == true) return
+        if(!claimTeamAnswer(session,event.teamId))return
+        val answerSession=_gameSession.value
 
         val newSub = AnswerSubmission(
             teamId = event.teamId,
@@ -425,15 +519,15 @@ class GameServer(
             answer = event.answer,
             isLocked = false,
             timestamp = System.currentTimeMillis(),
-            flipNumberWhenLocked = currentSession.currentFlipNumber
+            flipNumberWhenLocked = answerSession.currentFlipNumber
         )
-        val newMap = currentSession.submissions + (event.teamId to newSub)
-        _gameSession.value = currentSession.copy(submissions = newMap)
+        val newMap = answerSession.submissions + (event.teamId to newSub)
+        _gameSession.value = answerSession.copy(submissions = newMap)
         broadcastState()
     }
 
     @Synchronized
-    private fun handleLockAnswer(event: GameEvent.LockAnswer) {
+    private fun handleLockAnswer(session:WebSocketSession,event: GameEvent.LockAnswer) {
         val currentSession = _gameSession.value
         if (currentSession.state != GameState.QUESTION_ACTIVE || currentSession.questionReading || currentSession.currentQuestion?.id != event.questionId) return
         if (currentSession.submissions[event.teamId]?.isLocked == true) return
@@ -442,16 +536,20 @@ class GameServer(
         if(currentSession.currentCategoryAnswerMode==CategoryAnswerMode.WRITTEN) {
             val text=(event.answer as? AnswerValue.TextSelection)?.text?.trim()?.take(240) ?: return
             if(text.isBlank()) return
-            val submission=AnswerSubmission(event.teamId,question.id,AnswerValue.TextSelection(text),true,System.currentTimeMillis(),currentSession.currentFlipNumber,currentSession.elapsedSecondsInFlip)
-            _gameSession.value=currentSession.copy(submissions=currentSession.submissions+(event.teamId to submission))
-            val connected=currentSession.teams.filter { it.isConnected }
+            if(!claimTeamAnswer(session,event.teamId))return
+            val answerSession=_gameSession.value
+            val submission=AnswerSubmission(event.teamId,question.id,AnswerValue.TextSelection(text),true,System.currentTimeMillis(),answerSession.currentFlipNumber,answerSession.elapsedSecondsInFlip)
+            _gameSession.value=answerSession.copy(submissions=answerSession.submissions+(event.teamId to submission))
+            val connected=answerSession.teams.filter { it.isConnected }
             if(connected.isNotEmpty() && connected.all { _gameSession.value.submissions[it.id]?.isLocked==true }) beginWrittenReview()
             else broadcastState()
             return
         }
         if (question.isOralBuzzerQuestion() || (event.answer as? AnswerValue.TextSelection)?.text == "BUZZ") {
-            val updated = currentSession.recordBuzz(event.teamId, System.currentTimeMillis())
-            if (updated == currentSession) return
+            if(!claimTeamAnswer(session,event.teamId))return
+            val answerSession=_gameSession.value
+            val updated = answerSession.recordBuzz(event.teamId, System.currentTimeMillis())
+            if (updated == answerSession) return
             _gameSession.value = updated
             if (updated.buzzerSoundId != currentSession.buzzerSoundId) broadcastBuzzerCue(updated)
             startTextAnswerTimer()
@@ -464,6 +562,8 @@ class GameServer(
             val wager = event.answer as? AnswerValue.WagerSelection ?: return
             wager.copy(wageredAmount = wager.wageredAmount.coerceIn(0, team.score.coerceAtLeast(0)))
         } else event.answer
+        if(!claimTeamAnswer(session,event.teamId))return
+        val answerSession=_gameSession.value
 
         val newSub = AnswerSubmission(
             teamId = event.teamId,
@@ -472,12 +572,12 @@ class GameServer(
             isLocked = true,
             timestamp = System.currentTimeMillis(),
             flipNumberWhenLocked = currentSession.currentFlipNumber,
-            elapsedSecondsInFlipWhenLocked = currentSession.elapsedSecondsInFlip
+            elapsedSecondsInFlipWhenLocked = answerSession.elapsedSecondsInFlip
         )
-        val newMap = currentSession.submissions + (event.teamId to newSub)
-        _gameSession.value = currentSession.copy(submissions = newMap)
+        val newMap = answerSession.submissions + (event.teamId to newSub)
+        _gameSession.value = answerSession.copy(submissions = newMap)
 
-        val activeTeams = currentSession.teams.filter { it.isConnected }
+        val activeTeams = answerSession.teams.filter { it.isConnected }
         val allLocked = activeTeams.all { team -> newMap[team.id]?.isLocked == true }
         if (allLocked && activeTeams.isNotEmpty()) {
             stopTimer()
@@ -488,6 +588,7 @@ class GameServer(
     }
 
     private fun handleHostStartGame(event: GameEvent.HostStartGame) {
+        questionsPerGeneratedPackage = event.questionsPerPackage.coerceIn(1, 20)
         reactionPicker = AnswerReactionPicker(privateReactions?.clips ?: com.example.triviaparty.model.ReactionCatalogue.clips,event.allAudiencesOnly)
         votePackages=if(event.voteSettings==null) emptyList() else GamePackageRepository.packages.filter { pack ->
             !pack.isTestPackage() && GamePackageRepository.categoryNamesFor(pack).any { it in event.categories }
@@ -497,13 +598,14 @@ class GameServer(
         val voting=settings?.takeIf { subjects.isNotEmpty() }?.let {
             SubjectVoting(it.copy(categories=it.categories.coerceAtMost(subjects.size)),subjects)
         }
-        soundQuestionId=null; soundedResults=emptyMap();questionHasSound=false;revealedSoundQuestionId=null
+        soundQuestionId=null; soundedResults=emptyMap();questionHasSound=false;revealedSoundQuestionId=null;pendingForcedAnswerSoundOutcome=null
         gameTimingConfig = event.timingConfig
         stopTimer()
         stopAnswerTimer()
         isTimerPaused = false
         val previousPlayerSessions = clientSessions.keys.toList()
         clientSessions.clear()
+        clientPlayerIds.clear()
         pendingPlayers.clear()
         if (previousPlayerSessions.isNotEmpty()) {
             serverScope.launch {
@@ -518,21 +620,30 @@ class GameServer(
             getRemainingCategories(selectedCategories.distinct(), emptyList()), ::categoryProfileFor)
         val validCategories = poolCategories
 
-        val totalAvailableQuestions = poolCategories.flatMap { cat ->
-            QuestionBankRepository.getQuestionsForCategory(cat)
-        }.size
-        val configuredRounds = totalAvailableQuestions.coerceAtLeast(1)
+        val categoryQuestionLimit = event.questionsPerPackage.takeIf { event.limitQuestionsPerCategory }
+        val totalAvailableQuestions = poolCategories.sumOf { cat ->
+            QuestionBankRepository.getQuestionsForCategory(cat).size.let { count ->
+                categoryQuestionLimit?.let { minOf(count, it) } ?: count
+            }
+        }
+        // The setup flow sends the intended playable question count (for example,
+        // six questions per generated package). Do not expand it back to every
+        // question in the source bank here.
+        val configuredRounds = event.totalRounds.coerceIn(1, totalAvailableQuestions.coerceAtLeast(1))
 
         val freshRoomId = generateRoomId()
         _gameSession.value = _gameSession.value.copy(
             roomId = freshRoomId,
             subjectVoting=voting,
-            answerSoundId=0,answerSound=null,answerSoundClip=null,buzzerSoundId=0,
+            answerSoundId=0,answerSound=null,answerSoundClip=null,answerSoundsEnabled=event.answerSoundsEnabled,buzzerSoundsEnabled=event.buzzerSoundsEnabled,
+            answerSoundPlaybackEnabled=true,speedUpMusicForClueTransition=false,buzzerSoundId=0,
             gameEndSoundClip=endingSoundPicker.choose(),
             state = GameState.LOBBY,
+            teamMode=event.teamMode,players=emptyList(),answeringPlayerIds=emptyMap(),
             categoryWagerQuestionId = null,
             categoryWagerLimits = emptyMap(),
             categoryWagers = emptyMap(),
+            categoryWagerProposals=emptyMap(),
             categoryWagerResults = emptyList(),
             categoryWagerSettled = false,
             categoryWagerResultsShown = false,
@@ -558,6 +669,7 @@ class GameServer(
             answerTimerRunning = false,
             roundNumber = 0,
             totalRounds = configuredRounds,
+            categoryQuestionLimit = categoryQuestionLimit,
             timingConfig = event.timingConfig,
             answerTimeSeconds = event.answerTimeSeconds.coerceAtLeast(1),
             categoryRules = event.categoryRules.filterKeys { it in validCategories },
@@ -595,31 +707,40 @@ class GameServer(
     }
 
     private fun finishSubjectVote(vote: SubjectVoting) {
-        val packs=votePackages.filter { it.browseGroup() in vote.selected }
-        val byId=packs.associateBy { it.id }
-        val usage=importedPackagesDirectory?.parentFile?.let { HostReviewStore(File(it,"host-review.json")).read().usage }.orEmpty()
-        val chosen=selectBalancedPackages(packs.map { it.id },vote.selected.size*vote.settings.setsPerCategory,usage,{ id ->
-            val pack=byId.getValue(id)
-            val formats=GamePackageRepository.categoryNamesFor(pack).map { categoryProfileFor(it).format }.distinct()
-            CategoryProfile(formats.singleOrNull() ?: CategoryFormat.MIXED,pack.browseGroup())
-        },subjectLimit=vote.settings.setsPerCategory).map(byId::getValue)
-        val combined=combineGamePackages(chosen,GamePackageRepository::categoryNamesFor) { QuestionBankRepository.getQuestionsForCategory(it).size }
-        val categories=balancedCategoryOrder(combined.categories,::categoryProfileFor)
+        val reviewFile=importedPackagesDirectory?.parentFile?.let { File(it,"host-review.json") }
+        val difficulties=reviewFile?.let { HostReviewStore(it).read().reviews.mapValues { entry -> entry.value.difficulty } }.orEmpty()
+        val plan=QuestionBankRepository.generatePackages(vote.selected,vote.settings.setsPerCategory,questionsPerGeneratedPackage,
+            difficultyForQuestionId={ difficulties[it] })
+        val categories=balancedCategoryOrder(plan.categories,::categoryProfileFor)
+        val categoryRules=plan.packages.associate { generated ->
+            val source=votePackages.firstOrNull { it.browseGroup()==generated.subject }
+            generated.category to CategoryGameRules(source?.timingConfig ?: HourglassConfig(),source?.answerTimeSeconds ?: 10)
+        }
         _gameSession.value=_gameSession.value.copy(state=GameState.LOBBY,subjectVoting=vote,
-            masterCategories=categories,availableCategories=categories,totalRounds=combined.totalQuestions,categoryRules=combined.categoryRules)
+            masterCategories=categories,availableCategories=categories,totalRounds=plan.totalQuestions,categoryRules=categoryRules)
         broadcastState()
+    }
+
+    private fun unplayedQuestionsInCategory(session: GameSession, category: String): List<Question> {
+        val categoryQuestions = QuestionBankRepository.getQuestionsForCategory(category)
+        val alreadyPlayed = categoryQuestions.count { it.id in session.playedQuestionIds }
+        val slotsRemaining = session.categoryQuestionLimit?.minus(alreadyPlayed)?.coerceAtLeast(0) ?: Int.MAX_VALUE
+        return categoryQuestions.asSequence()
+            .filterNot { it.id in session.playedQuestionIds }
+            .take(slotsRemaining)
+            .toList()
     }
 
     @Synchronized private fun handleHostSkipCategory(event: GameEvent.HostSkipCategory) {
         val current=_gameSession.value
         if(current.currentCategory!=event.category || current.state !in setOf(GameState.CATEGORY_INTRO,GameState.WAGER_OPEN,GameState.QUESTION_ACTIVE,GameState.ANSWER_REVIEW,GameState.REVEAL_ANSWER,GameState.ROUND_SUMMARY,GameState.WAGER_RESULTS)) return
         stopTimer();stopAnswerTimer();isTimerPaused=false
-        val remaining=QuestionBankRepository.getQuestionsForCategory(event.category).count {it.id !in current.playedQuestionIds}
+        val remaining=unplayedQuestionsInCategory(current,event.category).size
         _gameSession.value=current.copy(state=GameState.CATEGORY_SELECT,currentCategory=null,currentQuestion=null,
             retiredCategories=(current.retiredCategories+event.category).distinct(),totalRounds=(current.totalRounds-remaining).coerceAtLeast(current.playedQuestionIds.size),
-            submissions=emptyMap(),validatedWrittenTeamId=null,questionReading=false,readyTeamIds=emptyList(),timerPaused=false,
+            submissions=emptyMap(),answeringPlayerIds=emptyMap(),validatedWrittenTeamId=null,questionReading=false,readyTeamIds=emptyList(),timerPaused=false,
             answerTimerTeamId=null,answerTimerRemainingSeconds=null,answerTimerRunning=false,textBuzzedTeamIds=emptyList(),buzzQueue=emptyList(),
-            categoryWagerQuestionId=null,categoryWagers=emptyMap(),categoryWagerLimits=emptyMap(),categoryWagerResults=emptyList(),categoryWagerSettled=false,categoryWagerResultsShown=false)
+            categoryWagerQuestionId=null,categoryWagers=emptyMap(),categoryWagerProposals=emptyMap(),categoryWagerLimits=emptyMap(),categoryWagerResults=emptyList(),categoryWagerSettled=false,categoryWagerResultsShown=false)
         handleHostBeginCategorySelect()
     }
 
@@ -631,8 +752,8 @@ class GameServer(
                 GameState.ROUND_SUMMARY, GameState.CATEGORY_SELECT, GameState.WAGER_RESULTS)) return
         val next = session.masterCategories.asSequence()
             .filterNot { it in session.retiredCategories }
-            .flatMap { QuestionBankRepository.getQuestionsForCategory(it).asSequence() }
-            .firstOrNull { it.id !in session.playedQuestionIds }
+            .flatMap { unplayedQuestionsInCategory(session,it).asSequence() }
+            .firstOrNull()
         if (next != null && session.playedQuestionIds.size < session.totalRounds) {
             introduceCategory(next, next.category)
         } else {
@@ -652,7 +773,7 @@ class GameServer(
         if (event.category !in currentSession.availableCategories) return
 
         val newlyRetired = currentSession.availableCategories.filter { it != event.category }
-        val retiredQuestionCount = newlyRetired.sumOf { QuestionBankRepository.getQuestionsForCategory(it).size }
+        val retiredQuestionCount = newlyRetired.sumOf { unplayedQuestionsInCategory(currentSession,it).size }
 
         if (currentSession.playedQuestionIds.size >= currentSession.totalRounds) {
             _gameSession.value = currentSession.copy(state = GameState.GAME_ENDED)
@@ -660,12 +781,9 @@ class GameServer(
             return
         }
 
-        val categoryQuestions = QuestionBankRepository.getQuestionsForCategory(event.category)
-        val unplayedInCategory = categoryQuestions.filter { !currentSession.playedQuestionIds.contains(it.id) }
+        val unplayedInCategory = unplayedQuestionsInCategory(currentSession,event.category)
 
-        val question = unplayedInCategory.firstOrNull() ?: QuestionBankRepository.sampleQuestions.find { q ->
-            currentSession.masterCategories.contains(q.category) && !currentSession.playedQuestionIds.contains(q.id)
-        }
+        val question = unplayedInCategory.firstOrNull()
 
         if (question != null) {
             _gameSession.value = currentSession.copy(
@@ -697,19 +815,14 @@ class GameServer(
             return
         }
 
-        val allowedCategories = if (currentSession.masterCategories.isNotEmpty()) {
-            currentSession.masterCategories
-        } else {
-            QuestionBankRepository.sampleCategories
-        }
-
+        val allowedCategories = if (currentSession.masterCategories.isNotEmpty()) currentSession.masterCategories else QuestionBankRepository.sampleCategories
         val nextInCurrentCategory = currentSession.currentCategory?.let { category ->
-            QuestionBankRepository.getQuestionsForCategory(category)
-                .firstOrNull { it.id !in currentSession.playedQuestionIds }
+            unplayedQuestionsInCategory(currentSession,category).firstOrNull()
         }
-        val nextQuestion = nextInCurrentCategory ?: QuestionBankRepository.sampleQuestions.firstOrNull { q ->
-            allowedCategories.contains(q.category) && q.id !in currentSession.playedQuestionIds
-        }
+        val nextQuestion = nextInCurrentCategory ?: allowedCategories.asSequence()
+            .filterNot { it in currentSession.retiredCategories }
+            .flatMap { unplayedQuestionsInCategory(currentSession,it).asSequence() }
+            .firstOrNull()
 
         if (nextQuestion != null) {
             startQuestion(nextQuestion, nextQuestion.category)
@@ -736,13 +849,23 @@ class GameServer(
         ) else question
         val activeQuestion = compatibleQuestion.withRandomVariant().withChronologyCards()
         val reading = activeQuestion.isChronologyQuestion()
+        val categoryAnswerMode = when {
+            activeQuestion is Question.GuessWho && activeQuestion.imageRevealMode != com.example.triviaparty.model.ImageRevealMode.NONE -> CategoryAnswerMode.BUZZER
+            else -> QuestionBankRepository.getCategoryPackage(category)?.answerMode ?: currentSession.currentCategoryAnswerMode
+        }
+        // 4.125s of Anitra plus the 9.874s Cat recording leaves a 2-second answer gap in each 16-second clue.
         val effectiveConfig = when {
-            activeQuestion is Question.GuessWho -> configured.copy(secondsPerFlip=20,maxFlips=activeQuestion.clues.size-1,pointsDecayPerSecond=null)
-            activeQuestion.isChronologyQuestion() -> configured.copy(secondsPerFlip=maxOf(configured.secondsPerFlip,
-                (45 + configured.maxFlips) / (configured.maxFlips + 1)))
-            activeQuestion is Question.MultipleChoice || activeQuestion is Question.SpeedRace || activeQuestion is Question.MapPin && activeQuestion.options.isNotEmpty() ->
-                configured.copy(secondsPerFlip=activeQuestion.basePoints.coerceAtLeast(1),maxFlips=0,pointsDecayPerFlip=null,pointsDecayPerSecond=1)
-            else -> configured
+            activeQuestion is Question.GuessWho && activeQuestion.imageRevealMode != com.example.triviaparty.model.ImageRevealMode.NONE -> configured.copy(
+                secondsPerFlip=com.example.triviaparty.model.ImageRevealTiming.QUESTION_DURATION_SECONDS,
+                maxFlips=0,
+                pointsDecayPerFlip=null,
+                pointsDecayPerSecond=null,
+                pointsDecayOverSeconds=com.example.triviaparty.model.ImageRevealTiming.QUESTION_DURATION_SECONDS
+            )
+            activeQuestion is Question.GuessWho -> configured.copy(secondsPerFlip=16,maxFlips=activeQuestion.clues.size-1,
+                pointsDecayPerSecond=null,pointsDecayOverSeconds=null)
+            else -> configured.copy(secondsPerFlip=32,maxFlips=0,pointsDecayPerFlip=null,
+                pointsDecayPerSecond=null,pointsDecayOverSeconds=32)
         }
         isTimerPaused = false
 
@@ -751,6 +874,7 @@ class GameServer(
             timingConfig = effectiveConfig,
             answerTimeSeconds = categoryRules?.answerTimeSeconds ?: currentSession.answerTimeSeconds,
             currentCategory = category,
+            currentCategoryAnswerMode = categoryAnswerMode,
             currentQuestion = activeQuestion,
             questionReading = reading,
             readyTeamIds = emptyList(),
@@ -759,12 +883,14 @@ class GameServer(
             categoryWagerQuestionId = currentSession.categoryWagerQuestionId.takeIf { wagerApplies },
             categoryWagerLimits = if (wagerApplies) currentSession.categoryWagerLimits else emptyMap(),
             categoryWagers = if (wagerApplies) currentSession.categoryWagers else emptyMap(),
+            categoryWagerProposals=emptyMap(),
             categoryWagerResults = emptyList(),
             categoryWagerSettled = false,
             categoryWagerResultsShown = false,
             currentFlipNumber = 0,
             elapsedSecondsInFlip = 0,
             submissions = emptyMap(),
+            answeringPlayerIds=emptyMap(),
             textBuzzedTeamIds = emptyList(), buzzQueue = emptyList(),
             answerTimerTeamId = null,
             answerTimerRemainingSeconds = null,
@@ -812,10 +938,13 @@ class GameServer(
             return false
         }
         val nextClue = session.currentQuestion is Question.GuessWho && newFlip != session.currentFlipNumber
+        val retainedSubmissions=if(nextClue)session.submissions.filterValues { it.isCorrect != false }else session.submissions
         _gameSession.value = session.copy(currentFlipNumber = newFlip, elapsedSecondsInFlip = newElapsed,
+            speedUpMusicForClueTransition=false,
             questionReading = false,
             readyTeamIds = if(nextClue) emptyList() else session.readyTeamIds,
-            submissions = if (nextClue) session.submissions.filterValues { it.isCorrect != false } else session.submissions,
+            submissions = retainedSubmissions,
+            answeringPlayerIds=if(nextClue)session.answeringPlayerIds.filterKeys { it in retainedSubmissions.keys }else session.answeringPlayerIds,
             textBuzzedTeamIds = if (nextClue) emptyList() else session.textBuzzedTeamIds,
             buzzQueue = if (nextClue) emptyList() else session.buzzQueue)
         broadcastState()
@@ -833,6 +962,27 @@ class GameServer(
         if(current.state!=GameState.QUESTION_ACTIVE || !current.questionReading) return
         _gameSession.value=current.copy(questionReading=false,timerPaused=false)
         startTimer(current.timingConfig)
+        broadcastState()
+    }
+
+    @Synchronized
+    private fun handleHostAdvanceClue() {
+        val current=_gameSession.value
+        val question=current.currentQuestion as? Question.GuessWho ?: return
+        if(current.state!=GameState.QUESTION_ACTIVE || current.questionReading || current.timerPaused ||
+            current.answerTimerRunning || current.currentFlipNumber>=current.timingConfig.maxFlips) return
+        val next=current.currentFlipNumber+1
+        if(current.currentCategoryAnswerMode==CategoryAnswerMode.WRITTEN) {
+            // Written answers are reviewed at each clue boundary; keep that behavior intact.
+            _gameSession.value=current.copy(elapsedSecondsInFlip=current.timingConfig.secondsPerFlip)
+            beginWrittenReview()
+            return
+        }
+        val retainedSubmissions=current.submissions.filterValues { it.isCorrect!=false }
+        _gameSession.value=current.copy(currentFlipNumber=next,elapsedSecondsInFlip=0,questionReading=false,
+            readyTeamIds=emptyList(),submissions=retainedSubmissions,
+            answeringPlayerIds=current.answeringPlayerIds.filterKeys { it in retainedSubmissions.keys },
+            textBuzzedTeamIds=emptyList(),buzzQueue=emptyList(),speedUpMusicForClueTransition=true)
         broadcastState()
     }
 
@@ -865,6 +1015,7 @@ class GameServer(
             else -(if(question is Question.GuessWho) question.wrongAnswerPenalty() else question.penaltyPoints)
         _gameSession.value=current.copy(teams=current.teams.map { if(it.id==event.teamId) it.copy(score=it.score+reward) else it },
             submissions=current.submissions+(event.teamId to submission.copy(isCorrect=event.correct)),validatedWrittenTeamId=event.teamId)
+        if(event.playSound && !current.answerSoundsEnabled) triggerAnswerSound(if(event.correct) "good" else "bad",true)
         broadcastState()
     }
 
@@ -882,7 +1033,7 @@ class GameServer(
         val correct=current.submissions.values.any { it.questionId==question.id && it.isCorrect==true }
         if(question is Question.GuessWho && !correct && current.currentFlipNumber<current.timingConfig.maxFlips) {
             _gameSession.value=current.copy(state=GameState.QUESTION_ACTIVE,currentFlipNumber=current.currentFlipNumber+1,
-                elapsedSecondsInFlip=0,questionReading=false,readyTeamIds=emptyList(),submissions=emptyMap(),textBuzzedTeamIds=emptyList(),buzzQueue=emptyList())
+                elapsedSecondsInFlip=0,questionReading=false,readyTeamIds=emptyList(),submissions=emptyMap(),answeringPlayerIds=emptyMap(),textBuzzedTeamIds=emptyList(),buzzQueue=emptyList())
             startTimer(current.timingConfig)
         } else _gameSession.value=current.copy(state=GameState.REVEAL_ANSWER).settleCategoryWagers()
         broadcastState()
@@ -1060,14 +1211,16 @@ class GameServer(
         val categoryPackage = QuestionBankRepository.getCategoryPackage(category)
         val rules = currentSession.categoryRules[category]
         val answerSeconds = rules?.answerTimeSeconds ?: currentSession.answerTimeSeconds
-        val questionCount = QuestionBankRepository.getQuestionsForCategory(category)
-            .count { it.id !in currentSession.playedQuestionIds }
+        val remainingInCategory = unplayedQuestionsInCategory(currentSession,category).size
+        val remainingInGame = (currentSession.totalRounds - currentSession.playedQuestionIds.size).coerceAtLeast(0)
+        val questionCount = remainingInCategory.coerceAtMost(remainingInGame)
         _gameSession.value = currentSession.copy(
             state = GameState.CATEGORY_INTRO,
             categoryBuzzerSound = CategoryBuzzerSounds.choose(currentSession.categoryBuzzerSound),
             categoryWagerQuestionId = null,
             categoryWagerLimits = emptyMap(),
             categoryWagers = emptyMap(),
+            categoryWagerProposals=emptyMap(),
             categoryWagerResults = emptyList(),
             categoryWagerSettled = false,
             categoryWagerResultsShown = false,
@@ -1083,6 +1236,7 @@ class GameServer(
             currentFlipNumber = 0,
             elapsedSecondsInFlip = 0,
             submissions = emptyMap(),
+            answeringPlayerIds=emptyMap(),
             textBuzzedTeamIds = emptyList(), buzzQueue = emptyList(),
             answerTimerTeamId = null,
             answerTimerRemainingSeconds = null,
@@ -1100,17 +1254,54 @@ class GameServer(
         _gameSession.value = session.copy(state = GameState.WAGER_OPEN,
             categoryWagerQuestionId = question.id,
             categoryWagerLimits = session.teams.associate { it.id to categoryWagerLimit(it.score, maximum) },
-            categoryWagers = emptyMap())
+            categoryWagers = emptyMap(),categoryWagerProposals=emptyMap())
         broadcastState()
     }
 
-    @Synchronized
-    private fun handleCategoryWager(event: GameEvent.SubmitCategoryWager) {
+    private suspend fun handleCategoryWager(socket:WebSocketSession,event: GameEvent.SubmitCategoryWager) {
         val session = _gameSession.value
         if (session.state != GameState.WAGER_OPEN || event.questionId != session.categoryWagerQuestionId || event.teamId in session.categoryWagers) return
         val limit = session.categoryWagerLimits[event.teamId] ?: return
         if (event.amount !in 0..limit) return
-        _gameSession.value = session.copy(categoryWagers = session.categoryWagers + (event.teamId to event.amount))
+        if(!session.teamMode) {
+            _gameSession.value = session.copy(categoryWagers = session.categoryWagers + (event.teamId to event.amount))
+            broadcastState();return
+        }
+        val playerId=clientPlayerIds[socket] ?: return
+        if(session.categoryWagerProposals[event.teamId]?.status==CategoryWagerStatus.PENDING)return
+        val eligible=session.players.filter { it.teamId==event.teamId && it.isConnected && it.id!=playerId }.map { it.id }
+        if(eligible.isEmpty()) {
+            sendToSession(socket,GameEvent.ErrorEvent("Une mise doit être approuvée par au moins un coéquipier connecté."))
+            return
+        }
+        val proposal=CategoryWagerProposal(UUID.randomUUID().toString(),event.amount,playerId,eligible)
+        _gameSession.value=session.copy(categoryWagerProposals=session.categoryWagerProposals+(event.teamId to proposal))
+        broadcastState()
+    }
+
+    @Synchronized
+    private fun handleVoteCategoryWager(socket:WebSocketSession,event:GameEvent.VoteCategoryWager) {
+        val session=_gameSession.value
+        if(!session.teamMode || session.state!=GameState.WAGER_OPEN || event.questionId!=session.categoryWagerQuestionId ||
+            event.teamId in session.categoryWagers)return
+        val playerId=clientPlayerIds[socket] ?: return
+        val proposal=session.categoryWagerProposals[event.teamId] ?: return
+        if(proposal.id!=event.proposalId || proposal.status!=CategoryWagerStatus.PENDING || playerId !in proposal.eligiblePlayerIds ||
+            playerId in proposal.approvedPlayerIds || playerId in proposal.rejectedPlayerIds)return
+        val updated=if(event.approve)proposal.copy(approvedPlayerIds=proposal.approvedPlayerIds+playerId)
+            else proposal.copy(rejectedPlayerIds=proposal.rejectedPlayerIds+playerId)
+        val threshold=proposal.eligiblePlayerIds.size/2+1
+        var status=when {
+            updated.approvedPlayerIds.size>=threshold -> CategoryWagerStatus.ACCEPTED
+            updated.rejectedPlayerIds.size>proposal.eligiblePlayerIds.size-threshold -> CategoryWagerStatus.REJECTED
+            else -> CategoryWagerStatus.PENDING
+        }
+        val currentLimit=session.categoryWagerLimits[event.teamId]
+        if(status==CategoryWagerStatus.ACCEPTED && (currentLimit==null || proposal.amount !in 0..currentLimit)) status=CategoryWagerStatus.REJECTED
+        val finalized=updated.copy(status=status)
+        _gameSession.value=session.copy(
+            categoryWagerProposals=session.categoryWagerProposals+(event.teamId to finalized),
+            categoryWagers=if(status==CategoryWagerStatus.ACCEPTED)session.categoryWagers+(event.teamId to proposal.amount)else session.categoryWagers)
         broadcastState()
     }
 
@@ -1170,6 +1361,7 @@ class GameServer(
                 return
             }
         }
+        if(event.playSound && !session.answerSoundsEnabled) triggerAnswerSound(if(event.correct) "good" else "bad",true)
         broadcastState()
     }
 
@@ -1226,9 +1418,19 @@ class GameServer(
     private suspend fun handleHostValidateTeam(session: WebSocketSession, event: GameEvent.HostValidateTeam) {
         if (clientSessions.containsKey(session)) return
         val currentSession = _gameSession.value
-        val request = pendingPlayers.entries.firstOrNull { it.value.teamName.equals(event.teamName, ignoreCase = true) } ?: return
+        val request = pendingPlayers.entries.firstOrNull {
+            val expected=if(currentSession.teamMode) "${it.value.playerName} — ${it.value.teamName}" else it.value.teamName
+            expected.equals(event.teamName,ignoreCase=true)
+        } ?: return
         pendingPlayers.remove(request.key)
         val updatedPending = currentSession.pendingJoinRequests.filter { !it.equals(event.teamName, ignoreCase = true) }
+
+        if(currentSession.teamMode) {
+            _gameSession.value=currentSession.copy(pendingJoinRequests=updatedPending)
+            if(event.approve)addTeamPlayer(request.key,request.value)
+            else sendToSession(request.key,GameEvent.JoinResponse(false,"The host declined your request."))
+            broadcastState();return
+        }
 
         if (event.approve) {
             val existing = currentSession.teams.find { it.name.equals(event.teamName, ignoreCase = true) }
@@ -1270,11 +1472,15 @@ class GameServer(
         val changes=results.filter { (id,result) -> result!=null && soundedResults[id]!=result }.values
         val firstReveal=soundState.state==GameState.REVEAL_ANSWER && qid!=null && qid!=revealedSoundQuestionId
         if(firstReveal) revealedSoundQuestionId=qid
-        if(changes.isNotEmpty() || firstReveal && !questionHasSound) {
+        val forcedOutcome=pendingForcedAnswerSoundOutcome
+        if(forcedOutcome!=null || changes.isNotEmpty() || firstReveal && !questionHasSound) {
             questionHasSound=true
-            val outcome=if(changes.any { it==true }) "good" else "bad"
+            val outcome=forcedOutcome ?: if(changes.any { it==true }) "good" else "bad"
+            val clip=if(forcedOutcome!=null) reactionPicker.chooseOrNull(outcome,soundState.answerSoundClip)
+                else classicalAnswerClip(outcome)
             _gameSession.value=soundState.copy(answerSoundId=soundState.answerSoundId+1,answerSound=outcome,
-                answerSoundClip=reactionPicker.chooseOrNull(outcome,soundState.answerSoundClip))
+                answerSoundClip=clip,answerSoundPlaybackEnabled=true)
+            pendingForcedAnswerSoundOutcome=null
         }
         soundedResults=results
         val current = _gameSession.value
@@ -1312,6 +1518,15 @@ class GameServer(
             }
         }
     }
+
+    @Synchronized
+    private fun triggerAnswerSound(outcome:String,force:Boolean) {
+        val current=_gameSession.value
+        if(!force && !current.answerSoundsEnabled) return
+        if(force) pendingForcedAnswerSoundOutcome=outcome
+    }
+
+    private fun classicalAnswerClip(outcome:String)=if(outcome=="good") "aria-correct.wav" else "variation15-incorrect.wav"
 
     private suspend fun sendToSession(session: WebSocketSession, event: GameEvent) {
         try {
@@ -1352,6 +1567,9 @@ class GameServer(
         stateJson["teams"] = JsonArray(state.teams.map { team ->
             JsonObject(json.encodeToJsonElement(Team.serializer(), team).jsonObject.filterKeys { it != "sessionToken" })
         })
+        stateJson["players"] = JsonArray(state.players.map { player ->
+            JsonObject(json.encodeToJsonElement(Player.serializer(),player).jsonObject.filterKeys { it!="sessionToken" })
+        })
         stateJson["currentQuestion"] = state.currentQuestion?.takeUnless {
             state.questionReading || state.state in setOf(GameState.LOBBY, GameState.SUBJECT_VOTING, GameState.CATEGORY_SELECT, GameState.CATEGORY_INTRO, GameState.WAGER_OPEN, GameState.WAGER_RESULTS)
         }?.let { question ->
@@ -1391,6 +1609,7 @@ class GameServer(
         stateJson["submissions"] = JsonObject(stateJson.getValue("submissions").jsonObject.filterKeys { it == teamId })
         stateJson["categoryWagers"] = JsonObject(stateJson.getValue("categoryWagers").jsonObject.filterKeys { it == teamId })
         stateJson["categoryWagerLimits"] = JsonObject(stateJson.getValue("categoryWagerLimits").jsonObject.filterKeys { it == teamId })
+        stateJson["categoryWagerProposals"] = JsonObject(stateJson.getValue("categoryWagerProposals").jsonObject.filterKeys { it == teamId })
         state.subjectVoting?.let { vote ->
             val publicVote=json.encodeToJsonElement(SubjectVoting.serializer(),vote).jsonObject.toMutableMap()
             publicVote["ballots"]=JsonObject(publicVote.getValue("ballots").jsonObject.filterKeys { it==teamId })

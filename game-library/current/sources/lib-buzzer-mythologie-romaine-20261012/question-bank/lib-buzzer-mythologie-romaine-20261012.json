@@ -16,8 +16,7 @@
       "acceptableAnswers": [
         "Neptune"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-mythologie-romaine-20261012/sea.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-mythologie-romaine-20261012-02",
@@ -41,8 +40,7 @@
       "acceptableAnswers": [
         "Vesta"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-mythologie-romaine-20261012/fire.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-mythologie-romaine-20261012-04",

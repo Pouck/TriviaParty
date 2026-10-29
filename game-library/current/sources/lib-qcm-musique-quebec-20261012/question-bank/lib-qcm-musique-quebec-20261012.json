@@ -19,8 +19,7 @@
         "C — Robert Charlebois",
         "D — Claude Dubois"
       ],
-      "correctOptionIndex": 0,
-      "imageUrl": "images/lib-qcm-musique-quebec-20261012/maple-leaf.png"
+      "correctOptionIndex": 0
     },
     {
       "id": "lib-qcm-musique-quebec-20261012-02",
@@ -35,8 +34,7 @@
         "C — La guitare",
         "D — La batterie"
       ],
-      "correctOptionIndex": 2,
-      "imageUrl": "images/lib-qcm-musique-quebec-20261012/guitar.jpg"
+      "correctOptionIndex": 2
     },
     {
       "id": "lib-qcm-musique-quebec-20261012-03",

@@ -42,8 +42,7 @@
       "acceptableAnswers": [
         "Elton John"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-pop-rock-20261012/piano.jpg"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-pop-rock-20261012-04",

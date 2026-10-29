@@ -11,7 +11,7 @@ if a.remove:
 records=json.loads((a.bank/'reactions.json').read_text(encoding='utf8'))
 assert {r['outcome'] for r in records}=={'good','bad'}
 for r in records:
- assert re.fullmatch(r'(good|bad)-[0-9]{2}\.wav',r['file'])
+ assert re.fullmatch(r'(good|bad)-[0-9]{2,4}\.wav',r['file'])
  assert hashlib.sha256((a.bank/r['file']).read_bytes()).hexdigest()==r['sha256']
 run('shell','run-as','com.example.triviaparty','mkdir','-p','files/reaction-preview')
 # Read all installed hashes in one call; only transfer changed files, manifest last.

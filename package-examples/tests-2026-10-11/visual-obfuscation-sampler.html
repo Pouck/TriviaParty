@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sampler — révélation progressive des images</title>
+  <style>
+    :root { color-scheme: dark; font: 16px/1.45 system-ui, sans-serif; background: #10111a; color: #f3f3f7; }
+    * { box-sizing: border-box; }
+    body { margin: 0 auto; max-width: 1500px; padding: 24px; }
+    h1 { margin: 0 0 8px; font-size: clamp(1.6rem, 3vw, 2.4rem); }
+    .intro { margin: 0 0 20px; color: #c7c8d4; }
+    .controls { position: sticky; top: 0; z-index: 2; display: grid; grid-template-columns: auto minmax(180px, 1fr) auto; align-items: center; gap: 16px; padding: 14px 18px; margin: 0 0 20px; background: #202236ee; border: 1px solid #464963; border-radius: 14px; backdrop-filter: blur(10px); }
+    .controls label { font-weight: 700; }
+    .image-choice { display: flex; align-items: center; gap: 12px; margin: 0 0 16px; padding: 12px 16px; background: #202236; border: 1px solid #464963; border-radius: 12px; }
+    .image-choice label { font-weight: 700; }
+    .image-choice select { min-width: 240px; padding: 8px 10px; color: inherit; background: #10111a; border: 1px solid #555970; border-radius: 8px; font: inherit; }
+    input[type=range] { width: 100%; accent-color: #ffd45a; }
+    #stage-label { min-width: 96px; text-align: right; color: #ffe28a; font-weight: 700; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 16px; }
+    article { min-width: 0; padding: 16px; border: 1px solid #34374e; border-radius: 15px; background: #191b29; }
+    h2 { margin: 0 0 4px; font-size: 1.14rem; }
+    article p { min-height: 2.8em; margin: 0 0 12px; color: #bfc1cf; font-size: .92rem; }
+    .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .compare canvas, .compare img { display: block; width: 100%; height: 250px; object-fit: contain; background: #0e0f16; border-radius: 9px; }
+    .compare figcaption { margin-top: 5px; color: #aeb0bd; text-align: center; font-size: .78rem; }
+    figure { min-width: 0; margin: 0; }
+    .caption { margin-top: 10px; color: #ffe28a; font-size: .88rem; }
+    footer { margin: 22px 2px 0; color: #aeb0bd; font-size: .85rem; }
+    a { color: #b9d5ff; }
+    @media (max-width: 560px) { body { padding: 14px; } .controls { grid-template-columns: 1fr; gap: 8px; } #stage-label { text-align: left; } canvas { height: 230px; } }
+  </style>
+</head>
+<body>
+  <h1>Révélation progressive — comparatif</h1>
+  <p class="intro">Même image, quatre traitements retenus. Déplacez le curseur pour voir comment chaque méthode évolue au même palier.</p>
+  <div class="image-choice">
+    <label for="image-choice">Image à comparer</label>
+    <select id="image-choice">
+      <option value="impression">Claude Monet — Impression, soleil levant</option>
+      <option value="joconde">Léonard de Vinci — La Joconde</option>
+      <option value="lion">Lion — photographie de Giles Laurent</option>
+    </select>
+  </div>
+  <div class="controls">
+    <label for="stage">Palier de révélation</label>
+    <input id="stage" type="range" min="0" max="5" step="1" value="0">
+    <output id="stage-label" for="stage">1 / 6 · départ</output>
+  </div>
+  <main class="grid">
+    <article>
+      <h2>1. Pixelisation très grossière</h2>
+      <p>Commence par quelques grands pixels, puis augmente fortement la définition à chaque palier.</p>
+      <div class="compare"><figure><canvas id="pixelate" aria-label="Image pixelisée"></canvas><figcaption>Masquée</figcaption></figure><figure><img src="sources/test-10-qui-suis-je-tableaux-visuels/images/impression.jpg" alt="Image originale"><figcaption>Originale</figcaption></figure></div>
+      <div class="caption" data-method="pixelisation">Impression, soleil levant · pixelisation</div>
+    </article>
+    <article>
+      <h2>2. Flou progressif</h2>
+      <p>Image complètement floue au départ ; le flou diminue régulièrement.</p>
+      <div class="compare"><figure><canvas id="blur" aria-label="Image floutée"></canvas><figcaption>Masquée</figcaption></figure><figure><img src="sources/test-10-qui-suis-je-tableaux-visuels/images/impression.jpg" alt="Image originale"><figcaption>Originale</figcaption></figure></div>
+      <div class="caption" data-method="flou">Impression, soleil levant · flou</div>
+    </article>
+    <article>
+      <h2>3. Carreaux mélangés puis remis en place</h2>
+    <p>Les morceaux sont tous présents mais désordonnés ; seule une petite fraction se remet en place à chaque étape.</p>
+      <div class="compare"><figure><canvas id="shuffle" aria-label="Carreaux mélangés puis triés"></canvas><figcaption>Masquée</figcaption></figure><figure><img src="sources/test-10-qui-suis-je-tableaux-visuels/images/impression.jpg" alt="Image originale"><figcaption>Originale</figcaption></figure></div>
+      <div class="caption" data-method="mosaïque mélangée">Impression, soleil levant · mosaïque mélangée</div>
+    </article>
+    <article>
+      <h2>5. Image masquée par carreaux</h2>
+    <p>Une petite partie apparaît dès le premier palier, puis le dévoilement reste lent.</p>
+      <div class="compare"><figure><canvas id="uncover" aria-label="Image découverte par carreaux"></canvas><figcaption>Masquée</figcaption></figure><figure><img src="sources/test-10-qui-suis-je-tableaux-visuels/images/impression.jpg" alt="Image originale"><figcaption>Originale</figcaption></figure></div>
+      <div class="caption" data-method="dévoilement">Impression, soleil levant · dévoilement</div>
+    </article>
+  </main>
+  <footer>
+    <span id="credit">Image : Claude Monet, <i>Impression, soleil levant</i>, domaine public. Miniature Wikimedia Commons, intégrée au forfait test ; aucune modification.</span>
+    <a id="credit-link" href="https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg">Crédit et source</a>.
+  </footer>
+  <img id="source" src="sources/test-10-qui-suis-je-tableaux-visuels/images/impression.jpg" alt="" hidden>
+  <script>
+    (function () {
+      'use strict';
+      var image = document.getElementById('source');
+      var slider = document.getElementById('stage');
+      var label = document.getElementById('stage-label');
+      var imageChoice = document.getElementById('image-choice');
+      var images = {
+        impression: { src: 'sources/test-10-qui-suis-je-tableaux-visuels/images/impression.jpg', title: 'Impression, soleil levant', credit: 'Image : Claude Monet, <i>Impression, soleil levant</i>, domaine public. Miniature Wikimedia Commons, intégrée au forfait test ; aucune modification.', url: 'https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg' },
+        joconde: { src: 'sources/test-10-qui-suis-je-tableaux-visuels/images/joconde.jpg', title: 'La Joconde', credit: 'Image : Léonard de Vinci, <i>La Joconde</i>, domaine public. Miniature Wikimedia Commons, intégrée au forfait test ; aucune modification.', url: 'https://commons.wikimedia.org/wiki/File:Mona_Lisa.jpg' },
+        lion: { src: '../library-2026-10-12/assets/lion.jpg', title: 'Lion', credit: 'Photographie : Giles Laurent, « The lion king Snyggve in the Serengeti National Park ». Licence CC BY-SA 4.0. Aucune modification.', url: 'https://commons.wikimedia.org/wiki/File:020_The_lion_king_Snyggve_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg' }
+      };
+      var names = ['départ', 'palier 2', 'palier 3', 'palier 4', 'palier 5', 'palier 6'];
+      var width = 720, height = 0;
+
+      function seeded(seed) {
+        var value = seed >>> 0;
+        return function () { value = (value * 1664525 + 1013904223) >>> 0; return value / 4294967296; };
+      }
+      function permutation(count, seed) {
+        var random = seeded(seed), values = Array.from({ length: count }, function (_, i) { return i; });
+        for (var i = values.length - 1; i > 0; i--) {
+          var j = Math.floor(random() * (i + 1)), tmp = values[i]; values[i] = values[j]; values[j] = tmp;
+        }
+        return values;
+      }
+      function repairPlan(original, seed) {
+        var values = original.slice(), order = permutation(values.length, seed), snapshots = [values.slice()];
+        for (var k = 0; k < order.length; k++) {
+          var place = order[k], wanted = place, found = values.indexOf(wanted);
+          if (found !== place) { var temp = values[place]; values[place] = values[found]; values[found] = temp; }
+          snapshots.push(values.slice());
+        }
+        return { order: order, snapshots: snapshots };
+      }
+      function setupCanvases() {
+        height = Math.round(width * image.naturalHeight / image.naturalWidth);
+        document.querySelectorAll('canvas').forEach(function (canvas) { canvas.width = width; canvas.height = height; });
+      }
+      function renderPixelate(stage) {
+        var canvas = document.getElementById('pixelate'), ctx = canvas.getContext('2d');
+        var sizes = [5, 7, 10, 14, 19, 25], small = document.createElement('canvas');
+        small.width = sizes[stage]; small.height = Math.max(1, Math.round(small.width * height / width));
+        small.getContext('2d').drawImage(image, 0, 0, small.width, small.height);
+        ctx.imageSmoothingEnabled = false; ctx.clearRect(0, 0, width, height); ctx.drawImage(small, 0, 0, width, height);
+      }
+      function renderBlur(stage) {
+        var canvas = document.getElementById('blur'), ctx = canvas.getContext('2d');
+        var blur = [80, 65, 50, 37, 26, 17][stage];
+        ctx.clearRect(0, 0, width, height); ctx.filter = blur ? 'blur(' + blur + 'px)' : 'none';
+        ctx.drawImage(image, 0, 0, width, height); ctx.filter = 'none';
+      }
+      function renderShuffle(stage) {
+        var canvas = document.getElementById('shuffle'), ctx = canvas.getContext('2d');
+        var cols = 18, rows = 14, total = cols * rows;
+        var plan = repairPlan(permutation(total, 84519), 18431);
+        var fractions = [0.05, 0.07, 0.10, 0.14, 0.19, 0.26];
+        var fixed = Math.round(total * fractions[stage]), mapping = plan.snapshots[fixed];
+        ctx.clearRect(0, 0, width, height);
+        var sourceTileW = image.naturalWidth / cols, sourceTileH = image.naturalHeight / rows;
+        var destTileW = width / cols, destTileH = height / rows;
+        for (var cell = 0; cell < total; cell++) {
+          var sourceCell = mapping[cell];
+          var sx = sourceCell % cols, sy = Math.floor(sourceCell / cols), dx = cell % cols, dy = Math.floor(cell / cols);
+          ctx.drawImage(image, sx * sourceTileW, sy * sourceTileH, sourceTileW + 1, sourceTileH + 1,
+            dx * destTileW, dy * destTileH, destTileW + 1, destTileH + 1);
+        }
+      }
+      function renderUncover(stage) {
+        var canvas = document.getElementById('uncover'), ctx = canvas.getContext('2d');
+        var cols = 12, rows = 12, count = cols * rows, order = permutation(count, 43017);
+        var fractions = [0.06, 0.10, 0.15, 0.22, 0.31, 0.43];
+        var visible = Math.round(count * fractions[stage]), shown = new Set(order.slice(0, visible));
+        ctx.clearRect(0, 0, width, height); ctx.drawImage(image, 0, 0, width, height);
+        ctx.fillStyle = '#141620';
+        for (var cell = 0; cell < count; cell++) if (!shown.has(cell)) {
+          var x = cell % cols, y = Math.floor(cell / cols);
+          ctx.fillRect(x * width / cols, y * height / rows, Math.ceil(width / cols), Math.ceil(height / rows));
+        }
+      }
+      function render() {
+        var stage = Number(slider.value);
+        label.textContent = (stage + 1) + ' / 6 · ' + names[stage];
+        renderPixelate(stage); renderBlur(stage); renderShuffle(stage); renderUncover(stage);
+      }
+      imageChoice.addEventListener('change', function () {
+        var selected = images[imageChoice.value];
+        document.querySelectorAll('.compare img').forEach(function (original) { original.src = selected.src; });
+        document.querySelectorAll('.caption[data-method]').forEach(function (caption) { caption.textContent = selected.title + ' · ' + caption.dataset.method; });
+        document.getElementById('credit').innerHTML = selected.credit;
+        document.getElementById('credit-link').href = selected.url;
+        image.src = selected.src;
+      });
+      image.addEventListener('load', function () { setupCanvases(); render(); });
+      slider.addEventListener('input', render);
+      if (image.complete && image.naturalWidth) { setupCanvases(); render(); }
+    }());
+  </script>
+</body>
+</html>

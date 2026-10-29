@@ -29,8 +29,7 @@
         "Napoléon Bonaparte",
         "Napoléon"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-histoire-france-generale-20261012/battle.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-histoire-france-generale-20261012-03",
@@ -56,7 +55,8 @@
         "Versailles"
       ],
       "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-histoire-france-generale-20261012/versailles.jpg"
+      "imageUrl": "images/lib-buzzer-histoire-france-generale-20261012/versailles.jpg",
+      "conceptId": "lib-buzzer-histoire-france-generale-20261012-04"
     },
     {
       "id": "lib-buzzer-histoire-france-generale-20261012-05",

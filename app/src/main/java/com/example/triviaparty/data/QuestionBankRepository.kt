@@ -3,17 +3,22 @@ package com.example.triviaparty.data
 import com.example.triviaparty.model.Question
 import com.example.triviaparty.model.CategoryQuestionFile
 import kotlinx.serialization.json.Json
+import kotlin.random.Random
 
 object QuestionBankRepository {
 
     private val json = Json { ignoreUnknownKeys = true; classDiscriminator = "kind"; encodeDefaults = true }
     @Volatile private var fileQuestions: List<Question>? = null
     @Volatile private var categoryMetadata: Map<String, CategoryQuestionFile> = emptyMap()
+    @Volatile private var generatedMetadata: Map<String, CategoryQuestionFile> = emptyMap()
+    @Volatile private var generatedQuestions: List<Question>? = null
+    @Volatile private var canonicalBank: CanonicalQuestionBank? = null
     val sampleCategories: List<String>
-        get() = sampleQuestions.map { it.category }.distinct().sorted()
+        get() = if (generatedQuestions != null) sampleQuestions.map { it.category }.distinct().sorted()
+            else categoryMetadata.values.map { it.category }.ifEmpty { builtInQuestions.map { it.category } }.distinct().sorted()
 
     val sampleQuestions: List<Question>
-        get() = fileQuestions ?: builtInQuestions
+        get() = generatedQuestions ?: fileQuestions ?: builtInQuestions
 
     private val builtInQuestions: List<Question> = listOf(
         // --- Gaming History ---
@@ -292,11 +297,38 @@ object QuestionBankRepository {
     )
 
     fun getQuestionsForCategory(category: String): List<Question> {
-        return sampleQuestions.filter { it.category.equals(category, ignoreCase = true) }
+        return generatedMetadata[category.lowercase()]?.questions
+            ?: categoryMetadata[category.lowercase()]?.questions
+            ?: sampleQuestions.filter { it.category.equals(category, ignoreCase = true) }
     }
 
     fun getCategoryPackage(category: String): CategoryQuestionFile? =
-        categoryMetadata[category.lowercase()]
+        generatedMetadata[category.lowercase()] ?: categoryMetadata[category.lowercase()]
+
+    fun resetGeneratedPackages() {
+        generatedMetadata = emptyMap()
+        generatedQuestions = null
+    }
+
+    fun generatePackages(
+        topics: List<String>,
+        packagesPerTopic: Int,
+        questionsPerPackage: Int,
+        random: Random = Random.Default,
+        difficultyForQuestionId: (String) -> Int? = { null }
+    ): DynamicPackagePlan {
+        val entries = canonicalBank?.questions?.associateBy { it.id }.orEmpty()
+        val plan = planDynamicPackages(categoryMetadata.values, topics, packagesPerTopic, questionsPerPackage, random) { id ->
+            difficultyForQuestionId(id) ?: entries[id]?.let { entry ->
+                entry.review?.rating?.takeIf { it in 1..5 }
+                    ?: entry.legacyIds.mapNotNull(difficultyForQuestionId).distinct().singleOrNull()
+                    ?: entry.legacyReviews.mapNotNull { it.rating?.takeIf { rating -> rating in 1..5 } }.distinct().singleOrNull()
+            }
+        }
+        generatedMetadata = plan.packages.associateBy { it.category.lowercase() }
+        generatedQuestions = plan.packages.flatMap { it.questions }
+        return plan
+    }
 
     fun reloadImportedPackages(packageDirectories: List<java.io.File>) {
         val imported = packageDirectories.flatMap { packageDirectory ->
@@ -320,6 +352,25 @@ object QuestionBankRepository {
         }
         categoryMetadata = categories.associateBy { it.category.lowercase() }
         fileQuestions = loaded
+        resetGeneratedPackages()
+        canonicalBank?.let(::applyCanonicalBank)
+    }
+
+    fun installCanonicalBank(source: String) {
+        val bank = json.decodeFromString<CanonicalQuestionBank>(source)
+        canonicalBank = bank
+        applyCanonicalBank(bank)
+    }
+
+    private fun applyCanonicalBank(bank: CanonicalQuestionBank) {
+        val knownIds = bank.questions.flatMap { it.legacyIds }.toSet()
+        val custom = categoryMetadata.values.mapNotNull { category ->
+            category.questions.filter { it.id !in knownIds }.takeIf { it.isNotEmpty() }?.let { category.copy(questions = it) }
+        }
+        val categories = bank.categoryViews() + custom
+        categoryMetadata = categories.associateBy { it.category.lowercase() }
+        fileQuestions = categories.flatMap { it.questions }.distinctBy { it.id }
+        resetGeneratedPackages()
     }
 
     private fun Question.withImportedImagePrefix(packageId: String): Question {

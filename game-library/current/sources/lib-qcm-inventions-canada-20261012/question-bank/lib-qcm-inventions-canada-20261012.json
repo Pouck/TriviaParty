@@ -20,7 +20,7 @@
         "D — Le basketball"
       ],
       "correctOptionIndex": 3,
-      "imageUrl": "images/lib-qcm-inventions-canada-20261012/basketball.jpg"
+      "conceptId": "canada-inventions-quotidien-20261011-01"
     },
     {
       "id": "lib-qcm-inventions-canada-20261012-02",
@@ -35,7 +35,8 @@
         "C — La mélatonine",
         "D — La thyroxine"
       ],
-      "correctOptionIndex": 0
+      "correctOptionIndex": 0,
+      "conceptId": "canada-buzzer-premieres-20261011-08"
     },
     {
       "id": "lib-qcm-inventions-canada-20261012-03",
@@ -81,7 +82,8 @@
         "C — Le Canadarm",
         "D — Voyager"
       ],
-      "correctOptionIndex": 2
+      "correctOptionIndex": 2,
+      "conceptId": "lib-buzzer-inventions-canada-20261012-05"
     }
   ]
 }

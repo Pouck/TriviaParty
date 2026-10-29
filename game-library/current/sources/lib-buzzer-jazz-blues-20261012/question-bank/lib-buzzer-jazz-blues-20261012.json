@@ -16,8 +16,7 @@
       "acceptableAnswers": [
         "Louis Armstrong"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-jazz-blues-20261012/trumpet.jpg"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-jazz-blues-20261012-02",

@@ -53,6 +53,7 @@ button.order-submit { margin-top: 18px; }
 #game:has(.ordering-list) { padding: 16px; }
 
 .buzz.queued { background:#434356; color:#eee; }
+.buzz.teammate { background:#55556d; color:white; }
 
 .sound-controls { display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px;margin:0 0 10px; }
 .sound-controls button { width:auto;min-height:40px;padding:8px 14px;font-size:16px;background:#264866;color:white;border:1px solid #5eaade;border-radius:10px; }

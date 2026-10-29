@@ -17,8 +17,7 @@
         "La Lune",
         "Lune"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-science-generale-20261012/moon.jpg"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-science-generale-20261012-02",
@@ -31,8 +30,7 @@
         "Le fer",
         "Fer"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-science-generale-20261012/magnet.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-science-generale-20261012-03",

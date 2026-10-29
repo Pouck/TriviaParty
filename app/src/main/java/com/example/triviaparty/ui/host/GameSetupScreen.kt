@@ -38,7 +38,7 @@ import java.io.File
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun GameSetupScreen(
-    onStartGame: (selectedCategories: List<String>, totalRounds: Int, timingConfig: HourglassConfig, answerTimeSeconds: Int, categoryRules: Map<String, CategoryGameRules>, voteSettings: com.example.triviaparty.model.VoteSettings?, allAudiencesOnly: Boolean) -> Unit,
+    onStartGame: (selectedCategories: List<String>, totalRounds: Int, timingConfig: HourglassConfig, answerTimeSeconds: Int, categoryRules: Map<String, CategoryGameRules>, voteSettings: com.example.triviaparty.model.VoteSettings?, allAudiencesOnly: Boolean, questionsPerPackage: Int, answerSoundsEnabled: Boolean, teamMode: Boolean, buzzerSoundsEnabled: Boolean, limitQuestionsPerCategory: Boolean) -> Unit,
     onSoloReview: (List<String>) -> Unit = {},
     modifier: Modifier = Modifier
 ) {
@@ -46,6 +46,9 @@ fun GameSetupScreen(
     val scope = rememberCoroutineScope()
     val audioPreferences=remember { context.getSharedPreferences("host-audio",android.content.Context.MODE_PRIVATE) }
     var allAudiencesOnly by remember { mutableStateOf(audioPreferences.getBoolean("all-audiences",false)) }
+    var answerSoundsEnabled by remember { mutableStateOf(audioPreferences.getBoolean("answer-sounds-enabled",true)) }
+    var buzzerSoundsEnabled by remember { mutableStateOf(audioPreferences.getBoolean("buzzer-sounds-enabled",true)) }
+    var teamMode by remember { mutableStateOf(audioPreferences.getBoolean("team-mode-enabled",false)) }
     val packagesDirectory = File(context.filesDir, "game-packages")
     val importedIds = GamePackageImportRepository.importedDirectories(packagesDirectory).map { it.name }.toSet()
     var packageToUpdate by remember { mutableStateOf<String?>(null) }
@@ -75,7 +78,10 @@ fun GameSetupScreen(
     var manualSubject by remember { mutableStateOf("Tous") }
     var draftCount by remember { mutableStateOf("6") }
     var draftSets by remember { mutableStateOf("1") }
+    var questionsPerPackage by remember { mutableIntStateOf(6) }
+    var draftQuestions by remember { mutableStateOf("6") }
     var showSelection by remember { mutableStateOf(false) }
+    LaunchedEffect(Unit) { QuestionBankRepository.resetGeneratedPackages() }
     val accent = Color(0xFFFFD54F)
     val panel = Color(0xFF232333)
     val setupColors = darkColorScheme(primary=accent,onPrimary=Color(0xFF19191F),
@@ -128,8 +134,10 @@ fun GameSetupScreen(
         }
     }
     val selectedPackages = selectedIds.mapNotNull { id -> GamePackageRepository.packages.firstOrNull { it.id == id } }
+    val capSelectedCategories = selectionMode !in listOf("Tests", "Révision")
     val combined = combineGamePackages(selectedPackages, GamePackageRepository::categoryNamesFor) {
-        QuestionBankRepository.getQuestionsForCategory(it).size
+        val count = QuestionBankRepository.getQuestionsForCategory(it).size
+        if (capSelectedCategories) minOf(count, questionsPerPackage) else count
     }
     fun togglePackage(id: String) {
         if (id in selectedIds) selectedIds.remove(id) else selectedIds.add(id)
@@ -198,12 +206,13 @@ fun GameSetupScreen(
     MaterialTheme(colorScheme=setupColors) {
     if(editCounts) AlertDialog(onDismissRequest={ editCounts=false },title={ Text("Format de la partie") },
         text={ Column(verticalArrangement=Arrangement.spacedBy(12.dp)) {
-            if(selectionMode!="Sujets") OutlinedTextField(value=draftCount,onValueChange={ draftCount=it.filter(Char::isDigit).take(2) },label={ Text("Nombre de catégories") },singleLine=true)
-            OutlinedTextField(value=draftSets,onValueChange={ draftSets=it.filter(Char::isDigit).take(2) },label={ Text("Forfaits par catégorie") },singleLine=true)
+            if(selectionMode !in listOf("Sujets","Tout")) OutlinedTextField(value=draftCount,onValueChange={ draftCount=it.filter(Char::isDigit).take(2) },label={ Text("Nombre de catégories") },singleLine=true)
+            OutlinedTextField(value=draftSets,onValueChange={ draftSets=it.filter(Char::isDigit).take(2) },label={ Text("Forfaits par sujet") },singleLine=true)
+            OutlinedTextField(value=draftQuestions,onValueChange={ draftQuestions=it.filter(Char::isDigit).take(2) },label={ Text("Questions par forfait") },singleLine=true)
         } },
-        confirmButton={ FilledTonalButton(shape=RoundedCornerShape(10.dp),enabled=(selectionMode=="Sujets" || (draftCount.toIntOrNull() ?: 0) in 1..50) && (draftSets.toIntOrNull() ?: 0) in 1..50,onClick={
+        confirmButton={ FilledTonalButton(shape=RoundedCornerShape(10.dp),enabled=(selectionMode in listOf("Sujets","Tout") || (draftCount.toIntOrNull() ?: 0) in 1..50) && (draftSets.toIntOrNull() ?: 0) in 1..50 && (draftQuestions.toIntOrNull() ?: 0) in 1..20,onClick={
             if(selectionMode=="Vote") voteCount=draftCount else if(selectionMode=="Aléatoire") randomCount=draftCount
-            setsPerSubject=draftSets;selectedIds.clear();editCounts=false
+            setsPerSubject=draftSets;questionsPerPackage=draftQuestions.toInt();selectedIds.clear();editCounts=false
         }) { Text("Appliquer") } },dismissButton={ FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ editCounts=false }) { Text("Annuler") } })
     Column(
         modifier = modifier.fillMaxSize().background(Color(0xFF12121D)).padding(16.dp),
@@ -251,16 +260,21 @@ fun GameSetupScreen(
                 Text("$voteSubjects sujets disponibles pour $voteSets forfait${if(voteSets==1) "" else "s"} chacun. Les forfaits sont tirés après le vote, avec des formats variés.",color=MaterialTheme.colorScheme.onSurfaceVariant)
             }
             if(selectionMode=="Révision") Text("Choisissez les forfaits à revoir. Jouez seul, révélez la réponse, puis notez et commentez la question. Sans chrono.",color=MaterialTheme.colorScheme.onSurfaceVariant)
-            if(selectionMode in listOf("Aléatoire","Sujets","Vote")) Surface(color=panel,shape=RoundedCornerShape(12.dp),modifier=Modifier.fillMaxWidth()) {
+            if(selectionMode in listOf("Aléatoire","Sujets","Vote","Tout")) Surface(color=panel,shape=RoundedCornerShape(12.dp),modifier=Modifier.fillMaxWidth()) {
                 Row(Modifier.padding(horizontal=14.dp,vertical=4.dp),verticalAlignment=Alignment.CenterVertically) {
-                    val count=when(selectionMode) { "Vote" -> voteCount; "Sujets" -> selectedSubjects.size.toString(); else -> randomCount }
+                    val count=when(selectionMode) {
+                        "Vote" -> voteCount
+                        "Sujets" -> selectedSubjects.size.toString()
+                        "Tout" -> eligiblePackages().map { it.browseGroup() }.distinct().size.toString()
+                        else -> randomCount
+                    }
                     Text("$count × $voteSets",fontSize=23.sp,fontWeight=FontWeight.Bold,color=Color.White)
-                    Text("  catégories × forfaits",modifier=Modifier.weight(1f),fontSize=13.sp,color=MaterialTheme.colorScheme.onSurfaceVariant)
-                    FilledTonalButton(shape=RoundedCornerShape(10.dp),enabled=!drawing,onClick={ draftCount=if(selectionMode=="Vote") voteCount else randomCount;draftSets=setsPerSubject;editCounts=true }) { Text("Modifier") }
+                    Text("  sujets × forfaits · $questionsPerPackage questions chacun",modifier=Modifier.weight(1f),fontSize=13.sp,color=MaterialTheme.colorScheme.onSurfaceVariant)
+                    FilledTonalButton(shape=RoundedCornerShape(10.dp),enabled=!drawing,onClick={ draftCount=if(selectionMode=="Vote") voteCount else randomCount;draftSets=setsPerSubject;draftQuestions=questionsPerPackage.toString();editCounts=true }) { Text("Modifier") }
                 }
             }
             if(selectionMode=="Sujets") {
-                Text("Choisissez les sujets. Les formats sont mélangés.",color=MaterialTheme.colorScheme.onSurfaceVariant)
+                Text("Choisissez les sujets. Chaque forfait garde un format annoncé; les formats sont équilibrés sur l’ensemble de la partie.",color=MaterialTheme.colorScheme.onSurfaceVariant)
                 FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp),verticalArrangement=Arrangement.spacedBy(0.dp)) {
                 eligiblePackages().map { it.browseGroup() }.distinct().sorted().forEach { subject ->
                     FilterChip(colors=subjectColors,selected=subject in selectedSubjects,enabled=!drawing,onClick={
@@ -272,6 +286,10 @@ fun GameSetupScreen(
             }
             if(selectionMode=="Tests") Text("Tous les forfaits de test et démonstration sont sélectionnés.",color=MaterialTheme.colorScheme.onSurfaceVariant)
             if(selectionMode=="Tout") Text("Toute la bibliothèque, sauf les tests et démonstrations.",color=MaterialTheme.colorScheme.onSurfaceVariant)
+            if(selectionMode=="Manuel") Row(verticalAlignment=Alignment.CenterVertically,horizontalArrangement=Arrangement.spacedBy(10.dp)) {
+                Text("Questions par catégorie",color=Color.White)
+                FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ draftCount=randomCount;draftSets=setsPerSubject;draftQuestions=questionsPerPackage.toString();editCounts=true }) { Text("$questionsPerPackage · Modifier") }
+            }
             if(selectionMode in listOf("Aléatoire","Sujets")) Button(onClick={ drawPackages() },
                 colors=ButtonDefaults.buttonColors(containerColor=Color(0xFF75D7CB),contentColor=Color(0xFF102724)),
                 modifier=Modifier.fillMaxWidth(),shape=RoundedCornerShape(12.dp),
@@ -383,11 +401,28 @@ fun GameSetupScreen(
             Switch(checked=allAudiencesOnly,onCheckedChange={ allAudiencesOnly=it;audioPreferences.edit().putBoolean("all-audiences",it).apply() })
             Text("Répliques tout public uniquement",color=Color.White,modifier=Modifier.padding(start=10.dp))
         }
+        if(selectionMode!="Révision") Row(verticalAlignment=Alignment.CenterVertically) {
+            Switch(checked=answerSoundsEnabled,onCheckedChange={ answerSoundsEnabled=it;audioPreferences.edit().putBoolean("answer-sounds-enabled",it).apply() })
+            Text("R\u00e9pliques parl\u00e9es (carillons conserv\u00e9s)",color=Color.White,modifier=Modifier.padding(start=10.dp))
+        }
+        if(selectionMode!="Révision") Row(verticalAlignment=Alignment.CenterVertically) {
+            Switch(checked=buzzerSoundsEnabled,onCheckedChange={ buzzerSoundsEnabled=it;audioPreferences.edit().putBoolean("buzzer-sounds-enabled",it).apply() })
+            Text("Sons de buzzer sur le téléphone des joueurs",color=Color.White,modifier=Modifier.padding(start=10.dp))
+        }
+        if(selectionMode!="R\uFFFDvision") Row(verticalAlignment=Alignment.CenterVertically) {
+            Switch(checked=teamMode,onCheckedChange={ teamMode=it;audioPreferences.edit().putBoolean("team-mode-enabled",it).apply() })
+            Text("Mode \u00e9quipes : chaque joueur indique son nom et son \u00e9quipe",color=Color.White,modifier=Modifier.padding(start=10.dp))
+        }
         if (combined.conflictingCategories.isNotEmpty()) {
             Text("Catégories communes : règles du premier forfait sélectionné pour " +
                 combined.conflictingCategories.joinToString(" · "), color = Color(0xFFFFD700), fontSize = 12.sp)
         }
-        Text(if(selectionMode=="Vote") "$voteNumber catégories · ${voteNumber*voteSets} forfaits après le vote" else "${selectedPackages.size} forfait${if(selectedPackages.size==1) "" else "s"} · ${combined.totalQuestions} questions",
+        Text(when(selectionMode) {
+            "Vote" -> "$voteNumber catégories · ${voteNumber*voteSets} forfaits après le vote · $questionsPerPackage questions par forfait"
+            "Aléatoire", "Sujets" -> "${selectedPackages.size} forfaits tirés · $questionsPerPackage questions par forfait"
+            "Tout" -> "${eligiblePackages().map { it.browseGroup() }.distinct().size * voteSets} forfaits tirés · $questionsPerPackage questions par forfait"
+            else -> "${selectedPackages.size} forfait${if(selectedPackages.size==1) "" else "s"} · ${combined.totalQuestions} questions${if(capSelectedCategories) " · $questionsPerPackage max. par catégorie" else ""}"
+        },
             color = Color.LightGray, fontSize = 14.sp)
         Button(
             onClick = {
@@ -396,8 +431,23 @@ fun GameSetupScreen(
                     val packs=if(selectionMode=="Vote") votePool else selectedPackages
                     val setup=if(selectionMode=="Vote") combineGamePackages(packs,GamePackageRepository::categoryNamesFor) { QuestionBankRepository.getQuestionsForCategory(it).size } else combined
                     val first=packs.first()
-                    onStartGame(setup.categories,setup.totalQuestions,first.timingConfig,first.answerTimeSeconds,setup.categoryRules,
-                        if(selectionMode=="Vote") com.example.triviaparty.model.VoteSettings(voteNumber,voteSets) else null,allAudiencesOnly)
+                    if(selectionMode in listOf("Aléatoire","Sujets","Tout")) {
+                        val topics=packs.map { it.browseGroup() }
+                        val topicsForPlan=if(selectionMode=="Tout") topics.distinct() else topics
+                        val packagesPerTopic=if(selectionMode=="Tout") voteSets else 1
+                        val savedDifficulties=reviewStore.read().reviews.mapValues { it.value.difficulty }
+                        val plan=QuestionBankRepository.generatePackages(topicsForPlan,packagesPerTopic,questionsPerPackage,
+                            difficultyForQuestionId={ savedDifficulties[it] })
+                        val packageRules=plan.packages.associate { generated ->
+                            val sourcePack=packs.firstOrNull { it.browseGroup()==generated.subject } ?: first
+                            generated.category to CategoryGameRules(sourcePack.timingConfig,sourcePack.answerTimeSeconds)
+                        }
+                        onStartGame(plan.categories,plan.totalQuestions,first.timingConfig,first.answerTimeSeconds,packageRules,
+                            null,allAudiencesOnly,questionsPerPackage,answerSoundsEnabled,teamMode,buzzerSoundsEnabled,true)
+                    } else {
+                        onStartGame(setup.categories,setup.totalQuestions,first.timingConfig,first.answerTimeSeconds,setup.categoryRules,
+                            if(selectionMode=="Vote") com.example.triviaparty.model.VoteSettings(voteNumber,voteSets) else null,allAudiencesOnly,questionsPerPackage,answerSoundsEnabled,teamMode,buzzerSoundsEnabled,capSelectedCategories)
+                    }
                 }
             },
             enabled = !drawing && (if(selectionMode=="Vote") voteNumber>0 else selectedPackages.isNotEmpty() && combined.totalQuestions>0),

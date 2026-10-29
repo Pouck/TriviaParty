@@ -12,14 +12,15 @@
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "multipleChoice",
-      "prompt": "Trois boîtes portent les étiquettes « pommes », « oranges » et « mélange ». Toutes les étiquettes sont fausses. Quelle boîte faut-il ouvrir pour pouvoir réétiqueter les trois en tirant un seul fruit ?",
+      "prompt": "Trois boîtes contiennent respectivement uniquement des pommes, uniquement des oranges, et un mélange des deux. Leurs étiquettes « pommes », « oranges » et « mélange » sont toutes fausses. Dans quelle boîte faut-il tirer un seul fruit, sans regarder à l’intérieur, pour identifier le contenu des trois boîtes ?",
       "options": [
         "A — Celle étiquetée « pommes »",
         "B — Celle étiquetée « oranges »",
         "C — Celle étiquetée « mélange »",
         "D — N’importe laquelle"
       ],
-      "correctOptionIndex": 2
+      "correctOptionIndex": 2,
+      "explanation": "La boîte étiquetée « mélange » contient un seul type de fruit, puisque son étiquette est fausse. Le fruit tiré révèle ce type. Les deux autres contenus se déduisent alors en gardant leurs étiquettes fausses."
     },
     {
       "id": "lib-qcm-devinettes-20261012-02",
@@ -49,7 +50,8 @@
         "C — 42",
         "D — 44"
       ],
-      "correctOptionIndex": 2
+      "correctOptionIndex": 2,
+      "explanation": "Les écarts sont +4, +6, +8, +10, puis +12 : 30 + 12 = 42. Chaque terme est le produit de deux entiers consécutifs : 1×2, 2×3, …, 6×7."
     },
     {
       "id": "lib-qcm-devinettes-20261012-04",
@@ -72,14 +74,15 @@
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "multipleChoice",
-      "prompt": "Une famille compte cinq garçons. Chaque garçon a la même sœur. Combien d’enfants y a-t-il dans la famille ?",
+      "prompt": "Dans une famille, cinq garçons ont chacun une sœur. Il n’y a qu’une seule fille. Combien d’enfants compte cette famille ?",
       "options": [
         "A — 5",
         "B — 6",
         "C — 10",
         "D — 11"
       ],
-      "correctOptionIndex": 1
+      "correctOptionIndex": 1,
+      "explanation": "Les cinq garçons ont tous pour sœur l’unique fille de la famille : 5 + 1 = 6 enfants."
     }
   ]
 }

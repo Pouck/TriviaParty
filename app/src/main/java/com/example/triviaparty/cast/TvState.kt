@@ -6,6 +6,7 @@ import com.example.triviaparty.model.AnswerValue
 import com.example.triviaparty.model.Question
 import com.example.triviaparty.model.CategoryAnswerMode
 import com.example.triviaparty.model.CategoryWagerResult
+import com.example.triviaparty.model.ImageRevealTiming
 import com.example.triviaparty.model.spectatorOptions
 import com.example.triviaparty.model.revealPrompt
 import com.example.triviaparty.model.activePrompt
@@ -49,19 +50,24 @@ data class TvState(
     val joinUrl: String = "",
     val joinQrUrl: String = "",
     val secondsPerFlip: Int = 5,
+    val imageRevealDurationSeconds: Int = 0,
     val answerTimeSeconds: Int = 10,
     val timerPaused: Boolean = false,
     val subjectVote: TvSubjectVote? = null,
     val answerSoundId: Int = 0,
     val answerSound: String? = null,
     val answerSoundClip: String? = null,
+    val answerSoundPlaybackEnabled: Boolean = true,
+    val speedUpMusicForClueTransition: Boolean = false,
     val gameEndSoundClip: String = "game-end.wav",
-    val audioBankVersion: String = "human-bank-20261014",
+    val audioBankVersion: String = "classical-answer-cues-20261025",
     val buzzerSoundId: Int = 0,
     val pointsCountdown: Boolean = false,
     val readyCount: Int = 0,
     val connectedCount: Int = 0,
-    val playersReadyReading: Boolean = false
+    val playersReadyReading: Boolean = false,
+    val clueCount: Int = 0,
+    val inRoundMusicMode: String? = null
 ) {
     fun encode(): String = json.encodeToString(this)
 
@@ -85,16 +91,29 @@ data class TvState(
                 joinUrl = "http://${session.hostIpAddress}:$port/play",
                 joinQrUrl = "http://${session.hostIpAddress}:$port/tv/join-qr.svg",
                 secondsPerFlip = session.timingConfig.secondsPerFlip,
+                imageRevealDurationSeconds = (session.currentQuestion as? Question.GuessWho)
+                    ?.takeIf { it.imageRevealMode != com.example.triviaparty.model.ImageRevealMode.NONE }
+                    ?.let { ImageRevealTiming.REVEAL_DURATION_SECONDS } ?: 0,
                 answerTimeSeconds = session.answerTimeSeconds,
                 timerPaused = session.timerPaused,
                 subjectVote=session.subjectVoting?.let { TvSubjectVote(it.candidates,it.selected,it.totals(),it.round,it.remainingSlots,it.hostTieBreak,it.completed,it.ballots.size) },
                 answerSoundId=session.answerSoundId,answerSound=session.answerSound,answerSoundClip=session.answerSoundClip,
+                answerSoundPlaybackEnabled=session.answerSoundPlaybackEnabled,
+                speedUpMusicForClueTransition=session.speedUpMusicForClueTransition,
+                audioBankVersion=session.audioBankVersion,
                 gameEndSoundClip=session.gameEndSoundClip,
                 buzzerSoundId=session.buzzerSoundId,
                 pointsCountdown=session.timingConfig.pointsDecayPerSecond!=null,
                 readyCount=session.teams.count { it.isConnected && it.id in session.readyTeamIds },
                 connectedCount=session.teams.count { it.isConnected },
                 playersReadyReading=session.questionReading && session.currentQuestion?.isChronologyQuestion()==true,
+                clueCount=(session.currentQuestion as? Question.GuessWho)?.let { if (it.imageRevealMode == com.example.triviaparty.model.ImageRevealMode.NONE) it.clues.size else it.imageRevealSteps } ?: 0,
+                inRoundMusicMode=when {
+                    session.state != GameState.QUESTION_ACTIVE || session.questionReading -> null
+                    session.currentQuestion is Question.GuessWho && session.currentQuestion.imageRevealMode != com.example.triviaparty.model.ImageRevealMode.NONE -> "IMAGE_GUESS_WHO"
+                    session.currentQuestion is Question.GuessWho -> "GUESS_WHO"
+                    else -> "THINKING"
+                },
                 category = session.currentCategory,
                 categories = session.availableCategories,
                 categoryAnswerMode = session.currentCategoryAnswerMode,
@@ -104,7 +123,11 @@ data class TvState(
                 round = session.roundNumber,
                 totalRounds = session.totalRounds,
                 question = q?.let { TvQuestion.from(it, reveal, session.currentFlipNumber).let { tv ->
-                    if(session.currentCategoryAnswerMode==CategoryAnswerMode.WRITTEN) tv.copy(answerMode="WRITTEN") else tv
+                    when {
+                        tv.imageRevealMode != null -> tv.copy(answerMode="BUZZER")
+                        session.currentCategoryAnswerMode==CategoryAnswerMode.WRITTEN -> tv.copy(answerMode="WRITTEN")
+                        else -> tv
+                    }
                 } },
                 teams = session.teams.mapIndexed { colorIndex,it ->
                     val submission = session.submissions[it.id]
@@ -148,6 +171,9 @@ data class TvQuestion(
     val mapOptions: List<TvMapOption> = emptyList(),
     val id: String = "",
     val answerMode: String? = null,
+    val imageRevealMode: String? = null,
+    val imageRevealStep: Int = 0,
+    val imageRevealSteps: Int = 1,
     @OptIn(ExperimentalSerializationApi::class)
     @EncodeDefault(EncodeDefault.Mode.NEVER)
     val correctOptionIndex: Int? = null
@@ -174,6 +200,9 @@ data class TvQuestion(
             return TvQuestion(
                 id = question.id,
                 answerMode = if (question is Question.TextAnswer || question is Question.GuessWho) "BUZZER" else "SIMULTANEOUS",
+                imageRevealMode = (question as? Question.GuessWho)?.imageRevealMode?.takeIf { it != com.example.triviaparty.model.ImageRevealMode.NONE }?.name,
+                imageRevealStep = flipNumber,
+                imageRevealSteps = (question as? Question.GuessWho)?.let { if (it.imageRevealMode == com.example.triviaparty.model.ImageRevealMode.NONE) it.clues.size else it.imageRevealSteps } ?: 1,
                 correctOptionIndex = choices?.correctOptionIndex?.takeIf { reveal },
                 prompt = if (question is Question.Ordering) question.prompt.substringBefore('\n') + "\n" +
                     question.items.joinToString("\n") { "• ${it.text}" }

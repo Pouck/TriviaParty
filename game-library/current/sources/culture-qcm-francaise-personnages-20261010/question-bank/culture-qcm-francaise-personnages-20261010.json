@@ -19,7 +19,8 @@
         "C — Porthos",
         "D — D’Artagnan"
       ],
-      "correctOptionIndex": 3
+      "correctOptionIndex": 3,
+      "conceptId": "culture-qcm-francaise-personnages-20261010-01"
     },
     {
       "kind": "multipleChoice",

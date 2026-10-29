@@ -17,5 +17,6 @@ Carte — repères utilise la carte schématique de secours ; Carte — image ut
 | TEST Mise — ancien format | `test-07-wager.zip` | Mars |
 | TEST Course de vitesse | `test-08-speed-race.zip` | Mars |
 | TEST Carte — image et lettres | `test-09-carte-qcm.zip` | B |
+| TEST Qui suis-je ? — Tableaux révélés | `test-10-qui-suis-je-tableaux-visuels.zip` | Six peintures ; six effets puis l’image originale |
 
 Sources modifiables dans `sources/`. Les packages TEST peuvent être supprimés séparément dans l’application.

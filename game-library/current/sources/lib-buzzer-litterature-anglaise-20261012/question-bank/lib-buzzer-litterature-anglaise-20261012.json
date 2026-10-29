@@ -16,7 +16,8 @@
       "acceptableAnswers": [
         "Hamlet"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "culture-qcm-anglophone-personnages-20261010-03"
     },
     {
       "id": "lib-buzzer-litterature-anglaise-20261012-02",
@@ -29,7 +30,7 @@
         "Alice"
       ],
       "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-litterature-anglaise-20261012/rabbit.png"
+      "conceptId": "culture-qcm-anglophone-personnages-20261010-10"
     },
     {
       "id": "lib-buzzer-litterature-anglaise-20261012-03",
@@ -41,7 +42,8 @@
       "acceptableAnswers": [
         "Sherlock Holmes"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "culture-qcm-anglophone-personnages-20261010-01"
     },
     {
       "id": "lib-buzzer-litterature-anglaise-20261012-04",
@@ -55,7 +57,7 @@
         "Scrooge"
       ],
       "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-litterature-anglaise-20261012/ghost.png"
+      "conceptId": "culture-qcm-anglophone-personnages-20261010-05"
     },
     {
       "id": "lib-buzzer-litterature-anglaise-20261012-05",

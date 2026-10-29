@@ -19,8 +19,7 @@
         "C — L’Arctique",
         "D — Le Pacifique"
       ],
-      "correctOptionIndex": 3,
-      "imageUrl": "images/lib-qcm-geographie-monde-20261012/ocean.png"
+      "correctOptionIndex": 3
     },
     {
       "id": "lib-qcm-geographie-monde-20261012-02",
@@ -58,7 +57,7 @@
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "multipleChoice",
-      "prompt": "Quel pays abrite ce mont Fuji ?",
+      "prompt": "Quel pays abrite le mont Fuji ?",
       "options": [
         "A — Le Japon",
         "B — La Corée du Sud",

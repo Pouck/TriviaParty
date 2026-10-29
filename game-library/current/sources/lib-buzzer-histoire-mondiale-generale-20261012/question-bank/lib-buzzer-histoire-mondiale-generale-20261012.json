@@ -45,7 +45,8 @@
         "Neil Armstrong",
         "Armstrong"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "lib-buzzer-histoire-etats-unis-20261012-04"
     },
     {
       "id": "lib-buzzer-histoire-mondiale-generale-20261012-04",

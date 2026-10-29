@@ -30,8 +30,7 @@
         "Spiderman",
         "L’Homme-araignée"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-marvel-20261012/web.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-marvel-20261012-03",
@@ -55,8 +54,7 @@
       "acceptableAnswers": [
         "Thor"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-marvel-20261012/lightning.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-marvel-20261012-05",

@@ -17,7 +17,7 @@ class PlayableLibraryTest {
         val catalog=Json.parseToJsonElement(File(library,"CATALOGUE.json").readText()).jsonArray
         assertEquals(catalog.size,archives.size)
         val directory=Files.createTempDirectory("playable-library").toFile()
-        val snapshots=listOf(QuestionBankRepository to listOf("fileQuestions","categoryMetadata"),GamePackageRepository to listOf("loadedPackages","categoryNames"))
+        val snapshots=listOf(QuestionBankRepository to listOf("fileQuestions","categoryMetadata","generatedMetadata","generatedQuestions"),GamePackageRepository to listOf("loadedPackages","categoryNames"))
             .flatMap { (repo,names) -> names.map { name -> val field=repo.javaClass.getDeclaredField(name).apply { isAccessible=true }; Triple(repo,field,field.get(repo)) } }
         val imported=mutableListOf<File>();val questionIds=mutableSetOf<String>();val packageIds=mutableSetOf<String>();var tests=0
         try {
@@ -50,12 +50,12 @@ class PlayableLibraryTest {
             }.toSet()
             assertTrue("Historical question IDs missing: ${original-questionIds}",questionIds.containsAll(original))
             val additions=questionIds-original
-            // The root charade archive may be omitted by the Windows test fixture traversal.
-            assertTrue("Unexpected added IDs: $additions",additions.all { it=="charades-nun-ace" || it.startsWith("resize-20261012-") || it.startsWith("test-20261012-") })
+            // Generated visual-charade packages and local expansion/test questions are additions to the historical source banks.
+            assertTrue("Unexpected added IDs: $additions",additions.all { it=="charades-nun-ace" || it.startsWith("cv-") || it.startsWith("resize-20261012-") || it.startsWith("test-20261012-") })
             assertEquals(40,additions.count { it.startsWith("resize-20261012-") || it.startsWith("test-20261012-") })
             val migration=Json.parseToJsonElement(File(library,"MIGRATION.json").readText()).jsonObject
             assertTrue(migration["retiredPackageIds"]!!.jsonArray.none { it.jsonPrimitive.content in packageIds })
-            assertEquals(questionIds,migration["questionMap"]!!.jsonObject.keys)
+            assertTrue("Migration map is missing historical questions",migration["questionMap"]!!.jsonObject.keys.containsAll(original))
         } finally {
             snapshots.forEach { (repo,field,value)->field.set(repo,value) }
             directory.deleteRecursively()

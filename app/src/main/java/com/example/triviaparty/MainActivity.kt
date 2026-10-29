@@ -53,6 +53,20 @@ class MainActivity : ComponentActivity() {
         val importedPackages = GamePackageImportRepository.importedDirectories(packagesDirectory)
         QuestionBankRepository.reloadImportedPackages(importedPackages)
         GamePackageRepository.reloadImportedPackages(importedPackages)
+        // The bank is authoritative; old package manifests remain compatibility views.
+        val bankMedia = File(packagesDirectory, "canonical-bank/images").apply { mkdirs() }
+        assets.list("media").orEmpty().forEach { name ->
+            val destination = File(bankMedia, name)
+            if (!destination.isFile) assets.open("media/$name").use { input ->
+                destination.outputStream().use { input.copyTo(it) }
+            }
+        }
+        assets.open("questions.json").bufferedReader().use {
+            val source = it.readText()
+            QuestionBankRepository.installCanonicalBank(source)
+            GamePackageRepository.installBankViews(kotlinx.serialization.json.Json { ignoreUnknownKeys = true }
+                .decodeFromString<com.example.triviaparty.data.CanonicalQuestionBank>(source))
+        }
         enableEdgeToEdge()
         setContent {
             TriviaPartyTheme {
@@ -121,8 +135,13 @@ fun TriviaPartyApp() {
     var hostTimingConfig by remember { mutableStateOf(HourglassConfig()) }
     var hostCategoryRules by remember { mutableStateOf<Map<String, CategoryGameRules>>(emptyMap()) }
     var hostAnswerTimeSeconds by remember { mutableStateOf(10) }
+    var hostQuestionsPerPackage by remember { mutableStateOf(6) }
+    var hostLimitQuestionsPerCategory by remember { mutableStateOf(false) }
     var hostSessionStarted by remember { mutableStateOf(false) }
     var hostAllAudiencesOnly by remember { mutableStateOf(false) }
+    var hostAnswerSoundsEnabled by remember { mutableStateOf(true) }
+    var hostBuzzerSoundsEnabled by remember { mutableStateOf(true) }
+    var hostTeamMode by remember { mutableStateOf(false) }
     var hostVoteSettings by remember { mutableStateOf<com.example.triviaparty.model.VoteSettings?>(null) }
     val activity = LocalContext.current as? ComponentActivity
     DisposableEffect(activity, currentRole) {
@@ -164,7 +183,7 @@ fun TriviaPartyApp() {
         Box(Modifier.fillMaxSize().padding(innerPadding)) {
             when (currentRole) {
                 AppRole.HOST_SETUP -> GameSetupScreen(
-                    onStartGame = { categories, rounds, timingConfig, answerTimeSeconds, categoryRules, voteSettings, allAudiencesOnly ->
+                    onStartGame = { categories, rounds, timingConfig, answerTimeSeconds, categoryRules, voteSettings, allAudiencesOnly, questionsPerPackage, answerSoundsEnabled, teamMode, buzzerSoundsEnabled, limitQuestionsPerCategory ->
                         hostSelectedCategories = categories
                         hostTotalRounds = rounds
                         hostTimingConfig = timingConfig
@@ -173,6 +192,11 @@ fun TriviaPartyApp() {
                         hostSessionStarted = false
                         hostVoteSettings=voteSettings
                         hostAllAudiencesOnly=allAudiencesOnly
+                        hostAnswerSoundsEnabled=answerSoundsEnabled
+                        hostBuzzerSoundsEnabled=buzzerSoundsEnabled
+                        hostTeamMode=teamMode
+                        hostQuestionsPerPackage=questionsPerPackage
+                        hostLimitQuestionsPerCategory=limitQuestionsPerCategory
                         currentRole = AppRole.HOST_DASHBOARD
                     },
                     onSoloReview={ categories -> hostSelectedCategories=categories; currentRole=AppRole.SOLO_REVIEW }
@@ -185,9 +209,14 @@ fun TriviaPartyApp() {
                     totalRounds = hostTotalRounds,
                     timingConfig = hostTimingConfig,
                     answerTimeSeconds = hostAnswerTimeSeconds,
+                    questionsPerPackage = hostQuestionsPerPackage,
+                    limitQuestionsPerCategory = hostLimitQuestionsPerCategory,
                     categoryRules = hostCategoryRules,
                     voteSettings=hostVoteSettings,
                     allAudiencesOnly=hostAllAudiencesOnly,
+                    answerSoundsEnabled=hostAnswerSoundsEnabled,
+                    buzzerSoundsEnabled=hostBuzzerSoundsEnabled,
+                    teamMode=hostTeamMode,
                     startNewGame = !hostSessionStarted,
                     onGameStarted = { hostSessionStarted = true },
                     onBackToMain = {

@@ -1,0 +1,15 @@
+{
+  "id": "test-10-qui-suis-je-tableaux-visuels",
+  "name": "TEST Qui suis-je ? — Tableaux révélés",
+  "description": "Six œuvres célèbres avec quatre façons de révéler progressivement l’image.",
+  "categoryPackages": [
+    "test-10-qui-suis-je-tableaux-visuels"
+  ],
+  "answerTimeSeconds": 10,
+  "timingConfig": {
+    "secondsPerFlip": 16,
+    "decayPercentagePerFlip": 0,
+    "maxFlips": 6,
+    "pointsDecayPerFlip": 5
+  }
+}

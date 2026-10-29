@@ -35,6 +35,7 @@ class ProgressiveCluesTest {
             val state = GameSession("1234", state = GameState.QUESTION_ACTIVE, currentQuestion = question,
                 currentFlipNumber = flip, timingConfig = config, currentCategoryAnswerMode = CategoryAnswerMode.BUZZER)
             val tv = TvState.from(state)
+            assertEquals(3, tv.clueCount)
             assertEquals(listOf(15, 10, 5)[flip], tv.points)
             question.clues.forEachIndexed { index, clue -> assertEquals(index <= flip, tv.question!!.prompt.contains(clue)) }
             assertNull(tv.question!!.answer)
@@ -52,6 +53,8 @@ class ProgressiveCluesTest {
         }
         val intro = TvState.from(GameSession("1234", state = GameState.CATEGORY_INTRO, currentQuestion = question))
         assertNull(intro.question)
+        assertEquals(3, intro.clueCount)
+        question.clues.forEach { assertFalse(intro.encode().contains(it)) }
         val revealed = TvState.from(GameSession("1234", state = GameState.REVEAL_ANSWER, currentQuestion = question))
         assertEquals("Qui suis-je ?", revealed.question!!.prompt)
         assertEquals("Solution privée", revealed.question!!.answer)

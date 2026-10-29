@@ -10,21 +10,21 @@
       "kind": "ordering",
       "id": "fr-renaissance-chronologie-20261010-01",
       "category": "Histoire de France — Renaissance — Chronologie",
-      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "prompt": "Classez du plus ancien au plus récent ces repères du règne de François Ier.",
       "basePoints": 15,
       "penaltyPoints": 0,
       "items": [
         {
           "id": "item-0",
-          "text": "François Ier"
+          "text": "Avènement de François Ier au trône"
         },
         {
           "id": "item-1",
-          "text": "Chambord"
+          "text": "Début de la construction du château de Chambord"
         },
         {
           "id": "item-2",
-          "text": "Arrivée de Léonard"
+          "text": "Arrivée de Léonard de Vinci à la cour de France"
         }
       ],
       "correctOrderIds": [
@@ -37,21 +37,21 @@
       "kind": "ordering",
       "id": "fr-renaissance-chronologie-20261010-02",
       "category": "Histoire de France — Renaissance — Chronologie",
-      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "prompt": "Classez du plus ancien au plus récent ces publications et décisions de la Renaissance française.",
       "basePoints": 15,
       "penaltyPoints": 0,
       "items": [
         {
           "id": "item-0",
-          "text": "Défense et illustration"
+          "text": "Publication de Défense et illustration de la langue française par Joachim du Bellay"
         },
         {
           "id": "item-1",
-          "text": "Villers-Cotterêts"
+          "text": "Promulgation de l’ordonnance de Villers-Cotterêts par François Ier"
         },
         {
           "id": "item-2",
-          "text": "Gargantua"
+          "text": "Publication de Gargantua par François Rabelais"
         }
       ],
       "correctOrderIds": [
@@ -64,21 +64,21 @@
       "kind": "ordering",
       "id": "fr-renaissance-chronologie-20261010-03",
       "category": "Histoire de France — Renaissance — Chronologie",
-      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "prompt": "Classez ces événements des guerres de Religion en France du plus ancien au plus récent.",
       "basePoints": 15,
       "penaltyPoints": 0,
       "items": [
         {
           "id": "item-0",
-          "text": "Saint-Barthélemy"
+          "text": "Massacre de la Saint-Barthélemy à Paris"
         },
         {
           "id": "item-1",
-          "text": "Amboise"
+          "text": "Conjuration d’Amboise"
         },
         {
           "id": "item-2",
-          "text": "Wassy"
+          "text": "Massacre de Wassy"
         }
       ],
       "correctOrderIds": [
@@ -91,21 +91,21 @@
       "kind": "ordering",
       "id": "fr-renaissance-chronologie-20261010-04",
       "category": "Histoire de France — Renaissance — Chronologie",
-      "prompt": "Classez ces événements du plus ancien au plus récent",
+      "prompt": "Classez du plus ancien au plus récent ces événements de l’histoire de France.",
       "basePoints": 15,
       "penaltyPoints": 0,
       "items": [
         {
           "id": "item-0",
-          "text": "Assassinat d’Henri III"
+          "text": "Assassinat du roi Henri III à Saint-Cloud"
         },
         {
           "id": "item-1",
-          "text": "Édit de Nantes"
+          "text": "Signature de l’édit de Nantes par Henri IV"
         },
         {
           "id": "item-2",
-          "text": "Marignan"
+          "text": "Bataille de Marignan"
         }
       ],
       "correctOrderIds": [

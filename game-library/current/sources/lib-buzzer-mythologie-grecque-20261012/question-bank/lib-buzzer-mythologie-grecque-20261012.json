@@ -16,8 +16,7 @@
       "acceptableAnswers": [
         "Méduse"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-mythologie-grecque-20261012/snakes.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-mythologie-grecque-20261012-02",
@@ -54,8 +53,7 @@
         "Le phénix",
         "Phénix"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-mythologie-grecque-20261012/phoenix.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-mythologie-grecque-20261012-05",

@@ -49,8 +49,7 @@
         "C — Un éclair",
         "D — Un croissant"
       ],
-      "correctOptionIndex": 3,
-      "imageUrl": "images/lib-qcm-cuisine-saveurs-20261012/croissant.jpg"
+      "correctOptionIndex": 3
     },
     {
       "id": "lib-qcm-cuisine-saveurs-20261012-04",
@@ -65,8 +64,7 @@
         "C — Un taco",
         "D — Une crêpe Suzette"
       ],
-      "correctOptionIndex": 2,
-      "imageUrl": "images/lib-qcm-cuisine-saveurs-20261012/taco.jpg"
+      "correctOptionIndex": 2
     },
     {
       "id": "lib-qcm-cuisine-saveurs-20261012-05",

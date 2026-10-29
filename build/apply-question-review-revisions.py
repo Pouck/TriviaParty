@@ -1,4 +1,8 @@
-"""Apply the October 2026 host-review edits to current and rebuilt library ZIPs."""
+"""Historical package compatibility exporter; does not author game-library/bank.
+
+New question edits belong in the canonical bank. This script is retained to
+reproduce legacy archives and migration checks only.
+"""
 import json
 import zipfile
 import csv
@@ -9,6 +13,22 @@ ROOT = Path(__file__).resolve().parents[1]
 LIB = ROOT / "game-library" / "current"
 
 REVISIONS = {
+    "canada-moins-facile-20261010-01": {"prompt": "Classez ces trois repères canadiens du plus ancien au plus récent.", "items": [{"id": "item-0", "text": "Vimy"}, {"id": "item-1", "text": "Création des provinces de l’Alberta et de la Saskatchewan"}, {"id": "item-2", "text": "Naufrage de l’Empress of Ireland"}]},
+    "canada-moins-facile-20261010-02": {"prompt": "Classez ces batailles où des Canadiens ont combattu, du plus ancien au plus récent.", "items": [{"id": "item-0", "text": "Débarquement de Dieppe"}, {"id": "item-1", "text": "Défense de Hong Kong pendant la Seconde Guerre mondiale"}, {"id": "item-2", "text": "Débarquement sur Juno Beach en Normandie"}]},
+    "canada-moins-facile-20261010-03": {"prompt": "Classez ces repères de l’histoire du Canada du plus ancien au plus récent.", "items": [{"id": "item-0", "text": "Ouverture de la Voie maritime du Saint-Laurent"}, {"id": "item-1", "text": "Exposition universelle de Montréal (Expo 67)"}, {"id": "item-2", "text": "Entrée de Terre-Neuve dans la Confédération canadienne"}]},
+    "fr-renaissance-chronologie-20261010-01": {"prompt": "Classez du plus ancien au plus récent ces repères du règne de François Ier.", "items": [{"id": "item-0", "text": "Avènement de François Ier au trône"}, {"id": "item-1", "text": "Début de la construction du château de Chambord"}, {"id": "item-2", "text": "Arrivée de Léonard de Vinci à la cour de France"}]},
+    "fr-renaissance-chronologie-20261010-02": {"prompt": "Classez du plus ancien au plus récent ces publications et décisions de la Renaissance française.", "items": [{"id": "item-0", "text": "Publication de Défense et illustration de la langue française par Joachim du Bellay"}, {"id": "item-1", "text": "Promulgation de l’ordonnance de Villers-Cotterêts par François Ier"}, {"id": "item-2", "text": "Publication de Gargantua par François Rabelais"}]},
+    "fr-renaissance-chronologie-20261010-03": {"prompt": "Classez ces événements des guerres de Religion en France du plus ancien au plus récent.", "items": [{"id": "item-0", "text": "Massacre de la Saint-Barthélemy à Paris"}, {"id": "item-1", "text": "Conjuration d’Amboise"}, {"id": "item-2", "text": "Massacre de Wassy"}]},
+    "fr-renaissance-chronologie-20261010-04": {"prompt": "Classez du plus ancien au plus récent ces événements de l’histoire de France.", "items": [{"id": "item-0", "text": "Assassinat du roi Henri III à Saint-Cloud"}, {"id": "item-1", "text": "Signature de l’édit de Nantes par Henri IV"}, {"id": "item-2", "text": "Bataille de Marignan"}]},
+    "lib-qcm-histoire-etats-unis-20261012-02": {"_removeImage": True},
+    "us-societe-crises-et-culture-20261010-01": {"options": ["A — L’Express abolitionniste", "B — Le Chemin de fer clandestin (Underground Railroad)", "C — Le Freedom Trail", "D — La Ligne de la liberté"], "correctOptionIndex": 1},
+    "lib-buzzer-animaux-marins-20261012-04": {"prompt": "Quel grand cétacé prédateur est reconnaissable à son dos noir et à son ventre blanc ?"},
+    "lib-buzzer-chanson-francophone-20261012-04": {"_removeImage": True},
+    "lib-buzzer-dc-20261012-02": {"_removeImage": True},
+    "lib-buzzer-dc-20261012-05": {"_removeImage": True},
+    "lib-buzzer-explorateurs-20261012-02": {"_removeImage": True},
+    "lib-buzzer-histoire-france-generale-20261012-02": {"_removeImage": True},
+    "lib-buzzer-inventions-canada-20261012-01": {"_removeImage": True},
     "monde-xixe-empires-et-industrie-04-20261010": {"prompt": "Quel principe la conférence de Berlin (1884–1885) fixa-t-elle pour revendiquer un territoire en Afrique ?", "options": ["A — Occuper effectivement le territoire", "B — Le découvrir en premier", "C — Obtenir l’accord de tous les royaumes voisins", "D — Y ouvrir un comptoir commercial"], "correctOptionIndex": 0},
     "architecture-qsj-modernes-20261011-02": {"clues": ["Le projet de mon architecte danois remporte un concours international en 1957.", "Je suis construit à Bennelong Point, au bord d’un port australien.", "Mes grandes coques blanches abritent des salles de spectacle.", "Je réunis plusieurs scènes où se produisent des compagnies artistiques résidentes."]},
     "architecture-qsj-antiquite-20261011-03": {"clues": ["Je suis un monument funéraire de la IVe dynastie égyptienne.", "Je suis la seule merveille de l’Antiquité encore largement conservée.", "Deux autres grandes pyramides se dressent à mes côtés.", "Une galerie ascendante mène à la chambre funéraire dite du Roi."]},
@@ -112,6 +132,11 @@ ART_BY_PACKAGE["arts-buzzer-selection-variee-20261012"]["starry-night.jpg"].upda
     credit="Google Arts & Culture via Wikimedia Commons",
     license="Public Domain Mark 1.0",
     licenseUrl="https://creativecommons.org/publicdomain/mark/1.0/")
+
+october_24_revisions = ROOT / "build/question-review-revisions-2026-10-24.json"
+if october_24_revisions.exists():
+    for question_id, patch in json.loads(october_24_revisions.read_text(encoding="utf-8")).items():
+        REVISIONS.setdefault(question_id, {}).update(patch)
 
 def apply(q):
     patch = dict(REVISIONS.get(q.get("id"), {}))
@@ -253,12 +278,22 @@ if csv_path.exists():
         "lib-qsj-litterature-anglaise-20261012-05": "Alice au pays des merveilles (Alice’s Adventures in Wonderland)",
         "cinema-qsj-films-20261011-05": "Pirates des Caraïbes : La Malédiction du Black Pearl (Pirates of the Caribbean: The Curse of the Black Pearl)",
     }
-    option_updates = {"canada-qcm-moderne-20261011-03": REVISIONS["canada-qcm-moderne-20261011-03"]["options"]}
-    correct_answer_updates = {"canada-qcm-moderne-20261011-03": "A — 1921"}
+    option_updates = {
+        "canada-qcm-moderne-20261011-03": REVISIONS["canada-qcm-moderne-20261011-03"]["options"],
+        "us-societe-crises-et-culture-20261010-01": REVISIONS["us-societe-crises-et-culture-20261010-01"]["options"],
+    }
+    correct_answer_updates = {
+        "canada-qcm-moderne-20261011-03": "A — 1921",
+        "us-societe-crises-et-culture-20261010-01": "B — Le Chemin de fer clandestin (Underground Railroad)",
+    }
     category_updates = {"lib-buzzer-devinettes-20261012": PACKAGE_RENAMES["lib-buzzer-devinettes-20261012"][0],
                         "lib-qcm-devinettes-20261012": PACKAGE_RENAMES["lib-qcm-devinettes-20261012"][0]}
     for row in rows:
         qid = row.get("ID question")
+        patch = REVISIONS.get(qid, {})
+        if "options" in patch:
+            row["Choix"] = " | ".join(patch["options"])
+            row["Réponse"] = patch["options"][patch.get("correctOptionIndex", 0)]
         if qid in prompt_updates: row["Question"] = prompt_updates[qid]
         if qid in answer_updates: row["Réponse"] = answer_updates[qid]
         if qid in option_updates:

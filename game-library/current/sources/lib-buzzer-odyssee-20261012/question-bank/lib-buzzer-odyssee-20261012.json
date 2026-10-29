@@ -30,8 +30,7 @@
         "Polyphème",
         "Cyclope"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-odyssee-20261012/one-eye.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-odyssee-20261012-03",
@@ -55,8 +54,7 @@
       "acceptableAnswers": [
         "Circé"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-odyssee-20261012/pig.jpg"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-odyssee-20261012-05",

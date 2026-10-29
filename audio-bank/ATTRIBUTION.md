@@ -1096,3 +1096,13 @@ Speaker:  Natschoba
 Source: https://commons.wikimedia.org/wiki/File:LL-Q188_(deu)-Natschoba-ausgezeichnet.wav
 
 License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+## Classical answer cues
+
+- `classical-answer-good.wav` / `aria-correct.wav` — J.S. Bach, Goldberg Variations, Aria; piano performance by Kimiko Ishizaka. Source recording: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_J.S._Bach-_-Open-_Goldberg_Variations,_BWV_988_(Piano)_-_01_Aria.mp3). CC0 1.0. Shortened to 1.4 seconds, leading silence trimmed, mono, level-matched and faded.
+- `classical-answer-bad-alt.wav` / `variation15-incorrect.wav` — J.S. Bach, Goldberg Variations, Variation 15; piano performance by Kimiko Ishizaka. Source recording: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kimiko_Ishizaka_-_J.S._Bach-_-Open-_Goldberg_Variations,_BWV_988_(Piano)_-_16_Variatio_15_a_1_Clav._Canone_alla_Quinta.mp3). CC0 1.0. Shortened to 3 seconds, mono, level-matched and faded.
+
+For Cast-TV delivery, bundled WAV clips also have matching mono MP3 copies (`*.mp3`) encoded at 44.1 kHz / 128 kbps from the reviewed WAVs. The WAVs remain the archival masters; their credits and licenses apply to the MP3 copies.
+
+## In-round classical music
+
+- `tv/music/anitra-dance.mp3` — 32.2-second Cast-TV delivery excerpt from Edvard Grieg, *Peer Gynt*, Suite No. 1, Op. 46, III. “Anitra’s Dance.” Musopen Symphony Orchestra. Source: [Wikimedia Commons Ogg Vorbis recording](https://commons.wikimedia.org/wiki/File:Grieg,_Peer_Gynt_Suite_No._1,_Op._46_-_III._Anitra%27s_Dance.ogg). CC0 1.0. Transcoded to stereo MP3 at 44.1 kHz / 160 kbps for receiver compatibility; playback timing and fades remain controlled by the receiver.

@@ -40,6 +40,8 @@ internal fun PrivateHostDashboard(game: GameSession, client: GameClient, hasMore
         else -> emptyList()
     }.filterNot { it.equals(answer, ignoreCase=true) }.distinct()
     var showAliases by remember(question?.id) { mutableStateOf(false) }
+    var playNextSound by remember(game.roomId, game.answerSoundsEnabled, game.currentQuestion?.id) { mutableStateOf(false) }
+    var confirmSkipCategory by remember(game.currentCategory) { mutableStateOf(false) }
     val dashboardScroll = rememberScrollState()
     LaunchedEffect(question?.id,game.state) { dashboardScroll.scrollTo(0);if(game.state==GameState.ANSWER_REVIEW) showAliases=false }
     fun send(event: GameEvent) = client.sendEvent(event)
@@ -55,12 +57,18 @@ internal fun PrivateHostDashboard(game: GameSession, client: GameClient, hasMore
     LaunchedEffect(game.state) {
         if (game.state == GameState.CATEGORY_SELECT) send(GameEvent.HostBeginCategorySelect)
     }
-    Row(Modifier.fillMaxSize().padding(top = 64.dp, start = 16.dp, end = 16.dp, bottom = 16.dp),
+    val canSkipCategory=game.currentCategory!=null && game.state in setOf(GameState.CATEGORY_INTRO,GameState.WAGER_OPEN,GameState.QUESTION_ACTIVE,GameState.ANSWER_REVIEW,GameState.REVEAL_ANSWER,GameState.ROUND_SUMMARY,GameState.WAGER_RESULTS)
+    Box(Modifier.fillMaxSize().padding(top = 64.dp, start = 16.dp, end = 16.dp, bottom = 16.dp)) {
+    Row(Modifier.fillMaxSize(),
         horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-        Column(Modifier.fillMaxWidth().fillMaxHeight().verticalScroll(dashboardScroll),
+        Column(Modifier.fillMaxWidth().fillMaxHeight().padding(bottom=if(canSkipCategory) 72.dp else 0.dp).verticalScroll(dashboardScroll),
             verticalArrangement = Arrangement.spacedBy(if(game.state==GameState.ANSWER_REVIEW) 12.dp else 18.dp)) {
             Text("COMMANDES DE L’HÔTE", color = gold, fontWeight = FontWeight.Bold, fontSize = 20.sp)
             Text(game.currentCategory ?: "Salon", color = Color.LightGray, fontSize = 18.sp,lineHeight=24.sp)
+            if (question is Question.GuessWho) Text(
+                if (question.imageRevealMode == com.example.triviaparty.model.ImageRevealMode.NONE) "${question.clues.size} indices au total"
+                else "${question.imageRevealSteps} r\u00e9v\u00e9lations d’image",
+                color = Color.LightGray, fontSize = 16.sp)
             if (question != null && game.state in setOf(GameState.QUESTION_ACTIVE,GameState.ANSWER_REVIEW,GameState.REVEAL_ANSWER,GameState.ROUND_SUMMARY)) {
                 Surface(color=Color(0xFF173E30),shape=RoundedCornerShape(16.dp),modifier=Modifier.fillMaxWidth()) {
                     Column(Modifier.padding(if(game.state==GameState.ANSWER_REVIEW) 12.dp else 18.dp),verticalArrangement=Arrangement.spacedBy(12.dp)) {
@@ -96,15 +104,19 @@ internal fun PrivateHostDashboard(game: GameSession, client: GameClient, hasMore
                     }
                     if(!game.answerTimerRunning && !question.isChronologyQuestion()) Action(if (game.timerPaused) "REPRENDRE" else "PAUSE", true,
                         if (game.timerPaused) GameEvent.HostResumeTimer else GameEvent.HostPauseTimer)
+                    if(question is Question.GuessWho && question.imageRevealMode==com.example.triviaparty.model.ImageRevealMode.NONE) Action(
+                        "INDICE SUIVANT",!game.questionReading && !game.answerTimerRunning && !game.timerPaused && game.currentFlipNumber<game.timingConfig.maxFlips,
+                        GameEvent.HostAdvanceClue,color=Color(0xFF555080))
                 }
                 answering?.let { team ->
                     Surface(color=Color(0xFF253F56),shape=RoundedCornerShape(16.dp),modifier=Modifier.fillMaxWidth()) {
                         Column(Modifier.padding(16.dp),verticalArrangement=Arrangement.spacedBy(14.dp)) {
                             Text("${team.name} répond", color = gold, fontWeight = FontWeight.Bold,fontSize=32.sp,lineHeight=38.sp)
                             Row(horizontalArrangement=Arrangement.spacedBy(12.dp)) {
-                                Action("Bonne réponse",event=GameEvent.HostJudgeTextBuzz(team.id,true),color=Color(0xFF247249),modifier=Modifier.weight(1f))
-                                Action("Mauvaise réponse",event=GameEvent.HostJudgeTextBuzz(team.id,false),color=Color(0xFF9C3636),modifier=Modifier.weight(1f))
+                                Action("Bonne réponse",event=GameEvent.HostJudgeTextBuzz(team.id,true,playNextSound),color=Color(0xFF247249),modifier=Modifier.weight(1f))
+                                Action("Mauvaise réponse",event=GameEvent.HostJudgeTextBuzz(team.id,false,playNextSound),color=Color(0xFF9C3636),modifier=Modifier.weight(1f))
                             }
+                            if(!game.answerSoundsEnabled) Row(verticalAlignment=Alignment.CenterVertically) { Switch(playNextSound,{playNextSound=it});Text("Jouer une réplique aléatoire",color=Color.White) }
                         }
                     }
                 }
@@ -123,9 +135,10 @@ internal fun PrivateHostDashboard(game: GameSession, client: GameClient, hasMore
                             Text(if(validated.isCorrect==true) "Réponse acceptée" else "Réponse refusée",color=if(validated.isCorrect==true) Color(0xFFA6ECC3) else Color(0xFFFFABAB),fontSize=22.sp)
                             Action("CONTINUER",event=GameEvent.HostContinueWrittenReview(submission.questionId))
                         } else Row(horizontalArrangement=Arrangement.spacedBy(10.dp)) {
-                            Action("Accepter",event=GameEvent.HostJudgeWrittenAnswer(submission.teamId,submission.questionId,true),color=Color(0xFF247249),modifier=Modifier.weight(1f))
-                            Action("Refuser",event=GameEvent.HostJudgeWrittenAnswer(submission.teamId,submission.questionId,false),color=Color(0xFF9C3636),modifier=Modifier.weight(1f))
+                            Action("Accepter",event=GameEvent.HostJudgeWrittenAnswer(submission.teamId,submission.questionId,true,playNextSound),color=Color(0xFF247249),modifier=Modifier.weight(1f))
+                            Action("Refuser",event=GameEvent.HostJudgeWrittenAnswer(submission.teamId,submission.questionId,false,playNextSound),color=Color(0xFF9C3636),modifier=Modifier.weight(1f))
                         }
+                        if(validated==null && !game.answerSoundsEnabled) Row(verticalAlignment=Alignment.CenterVertically) { Switch(playNextSound,{playNextSound=it});Text("Jouer une réplique aléatoire",color=Color.White) }
                     }
                 }
                 GameState.LOBBY -> {
@@ -160,9 +173,16 @@ internal fun PrivateHostDashboard(game: GameSession, client: GameClient, hasMore
                 GameState.GAME_ENDED -> Text("Partie terminée", color = gold)
                 else -> Unit
             }
-            if(game.currentCategory!=null && game.state in setOf(GameState.CATEGORY_INTRO,GameState.WAGER_OPEN,GameState.QUESTION_ACTIVE,GameState.ANSWER_REVIEW,GameState.REVEAL_ANSWER,GameState.ROUND_SUMMARY,GameState.WAGER_RESULTS)) {
-                Action("PASSER CETTE CATÉGORIE",event=GameEvent.HostSkipCategory(game.currentCategory),color=Color(0xFF65434B))
-            }
         }
+    }
+    if(canSkipCategory) Button(onClick={confirmSkipCategory=true},colors=ButtonDefaults.buttonColors(containerColor=Color(0xFF65434B),contentColor=Color.White),
+        modifier=Modifier.align(Alignment.BottomCenter).fillMaxWidth().heightIn(min=48.dp),shape=RoundedCornerShape(12.dp)) { Text("PASSER CETTE CATÉGORIE",fontSize=18.sp,fontWeight=FontWeight.SemiBold) }
+    if(confirmSkipCategory && game.currentCategory!=null) AlertDialog(
+        onDismissRequest={confirmSkipCategory=false},
+        title={Text("Passer cette catégorie ?")},
+        text={Text("Les questions restantes de « ${game.currentCategory} » ne seront pas jouées.")},
+        confirmButton={TextButton(onClick={send(GameEvent.HostSkipCategory(game.currentCategory));confirmSkipCategory=false}){Text("Passer")}},
+        dismissButton={TextButton(onClick={confirmSkipCategory=false}){Text("Annuler")}}
+    )
     }
 }

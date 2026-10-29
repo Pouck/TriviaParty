@@ -19,8 +19,7 @@
         "C — Dalida",
         "D — Juliette Gréco"
       ],
-      "correctOptionIndex": 1,
-      "imageUrl": "images/lib-qcm-chanson-francophone-20261012/rose.jpg"
+      "correctOptionIndex": 1
     },
     {
       "id": "lib-qcm-chanson-francophone-20261012-02",
@@ -65,8 +64,7 @@
         "C — La contrebasse",
         "D — L’accordéon"
       ],
-      "correctOptionIndex": 3,
-      "imageUrl": "images/lib-qcm-chanson-francophone-20261012/accordion.jpg"
+      "correctOptionIndex": 3
     },
     {
       "id": "lib-qcm-chanson-francophone-20261012-05",

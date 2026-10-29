@@ -17,7 +17,7 @@
         "Céline Dion"
       ],
       "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-musique-quebec-20261012/ship.png"
+      "conceptId": "lib-buzzer-musique-quebec-20261012-01"
     },
     {
       "id": "lib-buzzer-musique-quebec-20261012-02",
@@ -42,8 +42,7 @@
       "acceptableAnswers": [
         "Les Cowboys Fringants"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-musique-quebec-20261012/cowboy-hat.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-musique-quebec-20261012-04",

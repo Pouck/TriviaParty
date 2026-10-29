@@ -17,7 +17,8 @@
         "La Tarasque",
         "Tarasque"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "lib-buzzer-legendes-france-20261012-01"
     },
     {
       "id": "lib-buzzer-legendes-france-20261012-02",
@@ -49,7 +50,7 @@
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "textAnswer",
-      "prompt": "Quelle créature énigmatique aurait attaqué des habitants du Gévaudan entre 1764 et 1767 ?",
+      "prompt": "Quel nom donne-t-on à l’animal mystérieux tenu pour responsable d’attaques meurtrières dans le sud de la France entre 1764 et 1767 ?",
       "acceptableAnswers": [
         "La Bête du Gévaudan",
         "Bête du Gévaudan"

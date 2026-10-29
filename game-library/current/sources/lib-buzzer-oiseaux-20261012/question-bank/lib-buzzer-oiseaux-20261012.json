@@ -17,8 +17,7 @@
         "L’autruche",
         "Autruche"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-oiseaux-20261012/ostrich.jpg"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-oiseaux-20261012-02",

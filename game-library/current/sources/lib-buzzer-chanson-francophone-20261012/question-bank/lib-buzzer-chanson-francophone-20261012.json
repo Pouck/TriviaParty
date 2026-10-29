@@ -54,8 +54,7 @@
       "acceptableAnswers": [
         "Charles Trenet"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-chanson-francophone-20261012/sea.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-chanson-francophone-20261012-05",

@@ -1,0 +1,88 @@
+{
+  "category": "TEST Qui suis-je ? — Tableaux révélés",
+  "subject": "Arts",
+  "answerMode": "BUZZER",
+  "questionTypes": [
+    "Qui suis-je ?"
+  ],
+  "questions": [
+    {
+      "id": "test-10-tableau-joconde",
+      "category": "TEST Qui suis-je ? — Tableaux révélés",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Quelle œuvre se cache dans l’image ?",
+      "clues": [],
+      "acceptableAnswers": ["La Joconde", "Mona Lisa", "Portrait de Lisa Gherardini"],
+      "imageUrl": "images/joconde.jpg",
+      "imageRevealMode": "PIXELATE",
+      "imageRevealSteps": 7
+    },
+    {
+      "id": "test-10-tableau-cri",
+      "category": "TEST Qui suis-je ? — Tableaux révélés",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Quelle œuvre se cache dans l’image ?",
+      "clues": [],
+      "acceptableAnswers": ["Le Cri", "The Scream", "Skrik"],
+      "imageUrl": "images/cri.jpg",
+      "imageRevealMode": "BLUR",
+      "imageRevealSteps": 7
+    },
+    {
+      "id": "test-10-tableau-nuit-etoilee",
+      "category": "TEST Qui suis-je ? — Tableaux révélés",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Quelle œuvre se cache dans l’image ?",
+      "clues": [],
+      "acceptableAnswers": ["La Nuit étoilée", "La Nuit étoilée de Van Gogh", "The Starry Night"],
+      "imageUrl": "images/nuit.jpg",
+      "imageRevealMode": "SHUFFLE",
+      "imageRevealSteps": 7
+    },
+    {
+      "id": "test-10-tableau-baiser",
+      "category": "TEST Qui suis-je ? — Tableaux révélés",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Quelle œuvre se cache dans l’image ?",
+      "clues": [],
+      "acceptableAnswers": ["Le Baiser", "The Kiss", "Le Baiser de Klimt"],
+      "imageUrl": "images/baiser.jpg",
+      "imageRevealMode": "UNCOVER",
+      "imageRevealSteps": 7
+    },
+    {
+      "id": "test-10-tableau-cene",
+      "category": "TEST Qui suis-je ? — Tableaux révélés",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Quelle œuvre se cache dans l’image ?",
+      "clues": [],
+      "acceptableAnswers": ["La Cène", "The Last Supper", "La Cène de Léonard de Vinci"],
+      "imageUrl": "images/cene.jpg",
+      "imageRevealMode": "PIXELATE",
+      "imageRevealSteps": 7
+    },
+    {
+      "id": "test-10-tableau-impression-soleil-levant",
+      "category": "TEST Qui suis-je ? — Tableaux révélés",
+      "basePoints": 20,
+      "penaltyPoints": 5,
+      "kind": "guessWho",
+      "prompt": "Quelle œuvre se cache dans l’image ?",
+      "clues": [],
+      "acceptableAnswers": ["Impression, soleil levant", "Impression, Sunrise", "Impression au soleil levant"],
+      "imageUrl": "images/impression.jpg",
+      "imageRevealMode": "UNCOVER",
+      "imageRevealSteps": 7
+    }
+  ]
+}

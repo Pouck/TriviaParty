@@ -20,7 +20,7 @@
         "D — Danny Elfman"
       ],
       "correctOptionIndex": 1,
-      "imageUrl": "images/lib-qcm-musique-ecran-20261012/space.png"
+      "conceptId": "cinema-qcm-coulisses-20261011-01"
     },
     {
       "id": "lib-qcm-musique-ecran-20261012-02",
@@ -35,7 +35,8 @@
         "C — Céline Dion",
         "D — Mariah Carey"
       ],
-      "correctOptionIndex": 2
+      "correctOptionIndex": 2,
+      "conceptId": "lib-buzzer-musique-quebec-20261012-01"
     },
     {
       "id": "lib-qcm-musique-ecran-20261012-03",
@@ -65,8 +66,7 @@
         "C — Chicago",
         "D — Mamma Mia!"
       ],
-      "correctOptionIndex": 0,
-      "imageUrl": "images/lib-qcm-musique-ecran-20261012/mask.png"
+      "correctOptionIndex": 0
     },
     {
       "id": "lib-qcm-musique-ecran-20261012-05",

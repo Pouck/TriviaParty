@@ -17,8 +17,7 @@
         "Le Roi lion",
         "The Lion King"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-musique-ecran-20261012/lion.jpg"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-musique-ecran-20261012-02",
@@ -44,8 +43,7 @@
         "La Reine des neiges",
         "Frozen"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-musique-ecran-20261012/snowman.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-musique-ecran-20261012-04",

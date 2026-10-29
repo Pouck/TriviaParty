@@ -70,7 +70,8 @@
         "Louis XIV",
         "Louis 14"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "architecture-buzzer-europe-20261011-04"
     }
   ]
 }

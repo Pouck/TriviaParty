@@ -33,7 +33,17 @@ class AnswerReactionPicker(private val catalogue: List<ReactionClip> = ReactionC
 /** Recorded clips, shared by the local TV page and Cast receiver. */
 object AnswerReactions {
     private val picker=AnswerReactionPicker()
+    private val allowedFiles: Set<String> by lazy {
+        ((1..20).flatMap { listOf("buzzer-%02d.wav".format(it),"success-%02d.wav".format(it)) } +
+            clips("good") + clips("bad") + GameEndingSounds.files +
+            listOf("good.wav","bad.wav","buzzer.wav","enabled.wav","good-ping.wav","bad-ping.wav","game-end.wav",
+                "good-02.mp3","good-26.mp3","bad-04.mp3","bad-14.mp3","aria-correct.wav","variation15-incorrect.wav"))
+            .toSet()
+    }
     fun clips(outcome:String):List<String> = ReactionCatalogue.clips.filter {it.outcome==outcome}.map {it.file}
-    fun isAllowed(file:String?):Boolean = file in (1..20).flatMap { listOf("buzzer-%02d.wav".format(it),"success-%02d.wav".format(it)) } + clips("good")+clips("bad")+GameEndingSounds.files+listOf("good.wav","bad.wav","buzzer.wav","enabled.wav","good-ping.wav","bad-ping.wav","game-end.wav","good-02.mp3","good-26.mp3","bad-04.mp3","bad-14.mp3")
+    fun isAllowed(file:String?):Boolean {
+        if(file==null) return false
+        return file in allowedFiles || (file.endsWith(".mp3") && file.removeSuffix(".mp3") + ".wav" in allowedFiles)
+    }
     fun choose(outcome:String,previous:String?,random:Random=Random.Default):String=picker.choose(outcome,previous,random)
 }

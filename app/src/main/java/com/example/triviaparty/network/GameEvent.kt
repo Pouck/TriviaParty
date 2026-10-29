@@ -11,7 +11,7 @@ sealed class GameEvent {
 
     // --- Client -> Server Events ---
     @Serializable
-    data class JoinRoom(val roomId: String, val teamName: String, val sessionToken: String) : GameEvent()
+    data class JoinRoom(val roomId: String, val teamName: String, val sessionToken: String, val playerName: String = "") : GameEvent()
 
     @Serializable
     data class UpdateDraftAnswer(val teamId: String, val questionId: String, val answer: AnswerValue) : GameEvent()
@@ -19,7 +19,7 @@ sealed class GameEvent {
     @Serializable
     data class LockAnswer(val teamId: String, val questionId: String, val answer: AnswerValue) : GameEvent()
     @Serializable data class PlayerReady(val teamId: String,val questionId: String,val clueIndex: Int) : GameEvent()
-    @Serializable data class HostJudgeWrittenAnswer(val teamId: String,val questionId: String,val correct: Boolean) : GameEvent()
+    @Serializable data class HostJudgeWrittenAnswer(val teamId: String,val questionId: String,val correct: Boolean,val playSound: Boolean = false) : GameEvent()
 
     @Serializable data class HostContinueWrittenReview(val questionId: String) : GameEvent()
 
@@ -31,7 +31,12 @@ sealed class GameEvent {
         val answerTimeSeconds: Int = 10,
         val categoryRules: Map<String, CategoryGameRules> = emptyMap(),
         val voteSettings: com.example.triviaparty.model.VoteSettings? = null,
-        val allAudiencesOnly: Boolean = false
+        val allAudiencesOnly: Boolean = false,
+        val questionsPerPackage: Int = 6,
+        val answerSoundsEnabled: Boolean = true,
+        val teamMode: Boolean = false,
+        val buzzerSoundsEnabled: Boolean = true,
+        val limitQuestionsPerCategory: Boolean = false
     ) : GameEvent()
 
     @Serializable data class HostSkipCategory(val category: String) : GameEvent()
@@ -49,6 +54,7 @@ sealed class GameEvent {
 
     @Serializable
     data class SubmitCategoryWager(val teamId: String, val questionId: String, val amount: Int) : GameEvent()
+    @Serializable data class VoteCategoryWager(val teamId:String,val questionId:String,val proposalId:String,val approve:Boolean):GameEvent()
 
     @Serializable
     data class HostSelectCategory(val category: String) : GameEvent()
@@ -64,12 +70,13 @@ sealed class GameEvent {
 
     @Serializable
     object HostStartQuestionTimer : GameEvent()
+    @Serializable object HostAdvanceClue : GameEvent()
 
     @Serializable
     object HostRevealAnswer : GameEvent()
 
     @Serializable
-    data class HostJudgeTextBuzz(val teamId: String, val correct: Boolean) : GameEvent()
+    data class HostJudgeTextBuzz(val teamId: String, val correct: Boolean,val playSound: Boolean = false) : GameEvent()
 
     @Serializable
     object HostStartTextAnswerTimer : GameEvent()
@@ -99,7 +106,8 @@ sealed class GameEvent {
         val success: Boolean,
         val message: String,
         val teamId: String? = null,
-        val requiresHostApproval: Boolean = false
+        val requiresHostApproval: Boolean = false,
+        val playerId: String? = null
     ) : GameEvent()
 
     @Serializable

@@ -34,8 +34,7 @@
         "C — Un requin",
         "D — Une pieuvre"
       ],
-      "correctOptionIndex": 0,
-      "imageUrl": "images/lib-qcm-litterature-americaine-20261012/whale.jpg"
+      "correctOptionIndex": 0
     },
     {
       "id": "lib-qcm-litterature-americaine-20261012-03",
@@ -65,8 +64,7 @@
         "C — Des récoltes",
         "D — Des tableaux"
       ],
-      "correctOptionIndex": 0,
-      "imageUrl": "images/lib-qcm-litterature-americaine-20261012/book.png"
+      "correctOptionIndex": 0
     },
     {
       "id": "lib-qcm-litterature-americaine-20261012-05",

@@ -5,6 +5,7 @@ plugins {
 }
 
 android {
+    sourceSets.getByName("main").assets.srcDir(rootProject.file("game-library/bank"))
     namespace = "com.example.triviaparty"
     compileSdk {
         version = release(37)

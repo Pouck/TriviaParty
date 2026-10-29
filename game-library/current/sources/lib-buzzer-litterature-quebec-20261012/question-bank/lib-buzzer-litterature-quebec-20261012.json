@@ -16,7 +16,8 @@
       "acceptableAnswers": [
         "Michel Tremblay"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "lib-buzzer-litterature-quebec-20261012-01"
     },
     {
       "id": "lib-buzzer-litterature-quebec-20261012-02",
@@ -42,7 +43,7 @@
         "Nelligan"
       ],
       "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-litterature-quebec-20261012/ship.png"
+      "conceptId": "lib-buzzer-litterature-quebec-20261012-03"
     },
     {
       "id": "lib-buzzer-litterature-quebec-20261012-04",
@@ -55,8 +56,7 @@
         "Félix Leclerc",
         "Leclerc"
       ],
-      "allowFuzzyMatch": true,
-      "imageUrl": "images/lib-buzzer-litterature-quebec-20261012/sunrise.png"
+      "allowFuzzyMatch": true
     },
     {
       "id": "lib-buzzer-litterature-quebec-20261012-05",

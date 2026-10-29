@@ -12,7 +12,7 @@
       "basePoints": 15,
       "penaltyPoints": 0,
       "kind": "textAnswer",
-      "prompt": "Dans le récit oneida, la Femme du Ciel arrive-t-elle du ciel ou de la mer ?",
+      "prompt": "Dans le récit oneida, d’où tombe la femme que des oiseaux portent jusqu’à une tortue ?",
       "acceptableAnswers": [
         "Du ciel",
         "Ciel"
@@ -44,7 +44,8 @@
         "Le corbeau",
         "Corbeau"
       ],
-      "allowFuzzyMatch": true
+      "allowFuzzyMatch": true,
+      "conceptId": "lib-buzzer-recits-autochtones-20261012-03"
     },
     {
       "id": "lib-buzzer-recits-autochtones-20261012-04",
