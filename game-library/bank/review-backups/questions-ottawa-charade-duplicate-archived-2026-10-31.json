@@ -1,0 +1,71 @@
+{
+  "removedQuestion": {
+    "id": "cv-354c48d6502bb8ccd12c",
+    "legacyIds": [
+      "cv-354c48d6502bb8ccd12c"
+    ],
+    "topics": [
+      "Géographie"
+    ],
+    "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+    "answers": [
+      "Ottawa"
+    ],
+    "content": {
+      "imageUrl": "media/354c48d6502bb8ccd12c3585.png",
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "allowFuzzyMatch": false
+    },
+    "presentations": [
+      {
+        "id": "cv-354c48d6502bb8ccd12c",
+        "label": "Réponses écrites",
+        "answerMode": "WRITTEN",
+        "topic": "Géographie",
+        "legacyCategory": "Charades visuelles — Capitales — 2 — Réponses écrites",
+        "legacyPackageId": "charades-visuelles-capitales-2-20261018",
+        "content": {
+          "kind": "textAnswer"
+        }
+      }
+    ],
+    "legacyReviews": [
+      {
+        "questionId": "cv-354c48d6502bb8ccd12c",
+        "category": "Charades visuelles — Capitales — 2 — Réponses écrites",
+        "packageId": "charades-visuelles-capitales-2-20261018",
+        "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+        "rating": 3,
+        "modification": ""
+      }
+    ],
+    "review": {
+      "questionId": "cv-354c48d6502bb8ccd12c",
+      "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+      "rating": 3,
+      "modification": ""
+    },
+    "reviewHistory": [
+      {
+        "questionId": "cv-354c48d6502bb8ccd12c",
+        "legacyIds": [
+          "cv-354c48d6502bb8ccd12c"
+        ],
+        "topics": [
+          "Géographie"
+        ],
+        "prompt": "Quelle capitale se cache dans cette charade visuelle ?",
+        "rating": 3,
+        "modification": ""
+      }
+    ],
+    "subjectIds": [
+      "question-subject-1b61171355f46de6"
+    ]
+  },
+  "retainedQuestionId": "geo-capitales-20261010-06-v2",
+  "retainedImageUrl": "media/7ae5eecb5ab509f7aec6083f.png",
+  "removedImageUrl": "media/354c48d6502bb8ccd12c3585.png",
+  "decision": "Both entries are image-based; retain the Ottawa rebus with the goose and remove the alternate charade image entry."
+}

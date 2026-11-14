@@ -7,43 +7,56 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.viewinterop.AndroidView
+import androidx.mediarouter.app.MediaRouteButton
+import androidx.mediarouter.media.MediaRouteSelector
+import com.example.triviaparty.R
 import com.example.triviaparty.cast.GoogleCastController
+import com.google.android.gms.cast.framework.CastButtonFactory
+import com.google.android.gms.cast.framework.CastContext
 
 @Composable
-fun GoogleCastDeviceList(controller: GoogleCastController, scanning: Boolean) {
-    val devices by controller.devices.collectAsState()
-    val status by controller.status.collectAsState()
+fun GoogleCastButton(modifier: Modifier = Modifier) {
+    AndroidView(
+        factory = { viewContext ->
+            val activity = viewContext.findFragmentActivity()
+            MediaRouteButton(activity).also { button ->
+                CastButtonFactory.setUpMediaRouteButton(viewContext.applicationContext, button)
+                try {
+                    CastContext.getSharedInstance(activity).mergedSelector?.let {
+                        button.routeSelector = it
+                    }
+                } catch (_: Exception) {}
+                button.contentDescription = "Choisir un téléviseur Cast"
+            }
+        },
+        modifier = modifier
+    )
+}
 
-    Text(status.message, style = MaterialTheme.typography.titleMedium)
+private fun android.content.Context.findFragmentActivity(): androidx.fragment.app.FragmentActivity = when (this) {
+    is androidx.fragment.app.FragmentActivity -> this
+    is android.content.ContextWrapper -> baseContext.findFragmentActivity()
+    else -> error("Cast button requires a FragmentActivity context")
+}
+
+@Composable
+fun GoogleCastDeviceStatus(controller: GoogleCastController) {
+    val status by controller.status.collectAsState()
+    Text(
+        if (status.connected) status.message else "Aucun téléviseur connecté. Utilisez le bouton Cast pour choisir votre téléviseur.",
+        style = MaterialTheme.typography.bodyMedium
+    )
     status.error?.let {
         Text(it, color = MaterialTheme.colorScheme.error)
     }
     if (status.connecting) {
         LinearProgressIndicator(modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp))
     }
-    if (status.connected || status.connecting) {
+    if (status.connected) {
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            if (status.connected) {
-                TextButton(onClick = controller::resend) { Text("Resend game") }
-            }
-            TextButton(onClick = controller::stopCasting) {
-                Text(if (status.connected) "Stop casting" else "Cancel")
-            }
-        }
-    } else {
-        if (devices.isEmpty()) {
-            Text(if (scanning) "Looking for TVs on your Wi-Fi…" else
-                "No compatible TVs found yet. Check your TV is on the same Wi-Fi and retry discovery.")
-        }
-        devices.forEach { device ->
-            OutlinedButton(
-                onClick = { controller.connect(device.id) },
-                modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
-                contentPadding = PaddingValues(16.dp)
-            ) {
-                Text(device.name, modifier = Modifier.weight(1f))
-                Text("Cast")
-            }
+            TextButton(onClick = controller::resend) { Text("Resend game") }
+            TextButton(onClick = controller::stopCasting) { Text("Stop casting") }
         }
     }
 }

@@ -2,11 +2,13 @@
 
 ## Registered Google Cast test receiver
 
-The unpublished receiver application ID is `6CA3BAF3` (configured in `gradle.properties`). The registered Vizio P55-F1 loads `http://192.168.86.47:8080/tv/cast` from the Pixel host. Start a host session before tapping **TV** and selecting the television. Keep the Pixel and TV on the same network. This URL must be updated in the Cast console if the Pixel's Wi-Fi address changes.
+**Deprecated temporary setup — do not use for normal casting.** The phone build still references receiver ID `6CA3BAF3` in `gradle.properties`. Its registered URL was temporarily served through Tailscale Funnel and a computer-side relay; this is not a viable daily setup and the latest TV attempt showed Google's “Something went wrong” page. The registered URL must be replaced with a durable HTTPS host before asking the user to retry. Android sender package details are `com.example.triviaparty`. The second app ID `DFCF5F96` remains unpublished and unused. The Vizio Cast serial `LTMWXHKU4252953` was marked `Ready For Testing`. Launch failures were logged as sender status 2472 for `6CA3BAF3` and 2474 for `DFCF5F96`; neither code has been mapped to an authoritative cause.
+
+Legacy implementation details only: `build/cast-receiver-relay.mjs` served the receiver through Tailscale Funnel on port 18081 and forwarded selected phone media requests. It required the computer and relay to stay online, so it is retired and must not be used as the daily Cast setup. The receiver now keeps allowed phone-LAN media URLs direct; see the active work in `SESSION-HANDOFF.md`.
 
 The receiver receives public `TvState` snapshots, not the host screen. Once the dedicated Cast connection is active, **RÉPONSE** on the host opens the expected oral answer privately. The regular good/wrong answer controls remain on the Pixel. Do not enable screen mirroring for this workflow.
 
-The local Cast receiver route and sender controls are implemented and built; physical receiver launch still requires testing on the registered television. Public HTTPS hosting and publishing have not been performed.
+The latest debug APK, including HTTPS media handling, was rebuilt and installed on the Pixel. The public HTTPS receiver page returns HTTP 200; the unrelated `/play` route returns 404 through the relay. Physical launch on the Vizio after publication remains to be verified. Casting uses the TV's Cast system; a TV browser is not required.
 
 Trivia Party serves its TV display from the host phone over the same local Wi-Fi network as the game. The host app starts the web server on port 8080; it does not upload game state or the display page to an external site.
 

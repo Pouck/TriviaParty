@@ -171,10 +171,26 @@ main.image-question #answering { display: none; }
 /* Category ballot keeps every subject visible on the television. */
 .subject-vote-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; width:100%; }
 .subject-vote-card { padding:14px; border-radius:12px; background:#26394f; color:#fff; font-size:clamp(18px,1.5vw,30px); text-align:center; }
-/* Transient result floats over the fixed question panel without moving content. */
-#answer-feedback { position:absolute; inset:0; z-index:40; display:none; align-items:center; justify-content:center; pointer-events:none; font-family:Arial,sans-serif; font-size:clamp(160px,26vh,340px); font-weight:900; line-height:1; text-shadow:0 6px 22px #000; background:rgba(10,14,24,.25); border-radius:inherit; }
-#answer-feedback.good { color:#37f38b; }
-#answer-feedback.bad { color:#ff4f5d; }
+/* Transient result flashes the question panel with a subtle tint. */
+#answer-feedback { position:absolute; inset:0; top:0; right:0; bottom:0; left:0; z-index:40; display:none; align-items:center; justify-content:center; pointer-events:none; border-radius:inherit; opacity:0; }
+#answer-feedback.good {
+  background: radial-gradient(ellipse at center, rgba(38, 195, 100, 0.22) 0%, rgba(20, 110, 55, 0.35) 100%);
+  box-shadow: inset 0 0 60px rgba(46, 204, 113, 0.45);
+  border: 2px solid rgba(46, 204, 113, 0.5);
+  animation: feedback-panel-flash 2.2s ease-out forwards;
+}
+#answer-feedback.bad {
+  background: radial-gradient(ellipse at center, rgba(235, 60, 65, 0.22) 0%, rgba(140, 25, 30, 0.35) 100%);
+  box-shadow: inset 0 0 60px rgba(231, 76, 60, 0.45);
+  border: 2px solid rgba(231, 76, 60, 0.5);
+  animation: feedback-panel-flash 2.2s ease-out forwards;
+}
+@keyframes feedback-panel-flash {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  70% { opacity: 0.85; }
+  100% { opacity: 0; }
+}
 #tv-audio-control { display:none; position:fixed; z-index:60; bottom:18px; left:20px; padding:12px 20px; border:1px solid #5eaade; border-radius:10px; background:#183b53; color:white; font:600 22px Arial,sans-serif; cursor:pointer; }
 #scores .team span { font-size:clamp(26px,1.75vw,38px);font-weight:700;line-height:1.15; }
 #scores .answering-team span { font-size:clamp(34px,2.2vw,48px);transform:none; }
@@ -196,36 +212,15 @@ main.image-question #answering { display: none; }
 .category-intro-scene .category-types { color:#e0f4ff; }
 .category-intro-scene .category-mode { padding:1.5vh 2vw; border-radius:14px; background:#ffffff24; color:#fff3b0; font-weight:700; }
 .wager-open-scene .wager-instructions { font-size:3.2vw; font-weight:700; line-height:1.5; white-space:pre-line; margin:3vh 0 0; text-wrap:balance; }
-.winner-line { font-size:4.8vw; line-height:1.15; text-wrap:balance; margin:3vh 0 4vh; overflow-wrap:anywhere; }
-/* Transparent painted feedback assets preserve natural bristle texture. */
-#answer-feedback .brush-mark { display:block; width:min(40vw,62vh); height:min(40vw,62vh); background:center/contain no-repeat; filter:drop-shadow(0 8px 12px #0009); }
-
-
-.category-title-line { display:block; text-wrap:balance; }
-.category-title-line + .category-title-line { margin-top:1vh; font-size:.78em; color:#fff; }
-.category-intro-scene h1, .wager-open-scene h1 { font-size:3.9vw; max-width:100%; flex-shrink:0; }
-.category-intro-scene, .wager-open-scene { gap:2vh; }
-.winner-line { font-size:5.5vw; line-height:1.15; margin:6vh 0 7vh; }
-
-/* Trace each painted stroke in sequence; retain the full mark until cue expiry. */
-
-.brush-mark > svg { position:absolute; }
-.paint-stroke { stroke-dasharray:1; stroke-dashoffset:1; animation:paint-stroke .30s linear forwards; }
-.paint-stroke.stroke-1 { animation-delay:.30s; }
-#answer-feedback.good .paint-stroke.stroke-0 { animation-duration:.22s; }
-#answer-feedback.good .paint-stroke.stroke-1 { animation-delay:.22s; animation-duration:.38s; }
-@keyframes paint-stroke { to { stroke-dashoffset:0; } }
-@media (prefers-reduced-motion:reduce) { .paint-stroke { animation:none; stroke-dashoffset:0; } }
-
-/* Separate paint layers prevent the first diagonal from revealing the other. */
-
-
-
-
-/* Cast receivers may not support inset, min(), clamp(), or HTML fragment masks. */
+.winner-line { font-size:4.8vw; line-height:1.15; text-wrap:balance; margin:3vh 0 4vh; overflow-wrap:anywhere; animation: winner-reveal 1.2s ease-out 2.2s both; }
+.final-podium { animation: winner-reveal 1.2s ease-out 2.7s both; }
+.final-title { animation: winner-reveal 1.2s ease-out 1.8s both; }
+@keyframes winner-reveal {
+  0% { opacity: 0; transform: translateY(16px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+/* Panel flash replaces the heavy painted checkmark / X icon. */
+#answer-feedback .brush-mark { display:none; }
 #answer-overlay { top:1.5vh; right:1.3vw; bottom:12vh; left:1.3vw; text-align:center; }
 #answer-overlay > * { flex-shrink:0; align-self:center; }
 .selected-player-name { font-size:4.2vw; }
-#answer-feedback { top:0; right:0; bottom:0; left:0; }
-#answer-feedback .brush-mark { position:relative; width:40vw; height:40vw; max-width:62vh; max-height:62vh; background:none; -webkit-mask:none; mask:none; }
-#answer-feedback .brush-mark > svg { position:absolute; top:0; left:0; width:100%; height:100%; overflow:visible; }

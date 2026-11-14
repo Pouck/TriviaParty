@@ -1,4 +1,38 @@
-# CURRENT SESSION HANDOFF — 2026-10-29 (Trivia Party TV audio / image reveal)
+# CURRENT SESSION HANDOFF — 2026-10-31 (Trivia Party Chromecast launch failure)
+
+Workspace: `C:\Users\pierr\AndroidStudioProjects\TriviaParty`
+
+## Active task: replace temporary Cast receiver hosting with a viable setup
+
+- User reports the latest cast attempt still leaves the TV showing Google's **“Something went wrong”** page. The user's most recent correction: **Tailscale was already agreed to be non-viable; do not return to relying on Tailscale/Funnel or a computer-side relay.** User expects normal casting to work from the phone without Android Studio or a computer acting as infrastructure.
+- I acknowledged that I had backslid to the Tailscale relay and committed to investigate a durable receiver host independent of Tailscale. Do not ask the user to retry casting until there is a concrete change.
+- Important platform constraint to verify/communicate: a custom Google Cast Web Receiver is loaded by the TV from the receiver URL registered to the Cast app ID. The sender APK and the Cast receiver page have separate delivery paths. Current receiver code sends game state over Cast messages, but receiver page/assets are not in the APK served directly to the TV. A static HTTPS host may be required; daily use can still be phone-only if that static host is independently deployed and media/data delivery is addressed. Do not claim the system is self-contained until tested.
+- `gradle.properties` configures `castReceiverApplicationId=6CA3BAF3`.
+- `cast-receiver/README.md` currently says this ID is Published/unlisted, but explicitly ties its receiver URL to a Tailscale Funnel hostname and describes keeping the computer/local relay running. This is only temporary setup and is not acceptable as the final architecture. README should be corrected once the permanent hosting decision is implemented.
+- Another app ID `DFCF5F96` is unpublished and unused. Sender package is `com.example.triviaparty`. Registered device serial recorded in notes: Vizio Cast serial `LTMWXHKU4252953`, Console Ready for Testing.
+- Cast launch logs on Pixel: `launchApplicationWithOptions` for `6CA3BAF3`, then `onApplicationConnectionFailed` with sender status `2472` ~0.8 seconds later. No app crash. Status code not mapped to an authoritative cause.
+- Temporary Tailscale URL previously used: `https://desktop-pierre.tail0f0cb5.ts.net`, Funnel to loopback `127.0.0.1:18081`, with local relay forwarding selected phone media URLs from `http://192.168.2.13:8080`. Receiver assets returned HTTP 200, but Cast still failed with 2472. This is evidence that merely making this relay reachable did not fix the issue.
+- Current browser UI was on Tailscale Machines, not Google Cast Console. Do not conflate that with the user authorizing Tailscale as the solution.
+- Potential next investigation: inspect Cast Console's exact Web Receiver URL and deployment/registration settings, then choose durable public HTTPS hosting (e.g. repo-backed static hosting or an already configured hosting project) and point the same published app ID there. Assess whether the repo's private GitHub remote can support the desired hosting and what credentials/host configuration exist. Do not push unrelated existing workspace modifications while deploying; the working tree contains extensive outstanding app and question-bank edits.
+- Preserve user's preference to drive this task without repeatedly asking for authorizations or sending them through Android Studio. No permission is needed for read-only diagnosis or local implementation. Before any public deployment, make the concrete URL/configuration reviewable and follow applicable service/credential constraints.
+
+### 2026-10-31 continuation
+
+- Google Cast's official registration guide confirms that a published Custom Web Receiver URL must use HTTPS, while resources loaded by the receiver may use HTTP. This makes a static HTTPS receiver plus direct LAN media from the phone a plausible computer-free design. Source: https://developers.google.com/cast/docs/registration.
+- Updated `app/src/main/assets/tv/receiver.js` so receiver image URLs retain the phone's LAN HTTP origin and receiver audio uses the `joinUrl` origin. This removes the receiver-side dependency on an HTTPS relay for game media. This is an implementation hypothesis only; it has not been built or tested on the Vizio. Do not ask the user to retry yet.
+- The registered Cast Console URL and publishing settings remain unverified. Read-only browser inspection could not start because the computer-use approval timed out. No Firebase, GitHub CLI, or Wrangler deployment tool/configuration was found, and a read-only `git ls-remote` attempt failed at DNS/network startup. Do not assume a hosting account, repo visibility, or Pages entitlement.
+- `cast-receiver/README.md` now marks the Tailscale/Funnel setup as deprecated and says a durable HTTPS URL must be configured before retrying. No public deployment, Cast Console edit, build, device install, or test was performed.
+- Next: get the exact current receiver URL/plan access and select a host that can publish only the receiver bundle (never the full private game library). Then review the resulting URL and static asset list, update the Cast Console registration for `6CA3BAF3`, build/install the sender as needed, and physically verify launch plus direct phone media. Preserve unrelated working-tree changes; don't deploy/push the whole repository.
+
+## Current workspace changes / relevant files
+
+- Modified Cast files include `app/src/main/assets/tv/receiver.js`, `app/src/main/java/com/example/triviaparty/MainActivity.kt`, `app/src/main/java/com/example/triviaparty/cast/GoogleCastController.kt`, `app/src/main/java/com/example/triviaparty/ui/cast/GoogleCastDeviceList.kt`, `app/src/main/res/values/themes.xml`, `gradle/libs.versions.toml`, and `cast-receiver/README.md`.
+- Other modified/untracked files are from ongoing question-bank cleanup and reviews. Do not revert or include those in a Cast-only commit/deployment.
+- Project Git remote: `https://github.com/Pouck/TriviaParty.git`.
+- ADB device noted in prior workflow: Pixel 7 Pro, serial `adb-2B021FDH300B81-JSzzEA._adb-tls-connect._tcp`; Android package `com.example.triviaparty`.
+- The 2026-10-31 continuation changed `app/src/main/assets/tv/receiver.js` to try direct phone-LAN image/audio delivery. This remains unverified on-device. An older attempt to start a logging copy of the relay found port 18081 occupied; do not assume that second process started. Avoid restarting Funnel or asking the user to use the relay.
+
+## Previous session handoff — 2026-10-29 (Trivia Party TV audio / image reveal)
 
 Workspace: `C:\Users\pierr\AndroidStudioProjects\TriviaParty`
 

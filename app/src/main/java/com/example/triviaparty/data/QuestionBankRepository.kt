@@ -3,6 +3,7 @@ package com.example.triviaparty.data
 import com.example.triviaparty.model.Question
 import com.example.triviaparty.model.CategoryQuestionFile
 import kotlinx.serialization.json.Json
+import java.util.UUID
 import kotlin.random.Random
 
 object QuestionBankRepository {
@@ -139,19 +140,6 @@ object QuestionBankRepository {
         ),
 
         // --- Pop Culture ---
-        Question.Ordering(
-            id = "q4",
-            category = "Pop Culture",
-            prompt = "Order these iconic gaming consoles chronologically by release date (oldest to newest):",
-            basePoints = 150,
-            items = listOf(
-                Question.OrderItem(id = "item_ps2", text = "PlayStation 2"),
-                Question.OrderItem(id = "item_n64", text = "Nintendo 64"),
-                Question.OrderItem(id = "item_xbox360", text = "Xbox 360"),
-                Question.OrderItem(id = "item_switch", text = "Nintendo Switch")
-            ),
-            correctOrderIds = listOf("item_n64", "item_ps2", "item_xbox360", "item_switch")
-        ),
         Question.MultipleChoice(
             id = "q13",
             category = "Pop Culture",
@@ -274,19 +262,6 @@ object QuestionBankRepository {
             options = listOf("Apollo", "Athena", "Artemis", "Asteria"),
             correctOptionIndex = 1
         ),
-        Question.Ordering(
-            id = "q24",
-            category = "Video Game Maps",
-            prompt = "Order these famous video game worlds by their release year (oldest to newest):",
-            basePoints = 150,
-            items = listOf(
-                Question.OrderItem(id = "map_kanto", text = "Kanto (Pokémon Red/Blue)"),
-                Question.OrderItem(id = "map_sanandreas", text = "San Andreas (GTA)"),
-                Question.OrderItem(id = "map_skyrim", text = "Skyrim (The Elder Scrolls V)"),
-                Question.OrderItem(id = "map_elden", text = "The Lands Between (Elden Ring)")
-            ),
-            correctOrderIds = listOf("map_kanto", "map_sanandreas", "map_skyrim", "map_elden")
-        ),
         Question.Wager(
             id = "q25",
             category = "Video Game Maps",
@@ -310,6 +285,87 @@ object QuestionBankRepository {
 
     fun getCategoryPackage(category: String): CategoryQuestionFile? =
         generatedMetadata[category.lowercase()] ?: categoryMetadata[category.lowercase()]
+
+    /**
+     * Builds chronology questions from distinct canonical subjects sharing a
+     * tag branch and an explicitly comparable date context. Circa dates and
+     * overlapping date ranges are excluded because they cannot be ordered
+     * reliably against one another.
+     */
+    fun generateChronologyQuestions(
+        tagId: String,
+        contextId: String,
+        category: String,
+        questionCount: Int,
+        itemsPerQuestion: Int = 3,
+        random: Random = Random.Default,
+        prompt: String? = null
+    ): List<Question.Ordering> {
+        if (questionCount <= 0 || itemsPerQuestion !in 2..8) return emptyList()
+        val bank = canonicalBank ?: return emptyList()
+        val taxonomy = bank.taxonomy.associateBy { it.id }
+        if (tagId !in taxonomy) return emptyList()
+        val includedTags = mutableSetOf(tagId)
+        var grew: Boolean
+        do {
+            grew = false
+            bank.taxonomy.forEach { tag ->
+                if (tag.parentId in includedTags && includedTags.add(tag.id)) grew = true
+            }
+        } while (grew)
+
+        data class DatedSubject(val subject: BankSubject, val fact: BankChronologyFact)
+        val candidates = bank.subjects.mapNotNull { subject ->
+            if (subject.identityStatus != "verified" || subject.tagIds.none(includedTags::contains)) return@mapNotNull null
+            val fact = subject.chronologyFacts.singleOrNull { it.contextId == contextId } ?: return@mapNotNull null
+            if (fact.precision == "circa-year") return@mapNotNull null
+            DatedSubject(subject, fact)
+        }.distinctBy { it.subject.id }
+
+        fun comparable(group: List<DatedSubject>): Boolean = group.indices.all { left ->
+            (left + 1 until group.size).all { right ->
+                val a = group[left].fact
+                val b = group[right].fact
+                a.latestYear < b.earliestYear || b.latestYear < a.earliestYear
+            }
+        }
+
+        if (candidates.size < itemsPerQuestion) return emptyList()
+        val resolvedPrompt = prompt ?: when (contextId) {
+            "comics.first_appearance" -> "Classez ces séries de bande dessinée selon leur première apparition, de la plus ancienne à la plus récente."
+            "artwork.creation" -> "Classez ces œuvres selon leur date de création, de la plus ancienne à la plus récente."
+            else -> "Classez ces sujets selon leur chronologie, du plus ancien au plus récent."
+        }
+        val combinations = LinkedHashMap<String, List<DatedSubject>>()
+        val maxAttempts = (questionCount * 100).coerceAtLeast(500)
+        var attempts = 0
+        while (combinations.size < questionCount && attempts < maxAttempts) {
+            attempts++
+            val combination = candidates.shuffled(random).take(itemsPerQuestion)
+            if (comparable(combination)) {
+                val key = combination.map { it.subject.id }.sorted().joinToString("|")
+                combinations.putIfAbsent(key, combination)
+            }
+        }
+
+        return combinations.values.map { combination ->
+            val chronological = combination.sortedBy { it.fact.earliestYear }
+            val itemIds = chronological.indices.map { "chronology-$it" }
+            val correctBySubject = chronological.mapIndexed { index, value -> value.subject.id to itemIds[index] }.toMap()
+            val displayItems = chronological.mapIndexed { index, value ->
+                Question.OrderItem(id = itemIds[index], text = value.subject.label)
+            }.shuffled(random)
+            Question.Ordering(
+                id = "dynamic-chronology-${UUID.randomUUID()}",
+                category = category,
+                prompt = resolvedPrompt,
+                basePoints = 15,
+                penaltyPoints = 0,
+                items = displayItems,
+                correctOrderIds = chronological.mapIndexed { index, _ -> correctBySubject.getValue(chronological[index].subject.id) }
+            )
+        }
+    }
 
     fun resetGeneratedPackages() {
         generatedMetadata = emptyMap()

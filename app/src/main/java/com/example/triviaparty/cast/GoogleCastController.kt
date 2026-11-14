@@ -1,11 +1,9 @@
 package com.example.triviaparty.cast
 
 import android.content.Context
-import androidx.mediarouter.media.MediaRouter
 import com.example.triviaparty.R
 import com.example.triviaparty.model.GameSession
 import com.google.android.gms.cast.Cast
-import com.google.android.gms.cast.CastDevice
 import com.google.android.gms.cast.framework.CastContext
 import com.google.android.gms.cast.framework.CastSession
 import com.google.android.gms.cast.framework.SessionManagerListener
@@ -19,7 +17,6 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import org.json.JSONObject
 
-data class CastTv(val id: String, val name: String)
 data class CastStatus(
     val message: String = "Choose a TV to start casting",
     val error: String? = null,
@@ -33,26 +30,16 @@ class GoogleCastController(context: Context, private val game: StateFlow<GameSes
     private val appContext = context.applicationContext
     val configured = appContext.getString(R.string.cast_receiver_application_id).isNotBlank()
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
-    private val _devices = MutableStateFlow<List<CastTv>>(emptyList())
-    val devices = _devices.asStateFlow()
     private val _status = MutableStateFlow(CastStatus())
     val status = _status.asStateFlow()
     private var castContext: CastContext? = null
-    private var router: MediaRouter? = null
     private var session: CastSession? = null
-    private var discovering = false
     private var started = false
     private var generation = 0
     private var sending = false
     private var pending: String? = null
     private var reviewPreview: GameSession? = null
     private var latest = TvState.from(game.value).encode()
-
-    private val routeCallback = object : MediaRouter.Callback() {
-        override fun onRouteAdded(router: MediaRouter, route: MediaRouter.RouteInfo) = refreshDevices()
-        override fun onRouteRemoved(router: MediaRouter, route: MediaRouter.RouteInfo) = refreshDevices()
-        override fun onRouteChanged(router: MediaRouter, route: MediaRouter.RouteInfo) = refreshDevices()
-    }
 
     private val sessionListener = object : SessionManagerListener<CastSession> {
         override fun onSessionStarting(session: CastSession) {
@@ -84,7 +71,6 @@ class GoogleCastController(context: Context, private val game: StateFlow<GameSes
         try {
             val sdk = CastContext.getSharedInstance(appContext)
             castContext = sdk
-            router = MediaRouter.getInstance(appContext)
             sdk.sessionManager.addSessionManagerListener(sessionListener, CastSession::class.java)
             started = true
             sdk.sessionManager.currentCastSession?.takeIf { it.isConnected }?.let(::attach)
@@ -112,53 +98,10 @@ class GoogleCastController(context: Context, private val game: StateFlow<GameSes
         sendLatest()
     }
 
-    fun startDiscovery() {
-        start()
-        val sdk = castContext ?: return
-        val selector = sdk.mergedSelector ?: return
-        if (!started || discovering) return
-        try {
-            router?.addCallback(selector, routeCallback, MediaRouter.CALLBACK_FLAG_REQUEST_DISCOVERY)
-            discovering = true
-            _status.value = _status.value.copy(error = null)
-            refreshDevices()
-        } catch (e: Exception) {
-            _status.value = _status.value.copy(error = "Could not discover TVs. Check Nearby devices permission and Wi-Fi.")
-        }
-    }
-
-    fun stopDiscovery() {
-        router?.removeCallback(routeCallback)
-        discovering = false
-    }
-
     /** Reattach to the Cast session when Android returns this sender app to the foreground. */
     fun onAppResumed() {
         val activeSession = castContext?.sessionManager?.currentCastSession ?: return
         if (activeSession.isConnected && session !== activeSession) attach(activeSession)
-    }
-
-    private fun refreshDevices() {
-        val selector = castContext?.mergedSelector ?: return
-        _devices.value = router?.routes.orEmpty().filter { route ->
-            route.isEnabled && !route.isDefault && route.matchesSelector(selector) &&
-                CastDevice.getFromBundle(route.extras)?.hasCapability(CastDevice.CAPABILITY_VIDEO_OUT) == true
-        }.map { CastTv(it.id, it.name) }.distinctBy { it.id }
-    }
-
-    fun connect(id: String) {
-        if (_status.value.connecting) return
-        val route = router?.routes?.find { it.id == id && it.isEnabled }
-        if (route == null) {
-            _status.value = _status.value.copy(error = "This TV is no longer available. Retry discovery.")
-            return
-        }
-        try {
-            _status.value = CastStatus("Connecting to ${route.name}…", connecting = true)
-            router?.selectRoute(route)
-        } catch (e: Exception) {
-            connectionFailed(null)
-        }
     }
 
     private fun attach(connectedSession: CastSession) {
@@ -262,7 +205,6 @@ class GoogleCastController(context: Context, private val game: StateFlow<GameSes
     }
 
     fun close() {
-        stopDiscovery()
         detach()
         castContext?.sessionManager?.removeSessionManagerListener(sessionListener, CastSession::class.java)
         scope.cancel()

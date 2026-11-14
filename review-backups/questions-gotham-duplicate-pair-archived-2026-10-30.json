@@ -1,0 +1,180 @@
+{
+  "description": "Full source records for the duplicate Gotham question pair merged into one question while retaining both presentations.",
+  "canonicalQuestionBeforeMerge": {
+    "id": "cinema-buzzer-univers-20261011-01",
+    "legacyIds": [
+      "cinema-buzzer-univers-20261011-01"
+    ],
+    "topics": [
+      "Cinéma"
+    ],
+    "prompt": "Dans quelle ville fictive Batman combat-il le crime ?",
+    "answers": [
+      "Gotham",
+      "Gotham City"
+    ],
+    "content": {
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "allowFuzzyMatch": true
+    },
+    "presentations": [
+      {
+        "id": "cinema-buzzer-univers-20261011-01",
+        "label": "Réponses écrites",
+        "answerMode": "WRITTEN",
+        "topic": "Cinéma",
+        "legacyCategory": "Cinéma — Univers et animation — Rapide — Réponses écrites",
+        "legacyPackageId": "cinema-buzzer-univers-20261011",
+        "content": {
+          "kind": "textAnswer"
+        }
+      }
+    ],
+    "legacyReviews": [
+      {
+        "questionId": "cinema-buzzer-univers-20261011-01",
+        "category": "Cinéma — Univers et animation — Rapide — Réponses écrites",
+        "packageId": "cinema-buzzer-univers-20261011",
+        "prompt": "Dans quelle ville fictive Batman combat-il le crime ?",
+        "rating": 3,
+        "modification": ""
+      }
+    ],
+    "review": {
+      "questionId": "cinema-buzzer-univers-20261011-01",
+      "prompt": "Dans quelle ville fictive Batman combat-il le crime ?",
+      "rating": 3,
+      "modification": ""
+    },
+    "reviewHistory": [
+      {
+        "questionId": "cinema-buzzer-univers-20261011-01",
+        "legacyIds": [
+          "cinema-buzzer-univers-20261011-01"
+        ],
+        "topics": [
+          "Cinéma"
+        ],
+        "prompt": "Dans quelle ville fictive Batman combat-il le crime ?",
+        "rating": 3,
+        "modification": ""
+      }
+    ],
+    "subjectIds": [
+      "question-subject-1d7789a4189bb3e6"
+    ]
+  },
+  "duplicateQuestionBeforeMerge": {
+    "id": "lib-qcm-dc-20261012-05",
+    "legacyIds": [
+      "lib-qcm-dc-20261012-05"
+    ],
+    "topics": [
+      "Super-héros"
+    ],
+    "prompt": "Dans quelle ville Batman combat-il le crime ?",
+    "answers": [
+      "Gotham City"
+    ],
+    "content": {
+      "basePoints": 15,
+      "penaltyPoints": 0,
+      "options": [
+        "A — Gotham City",
+        "B — Metropolis",
+        "C — Central City",
+        "D — Star City"
+      ],
+      "correctOptionIndex": 0
+    },
+    "presentations": [
+      {
+        "id": "lib-qcm-dc-20261012-05",
+        "label": "Choix multiples",
+        "answerMode": "SIMULTANEOUS",
+        "topic": "Super-héros",
+        "legacyCategory": "DC — Héros et univers — QCM",
+        "legacyPackageId": "lib-qcm-dc-20261012",
+        "content": {
+          "kind": "multipleChoice"
+        }
+      }
+    ],
+    "legacyReviews": [
+      {
+        "questionId": "lib-qcm-dc-20261012-05",
+        "category": "DC — Héros et univers — QCM",
+        "packageId": "lib-qcm-dc-20261012",
+        "prompt": "Dans quelle ville Batman combat-il le crime ?",
+        "rating": 3,
+        "modification": ""
+      }
+    ],
+    "review": {
+      "questionId": "lib-qcm-dc-20261012-05",
+      "prompt": "Dans quelle ville Batman combat-il le crime ?",
+      "rating": 3,
+      "modification": ""
+    },
+    "reviewHistory": [
+      {
+        "questionId": "lib-qcm-dc-20261012-05",
+        "legacyIds": [
+          "lib-qcm-dc-20261012-05"
+        ],
+        "topics": [
+          "Super-héros"
+        ],
+        "prompt": "Dans quelle ville Batman combat-il le crime ?",
+        "rating": 3,
+        "modification": ""
+      }
+    ],
+    "subjectIds": [
+      "question-subject-0332dc7943a8cb36"
+    ]
+  },
+  "sourceSubjectBeforeMerge": {
+    "id": "question-subject-1d7789a4189bb3e6",
+    "type": "question-anchor",
+    "label": "Gotham",
+    "aliases": [
+      "Gotham",
+      "Gotham City"
+    ],
+    "tagIds": [
+      "cinema"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [
+      "cinema-buzzer-univers-20261011-01"
+    ],
+    "identityStatus": "question-scoped",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  "targetSubjectBeforeMerge": {
+    "id": "question-subject-0332dc7943a8cb36",
+    "type": "question-anchor",
+    "label": "Gotham City",
+    "aliases": [
+      "Gotham City"
+    ],
+    "tagIds": [
+      "culture",
+      "culture.superheroes"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [
+      "lib-qcm-dc-20261012-05"
+    ],
+    "identityStatus": "question-scoped",
+    "sources": [],
+    "candidateSubjectIds": []
+  }
+}

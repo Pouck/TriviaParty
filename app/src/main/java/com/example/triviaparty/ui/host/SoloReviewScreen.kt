@@ -20,7 +20,8 @@ import com.example.triviaparty.data.*
 import com.example.triviaparty.model.*
 import com.example.triviaparty.ui.player.components.OrderingView
 import com.example.triviaparty.cast.GoogleCastController
-import com.example.triviaparty.ui.cast.GoogleCastDeviceList
+import com.example.triviaparty.ui.cast.GoogleCastButton
+import com.example.triviaparty.ui.cast.GoogleCastDeviceStatus
 import com.example.triviaparty.network.GameServer
 import com.example.triviaparty.util.NetworkUtils
 import java.io.File
@@ -102,7 +103,8 @@ internal fun reviewAnswer(question: Question): String = when(question) {
         Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween, verticalAlignment=Alignment.CenterVertically) {
             Text("Révision ${index+1}/${questions.size}",color=Color.White,fontSize=22.sp,fontWeight=FontWeight.Bold)
             Row(verticalAlignment=Alignment.CenterVertically) {
-                TextButton(onClick={ showCastDialog=true }) { Text(if(castStatus.connected) "TV · Diffusion active" else "TV · Diffuser") }
+                GoogleCastButton(Modifier.size(width=44.dp, height=44.dp))
+                if (castStatus.connected) TextButton(onClick={ showCastDialog=true }) { Text("Son") }
                 TextButton(onClick={ if(save()) close() }) { Text("Fermer") }
             }
         }
@@ -153,14 +155,12 @@ internal fun reviewAnswer(question: Question): String = when(question) {
     }
     }
     if (showCastDialog) {
-        DisposableEffect(googleCast) {
-            googleCast.startDiscovery()
-            onDispose { googleCast.stopDiscovery() }
-        }
         AlertDialog(onDismissRequest={ showCastDialog=false }, title={ Text("Diffuser la révision") },
             text={ Column(Modifier.heightIn(max=360.dp).verticalScroll(rememberScrollState())) {
                 Text("La question affichée sur le téléphone est envoyée au téléviseur. Révélez la réponse sur le téléphone quand vous êtes prêt.")
-                GoogleCastDeviceList(googleCast, scanning=true)
+                GoogleCastDeviceStatus(googleCast)
+                Button(onClick = { googleCast.testAudio() }) { Text("Tester le son TV") }
+                castStatus.audioStatus?.let { Text(it, fontSize = 14.sp) }
             } }, confirmButton={ TextButton(onClick={ showCastDialog=false }) { Text("Fermer") } })
     }
 }

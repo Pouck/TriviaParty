@@ -112,7 +112,7 @@ def sampler_questions():
 
 
 def validate(bank):
-    assert bank['schemaVersion'] in (2, 3)
+    assert bank['schemaVersion'] in (2, 3, 4)
     entries = bank['questions']
     ids, aliases = set(), set()
     for entry in entries:
@@ -141,6 +141,13 @@ def validate(bank):
         assert all(set(subject.get('tagIds', [])) <= tags for subject in subjects)
         assert all(relation['targetId'] in subject_ids for subject in subjects for relation in subject.get('relations', []))
         assert all(tag.get('parentId') is None or tag['parentId'] in tags for tag in bank['taxonomy'])
+        if bank['schemaVersion'] >= 4:
+            assert all(
+                fact.get('contextId') and fact.get('earliestYear') <= fact.get('latestYear')
+                and fact.get('precision') in ('year', 'year-range', 'circa-year')
+                and fact.get('sourceName') and fact.get('sourceUrl', '').startswith('https://')
+                for subject in subjects for fact in subject.get('chronologyFacts', [])
+            )
     return bank
 
 

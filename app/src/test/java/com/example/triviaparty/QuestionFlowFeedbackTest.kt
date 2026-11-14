@@ -106,7 +106,7 @@ class QuestionFlowFeedbackTest {
             buzz(server,q); judge.snapshot { it["answering"]==JsonPrimitive(true) }
             assertEquals(1,server.gameSession.value.buzzerSoundId)
             buzz(server,q);assertEquals(1,server.gameSession.value.buzzerSoundId)
-            judge.control(GameEvent.HostJudgeTextBuzz("a",false),q.id)
+            judge.control(GameEvent.HostJudgeTextBuzz("a",false,playSound=true),q.id)
             judge.snapshot { it["answering"]==JsonPrimitive(false) && it["penalty"]==JsonPrimitive(5) }
             assertEquals(-5,server.gameSession.value.teams.single().score)
             assertEquals("bad",server.gameSession.value.answerSound)

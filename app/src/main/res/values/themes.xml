@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.TriviaParty" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- MediaRouter's native button requires an opaque activity background. -->
+    <style name="Theme.TriviaParty" parent="Theme.AppCompat">
+        <item name="colorPrimary">#FF12121D</item>
+        <item name="colorPrimaryDark">#FF12121D</item>
+        <item name="colorAccent">#FFFFD54F</item>
+        <item name="android:colorBackground">#FF12121D</item>
+        <item name="android:windowBackground">#FF12121D</item>
+        <item name="android:colorAccent">#FFFFD54F</item>
+    </style>
 </resources>

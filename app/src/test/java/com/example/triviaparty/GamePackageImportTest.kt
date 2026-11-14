@@ -16,11 +16,12 @@ import java.io.ByteArrayOutputStream
 import java.io.File
 import java.util.zip.ZipEntry
 import java.util.zip.ZipOutputStream
+import kotlin.io.path.createTempDirectory
 
 class GamePackageImportTest {
     @Test
     fun importsCategoryAndLocalImageFromZip() {
-        val root = createTempDir(prefix = "game-package-import-")
+        val root = createTempDirectory("game-package-import-").toFile()
         try {
             val entries = linkedMapOf(
                 "game.json" to """{"id":"demo","name":"Demo","description":"Test","categoryPackages":["demo"],"answerTimeSeconds":7,"timingConfig":{"secondsPerFlip":10,"decayPercentagePerFlip":0.1,"maxFlips":5,"pointsDecayPerFlip":5}}""",
@@ -60,7 +61,7 @@ class GamePackageImportTest {
 
     @Test
     fun updatesCanBeConfirmedOrRolledBackAndInvalidUpdatesPreserveOriginal() {
-        val root = createTempDir(prefix = "package-update-")
+        val root = createTempDirectory("package-update-").toFile()
         fun entries(name: String, id: String = "demo") = linkedMapOf(
             "game.json" to """{"id":"$id","name":"$name","description":"","categoryPackages":["demo"],"timingConfig":{}}""",
             "question-bank/demo.json" to """{"category":"Demo","questionTypes":["Oral"],"questions":[{"kind":"textAnswer","id":"q","category":"Demo","prompt":"Question","imageUrl":"images/test.png","acceptableAnswers":["Réponse"]}]}""",

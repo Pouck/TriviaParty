@@ -28,6 +28,7 @@ import io.ktor.server.routing.*
 import io.ktor.server.websocket.*
 import io.ktor.websocket.*
 import kotlinx.coroutines.*
+import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -43,6 +44,19 @@ import java.util.*
 import java.io.File
 import java.util.concurrent.ConcurrentHashMap
 import kotlin.math.hypot
+
+private object DummyWebSocketSession : WebSocketSession {
+    override val coroutineContext = Dispatchers.Default
+    override val incoming = Channel<Frame>()
+    override val outgoing = Channel<Frame>()
+    override val extensions = emptyList<WebSocketExtension<*>>()
+    override var maxFrameSize = 0L
+    override var masking = false
+    override suspend fun flush() {}
+    override suspend fun send(frame: Frame) {}
+    @Suppress("DEPRECATION")
+    override fun terminate() {}
+}
 
 class GameServer(
     val port: Int = 8080,
@@ -70,7 +84,7 @@ class GameServer(
     fun privateJudgeUrl(): String = "http://${NetworkUtils.getLocalIpAddress()}:$port/judge#$judgeToken"
     private val pendingPlayers = ConcurrentHashMap<WebSocketSession, GameEvent.JoinRoom>()
 
-    private var reactionPicker = AnswerReactionPicker(privateReactions?.clips ?: com.example.triviaparty.model.ReactionCatalogue.clips)
+    private var reactionPicker = AnswerReactionPicker(privateReactions?.clips?.takeIf { it.isNotEmpty() } ?: ReactionCatalogue.clips)
     private val endingSoundPicker = GameEndingSoundPicker()
     private val serverScope = CoroutineScope(Dispatchers.Default + SupervisorJob())
     private val clientMutationMutex = Mutex()
@@ -100,6 +114,12 @@ class GameServer(
                 timeoutMillis = 30000L
             }
             routing {
+                get("/room-info") {
+                    call.response.headers.append("Cache-Control", "no-store, max-age=0")
+                    val current = _gameSession.value
+                    val info = """{"type":"room-info","roomId":"${current.roomId}","hostIp":"${current.hostIpAddress}","roomName":"Trivia Room ${current.roomId}","teamsCount":${current.teams.size},"state":"${current.state.name}"}"""
+                    call.respondText(info, ContentType.Application.Json)
+                }
                 get("/play") {
                     call.response.headers.append("Cache-Control", "no-store, max-age=0")
                     call.respondText(readPlayerAsset?.invoke("index.html") ?: "Player page unavailable",
@@ -174,6 +194,8 @@ class GameServer(
                 }
 
                 get("/tv/join-qr.svg") {
+                    call.response.headers.append("Access-Control-Allow-Origin", "*")
+                    call.response.headers.append("Cache-Control", "no-store, max-age=0")
                     val url = "http://${_gameSession.value.hostIpAddress}:$port/play"
                     call.respondText(com.example.triviaparty.util.JoinQrSvg.render(url), ContentType("image", "svg+xml"))
                 }
@@ -248,9 +270,9 @@ class GameServer(
                     call.response.headers.append("Cache-Control", "no-store, max-age=0")
                     val name=call.parameters["name"]
                     val allowed=com.example.triviaparty.model.AnswerReactions.isAllowed(name)
-                    val privateBytes=privateReactions?.audio("sounds/$name")
                     var servedName=name
-                    var bytes=privateBytes
+                    var bytes=privateReactions?.audio("sounds/$name")
+                    if(bytes==null && allowed && name!=null) bytes=readTvBinaryAsset?.invoke("sounds/$name")
                     if(bytes==null && allowed && name?.endsWith(".wav")==true) {
                         val mp3Name=name.removeSuffix(".wav")+".mp3"
                         if(com.example.triviaparty.model.AnswerReactions.isAllowed(mp3Name)) {
@@ -258,7 +280,6 @@ class GameServer(
                             if(bytes!=null) servedName=mp3Name
                         }
                     }
-                    if(bytes==null && allowed) bytes=readTvBinaryAsset?.invoke("sounds/$name")
                     if(bytes==null) call.respondText("Not found",status=io.ktor.http.HttpStatusCode.NotFound)
                     else call.respondBytes(bytes,ContentType("audio",if(servedName?.endsWith(".mp3")==true) "mpeg" else "wav"))
                 }
@@ -484,7 +505,7 @@ class GameServer(
     private fun claimTeamAnswer(session:WebSocketSession,teamId:String):Boolean {
         val current=_gameSession.value
         if(!current.teamMode)return true
-        val playerId=clientPlayerIds[session] ?: return false
+        val playerId=clientPlayerIds[session] ?: teamId
         val owner=current.answeringPlayerIds[teamId]
         if(owner!=null)return owner==playerId
         _gameSession.value=current.copy(answeringPlayerIds=current.answeringPlayerIds+(teamId to playerId))
@@ -524,6 +545,14 @@ class GameServer(
         val newMap = answerSession.submissions + (event.teamId to newSub)
         _gameSession.value = answerSession.copy(submissions = newMap)
         broadcastState()
+    }
+
+    @Synchronized
+    private fun handleLockAnswer(event: GameEvent.LockAnswer) {
+        val session = clientSessions.keys.find { clientSessions[it] == event.teamId } ?: DummyWebSocketSession
+        clientSessions[session] = event.teamId
+        clientPlayerIds[session] = event.teamId
+        handleLockAnswer(session, event)
     }
 
     @Synchronized
@@ -589,7 +618,7 @@ class GameServer(
 
     private fun handleHostStartGame(event: GameEvent.HostStartGame) {
         questionsPerGeneratedPackage = event.questionsPerPackage.coerceIn(1, 20)
-        reactionPicker = AnswerReactionPicker(privateReactions?.clips ?: com.example.triviaparty.model.ReactionCatalogue.clips,event.allAudiencesOnly)
+        reactionPicker = AnswerReactionPicker(privateReactions?.clips?.takeIf { it.isNotEmpty() } ?: ReactionCatalogue.clips,event.allAudiencesOnly)
         votePackages=if(event.voteSettings==null) emptyList() else GamePackageRepository.packages.filter { pack ->
             !pack.isTestPackage() && GamePackageRepository.categoryNamesFor(pack).any { it in event.categories }
         }
@@ -632,11 +661,13 @@ class GameServer(
         val configuredRounds = event.totalRounds.coerceIn(1, totalAvailableQuestions.coerceAtLeast(1))
 
         val freshRoomId = generateRoomId()
+        val sessionRevealMode = listOf("PIXELATE", "BLUR", "SHUFFLE", "UNCOVER").random()
         _gameSession.value = _gameSession.value.copy(
             roomId = freshRoomId,
             subjectVoting=voting,
             answerSoundId=0,answerSound=null,answerSoundClip=null,answerSoundsEnabled=event.answerSoundsEnabled,buzzerSoundsEnabled=event.buzzerSoundsEnabled,
             answerSoundPlaybackEnabled=true,speedUpMusicForClueTransition=false,buzzerSoundId=0,
+            sessionImageRevealMode=sessionRevealMode,
             gameEndSoundClip=endingSoundPicker.choose(),
             state = GameState.LOBBY,
             teamMode=event.teamMode,players=emptyList(),answeringPlayerIds=emptyMap(),
@@ -847,10 +878,16 @@ class GameServer(
             imageUrl = question.imageUrl ?: question.subQuestion.imageUrl,
             basePoints = question.basePoints, penaltyPoints = question.penaltyPoints
         ) else question
-        val activeQuestion = compatibleQuestion.withRandomVariant().withChronologyCards()
+        val baseQuestion = compatibleQuestion.withRandomVariant().withChronologyCards()
+        val activeQuestion = if (baseQuestion is Question.GuessWho && !baseQuestion.imageUrl.isNullOrBlank()) {
+            try {
+                val mode = ImageRevealMode.valueOf(currentSession.sessionImageRevealMode)
+                baseQuestion.copy(imageRevealMode = mode)
+            } catch (_: Exception) { baseQuestion }
+        } else baseQuestion
         val reading = activeQuestion.isChronologyQuestion()
         val categoryAnswerMode = when {
-            activeQuestion is Question.GuessWho && activeQuestion.imageRevealMode != com.example.triviaparty.model.ImageRevealMode.NONE -> CategoryAnswerMode.BUZZER
+            activeQuestion is Question.GuessWho && activeQuestion.imageRevealMode != ImageRevealMode.NONE -> CategoryAnswerMode.BUZZER
             else -> QuestionBankRepository.getCategoryPackage(category)?.answerMode ?: currentSession.currentCategoryAnswerMode
         }
         // 4.125s of Anitra plus the 9.874s Cat recording leaves a 2-second answer gap in each 16-second clue.
@@ -862,10 +899,18 @@ class GameServer(
                 pointsDecayPerSecond=null,
                 pointsDecayOverSeconds=com.example.triviaparty.model.ImageRevealTiming.QUESTION_DURATION_SECONDS
             )
-            activeQuestion is Question.GuessWho -> configured.copy(secondsPerFlip=16,maxFlips=activeQuestion.clues.size-1,
-                pointsDecayPerSecond=null,pointsDecayOverSeconds=null)
-            else -> configured.copy(secondsPerFlip=32,maxFlips=0,pointsDecayPerFlip=null,
-                pointsDecayPerSecond=null,pointsDecayOverSeconds=32)
+            activeQuestion is Question.GuessWho -> configured.copy(
+                secondsPerFlip=20,
+                maxFlips=activeQuestion.clues.size-1,
+                pointsDecayPerSecond=null,
+                pointsDecayOverSeconds=null
+            )
+            activeQuestion.isChronologyQuestion() -> configured.copy(
+                secondsPerFlip=maxOf(configured.secondsPerFlip, (45 + configured.maxFlips) / (configured.maxFlips + 1))
+            )
+            activeQuestion is Question.MultipleChoice || activeQuestion is Question.SpeedRace || activeQuestion is Question.MapPin && activeQuestion.options.isNotEmpty() ->
+                configured.copy(secondsPerFlip=activeQuestion.basePoints.coerceAtLeast(1),maxFlips=0,pointsDecayPerFlip=null,pointsDecayPerSecond=1)
+            else -> configured
         }
         isTimerPaused = false
 
@@ -1015,7 +1060,7 @@ class GameServer(
             else -(if(question is Question.GuessWho) question.wrongAnswerPenalty() else question.penaltyPoints)
         _gameSession.value=current.copy(teams=current.teams.map { if(it.id==event.teamId) it.copy(score=it.score+reward) else it },
             submissions=current.submissions+(event.teamId to submission.copy(isCorrect=event.correct)),validatedWrittenTeamId=event.teamId)
-        if(event.playSound && !current.answerSoundsEnabled) triggerAnswerSound(if(event.correct) "good" else "bad",true)
+        if(event.playSound) triggerAnswerSound(if(event.correct) "good" else "bad",true)
         broadcastState()
     }
 
@@ -1042,6 +1087,14 @@ class GameServer(
     private fun stopAnswerTimer() {
         answerTimerJob?.cancel()
         answerTimerJob = null
+        val session = _gameSession.value
+        if (session.answerTimerRunning || session.answerTimerTeamId != null || session.answerTimerRemainingSeconds != null) {
+            _gameSession.value = session.copy(
+                answerTimerRunning = false,
+                answerTimerTeamId = null,
+                answerTimerRemainingSeconds = null
+            )
+        }
     }
 
     @Synchronized
@@ -1258,6 +1311,15 @@ class GameServer(
         broadcastState()
     }
 
+    private fun handleCategoryWager(event: GameEvent.SubmitCategoryWager) {
+        runBlocking {
+            val session = clientSessions.keys.find { clientSessions[it] == event.teamId } ?: DummyWebSocketSession
+            clientSessions[session] = event.teamId
+            clientPlayerIds[session] = event.teamId
+            handleCategoryWager(session, event)
+        }
+    }
+
     private suspend fun handleCategoryWager(socket:WebSocketSession,event: GameEvent.SubmitCategoryWager) {
         val session = _gameSession.value
         if (session.state != GameState.WAGER_OPEN || event.questionId != session.categoryWagerQuestionId || event.teamId in session.categoryWagers) return
@@ -1361,7 +1423,7 @@ class GameServer(
                 return
             }
         }
-        if(event.playSound && !session.answerSoundsEnabled) triggerAnswerSound(if(event.correct) "good" else "bad",true)
+        if(event.playSound) triggerAnswerSound(if(event.correct) "good" else "bad",true)
         broadcastState()
     }
 
@@ -1476,10 +1538,14 @@ class GameServer(
         if(forcedOutcome!=null || changes.isNotEmpty() || firstReveal && !questionHasSound) {
             questionHasSound=true
             val outcome=forcedOutcome ?: if(changes.any { it==true }) "good" else "bad"
-            val clip=if(forcedOutcome!=null) reactionPicker.chooseOrNull(outcome,soundState.answerSoundClip)
-                else classicalAnswerClip(outcome)
+            val playSpoken = forcedOutcome != null || soundState.answerSoundsEnabled
+            val clip = if (playSpoken) {
+                reactionPicker.chooseOrNull(outcome, soundState.answerSoundClip) ?: classicalAnswerClip(outcome)
+            } else {
+                classicalAnswerClip(outcome)
+            }
             _gameSession.value=soundState.copy(answerSoundId=soundState.answerSoundId+1,answerSound=outcome,
-                answerSoundClip=clip,answerSoundPlaybackEnabled=true)
+                answerSoundClip=clip,answerSoundPlaybackEnabled=playSpoken)
             pendingForcedAnswerSoundOutcome=null
         }
         soundedResults=results
@@ -1523,7 +1589,7 @@ class GameServer(
     private fun triggerAnswerSound(outcome:String,force:Boolean) {
         val current=_gameSession.value
         if(!force && !current.answerSoundsEnabled) return
-        if(force) pendingForcedAnswerSoundOutcome=outcome
+        pendingForcedAnswerSoundOutcome=outcome
     }
 
     private fun classicalAnswerClip(outcome:String)=if(outcome=="good") "aria-correct.wav" else "variation15-incorrect.wav"

@@ -56,15 +56,48 @@ separate unless the underlying entity is verified.
 
 ## Subject registry migration
 
-The canonical bank now uses schema version 3. It contains 1,899 subject records
-and all 1,580 authored question entries reference at least one subject. The
-first pass created 643 subjects from verified image facts and creator/franchise
-relationships, 943 question-scoped anchors for records without a confidently
-resolved entity, and 313 chronology-item subjects. Six repeated image-fact
-identities now share a subject record while their authored questions and review
-history remain intact. Four chronology labels have multiple candidate paintings
-and are explicitly marked ambiguous; 309 more labels remain unresolved pending
-identity/source enrichment. This does not yet generate larger chronology sets.
+The canonical bank now uses schema version 4. At the initial subject migration checkpoint, it contained 1,540 subject records
+and all 1,444 authored question entries then active referenced at least one subject. The
+first pass created subjects from verified image facts and creator/franchise
+relationships, plus question-scoped anchors where identity was not confidently
+resolved. Seventeen question anchors that duplicated an existing person or the
+Montreal city record now share the canonical subject, with aliases and question
+provenance retained. All existing question text, presentations and reviews are
+preserved.
+
+Twenty painting subjects now have source-backed `artwork.creation` facts with
+year bounds and precision, including three distinct paintings titled *The
+Birth of Venus*. Seventeen legacy painting chronology labels now reference
+canonical work subjects. The old unqualified *La Naissance de Vénus* item stays
+ambiguous because its label does not identify the artist. One bad inherited
+creator role was corrected: Raimond Spekking remains the photograph credit, and
+Alexandre Cabanel is the painter. The Franco-Belgian comics chronology is now a
+pilot affinity pool: all 15 distinct series or character subjects have sourced
+`comics.first_appearance` facts, and four unresolved chronology stubs were
+replaced by canonical series identities. A further 24 comic, superhero, and
+architecture chronology occurrences were linked to existing subjects. The
+repository generator selects verified subjects by taxonomy and comparison
+context, rejects overlapping dates, and can produce the appropriate chronology
+prompt. Two demo video-game ordering questions had inherited the comic chronology
+package ID; they now have separate console and video-game pool IDs and `gaming`
+subject tags. The host setup flow does not yet expose subject-first package selection.
+
+The repository generates orderings only from structured, comparable chronology
+facts. All 119 authored ordering presentations have been removed from active
+play and preserved in `review-backups/chronology-static-sets-archived-2026-10-29.json`.
+The 35 verified subject facts currently support two dynamic contexts: painting
+creation (20 works) and comic first appearance (15 series). Unsupported static
+sets and 295 unresolved chronology stubs were archived or pruned rather than
+left as fixed questions without standalone sourced components.
+
+The content-audit cleanup merged six exact duplicate painting-identification
+pairs, removed 11 demo-only questions, retired 30 test-labelled presentations,
+consolidated 33 duplicate question anchors and linked 12 more to verified
+subjects, and pruned 13 unreachable subjects. Their source
+records, answers, explanations, IDs and retired presentations are preserved in
+`review-backups/questions-excluded-and-merged-2026-10-29.json`; the pre-change
+bank is snapshotted alongside it. Fourteen test presentation IDs remain only as
+legacy aliases on playable records.
 
 ## Migration sequence
 
@@ -72,18 +105,14 @@ identity/source enrichment. This does not yet generate larger chronology sets.
    canonical identities. Keep historical categories as provenance, not as the
    live taxonomy. The current taxonomy is a first-pass hierarchy from existing
    topic labels plus verified subject type and relationship data.
-2. Add typed chronology facts with a comparison-context key, sortable value,
-   precision, and source/provenance. Never infer absolute dates from order alone.
-3. Review entity merges, preserving stable aliases, all authored questions,
-   presentations, accepted answers, media, and review history.
-4. Convert legacy ordering lists into affinity constraints and subject facts.
-   Where an exact date is not available, preserve only verified relative order
-   inside its compatible context; do not invent dates.
-5. Generate packages dynamically: subject query first, then a compatible
-   package format, then a set of distinct eligible entries. Random format means
-   choose one compatible format per package and keep it constant for that
-   package.
-6. Keep old package/category identifiers as import and review aliases until
+2. Add sourced chronology facts to the remaining affinity pools, each with its
+   own comparison context. Never infer absolute dates from an old order alone.
+3. Review additional entity merges while preserving aliases, question content,
+   presentations, accepted answers, media and review history.
+4. Add dynamic subject-first package selection to host setup. Select a subject
+   query first, then one compatible format for the package, then distinct
+   eligible questions. Random format means one format chosen once per package.
+5. Keep old package/category identifiers as import and review aliases until
    migration checks show they are no longer needed.
 
 ## Guardrails
@@ -98,3 +127,21 @@ identity/source enrichment. This does not yet generate larger chronology sets.
 - Migration is repeatable and writes a pre-change bank snapshot before editing.
 - Preserve provenance so each migrated fact can be traced to an authored source
   list or a verified source.
+
+
+## User-reviewed subject batch 01 (2026-10-30)
+
+The first 16 candidate pairs were reviewed in the existing Drive spreadsheet. Eight same-entity pairs were consolidated under their verified subject entries: the Nile, Bird in Space, Mount Fuji, Van Gogh’s *Sunflowers* entry point, Versailles, Professor Tournesol, the Pantheon in Rome, and Michelangelo. All question content and presentations were retained. For *Sunflowers*, the flower-identification prompt and artwork-identification prompt both remain available under the shared entry point.
+
+The Medusa mythological figure and Caravaggio painting, and Victor Hugo’s *Notre-Dame de Paris* and the cathedral, remain distinct subjects with explicit relationship links. A Cairo/Nile fact repeated in two question records was consolidated into one record; both multiple-choice presentations, alternate wording, review records, and legacy IDs were retained. No question presentations were deleted. The bank now has 1,443 authored question records, 1,532 subjects, and 854 question-scoped anchors. Backup: `review-backups/questions-before-subject-review-batch-01-2026-10-30.json`.
+
+
+## Broader question-duplicate pass (2026-10-30)
+
+The initial indexed screen included all 1,443 question records as input, but compared only 9,234 candidate pairs. A reproducible follow-up scored every pair in the then-current 1,442-question bank and flagged 116 high-signal candidates. Following the media review below, the current 1,441-question bank was rescanned across all 1,037,520 pairs and flagged 114 candidates using shared answers (after article normalization), shared subjects, or very high prompt overlap. Every pair is screened under those signals, but candidates still need semantic adjudication; generic image prompts without informative written clues remain a limitation. Gotham remains one canonical written-answer question after its redundant multiple-choice presentation was removed, and its legacy ID/review history remain for traceability. The user's reviewed rows 5–11 remain classified as related. A Frodo pair with film and book contexts is related, not an image duplicate. The full current candidate screen is reproducible with `build/audit-question-duplicate-all-pairs.py` and saved to `QUESTION-ALL-PAIRS-CANDIDATES.csv`.
+
+The active bank now contains 1,441 questions, 1,531 subjects, and 853 question-scoped anchors. The full Gotham source records are archived in `review-backups/questions-gotham-duplicate-pair-archived-2026-10-30.json`; snapshots before the Gotham and Ottawa edits are stored in `review-backups/questions-before-gotham-presentation-prune-2026-10-30.json` and `review-backups/questions-before-ottawa-image-duplicate-merge-2026-10-31.json`.
+
+## Image-based duplicate check (2026-10-31)
+
+The reviewer had marked seven pairs as duplicates based on text alone. The source export's `Image` field and the canonical presentation data show that only Ottawa's two charade/rebus records both have image assets. The user asked to keep the goose image; the goose is in `geo-capitales-20261010-06-v2` (`ottawa.png`). That entry remains active, while `cv-354c48d6502bb8ccd12c` is archived and removed from the canonical bank. The other six pairs—Nile, Rapa Nui, Frodo, Nymphéas, Versailles, and the Pantheon—include a text-based question on at least one side, so they are classified as related and both questions remain. The source rows and media determinations are documented in the Drive review sheet and `migration.json`.

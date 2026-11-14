@@ -1,0 +1,219 @@
+{
+  "mergePairs": [
+    [
+      "arts-buzzer-tableaux-celebres-20261011-05",
+      "image-qsj-painting-rank-021"
+    ],
+    [
+      "arts-qcm-peintures-classiques-20261011-03",
+      "image-qsj-painting-rank-014"
+    ],
+    [
+      "arts-qcm-peintures-classiques-20261011-07",
+      "image-qsj-painting-rank-012"
+    ]
+  ],
+  "removedQuestions": [
+    {
+      "id": "image-qsj-painting-rank-021",
+      "legacyIds": [
+        "image-qsj-painting-rank-021"
+      ],
+      "topics": [
+        "Arts"
+      ],
+      "prompt": "Qui suis-je ?",
+      "answers": [
+        "Liberty Leading the People",
+        "La Liberté guidant le peuple"
+      ],
+      "content": {},
+      "presentations": [
+        {
+          "id": "image-qsj-painting-rank-021",
+          "label": "Qui suis-je ? — image",
+          "answerMode": "BUZZER",
+          "topic": "Arts",
+          "legacyCategory": "Arts — Peintures célèbres — Qui suis-je ?",
+          "legacyPackageId": "image-qsj-peintures-celebres",
+          "content": {
+            "kind": "guessWho",
+            "prompt": "Qui suis-je ?",
+            "clues": [],
+            "imageRevealMode": "PIXELATE",
+            "imageRevealSteps": 6,
+            "imageUrl": "media/bc68607b081b779c656946b3.jpg",
+            "basePoints": 30,
+            "penaltyPoints": 0
+          }
+        }
+      ],
+      "explanation": "Liberty Leading the People — Eugene Delacroix, 1830.\n\nTitre français : La Liberté guidant le peuple.",
+      "legacyReviews": [],
+      "imageFacts": {
+        "subjectType": "painting",
+        "subjectTitle": "Liberty Leading the People",
+        "facts": [
+          {
+            "kind": "work_title",
+            "value": "Liberty Leading the People",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg"
+          },
+          {
+            "kind": "media_creator",
+            "role": "image credit; not necessarily subject creator",
+            "value": "Eugène Delacroix",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg"
+          },
+          {
+            "kind": "subject_creator",
+            "role": "painter",
+            "value": "Eugène Delacroix",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg"
+          }
+        ],
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg"
+        ],
+        "frenchTitle": "La Liberté guidant le peuple"
+      },
+      "subjectIds": [
+        "subject-df8eefbce53d33c1"
+      ]
+    },
+    {
+      "id": "image-qsj-painting-rank-014",
+      "legacyIds": [
+        "image-qsj-painting-rank-014"
+      ],
+      "topics": [
+        "Arts"
+      ],
+      "prompt": "Qui suis-je ?",
+      "answers": [
+        "The Birth of Venus by Sandro Botticelli",
+        "La Naissance de Vénus"
+      ],
+      "content": {},
+      "presentations": [
+        {
+          "id": "image-qsj-painting-rank-014",
+          "label": "Qui suis-je ? — image",
+          "answerMode": "BUZZER",
+          "topic": "Arts",
+          "legacyCategory": "Arts — Peintures célèbres — Qui suis-je ?",
+          "legacyPackageId": "image-qsj-peintures-celebres",
+          "content": {
+            "kind": "guessWho",
+            "prompt": "Qui suis-je ?",
+            "clues": [],
+            "imageRevealMode": "PIXELATE",
+            "imageRevealSteps": 6,
+            "imageUrl": "media/294eb953f64fb19cc4da2635.jpg",
+            "basePoints": 30,
+            "penaltyPoints": 0
+          }
+        }
+      ],
+      "explanation": "The Birth of Venus by Sandro Botticelli — Sandro Botticelli, c. 1478–1485.\n\nTitre français : La Naissance de Vénus.",
+      "legacyReviews": [],
+      "imageFacts": {
+        "subjectType": "painting",
+        "subjectTitle": "The Birth of Venus by Sandro Botticelli",
+        "facts": [
+          {
+            "kind": "work_title",
+            "value": "The Birth of Venus by Sandro Botticelli",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+          },
+          {
+            "kind": "media_creator",
+            "role": "image credit; not necessarily subject creator",
+            "value": "Sandro Botticelli",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+          },
+          {
+            "kind": "subject_creator",
+            "role": "painter",
+            "value": "Sandro Botticelli",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+          }
+        ],
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+        ],
+        "frenchTitle": "La Naissance de Vénus"
+      },
+      "subjectIds": [
+        "subject-48c9591d9a68fd5d"
+      ]
+    },
+    {
+      "id": "image-qsj-painting-rank-012",
+      "legacyIds": [
+        "image-qsj-painting-rank-012"
+      ],
+      "topics": [
+        "Arts"
+      ],
+      "prompt": "Qui suis-je ?",
+      "answers": [
+        "Girl with a Pearl Earring",
+        "La Jeune Fille à la perle"
+      ],
+      "content": {},
+      "presentations": [
+        {
+          "id": "image-qsj-painting-rank-012",
+          "label": "Qui suis-je ? — image",
+          "answerMode": "BUZZER",
+          "topic": "Arts",
+          "legacyCategory": "Arts — Peintures célèbres — Qui suis-je ?",
+          "legacyPackageId": "image-qsj-peintures-celebres",
+          "content": {
+            "kind": "guessWho",
+            "prompt": "Qui suis-je ?",
+            "clues": [],
+            "imageRevealMode": "PIXELATE",
+            "imageRevealSteps": 6,
+            "imageUrl": "media/b18c216597966804baa0c892.jpg",
+            "basePoints": 30,
+            "penaltyPoints": 0
+          }
+        }
+      ],
+      "explanation": "Girl with a Pearl Earring — Johannes Vermeer, c. 1665.\n\nTitre français : La Jeune Fille à la perle.",
+      "legacyReviews": [],
+      "imageFacts": {
+        "subjectType": "painting",
+        "subjectTitle": "Girl with a Pearl Earring",
+        "facts": [
+          {
+            "kind": "work_title",
+            "value": "Girl with a Pearl Earring",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg"
+          },
+          {
+            "kind": "media_creator",
+            "role": "image credit; not necessarily subject creator",
+            "value": "Johannes Vermeer",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg"
+          },
+          {
+            "kind": "subject_creator",
+            "role": "painter",
+            "value": "Johannes Vermeer",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg"
+          }
+        ],
+        "sources": [
+          "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg"
+        ],
+        "frenchTitle": "La Jeune Fille à la perle"
+      },
+      "subjectIds": [
+        "subject-22fdf1c4f7f66b27"
+      ]
+    }
+  ]
+}

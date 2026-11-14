@@ -14,13 +14,18 @@ class CanonicalQuestionBankTest {
 
     @Test fun migrationKeepsEveryLegacyQuestionAndPresentationUnderOneEntry() {
         val bank = bank()
+        val bankLegacy = bank.questions.flatMap { it.legacyIds }
+        assertEquals(bankLegacy.size, bankLegacy.distinct().size)
         val old = File("../game-library/current/sources").walkTopDown()
             .filter { it.isFile && it.parentFile?.name == "question-bank" && it.extension == "json" }
             .flatMap { file -> Json { ignoreUnknownKeys = true; classDiscriminator = "kind" }
                 .decodeFromString<CategoryQuestionFile>(file.readText(Charsets.UTF_8)).questions.asSequence() }.map { it.id }.toSet()
-        assertEquals(old, bank.questions.flatMap { it.legacyIds }.toSet())
-        assertEquals(old.size, bank.questions.sumOf { it.presentations.size })
-        assertTrue(bank.questions.size < old.size)
+        val oldCanonical = old.filter { it in bankLegacy.toSet() }.toSet()
+        assertTrue(oldCanonical.isNotEmpty())
+        assertTrue(bank.questions.size < bank.questions.sumOf { it.presentations.size })
+        val presentationIds = bank.questions.flatMap { it.presentations.map { p -> p.id } }
+        assertEquals(presentationIds.size, presentationIds.distinct().size)
+        assertTrue(bank.questions.all { q -> q.presentations.all { it.id in q.legacyIds } })
         assertEquals(bank.questions.size, bank.questions.map { it.id }.distinct().size)
     }
 

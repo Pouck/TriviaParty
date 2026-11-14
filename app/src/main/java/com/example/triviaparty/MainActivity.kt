@@ -12,6 +12,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.enableEdgeToEdge
+import androidx.fragment.app.FragmentActivity
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -42,7 +43,7 @@ import java.io.File
 
 enum class AppRole { HOST_SETUP, HOST_DASHBOARD, SOLO_REVIEW }
 
-class MainActivity : ComponentActivity() {
+class MainActivity : FragmentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val packagesDirectory = File(filesDir, "game-packages")
@@ -139,8 +140,8 @@ fun TriviaPartyApp() {
     var hostLimitQuestionsPerCategory by remember { mutableStateOf(false) }
     var hostSessionStarted by remember { mutableStateOf(false) }
     var hostAllAudiencesOnly by remember { mutableStateOf(false) }
-    var hostAnswerSoundsEnabled by remember { mutableStateOf(true) }
-    var hostBuzzerSoundsEnabled by remember { mutableStateOf(true) }
+    var hostAnswerSoundsEnabled by remember { mutableStateOf(false) }
+    var hostBuzzerSoundsEnabled by remember { mutableStateOf(false) }
     var hostTeamMode by remember { mutableStateOf(false) }
     var hostVoteSettings by remember { mutableStateOf<com.example.triviaparty.model.VoteSettings?>(null) }
     val activity = LocalContext.current as? ComponentActivity

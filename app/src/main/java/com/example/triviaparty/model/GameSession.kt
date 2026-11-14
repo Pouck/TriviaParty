@@ -31,6 +31,7 @@ data class GameSession(
     val gameEndSoundClip: String = "game-end.wav",
     val buzzerSoundId: Int = 0,
     val categoryBuzzerSound: String = "wolf",
+    val sessionImageRevealMode: String = "PIXELATE",
     val buzzQueue: List<BuzzPress> = emptyList(),
     val state: GameState = GameState.LOBBY,
     val currentCategory: String? = null,

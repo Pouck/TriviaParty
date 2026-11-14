@@ -46,8 +46,8 @@ fun GameSetupScreen(
     val scope = rememberCoroutineScope()
     val audioPreferences=remember { context.getSharedPreferences("host-audio",android.content.Context.MODE_PRIVATE) }
     var allAudiencesOnly by remember { mutableStateOf(audioPreferences.getBoolean("all-audiences",false)) }
-    var answerSoundsEnabled by remember { mutableStateOf(audioPreferences.getBoolean("answer-sounds-enabled",true)) }
-    var buzzerSoundsEnabled by remember { mutableStateOf(audioPreferences.getBoolean("buzzer-sounds-enabled",true)) }
+    var answerSoundsEnabled by remember { mutableStateOf(audioPreferences.getBoolean("answer-sounds-enabled",false)) }
+    var buzzerSoundsEnabled by remember { mutableStateOf(audioPreferences.getBoolean("buzzer-sounds-enabled",false)) }
     var teamMode by remember { mutableStateOf(audioPreferences.getBoolean("team-mode-enabled",false)) }
     val packagesDirectory = File(context.filesDir, "game-packages")
     val importedIds = GamePackageImportRepository.importedDirectories(packagesDirectory).map { it.name }.toSet()

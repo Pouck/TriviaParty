@@ -1,0 +1,1575 @@
+{
+  "description": "Question records and presentations excluded or merged during the high-confidence content audit cleanup. This archive is not loaded for play.",
+  "excludedDemoQuestions": [
+    {
+      "id": "test-06-map-choice-q1",
+      "legacyIds": [
+        "test-06-map-choice-q1"
+      ],
+      "topics": [
+        "Tests"
+      ],
+      "prompt": "Choisissez le repère B sur cette carte de démonstration.",
+      "answers": [],
+      "content": {
+        "options": [
+          {
+            "label": "A",
+            "xRatio": 0.3,
+            "yRatio": 0.3
+          },
+          {
+            "label": "B",
+            "xRatio": 0.5,
+            "yRatio": 0.45
+          },
+          {
+            "label": "C",
+            "xRatio": 0.55,
+            "yRatio": 0.65
+          },
+          {
+            "label": "D",
+            "xRatio": 0.4,
+            "yRatio": 0.7
+          }
+        ],
+        "correctOptionIndex": 1,
+        "basePoints": 15,
+        "penaltyPoints": 0
+      },
+      "presentations": [
+        {
+          "id": "test-06-map-choice-q1",
+          "label": "Carte",
+          "answerMode": "SIMULTANEOUS",
+          "topic": "Tests",
+          "legacyCategory": "TEST — Cartes",
+          "legacyPackageId": "test-carte-20261012",
+          "content": {
+            "kind": "mapChoice"
+          }
+        }
+      ],
+      "legacyReviews": [],
+      "review": {
+        "questionId": "test-06-map-choice-q1",
+        "prompt": "Choisissez le repère B sur cette carte de démonstration.",
+        "rating": 1,
+        "modification": ""
+      },
+      "reviewHistory": [
+        {
+          "questionId": "test-06-map-choice-q1",
+          "legacyIds": [
+            "test-06-map-choice-q1"
+          ],
+          "topics": [
+            "Tests"
+          ],
+          "prompt": "Choisissez le repère B sur cette carte de démonstration.",
+          "rating": 1,
+          "modification": ""
+        }
+      ],
+      "subjectIds": [
+        "question-subject-cd41b9fd28374aaa"
+      ]
+    },
+    {
+      "id": "test-20261012-carte-complement-1",
+      "legacyIds": [
+        "test-20261012-carte-complement-1"
+      ],
+      "topics": [
+        "Tests"
+      ],
+      "prompt": "Test carte : sélectionnez le repère A",
+      "answers": [],
+      "content": {
+        "options": [
+          {
+            "label": "A",
+            "xRatio": 0.3,
+            "yRatio": 0.3
+          },
+          {
+            "label": "B",
+            "xRatio": 0.5,
+            "yRatio": 0.45
+          },
+          {
+            "label": "C",
+            "xRatio": 0.55,
+            "yRatio": 0.65
+          },
+          {
+            "label": "D",
+            "xRatio": 0.4,
+            "yRatio": 0.7
+          }
+        ],
+        "correctOptionIndex": 0,
+        "basePoints": 15,
+        "penaltyPoints": 0
+      },
+      "presentations": [
+        {
+          "id": "test-20261012-carte-complement-1",
+          "label": "Carte",
+          "answerMode": "SIMULTANEOUS",
+          "topic": "Tests",
+          "legacyCategory": "TEST — Cartes",
+          "legacyPackageId": "test-carte-20261012",
+          "content": {
+            "kind": "mapChoice"
+          }
+        }
+      ],
+      "legacyReviews": [],
+      "review": {
+        "questionId": "test-20261012-carte-complement-1",
+        "prompt": "Test carte : sélectionnez le repère A",
+        "rating": 1,
+        "modification": ""
+      },
+      "reviewHistory": [
+        {
+          "questionId": "test-20261012-carte-complement-1",
+          "legacyIds": [
+            "test-20261012-carte-complement-1"
+          ],
+          "topics": [
+            "Tests"
+          ],
+          "prompt": "Test carte : sélectionnez le repère A",
+          "rating": 1,
+          "modification": ""
+        }
+      ],
+      "subjectIds": [
+        "question-subject-66a2f0a10546c49c"
+      ]
+    },
+    {
+      "id": "test-20261012-carte-complement-2",
+      "legacyIds": [
+        "test-20261012-carte-complement-2"
+      ],
+      "topics": [
+        "Tests"
+      ],
+      "prompt": "Test carte : sélectionnez le repère B",
+      "answers": [],
+      "content": {
+        "options": [
+          {
+            "label": "A",
+            "xRatio": 0.3,
+            "yRatio": 0.3
+          },
+          {
+            "label": "B",
+            "xRatio": 0.5,
+            "yRatio": 0.45
+          },
+          {
+            "label": "C",
+            "xRatio": 0.55,
+            "yRatio": 0.65
+          },
+          {
+            "label": "D",
+            "xRatio": 0.4,
+            "yRatio": 0.7
+          }
+        ],
+        "correctOptionIndex": 1,
+        "basePoints": 15,
+        "penaltyPoints": 0
+      },
+      "presentations": [
+        {
+          "id": "test-20261012-carte-complement-2",
+          "label": "Carte",
+          "answerMode": "SIMULTANEOUS",
+          "topic": "Tests",
+          "legacyCategory": "TEST — Cartes",
+          "legacyPackageId": "test-carte-20261012",
+          "content": {
+            "kind": "mapChoice"
+          }
+        }
+      ],
+      "legacyReviews": [],
+      "review": {
+        "questionId": "test-20261012-carte-complement-2",
+        "prompt": "Test carte : sélectionnez le repère B",
+        "rating": 1,
+        "modification": ""
+      },
+      "reviewHistory": [
+        {
+          "questionId": "test-20261012-carte-complement-2",
+          "legacyIds": [
+            "test-20261012-carte-complement-2"
+          ],
+          "topics": [
+            "Tests"
+          ],
+          "prompt": "Test carte : sélectionnez le repère B",
+          "rating": 1,
+          "modification": ""
+        }
+      ],
+      "subjectIds": [
+        "question-subject-53d73dbabaed06d8"
+      ]
+    },
+    {
+      "id": "test-20261012-carte-complement-3",
+      "legacyIds": [
+        "test-20261012-carte-complement-3"
+      ],
+      "topics": [
+        "Tests"
+      ],
+      "prompt": "Test carte : sélectionnez le repère C",
+      "answers": [],
+      "content": {
+        "options": [
+          {
+            "label": "A",
+            "xRatio": 0.3,
+            "yRatio": 0.3
+          },
+          {
+            "label": "B",
+            "xRatio": 0.5,
+            "yRatio": 0.45
+          },
+          {
+            "label": "C",
+            "xRatio": 0.55,
+            "yRatio": 0.65
+          },
+          {
+            "label": "D",
+            "xRatio": 0.4,
+            "yRatio": 0.7
+          }
+        ],
+        "correctOptionIndex": 2,
+        "basePoints": 15,
+        "penaltyPoints": 0
+      },
+      "presentations": [
+        {
+          "id": "test-20261012-carte-complement-3",
+          "label": "Carte",
+          "answerMode": "SIMULTANEOUS",
+          "topic": "Tests",
+          "legacyCategory": "TEST — Cartes",
+          "legacyPackageId": "test-carte-20261012",
+          "content": {
+            "kind": "mapChoice"
+          }
+        }
+      ],
+      "legacyReviews": [],
+      "review": {
+        "questionId": "test-20261012-carte-complement-3",
+        "prompt": "Test carte : sélectionnez le repère C",
+        "rating": 1,
+        "modification": ""
+      },
+      "reviewHistory": [
+        {
+          "questionId": "test-20261012-carte-complement-3",
+          "legacyIds": [
+            "test-20261012-carte-complement-3"
+          ],
+          "topics": [
+            "Tests"
+          ],
+          "prompt": "Test carte : sélectionnez le repère C",
+          "rating": 1,
+          "modification": ""
+        }
+      ],
+      "subjectIds": [
+        "question-subject-8d2e6630f20ae338"
+      ]
+    },
+    {
+      "id": "test-20261012-carte-complement-4",
+      "legacyIds": [
+        "test-20261012-carte-complement-4"
+      ],
+      "topics": [
+        "Tests"
+      ],
+      "prompt": "Test carte : sélectionnez le repère D",
+      "answers": [],
+      "content": {
+        "options": [
+          {
+            "label": "A",
+            "xRatio": 0.3,
+            "yRatio": 0.3
+          },
+          {
+            "label": "B",
+            "xRatio": 0.5,
+            "yRatio": 0.45
+          },
+          {
+            "label": "C",
+            "xRatio": 0.55,
+            "yRatio": 0.65
+          },
+          {
+            "label": "D",
+            "xRatio": 0.4,
+            "yRatio": 0.7
+          }
+        ],
+        "correctOptionIndex": 3,
+        "basePoints": 15,
+        "penaltyPoints": 0
+      },
+      "presentations": [
+        {
+          "id": "test-20261012-carte-complement-4",
+          "label": "Carte",
+          "answerMode": "SIMULTANEOUS",
+          "topic": "Tests",
+          "legacyCategory": "TEST — Cartes",
+          "legacyPackageId": "test-carte-20261012",
+          "content": {
+            "kind": "mapChoice"
+          }
+        }
+      ],
+      "legacyReviews": [],
+      "review": {
+        "questionId": "test-20261012-carte-complement-4",
+        "prompt": "Test carte : sélectionnez le repère D",
+        "rating": 1,
+        "modification": ""
+      },
+      "reviewHistory": [
+        {
+          "questionId": "test-20261012-carte-complement-4",
+          "legacyIds": [
+            "test-20261012-carte-complement-4"
+          ],
+          "topics": [
+            "Tests"
+          ],
+          "prompt": "Test carte : sélectionnez le repère D",
+          "rating": 1,
+          "modification": ""
+        }
+      ],
+      "subjectIds": [
+        "question-subject-c25b1ff703dc6579"
+      ]
+    },
+    {
+      "id": "test-04-chronologie-q1",
+      "legacyIds": [
+        "test-04-chronologie-q1"
+      ],
+      "topics": [
+        "Tests"
+      ],
+      "prompt": "Classez ces étapes de l’exploration et de la colonisation européennes du Canada, de la plus ancienne à la plus récente.",
+      "answers": [],
+      "content": {
+        "basePoints": 15,
+        "penaltyPoints": 0,
+        "items": [
+          {
+            "id": "item-0",
+            "text": "Voyage de Jean Cabot vers les côtes de l’Amérique du Nord"
+          },
+          {
+            "id": "item-1",
+            "text": "Fondation de Québec par Samuel de Champlain"
+          },
+          {
+            "id": "item-2",
+            "text": "Premier voyage de Jacques Cartier au Canada"
+          }
+        ],
+        "correctOrderIds": [
+          "item-0",
+          "item-2",
+          "item-1"
+        ]
+      },
+      "presentations": [
+        {
+          "id": "test-04-chronologie-q1",
+          "label": "Chronologie",
+          "answerMode": "SIMULTANEOUS",
+          "topic": "Tests",
+          "legacyCategory": "TEST — Chronologie",
+          "legacyPackageId": "test-chronologie-20261012",
+          "content": {
+            "kind": "ordering"
+          }
+        }
+      ],
+      "legacyReviews": [],
+      "review": {
+        "questionId": "test-04-chronologie-q1",
+        "prompt": "Classez ces étapes de l’exploration et de la colonisation européennes du Canada, de la plus ancienne à la plus récente.",
+        "rating": null,
+        "modification": ""
+      },
+      "reviewHistory": [
+        {
+          "questionId": "test-04-chronologie-q1",
+          "legacyIds": [
+            "test-04-chronologie-q1"
+          ],
+          "topics": [
+            "Tests"
+          ],
+          "prompt": "Quel ordre va du plus ancien au plus récent ?",
+          "rating": null,
+          "modification": ""
+        }
+      ],
+      "subjectIds": [
+        "chronology-item-4cda0aca532fe3d2",
+        "chronology-item-9e64761a0b71b7d0",
+        "chronology-item-c1777346d90629d7"
+      ]
+    },
+    {
+      "id": "test-05-ordering-q1",
+      "legacyIds": [
+        "test-05-ordering-q1"
+      ],
+      "topics": [
+        "Tests"
+      ],
+      "prompt": "Classez ces nombres du plus petit au plus grand.",
+      "answers": [],
+      "content": {
+        "items": [
+          {
+            "id": "three",
+            "text": "Trois"
+          },
+          {
+            "id": "one",
+            "text": "Un"
+          },
+          {
+            "id": "two",
+            "text": "Deux"
+          }
+        ],
+        "correctOrderIds": [
+          "one",
+          "two",
+          "three"
+        ],
+        "basePoints": 15,
+        "penaltyPoints": 0
+      },
+      "presentations": [
+        {
+          "id": "test-05-ordering-q1",
+          "label": "Chronologie",
+          "answerMode": "SIMULTANEOUS",
+          "topic": "Tests",
+          "legacyCategory": "TEST — Chronologie",
+          "legacyPackageId": "test-chronologie-20261012",
+          "content": {
+            "kind": "ordering"
+          }
+        }
+      ],
+      "legacyReviews": [],
+      "review": {
+        "questionId": "test-05-ordering-q1",
+        "prompt": "Classez ces nombres du plus petit au plus grand.",
+        "rating": 1,
+        "modification": ""
+      },
+      "reviewHistory": [
+        {
+          "questionId": "test-05-ordering-q1",
+          "legacyIds": [
+            "test-05-ordering-q1"
+          ],
+          "topics": [
+            "Tests"
+          ],
+          "prompt": "Classez ces nombres du plus petit au plus grand.",
+          "rating": 1,
+          "modification": ""
+        }
+      ],
+      "subjectIds": [
+        "chronology-item-9d90ee144fd8bfe6",
+        "chronology-item-3fb37cba0e75e82f",
+        "chronology-item-ddb3f7dd0fe74afa"
+      ]
+    },
+    {
+      "id": "test-20261012-chronologie-complement-1",
+      "legacyIds": [
+        "test-20261012-chronologie-complement-1"
+      ],
+      "topics": [
+        "Tests"
+      ],
+      "prompt": "Classez ces peintures selon leur réalisation :",
+      "answers": [],
+      "content": {
+        "basePoints": 15,
+        "penaltyPoints": 0,
+        "items": [
+          {
+            "id": "item-0",
+            "text": "La Naissance de Vénus"
+          },
+          {
+            "id": "item-1",
+            "text": "Les Ménines"
+          },
+          {
+            "id": "item-2",
+            "text": "Les Époux Arnolfini"
+          }
+        ],
+        "correctOrderIds": [
+          "item-2",
+          "item-0",
+          "item-1"
+        ]
+      },
+      "presentations": [
+        {
+          "id": "test-20261012-chronologie-complement-1",
+          "label": "Chronologie",
+          "answerMode": "SIMULTANEOUS",
+          "topic": "Tests",
+          "legacyCategory": "TEST — Chronologie",
+          "legacyPackageId": "test-chronologie-20261012",
+          "content": {
+            "kind": "ordering"
+          }
+        }
+      ],
+      "legacyReviews": [],
+      "review": {
+        "questionId": "test-20261012-chronologie-complement-1",
+        "prompt": "Classez ces peintures selon leur réalisation :",
+        "rating": 4,
+        "modification": ""
+      },
+      "reviewHistory": [
+        {
+          "questionId": "test-20261012-chronologie-complement-1",
+          "legacyIds": [
+            "test-20261012-chronologie-complement-1"
+          ],
+          "topics": [
+            "Tests"
+          ],
+          "prompt": "Classez ces peintures selon leur réalisation :",
+          "rating": 4,
+          "modification": ""
+        }
+      ],
+      "subjectIds": [
+        "chronology-item-b4fdaf00cad5aba9",
+        "subject-7552eba8cae9cd2a",
+        "subject-f6f8fd154e540c41"
+      ]
+    },
+    {
+      "id": "test-20261012-chronologie-complement-2",
+      "legacyIds": [
+        "test-20261012-chronologie-complement-2"
+      ],
+      "topics": [
+        "Tests"
+      ],
+      "prompt": "Classez ces peintures selon leur réalisation :",
+      "answers": [],
+      "content": {
+        "basePoints": 15,
+        "penaltyPoints": 0,
+        "items": [
+          {
+            "id": "item-0",
+            "text": "La Jeune Fille à la perle"
+          },
+          {
+            "id": "item-1",
+            "text": "La Ronde de nuit"
+          },
+          {
+            "id": "item-2",
+            "text": "Impression, soleil levant"
+          }
+        ],
+        "correctOrderIds": [
+          "item-1",
+          "item-0",
+          "item-2"
+        ]
+      },
+      "presentations": [
+        {
+          "id": "test-20261012-chronologie-complement-2",
+          "label": "Chronologie",
+          "answerMode": "SIMULTANEOUS",
+          "topic": "Tests",
+          "legacyCategory": "TEST — Chronologie",
+          "legacyPackageId": "test-chronologie-20261012",
+          "content": {
+            "kind": "ordering"
+          }
+        }
+      ],
+      "legacyReviews": [],
+      "review": {
+        "questionId": "test-20261012-chronologie-complement-2",
+        "prompt": "Classez ces peintures selon leur réalisation :",
+        "rating": 4,
+        "modification": ""
+      },
+      "reviewHistory": [
+        {
+          "questionId": "test-20261012-chronologie-complement-2",
+          "legacyIds": [
+            "test-20261012-chronologie-complement-2"
+          ],
+          "topics": [
+            "Tests"
+          ],
+          "prompt": "Classez ces peintures selon leur réalisation :",
+          "rating": 4,
+          "modification": ""
+        }
+      ],
+      "subjectIds": [
+        "subject-22fdf1c4f7f66b27",
+        "subject-9d141d17b2b2f0a9",
+        "subject-e192ed34faa1c345"
+      ]
+    },
+    {
+      "id": "test-20261012-chronologie-complement-3",
+      "legacyIds": [
+        "test-20261012-chronologie-complement-3"
+      ],
+      "topics": [
+        "Tests"
+      ],
+      "prompt": "Classez ces tableaux du XIXe siècle :",
+      "answers": [],
+      "content": {
+        "basePoints": 15,
+        "penaltyPoints": 0,
+        "items": [
+          {
+            "id": "item-0",
+            "text": "La Liberté guidant le peuple"
+          },
+          {
+            "id": "item-1",
+            "text": "Olympia"
+          },
+          {
+            "id": "item-2",
+            "text": "Le Radeau de la Méduse"
+          }
+        ],
+        "correctOrderIds": [
+          "item-2",
+          "item-0",
+          "item-1"
+        ]
+      },
+      "presentations": [
+        {
+          "id": "test-20261012-chronologie-complement-3",
+          "label": "Chronologie",
+          "answerMode": "SIMULTANEOUS",
+          "topic": "Tests",
+          "legacyCategory": "TEST — Chronologie",
+          "legacyPackageId": "test-chronologie-20261012",
+          "content": {
+            "kind": "ordering"
+          }
+        }
+      ],
+      "legacyReviews": [],
+      "review": {
+        "questionId": "test-20261012-chronologie-complement-3",
+        "prompt": "Classez ces tableaux du XIXe siècle :",
+        "rating": 4,
+        "modification": ""
+      },
+      "reviewHistory": [
+        {
+          "questionId": "test-20261012-chronologie-complement-3",
+          "legacyIds": [
+            "test-20261012-chronologie-complement-3"
+          ],
+          "topics": [
+            "Tests"
+          ],
+          "prompt": "Classez ces tableaux du XIXe siècle :",
+          "rating": 4,
+          "modification": ""
+        }
+      ],
+      "subjectIds": [
+        "subject-df8eefbce53d33c1",
+        "subject-72a511bb80380901",
+        "subject-3de4e2d280ec6c26"
+      ]
+    },
+    {
+      "id": "qui-suis-je-demo-01",
+      "legacyIds": [
+        "qui-suis-je-demo-01"
+      ],
+      "topics": [
+        "Tests"
+      ],
+      "prompt": "Qui suis-je ?",
+      "answers": [
+        "Un sablier",
+        "Sablier"
+      ],
+      "content": {
+        "basePoints": 20,
+        "penaltyPoints": 5,
+        "clues": [
+          "Je mesure une durée sans électricité.",
+          "On me retourne pour recommencer la mesure.",
+          "Deux réservoirs sont reliés par un passage étroit.",
+          "Du sable passe d’un réservoir à l’autre à travers un passage étroit."
+        ]
+      },
+      "presentations": [
+        {
+          "id": "qui-suis-je-demo-01",
+          "label": "Qui suis-je ?",
+          "answerMode": "BUZZER",
+          "topic": "Tests",
+          "legacyCategory": "TEST — Qui suis-je ?",
+          "legacyPackageId": "test-indices-20261012",
+          "content": {
+            "kind": "guessWho"
+          }
+        }
+      ],
+      "legacyReviews": [],
+      "review": {
+        "questionId": "qui-suis-je-demo-01",
+        "prompt": "Qui suis-je ?",
+        "rating": 2,
+        "modification": ""
+      },
+      "reviewHistory": [
+        {
+          "questionId": "qui-suis-je-demo-01",
+          "legacyIds": [
+            "qui-suis-je-demo-01"
+          ],
+          "topics": [
+            "Tests"
+          ],
+          "prompt": "Qui suis-je ?",
+          "rating": 2,
+          "modification": ""
+        }
+      ],
+      "subjectIds": [
+        "question-subject-4f3cd714b96283b4"
+      ]
+    }
+  ],
+  "retiredTestPresentations": [
+    {
+      "questionId": "architecture-buzzer-europe-20261011-01",
+      "presentation": {
+        "id": "test-20261012-buzzer-complement-1",
+        "label": "Buzzer",
+        "answerMode": "BUZZER",
+        "topic": "Tests",
+        "legacyCategory": "TEST — Buzzer",
+        "legacyPackageId": "test-buzzer-20261012",
+        "content": {
+          "basePoints": 15,
+          "penaltyPoints": 0,
+          "allowFuzzyMatch": true,
+          "imageUrl": "media/bf6a5d1088ddcbd405af7005.jpg",
+          "kind": "textAnswer"
+        }
+      }
+    },
+    {
+      "questionId": "architecture-buzzer-europe-20261011-02",
+      "presentation": {
+        "id": "test-20261012-buzzer-complement-2",
+        "label": "Buzzer",
+        "answerMode": "BUZZER",
+        "topic": "Tests",
+        "legacyCategory": "TEST — Buzzer",
+        "legacyPackageId": "test-buzzer-20261012",
+        "content": {
+          "kind": "textAnswer"
+        }
+      }
+    },
+    {
+      "questionId": "architecture-buzzer-europe-20261011-03",
+      "presentation": {
+        "id": "test-20261012-buzzer-complement-3",
+        "label": "Buzzer",
+        "answerMode": "BUZZER",
+        "topic": "Tests",
+        "legacyCategory": "TEST — Buzzer",
+        "legacyPackageId": "test-buzzer-20261012",
+        "content": {
+          "kind": "textAnswer"
+        }
+      }
+    },
+    {
+      "questionId": "architecture-buzzer-europe-20261011-04",
+      "presentation": {
+        "id": "test-20261012-buzzer-complement-4",
+        "label": "Buzzer",
+        "answerMode": "BUZZER",
+        "topic": "Tests",
+        "legacyCategory": "TEST — Buzzer",
+        "legacyPackageId": "test-buzzer-20261012",
+        "content": {
+          "basePoints": 15,
+          "penaltyPoints": 0,
+          "kind": "textAnswer",
+          "allowFuzzyMatch": true
+        }
+      }
+    },
+    {
+      "questionId": "architecture-qcm-asie-orient-20261011-01",
+      "presentation": {
+        "id": "test-20261012-qcm-complement-1",
+        "label": "Choix multiples",
+        "answerMode": "SIMULTANEOUS",
+        "topic": "Tests",
+        "legacyCategory": "TEST — QCM et images",
+        "legacyPackageId": "test-qcm-20261012",
+        "content": {
+          "kind": "multipleChoice",
+          "options": [
+            "A — Akbar",
+            "B — Aurangzeb",
+            "C — Babur",
+            "D — Shah Jahan"
+          ],
+          "correctOptionIndex": 3
+        }
+      }
+    },
+    {
+      "questionId": "architecture-qcm-asie-orient-20261011-01",
+      "presentation": {
+        "id": "test-20261012-rapidite-complement-1",
+        "label": "Choix multiples",
+        "answerMode": "SIMULTANEOUS",
+        "topic": "Tests",
+        "legacyCategory": "TEST — Rapidité",
+        "legacyPackageId": "test-rapidite-20261012",
+        "content": {
+          "options": [
+            "A — Babur",
+            "B — Aurangzeb",
+            "C — Shah Jahan",
+            "D — Akbar"
+          ],
+          "correctOptionIndex": 2,
+          "kind": "multipleChoice"
+        }
+      }
+    },
+    {
+      "questionId": "architecture-qcm-asie-orient-20261011-02",
+      "presentation": {
+        "id": "test-20261012-qcm-complement-2",
+        "label": "Choix multiples",
+        "answerMode": "SIMULTANEOUS",
+        "topic": "Tests",
+        "legacyCategory": "TEST — QCM et images",
+        "legacyPackageId": "test-qcm-20261012",
+        "content": {
+          "kind": "multipleChoice",
+          "options": [
+            "A — Les Perses achéménides",
+            "B — Les Nabatéens",
+            "C — Les Hittites",
+            "D — Les Phéniciens"
+          ],
+          "correctOptionIndex": 1
+        }
+      }
+    },
+    {
+      "questionId": "architecture-qcm-asie-orient-20261011-02",
+      "presentation": {
+        "id": "test-20261012-rapidite-complement-2",
+        "label": "Choix multiples",
+        "answerMode": "SIMULTANEOUS",
+        "topic": "Tests",
+        "legacyCategory": "TEST — Rapidité",
+        "legacyPackageId": "test-rapidite-20261012",
+        "content": {
+          "options": [
+            "A — Les Phéniciens",
+            "B — Les Hittites",
+            "C — Les Perses achéménides",
+            "D — Les Nabatéens"
+          ],
+          "correctOptionIndex": 3,
+          "kind": "multipleChoice"
+        }
+      }
+    },
+    {
+      "questionId": "architecture-qcm-asie-orient-20261011-03",
+      "presentation": {
+        "id": "test-20261012-rapidite-complement-3",
+        "label": "Choix multiples",
+        "answerMode": "SIMULTANEOUS",
+        "topic": "Tests",
+        "legacyCategory": "TEST — Rapidité",
+        "legacyPackageId": "test-rapidite-20261012",
+        "content": {
+          "kind": "multipleChoice"
+        }
+      }
+    },
+    {
+      "questionId": "architecture-qcm-asie-orient-20261011-04",
+      "presentation": {
+        "id": "test-20261012-rapidite-complement-4",
+        "label": "Choix multiples",
+        "answerMode": "SIMULTANEOUS",
+        "topic": "Tests",
+        "legacyCategory": "TEST — Rapidité",
+        "legacyPackageId": "test-rapidite-20261012",
+        "content": {
+          "options": [
+            "A — Le shintoïsme",
+            "B — Le bouddhisme",
+            "C — Le taoïsme",
+            "D — Le zoroastrisme"
+          ],
+          "correctOptionIndex": 1,
+          "kind": "multipleChoice"
+        }
+      }
+    },
+    {
+      "questionId": "architecture-qsj-antiquite-20261011-01",
+      "presentation": {
+        "id": "test-20261012-indices-complement-1",
+        "label": "Qui suis-je ?",
+        "answerMode": "BUZZER",
+        "topic": "Tests",
+        "legacyCategory": "TEST — Qui suis-je ?",
+        "legacyPackageId": "test-indices-20261012",
+        "content": {
+          "basePoints": 20,
+          "penaltyPoints": 5,
+          "clues": [
+            "Mon chantier commence sous Vespasien, puis Titus m’inaugure en 80 de notre ère.",
+            "Mon plan elliptique entoure une arène et des gradins.",
+            "Des gladiateurs et des animaux ont participé aux spectacles que j’accueillais.",
+            "Je suis le célèbre amphithéâtre antique de Rome."
+          ],
+          "kind": "guessWho"
+        }
+      }
+    },
+    {
+      "questionId": "architecture-qsj-antiquite-20261011-02",
+      "presentation": {
+        "id": "test-20261012-indices-complement-2",
+        "label": "Qui suis-je ?",
+        "answerMode": "BUZZER",
+        "topic": "Tests",
+        "legacyCategory": "TEST — Qui suis-je ?",
+        "legacyPackageId": "test-indices-20261012",
+        "content": {
+          "kind": "guessWho"
+        }
+      }
+    },
+    {
+      "questionId": "architecture-qsj-antiquite-20261011-03",
+      "presentation": {
+        "id": "test-20261012-indices-complement-3",
+        "label": "Qui suis-je ?",
+        "answerMode": "BUZZER",
+        "topic": "Tests",
+        "legacyCategory": "TEST — Qui suis-je ?",
+        "legacyPackageId": "test-indices-20261012",
+        "content": {
+          "clues": [
+            "Je suis un monument funéraire de la IVe dynastie égyptienne.",
+            "Je suis la seule merveille de l’Antiquité encore largement conservée.",
+            "Deux autres grandes pyramides se dressent à mes côtés.",
+            "Je suis la plus imposante des trois pyramides du plateau de Gizeh."
+          ],
+          "kind": "guessWho"
+        }
+      }
+    },
+    {
+      "questionId": "geo-afrique-20261010-01",
+      "presentation": {
+        "id": "test-09-carte-qcm-q1",
+        "label": "Choix multiples",
+        "answerMode": "SIMULTANEOUS",
+        "topic": "Tests",
+        "legacyCategory": "TEST — QCM et images",
+        "legacyPackageId": "test-qcm-20261012",
+        "content": {
+          "kind": "multipleChoice"
+        }
+      }
+    },
+    {
+      "questionId": "lib-qcm-science-generale-20261012-01",
+      "presentation": {
+        "id": "test-01-qcm-q1",
+        "label": "Choix multiples",
+        "answerMode": "SIMULTANEOUS",
+        "topic": "Tests",
+        "legacyCategory": "TEST — QCM et images",
+        "legacyPackageId": "test-qcm-20261012",
+        "content": {
+          "basePoints": 15,
+          "penaltyPoints": 0,
+          "kind": "multipleChoice",
+          "options": [
+            "A — Jupiter",
+            "B — Saturne",
+            "C — Mars",
+            "D — Vénus"
+          ],
+          "correctOptionIndex": 2
+        }
+      }
+    },
+    {
+      "questionId": "lib-qcm-science-generale-20261012-01",
+      "presentation": {
+        "id": "test-07-wager-q1",
+        "label": "Choix multiples",
+        "answerMode": "SIMULTANEOUS",
+        "topic": "Tests",
+        "legacyCategory": "TEST — QCM et images",
+        "legacyPackageId": "test-qcm-20261012",
+        "content": {
+          "basePoints": 15,
+          "penaltyPoints": 0,
+          "kind": "multipleChoice",
+          "options": [
+            "A — Mars",
+            "B — Saturne",
+            "C — Vénus",
+            "D — Jupiter"
+          ],
+          "correctOptionIndex": 0
+        }
+      }
+    },
+    {
+      "questionId": "lib-qcm-science-generale-20261012-01",
+      "presentation": {
+        "id": "test-03-qui-suis-je-q1",
+        "label": "Qui suis-je ?",
+        "answerMode": "BUZZER",
+        "topic": "Tests",
+        "legacyCategory": "TEST — Qui suis-je ?",
+        "legacyPackageId": "test-indices-20261012",
+        "content": {
+          "clues": [
+            "Je suis une planète rocheuse.",
+            "Deux petits satellites tournent autour de moi.",
+            "Mon sol riche en oxyde de fer me donne une couleur caractéristique.",
+            "On me surnomme la planète rouge."
+          ],
+          "basePoints": 20,
+          "penaltyPoints": 5,
+          "kind": "guessWho",
+          "prompt": "Qui suis-je ?"
+        }
+      }
+    },
+    {
+      "questionId": "lib-qcm-science-generale-20261012-01",
+      "presentation": {
+        "id": "test-08-speed-race-q1",
+        "label": "Choix multiples",
+        "answerMode": "SIMULTANEOUS",
+        "topic": "Tests",
+        "legacyCategory": "TEST — Rapidité",
+        "legacyPackageId": "test-rapidite-20261012",
+        "content": {
+          "basePoints": 15,
+          "penaltyPoints": 0,
+          "options": [
+            "A — Vénus",
+            "B — Mars",
+            "C — Jupiter",
+            "D — Saturne"
+          ],
+          "correctOptionIndex": 1,
+          "kind": "multipleChoice"
+        }
+      }
+    },
+    {
+      "questionId": "lib-qsj-geographie-villes-20261012-01",
+      "presentation": {
+        "id": "test-02-buzzer-q1",
+        "label": "Buzzer",
+        "answerMode": "BUZZER",
+        "topic": "Tests",
+        "legacyCategory": "TEST — Buzzer",
+        "legacyPackageId": "test-buzzer-20261012",
+        "content": {
+          "basePoints": 15,
+          "penaltyPoints": 0,
+          "kind": "textAnswer",
+          "prompt": "Quelle est la capitale de la France ?"
+        }
+      }
+    }
+  ],
+  "duplicatePairs": [
+    {
+      "retainedQuestionBeforeMerge": {
+        "id": "image-qsj-arts-baiser",
+        "legacyIds": [
+          "image-qsj-arts-baiser"
+        ],
+        "topics": [
+          "Arts"
+        ],
+        "prompt": "Qui suis-je ?",
+        "answers": [
+          "Le Baiser de Gustav Klimt",
+          "Le Baiser"
+        ],
+        "content": {},
+        "presentations": [
+          {
+            "id": "image-qsj-arts-baiser",
+            "label": "Qui suis-je ? — image",
+            "answerMode": "BUZZER",
+            "topic": "Arts",
+            "legacyCategory": "Arts — Peintures célèbres — Qui suis-je ?",
+            "legacyPackageId": "image-qsj-peintures-celebres",
+            "content": {
+              "kind": "guessWho",
+              "prompt": "Qui suis-je ?",
+              "clues": [],
+              "imageRevealMode": "PIXELATE",
+              "imageRevealSteps": 6,
+              "imageUrl": "media/19170a76808466244878e757.jpg",
+              "basePoints": 30,
+              "penaltyPoints": 0
+            }
+          }
+        ],
+        "explanation": "The Kiss (Klimt) — Gustav Klimt.",
+        "legacyReviews": [],
+        "imageFacts": {
+          "subjectType": "painting",
+          "subjectTitle": "The Kiss",
+          "facts": [
+            {
+              "kind": "work_title",
+              "value": "The Kiss",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+            },
+            {
+              "kind": "media_creator",
+              "role": "image credit; not necessarily subject creator",
+              "value": "Gustav Klimt",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+            },
+            {
+              "kind": "subject_creator",
+              "role": "painter",
+              "value": "Gustav Klimt",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+            }
+          ],
+          "sources": [
+            "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+          ]
+        },
+        "subjectIds": [
+          "subject-2cf9000992319809"
+        ]
+      },
+      "duplicateQuestionBeforeMerge": {
+        "id": "image-qsj-painting-rank-011",
+        "legacyIds": [
+          "image-qsj-painting-rank-011"
+        ],
+        "topics": [
+          "Arts"
+        ],
+        "prompt": "Qui suis-je ?",
+        "answers": [
+          "The Kiss",
+          "Le Baiser"
+        ],
+        "content": {},
+        "presentations": [
+          {
+            "id": "image-qsj-painting-rank-011",
+            "label": "Qui suis-je ? — image",
+            "answerMode": "BUZZER",
+            "topic": "Arts",
+            "legacyCategory": "Arts — Peintures célèbres — Qui suis-je ?",
+            "legacyPackageId": "image-qsj-peintures-celebres",
+            "content": {
+              "kind": "guessWho",
+              "prompt": "Qui suis-je ?",
+              "clues": [],
+              "imageRevealMode": "PIXELATE",
+              "imageRevealSteps": 6,
+              "imageUrl": "media/19170a76808466244878e757.jpg",
+              "basePoints": 30,
+              "penaltyPoints": 0
+            }
+          }
+        ],
+        "explanation": "The Kiss — Gustav Klimt, c. 1907–1908.\n\nTitre français : Le Baiser.",
+        "legacyReviews": [],
+        "imageFacts": {
+          "subjectType": "painting",
+          "subjectTitle": "The Kiss",
+          "facts": [
+            {
+              "kind": "work_title",
+              "value": "The Kiss",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+            },
+            {
+              "kind": "media_creator",
+              "role": "image credit; not necessarily subject creator",
+              "value": "Gustav Klimt",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+            },
+            {
+              "kind": "subject_creator",
+              "role": "painter",
+              "value": "Gustav Klimt",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+            }
+          ],
+          "sources": [
+            "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg"
+          ],
+          "frenchTitle": "Le Baiser"
+        },
+        "subjectIds": [
+          "subject-2cf9000992319809"
+        ]
+      }
+    },
+    {
+      "retainedQuestionBeforeMerge": {
+        "id": "image-qsj-arts-radeau",
+        "legacyIds": [
+          "image-qsj-arts-radeau"
+        ],
+        "topics": [
+          "Arts"
+        ],
+        "prompt": "Qui suis-je ?",
+        "answers": [
+          "Le Radeau de la Méduse"
+        ],
+        "content": {},
+        "presentations": [
+          {
+            "id": "image-qsj-arts-radeau",
+            "label": "Qui suis-je ? — image",
+            "answerMode": "BUZZER",
+            "topic": "Arts",
+            "legacyCategory": "Arts — Peintures célèbres — Qui suis-je ?",
+            "legacyPackageId": "image-qsj-peintures-celebres",
+            "content": {
+              "kind": "guessWho",
+              "prompt": "Qui suis-je ?",
+              "clues": [],
+              "imageRevealMode": "PIXELATE",
+              "imageRevealSteps": 6,
+              "imageUrl": "media/be7710ade6b8486af612211c.jpg",
+              "basePoints": 30,
+              "penaltyPoints": 0
+            }
+          }
+        ],
+        "explanation": "The Raft of the Medusa — Théodore Géricault.",
+        "legacyReviews": [],
+        "imageFacts": {
+          "subjectType": "painting",
+          "subjectTitle": "The Raft of the Medusa",
+          "facts": [
+            {
+              "kind": "work_title",
+              "value": "The Raft of the Medusa",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre%2C_1818-19).jpg"
+            },
+            {
+              "kind": "media_creator",
+              "role": "image credit; not necessarily subject creator",
+              "value": "Théodore Géricault",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre%2C_1818-19).jpg"
+            },
+            {
+              "kind": "subject_creator",
+              "role": "painter",
+              "value": "Théodore Géricault",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre%2C_1818-19).jpg"
+            }
+          ],
+          "sources": [
+            "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre%2C_1818-19).jpg"
+          ]
+        },
+        "subjectIds": [
+          "subject-3de4e2d280ec6c26"
+        ]
+      },
+      "duplicateQuestionBeforeMerge": {
+        "id": "image-qsj-painting-rank-025",
+        "legacyIds": [
+          "image-qsj-painting-rank-025"
+        ],
+        "topics": [
+          "Arts"
+        ],
+        "prompt": "Qui suis-je ?",
+        "answers": [
+          "The Raft of the Medusa",
+          "Le Radeau de La Méduse"
+        ],
+        "content": {},
+        "presentations": [
+          {
+            "id": "image-qsj-painting-rank-025",
+            "label": "Qui suis-je ? — image",
+            "answerMode": "BUZZER",
+            "topic": "Arts",
+            "legacyCategory": "Arts — Peintures célèbres — Qui suis-je ?",
+            "legacyPackageId": "image-qsj-peintures-celebres",
+            "content": {
+              "kind": "guessWho",
+              "prompt": "Qui suis-je ?",
+              "clues": [],
+              "imageRevealMode": "PIXELATE",
+              "imageRevealSteps": 6,
+              "imageUrl": "media/be7710ade6b8486af612211c.jpg",
+              "basePoints": 30,
+              "penaltyPoints": 0
+            }
+          }
+        ],
+        "explanation": "The Raft of the Medusa — Théodore Géricault, 1819.\n\nTitre français : Le Radeau de La Méduse.",
+        "legacyReviews": [],
+        "imageFacts": {
+          "subjectType": "painting",
+          "subjectTitle": "The Raft of the Medusa",
+          "facts": [
+            {
+              "kind": "work_title",
+              "value": "The Raft of the Medusa",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre%2C_1818-19).jpg"
+            },
+            {
+              "kind": "media_creator",
+              "role": "image credit; not necessarily subject creator",
+              "value": "Théodore Géricault",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre%2C_1818-19).jpg"
+            },
+            {
+              "kind": "subject_creator",
+              "role": "painter",
+              "value": "Théodore Géricault",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre%2C_1818-19).jpg"
+            }
+          ],
+          "sources": [
+            "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre%2C_1818-19).jpg"
+          ],
+          "frenchTitle": "Le Radeau de La Méduse"
+        },
+        "subjectIds": [
+          "subject-3de4e2d280ec6c26"
+        ]
+      }
+    },
+    {
+      "retainedQuestionBeforeMerge": {
+        "id": "image-qsj-arts-ronde",
+        "legacyIds": [
+          "image-qsj-arts-ronde"
+        ],
+        "topics": [
+          "Arts"
+        ],
+        "prompt": "Qui suis-je ?",
+        "answers": [
+          "La Ronde de nuit",
+          "La Garde de nuit"
+        ],
+        "content": {},
+        "presentations": [
+          {
+            "id": "image-qsj-arts-ronde",
+            "label": "Qui suis-je ? — image",
+            "answerMode": "BUZZER",
+            "topic": "Arts",
+            "legacyCategory": "Arts — Peintures célèbres — Qui suis-je ?",
+            "legacyPackageId": "image-qsj-peintures-celebres",
+            "content": {
+              "kind": "guessWho",
+              "prompt": "Qui suis-je ?",
+              "clues": [],
+              "imageRevealMode": "PIXELATE",
+              "imageRevealSteps": 6,
+              "imageUrl": "media/b38a8b6f0c3b439505f37b35.jpg",
+              "basePoints": 30,
+              "penaltyPoints": 0
+            }
+          }
+        ],
+        "explanation": "The Night Watch — Rembrandt.",
+        "legacyReviews": [],
+        "imageFacts": {
+          "subjectType": "painting",
+          "subjectTitle": "The Night Watch",
+          "facts": [
+            {
+              "kind": "work_title",
+              "value": "The Night Watch",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
+            },
+            {
+              "kind": "media_creator",
+              "role": "image credit; not necessarily subject creator",
+              "value": "Rembrandt",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
+            },
+            {
+              "kind": "subject_creator",
+              "role": "painter",
+              "value": "Rembrandt",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
+            }
+          ],
+          "sources": [
+            "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
+          ]
+        },
+        "subjectIds": [
+          "subject-9d141d17b2b2f0a9"
+        ]
+      },
+      "duplicateQuestionBeforeMerge": {
+        "id": "image-qsj-painting-rank-027",
+        "legacyIds": [
+          "image-qsj-painting-rank-027"
+        ],
+        "topics": [
+          "Arts"
+        ],
+        "prompt": "Qui suis-je ?",
+        "answers": [
+          "The Night Watch",
+          "La Ronde de nuit"
+        ],
+        "content": {},
+        "presentations": [
+          {
+            "id": "image-qsj-painting-rank-027",
+            "label": "Qui suis-je ? — image",
+            "answerMode": "BUZZER",
+            "topic": "Arts",
+            "legacyCategory": "Arts — Peintures célèbres — Qui suis-je ?",
+            "legacyPackageId": "image-qsj-peintures-celebres",
+            "content": {
+              "kind": "guessWho",
+              "prompt": "Qui suis-je ?",
+              "clues": [],
+              "imageRevealMode": "PIXELATE",
+              "imageRevealSteps": 6,
+              "imageUrl": "media/b38a8b6f0c3b439505f37b35.jpg",
+              "basePoints": 30,
+              "penaltyPoints": 0
+            }
+          }
+        ],
+        "explanation": "The Night Watch — Rembrandt, 1642.\n\nTitre français : La Ronde de nuit.",
+        "legacyReviews": [],
+        "imageFacts": {
+          "subjectType": "painting",
+          "subjectTitle": "The Night Watch",
+          "facts": [
+            {
+              "kind": "work_title",
+              "value": "The Night Watch",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
+            },
+            {
+              "kind": "media_creator",
+              "role": "image credit; not necessarily subject creator",
+              "value": "Rembrandt",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
+            },
+            {
+              "kind": "subject_creator",
+              "role": "painter",
+              "value": "Rembrandt",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
+            }
+          ],
+          "sources": [
+            "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"
+          ],
+          "frenchTitle": "La Ronde de nuit"
+        },
+        "subjectIds": [
+          "subject-9d141d17b2b2f0a9"
+        ]
+      }
+    }
+  ]
+}

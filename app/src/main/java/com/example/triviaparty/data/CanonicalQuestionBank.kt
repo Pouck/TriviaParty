@@ -16,7 +16,7 @@ data class CanonicalQuestionBank(
     val taxonomy: List<BankTaxonomyTag> = emptyList()
 ) {
     init {
-        require(schemaVersion in 2..3)
+        require(schemaVersion in 2..4)
         require(questions.map { it.id }.distinct().size == questions.size)
         val aliases = questions.flatMap { it.legacyIds }
         require(aliases.distinct().size == aliases.size)
@@ -29,6 +29,13 @@ data class CanonicalQuestionBank(
             require(subjects.flatMap { it.relations }.all { it.targetId in subjectIds })
             require(subjects.flatMap { it.tagIds }.all(tagIds::contains))
             require(taxonomy.all { it.parentId == null || it.parentId in tagIds })
+            if (schemaVersion >= 4) {
+                require(subjects.flatMap { it.chronologyFacts }.all { fact ->
+                    fact.contextId.isNotBlank() && fact.earliestYear <= fact.latestYear &&
+                        fact.precision in setOf("year", "year-range", "circa-year") &&
+                        fact.sourceName.isNotBlank() && fact.sourceUrl.startsWith("https://")
+                })
+            }
         }
     }
 
@@ -101,7 +108,8 @@ data class BankSubject(
     val sourceQuestionIds: List<String> = emptyList(),
     val identityStatus: String,
     val sources: List<String> = emptyList(),
-    val candidateSubjectIds: List<String> = emptyList()
+    val candidateSubjectIds: List<String> = emptyList(),
+    val chronologyFacts: List<BankChronologyFact> = emptyList()
 )
 
 @Serializable
@@ -122,6 +130,16 @@ data class BankChronologyEvidence(
     val sourcePrompt: String,
     val position: Int? = null,
     val itemId: String? = null
+)
+
+@Serializable
+data class BankChronologyFact(
+    val contextId: String,
+    val earliestYear: Int,
+    val latestYear: Int,
+    val precision: String,
+    val sourceName: String,
+    val sourceUrl: String
 )
 
 @Serializable

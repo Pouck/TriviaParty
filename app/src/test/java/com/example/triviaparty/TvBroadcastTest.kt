@@ -23,12 +23,13 @@ import java.net.ServerSocket
 import java.io.File
 import java.net.URL
 import java.net.HttpURLConnection
+import kotlin.io.path.createTempDirectory
 
 class TvBroadcastTest {
     @Test
     fun importedImagesAreServedOnlyFromPackageImageFolders() = runBlocking {
         val port = ServerSocket(0).use { it.localPort }
-        val packageRoot = createTempDir(prefix = "tv-media-")
+        val packageRoot = createTempDirectory("tv-media-").toFile()
         val image = File(packageRoot, "charades/images/nun-ace.png")
         image.parentFile?.mkdirs()
         val imageBytes = byteArrayOf(1, 2, 3, 4)
@@ -119,14 +120,14 @@ class TvBroadcastTest {
                 try {
                     host.receiveState()
                     tv.receiveState()
-                    val start: GameEvent = GameEvent.HostStartGame(
-                        categories = QuestionBankRepository.sampleCategories,
-                        totalRounds = 2
-                    )
-                    host.send(Frame.Text(Json.encodeToString(start)))
                     val expectedRounds = QuestionBankRepository.sampleCategories.sumOf {
                         QuestionBankRepository.getQuestionsForCategory(it).size
                     }
+                    val start: GameEvent = GameEvent.HostStartGame(
+                        categories = QuestionBankRepository.sampleCategories,
+                        totalRounds = expectedRounds
+                    )
+                    host.send(Frame.Text(Json.encodeToString(start)))
                     assertEquals(expectedRounds, host.receiveState().session.totalRounds)
                     val tvState = tv.receiveState().session
                     assertEquals(expectedRounds, tvState.totalRounds)

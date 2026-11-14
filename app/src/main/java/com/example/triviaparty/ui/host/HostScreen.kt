@@ -18,7 +18,8 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.layout.ContentScale
 import coil.compose.AsyncImage
 import com.example.triviaparty.cast.GoogleCastController
-import com.example.triviaparty.ui.cast.GoogleCastDeviceList
+import com.example.triviaparty.ui.cast.GoogleCastButton
+import com.example.triviaparty.ui.cast.GoogleCastDeviceStatus
 import com.example.triviaparty.data.QuestionBankRepository
 import com.example.triviaparty.model.CategoryGameRules
 import com.example.triviaparty.model.GameSession
@@ -59,8 +60,8 @@ fun HostScreen(
     categoryRules: Map<String, CategoryGameRules> = emptyMap(),
     voteSettings: com.example.triviaparty.model.VoteSettings? = null,
     allAudiencesOnly: Boolean = false,
-    answerSoundsEnabled: Boolean = true,
-    buzzerSoundsEnabled: Boolean = true,
+    answerSoundsEnabled: Boolean = false,
+    buzzerSoundsEnabled: Boolean = false,
     teamMode: Boolean = false,
     startNewGame: Boolean = true,
     onGameStarted: () -> Unit = {},
@@ -171,7 +172,11 @@ fun HostScreen(
         ) {
             HeaderButton("JOINDRE", onClick = { showJoinDialog = true })
             HeaderButton("SCORE", onClick = { showScoreDialog = true })
-            HeaderButton("TV", onClick = { showCastDialog = true })
+            GoogleCastButton(
+                Modifier.width(44.dp).height(44.dp)
+                    .background(Color(0xFF414157), RoundedCornerShape(8.dp))
+            )
+            if (castStatus.connected) HeaderButton("SON", onClick = { showCastDialog = true })
             game?.currentQuestion?.let { question ->
                 HeaderButton("NOTE", onClick = {
                     reviewing=reviewStore.read().reviews[question.id] ?: com.example.triviaparty.data.QuestionReview(question.id,question.category,
@@ -191,15 +196,11 @@ fun HostScreen(
     }
 
     if (showCastDialog) {
-        DisposableEffect(googleCast) {
-            googleCast.startDiscovery()
-            onDispose { googleCast.stopDiscovery() }
-        }
         AlertDialog(onDismissRequest = { showCastDialog = false },
             title = { Text("Diffuser la page de jeu") },
             text = { Column(Modifier.heightIn(max = 360.dp).verticalScroll(rememberScrollState())) {
                 Text("Le téléviseur reçoit une page indépendante. Les commandes restent sur le Pixel.")
-                GoogleCastDeviceList(googleCast, scanning = true)
+                GoogleCastDeviceStatus(googleCast)
                 if (castStatus.connected) {
                     Button(onClick = { googleCast.testAudio() }) { Text("Tester le son TV") }
                     castStatus.audioStatus?.let { Text(it, fontSize = 14.sp) }

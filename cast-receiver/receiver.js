@@ -16,6 +16,7 @@
 
   function safeImageUrl(value, pageLocation, allowedOrigin) {
     if (typeof value !== "string") return null;
+    if (value.indexOf("data:image/") === 0) return value;
     try {
       var url = new URL(value);
       var currentLocation = pageLocation || root.location;
@@ -335,7 +336,7 @@
       }
       var url = origin + '/tv/sounds/' + file + (audioVersion?'?v='+encodeURIComponent(audioVersion):'');
       if (!audio) audio = new root.Audio(url); else audio.src = url;
-      audio.volume = 1;
+      audio.volume = /^game-end/.test(file) ? 0.38 : 0.70;
       audio.preload = 'auto';
       var thisAttempt = ++attempt;
       audio.onerror = function () { if (thisAttempt === attempt) report({name:"MediaError",code:audio.error&&audio.error.code}); };
@@ -365,7 +366,9 @@
       test: function () { debugOwner=true; resumeBuzzer(); play("enabled.wav"); },
       setVersion: function(version) { audioVersion=typeof version==='string'?version:null;warmBuzzer(); },
       setOrigin: function (joinUrl) {
-        try { origin = options.localAudio && root.location ? root.location.origin : new URL(joinUrl).origin; } catch (_) {}
+        try {
+          origin = root.location ? root.location.origin : (joinUrl ? new URL(joinUrl).origin : null);
+        } catch (_) {}
       },
       play: play, setMusic: syncMusic, playSequence: function (files) {
         if(!files.length || !debugOwner) return;
@@ -580,10 +583,8 @@
       soundPlayer.setVersion(state.audioBankVersion);
       var musicMode=state.inRoundMusicMode||null;
       if(state.answerSecondsRemaining!=null)musicMode=null;
-      var musicKey=musicMode==='GUESS_WHO'
-        ? state.roomId+'/'+(state.question&&state.question.id||state.round)+'/clue/'+state.flip
-        : musicMode==='IMAGE_GUESS_WHO' ? state.roomId+'/'+(state.question&&state.question.id||state.round)+'/image-theme'
-        : musicMode ? state.roomId+'/'+(state.question&&state.question.id||state.round)+'/thinking' : null;
+      var musicKey=musicMode==='GUESS_WHO' || musicMode==='IMAGE_GUESS_WHO' || musicMode
+        ? state.roomId+'/'+(state.question&&state.question.id||state.round)+'/thinking' : null;
       soundPlayer.setMusic(musicMode?{mode:musicMode,key:musicKey,paused:!!state.timerPaused,duration:state.secondsPerFlip||32,speedUp:!!state.speedUpMusicForClueTransition}:null);
       if(musicKey && pendingMusicKey===musicKey && pendingMusicTimer){pendingMusicState=state;return;}
       if(musicKey && musicKey!==revealedMusicKey){
@@ -614,45 +615,11 @@
         if (feedbackTimeout) root.clearTimeout(feedbackTimeout);
         clear(feedback);
         var mark = node('span', null, 'brush-mark');
-        // Animated SVG masks reveal the original bitmap along each brush stroke.
-        var svgNamespace = 'http://www.w3.org/2000/svg';
-        function svgNode(tag, attributes) {
-          var element = doc.createElementNS(svgNamespace, tag);
-          Object.keys(attributes).forEach(function (name) { element.setAttribute(name, attributes[name]); });
-          return element;
-        }
-        var svg = svgNode('svg', {viewBox:'0 0 1 1', width:'100%', height:'100%', 'aria-hidden':'true'});
-        var defs = svgNode('defs', {}); svg.appendChild(defs);
-        var sourceScript = doc.querySelector && doc.querySelector('script[src$="receiver.js"]');
-        var imageBase = sourceScript ? sourceScript.src.replace(/[^/]*$/, '') : '/tv/';
-        function paintedImage(file, maskId, mirrored, clipId) {
-          var image = svgNode('image', {x:0, y:0, width:1, height:1, mask:'url(#' + maskId + ')', href:imageBase + file});
-          if (image.setAttributeNS) image.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', imageBase + file);
-          if (mirrored) image.setAttribute('transform', 'translate(1 0) scale(-1 1)');
-          if (clipId) image.setAttribute('clip-path', 'url(#' + clipId + ')');
-          svg.appendChild(image);
-        }
-        var paths = state.answerSound === 'good' ? ['M -.04 .37 L .44 .93', 'M .34 .94 L 1 -.02'] : ['M 0 0 L 1 1', 'M 0 0 L 1 1'];
-        paths.forEach(function (path, index) {
-          // A flat reveal front keeps the visible tip moving until each stroke ends.
-          var stroke = svgNode('path', {d:path, pathLength:1, fill:'none', stroke:'white', 'stroke-width':.32, 'stroke-linecap':'butt', 'class':'paint-stroke stroke-' + index});
-          var maskId = 'feedback-paint-mask-' + index;
-          var strokeMask = svgNode('mask', {id:maskId, maskUnits:'userSpaceOnUse', x:0, y:0, width:1, height:1});
-          strokeMask.appendChild(stroke); defs.appendChild(strokeMask);
-          if (state.answerSound === 'bad') paintedImage('feedback-red-stroke.png', maskId, index === 1);
-          else {
-            // Partition the checkmark at its bend so the short stroke cannot pre-reveal the long one.
-            var clipId = 'feedback-check-part-' + index;
-            var clip = svgNode('clipPath', {id:clipId, clipPathUnits:'userSpaceOnUse'});
-            clip.appendChild(svgNode('rect', {x:index === 0 ? 0 : .43, y:0, width:index === 0 ? .43 : .57, height:1}));
-            defs.appendChild(clip); paintedImage('feedback-good.png', maskId, false, clipId);
-          }
-        });
-        mark.appendChild(svg); feedback.appendChild(mark);
+        feedback.appendChild(mark);
         feedback.className = 'answer-feedback ' + state.answerSound;
-        feedback.setAttribute('aria-label',state.answerSound === 'good' ? 'Bonne réponse' : 'Mauvaise réponse');
+        feedback.setAttribute('aria-label', state.answerSound === 'good' ? 'Bonne réponse' : 'Mauvaise réponse');
         feedback.style.display = 'flex';
-        feedbackTimeout = root.setTimeout(function () { feedback.style.display = 'none'; },2200);
+        feedbackTimeout = root.setTimeout(function () { feedback.style.display = 'none'; }, 2200);
         try { if(state.answerSoundPlaybackEnabled!==false) {
           var classicalClip=state.answerSound==='good'?'aria-correct.wav':'variation15-incorrect.wav';
           if(state.answerSoundClip===classicalClip) soundPlayer.playSequence([classicalClip]);
@@ -788,7 +755,7 @@
       if (sceneKey === lastScene) return;
       lastScene = sceneKey;
       var scene = doc.getElementById("scene");
-      Array.prototype.forEach.call(scene.querySelectorAll("canvas.progressive-image"), stopImageReveal);
+      if (scene.querySelectorAll) Array.prototype.forEach.call(scene.querySelectorAll("canvas.progressive-image"), stopImageReveal);
       clear(scene);
       scene.className = state.phase === "WAGER_RESULTS" ? "wager-results-scene" : state.phase === "CATEGORY_INTRO" ? "category-intro-scene" : state.phase === "WAGER_OPEN" ? "wager-open-scene" : "";
       var categoryHash = Array.from(state.category || '').reduce(function (hash, character) { return (hash * 31 + character.charCodeAt(0)) | 0; }, 0);
@@ -837,7 +804,7 @@
         case "LOBBY":
           scene.appendChild(node("h1", state.subjectVote && state.subjectVote.completed ? "Sujets retenus" : "Rejoignez la partie !"));
           if (state.subjectVote && state.subjectVote.completed) scene.appendChild(node("p", state.subjectVote.selected.join(" · ")));
-          var qrUrl = safeImageUrl(state.joinQrUrl);
+          var qrUrl = safeImageUrl(state.joinQrUrl, root.location, allowedMediaOrigin);
           if (qrUrl) {
             var qr = node("img", null, "join-qr"); qr.src = qrUrl; qr.alt = "Code QR pour rejoindre la partie";
             scene.appendChild(qr);

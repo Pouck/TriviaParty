@@ -1,6 +1,6 @@
 # Question bank
 
-`questions.json` is the authoritative question bank (schema version 3). It
+`questions.json` is the authoritative question bank (schema version 4). It
 separates canonical subjects from authored questions, independent of game
 packages. Do not rebuild it from package ZIPs.
 
@@ -26,8 +26,10 @@ Each authored question owns:
   Ratings that disagree are retained separately instead of being overwritten.
 
 `media/` contains images addressed by content hash; shared images are stored once.
-`migration.json` records the consolidation and original IDs. No original IDs or
-presentations were discarded. Homonyms such as the novel and cathedral named
+`migration.json` records the consolidation and original IDs. Exact duplicate
+image questions and test/demo-only records are excluded from active play data;
+their original records and retired presentations are preserved in the
+`review-backups/` audit archive. Homonyms such as the novel and cathedral named
 Notre-Dame de Paris remain separate questions.
 
 Progressive image-identification presentations authored from the existing photo
@@ -49,9 +51,13 @@ Legacy chronology questions are still retained for compatibility. Their
 `subjectIds` reference reusable chronology subjects, and each subject retains
 `chronologyEvidence` from the authored ordering lists. Ambiguous title matches
 remain unresolved with candidate IDs. The data does not yet invent absolute
-dates or combine incompatible comparison contexts; chronology pools can grow
-once subjects have verified sortable facts such as creation, publication, or
-event dates.
+dates or combine incompatible comparison contexts. Verified `chronologyFacts`
+store a context, inclusive year bounds, precision and source; the Android bank
+repository can build ordering questions only when all selected subjects have
+non-overlapping facts in the same context. Enriched pools currently include
+creation dates for 20 paintings and first-comic-appearance dates for 15 series
+or characters. Those contexts are separate and cannot be mixed. Approximate
+dates and ambiguous legacy labels remain excluded from automatic ordering.
 
 ## Authoring and review
 
