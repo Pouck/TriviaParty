@@ -97,6 +97,7 @@ fun HostScreen(
     LaunchedEffect(connectionAttempt) {
         startupTimedOut = false
         server.start()
+        com.example.triviaparty.network.HostKeepAliveService.start(reviewContext)
         if (shouldStartNewGame || client.connectionState.value != ClientConnectionState.CONNECTED) {
             delay(300)
             client.connect(hostIp = "127.0.0.1") {
@@ -189,6 +190,7 @@ fun HostScreen(
             HeaderButton("FIN", color = Color(0xFFB74343)) {
                 googleCast.stopCasting()
                 server.stop()
+                com.example.triviaparty.network.HostKeepAliveService.stop(reviewContext)
                 client.disconnect()
                 onBackToMain()
             }
