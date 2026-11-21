@@ -215,6 +215,100 @@
     draw();
   }
 
+  // Some Cast devices cannot start HTMLMediaElement playback (PIPELINE_ERROR_INITIALIZATION_FAILED)
+  // although Web Audio works. This wrapper offers the small subset of the Audio element API
+  // used below (play/pause/currentTime/volume/playbackRate/onended/onerror) on top of Web Audio.
+  function WebAudioElement(context, url) {
+    var self = this, buffer = null, loading = null, loadedUrl = null, source = null, gain = null;
+    var src = url || '', volume = 1, rate = 1, offset = 0, startedAt = 0;
+    self.paused = true; self.ended = false; self.muted = false; self.preload = 'auto';
+    self.error = null; self.onended = null; self.onerror = null;
+    function position() {
+      if (self.paused) return offset;
+      var length = buffer ? buffer.duration : 0;
+      var played = offset + (context.currentTime - startedAt) * rate;
+      return length ? Math.min(played, length) : played;
+    }
+    function stopSource() {
+      if (!source) return;
+      source.onended = null;
+      try { source.stop(0); } catch (_) {}
+      try { source.disconnect(); } catch (_) {}
+      source = null;
+    }
+    function applyGain() { if (gain) gain.gain.value = self.muted ? 0 : volume; }
+    function fail(code) {
+      self.error = { code: code, message: 'WebAudio load failed' };
+      if (typeof self.onerror === 'function') { try { self.onerror({ target: self }); } catch (_) {} }
+    }
+    function load() {
+      if (loading && loadedUrl === src) return loading;
+      var requested = loadedUrl = src;
+      buffer = null; self.error = null;
+      loading = root.fetch(requested).then(function (response) {
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        return response.arrayBuffer();
+      }).then(function (bytes) {
+        return new Promise(function (resolve, reject) {
+          var pending = context.decodeAudioData(bytes, resolve, reject);
+          if (pending && pending.then) pending.then(resolve, reject);
+        });
+      }).then(function (decoded) {
+        if (requested === src) buffer = decoded;
+        return decoded;
+      }, function (error) {
+        if (requested === src) fail(2);
+        throw error;
+      });
+      return loading;
+    }
+    function start() {
+      stopSource();
+      if (!buffer || self.paused) return;
+      var length = buffer.duration;
+      if (offset >= length) offset = 0;
+      source = context.createBufferSource(); source.buffer = buffer;
+      source.playbackRate.value = rate;
+      gain = gain || context.createGain(); applyGain();
+      source.connect(gain); gain.connect(context.destination);
+      var current = source;
+      current.onended = function () {
+        if (source !== current) return;
+        source = null; self.paused = true; self.ended = true; offset = 0;
+        if (typeof self.onended === 'function') { try { self.onended({ target: self }); } catch (_) {} }
+      };
+      startedAt = context.currentTime;
+      current.start(0, offset);
+    }
+    Object.defineProperty(self, 'src', {
+      get: function () { return src; },
+      set: function (value) { stopSource(); src = String(value || ''); buffer = null; loading = null; loadedUrl = null; offset = 0; self.paused = true; self.ended = false; }
+    });
+    Object.defineProperty(self, 'volume', { get: function () { return volume; }, set: function (value) { volume = Math.max(0, Math.min(1, Number(value) || 0)); applyGain(); } });
+    Object.defineProperty(self, 'playbackRate', {
+      get: function () { return rate; },
+      set: function (value) {
+        var next = Number(value) || 1;
+        if (!self.paused && source) { offset = position(); startedAt = context.currentTime; source.playbackRate.value = next; }
+        rate = next;
+      }
+    });
+    Object.defineProperty(self, 'currentTime', {
+      get: function () { return position(); },
+      set: function (value) { offset = Math.max(0, Number(value) || 0); if (!self.paused) start(); }
+    });
+    self.load = function () { load().catch(function () {}); };
+    self.play = function () {
+      self.paused = false; self.ended = false;
+      var resume = context.state === 'suspended' && context.resume ? Promise.resolve(context.resume()).catch(function () {}) : Promise.resolve();
+      return resume.then(load).then(function () { if (!self.paused) start(); });
+    };
+    self.pause = function () {
+      if (self.paused) return;
+      offset = position(); self.paused = true; stopSource();
+    };
+  }
+
   function makeSoundPlayer(doc, options) {
     options = options || {};
     var audioVersion=null;
@@ -256,6 +350,16 @@
     // its origin is already valid before the first game-state message arrives.
     // This lets the sound check at Cast startup fetch its MP3 without waiting
     // for the host's first state broadcast.
+    // Hosted (HTTPS) Cast receivers play through Web Audio; see WebAudioElement.
+    var sharedAudioContext = null;
+    function newAudio(url) {
+      var Context = root.AudioContext || root.webkitAudioContext;
+      if (root.location && root.location.protocol === 'https:' && Context && root.fetch) {
+        sharedAudioContext = sharedAudioContext || new Context();
+        return new WebAudioElement(sharedAudioContext, url);
+      }
+      return new root.Audio(url);
+    }
     var queued=[],audio, origin = root.location && root.location.protocol !== 'https:' ? root.location.origin : null, control = doc.getElementById('tv-audio-control'), enabled = !options.localAudio, attempt = 0, controlTimeout=null;
     var anitraMusicUrl='/tv/music/anitra-dance.mp3';
     var catMusicUrl='/tv/music/cat-theme.mp3';
@@ -281,7 +385,7 @@
     }
     function startMusicBed(token){
       if(token!==musicToken||!desiredMusic||desiredMusic.mode!=='GUESS_WHO')return;
-      var oldBed=musicBed,base=origin||(root.location&&root.location.origin)||'';musicBed=musicBed||new root.Audio(base+catMusicUrl);musicBed.preload='auto';musicBed.pause();musicBed.currentTime=0;musicBed.volume=0;
+      var oldBed=musicBed,base=origin||(root.location&&root.location.origin)||'';musicBed=musicBed||newAudio(base+catMusicUrl);musicBed.preload='auto';musicBed.pause();musicBed.currentTime=0;musicBed.volume=0;
       musicBed.onerror=function(){if(token===musicToken)report({name:'MediaError',code:musicBed.error&&musicBed.error.code},true);};
       playMusicMedia(musicBed,token);
       fadeMusic(musicBed,.18,800,token);fadeMusic(musicCue,0,800,token,function(){if(musicCue){musicCue.pause();musicCue.currentTime=0;}});
@@ -292,14 +396,14 @@
       activeMusicKey=request.key;musicPaused=false;
       var base=origin||(root.location&&root.location.origin)||'';
       if(request.mode==='IMAGE_GUESS_WHO'){
-        musicCue=musicCue||warmedAnitra||new root.Audio(base+anitraMusicUrl);warmedAnitra=null;musicCue.preload='auto';musicCue.pause();musicCue.currentTime=0;musicCue.playbackRate=1;musicCue.volume=0;
+        musicCue=musicCue||warmedAnitra||newAudio(base+anitraMusicUrl);warmedAnitra=null;musicCue.preload='auto';musicCue.pause();musicCue.currentTime=0;musicCue.playbackRate=1;musicCue.volume=0;
         musicCue.onerror=function(){if(token===musicToken)report({name:'MediaError',code:musicCue.error&&musicCue.error.code},true);};
         playMusicMedia(musicCue,token);fadeMusic(musicCue,.26,650,token);
         [oldCue,oldBed].forEach(function(player){if(player&&player!==musicCue)fadeMusic(player,0,650,token,function(){player.pause();player.currentTime=0;player.playbackRate=1;});});
         musicTimer=root.setTimeout(function(){if(token===musicToken)fadeMusic(musicCue,0,850,token,function(){musicCue.pause();musicCue.currentTime=0;});},Math.max(0,(Math.max(.85,Number(request.duration)||32)-.85)*1000));
         return;
       }
-      musicCue=musicCue||warmedAnitra||new root.Audio(base+anitraMusicUrl);warmedAnitra=null;musicCue.preload='auto';musicCue.pause();musicCue.currentTime=0;musicCue.playbackRate=1;musicCue.volume=0;
+      musicCue=musicCue||warmedAnitra||newAudio(base+anitraMusicUrl);warmedAnitra=null;musicCue.preload='auto';musicCue.pause();musicCue.currentTime=0;musicCue.playbackRate=1;musicCue.volume=0;
       musicCue.onerror=function(){if(token===musicToken)report({name:'MediaError',code:musicCue.error&&musicCue.error.code},true);};
       playMusicMedia(musicCue,token);fadeMusic(musicCue,.26,650,token);
       [oldCue,oldBed].forEach(function(player){if(player&&player!==musicCue){if(request.speedUp)player.playbackRate=1.8;fadeMusic(player,0,request.speedUp?1000:650,token,function(){player.pause();player.currentTime=0;player.playbackRate=1;});}});
@@ -322,8 +426,8 @@
     function primeMusicPlayers() {
       if(!root.Audio || desiredMusic) return;
       var base=origin||(root.location&&root.location.origin)||'';
-      if(!musicCue) { musicCue=warmedAnitra||new root.Audio(base+anitraMusicUrl); warmedAnitra=null; }
-      if(!musicBed) musicBed=new root.Audio(base+catMusicUrl);
+      if(!musicCue) { musicCue=warmedAnitra||newAudio(base+anitraMusicUrl); warmedAnitra=null; }
+      if(!musicBed) musicBed=newAudio(base+catMusicUrl);
       musicAssetOrigin=origin;
       [musicCue,musicBed].forEach(function(player){
         if(!player || !player.paused) return;
@@ -368,7 +472,7 @@
         } catch(_) {buzzerSource=null;}
       }
       var url = origin + '/tv/sounds/' + file + (audioVersion?'?v='+encodeURIComponent(audioVersion):'');
-      if (!audio) audio = new root.Audio(url); else audio.src = url;
+      if (!audio) audio = newAudio(url); else audio.src = url;
       audio.volume = /^game-end/.test(file) ? 0.38 : 0.70;
       audio.preload = 'auto';
       var thisAttempt = ++attempt;
@@ -418,7 +522,7 @@
           origin = nextOrigin;
           if (!options.localAudio && musicAssetOrigin !== origin) {
             musicAssetOrigin = origin;
-            warmedAnitra = root.Audio ? new root.Audio(origin + anitraMusicUrl) : null;
+            warmedAnitra = root.Audio ? newAudio(origin + anitraMusicUrl) : null;
             if (warmedAnitra) {
               warmedAnitra.preload = 'auto';
               warmedAnitra.load();

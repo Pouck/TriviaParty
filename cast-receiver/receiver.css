@@ -92,7 +92,7 @@ aside { grid-column: 2; grid-row: 2; min-height: 0; display: flex; flex-directio
 #scores .answering-team span { transform: scale(1.12); color: #fff4c2; font-weight: bold; }
 #timer { flex: 0 0 15vh; justify-content: center; flex-direction: column; gap: .5vh; color: #ffd700; font-size: 1.2vw; text-align: center; }
 #connection { flex: 0 0 3vh; grid-column: auto; min-height: 0; margin: 0; font-size: .8vw; text-align: center; }
-.hourglass { width: 5vw; height: 7vw; border: none; background: url('/tv/hourglass.svg') center/contain no-repeat; }
+.hourglass { width: 5vw; height: 7vw; border: none; background: url('hourglass.svg') center/contain no-repeat; }
 .hourglass:before, .hourglass:after { display: none; }
 .hourglass-vessel { inset: 12% 24%; background: transparent; }
 #answer-overlay { display: none; position: absolute; inset: 0 0 12vh; z-index: 3; background: #0b0b18; align-items: center; justify-content: center; flex-direction: column; pointer-events: none; }

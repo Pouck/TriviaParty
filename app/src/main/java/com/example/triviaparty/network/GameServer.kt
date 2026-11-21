@@ -248,14 +248,14 @@ class GameServer(
                     call.response.headers.append("Cache-Control", "public, max-age=31536000, immutable")
                     val bytes=readTvBinaryAsset?.invoke("music/cat-theme.mp3")
                     if(bytes==null) call.respondText("Not found",status=io.ktor.http.HttpStatusCode.NotFound)
-                    else call.respondBytes(bytes,ContentType("audio","mpeg"))
+                    else respondAudio(call,bytes,ContentType("audio","mpeg"))
                 }
 
                 get("/tv/music/anitra-dance.mp3") {
                     call.response.headers.append("Cache-Control", "public, max-age=31536000, immutable")
                     val bytes=readTvBinaryAsset?.invoke("music/anitra-dance.mp3")
                     if(bytes==null) call.respondText("Not found",status=io.ktor.http.HttpStatusCode.NotFound)
-                    else call.respondBytes(bytes,ContentType("audio","mpeg"))
+                    else respondAudio(call,bytes,ContentType("audio","mpeg"))
                 }
 
                 get("/tv/in-round-music-credits") {
@@ -281,7 +281,7 @@ class GameServer(
                         }
                     }
                     if(bytes==null) call.respondText("Not found",status=io.ktor.http.HttpStatusCode.NotFound)
-                    else call.respondBytes(bytes,ContentType("audio",if(servedName?.endsWith(".mp3")==true) "mpeg" else "wav"))
+                    else respondAudio(call,bytes,ContentType("audio",if(servedName?.endsWith(".mp3")==true) "mpeg" else "wav"))
                 }
 
                 get("/media/{packageId}/{assetPath...}") {
@@ -1716,4 +1716,32 @@ class GameServer(
         </body></html>
     """.trimIndent()
 
+}
+
+/**
+ * Serves TV audio to the Cast receiver, which is hosted on a different (HTTPS)
+ * origin: it needs CORS headers for fetch/decodeAudioData and byte-range support
+ * for streaming media elements.
+ */
+private suspend fun respondAudio(call: ApplicationCall, bytes: ByteArray, type: ContentType) {
+    call.response.headers.append("Access-Control-Allow-Origin", "*")
+    call.response.headers.append("Accept-Ranges", "bytes")
+    val range = Regex("""bytes=(\d*)-(\d*)""").matchEntire(call.request.headers["Range"].orEmpty().trim())
+    if (range == null || bytes.isEmpty()) { call.respondBytes(bytes, type); return }
+    val startText = range.groupValues[1]; val endText = range.groupValues[2]
+    val start: Int; val end: Int
+    if (startText.isEmpty()) { // suffix range: last N bytes
+        val n = endText.toIntOrNull() ?: 0
+        start = (bytes.size - n).coerceAtLeast(0); end = bytes.size - 1
+    } else {
+        start = startText.toIntOrNull() ?: 0
+        end = (endText.toIntOrNull() ?: (bytes.size - 1)).coerceAtMost(bytes.size - 1)
+    }
+    if (start > end || start >= bytes.size) {
+        call.response.headers.append("Content-Range", "bytes */${bytes.size}")
+        call.respondBytes(ByteArray(0), type, io.ktor.http.HttpStatusCode.RequestedRangeNotSatisfiable)
+        return
+    }
+    call.response.headers.append("Content-Range", "bytes $start-$end/${bytes.size}")
+    call.respondBytes(bytes.copyOfRange(start, end + 1), type, io.ktor.http.HttpStatusCode.PartialContent)
 }
