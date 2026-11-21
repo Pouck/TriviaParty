@@ -22,6 +22,9 @@ import androidx.compose.ui.platform.LocalContext
 import com.example.triviaparty.data.BankTaxonomyTag
 import com.example.triviaparty.data.HostReviewStore
 import com.example.triviaparty.data.QuestionBankRepository
+import com.example.triviaparty.data.GamePackageRepository
+import com.example.triviaparty.data.browseGroup
+import com.example.triviaparty.data.isTestPackage
 import com.example.triviaparty.model.CategoryGameRules
 import com.example.triviaparty.model.HourglassConfig
 import com.example.triviaparty.model.VoteSettings
@@ -100,7 +103,10 @@ fun GameSetupScreen(
                     Text("Aléatoire", fontWeight = FontWeight.Bold, color = if (selectionMode == "random") Color(0xFF19191F) else Color.White, softWrap = false)
                 }
                 Button(
-                    onClick = { selectionMode = "vote" },
+                    onClick = {
+                        selectionMode = "vote"
+                        if (selectedCategories.isEmpty()) selectedCategories.addAll(allCategories)
+                    },
                     colors = ButtonDefaults.buttonColors(containerColor = if (selectionMode == "vote") accent else Color(0xFF303040)),
                     modifier = Modifier.weight(1f).height(46.dp),
                     shape = RoundedCornerShape(10.dp)
@@ -127,19 +133,16 @@ fun GameSetupScreen(
                     ) {
                         Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                             Text("Tirage aléatoire de forfaits", fontWeight = FontWeight.Bold, color = Color.White)
-                            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                                Text("Nombre de catégories: $randomCount", color = Color.LightGray, softWrap = false)
-                                Spacer(Modifier.weight(1f))
-                                FilledTonalButton(
-                                    onClick = {
-                                        val picked = allCategories.shuffled(Random(System.currentTimeMillis())).take(randomCount)
-                                        selectedCategories.clear()
-                                        selectedCategories.addAll(picked)
-                                    },
-                                    modifier = Modifier.height(40.dp)
-                                ) {
-                                    Text("TIRER LES FORFAITS", softWrap = false)
-                                }
+                            CountStepper("Nombre de catégories", randomCount, 1, minOf(20, allCategories.size)) { randomCount = it }
+                            FilledTonalButton(
+                                onClick = {
+                                    val picked = allCategories.shuffled(Random(System.currentTimeMillis())).take(randomCount)
+                                    selectedCategories.clear()
+                                    selectedCategories.addAll(picked)
+                                },
+                                modifier = Modifier.fillMaxWidth().height(40.dp)
+                            ) {
+                                Text("TIRER LES FORFAITS", softWrap = false)
                             }
                         }
                     }
@@ -152,19 +155,21 @@ fun GameSetupScreen(
                     ) {
                         Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                             Text("Vote des joueurs par sujets", fontWeight = FontWeight.Bold, color = Color.White)
-                            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                                Text("Catégories à élire: $voteCategoriesCount", color = Color.LightGray, softWrap = false)
-                                Spacer(Modifier.weight(1f))
-                                FilledTonalButton(
-                                    onClick = {
-                                        val picked = allCategories.take(voteCategoriesCount)
-                                        selectedCategories.clear()
-                                        selectedCategories.addAll(picked)
-                                    },
-                                    modifier = Modifier.height(40.dp)
-                                ) {
-                                    Text("PRÉPARER LE VOTE", softWrap = false)
-                                }
+                            CountStepper("Catégories à élire", voteCategoriesCount, 1, 20) { voteCategoriesCount = it }
+                            Text(
+                                "Les joueurs votent parmi les sujets des catégories sélectionnées (${voteSubjectCount(selectedCategories)} sujets proposés).",
+                                color = Color.LightGray, fontSize = 12.sp
+                            )
+                            FilledTonalButton(
+                                onClick = {
+                                    // The vote elects subjects, so every category must be in the pool;
+                                    // taking only the first few (alphabetical) offered a single subject.
+                                    selectedCategories.clear()
+                                    selectedCategories.addAll(allCategories)
+                                },
+                                modifier = Modifier.fillMaxWidth().height(40.dp)
+                            ) {
+                                Text("PRÉPARER LE VOTE (TOUS LES SUJETS)", softWrap = false)
                             }
                         }
                     }
@@ -476,5 +481,22 @@ private fun TaxonomyNodeView(
                 }
             }
         }
+    }
+}
+
+/** Subjects players can vote on for the given categories (mirrors the host's vote candidates). */
+private fun voteSubjectCount(categories: List<String>): Int =
+    GamePackageRepository.packages
+        .filter { pack -> !pack.isTestPackage() && GamePackageRepository.categoryNamesFor(pack).any { it in categories } }
+        .map { it.browseGroup() }.distinct().size
+
+@Composable
+private fun CountStepper(label: String, value: Int, min: Int, max: Int, onChange: (Int) -> Unit) {
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        Text("$label : $value", color = Color.LightGray, modifier = Modifier.weight(1f))
+        FilledTonalButton(onClick = { onChange((value - 1).coerceAtLeast(min)) }, enabled = value > min,
+            contentPadding = PaddingValues(0.dp), modifier = Modifier.size(40.dp)) { Text("−", fontSize = 18.sp) }
+        FilledTonalButton(onClick = { onChange((value + 1).coerceAtMost(max)) }, enabled = value < max,
+            contentPadding = PaddingValues(0.dp), modifier = Modifier.size(40.dp)) { Text("+", fontSize = 18.sp) }
     }
 }
