@@ -922,7 +922,7 @@ class GameServer(
             activeQuestion is Question.MultipleChoice || activeQuestion is Question.SpeedRace || activeQuestion is Question.MapPin && activeQuestion.options.isNotEmpty() ->
                 configured.copy(secondsPerFlip=activeQuestion.basePoints.coerceAtLeast(1),maxFlips=0,pointsDecayPerFlip=null,pointsDecayPerSecond=1)
             else -> configured
-        }
+        }.withMinimumQuestionTime() // never shorter than the shortest soundtrack
         isTimerPaused = false
 
         _gameSession.value = currentSession.copy(

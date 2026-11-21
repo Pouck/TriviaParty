@@ -117,9 +117,10 @@ class WrittenAndReadyTest {
             assertEquals(GameState.QUESTION_ACTIVE,s.gameSession.value.state);assertNull(TvState.from(s.gameSession.value).submittedAnswer)
             GameServer::class.java.getDeclaredMethod("handleHostRevealAnswer").apply {isAccessible=true}.invoke(s)
             assertEquals(GameState.QUESTION_ACTIVE,s.gameSession.value.state)
-            repeat(5){tick(s)};lock(s,"b","Yes")
+            // The seeded 5 s flips are raised to the 15 s floor: flip 1 starts at t=15, the deadline is t=45.
+            repeat(13){tick(s)};lock(s,"b","Yes")
             assertEquals(GameState.QUESTION_ACTIVE,s.gameSession.value.state);assertNull(TvState.from(s.gameSession.value).submittedAnswer)
-            repeat(8){tick(s)};assertEquals(GameState.ANSWER_REVIEW,s.gameSession.value.state)
+            repeat(30){tick(s)};assertEquals(GameState.ANSWER_REVIEW,s.gameSession.value.state)
             repeat(10){tick(s)};judge(s,"a",true);judge(s,"b",true)
             assertEquals(listOf(15,10,0),s.gameSession.value.teams.map {it.score})
         }finally{s.stop()}

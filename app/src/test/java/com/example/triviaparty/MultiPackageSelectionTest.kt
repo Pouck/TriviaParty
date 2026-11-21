@@ -85,7 +85,8 @@ class MultiPackageSelectionTest {
                 assertEquals(expected.answerTimeSeconds, state.value.currentCategoryAnswerTimeSeconds)
                 start.invoke(server, question, category)
                 assertEquals(GameState.QUESTION_ACTIVE, state.value.state)
-                assertEquals(expected.timingConfig, state.value.timingConfig)
+                // A package may ask for a shorter timer, but no question runs below the soundtrack floor.
+                assertEquals(expected.timingConfig.withMinimumQuestionTime(), state.value.timingConfig)
                 assertEquals(expected.answerTimeSeconds, state.value.answerTimeSeconds)
                 assertEquals(0, state.value.elapsedSecondsInFlip)
             }
