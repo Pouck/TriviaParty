@@ -506,16 +506,17 @@ object QuestionBankRepository {
         packagesPerTopic: Int,
         questionsPerPackage: Int,
         random: Random = Random.Default,
-        difficultyForQuestionId: (String) -> Int? = { null }
+        difficultyForQuestionId: (String) -> Int? = { null },
+        playCountForQuestionId: (String) -> Int = { 0 }
     ): DynamicPackagePlan {
         val entries = canonicalBank?.questions?.associateBy { it.id }.orEmpty()
-        val plan = planDynamicPackages(categoryMetadata.values, topics, packagesPerTopic, questionsPerPackage, random) { id ->
+        val plan = planDynamicPackages(categoryMetadata.values, topics, packagesPerTopic, questionsPerPackage, random, playCountForQuestionId = playCountForQuestionId, difficultyForQuestionId = { id ->
             difficultyForQuestionId(id) ?: entries[id]?.let { entry ->
                 entry.review?.rating?.takeIf { it in 1..5 }
                     ?: entry.legacyIds.mapNotNull(difficultyForQuestionId).distinct().singleOrNull()
                     ?: entry.legacyReviews.mapNotNull { it.rating?.takeIf { rating -> rating in 1..5 } }.distinct().singleOrNull()
             }
-        }
+        })
         generatedMetadata = plan.packages.associateBy { it.category.lowercase() }
         generatedQuestions = plan.packages.flatMap { it.questions }
         return plan

@@ -749,7 +749,10 @@
       if(state.answerSecondsRemaining!=null)musicMode=null;
       var musicKey=musicMode==='GUESS_WHO' || musicMode==='IMAGE_GUESS_WHO' || musicMode
         ? state.roomId+'/'+(state.question&&state.question.id||state.round)+'/thinking' : null;
-      soundPlayer.setMusic(musicMode?{mode:musicMode,key:musicKey,paused:!!state.timerPaused,duration:state.secondsPerFlip||32,speedUp:!!state.speedUpMusicForClueTransition}:null);
+      // Text-clue "Qui suis-je ?" restarts its soundtrack at every clue: the intro and bed last about
+      // 14 s, so a key per question left clues 2+ silent. The deferral key above stays per question.
+      var soundtrackKey=musicKey&&musicMode==='GUESS_WHO'?musicKey+'/clue-'+(Number(state.flip)||0):musicKey;
+      soundPlayer.setMusic(musicMode?{mode:musicMode,key:soundtrackKey,paused:!!state.timerPaused,duration:state.secondsPerFlip||32,speedUp:!!state.speedUpMusicForClueTransition}:null);
       if(musicKey && pendingMusicKey===musicKey && pendingMusicTimer){pendingMusicState=state;return;}
       if(musicKey && musicKey!==revealedMusicKey){
         pendingMusicKey=musicKey;pendingMusicState=state;

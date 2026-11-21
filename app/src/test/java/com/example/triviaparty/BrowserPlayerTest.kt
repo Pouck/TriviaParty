@@ -26,7 +26,7 @@ class BrowserPlayerTest {
     @Test
     fun categoryWagersArePrivateBoundToPlayerAndOnlyAffectFirstQuestion() = runBlocking {
         val port = ServerSocket(0).use { it.localPort }
-        val server = GameServer(port)
+        val server = GameServer(port, rotateQuestions = false)
         val client = HttpClient(CIO) { install(WebSockets) }
         try {
             server.start()
@@ -83,7 +83,7 @@ class BrowserPlayerTest {
     @Test
     fun buzzAutomaticallyPausesQuestionTimerAndStartsPackageAnswerCountdown() = runBlocking {
         val port = ServerSocket(0).use { it.localPort }
-        val server = GameServer(port)
+        val server = GameServer(port, rotateQuestions = false)
         val client = HttpClient(CIO) { install(WebSockets) }
         try {
             server.start()
@@ -143,7 +143,7 @@ class BrowserPlayerTest {
     fun servesBundledBrowserAssets() = runBlocking {
         val port = ServerSocket(0).use { it.localPort }
         val assets = File("src/main/assets/player")
-        val server = GameServer(port, readPlayerAsset = { File(assets, it).readText() })
+        val server = GameServer(port, rotateQuestions = false, readPlayerAsset = { File(assets, it).readText() })
         try {
             server.start()
             for ((path, file) in listOf("/play?room=1234" to "index.html", "/play/player.css" to "player.css", "/play/player.js" to "player.js")) {
@@ -155,7 +155,7 @@ class BrowserPlayerTest {
     @Test
     fun browserProtocolSupportsBuzzLockoutAndReconnectionWithoutExposingSecrets() = runBlocking {
         val port = ServerSocket(0).use { it.localPort }
-        val server = GameServer(port)
+        val server = GameServer(port, rotateQuestions = false)
         val client = HttpClient(CIO) { install(WebSockets) }
         try {
             server.start()
@@ -217,7 +217,7 @@ class BrowserPlayerTest {
     @Test
     fun approvalBindsTheWaitingPlayerRatherThanTheHost() = runBlocking {
         val port = ServerSocket(0).use { it.localPort }
-        val server = GameServer(port)
+        val server = GameServer(port, rotateQuestions = false)
         val client = HttpClient(CIO) { install(WebSockets) }
         try {
             server.start()
@@ -248,7 +248,7 @@ class BrowserPlayerTest {
     @Test
     fun choiceQuestionsAcceptBuzzesAndHostJudgingFromBrowserAndAndroidPlayers() = runBlocking {
         val port = ServerSocket(0).use { it.localPort }
-        val server = GameServer(port)
+        val server = GameServer(port, rotateQuestions = false)
         val client = HttpClient(CIO) { install(WebSockets) }
         try {
             server.start()
@@ -293,7 +293,7 @@ class BrowserPlayerTest {
     @Test
     fun oneTapChoiceAnswersLockIndependentlyAndScoreWithoutHostApproval() = runBlocking {
         val port = ServerSocket(0).use { it.localPort }
-        val server = GameServer(port)
+        val server = GameServer(port, rotateQuestions = false)
         val client = HttpClient(CIO) { install(WebSockets) }
         try {
             server.start()

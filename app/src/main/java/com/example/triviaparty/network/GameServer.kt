@@ -64,11 +64,15 @@ class GameServer(
     private val importedPackagesDirectory: File? = null,
     private val readPlayerAsset: ((String) -> String)? = null,
     private val readTvBinaryAsset: ((String) -> ByteArray)? = null,
-    private val privateReactions: com.example.triviaparty.model.PrivateReactionBank? = null
+    private val privateReactions: com.example.triviaparty.model.PrivateReactionBank? = null,
+    /** Shuffle each category's questions per game and prefer least-played ones. Tests turn this off for a fixed order. */
+    private val rotateQuestions: Boolean = true
 ) {
 
     private val json = Json { ignoreUnknownKeys = true; encodeDefaults = true }
     private var serverEngine: ApplicationEngine? = null
+    private val playHistory = com.example.triviaparty.data.QuestionPlayHistory(
+        importedPackagesDirectory?.parentFile?.let { File(it, "question-history.json") })
 
     private val _gameSession = MutableStateFlow(GameSession(roomId = generateRoomId(), hostIpAddress = NetworkUtils.getLocalIpAddress()))
     val gameSession: StateFlow<GameSession> = _gameSession.asStateFlow()
@@ -618,6 +622,9 @@ class GameServer(
 
     private fun handleHostStartGame(event: GameEvent.HostStartGame) {
         questionsPerGeneratedPackage = event.questionsPerPackage.coerceIn(1, 20)
+        // A previous vote game leaves generated packages behind, which shrinks the category list
+        // (254 -> 5) until restart. Every game starts from the full bank.
+        QuestionBankRepository.resetGeneratedPackages()
         reactionPicker = AnswerReactionPicker(privateReactions?.clips?.takeIf { it.isNotEmpty() } ?: ReactionCatalogue.clips,event.allAudiencesOnly)
         votePackages=if(event.voteSettings==null) emptyList() else GamePackageRepository.packages.filter { pack ->
             !pack.isTestPackage() && GamePackageRepository.categoryNamesFor(pack).any { it in event.categories }
@@ -741,7 +748,7 @@ class GameServer(
         val reviewFile=importedPackagesDirectory?.parentFile?.let { File(it,"host-review.json") }
         val difficulties=reviewFile?.let { HostReviewStore(it).read().reviews.mapValues { entry -> entry.value.difficulty } }.orEmpty()
         val plan=QuestionBankRepository.generatePackages(vote.selected,vote.settings.setsPerCategory,questionsPerGeneratedPackage,
-            difficultyForQuestionId={ difficulties[it] })
+            difficultyForQuestionId={ difficulties[it] },playCountForQuestionId={ playHistory.count(it) })
         val categories=balancedCategoryOrder(plan.categories,::categoryProfileFor)
         val categoryRules=plan.packages.associate { generated ->
             val source=votePackages.firstOrNull { it.browseGroup()==generated.subject }
@@ -756,10 +763,13 @@ class GameServer(
         val categoryQuestions = QuestionBankRepository.getQuestionsForCategory(category)
         val alreadyPlayed = categoryQuestions.count { it.id in session.playedQuestionIds }
         val slotsRemaining = session.categoryQuestionLimit?.minus(alreadyPlayed)?.coerceAtLeast(0) ?: Int.MAX_VALUE
-        return categoryQuestions.asSequence()
-            .filterNot { it.id in session.playedQuestionIds }
+        // Fixed order meant every game replayed the same first questions of a category. Shuffle per
+        // game (stable within it) and prefer the questions played least in earlier games.
+        val unplayed = categoryQuestions.filterNot { it.id in session.playedQuestionIds }
+        if (!rotateQuestions) return unplayed.take(slotsRemaining)
+        val seed = session.roomId.hashCode().toLong() * 31 + category.hashCode()
+        return com.example.triviaparty.data.orderForPlay(unplayed, seed) { playHistory.count(it.id) }
             .take(slotsRemaining)
-            .toList()
     }
 
     @Synchronized private fun handleHostSkipCategory(event: GameEvent.HostSkipCategory) {
@@ -869,6 +879,7 @@ class GameServer(
         val currentSession = _gameSession.value
         val wagerApplies = currentSession.categoryWagerQuestionId == question.id && !currentSession.categoryWagerSettled
         val updatedPlayedIds = currentSession.playedQuestionIds + question.id
+        if (question.id !in currentSession.playedQuestionIds) playHistory.record(question.id)
         val newRoundNumber = updatedPlayedIds.size
 
         val categoryRules = currentSession.categoryRules[category]

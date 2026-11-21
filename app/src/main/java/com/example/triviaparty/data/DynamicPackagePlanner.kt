@@ -21,7 +21,9 @@ fun planDynamicPackages(
     packagesPerTopic: Int,
     questionsPerPackage: Int,
     random: Random = Random.Default,
-    difficultyForQuestionId: (String) -> Int? = { null }
+    difficultyForQuestionId: (String) -> Int? = { null },
+    /** Times a question was played in earlier games; less-played questions are preferred. */
+    playCountForQuestionId: (String) -> Int = { 0 }
 ): DynamicPackagePlan {
     if (topics.isEmpty() || packagesPerTopic <= 0 || questionsPerPackage <= 0) {
         return DynamicPackagePlan(emptyList(), questionsPerPackage.coerceAtLeast(1))
@@ -87,7 +89,7 @@ fun planDynamicPackages(
         val topicPools = pools[topic].orEmpty()
         val remaining = topicPools.mapValues { (_, candidates) -> candidates.filter {
             it.question.id !in usedQuestionIds && it.question.semanticKey() !in usedConcepts
-        }.shuffled(random).distinctBy { it.question.semanticKey() } }
+        }.shuffled(random).sortedBy { playCountForQuestionId(it.question.id) }.distinctBy { it.question.semanticKey() } }
         val options = remaining.filterValues { it.isNotEmpty() }.keys
         if (options.isEmpty()) return@forEach
         val fullPackages = options.filter { key -> remaining.getValue(key).distinctBy { it.question.id }.size >= questionsPerPackage }
@@ -107,7 +109,7 @@ fun planDynamicPackages(
         val selected = mutableListOf<Candidate>()
         var easyCount = 0
         var hardCount = 0
-        val ordered = unique.shuffled(random).toMutableList()
+        val ordered = unique.shuffled(random).sortedBy { playCountForQuestionId(it.question.id) }.toMutableList()
         while (selected.size < questionsPerPackage && ordered.isNotEmpty()) {
             val eligibleIndex = ordered.indexOfFirst { candidate ->
                 val rating = difficultyForQuestionId(candidate.question.id)

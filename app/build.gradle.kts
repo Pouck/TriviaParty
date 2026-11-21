@@ -27,6 +27,15 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    testOptions {
+        unitTests.all {
+            // QuestionBankRepository is a process-wide singleton that some tests reload while
+            // others assume its original contents. One JVM per test class keeps results
+            // independent of class order (adding a test class used to break unrelated tests).
+            it.forkEvery = 1
+        }
+    }
+
     buildTypes {
         release {
             optimization {

@@ -45,7 +45,12 @@ fun GameSetupScreen(
     var buzzerSoundsEnabled by remember { mutableStateOf(audioPreferences.getBoolean("buzzer-sounds-enabled", false)) }
     var teamMode by remember { mutableStateOf(audioPreferences.getBoolean("team-mode-enabled", false)) }
 
-    val allCategories = remember { QuestionBankRepository.sampleCategories }
+    // A finished vote game leaves generated packages behind that shrink the list to a handful of
+    // categories; start every setup from the full bank so the requested counts are achievable.
+    val allCategories = remember {
+        QuestionBankRepository.resetGeneratedPackages()
+        QuestionBankRepository.sampleCategories
+    }
     val canonicalSubjects = remember { QuestionBankRepository.canonicalSubjects }
     val canonicalSubjectNames = remember { canonicalSubjects.map { it.label }.distinct().sorted() }
 

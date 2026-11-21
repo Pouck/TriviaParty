@@ -711,3 +711,43 @@ test('the host-selected ending plays once and unrecognized filenames fall back s
   assert.deepEqual(played,['game-end-aida.mp3','game-end.wav','game-end-aida.mp3','game-end.wav'].map(file=>'http://host:8080/tv/sounds/'+file));
  } finally {global.Audio=old;}
 });
+
+test('text-clue "Qui suis-je ?" restarts its soundtrack at every clue, other questions keep one start', async () => {
+  const previous = {Audio: global.Audio, raf: global.requestAnimationFrame, location: global.location};
+  const played = [];
+  global.location = {origin: 'http://localhost:18080', protocol: 'http:'};
+  global.requestAnimationFrame = cb => setTimeout(cb, 0);
+  global.Audio = class {
+    constructor(src) { this.src = src; this.volume = 1; this.currentTime = 0; this.paused = true; }
+    pause() { this.paused = true; } load() {}
+    play() { this.paused = false; played.push(this.src); return Promise.resolve(); }
+  };
+  const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
+  const starts = () => played.filter(src => /anitra-dance/.test(src)).length;
+  try {
+    const render = currentReceiver.makeRenderer(documentStub());
+    const guess = state({joinUrl: 'http://host:8080/play', inRoundMusicMode: 'GUESS_WHO', flip: 0,
+      clueCount: 3, question: {id: 'who-1', prompt: 'Qui suis-je ?\n\n1. Premier indice', options: [], answer: null}});
+    render(state({joinUrl: 'http://host:8080/play', phase: 'CATEGORY_INTRO', question: null})); // establishes the room, as in real play
+    render(guess); await wait(600);
+    assert.equal(starts(), 1);
+    render({...guess, flip: 0}); await wait(50);
+    assert.equal(starts(), 1, 'a repeated snapshot of the same clue must not restart the music');
+    render({...guess, flip: 1}); await wait(50);
+    assert.equal(starts(), 2, 'clue 2 restarts the soundtrack');
+    render({...guess, flip: 2}); await wait(50);
+    assert.equal(starts(), 3, 'clue 3 restarts the soundtrack');
+
+    const thinking = state({joinUrl: 'http://host:8080/play', inRoundMusicMode: 'THINKING', flip: 0,
+      question: {id: 'mc-1', prompt: 'Mars?', options: ['A', 'B'], answer: null}});
+    render(thinking); await wait(600);
+    const afterStart = starts();
+    render({...thinking, flip: 1}); await wait(50);
+    assert.equal(starts(), afterStart, 'non-clue questions keep a single soundtrack start');
+    render(state({joinUrl: 'http://host:8080/play', phase: 'REVEAL_ANSWER', inRoundMusicMode: null,
+      question: {id: 'mc-1', prompt: 'Mars?', options: ['A', 'B'], answer: 'A', correctOptionIndex: 0}}));
+    await wait(1200); // let fades finish and timers clear before the stubs are restored
+  } finally {
+    global.Audio = previous.Audio; global.requestAnimationFrame = previous.raf; global.location = previous.location;
+  }
+});
