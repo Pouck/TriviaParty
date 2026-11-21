@@ -47,14 +47,7 @@ class MainActivity : FragmentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val packagesDirectory = File(filesDir, "game-packages")
-        com.example.triviaparty.data.OriginalPackageMigration.seed(packagesDirectory,
-            assets.list("original-packages").orEmpty().filter { it.endsWith(".zip") }.map { file ->
-                file.removeSuffix(".zip") to { assets.open("original-packages/$file") }
-            })
-        val importedPackages = GamePackageImportRepository.importedDirectories(packagesDirectory)
-        QuestionBankRepository.reloadImportedPackages(importedPackages)
-        GamePackageRepository.reloadImportedPackages(importedPackages)
-        // The bank is authoritative; old package manifests remain compatibility views.
+        // The canonical question bank is fully authoritative; legacy packages are removed.
         val bankMedia = File(packagesDirectory, "canonical-bank/images").apply { mkdirs() }
         assets.list("media").orEmpty().forEach { name ->
             val destination = File(bankMedia, name)

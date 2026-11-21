@@ -1,6 +1,7 @@
 package com.example.triviaparty.cast
 
 import android.content.Context
+import androidx.core.content.ContextCompat
 import com.example.triviaparty.R
 import com.example.triviaparty.model.GameSession
 import com.google.android.gms.cast.Cast
@@ -69,17 +70,24 @@ class GoogleCastController(context: Context, private val game: StateFlow<GameSes
     fun start() {
         if (started || !configured) return
         try {
-            val sdk = CastContext.getSharedInstance(appContext)
-            castContext = sdk
-            sdk.sessionManager.addSessionManagerListener(sessionListener, CastSession::class.java)
-            started = true
-            sdk.sessionManager.currentCastSession?.takeIf { it.isConnected }?.let(::attach)
-            scope.launch {
-                game.collect {
-                    latest = TvState.from(reviewPreview ?: it).encode()
-                    sendLatest()
+            CastContext.getSharedInstance(appContext, ContextCompat.getMainExecutor(appContext))
+                .addOnCompleteListener { task ->
+                    if (task.isSuccessful) {
+                        val sdk = task.result
+                        castContext = sdk
+                        sdk.sessionManager.addSessionManagerListener(sessionListener, CastSession::class.java)
+                        started = true
+                        sdk.sessionManager.currentCastSession?.takeIf { it.isConnected }?.let(::attach)
+                        scope.launch {
+                            game.collect {
+                                latest = TvState.from(reviewPreview ?: it).encode()
+                                sendLatest()
+                            }
+                        }
+                    } else {
+                        _status.value = CastStatus(error = "Google Cast could not start. Check Google Play services and retry.")
+                    }
                 }
-            }
         } catch (e: Exception) {
             _status.value = CastStatus(error = "Google Cast could not start. Check Google Play services and retry.")
         }
@@ -150,7 +158,23 @@ class GoogleCastController(context: Context, private val game: StateFlow<GameSes
         if (sending) return
         val payload = pending ?: return
         pending = null
-        if (payload.toByteArray(Charsets.UTF_8).size > Cast.MAX_MESSAGE_LENGTH) {
+        val payloadBytes = payload.toByteArray(Charsets.UTF_8)
+        val finalPayload = if (payloadBytes.size > Cast.MAX_MESSAGE_LENGTH) {
+            try {
+                val json = JSONObject(payload)
+                json.remove("categories")
+                json.optJSONObject("question")?.let { q ->
+                    q.remove("options")
+                    q.remove("mapOptions")
+                }
+                json.toString()
+            } catch (e: Exception) {
+                payload
+            }
+        } else {
+            payload
+        }
+        if (finalPayload.toByteArray(Charsets.UTF_8).size > Cast.MAX_MESSAGE_LENGTH) {
             _status.value = _status.value.copy(error = "This game is too large to send to the TV.")
             return
         }

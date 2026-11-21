@@ -1,460 +1,480 @@
 package com.example.triviaparty.ui.host
 
-import androidx.compose.foundation.BorderStroke
+import android.content.Context
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
-import androidx.activity.compose.rememberLauncherForActivityResult
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.runtime.*
+import androidx.compose.runtime.snapshots.SnapshotStateSet
+import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.semantics.contentDescription
-import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.platform.LocalContext
-import com.example.triviaparty.data.GamePackageImportRepository
-import com.example.triviaparty.data.GamePackageRepository
+import com.example.triviaparty.data.BankTaxonomyTag
+import com.example.triviaparty.data.HostReviewStore
 import com.example.triviaparty.data.QuestionBankRepository
 import com.example.triviaparty.model.CategoryGameRules
 import com.example.triviaparty.model.HourglassConfig
-import com.example.triviaparty.data.combineGamePackages
-import com.example.triviaparty.data.browseGroup
-import com.example.triviaparty.data.isTestPackage
-import com.example.triviaparty.data.searchablePackageText
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
+import com.example.triviaparty.model.VoteSettings
 import java.io.File
+import kotlin.random.Random
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun GameSetupScreen(
-    onStartGame: (selectedCategories: List<String>, totalRounds: Int, timingConfig: HourglassConfig, answerTimeSeconds: Int, categoryRules: Map<String, CategoryGameRules>, voteSettings: com.example.triviaparty.model.VoteSettings?, allAudiencesOnly: Boolean, questionsPerPackage: Int, answerSoundsEnabled: Boolean, teamMode: Boolean, buzzerSoundsEnabled: Boolean, limitQuestionsPerCategory: Boolean) -> Unit,
+    onStartGame: (selectedCategories: List<String>, totalRounds: Int, timingConfig: HourglassConfig, answerTimeSeconds: Int, categoryRules: Map<String, CategoryGameRules>, voteSettings: VoteSettings?, allAudiencesOnly: Boolean, questionsPerPackage: Int, answerSoundsEnabled: Boolean, teamMode: Boolean, buzzerSoundsEnabled: Boolean, limitQuestionsPerCategory: Boolean) -> Unit,
     onSoloReview: (List<String>) -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     val context = LocalContext.current
-    val scope = rememberCoroutineScope()
-    val audioPreferences=remember { context.getSharedPreferences("host-audio",android.content.Context.MODE_PRIVATE) }
-    var allAudiencesOnly by remember { mutableStateOf(audioPreferences.getBoolean("all-audiences",false)) }
-    var answerSoundsEnabled by remember { mutableStateOf(audioPreferences.getBoolean("answer-sounds-enabled",false)) }
-    var buzzerSoundsEnabled by remember { mutableStateOf(audioPreferences.getBoolean("buzzer-sounds-enabled",false)) }
-    var teamMode by remember { mutableStateOf(audioPreferences.getBoolean("team-mode-enabled",false)) }
-    val packagesDirectory = File(context.filesDir, "game-packages")
-    val importedIds = GamePackageImportRepository.importedDirectories(packagesDirectory).map { it.name }.toSet()
-    var packageToUpdate by remember { mutableStateOf<String?>(null) }
-    var packageToRemove by remember { mutableStateOf<com.example.triviaparty.model.GamePackage?>(null) }
-    val selectedIds = remember { mutableStateListOf<String>() }
+    val audioPreferences = remember { context.getSharedPreferences("host-audio", Context.MODE_PRIVATE) }
+    var allAudiencesOnly by remember { mutableStateOf(audioPreferences.getBoolean("all-audiences", false)) }
+    var answerSoundsEnabled by remember { mutableStateOf(audioPreferences.getBoolean("answer-sounds-enabled", false)) }
+    var buzzerSoundsEnabled by remember { mutableStateOf(audioPreferences.getBoolean("buzzer-sounds-enabled", false)) }
+    var teamMode by remember { mutableStateOf(audioPreferences.getBoolean("team-mode-enabled", false)) }
+
+    val allCategories = remember { QuestionBankRepository.sampleCategories }
+    val canonicalSubjects = remember { QuestionBankRepository.canonicalSubjects }
+    val canonicalSubjectNames = remember { canonicalSubjects.map { it.label }.distinct().sorted() }
+
+    // Selection modes: "random", "vote", "topics"
+    var selectionMode by remember { mutableStateOf("topics") }
+    var randomCount by remember { mutableIntStateOf(minOf(5, allCategories.size)) }
+    var voteCategoriesCount by remember { mutableIntStateOf(minOf(5, allCategories.size)) }
+
+    val selectedCategories = remember { mutableStateListOf<String>() }
     var search by remember { mutableStateOf("") }
-    val expandedGroups = remember { mutableStateListOf<String>() }
-    val reviewStore = remember { com.example.triviaparty.data.HostReviewStore(File(context.filesDir,"host-review.json")) }
-    var usage by remember { mutableStateOf(reviewStore.read().usage) }
-    var selectionMode by remember { mutableStateOf("Aléatoire") }
-    var randomCount by remember { mutableStateOf("6") }
-    var voteCount by remember { mutableStateOf("5") }
-    var setsPerSubject by remember { mutableStateOf("1") }
-    val selectedSubjects = remember { mutableStateListOf<String>() }
+    var questionsPerCategory by remember { mutableIntStateOf(6) }
     var showReviews by remember { mutableStateOf(false) }
-    val exportReviews = rememberLauncherForActivityResult(ActivityResultContracts.CreateDocument("application/json")) { uri ->
-        if(uri!=null) context.contentResolver.openOutputStream(uri)?.use { output ->
-            val source=File(context.filesDir,"host-review.json")
-            output.write(if(source.exists()) source.readBytes() else "{\"reviews\":{},\"usage\":{}}".toByteArray())
-        }
-    }
-    var resetStats by remember { mutableStateOf(false) }
-    var drawing by remember { mutableStateOf(false) }
-    var drawError by remember { mutableStateOf<String?>(null) }
-    var toolsOpen by remember { mutableStateOf(false) }
-    var editCounts by remember { mutableStateOf(false) }
-    var manualSubject by remember { mutableStateOf("Tous") }
-    var draftCount by remember { mutableStateOf("6") }
-    var draftSets by remember { mutableStateOf("1") }
-    var questionsPerPackage by remember { mutableIntStateOf(6) }
-    var draftQuestions by remember { mutableStateOf("6") }
-    var showSelection by remember { mutableStateOf(false) }
-    LaunchedEffect(Unit) { QuestionBankRepository.resetGeneratedPackages() }
+    val reviewStore = remember { HostReviewStore(File(context.filesDir, "host-review.json")) }
+
     val accent = Color(0xFFFFD54F)
     val panel = Color(0xFF232333)
-    val setupColors = darkColorScheme(primary=accent,onPrimary=Color(0xFF19191F),
-        surface=panel,onSurface=Color(0xFFF1F1F5),surfaceVariant=Color(0xFF303040),
-        onSurfaceVariant=Color(0xFFBEBECF),background=Color(0xFF12121D),
-        secondaryContainer=Color(0xFF46566C),onSecondaryContainer=Color.White)
-    val modeColors=FilterChipDefaults.filterChipColors(
-        containerColor=Color(0xFF355C9E),labelColor=Color.White,
-        selectedContainerColor=Color(0xFF9DC6FF),selectedLabelColor=Color(0xFF102847),
-        disabledContainerColor=Color(0xFF46556B),disabledLabelColor=Color(0xFFD3DAE6))
-    val subjectColors=FilterChipDefaults.filterChipColors(
-        containerColor=Color(0xFF704D91),labelColor=Color.White,
-        selectedContainerColor=Color(0xFFD6B4F5),selectedLabelColor=Color(0xFF341849),
-        disabledContainerColor=Color(0xFF64546F),disabledLabelColor=Color(0xFFE3D7EB))
-    if(showReviews) ReviewListDialog(reviewStore) { showReviews=false }
-    if(resetStats) AlertDialog(onDismissRequest={ resetStats=false },title={ Text("Réinitialiser l’utilisation ?") },
-        text={ Text("Les compteurs de parties et les dernières utilisations seront effacés. Les commentaires sont conservés.") },
-        confirmButton={ FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ reviewStore.resetUsage(); usage=emptyMap(); resetStats=false }) { Text("Réinitialiser") } },
-        dismissButton={ FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ resetStats=false }) { Text("Annuler") } })
-    fun eligiblePackages() = GamePackageRepository.packages.filter { pack ->
-        !pack.isTestPackage() && GamePackageRepository.categoryNamesFor(pack).any { QuestionBankRepository.getQuestionsForCategory(it).isNotEmpty() }
-    }
-    val voteSets=setsPerSubject.toIntOrNull()?.coerceIn(1,50) ?: 1
-    val votePool=if(selectionMode=="Vote") eligiblePackages().groupBy { it.browseGroup() }.filterValues { it.size>=voteSets }.values.flatten() else emptyList()
-    val voteSubjects=votePool.map { it.browseGroup() }.distinct().size
-    val voteNumber=(voteCount.toIntOrNull()?.coerceIn(1,50) ?: 5).coerceAtMost(voteSubjects)
-    fun drawPackages() {
-        if(drawing) return
-        val mode=selectionMode
-        val subjects=selectedSubjects.toSet()
-        val count=if(mode=="Sujets") subjects.size else randomCount.toIntOrNull()?.coerceIn(1,50) ?: 6
-        val sets=setsPerSubject.toIntOrNull()?.coerceIn(1,50) ?: 1
-        val stats=usage
-        drawing=true; drawError=null
-        scope.launch {
-        val result=runCatching { withContext(Dispatchers.Default) {
-        val packs = eligiblePackages().filter { mode != "Sujets" || it.browseGroup() in subjects }
-        val byId = packs.associateBy { it.id }
-        com.example.triviaparty.data.selectBalancedCategorySets(packs.map { it.id },count,sets,
-            stats, { id ->
-                val pack=byId.getValue(id)
-                val formats=GamePackageRepository.categoryNamesFor(pack).map { com.example.triviaparty.data.categoryProfileFor(it).format }.distinct()
-                com.example.triviaparty.data.CategoryProfile(formats.singleOrNull() ?: com.example.triviaparty.data.CategoryFormat.MIXED,pack.browseGroup())
-            })
-        } }
-        result.onSuccess { ids ->
-            if(selectionMode==mode && selectedSubjects.toSet()==subjects && (setsPerSubject.toIntOrNull()?.coerceIn(1,50) ?: 1)==sets) { selectedIds.clear(); selectedIds.addAll(ids);if(ids.isEmpty()) drawError="Aucun sujet ne contient $sets forfaits disponibles. Réduisez le nombre de forfaits par catégorie." }
-        }.onFailure { drawError=it.message ?: "Tirage impossible" }
-        drawing=false
-        }
-    }
-    val selectedPackages = selectedIds.mapNotNull { id -> GamePackageRepository.packages.firstOrNull { it.id == id } }
-    val capSelectedCategories = selectionMode !in listOf("Tests", "Révision")
-    val combined = combineGamePackages(selectedPackages, GamePackageRepository::categoryNamesFor) {
-        val count = QuestionBankRepository.getQuestionsForCategory(it).size
-        if (capSelectedCategories) minOf(count, questionsPerPackage) else count
-    }
-    fun togglePackage(id: String) {
-        if (id in selectedIds) selectedIds.remove(id) else selectedIds.add(id)
-    }
-    var importMessage by remember { mutableStateOf<String?>(null) }
-    var importSucceeded by remember { mutableStateOf(false) }
-    val importLauncher = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
-        val updateId = packageToUpdate
-        packageToUpdate = null
-        if (uri != null) {
-            scope.launch {
-                val result = runCatching {
-                    withContext(Dispatchers.IO) {
-                        val packagesDirectory = File(context.filesDir, "game-packages")
-                        val newPackage = GamePackageImportRepository.importZip(context.contentResolver, uri, packagesDirectory, updateId)
-                        try {
-                            val imported = GamePackageImportRepository.importedDirectories(packagesDirectory)
-                            QuestionBankRepository.reloadImportedPackages(imported)
-                            GamePackageRepository.reloadImportedPackages(imported)
-                        } catch (error: Exception) {
-                            GamePackageImportRepository.rollbackImport(newPackage)
-                            val restored = GamePackageImportRepository.importedDirectories(packagesDirectory)
-                            runCatching {
-                                QuestionBankRepository.reloadImportedPackages(restored)
-                                GamePackageRepository.reloadImportedPackages(restored)
-                            }
-                            throw error
-                        }
-                        GamePackageImportRepository.confirmImport(newPackage)
-                    }
-                }
-                importSucceeded = result.isSuccess
-                importMessage = result.fold(
-                    onSuccess = { if (updateId != null) "Forfait mis à jour." else "Forfait importé avec succès." },
-                    onFailure = { it.message ?: "Impossible d’importer ce fichier ZIP." }
-                )
-            }
-        }
+    val setupColors = darkColorScheme(
+        primary = accent, onPrimary = Color(0xFF19191F),
+        surface = panel, onSurface = Color(0xFFF1F1F5), surfaceVariant = Color(0xFF303040),
+        onSurfaceVariant = Color(0xFFBEBECF), background = Color(0xFF12121D),
+        secondaryContainer = Color(0xFF46566C), onSecondaryContainer = Color.White
+    )
+    val categoryColors = FilterChipDefaults.filterChipColors(
+        containerColor = Color(0xFF704D91), labelColor = Color.White,
+        selectedContainerColor = Color(0xFFD6B4F5), selectedLabelColor = Color(0xFF341849)
+    )
+
+    if (showReviews) {
+        ReviewListDialog(reviewStore) { showReviews = false }
     }
 
-    packageToRemove?.let { pack ->
-        AlertDialog(
-            onDismissRequest = { packageToRemove = null },
-            title = { Text("Supprimer ce forfait ?") },
-            text = { Text(pack.name) },
-            confirmButton = { FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick = {
-                packageToRemove = null
-                scope.launch {
-                    val result = runCatching {
-                        withContext(Dispatchers.IO) {
-                            GamePackageImportRepository.removePackage(packagesDirectory, pack.id)
-                            val imported = GamePackageImportRepository.importedDirectories(packagesDirectory)
-                            QuestionBankRepository.reloadImportedPackages(imported)
-                            GamePackageRepository.reloadImportedPackages(imported)
-                        }
-                    }
-                    if (result.isSuccess) selectedIds.remove(pack.id)
-                    importSucceeded = result.isSuccess
-                    importMessage = result.fold({ "Forfait supprimé." }, { it.message ?: "Suppression impossible." })
-                }
-            }) { Text("Supprimer") } },
-            dismissButton = { FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick = { packageToRemove = null }) { Text("Annuler") } }
-        )
+    val filteredCategories = allCategories.filter { it.contains(search, ignoreCase = true) }
+    val totalQuestions = selectedCategories.sumOf { cat ->
+        minOf(QuestionBankRepository.getQuestionsForCategory(cat).size, questionsPerCategory)
     }
 
-    MaterialTheme(colorScheme=setupColors) {
-    if(editCounts) AlertDialog(onDismissRequest={ editCounts=false },title={ Text("Format de la partie") },
-        text={ Column(verticalArrangement=Arrangement.spacedBy(12.dp)) {
-            if(selectionMode !in listOf("Sujets","Tout")) OutlinedTextField(value=draftCount,onValueChange={ draftCount=it.filter(Char::isDigit).take(2) },label={ Text("Nombre de catégories") },singleLine=true)
-            OutlinedTextField(value=draftSets,onValueChange={ draftSets=it.filter(Char::isDigit).take(2) },label={ Text("Forfaits par sujet") },singleLine=true)
-            OutlinedTextField(value=draftQuestions,onValueChange={ draftQuestions=it.filter(Char::isDigit).take(2) },label={ Text("Questions par forfait") },singleLine=true)
-        } },
-        confirmButton={ FilledTonalButton(shape=RoundedCornerShape(10.dp),enabled=(selectionMode in listOf("Sujets","Tout") || (draftCount.toIntOrNull() ?: 0) in 1..50) && (draftSets.toIntOrNull() ?: 0) in 1..50 && (draftQuestions.toIntOrNull() ?: 0) in 1..20,onClick={
-            if(selectionMode=="Vote") voteCount=draftCount else if(selectionMode=="Aléatoire") randomCount=draftCount
-            setsPerSubject=draftSets;questionsPerPackage=draftQuestions.toInt();selectedIds.clear();editCounts=false
-        }) { Text("Appliquer") } },dismissButton={ FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ editCounts=false }) { Text("Annuler") } })
-    Column(
-        modifier = modifier.fillMaxSize().background(Color(0xFF12121D)).padding(16.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp),
-        horizontalAlignment = Alignment.Start
-    ) {
-        Row(Modifier.fillMaxWidth(),verticalAlignment=Alignment.CenterVertically,horizontalArrangement=Arrangement.SpaceBetween) {
-            Text("Nouvelle partie", fontSize=26.sp,fontWeight=FontWeight.Bold,color=Color.White)
-            Box {
-                FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ toolsOpen=true }) { Text("Outils ⋮") }
-                DropdownMenu(expanded=toolsOpen,onDismissRequest={ toolsOpen=false }) {
-                    DropdownMenuItem(text={ Text("Importer un forfait") },onClick={
-                        toolsOpen=false; packageToUpdate=null
-                        importLauncher.launch(arrayOf("application/zip","application/x-zip-compressed","application/octet-stream"))
-                    })
-                    DropdownMenuItem(text={ Text("Gérer les forfaits") },onClick={ toolsOpen=false; selectionMode="Manuel" })
-                    DropdownMenuItem(text={ Text("Questions à revoir") },onClick={ toolsOpen=false; showReviews=true })
-                    DropdownMenuItem(text={ Text("Exporter notes et statistiques") },onClick={ toolsOpen=false; exportReviews.launch("trivia-commentaires.json") })
-                    DropdownMenuItem(text={ Text("Réinitialiser les statistiques") },onClick={ toolsOpen=false; resetStats=true })
-                }
+    MaterialTheme(colorScheme = setupColors) {
+        Column(
+            modifier = modifier.fillMaxSize().background(Color(0xFF12121D)).padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp),
+            horizontalAlignment = Alignment.Start
+        ) {
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween) {
+                Text("Configuration de la Partie", fontSize = 24.sp, fontWeight = FontWeight.Bold, color = Color.White, softWrap = false)
             }
-        }
-        FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp),verticalArrangement=Arrangement.spacedBy(0.dp)) {
-            listOf("Aléatoire" to "Tirage", "Sujets" to "Sujets", "Vote" to "Vote", "Tout" to "Tout", "Manuel" to "Manuel", "Révision" to "Révision", "Tests" to "Tests").forEach { (mode,label) ->
-                FilterChip(colors=modeColors,selected=selectionMode==mode,enabled=!drawing,onClick={
-                    showSelection=false;drawError=null
-                    if(selectionMode!=mode) {
-                        selectionMode=mode;selectedIds.clear()
-                        if(mode=="Tout") selectedIds.addAll(eligiblePackages().map { it.id })
-                        if(mode=="Tests") selectedIds.addAll(GamePackageRepository.packages.filter { pack ->
-                            pack.isTestPackage() && GamePackageRepository.categoryNamesFor(pack).any { QuestionBankRepository.getQuestionsForCategory(it).isNotEmpty() }
-                        }.map { it.id })
-                    }
-                },label={ Text(label,fontSize=15.sp,textAlign=TextAlign.Center,modifier=Modifier.widthIn(min=72.dp)) })
-            }
-        }
-        importMessage?.let { message ->
-            Text(message, color = if (importSucceeded) Color(0xFF8EE6A2) else Color(0xFFFF8A80))
-        }
 
-        Column(Modifier.weight(1f).fillMaxWidth().verticalScroll(rememberScrollState()),
-            verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            if(selectionMode=="Vote") {
-                Text("Les joueurs rejoignent le salon, puis votent sur leur téléphone. Les sujets sont affichés sur la TV.",color=MaterialTheme.colorScheme.onSurfaceVariant)
-                Text("$voteSubjects sujets disponibles pour $voteSets forfait${if(voteSets==1) "" else "s"} chacun. Les forfaits sont tirés après le vote, avec des formats variés.",color=MaterialTheme.colorScheme.onSurfaceVariant)
-            }
-            if(selectionMode=="Révision") Text("Choisissez les forfaits à revoir. Jouez seul, révélez la réponse, puis notez et commentez la question. Sans chrono.",color=MaterialTheme.colorScheme.onSurfaceVariant)
-            if(selectionMode in listOf("Aléatoire","Sujets","Vote","Tout")) Surface(color=panel,shape=RoundedCornerShape(12.dp),modifier=Modifier.fillMaxWidth()) {
-                Row(Modifier.padding(horizontal=14.dp,vertical=4.dp),verticalAlignment=Alignment.CenterVertically) {
-                    val count=when(selectionMode) {
-                        "Vote" -> voteCount
-                        "Sujets" -> selectedSubjects.size.toString()
-                        "Tout" -> eligiblePackages().map { it.browseGroup() }.distinct().size.toString()
-                        else -> randomCount
-                    }
-                    Text("$count × $voteSets",fontSize=23.sp,fontWeight=FontWeight.Bold,color=Color.White)
-                    Text("  sujets × forfaits · $questionsPerPackage questions chacun",modifier=Modifier.weight(1f),fontSize=13.sp,color=MaterialTheme.colorScheme.onSurfaceVariant)
-                    FilledTonalButton(shape=RoundedCornerShape(10.dp),enabled=!drawing,onClick={ draftCount=if(selectionMode=="Vote") voteCount else randomCount;draftSets=setsPerSubject;draftQuestions=questionsPerPackage.toString();editCounts=true }) { Text("Modifier") }
-                }
-            }
-            if(selectionMode=="Sujets") {
-                Text("Choisissez les sujets. Chaque forfait garde un format annoncé; les formats sont équilibrés sur l’ensemble de la partie.",color=MaterialTheme.colorScheme.onSurfaceVariant)
-                FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp),verticalArrangement=Arrangement.spacedBy(0.dp)) {
-                eligiblePackages().map { it.browseGroup() }.distinct().sorted().forEach { subject ->
-                    FilterChip(colors=subjectColors,selected=subject in selectedSubjects,enabled=!drawing,onClick={
-                        if(subject in selectedSubjects) selectedSubjects.remove(subject) else selectedSubjects.add(subject)
-                        selectedIds.clear()
-                    },label={ Text(subject,textAlign=TextAlign.Center,modifier=Modifier.widthIn(min=96.dp)) })
-                }
-                }
-            }
-            if(selectionMode=="Tests") Text("Tous les forfaits de test et démonstration sont sélectionnés.",color=MaterialTheme.colorScheme.onSurfaceVariant)
-            if(selectionMode=="Tout") Text("Toute la bibliothèque, sauf les tests et démonstrations.",color=MaterialTheme.colorScheme.onSurfaceVariant)
-            if(selectionMode=="Manuel") Row(verticalAlignment=Alignment.CenterVertically,horizontalArrangement=Arrangement.spacedBy(10.dp)) {
-                Text("Questions par catégorie",color=Color.White)
-                FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ draftCount=randomCount;draftSets=setsPerSubject;draftQuestions=questionsPerPackage.toString();editCounts=true }) { Text("$questionsPerPackage · Modifier") }
-            }
-            if(selectionMode in listOf("Aléatoire","Sujets")) Button(onClick={ drawPackages() },
-                colors=ButtonDefaults.buttonColors(containerColor=Color(0xFF75D7CB),contentColor=Color(0xFF102724)),
-                modifier=Modifier.fillMaxWidth(),shape=RoundedCornerShape(12.dp),
-                enabled=!drawing && (selectionMode!="Sujets" || selectedSubjects.isNotEmpty())) { Text(if(drawing) "Tirage en cours…" else if(selectedIds.isEmpty()) "Tirer les forfaits" else "Nouveau tirage") }
-            if(drawing) LinearProgressIndicator(Modifier.fillMaxWidth())
-            drawError?.let { Text(it,color=Color(0xFFFF8A80)) }
-            if(selectionMode in listOf("Aléatoire","Sujets")) Text("Sujets et formats équilibrés · priorité aux moins joués",color=MaterialTheme.colorScheme.onSurfaceVariant,fontSize=13.sp)
-            if(selectionMode !in listOf("Manuel","Révision","Vote") && selectedPackages.isNotEmpty()) {
-                FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ showSelection=!showSelection },modifier=Modifier.fillMaxWidth(),contentPadding=PaddingValues(horizontal=20.dp,vertical=12.dp)) {
-                    Text(if(showSelection) "Masquer la sélection ▴" else "Voir les ${selectedPackages.size} forfaits ▾")
-                }
-                if(showSelection) selectedPackages.forEach { pack ->
-                    Surface(color=Color(0xFF285660),shape=RoundedCornerShape(10.dp),modifier=Modifier.fillMaxWidth()) {
-                        Text(pack.name,modifier=Modifier.padding(12.dp),color=Color.White,fontSize=15.sp)
-                    }
-                }
-            }
-            if(selectionMode in listOf("Manuel","Révision")) {
-            OutlinedTextField(value=search,onValueChange={ search=it },singleLine=true,
-                label={ Text("Rechercher un forfait") },modifier=Modifier.fillMaxWidth())
-            FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp)) {
-                (listOf("Tous")+GamePackageRepository.packages.map { it.browseGroup() }.distinct().sorted()).forEach { subject ->
-                    FilterChip(colors=subjectColors,selected=manualSubject==subject,onClick={ manualSubject=subject },label={ Text(subject,textAlign=TextAlign.Center,modifier=Modifier.widthIn(min=96.dp)) })
-                }
-            }
-            GamePackageRepository.packages.filter {
-                (manualSubject=="Tous" || it.browseGroup()==manualSubject) && searchablePackageText(it.name).contains(searchablePackageText(search.trim()))
-            }.groupBy { it.browseGroup() }.toSortedMap().forEach { (group,packs) ->
-                val selectable=packs.filter { pack -> GamePackageRepository.categoryNamesFor(pack).any { QuestionBankRepository.getQuestionsForCategory(it).isNotEmpty() } }
-                val allSelected=selectable.isNotEmpty() && selectable.all { it.id in selectedIds }
-                Row(verticalAlignment=Alignment.CenterVertically,horizontalArrangement=Arrangement.spacedBy(8.dp),modifier=Modifier.fillMaxWidth()) {
-                    FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick={ if(group in expandedGroups) expandedGroups.remove(group) else expandedGroups.add(group) },modifier=Modifier.weight(1f),contentPadding=PaddingValues(horizontal=0.dp,vertical=2.dp)) {
-                        Text("${if(group in expandedGroups || search.isNotBlank() || manualSubject!="Tous") "▾" else "▸"} $group · ${packs.size}",color=Color.White,modifier=Modifier.fillMaxWidth(),textAlign=TextAlign.Center,fontWeight=FontWeight.Bold)
-                    }
-                    FilledTonalButton(shape=RoundedCornerShape(10.dp),modifier=Modifier.widthIn(min=130.dp),enabled=selectable.isNotEmpty(),onClick={
-                        if(allSelected) selectedIds.removeAll(selectable.map { it.id }.toSet())
-                        else selectable.forEach { if(it.id !in selectedIds) selectedIds.add(it.id) }
-                    }) { Text(if(allSelected) "Tout retirer" else "Tout sélectionner",fontSize=12.sp) }
-                }
-                if (group in expandedGroups || search.isNotBlank() || manualSubject!="Tous") packs.sortedBy { it.name }.forEach { gamePackage ->
-                val categories = GamePackageRepository.categoryNamesFor(gamePackage)
-                val count = categories.sumOf { QuestionBankRepository.getQuestionsForCategory(it).size }
-                Card(
-                    onClick = { togglePackage(gamePackage.id) },
-                    enabled = categories.isNotEmpty() && count > 0,
-                    border = if (gamePackage.id in selectedIds) BorderStroke(2.dp, Color(0xFFA3F4D9)) else null,
-                    modifier = Modifier.fillMaxWidth(),
-                    shape = RoundedCornerShape(8.dp),
-                    colors = CardDefaults.cardColors(containerColor = if(gamePackage.id in selectedIds) Color(0xFF367E77) else Color(0xFF285660))
+            // Selection Modes Row: Aléatoire, Vote, Sujets
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+                Button(
+                    onClick = { selectionMode = "random" },
+                    colors = ButtonDefaults.buttonColors(containerColor = if (selectionMode == "random") accent else Color(0xFF303040)),
+                    modifier = Modifier.weight(1f).height(46.dp),
+                    shape = RoundedCornerShape(10.dp)
                 ) {
-                    Column(
-                        modifier = Modifier.fillMaxWidth().padding(horizontal = 8.dp),
-                        verticalArrangement = Arrangement.spacedBy(0.dp)
-                    ) {
-                        Row(
-                            modifier = Modifier.fillMaxWidth(),
-                            horizontalArrangement = Arrangement.spacedBy(12.dp),
-                            verticalAlignment = Alignment.CenterVertically
-                        ) {
-                            Checkbox(
-                                checked = gamePackage.id in selectedIds,
-                                onCheckedChange = { togglePackage(gamePackage.id) },
-                                enabled = categories.isNotEmpty() && count > 0,
-                                colors = CheckboxDefaults.colors(checkedColor = accent, checkmarkColor = Color.Black)
-                            )
-                            Column(Modifier.weight(1f)) {
-                                Text(gamePackage.name, color = Color.White,
-                                    fontWeight = FontWeight.Bold, fontSize = 16.sp,
-                                    maxLines = 1, overflow = TextOverflow.Ellipsis)
-                                val clueQuestion = categories.any { category -> QuestionBankRepository.getQuestionsForCategory(category).any { it is com.example.triviaparty.model.Question.GuessWho } }
-                                val timing = if (clueQuestion) gamePackage.timingConfig.copy(secondsPerFlip=20) else gamePackage.timingConfig
-                                val usesBuzzer = categories.any {
-                                    QuestionBankRepository.getCategoryPackage(it)?.answerMode == com.example.triviaparty.model.CategoryAnswerMode.BUZZER
-                                }
-                                val summary = "$count questions · ${timing.secondsPerFlip * (timing.maxFlips + 1)} s" +
-                                    (if (usesBuzzer) " · Réponse : ${gamePackage.answerTimeSeconds} s" else "") +
-                                    " · ${usage[gamePackage.id]?.plays ?: 0} partie(s)"
-                                Text(summary,
-                                    color = Color.LightGray, fontSize = 12.sp, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                            }
-                            if (gamePackage.id in importedIds) {
-                                var menuOpen by remember(gamePackage.id) { mutableStateOf(false) }
-                                Box {
-                                    FilledTonalButton(shape=RoundedCornerShape(10.dp),onClick = { menuOpen = true }, contentPadding = PaddingValues(0.dp),
-                                        modifier = Modifier.width(48.dp).semantics { contentDescription = "Gérer ${gamePackage.name}" }) {
-                                        Text("⋮", color = Color.White, fontSize = 24.sp)
-                                    }
-                                    DropdownMenu(expanded = menuOpen, onDismissRequest = { menuOpen = false }) {
-                                        DropdownMenuItem(text = { Text("Mettre à jour") }, onClick = {
-                                            menuOpen = false
-                                            packageToUpdate = gamePackage.id
-                                            importLauncher.launch(arrayOf("application/zip", "application/x-zip-compressed", "application/octet-stream"))
-                                        })
-                                        DropdownMenuItem(text = { Text("Supprimer") }, onClick = {
-                                            menuOpen = false
-                                            packageToRemove = gamePackage
-                                        })
-                                    }
-                                }
-                            }
-                        }
-                    }
+                    Text("Aléatoire", fontWeight = FontWeight.Bold, color = if (selectionMode == "random") Color(0xFF19191F) else Color.White, softWrap = false)
                 }
+                Button(
+                    onClick = { selectionMode = "vote" },
+                    colors = ButtonDefaults.buttonColors(containerColor = if (selectionMode == "vote") accent else Color(0xFF303040)),
+                    modifier = Modifier.weight(1f).height(46.dp),
+                    shape = RoundedCornerShape(10.dp)
+                ) {
+                    Text("Vote", fontWeight = FontWeight.Bold, color = if (selectionMode == "vote") Color(0xFF19191F) else Color.White, softWrap = false)
+                }
+                Button(
+                    onClick = { selectionMode = "topics" },
+                    colors = ButtonDefaults.buttonColors(containerColor = if (selectionMode == "topics") accent else Color(0xFF303040)),
+                    modifier = Modifier.weight(1f).height(46.dp),
+                    shape = RoundedCornerShape(10.dp)
+                ) {
+                    Text("Sujets", fontWeight = FontWeight.Bold, color = if (selectionMode == "topics") Color(0xFF19191F) else Color.White, softWrap = false)
                 }
             }
-            }
-        }
-        if(selectionMode!="Révision") Row(verticalAlignment=Alignment.CenterVertically) {
-            Switch(checked=allAudiencesOnly,onCheckedChange={ allAudiencesOnly=it;audioPreferences.edit().putBoolean("all-audiences",it).apply() })
-            Text("Répliques tout public uniquement",color=Color.White,modifier=Modifier.padding(start=10.dp))
-        }
-        if(selectionMode!="Révision") Row(verticalAlignment=Alignment.CenterVertically) {
-            Switch(checked=answerSoundsEnabled,onCheckedChange={ answerSoundsEnabled=it;audioPreferences.edit().putBoolean("answer-sounds-enabled",it).apply() })
-            Text("R\u00e9pliques parl\u00e9es (carillons conserv\u00e9s)",color=Color.White,modifier=Modifier.padding(start=10.dp))
-        }
-        if(selectionMode!="Révision") Row(verticalAlignment=Alignment.CenterVertically) {
-            Switch(checked=buzzerSoundsEnabled,onCheckedChange={ buzzerSoundsEnabled=it;audioPreferences.edit().putBoolean("buzzer-sounds-enabled",it).apply() })
-            Text("Sons de buzzer sur le téléphone des joueurs",color=Color.White,modifier=Modifier.padding(start=10.dp))
-        }
-        if(selectionMode!="R\uFFFDvision") Row(verticalAlignment=Alignment.CenterVertically) {
-            Switch(checked=teamMode,onCheckedChange={ teamMode=it;audioPreferences.edit().putBoolean("team-mode-enabled",it).apply() })
-            Text("Mode \u00e9quipes : chaque joueur indique son nom et son \u00e9quipe",color=Color.White,modifier=Modifier.padding(start=10.dp))
-        }
-        if (combined.conflictingCategories.isNotEmpty()) {
-            Text("Catégories communes : règles du premier forfait sélectionné pour " +
-                combined.conflictingCategories.joinToString(" · "), color = Color(0xFFFFD700), fontSize = 12.sp)
-        }
-        Text(when(selectionMode) {
-            "Vote" -> "$voteNumber catégories · ${voteNumber*voteSets} forfaits après le vote · $questionsPerPackage questions par forfait"
-            "Aléatoire", "Sujets" -> "${selectedPackages.size} forfaits tirés · $questionsPerPackage questions par forfait"
-            "Tout" -> "${eligiblePackages().map { it.browseGroup() }.distinct().size * voteSets} forfaits tirés · $questionsPerPackage questions par forfait"
-            else -> "${selectedPackages.size} forfait${if(selectedPackages.size==1) "" else "s"} · ${combined.totalQuestions} questions${if(capSelectedCategories) " · $questionsPerPackage max. par catégorie" else ""}"
-        },
-            color = Color.LightGray, fontSize = 14.sp)
-        Button(
-            onClick = {
-                if(selectionMode=="Révision") onSoloReview(combined.categories)
-                else {
-                    val packs=if(selectionMode=="Vote") votePool else selectedPackages
-                    val setup=if(selectionMode=="Vote") combineGamePackages(packs,GamePackageRepository::categoryNamesFor) { QuestionBankRepository.getQuestionsForCategory(it).size } else combined
-                    val first=packs.first()
-                    if(selectionMode in listOf("Aléatoire","Sujets","Tout")) {
-                        val topics=packs.map { it.browseGroup() }
-                        val topicsForPlan=if(selectionMode=="Tout") topics.distinct() else topics
-                        val packagesPerTopic=if(selectionMode=="Tout") voteSets else 1
-                        val savedDifficulties=reviewStore.read().reviews.mapValues { it.value.difficulty }
-                        val plan=QuestionBankRepository.generatePackages(topicsForPlan,packagesPerTopic,questionsPerPackage,
-                            difficultyForQuestionId={ savedDifficulties[it] })
-                        val packageRules=plan.packages.associate { generated ->
-                            val sourcePack=packs.firstOrNull { it.browseGroup()==generated.subject } ?: first
-                            generated.category to CategoryGameRules(sourcePack.timingConfig,sourcePack.answerTimeSeconds)
-                        }
-                        onStartGame(plan.categories,plan.totalQuestions,first.timingConfig,first.answerTimeSeconds,packageRules,
-                            null,allAudiencesOnly,questionsPerPackage,answerSoundsEnabled,teamMode,buzzerSoundsEnabled,true)
-                    } else {
-                        onStartGame(setup.categories,setup.totalQuestions,first.timingConfig,first.answerTimeSeconds,setup.categoryRules,
-                            if(selectionMode=="Vote") com.example.triviaparty.model.VoteSettings(voteNumber,voteSets) else null,allAudiencesOnly,questionsPerPackage,answerSoundsEnabled,teamMode,buzzerSoundsEnabled,capSelectedCategories)
-                    }
-                }
-            },
-            enabled = !drawing && (if(selectionMode=="Vote") voteNumber>0 else selectedPackages.isNotEmpty() && combined.totalQuestions>0),
-            modifier = Modifier.fillMaxWidth().height(48.dp),shape=RoundedCornerShape(12.dp),
-            contentPadding = PaddingValues(horizontal=16.dp,vertical=8.dp)
-        ) { Text(when(selectionMode) { "Vote"->"Ouvrir le salon"; "Révision"->"Commencer la révision"; else->"Préparer la partie" }, fontWeight = FontWeight.Bold,fontSize=17.sp) }
 
+            // Mode-specific configuration view
+            when (selectionMode) {
+                "random" -> {
+                    Card(
+                        colors = CardDefaults.cardColors(containerColor = Color(0xFF1E1E2C)),
+                        shape = RoundedCornerShape(12.dp),
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Text("Tirage aléatoire de forfaits", fontWeight = FontWeight.Bold, color = Color.White)
+                            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                                Text("Nombre de catégories: $randomCount", color = Color.LightGray, softWrap = false)
+                                Spacer(Modifier.weight(1f))
+                                FilledTonalButton(
+                                    onClick = {
+                                        val picked = allCategories.shuffled(Random(System.currentTimeMillis())).take(randomCount)
+                                        selectedCategories.clear()
+                                        selectedCategories.addAll(picked)
+                                    },
+                                    modifier = Modifier.height(40.dp)
+                                ) {
+                                    Text("TIRER LES FORFAITS", softWrap = false)
+                                }
+                            }
+                        }
+                    }
+                }
+                "vote" -> {
+                    Card(
+                        colors = CardDefaults.cardColors(containerColor = Color(0xFF1E1E2C)),
+                        shape = RoundedCornerShape(12.dp),
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Text("Vote des joueurs par sujets", fontWeight = FontWeight.Bold, color = Color.White)
+                            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                                Text("Catégories à élire: $voteCategoriesCount", color = Color.LightGray, softWrap = false)
+                                Spacer(Modifier.weight(1f))
+                                FilledTonalButton(
+                                    onClick = {
+                                        val picked = allCategories.take(voteCategoriesCount)
+                                        selectedCategories.clear()
+                                        selectedCategories.addAll(picked)
+                                    },
+                                    modifier = Modifier.height(40.dp)
+                                ) {
+                                    Text("PRÉPARER LE VOTE", softWrap = false)
+                                }
+                            }
+                        }
+                    }
+                }
+                else -> {
+                    // Manual/Topics mode
+                    Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                        OutlinedTextField(
+                            value = search,
+                            onValueChange = { search = it },
+                            singleLine = true,
+                            label = { Text("Rechercher un sujet ou catégorie") },
+                            modifier = Modifier.fillMaxWidth()
+                        )
+
+                        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            FilledTonalButton(
+                                shape = RoundedCornerShape(10.dp),
+                                onClick = {
+                                    selectedCategories.clear()
+                                    selectedCategories.addAll(allCategories)
+                                },
+                                modifier = Modifier.weight(1f).height(40.dp)
+                            ) { Text("Tout sélectionner", softWrap = false) }
+                            FilledTonalButton(
+                                shape = RoundedCornerShape(10.dp),
+                                onClick = { selectedCategories.clear() },
+                                modifier = Modifier.weight(1f).height(40.dp)
+                            ) { Text("Tout désélectionner", softWrap = false) }
+                        }
+                    }
+                }
+            }
+
+            Column(
+                Modifier.weight(1f).fillMaxWidth().verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                val taxonomyTags = remember { QuestionBankRepository.subjectTaxonomy }
+
+                if (selectionMode == "topics" && taxonomyTags.isNotEmpty()) {
+                    Text("Exploration hiérarchique des sujets (Tier 1 & 3)", color = accent, fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                    
+                    val rootTags = remember(taxonomyTags) { taxonomyTags.filter { it.parentId == null } }
+                    val expandedTagIds = remember { mutableStateSetOf<String>() }
+
+                    rootTags.filter { tag ->
+                        tag.label.contains(search, ignoreCase = true) || taxonomyTags.any { it.parentId == tag.id && it.label.contains(search, ignoreCase = true) }
+                    }.forEach { rootTag ->
+                        TaxonomyNodeView(
+                            tag = rootTag,
+                            depth = 0,
+                            taxonomyTags = taxonomyTags,
+                            expandedTagIds = expandedTagIds,
+                            selectedCategories = selectedCategories,
+                            categoryColors = categoryColors,
+                            accent = accent
+                        )
+                    }
+                } else if (selectionMode == "topics" && canonicalSubjectNames.isNotEmpty()) {
+                    Text("Sujets canoniques", color = accent, fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                        canonicalSubjectNames.filter { it.contains(search, ignoreCase = true) }.forEach { subjectName ->
+                            val matchingCats = allCategories.filter { it.contains(subjectName, ignoreCase = true) }
+                            val isSelected = matchingCats.isNotEmpty() && matchingCats.all { it in selectedCategories }
+                            FilterChip(
+                                colors = categoryColors,
+                                selected = isSelected,
+                                onClick = {
+                                    if (isSelected) {
+                                        matchingCats.forEach { selectedCategories.remove(it) }
+                                    } else {
+                                        matchingCats.forEach { if (it !in selectedCategories) selectedCategories.add(it) }
+                                    }
+                                },
+                                label = {
+                                    Text("Sujet: $subjectName", textAlign = TextAlign.Center, softWrap = false)
+                                }
+                            )
+                        }
+                    }
+                }
+            }
+
+            var gameSettingsExpanded by remember { mutableStateOf(false) }
+
+            Row(
+                Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Text(
+                    "${selectedCategories.size} catégories sélectionnées · $totalQuestions questions au total",
+                    color = Color.LightGray, fontSize = 13.sp, softWrap = false
+                )
+                TextButton(
+                    onClick = { gameSettingsExpanded = !gameSettingsExpanded },
+                    colors = ButtonDefaults.textButtonColors(contentColor = accent)
+                ) {
+                    Text(if (gameSettingsExpanded) "Paramètres ▲" else "Paramètres ▼", fontWeight = FontWeight.Bold, fontSize = 13.sp, softWrap = false)
+                }
+            }
+
+            if (gameSettingsExpanded) {
+                Card(
+                    colors = CardDefaults.cardColors(containerColor = Color(0xFF262636)),
+                    shape = RoundedCornerShape(12.dp),
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                        Text("Paramètres de jeu", fontWeight = FontWeight.Bold, color = accent, fontSize = 14.sp)
+                        HorizontalDivider(color = Color(0xFF38384E), thickness = 0.8.dp)
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Switch(
+                                checked = allAudiencesOnly,
+                                onCheckedChange = { allAudiencesOnly = it; audioPreferences.edit().putBoolean("all-audiences", it).apply() }
+                            )
+                            Text("Répliques tout public uniquement", color = Color.White, modifier = Modifier.padding(start = 10.dp), softWrap = false, fontSize = 13.sp)
+                        }
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Switch(
+                                checked = answerSoundsEnabled,
+                                onCheckedChange = { answerSoundsEnabled = it; audioPreferences.edit().putBoolean("answer-sounds-enabled", it).apply() }
+                            )
+                            Text("Répliques parlées", color = Color.White, modifier = Modifier.padding(start = 10.dp), softWrap = false, fontSize = 13.sp)
+                        }
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Switch(
+                                checked = buzzerSoundsEnabled,
+                                onCheckedChange = { buzzerSoundsEnabled = it; audioPreferences.edit().putBoolean("buzzer-sounds-enabled", it).apply() }
+                            )
+                            Text("Sons de buzzer", color = Color.White, modifier = Modifier.padding(start = 10.dp), softWrap = false, fontSize = 13.sp)
+                        }
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Switch(
+                                checked = teamMode,
+                                onCheckedChange = { teamMode = it; audioPreferences.edit().putBoolean("team-mode-enabled", it).apply() }
+                            )
+                            Text("Mode équipes", color = Color.White, modifier = Modifier.padding(start = 10.dp), softWrap = false, fontSize = 13.sp)
+                        }
+                    }
+                }
+            }
+
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                Button(
+                    onClick = { gameSettingsExpanded = !gameSettingsExpanded },
+                    colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF38384E), contentColor = accent),
+                    modifier = Modifier.weight(0.9f).height(48.dp),
+                    shape = RoundedCornerShape(12.dp)
+                ) {
+                    Text("Paramètres", fontWeight = FontWeight.Bold, fontSize = 13.sp, softWrap = false)
+                }
+                Button(
+                    onClick = { onSoloReview(selectedCategories.toList()) },
+                    enabled = selectedCategories.isNotEmpty(),
+                    colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF46566C), contentColor = Color.White),
+                    modifier = Modifier.weight(1f).height(48.dp),
+                    shape = RoundedCornerShape(12.dp)
+                ) {
+                    Text("Révision", fontWeight = FontWeight.Bold, fontSize = 13.sp, softWrap = false)
+                }
+                Button(
+                    onClick = {
+                        val categoryRules = selectedCategories.associateWith {
+                            CategoryGameRules(HourglassConfig(), 20)
+                        }
+                        val voteSettings = if (selectionMode == "vote") VoteSettings(voteCategoriesCount, 1) else null
+                        onStartGame(
+                            selectedCategories.toList(),
+                            selectedCategories.size,
+                            HourglassConfig(),
+                            20,
+                            categoryRules,
+                            voteSettings,
+                            allAudiencesOnly,
+                            questionsPerCategory,
+                            answerSoundsEnabled,
+                            teamMode,
+                            buzzerSoundsEnabled,
+                            true
+                        )
+                    },
+                    enabled = selectedCategories.isNotEmpty() && totalQuestions > 0,
+                    colors = ButtonDefaults.buttonColors(containerColor = accent, contentColor = Color(0xFF19191F)),
+                    modifier = Modifier.weight(1.3f).height(48.dp),
+                    shape = RoundedCornerShape(12.dp)
+                ) {
+                    Text("Commencer", fontWeight = FontWeight.Bold, fontSize = 13.sp, softWrap = false)
+                }
+            }
+        }
     }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun TaxonomyNodeView(
+    tag: BankTaxonomyTag,
+    depth: Int,
+    taxonomyTags: List<BankTaxonomyTag>,
+    expandedTagIds: SnapshotStateSet<String>,
+    selectedCategories: SnapshotStateList<String>,
+    categoryColors: SelectableChipColors,
+    accent: Color
+) {
+    val childTags = remember(tag.id, taxonomyTags) { taxonomyTags.filter { it.parentId == tag.id } }
+    val isExpanded = tag.id in expandedTagIds
+
+    val subjectsForTag = remember(tag.id, isExpanded, childTags.isEmpty()) {
+        if (isExpanded && childTags.isEmpty()) {
+            QuestionBankRepository.subjectsForTaxonomyTagDirect(tag.id)
+        } else {
+            emptyList()
+        }
+    }
+
+    val hasChildTags = childTags.isNotEmpty()
+    val hasDirectSubjects = remember(tag.id) { QuestionBankRepository.subjectsForTaxonomyTagDirect(tag.id).isNotEmpty() }
+    val hasChildren = hasChildTags || hasDirectSubjects
+
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(start = (depth * 12).dp, top = 4.dp, bottom = 4.dp),
+        verticalArrangement = Arrangement.spacedBy(4.dp)
+    ) {
+        Surface(
+            color = if (depth == 0) Color(0xFF1E1E2C) else Color(0xFF262638),
+            shape = RoundedCornerShape(8.dp),
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Column(Modifier.padding(10.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Row(
+                    Modifier.fillMaxWidth(),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.weight(1f)) {
+                        Text(
+                            tag.label,
+                            fontWeight = if (depth == 0) FontWeight.Bold else FontWeight.SemiBold,
+                            color = if (depth == 0) accent else Color(0xFFF1F1F5),
+                            fontSize = if (depth == 0) 15.sp else 13.sp
+                        )
+                        if (hasChildren) {
+                            Badge(
+                                containerColor = Color(0xFF46566C),
+                                modifier = Modifier.defaultMinSize(minWidth = 24.dp)
+                            ) {
+                                val count = if (hasChildTags) childTags.size else QuestionBankRepository.subjectsForTaxonomyTagDirect(tag.id).size
+                                Text("$count", color = Color.White, fontSize = 10.sp, softWrap = false, textAlign = TextAlign.Center)
+                            }
+                        }
+                    }
+
+                    if (hasChildren) {
+                        TextButton(
+                            onClick = {
+                                if (isExpanded) expandedTagIds.remove(tag.id)
+                                else expandedTagIds.add(tag.id)
+                            },
+                            modifier = Modifier.height(32.dp)
+                        ) {
+                            Text(if (isExpanded) "Replier ▴" else "Explorer ▾", color = Color(0xFFD6B4F5), fontSize = 12.sp)
+                        }
+                    }
+                }
+
+                if (isExpanded) {
+                    HorizontalDivider(color = Color(0xFF38384E), thickness = 0.8.dp)
+
+                    if (hasChildTags) {
+                        Text("Sous-catégories :", color = Color.LightGray, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
+                        childTags.forEach { child ->
+                            TaxonomyNodeView(
+                                tag = child,
+                                depth = depth + 1,
+                                taxonomyTags = taxonomyTags,
+                                expandedTagIds = expandedTagIds,
+                                selectedCategories = selectedCategories,
+                                categoryColors = categoryColors,
+                                accent = accent
+                            )
+                        }
+                    } else if (subjectsForTag.isNotEmpty()) {
+                        Text("Sujets (Feuilles) :", color = accent, fontSize = 12.sp, fontWeight = FontWeight.SemiBold)
+                        FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                            subjectsForTag.forEach { subject ->
+                                val questions = remember(subject.id) { QuestionBankRepository.questionsForCanonicalSubject(subject.id) }
+                                val isSelected = questions.isNotEmpty() && questions.all { q -> selectedCategories.contains(q.category) }
+
+                                FilterChip(
+                                    colors = categoryColors,
+                                    selected = isSelected,
+                                    onClick = {
+                                        val cats = questions.map { q -> q.category }.distinct()
+                                        if (isSelected) {
+                                            cats.forEach { cat -> selectedCategories.remove(cat) }
+                                        } else {
+                                            cats.forEach { cat -> if (cat !in selectedCategories) selectedCategories.add(cat) }
+                                        }
+                                    },
+                                    label = { Text(subject.label, fontSize = 11.sp, softWrap = false) }
+                                )
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

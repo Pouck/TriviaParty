@@ -204,14 +204,23 @@ data class TvQuestion(
                 imageRevealStep = flipNumber,
                 imageRevealSteps = (question as? Question.GuessWho)?.let { if (it.imageRevealMode == com.example.triviaparty.model.ImageRevealMode.NONE) it.clues.size else it.imageRevealSteps } ?: 1,
                 correctOptionIndex = choices?.correctOptionIndex?.takeIf { reveal },
-                prompt = if (question is Question.Ordering) question.prompt.substringBefore('\n') + "\n" +
-                    question.items.joinToString("\n") { "• ${it.text}" }
-                    else if (reveal && !question.isChronologyQuestion()) question.revealPrompt() else question.activePrompt(flipNumber),
+                prompt = if (question is Question.Ordering) {
+                    question.prompt.substringBefore('\n') + "\n" +
+                        question.items.joinToString("\n") { "• ${it.text}" }
+                } else if (reveal && !question.isChronologyQuestion()) {
+                    question.revealPrompt()
+                } else {
+                    val rawPrompt = question.activePrompt(flipNumber)
+                    // Compact long descriptions or prompts if needed to stay well within limits
+                    if (rawPrompt.length > 1000) rawPrompt.take(1000) + "…" else rawPrompt
+                },
                 imageUrl = question.imageUrl ?: choices?.imageUrl,
-                options = question.spectatorOptions(),
+                options = question.spectatorOptions().let { opts ->
+                    if (opts.size > 20) opts.take(20) else opts
+                },
                 answer = answer,
                 mapTarget = (question as? Question.MapPin)?.target?.takeIf { reveal },
-                mapOptions = (question as? Question.MapPin)?.options?.map { TvMapOption(it.label, it.xRatio, it.yRatio) }.orEmpty()
+                mapOptions = (question as? Question.MapPin)?.options?.map { TvMapOption(it.label, it.xRatio, it.yRatio) }?.let { if (it.size > 50) it.take(50) else it }.orEmpty()
             )
         }
     }

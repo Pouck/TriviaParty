@@ -1,0 +1,434 @@
+[
+  {
+    "id": "chronology-item-1b534883012966a6",
+    "type": "painting",
+    "label": "Le Cri — version peinte de 1893",
+    "aliases": [
+      "Le Cri — version peinte de 1893"
+    ],
+    "tagIds": [
+      "arts",
+      "arts.painting"
+    ],
+    "relations": [
+      {
+        "type": "created_by",
+        "targetId": "person-a6115a3b2e7c6798",
+        "role": "painter"
+      }
+    ],
+    "facts": [
+      {
+        "kind": "name",
+        "value": "Edvard Munch",
+        "role": "painter",
+        "sourceUrl": "https://www.emunch.no/ENGART_emunch_jacobsen_2_eng.xhtml"
+      }
+    ],
+    "chronologyEvidence": [
+      {
+        "sourceQuestionId": "arts-chronologie-peintures-dans-le-temps-20261011-04",
+        "sourceSetId": "arts-chronologie-peintures-dans-le-temps-20261011",
+        "sourcePrompt": "Classez ces tableaux de la fin du XIXe siècle :",
+        "position": 2,
+        "itemId": "item-0"
+      }
+    ],
+    "sourceQuestionIds": [
+      "arts-chronologie-peintures-dans-le-temps-20261011-04"
+    ],
+    "identityStatus": "verified",
+    "sources": [
+      "https://www.emunch.no/ENGART_emunch_jacobsen_2_eng.xhtml"
+    ],
+    "candidateSubjectIds": [],
+    "chronologyFacts": [
+      {
+        "contextId": "artwork.creation",
+        "earliestYear": 1893,
+        "latestYear": 1893,
+        "precision": "year",
+        "sourceName": "eMunch.no research portal",
+        "sourceUrl": "https://www.emunch.no/ENGART_emunch_jacobsen_2_eng.xhtml"
+      }
+    ]
+  },
+  {
+    "id": "chronology-item-98b33d9cac131656",
+    "type": "painting",
+    "label": "Campbell’s Soup Cans",
+    "aliases": [
+      "Campbell’s Soup Cans"
+    ],
+    "tagIds": [
+      "arts",
+      "arts.painting"
+    ],
+    "relations": [
+      {
+        "type": "created_by",
+        "targetId": "person-ce03832e27cf16a8",
+        "role": "painter"
+      }
+    ],
+    "facts": [
+      {
+        "kind": "name",
+        "value": "Andy Warhol",
+        "role": "painter",
+        "sourceUrl": "https://www.moma.org/collection/works/79809"
+      }
+    ],
+    "chronologyEvidence": [
+      {
+        "sourceQuestionId": "arts-chronologie-peintures-dans-le-temps-20261011-06",
+        "sourceSetId": "arts-chronologie-peintures-dans-le-temps-20261011",
+        "sourcePrompt": "Classez ces œuvres selon leur réalisation.",
+        "position": 2,
+        "itemId": "item-1"
+      }
+    ],
+    "sourceQuestionIds": [
+      "arts-chronologie-peintures-dans-le-temps-20261011-06"
+    ],
+    "identityStatus": "verified",
+    "sources": [
+      "https://www.moma.org/collection/works/79809"
+    ],
+    "candidateSubjectIds": [],
+    "chronologyFacts": [
+      {
+        "contextId": "artwork.creation",
+        "earliestYear": 1962,
+        "latestYear": 1962,
+        "precision": "year",
+        "sourceName": "The Museum of Modern Art",
+        "sourceUrl": "https://www.moma.org/collection/works/79809"
+      }
+    ]
+  },
+  {
+    "id": "franchise-05b44f4aa0e1b1de",
+    "type": "franchise",
+    "label": "Manga",
+    "aliases": [
+      "Manga"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-0bf5df3bcd749218",
+    "type": "franchise",
+    "label": "Marsupilami",
+    "aliases": [
+      "Marsupilami"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-0f996bb722f469ec",
+    "type": "franchise",
+    "label": "Rahan",
+    "aliases": [
+      "Rahan"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-170eb8e2a275e70f",
+    "type": "franchise",
+    "label": "Lucky Luke",
+    "aliases": [
+      "Lucky Luke"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-1c54a5171ba1af4d",
+    "type": "franchise",
+    "label": "Conan the Barbarian",
+    "aliases": [
+      "Conan the Barbarian"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-279d5565f2780792",
+    "type": "franchise",
+    "label": "Lanfeust de Troy",
+    "aliases": [
+      "Lanfeust de Troy"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-34a533dfd7273a9b",
+    "type": "franchise",
+    "label": "Disney",
+    "aliases": [
+      "Disney"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-3567dd408c98adb2",
+    "type": "franchise",
+    "label": "Papyrus",
+    "aliases": [
+      "Papyrus"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-35ed65b1eb2e8708",
+    "type": "franchise",
+    "label": "Tintin",
+    "aliases": [
+      "Tintin"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-38868dc905f4d6d6",
+    "type": "franchise",
+    "label": "Marvel",
+    "aliases": [
+      "Marvel"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-40319375078330f6",
+    "type": "franchise",
+    "label": "Largo Winch",
+    "aliases": [
+      "Largo Winch"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-43aabfb173b158f3",
+    "type": "franchise",
+    "label": "Sylvain et Sylvette",
+    "aliases": [
+      "Sylvain et Sylvette"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-44927729604fdbcc",
+    "type": "franchise",
+    "label": "XIII",
+    "aliases": [
+      "XIII"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-457b1dc2f51611e0",
+    "type": "franchise",
+    "label": "Natacha",
+    "aliases": [
+      "Natacha"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-5697abca7a318e68",
+    "type": "franchise",
+    "label": "Nature",
+    "aliases": [
+      "Nature"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-57279287fba00757",
+    "type": "franchise",
+    "label": "Detective Conan",
+    "aliases": [
+      "Detective Conan"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-70d4fa7001194ea0",
+    "type": "franchise",
+    "label": "Thorgal",
+    "aliases": [
+      "Thorgal"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  },
+  {
+    "id": "franchise-777addbc9f618b13",
+    "type": "franchise",
+    "label": "Gaston",
+    "aliases": [
+      "Gaston"
+    ],
+    "tagIds": [
+      "culture"
+    ],
+    "relations": [],
+    "facts": [],
+    "chronologyEvidence": [],
+    "sourceQuestionIds": [],
+    "identityStatus": "verified",
+    "sources": [],
+    "candidateSubjectIds": []
+  }
+]

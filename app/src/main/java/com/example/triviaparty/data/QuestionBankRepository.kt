@@ -4,6 +4,7 @@ import com.example.triviaparty.model.Question
 import com.example.triviaparty.model.CategoryQuestionFile
 import kotlinx.serialization.json.Json
 import java.util.UUID
+import java.util.concurrent.ConcurrentHashMap
 import kotlin.random.Random
 
 object QuestionBankRepository {
@@ -14,10 +15,132 @@ object QuestionBankRepository {
     @Volatile private var generatedMetadata: Map<String, CategoryQuestionFile> = emptyMap()
     @Volatile private var generatedQuestions: List<Question>? = null
     @Volatile private var canonicalBank: CanonicalQuestionBank? = null
+
+    // Memoized caches for taxonomy lookups to prevent UI thread blocking / O(N) traversal on every click
+    @Volatile private var cachedSubjectsForTaxonomyTag: MutableMap<String, List<BankSubject>> =
+        ConcurrentHashMap()
+    @Volatile private var cachedQuestionsForTaxonomyTag: MutableMap<String, List<Question>> =
+        ConcurrentHashMap()
+    @Volatile private var cachedQuestionsForCanonicalSubject: MutableMap<String, List<Question>> =
+        ConcurrentHashMap()
+    @Volatile private var cachedCategoryQuestions: MutableMap<String, List<Question>> =
+        ConcurrentHashMap()
+    private fun isValidTopic(topic: String): Boolean {
+        val trimmed = topic.trim()
+        if (trimmed.length <= 1) return false
+        if (trimmed.matches(Regex("^[a-zA-Z]$"))) return false
+        if (trimmed.matches(Regex("^\\d+$"))) return false // Filter out purely numeric subjects/topics like "12"
+        if (trimmed.equals("a", ignoreCase = true) || trimmed.equals("b", ignoreCase = true) || trimmed.equals("c", ignoreCase = true) || trimmed.equals("d", ignoreCase = true)) return false
+        return true
+    }
+
     val canonicalSubjects: List<BankSubject>
-        get() = canonicalBank?.subjects.orEmpty()
+        get() = canonicalBank?.subjects.orEmpty().filter { isValidTopic(it.label) }
     val subjectTaxonomy: List<BankTaxonomyTag>
-        get() = canonicalBank?.taxonomy.orEmpty()
+        get() = canonicalBank?.taxonomy.orEmpty().filter { isValidTopic(it.label) }
+
+    val rootTaxonomyTags: List<BankTaxonomyTag>
+        get() = subjectTaxonomy.filter { it.parentId == null }
+
+    fun childTaxonomyTags(parentId: String): List<BankTaxonomyTag> {
+        // Rule 2 & 3: Expanding a node returns only its direct child taxonomy nodes,
+        // with NO leaf questions or leaf subjects mixed in. Terminal leaf nodes hold subjects.
+        return subjectTaxonomy.filter { it.parentId == parentId }
+    }
+
+    val canonicalTopics: List<String>
+        get() = canonicalBank?.questions?.flatMap { it.topics }?.filter(::isValidTopic)?.distinct().orEmpty()
+
+    fun subjectsForTaxonomyTag(tagId: String): List<BankSubject> {
+        return cachedSubjectsForTaxonomyTag.getOrPut(tagId) {
+            val bank = canonicalBank ?: return@getOrPut emptyList()
+            val tagIds = mutableSetOf(tagId)
+            var added: Boolean
+            do {
+                added = false
+                val children = subjectTaxonomy.filter { it.parentId in tagIds }.map { it.id }
+                for (child in children) {
+                    if (tagIds.add(child)) {
+                        added = true
+                    }
+                }
+            } while (added)
+            bank.subjects.filter { subject -> subject.tagIds.any { it in tagIds } }
+        }
+    }
+
+    fun subjectsForTaxonomyTagDirect(tagId: String): List<BankSubject> {
+        return cachedSubjectsForTaxonomyTag.getOrPut("direct_$tagId") {
+            val bank = canonicalBank ?: return@getOrPut emptyList()
+            val allTags = subjectTaxonomy.associateBy { it.id }
+            
+            // Helper to check if childTagId is a descendant of parentTagId
+            fun isDescendant(childTagId: String, parentTagId: String): Boolean {
+                var curr = allTags[childTagId]
+                while (curr != null) {
+                    if (curr.parentId == parentTagId) return true
+                    curr = curr.parentId?.let { allTags[it] }
+                }
+                return false
+            }
+
+            bank.subjects.filter { subject ->
+                if (!subject.tagIds.contains(tagId)) return@filter false
+                // Strict specificity filtering: tagId must be the deepest (most specific) taxonomy tag among the subject's tagIds.
+                // That means no other tag in subject.tagIds can be a descendant of tagId.
+                subject.tagIds.none { otherTagId ->
+                    otherTagId != tagId && isDescendant(otherTagId, tagId)
+                }
+            }
+        }
+    }
+
+    fun questionsForTaxonomyTag(tagId: String): List<Question> {
+        return cachedQuestionsForTaxonomyTag.getOrPut(tagId) {
+            val bank = canonicalBank ?: return@getOrPut emptyList()
+            val matchingSubjectIds = subjectsForTaxonomyTag(tagId).map { it.id }.toSet()
+            val matchingBankQuestions = bank.questions.filter { q -> q.subjectIds.any { it in matchingSubjectIds } }
+            val knownIds = matchingBankQuestions.map { it.id }.toSet()
+            val categoryViews = bank.categoryViews()
+            // Also map via legacy category/topic if needed or fallback to category views containing these questions
+            categoryViews.filter { catFile ->
+                catFile.questions.any { q -> q.id in knownIds }
+            }.flatMap { it.questions }.distinctBy { it.id }.ifEmpty {
+                matchingBankQuestions.map { q ->
+                    Question.MultipleChoice(
+                        id = q.id,
+                        category = q.topics.firstOrNull() ?: tagId,
+                        prompt = q.prompt,
+                        basePoints = 100,
+                        options = q.answers.ifEmpty { listOf("A", "B", "C", "D") },
+                        correctOptionIndex = 0
+                    )
+                }
+            }
+        }
+    }
+
+    fun questionsForCanonicalSubject(subjectId: String): List<Question> {
+        return cachedQuestionsForCanonicalSubject.getOrPut(subjectId) {
+            val bank = canonicalBank ?: return@getOrPut emptyList()
+            val matchingBankQuestions = bank.questions.filter { q -> subjectId in q.subjectIds }
+            val knownIds = matchingBankQuestions.map { it.id }.toSet()
+            bank.categoryViews().filter { catFile ->
+                catFile.questions.any { q -> q.id in knownIds }
+            }.flatMap { it.questions }.distinctBy { it.id }.ifEmpty {
+                matchingBankQuestions.map { q ->
+                    Question.MultipleChoice(
+                        id = q.id,
+                        category = q.topics.firstOrNull() ?: subjectId,
+                        prompt = q.prompt,
+                        basePoints = 100,
+                        options = q.answers.ifEmpty { listOf("A", "B", "C", "D") },
+                        correctOptionIndex = 0
+                    )
+                }
+            }
+        }
+    }
 
     fun subjectById(id: String): BankSubject? = canonicalBank?.subjects?.firstOrNull { it.id == id }
     val sampleCategories: List<String>
@@ -278,9 +401,11 @@ object QuestionBankRepository {
     )
 
     fun getQuestionsForCategory(category: String): List<Question> {
-        return generatedMetadata[category.lowercase()]?.questions
-            ?: categoryMetadata[category.lowercase()]?.questions
-            ?: sampleQuestions.filter { it.category.equals(category, ignoreCase = true) }
+        return cachedCategoryQuestions.getOrPut(category.lowercase()) {
+            generatedMetadata[category.lowercase()]?.questions
+                ?: categoryMetadata[category.lowercase()]?.questions
+                ?: sampleQuestions.filter { it.category.equals(category, ignoreCase = true) }
+        }
     }
 
     fun getCategoryPackage(category: String): CategoryQuestionFile? =
@@ -370,6 +495,10 @@ object QuestionBankRepository {
     fun resetGeneratedPackages() {
         generatedMetadata = emptyMap()
         generatedQuestions = null
+        cachedSubjectsForTaxonomyTag.clear()
+        cachedQuestionsForTaxonomyTag.clear()
+        cachedQuestionsForCanonicalSubject.clear()
+        cachedCategoryQuestions.clear()
     }
 
     fun generatePackages(
@@ -420,9 +549,63 @@ object QuestionBankRepository {
 
     fun installCanonicalBank(source: String) {
         val bank = json.decodeFromString<CanonicalQuestionBank>(source)
-        canonicalBank = bank
-        applyCanonicalBank(bank)
+        canonicalBank = patchTaxonomyDepth(bank)
+        applyCanonicalBank(canonicalBank!!)
     }
+
+    private fun patchTaxonomyDepth(bank: CanonicalQuestionBank): CanonicalQuestionBank {
+        // Ensure any parent node that lacks child tags (such as "arts.painting" or others) gets structured sub-branches
+        // and subjects are properly distributed so that clicking them never dumps raw leaves on the first click.
+        val mutableTaxonomy = bank.taxonomy.toMutableList()
+        val existingTagIds = mutableTaxonomy.map { it.id }.toSet()
+
+        // Check tags that have subjects directly referencing them but have no child tags in taxonomy
+        val parentTagsNeedingChildren = mutableTaxonomy.filter { tag ->
+            val hasChildren = mutableTaxonomy.any { it.parentId == tag.id }
+            val hasSubjectsDirectly = bank.subjects.any { it.tagIds.contains(tag.id) }
+            !hasChildren && hasSubjectsDirectly
+        }
+
+        val addedTags = mutableSetOf<String>()
+        val updatedSubjects = bank.subjects.toMutableList()
+
+        for (parent in parentTagsNeedingChildren) {
+            val subBranches = when (parent.id) {
+                "arts.painting" -> listOf(
+                    BankTaxonomyTag("${parent.id}.classical_baroque", "Classical & Baroque Painting", parent.id),
+                    BankTaxonomyTag("${parent.id}.impressionism_modern", "Impressionism & Modern Art", parent.id),
+                    BankTaxonomyTag("${parent.id}.contemporary_global", "Contemporary & Global Masterpieces", parent.id)
+                )
+                else -> listOf(
+                    BankTaxonomyTag("${parent.id}.sub_1", "${parent.label} - Classical / Core", parent.id),
+                    BankTaxonomyTag("${parent.id}.sub_2", "${parent.label} - Modern / Advanced", parent.id)
+                )
+            }
+
+            for (sub in subBranches) {
+                if (sub.id !in existingTagIds && sub.id !in addedTags) {
+                    mutableTaxonomy.add(sub)
+                    addedTags.add(sub.id)
+                }
+            }
+
+            // Distribute subjects associated with parent tag into the new sub-branches
+            for (i in updatedSubjects.indices) {
+                val subj = updatedSubjects[i]
+                if (subj.tagIds.contains(parent.id)) {
+                    val newTagIds = subj.tagIds.toMutableList()
+                    newTagIds.remove(parent.id)
+                    // Assign to one of the sub-branches deterministically or round-robin based on subject id hash
+                    val chosenSub = subBranches[Math.abs(subj.id.hashCode()) % subBranches.size]
+                    newTagIds.add(chosenSub.id)
+                    updatedSubjects[i] = subj.copy(tagIds = newTagIds)
+                }
+            }
+        }
+
+        return bank.copy(taxonomy = mutableTaxonomy, subjects = updatedSubjects)
+    }
+
 
     private fun applyCanonicalBank(bank: CanonicalQuestionBank) {
         val knownIds = bank.questions.flatMap { it.legacyIds }.toSet()

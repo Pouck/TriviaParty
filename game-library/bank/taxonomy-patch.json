@@ -1,0 +1,32 @@
+[
+  {
+    "id": "arts.painting.renaissance",
+    "label": "Renaissance",
+    "parentId": "arts.painting"
+  },
+  {
+    "id": "arts.painting.renaissance.early",
+    "label": "Early Renaissance (Quattrocento)",
+    "parentId": "arts.painting.renaissance"
+  },
+  {
+    "id": "arts.painting.renaissance.high",
+    "label": "High Renaissance",
+    "parentId": "arts.painting.renaissance"
+  },
+  {
+    "id": "history.ancient",
+    "label": "Ancient History",
+    "parentId": "history"
+  },
+  {
+    "id": "history.ancient.greece",
+    "label": "Ancient Greece",
+    "parentId": "history.ancient"
+  },
+  {
+    "id": "history.ancient.rome",
+    "label": "Ancient Rome",
+    "parentId": "history.ancient"
+  }
+]

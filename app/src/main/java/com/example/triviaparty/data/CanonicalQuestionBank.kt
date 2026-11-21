@@ -29,6 +29,10 @@ data class CanonicalQuestionBank(
             require(subjects.flatMap { it.relations }.all { it.targetId in subjectIds })
             require(subjects.flatMap { it.tagIds }.all(tagIds::contains))
             require(taxonomy.all { it.parentId == null || it.parentId in tagIds })
+            
+            // Ensure any parent taxonomy node that has subjects but no child tags is given structured sub-branches or subjects are distributed
+            // Specifically, for nodes like "arts.painting", ensure sub-branches exist if subjects point directly to it and it has no child tags.
+            // Or patch taxonomy/subjects during loading/init or repository initialization.
             if (schemaVersion >= 4) {
                 require(subjects.flatMap { it.chronologyFacts }.all { fact ->
                     fact.contextId.isNotBlank() && fact.earliestYear <= fact.latestYear &&
@@ -110,7 +114,9 @@ data class BankSubject(
     val sources: List<String> = emptyList(),
     val candidateSubjectIds: List<String> = emptyList(),
     val chronologyFacts: List<BankChronologyFact> = emptyList()
-)
+) {
+    fun factValue(kind: String): String? = facts.firstOrNull { it.kind == kind }?.value
+}
 
 @Serializable
 data class BankSubjectRelation(val type: String, val targetId: String, val role: String? = null)
