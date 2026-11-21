@@ -20,6 +20,9 @@
     try {
       var url = new URL(value);
       var currentLocation = pageLocation || root.location;
+      // The published receiver page is HTTPS, but Cast permits its media
+      // resources to come from HTTP. Keep the phone's LAN URL so the TV can
+      // fetch game media directly without a computer-side HTTPS relay.
       var sameOriginHttp = url.protocol === "http:" && (currentLocation && url.host === currentLocation.host || allowedOrigin && url.origin === allowedOrigin);
       return url.protocol === "https:" || sameOriginHttp ? url.href : null;
     }
@@ -67,6 +70,9 @@
   }
 
   function applyImageReveal(wrapper, image, question, answerRevealed, latestState) {
+    // An image request can finish after the next question has replaced its
+    // scene. Never start an animation for a detached, obsolete question.
+    if (!wrapper || !image || !document.documentElement.contains(wrapper)) return;
     var mode = question.imageRevealMode;
     // The host may publish the question and its image mode in adjacent state
     // updates. The music mode is already authoritative for image QSJ, so mask
@@ -101,7 +107,8 @@
     canvas._latestState = state;
     canvas._revealMode = mode;
     canvas._stateUpdatedAt = root.performance ? root.performance.now() : Date.now();
-    canvas.width = Math.min(1440, image.naturalWidth || 1440);
+    // Match the sampler's output backing size. CSS expands this to the TV panel.
+    canvas.width = Math.min(1000, image.naturalWidth || 1000);
     canvas.height = Math.max(1, Math.round(canvas.width * image.naturalHeight / image.naturalWidth));
     image.hidden = true;
     wrapper.insertBefore(canvas, image);
@@ -148,31 +155,33 @@
       var progress = currentRevealDuration > 0 ? Math.min(1, elapsedInFlip / currentRevealDuration) : Math.min(1, (currentFlip + elapsedInFlip / duration) / steps);
       if (current.phase === "QUESTION_ACTIVE" || current.phase === "ANSWER_REVIEW") progress = Math.min(.999, progress);
       if (progress >= 1) progress = 0.999;
-      context.clearRect(0, 0, canvas.width, canvas.height);
+      if (mode !== "PIXELATE") context.clearRect(0, 0, canvas.width, canvas.height);
       if (mode === "PIXELATE") {
         var pixelLimit = Math.min(60, canvas.width), limitProgress = 0.65;
         // Fewer source samples make the opening mosaic blocks visibly larger.
-        var pixelStart = Math.min(10, pixelLimit);
+        var pixelStart = Math.min(4, pixelLimit);
         var pixelSpan = Math.max(1, canvas.width - pixelStart);
         var revealTail = Math.max(0, (progress - limitProgress) / (1 - limitProgress));
         var resolution = progress <= limitProgress
           ? ((pixelLimit - pixelStart) * progress / limitProgress) / pixelSpan
           : (pixelLimit - pixelStart + (canvas.width - pixelLimit) * (0.1 * revealTail + 0.9 * Math.pow(revealTail, 2.5))) / pixelSpan;
         var pixelWidth = Math.max(pixelStart, Math.min(canvas.width, Math.round(pixelStart + pixelSpan * resolution)));
-        // TV compositors can flash black when a large canvas is reallocated at
-        // display refresh rate. Resize the sample buffer in coarse increments.
-        pixelWidth = progress >= 1 ? canvas.width : Math.max(pixelStart, Math.floor(pixelWidth / 16) * 16);
-        // Reuse the tiny source buffer: allocating a canvas on every animation
-        // frame can exhaust older TV browser compositors and produce black tiles.
+        // Keep a fixed-size buffer and draw into a variable-width region. This
+        // matches the sampler's one-pixel progression without resizing a canvas
+        // every frame (which can flash black on TV compositors). Never render
+        // the full-resolution source until the answer is explicitly revealed.
+        pixelWidth = progress >= 1 ? canvas.width : Math.min(canvas.width - 1, Math.max(pixelStart, pixelWidth));
         var small = canvas._pixelBuffer || (canvas._pixelBuffer = document.createElement("canvas"));
-        if (small.width !== pixelWidth) small.width = pixelWidth;
+        if (small.width !== canvas.width) small.width = canvas.width;
         var smallHeight = Math.max(1, Math.round(pixelWidth * canvas.height / canvas.width));
-        if (small.height !== smallHeight) small.height = smallHeight;
+        if (small.height !== canvas.height) small.height = canvas.height;
         var smallContext = small.getContext("2d");
         if (!smallContext) return;
-        smallContext.imageSmoothingEnabled = true; smallContext.clearRect(0, 0, small.width, small.height);
-        smallContext.drawImage(image, 0, 0, small.width, small.height);
-        context.imageSmoothingEnabled = false; context.drawImage(small, 0, 0, canvas.width, canvas.height); context.imageSmoothingEnabled = true;
+        smallContext.imageSmoothingEnabled = true;
+        smallContext.drawImage(image, 0, 0, pixelWidth, smallHeight);
+        context.imageSmoothingEnabled = false;
+        context.drawImage(small, 0, 0, pixelWidth, smallHeight, 0, 0, canvas.width, canvas.height);
+        context.imageSmoothingEnabled = true;
       } else if (mode === "BLUR") {
         context.filter = "blur(" + (Math.pow(1 - progress, 2.2) * 88 * canvas.width / 720) + "px)";
         context.drawImage(image, 0, 0, canvas.width, canvas.height); context.filter = "none";
@@ -243,12 +252,15 @@
         }
       };
     }
-    var queued=[],audio, origin = options.localAudio && root.location ? root.location.origin : null, control = doc.getElementById('tv-audio-control'), enabled = !options.localAudio, attempt = 0, controlTimeout=null;
+    // The Cast receiver itself is served by the phone's local web server, so
+    // its origin is already valid before the first game-state message arrives.
+    // This lets the sound check at Cast startup fetch its MP3 without waiting
+    // for the host's first state broadcast.
+    var queued=[],audio, origin = root.location && root.location.protocol !== 'https:' ? root.location.origin : null, control = doc.getElementById('tv-audio-control'), enabled = !options.localAudio, attempt = 0, controlTimeout=null;
     var anitraMusicUrl='/tv/music/anitra-dance.mp3';
     var catMusicUrl='/tv/music/cat-theme.mp3';
     var desiredMusic=null, activeMusicKey=null, musicCue=null, musicBed=null, musicToken=0, musicTimer=null, musicPaused=false;
-    var warmedAnitra=null;
-    if(root.Audio)try{warmedAnitra=new root.Audio(anitraMusicUrl);warmedAnitra.preload='auto';warmedAnitra.load();}catch(_){}
+    var warmedAnitra=null, musicAssetOrigin=null;
     function fadeMusic(player,target,milliseconds,token,done) {
       if(!player)return; var start=player.volume,begin=Date.now(),duration=Math.max(100,milliseconds);
       function step(){if(token!==musicToken)return;var t=Math.min(1,(Date.now()-begin)/duration);player.volume=Math.max(0,Math.min(1,start+(target-start)*t));
@@ -259,18 +271,18 @@
       try {
         var playback=player.play();
         if(playback&&playback.then)playback.then(function(){if(token!==musicToken)return;if(options.onAudioStatus)options.onAudioStatus('playing');if(controlTimeout){root.clearTimeout(controlTimeout);controlTimeout=null;}if(control)control.style.display='none';})
-          .catch(function(error){if(token===musicToken)report(error);});
-      } catch(error) { if(token===musicToken)report(error); }
+          .catch(function(error){if(token===musicToken)report(error,true);});
+      } catch(error) { if(token===musicToken)report(error,true); }
     }
     function pauseMusic(){if(musicTimer){root.clearTimeout(musicTimer);musicTimer=null;}musicPaused=true;[musicCue,musicBed].forEach(function(player){if(player)player.pause();});}
     function stopMusic(fadeMs){
       var token=++musicToken;if(musicTimer){root.clearTimeout(musicTimer);musicTimer=null;}activeMusicKey=null;musicPaused=false;
-      [musicCue,musicBed].forEach(function(player){if(!player)return;if(fadeMs)fadeMusic(player,0,fadeMs,token,function(){player.pause();player.currentTime=0;if(musicCue===player)musicCue=null;if(musicBed===player)musicBed=null;});else{player.pause();player.currentTime=0;player.volume=0;if(musicCue===player)musicCue=null;if(musicBed===player)musicBed=null;}});
+      [musicCue,musicBed].forEach(function(player){if(!player)return;if(fadeMs)fadeMusic(player,0,fadeMs,token,function(){player.pause();player.currentTime=0;player.playbackRate=1;});else{player.pause();player.currentTime=0;player.volume=0;player.playbackRate=1;}});
     }
     function startMusicBed(token){
       if(token!==musicToken||!desiredMusic||desiredMusic.mode!=='GUESS_WHO')return;
-      var oldBed=musicBed,base=origin||(root.location&&root.location.origin)||'';musicBed=new root.Audio(base+catMusicUrl);musicBed.preload='auto';musicBed.volume=0;
-      musicBed.onerror=function(){if(token===musicToken)report({name:'MediaError',code:musicBed.error&&musicBed.error.code});};
+      var oldBed=musicBed,base=origin||(root.location&&root.location.origin)||'';musicBed=musicBed||new root.Audio(base+catMusicUrl);musicBed.preload='auto';musicBed.pause();musicBed.currentTime=0;musicBed.volume=0;
+      musicBed.onerror=function(){if(token===musicToken)report({name:'MediaError',code:musicBed.error&&musicBed.error.code},true);};
       playMusicMedia(musicBed,token);
       fadeMusic(musicBed,.18,800,token);fadeMusic(musicCue,0,800,token,function(){if(musicCue){musicCue.pause();musicCue.currentTime=0;}});
       if(oldBed&&oldBed!==musicBed)fadeMusic(oldBed,0,400,token,function(){oldBed.pause();oldBed.currentTime=0;});
@@ -278,18 +290,19 @@
     function startMusic(request){
       var token=++musicToken,oldCue=musicCue,oldBed=musicBed;if(musicTimer){root.clearTimeout(musicTimer);musicTimer=null;}
       activeMusicKey=request.key;musicPaused=false;
+      var base=origin||(root.location&&root.location.origin)||'';
       if(request.mode==='IMAGE_GUESS_WHO'){
-        musicBed=null;musicCue=warmedAnitra||new root.Audio(anitraMusicUrl);warmedAnitra=null;musicCue.preload='auto';musicCue.currentTime=0;musicCue.volume=0;
-        musicCue.onerror=function(){if(token===musicToken)report({name:'MediaError',code:musicCue.error&&musicCue.error.code});};
+        musicCue=musicCue||warmedAnitra||new root.Audio(base+anitraMusicUrl);warmedAnitra=null;musicCue.preload='auto';musicCue.pause();musicCue.currentTime=0;musicCue.playbackRate=1;musicCue.volume=0;
+        musicCue.onerror=function(){if(token===musicToken)report({name:'MediaError',code:musicCue.error&&musicCue.error.code},true);};
         playMusicMedia(musicCue,token);fadeMusic(musicCue,.26,650,token);
         [oldCue,oldBed].forEach(function(player){if(player&&player!==musicCue)fadeMusic(player,0,650,token,function(){player.pause();player.currentTime=0;player.playbackRate=1;});});
         musicTimer=root.setTimeout(function(){if(token===musicToken)fadeMusic(musicCue,0,850,token,function(){musicCue.pause();musicCue.currentTime=0;});},Math.max(0,(Math.max(.85,Number(request.duration)||32)-.85)*1000));
         return;
       }
-      musicCue=warmedAnitra||new root.Audio(anitraMusicUrl);warmedAnitra=null;musicCue.preload='auto';musicCue.volume=0;
-      musicCue.onerror=function(){if(token===musicToken)report({name:'MediaError',code:musicCue.error&&musicCue.error.code});};
+      musicCue=musicCue||warmedAnitra||new root.Audio(base+anitraMusicUrl);warmedAnitra=null;musicCue.preload='auto';musicCue.pause();musicCue.currentTime=0;musicCue.playbackRate=1;musicCue.volume=0;
+      musicCue.onerror=function(){if(token===musicToken)report({name:'MediaError',code:musicCue.error&&musicCue.error.code},true);};
       playMusicMedia(musicCue,token);fadeMusic(musicCue,.26,650,token);
-      [oldCue,oldBed].forEach(function(player){if(player){if(request.speedUp)player.playbackRate=1.8;fadeMusic(player,0,request.speedUp?1000:650,token,function(){player.pause();player.currentTime=0;player.playbackRate=1;});}});
+      [oldCue,oldBed].forEach(function(player){if(player&&player!==musicCue){if(request.speedUp)player.playbackRate=1.8;fadeMusic(player,0,request.speedUp?1000:650,token,function(){player.pause();player.currentTime=0;player.playbackRate=1;});}});
       if(request.mode==='GUESS_WHO')musicTimer=root.setTimeout(function(){startMusicBed(token);},4125);
       else musicTimer=root.setTimeout(function(){if(token===musicToken)fadeMusic(musicCue,0,850,token,function(){musicCue.pause();musicCue.currentTime=0;});},Math.max(500,(request.duration-.5)*1000));
     }
@@ -304,19 +317,37 @@
         else if(request.mode==='IMAGE_GUESS_WHO'&&musicCue)musicTimer=root.setTimeout(function(){fadeMusic(musicCue,0,850,musicToken,function(){musicCue.pause();musicCue.currentTime=0;});},Math.max(0,(request.duration-musicCue.currentTime-.85)*1000));
         else if(request.mode!=='GUESS_WHO'&&musicCue)musicTimer=root.setTimeout(function(){fadeMusic(musicCue,0,850,musicToken,function(){musicCue.pause();musicCue.currentTime=0;});},Math.max(500,(request.duration-musicCue.currentTime-.5)*1000));}
     }
-    function stop() { queued=[];++attempt; if(buzzerSource){try{buzzerSource.stop();}catch(_){}buzzerSource=null;} if (audio) { audio.onended = null; if (audio.pause) audio.pause(); } stopMusic(350); }
-    function report(error) {
+    function stopAnswer() { queued=[];++attempt; if(buzzerSource){try{buzzerSource.stop();}catch(_){}buzzerSource=null;} if (audio) { audio.onended = null; if (audio.pause) audio.pause(); } }
+    function stop() { stopAnswer(); stopMusic(350); }
+    function primeMusicPlayers() {
+      if(!root.Audio || desiredMusic) return;
+      var base=origin||(root.location&&root.location.origin)||'';
+      if(!musicCue) { musicCue=warmedAnitra||new root.Audio(base+anitraMusicUrl); warmedAnitra=null; }
+      if(!musicBed) musicBed=new root.Audio(base+catMusicUrl);
+      musicAssetOrigin=origin;
+      [musicCue,musicBed].forEach(function(player){
+        if(!player || !player.paused) return;
+        player.preload='auto';player.volume=0;player.muted=true;player.currentTime=0;
+        try {
+          var priming=player.play();
+          if(priming&&priming.then) priming.then(function(){player.pause();player.currentTime=0;player.muted=false;player.volume=0;})
+            .catch(function(){player.muted=false;player.volume=0;});
+          else {player.pause();player.currentTime=0;player.muted=false;}
+        } catch(_) {player.muted=false;player.volume=0;}
+      });
+    }
+    function report(error, musicPlayback) {
       var blocked = error && error.name === "NotAllowedError";
       // A missing/temporarily unreachable file should not permanently disable
       // all later music and answer cues. Only an autoplay block needs an
       // explicit activation before playback can be retried.
-      if (blocked) enabled = false;
+      if (blocked && !musicPlayback) enabled = false;
       var mediaCode = error && Number(error.code);
       var status = blocked ? "blocked" :
         error && error.name === "NotSupportedError" || mediaCode === 4 ? "unsupported" :
         mediaCode === 2 ? "network-error" : mediaCode === 3 ? "decode-error" : "error";
       if (options.onAudioStatus) options.onAudioStatus(status);
-      queued=[];
+      if(!musicPlayback) queued=[];
       if (!control) return;
       control.style.display = 'block';
       control.textContent = error && error.name !== 'NotAllowedError' ? 'Son indisponible · Réessayer' : 'Activer le son';
@@ -326,7 +357,9 @@
     function play(file, remaining, continuing) {
       if (!root.Audio || !origin) { report({name:"AudioUnavailable"}); return; }
       if (!debugOwner) return;
-      if(!continuing) stop();
+      // Validation sounds have their own audio element. Do not tear down the
+      // thinking soundtrack whenever an answer is checked.
+      if(!continuing) stopAnswer();
       if(file==='buzzer.wav' && buzzerBuffer && buzzerContext && buzzerContext.state==='running') {
         try {
           buzzerSource=buzzerContext.createBufferSource();buzzerSource.buffer=buzzerBuffer;
@@ -359,15 +392,38 @@
       } catch (error) { report(error); }
     }
     if (control) {
-      control.onclick = function () { resumeBuzzer();debugOwner=true; if(channel) channel.postMessage({type:'claim',owner:ownerId}); play('enabled.wav'); };
+      control.onclick = function () {
+        resumeBuzzer();debugOwner=true;
+        if(channel) channel.postMessage({type:'claim',owner:ownerId});
+        // Start both the confirmation cue and the current soundtrack directly
+        // in the click gesture; deferring music until the cue's promise resolves
+        // loses the browser's autoplay allowance on some Cast receivers.
+        play(options.localAudio ? 'enabled.wav' : 'enabled.mp3');
+        enabled=true;
+        activeMusicKey=null;
+        syncMusic(desiredMusic);
+      };
       if (options.localAudio) { control.textContent = 'Activer le son'; control.style.display = 'block'; }
     }
     return {
-      test: function () { debugOwner=true; resumeBuzzer(); play("enabled.wav"); },
+      test: function () { debugOwner=true; resumeBuzzer(); primeMusicPlayers(); play("enabled.mp3"); },
       setVersion: function(version) { audioVersion=typeof version==='string'?version:null;warmBuzzer(); },
       setOrigin: function (joinUrl) {
         try {
-          origin = root.location ? root.location.origin : (joinUrl ? new URL(joinUrl).origin : null);
+          // Hosted on HTTPS (GitHub Pages), the page's own origin has no game audio:
+          // the sound files live on the host phone, whose address arrives in joinUrl.
+          var hosted = root.location && root.location.protocol === 'https:';
+          var nextOrigin = hosted ? (joinUrl ? new URL(joinUrl).origin : origin)
+            : root.location ? root.location.origin : (joinUrl ? new URL(joinUrl).origin : null);
+          origin = nextOrigin;
+          if (!options.localAudio && musicAssetOrigin !== origin) {
+            musicAssetOrigin = origin;
+            warmedAnitra = root.Audio ? new root.Audio(origin + anitraMusicUrl) : null;
+            if (warmedAnitra) {
+              warmedAnitra.preload = 'auto';
+              warmedAnitra.load();
+            }
+          }
         } catch (_) {}
       },
       play: play, setMusic: syncMusic, playSequence: function (files) {
@@ -555,7 +611,6 @@
       image.onerror = function () { wrapper.textContent = "Image unavailable"; };
       image.onload = function () { applyImageReveal(wrapper, image, question, reveal, state); };
       wrapper.appendChild(image);
-      if (image.complete && image.naturalWidth) applyImageReveal(wrapper, image, question, reveal, state);
       var t = reveal && question.mapTarget;
       if (t) {
         var circle = t.type && t.type.indexOf("CenterRadius") >= 0;
@@ -573,8 +628,13 @@
         }
       }
       parent.appendChild(wrapper);
+      if (image.complete && image.naturalWidth) applyImageReveal(wrapper, image, question, reveal, state);
     }
     function render(state) {
+      // A new room ends the previous room's audio session. Stop it before
+      // synchronizing the incoming state, or that cleanup would immediately
+      // stop the new room's soundtrack on the same render pass.
+      if (lastSoundRoom !== state.roomId) soundPlayer.stop();
       soundPlayer.setOrigin(state.joinUrl);
       var imageQuestion = state.question && (['PIXELATE','BLUR','SHUFFLE','UNCOVER'].indexOf(state.question.imageRevealMode) >= 0 || state.inRoundMusicMode === 'IMAGE_GUESS_WHO');
       var mainPanel = doc.querySelector ? doc.querySelector('main') : null;
@@ -599,7 +659,6 @@
       if (lastSoundRoom !== state.roomId || feedbackQuestion !== feedbackKey || lastPhase !== state.phase && ['QUESTION_ACTIVE','ANSWER_REVIEW','REVEAL_ANSWER','ROUND_SUMMARY'].indexOf(state.phase)<0) {
         if (feedbackTimeout) root.clearTimeout(feedbackTimeout);
         feedback.style.display = 'none';
-        if(lastSoundRoom !== state.roomId) soundPlayer.stop();
         feedbackQuestion = feedbackKey;
       }
       var sameSoundRoom = lastSoundRoom === state.roomId;
@@ -620,14 +679,14 @@
         feedback.setAttribute('aria-label', state.answerSound === 'good' ? 'Bonne réponse' : 'Mauvaise réponse');
         feedback.style.display = 'flex';
         feedbackTimeout = root.setTimeout(function () { feedback.style.display = 'none'; }, 2200);
-        try { if(state.answerSoundPlaybackEnabled!==false) {
-          var classicalClip=state.answerSound==='good'?'aria-correct.wav':'variation15-incorrect.wav';
-          if(state.answerSoundClip===classicalClip) soundPlayer.playSequence([classicalClip]);
-          else {
+        try {
+          var classicalClip=state.answerSound==='good'?'aria-correct.mp3':'variation15-incorrect.mp3';
+          if(state.answerSoundClip===classicalClip || state.answerSoundClip===classicalClip.replace(/\.mp3$/,'.wav')) soundPlayer.playSequence([classicalClip]);
+          else if(state.answerSoundPlaybackEnabled!==false) {
             var file = /^(good|bad)-\d{2,4}\.(wav|mp3)$/.test(state.answerSoundClip || '') && state.answerSoundClip.indexOf(state.answerSound + '-') === 0 ? state.answerSoundClip : state.answerSound + '.wav';
             soundPlayer.playSequence(state.answerSoundClip === null ? [state.answerSound + '-ping.wav'] : [state.answerSound + '-ping.wav',file]);
           }
-        }} catch (_) {}
+        } catch (_) {}
       }
       lastSoundId = state.answerSoundId || 0;
       var categoryInfo = categoryPresentation(state);

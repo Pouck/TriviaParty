@@ -256,7 +256,7 @@
     // its origin is already valid before the first game-state message arrives.
     // This lets the sound check at Cast startup fetch its MP3 without waiting
     // for the host's first state broadcast.
-    var queued=[],audio, origin = root.location ? root.location.origin : null, control = doc.getElementById('tv-audio-control'), enabled = !options.localAudio, attempt = 0, controlTimeout=null;
+    var queued=[],audio, origin = root.location && root.location.protocol !== 'https:' ? root.location.origin : null, control = doc.getElementById('tv-audio-control'), enabled = !options.localAudio, attempt = 0, controlTimeout=null;
     var anitraMusicUrl='/tv/music/anitra-dance.mp3';
     var catMusicUrl='/tv/music/cat-theme.mp3';
     var desiredMusic=null, activeMusicKey=null, musicCue=null, musicBed=null, musicToken=0, musicTimer=null, musicPaused=false;
@@ -410,7 +410,11 @@
       setVersion: function(version) { audioVersion=typeof version==='string'?version:null;warmBuzzer(); },
       setOrigin: function (joinUrl) {
         try {
-          var nextOrigin = root.location ? root.location.origin : (joinUrl ? new URL(joinUrl).origin : null);
+          // Hosted on HTTPS (GitHub Pages), the page's own origin has no game audio:
+          // the sound files live on the host phone, whose address arrives in joinUrl.
+          var hosted = root.location && root.location.protocol === 'https:';
+          var nextOrigin = hosted ? (joinUrl ? new URL(joinUrl).origin : origin)
+            : root.location ? root.location.origin : (joinUrl ? new URL(joinUrl).origin : null);
           origin = nextOrigin;
           if (!options.localAudio && musicAssetOrigin !== origin) {
             musicAssetOrigin = origin;
